@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "version": "0.2.1",
+  "installed_package": "/workspace/aerokinetic_021_release/clean_app/.venv/lib/python3.12/site-packages/aerokinetic/__init__.py",
+  "python_network_connections": "blocked",
+  "cli_analyze": "passed",
+  "tests_passed": 20,
+  "actual_user_history_mean_cl": 0.07142621014671682,
+  "input_bytes_unchanged": true,
+  "archive_crc_and_sha256": "passed",
+  "aerodynamic_validation": "inconclusive",
+  "harness_correction": "Initial exact-float equality to the historical incremental mean was inappropriate: batch mean differs by 1.39e-17. Checked with predeclared statistical absolute tolerance 1e-14; no runtime code changed."
+}

@@ -1,0 +1,21 @@
+{
+  "status": "completed",
+  "steps": 3200,
+  "t_star": 2.0,
+  "wall_clock_seconds": 412.67182026699993,
+  "samples": 160,
+  "averaging_samples": 80,
+  "average_after_t_star": 1.0,
+  "mean": {
+    "cl": 0.4530033857848513,
+    "cd": 0.057325345247249616,
+    "cm": -0.10238933854158785
+  },
+  "rms_fluctuation": {
+    "cl": 0.6598752064854977,
+    "cd": 0.052217968869232884,
+    "cm": 0.2962779113164664
+  },
+  "wall_fallback_links": 0,
+  "experimental_validation": "not_performed"
+}

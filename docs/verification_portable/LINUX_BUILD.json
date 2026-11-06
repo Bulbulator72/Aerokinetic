@@ -1,0 +1,24 @@
+{
+  "status": "build_checks_passed_target_offline_test_pending",
+  "platform": "linux",
+  "work": "/workspace/aerokinetic_portable_dev/linux_build_v6",
+  "log": "/workspace/aerokinetic_portable_dev/linux_build_v6/BUILD.log",
+  "target": "Linux development proof ONLY",
+  "ready_to_copy": "/workspace/aerokinetic_portable_dev/linux_build_v6/dist/AeroKinetic",
+  "executable": "/workspace/aerokinetic_portable_dev/linux_build_v6/dist/AeroKinetic/AeroKinetic",
+  "self_test": "/workspace/aerokinetic_portable_dev/linux_build_v6/checks/CHECK.json",
+  "bundle_files": 1888,
+  "bundle_bytes": 204104889,
+  "compiler_metadata": {
+    "platform": "linux",
+    "python_sdk": "python-sdk",
+    "compiler_command": "/usr/bin/g++",
+    "compiler_flags": "-Ofast -DNDEBUG -fPIC -march=native -fopenmp -std=c++11",
+    "usage": "Linux development proof, not an offline Windows distribution"
+  },
+  "runtime_wheel_sha256": "32f28a44ba5cebb34edc4e44761eff8aec51b4fa44bf28f4026853671b39e54e",
+  "relocated_frozen_self_test": "passed",
+  "gui": "passed",
+  "clean_target_offline_test": "not_run",
+  "elapsed_seconds": 229.04510870899958
+}

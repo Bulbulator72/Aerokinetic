@@ -1,0 +1,75 @@
+{
+  "slotted": {
+    "file": "/workspace/aerokinetic_mechanization_20261102/check_v2/slotted_run/frames/frame_000000800.npz",
+    "actual_t_star": 1.0,
+    "probes": [
+      {
+        "elements": [
+          "main",
+          "flap"
+        ],
+        "selected_fluid_centres_near_gap_segment": 4,
+        "gap_over_dx": 2.528405367567717,
+        "finite_speed_cp": true,
+        "speed_over_freestream_range": [
+          0.22564432910869978,
+          1.0736511974104919
+        ]
+      }
+    ],
+    "note": "Finite probe values do not establish resolved gap flow"
+  },
+  "double": {
+    "file": "/workspace/aerokinetic_mechanization_20261102/check_v2/double_run/frames/frame_000000032.npz",
+    "actual_t_star": 0.04,
+    "probes": [
+      {
+        "elements": [
+          "main",
+          "vane"
+        ],
+        "selected_fluid_centres_near_gap_segment": 3,
+        "gap_over_dx": 2.458583225157524,
+        "finite_speed_cp": true,
+        "speed_over_freestream_range": [
+          0.990651092951249,
+          1.452934151429302
+        ]
+      },
+      {
+        "elements": [
+          "vane",
+          "flap"
+        ],
+        "selected_fluid_centres_near_gap_segment": 4,
+        "gap_over_dx": 2.4488784310188616,
+        "finite_speed_cp": true,
+        "speed_over_freestream_range": [
+          0.3715740633847453,
+          2.063221911112405
+        ]
+      }
+    ],
+    "note": "Finite probe values do not establish resolved gap flow"
+  },
+  "fowler": {
+    "file": "/workspace/aerokinetic_mechanization_20261102/check_v2/fowler_run/frames/frame_000000032.npz",
+    "actual_t_star": 0.04,
+    "probes": [
+      {
+        "elements": [
+          "main",
+          "flap"
+        ],
+        "selected_fluid_centres_near_gap_segment": 4,
+        "gap_over_dx": 2.5284029247485424,
+        "finite_speed_cp": true,
+        "speed_over_freestream_range": [
+          0.9141352816721858,
+          1.861629943721715
+        ]
+      }
+    ],
+    "note": "Finite probe values do not establish resolved gap flow"
+  }
+}

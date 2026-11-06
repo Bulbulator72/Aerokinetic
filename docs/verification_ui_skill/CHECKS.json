@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-28",
+  "scope": "Create and connect project UI skill; no GUI migration implemented",
+  "status": "passed",
+  "front_matter": "passed",
+  "skill_markdown_files": 4,
+  "relative_links_checked": 31,
+  "relative_links": "passed",
+  "agents_activation": "passed",
+  "framework_freedom_and_authorization_recorded": "passed",
+  "future_source_packaging": "passed; generated privately in temporary directory, then removed",
+  "source_manifest_entries_checked": 196,
+  "transport_crlf_lf_crc_and_sha": "passed",
+  "unchanged_runtime_files_compared_with_released_wheel": 31,
+  "dependencies_and_launchers": "unchanged",
+  "published_update_040": {
+    "status": "unchanged",
+    "sha256": "da8d78b69945a4103a7a0157fadfece500600650ec3753cf115be595e9605ee7"
+  },
+  "gui_framework_migration": "not_run; this change adds instructions only",
+  "windows_gui_dpi_and_offline_install": "not_run; this change adds no GUI runtime",
+  "numerical_verification": "not_applicable; runtime unchanged",
+  "experimental_validation": "not_applicable; no new aerodynamic claim",
+  "source_sha256": {
+    ".agents/skills/aerokinetic-ui/SKILL.md": "3cd66c061451541656c0a253239136035d0ba2fbfb27caec19dc520a8eb2ed64",
+    ".agents/skills/aerokinetic-ui/references/architecture.md": "018a9ed28c6a80fd4c496f7f24f8416f8b70afcb709eba1e3ad5d73e50b66895",
+    ".agents/skills/aerokinetic-ui/references/verification.md": "f5903334fd0dfdf902cb31f01a84e05fe5972eb6989eb1e3552fb0d01ebc6019",
+    ".agents/skills/aerokinetic-ui/references/visualization.md": "f304eb7d2f3bd92db327aa4e45bd9b81039c9b2b80df2a7f7b672aaf0968b6e9",
+    "AGENTS.md": "73bbb832d1b1dca5930088495386e52f333480cf2c6e0b049c3b2b43f059ce6a",
+    "README_RU.md": "228a3d9642553bc300be78bd1385e68ddb3c42bd20ffcebd4eed02aea8b5d776",
+    "docs/UI_WORKFLOW_RU.md": "c21b6979d3ec0a61884f6002cfd4fcfdd70efc2ead820177bc23ca11a3a66f70",
+    "tools/make_update_transfer.py": "57033a10f1c58089792eebbf8c9c938d2f62a9eb8a6b5921590d21541ed7b6b0"
+  }
+}

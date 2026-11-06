@@ -1,0 +1,40 @@
+{
+  "reference": {
+    "id": "ohtake_re30000",
+    "label": "NACA0012 \u2014 Ohtake 2007, Re=30000",
+    "file": "ohtake2007_fig5_cl_re30000.csv",
+    "reynolds": 30000,
+    "mach": null,
+    "coefficients": [
+      "cl"
+    ],
+    "url": "https://doi.org/10.2322/jjsass.55.439",
+    "source": "Ohtake, Nakae, Motohashi (2007), Fig.5, printed p.441",
+    "conditions": "\u0421\u0432\u043e\u0431\u043e\u0434\u043d\u044b\u0439 \u043f\u0435\u0440\u0435\u0445\u043e\u0434; \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u0430 \u043e\u0446\u0438\u0444\u0440\u043e\u0432\u043a\u0430 Cl. Cd/Cm \u043f\u043e\u043a\u0430 \u043d\u0435 \u0438\u0437\u0432\u043b\u0435\u0447\u0435\u043d\u044b. M \u0432 \u043d\u0430\u0431\u043e\u0440\u0435 \u043d\u0435 \u0437\u0430\u0434\u0430\u043d.",
+    "digitization_bounds": {
+      "alpha_deg": 0.12,
+      "cl": 0.008
+    },
+    "uncertainty_note": "\u0413\u0440\u0430\u043d\u0438\u0446\u044b \u043e\u0446\u0438\u0444\u0440\u043e\u0432\u043a\u0438 \u043d\u0435 \u044f\u0432\u043b\u044f\u044e\u0442\u0441\u044f \u043f\u043e\u0433\u0440\u0435\u0448\u043d\u043e\u0441\u0442\u044c\u044e \u043f\u0440\u043e\u0434\u0443\u0432\u043a\u0438.",
+    "copyright": "The Japan Society for Aeronautical and Space Sciences (2007); source attribution retained.",
+    "sha256": "f281e6da50c0dc810f2ec1ef70ddea79e7d2cd6073f3791d0f872fdd263b2d72"
+  },
+  "alpha_deg": 5.0,
+  "reynolds": 30000,
+  "differences": [
+    {
+      "coefficient": "cl",
+      "calculated": 0.11731009030938441,
+      "experimental_interpolated": 0.4250615352704849,
+      "difference": -0.3077514449611005,
+      "relative_difference_percent": null
+    }
+  ],
+  "status": "comparison_only",
+  "validation": "inconclusive",
+  "limitations": [
+    "No grid/domain/span/time/statistical convergence is certified by this comparison.",
+    "Experimental geometry, transition, turbulence and tunnel corrections need independent agreement.",
+    "Interpolated/digitized values do not have zero experimental uncertainty."
+  ]
+}

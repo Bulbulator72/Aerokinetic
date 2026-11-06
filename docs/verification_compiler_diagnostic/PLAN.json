@@ -1,0 +1,15 @@
+{
+  "scope": "Read-only offline evidence collection after repeated Windows VS bootstrapper 5003",
+  "before_implementation": true,
+  "observed": "Latest photograph shows INSTALL_EXIT_CODE=5003; prior photograph showed local vs_installer.opc InvalidCertificate, but no fresh detailed log has been supplied",
+  "acceptance": [
+    "One downloadable TXT/BAT works with the existing .venv Python and Windows PowerShell, with no Python packages or installer required",
+    "Writes a new report only; never executes the installer, downloads content, imports certificates, changes policy or alters existing project files",
+    "Collects recent bootstrapper logs from TEMP and copied installer details, local layout file identity and read-only Microsoft certificate-store inventory",
+    "Missing logs, truncation and unavailable Windows probes are explicitly reported",
+    "Verify transport roundtrip and read-only collector with synthetic Unicode/UTF-16 logs and network connections blocked"
+  ],
+  "numerical_solver": "unchanged; no CFD rerun required",
+  "windows_native_execution": "not_run",
+  "root_cause_of_latest_attempt": "inconclusive"
+}

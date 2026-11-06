@@ -1,0 +1,147 @@
+{
+  "status": "passed",
+  "version": "0.4.0",
+  "installed_package": "/workspace/aerokinetic_040_release/clean_app/.venv/lib/python3.12/site-packages/aerokinetic/__init__.py",
+  "tests_passed": 62,
+  "fresh_jit": true,
+  "continued_after_test_stage": true,
+  "python_connections_and_dns": "blocked",
+  "network_attempts": 0,
+  "openmp_threads_tested": [
+    1,
+    2
+  ],
+  "optimized_interface": "passed",
+  "actual_airfoil": {
+    "status": "completed",
+    "steps": 160,
+    "fine_steps": 320,
+    "t_star": 0.2,
+    "average_after_t_star": 0.1,
+    "samples": 40,
+    "averaging_samples": 20,
+    "mean": {
+      "cl": 0.11731009030937996,
+      "cd": 0.05539705249734035,
+      "cm": 0.03677448113525874
+    },
+    "rms": {
+      "cl": 0.26167143612768595,
+      "cd": 0.03640731004365662,
+      "cm": 0.06399166672944866
+    },
+    "experimental_validation": "not_performed",
+    "statistical_convergence": "not_established",
+    "diagnostics": {
+      "local_mach_max": 0.09986752357086234,
+      "density_error_max": 0.004006736063494332,
+      "wall_fallback_links_including_donors": 0,
+      "coarse_boundary_calls": 160,
+      "fine_boundary_calls": 320,
+      "cumulative_wall_mass_exchange": -9.124769117811878e-06,
+      "cumulative_wall_mass_exchange_over_initial_mass": -1.0561057462399145e-06,
+      "last_budget": {
+        "mass_residual_per_volume": -7.650753303094151e-17,
+        "momentum_residual_per_volume": [
+          -2.0217072026400052e-14,
+          -2.4877629198710044e-17,
+          -1.0821498417759808e-20
+        ],
+        "wall_mass_exchange": -4.061029302999264e-08,
+        "external_mass_in": 1.3553520703876005e-05,
+        "wall_impulse": [
+          5.233828943881909e-05,
+          0.00026353488483132925,
+          -7.709581802935641e-22
+        ],
+        "external_impulse_in": [
+          0.00039270545295101315,
+          -7.00273973002617e-06,
+          -7.835054762102278e-19
+        ]
+      }
+    },
+    "termination_reason": "duration_reached",
+    "termination": {
+      "mode": "time",
+      "mass_tolerance": 1e-05,
+      "momentum_x_tolerance": 1e-05,
+      "momentum_y_tolerance": 1e-05,
+      "momentum_z_tolerance": 1e-05,
+      "minimum_t_star": 1.0,
+      "consecutive_checks": 10,
+      "max_steps": 0,
+      "wall_time_limit_s": 0.0
+    },
+    "last_residuals": {
+      "step": 160,
+      "t_star": 0.2,
+      "l2_rho": 0.05199947881520249,
+      "l2_jx": 0.5222895444801706,
+      "l2_jy": 0.524196685718831,
+      "l2_jz": 3.0003019356722775e-05,
+      "linf_rho": 0.20732902407378795,
+      "linf_jx": 7.154144576885391,
+      "linf_jy": 8.213542962389827,
+      "linf_jz": 0.0007743813924319487,
+      "balance_rho": 6.120602642475321e-14,
+      "balance_jx": 1.617365762112004e-11,
+      "balance_jy": 1.9902103358968037e-14,
+      "balance_jz": 8.657198734207847e-18,
+      "streak": 0
+    },
+    "steady_residual_criterion_met": false
+  },
+  "mean_difference_from_030_startup": {
+    "cl": 4.454769886308441e-15,
+    "cd": 3.982925100842749e-15,
+    "cm": 1.2420620087993939e-15
+  },
+  "residual_csv_in_review_archive": true,
+  "preliminary_experiment": {
+    "reference": {
+      "id": "ohtake_re30000",
+      "label": "NACA0012 \u2014 Ohtake 2007, Re=30000",
+      "file": "ohtake2007_fig5_cl_re30000.csv",
+      "reynolds": 30000,
+      "mach": null,
+      "coefficients": [
+        "cl"
+      ],
+      "url": "https://doi.org/10.2322/jjsass.55.439",
+      "source": "Ohtake, Nakae, Motohashi (2007), Fig.5, printed p.441",
+      "conditions": "\u0421\u0432\u043e\u0431\u043e\u0434\u043d\u044b\u0439 \u043f\u0435\u0440\u0435\u0445\u043e\u0434; \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u0430 \u043e\u0446\u0438\u0444\u0440\u043e\u0432\u043a\u0430 Cl. Cd/Cm \u043f\u043e\u043a\u0430 \u043d\u0435 \u0438\u0437\u0432\u043b\u0435\u0447\u0435\u043d\u044b. M \u0432 \u043d\u0430\u0431\u043e\u0440\u0435 \u043d\u0435 \u0437\u0430\u0434\u0430\u043d.",
+      "digitization_bounds": {
+        "alpha_deg": 0.12,
+        "cl": 0.008
+      },
+      "uncertainty_note": "\u0413\u0440\u0430\u043d\u0438\u0446\u044b \u043e\u0446\u0438\u0444\u0440\u043e\u0432\u043a\u0438 \u043d\u0435 \u044f\u0432\u043b\u044f\u044e\u0442\u0441\u044f \u043f\u043e\u0433\u0440\u0435\u0448\u043d\u043e\u0441\u0442\u044c\u044e \u043f\u0440\u043e\u0434\u0443\u0432\u043a\u0438.",
+      "copyright": "The Japan Society for Aeronautical and Space Sciences (2007); source attribution retained.",
+      "sha256": "f281e6da50c0dc810f2ec1ef70ddea79e7d2cd6073f3791d0f872fdd263b2d72"
+    },
+    "alpha_deg": 5.0,
+    "reynolds": 30000,
+    "differences": [
+      {
+        "coefficient": "cl",
+        "calculated": 0.11731009030937996,
+        "experimental_interpolated": 0.4250615352704849,
+        "difference": -0.30775144496110496,
+        "relative_difference_percent": null
+      }
+    ],
+    "status": "comparison_only",
+    "validation": "inconclusive",
+    "limitations": [
+      "No grid/domain/span/time/statistical convergence is certified by this comparison.",
+      "Experimental geometry, transition, turbulence and tunnel corrections need independent agreement.",
+      "Interpolated/digitized values do not have zero experimental uncertainty."
+    ]
+  },
+  "numerical_aerodynamic_convergence": "not_established",
+  "aerodynamic_validation": "inconclusive",
+  "linux_process_peak_rss_gib": 0.9567756652832031,
+  "elapsed_seconds": 657.8380022779966,
+  "windows_msvc": "not_run",
+  "gpu": "not_run"
+}

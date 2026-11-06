@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "wheel": "aerokinetic-0.4.0-py3-none-any.whl",
+  "bytes": 117331,
+  "sha256": "32f28a44ba5cebb34edc4e44761eff8aec51b4fa44bf28f4026853671b39e54e",
+  "runtime_files": 31,
+  "runtime_matches_source": true,
+  "dependencies_added": false,
+  "native_windows": "not_run"
+}

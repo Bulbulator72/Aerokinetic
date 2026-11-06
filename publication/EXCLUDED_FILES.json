@@ -1,0 +1,72 @@
+[
+  {
+    "source": "/workspace/aerokinetic/benchmarks/run64_review/continued_t6/checkpoint.npz",
+    "repository_path": "benchmarks/run64_review/continued_t6/checkpoint.npz",
+    "bytes": 1150410884,
+    "sha256": "c646a70fd7cfc7b9c023cc69e5a9f482d49ae9b85a06954468eb40e3da470ece",
+    "reason": "large generated restart state; retained in workspace, excluded from source Git"
+  },
+  {
+    "source": "/workspace/aerokinetic/benchmarks/run64_review/reproduced_t2/checkpoint.npz",
+    "repository_path": "benchmarks/run64_review/reproduced_t2/checkpoint.npz",
+    "bytes": 1150410884,
+    "sha256": "1929383b052e79a0d99881cc28dab26b67416962c06065baf1dbcc82a6161f92",
+    "reason": "large generated restart state; retained in workspace, excluded from source Git"
+  },
+  {
+    "source": "/workspace/aerokinetic/benchmarks/run64_review/same_case_grid32_t2/checkpoint.npz",
+    "repository_path": "benchmarks/run64_review/same_case_grid32_t2/checkpoint.npz",
+    "bytes": 156207428,
+    "sha256": "72e2d26a640ea2d511f1747f6df0f388f248c9974386bc4307e00c9610fde2af",
+    "reason": "large generated restart state; retained in workspace, excluded from source Git"
+  },
+  {
+    "source": "/workspace/aerokinetic/benchmarks/screenshot_2026-10-26/continuation_to_t2/checkpoint.npz",
+    "repository_path": "benchmarks/screenshot_2026-10-26/continuation_to_t2/checkpoint.npz",
+    "bytes": 156209708,
+    "sha256": "42ca879d9eccdfe3a1c91885b16500ca9d6c7e44463c2f95008215b47e53c75d",
+    "reason": "large generated restart state; retained in workspace, excluded from source Git"
+  },
+  {
+    "source": "/workspace/aerokinetic/benchmarks/screenshot_2026-10-26/startup/checkpoint.npz",
+    "repository_path": "benchmarks/screenshot_2026-10-26/startup/checkpoint.npz",
+    "bytes": 156209696,
+    "sha256": "c45049148de1e86b75964804b21012a5041f9c44ff17e9b552663d398ce2b544",
+    "reason": "large generated restart state; retained in workspace, excluded from source Git"
+  },
+  {
+    "source": "/workspace/aerokinetic/benchmarks/user_run_20261026_203246_5e0a15/reproduced_linux/checkpoint.npz",
+    "repository_path": "benchmarks/user_run_20261026_203246_5e0a15/reproduced_linux/checkpoint.npz",
+    "bytes": 156207416,
+    "sha256": "24e036fb34e3944474788f947b5577241ddc8bdb92bf2f1949b998755c38c502",
+    "reason": "large generated restart state; retained in workspace, excluded from source Git"
+  },
+  {
+    "source": "/workspace/aerokinetic/docs/verification_naca0012_20261106/sources/source_0.md",
+    "repository_path": "docs/verification_naca0012_20261106/sources/source_0.md",
+    "bytes": 5707,
+    "sha256": "359f7445f11828946afc49d961048b827af3b99d0ac1d78adaa332ef1a771e16",
+    "reason": "publisher-page full text replaced with citation and digest in the public source copy"
+  },
+  {
+    "source": "/workspace/aerokinetic/references/ohtake2007.pdf",
+    "repository_path": "references/ohtake2007.pdf",
+    "bytes": 1701359,
+    "sha256": "552c25268b8892c26f0cec7f45bc177f99b4109f926d3c60fc4a771c3a4924ee",
+    "reason": "third-party copyrighted full publication; retain citation, digest and explicit download helper"
+  },
+  {
+    "source": "/workspace/aerokinetic/references/ohtake2007.html",
+    "repository_path": "references/ohtake2007.html",
+    "bytes": 71291,
+    "sha256": "c618064c49507e7dd6b9afe704246366c639a075e4f7d9e1a55494e84e5f9093",
+    "reason": "captured publisher HTML replaced by citation-only HTML; embedded site configuration is not published"
+  },
+  {
+    "source": "/workspace/aerokinetic/references/nakae2011.html",
+    "repository_path": "references/nakae2011.html",
+    "bytes": 71625,
+    "sha256": "4a23c125a1cf3e5dbdc4ec4b097be78a44b1fda79a52ec9d5bcd1ee06555ef12",
+    "reason": "captured publisher HTML replaced by citation-only HTML; embedded site configuration is not published"
+  }
+]

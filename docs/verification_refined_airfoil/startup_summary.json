@@ -1,0 +1,50 @@
+{
+  "status": "completed",
+  "steps": 160,
+  "fine_steps": 320,
+  "t_star": 0.2,
+  "average_after_t_star": 0.1,
+  "samples": 40,
+  "averaging_samples": 20,
+  "mean": {
+    "cl": 0.11731009030938441,
+    "cd": 0.055397052497344335,
+    "cm": 0.0367744811352575
+  },
+  "rms": {
+    "cl": 0.2616714361276935,
+    "cd": 0.03640731004365612,
+    "cm": 0.06399166672944981
+  },
+  "experimental_validation": "not_performed",
+  "statistical_convergence": "not_established",
+  "diagnostics": {
+    "local_mach_max": 0.09986752357086258,
+    "density_error_max": 0.0040067360634938876,
+    "wall_fallback_links_including_donors": 0,
+    "coarse_boundary_calls": 160,
+    "fine_boundary_calls": 320,
+    "cumulative_wall_mass_exchange": -9.124769117811808e-06,
+    "cumulative_wall_mass_exchange_over_initial_mass": -1.0561057462399064e-06,
+    "last_budget": {
+      "mass_residual_per_volume": 1.2934013858476386e-16,
+      "momentum_residual_per_volume": [
+        -2.00170549464963e-14,
+        -7.647125969076369e-17,
+        -2.2256657121034024e-20
+      ],
+      "wall_mass_exchange": -4.061029302998413e-08,
+      "external_mass_in": 1.3553520703873826e-05,
+      "wall_impulse": [
+        5.233828943882e-05,
+        0.00026353488483133353,
+        1.4087919807543753e-22
+      ],
+      "external_impulse_in": [
+        0.00039270545295106227,
+        -7.002739730034112e-06,
+        6.988021814847978e-19
+      ]
+    }
+  }
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Ohtake 2007 publisher",
+    "url": "https://www.jstage.jst.go.jp/article/jjsass/55/644/55_644_439/_article/-char/en",
+    "retrieval_date_utc": "2026-11-06",
+    "retrieval_tool": "Firecrawl",
+    "local_markdown": "source_0.md",
+    "sha256": "359f7445f11828946afc49d961048b827af3b99d0ac1d78adaa332ef1a771e16"
+  },
+  {
+    "title": "NASA NTRS Ladson",
+    "url": "https://ntrs.nasa.gov/citations/19880019495",
+    "retrieval_date_utc": "2026-11-06",
+    "retrieval_tool": "Firecrawl",
+    "local_markdown": "source_1.md",
+    "sha256": "55be56769384dea32582363748df315067bf0755d75caaf08a414ff34720e37a"
+  },
+  {
+    "title": "NASA TMR validation context; only experimental sources used",
+    "url": "https://tmbwg.github.io/turbmodels/naca0012_val.html",
+    "retrieval_date_utc": "2026-11-06",
+    "retrieval_tool": "Firecrawl",
+    "local_markdown": "source_2.md",
+    "sha256": "a81a7d772a1a2e8aaa1c8a5a9739fa0c3dd1dc71788e2297d4b961e398bcee29"
+  },
+  {
+    "title": "Ladson TMR raw 80/120/180 grit data",
+    "url": "https://tmbwg.github.io/turbmodels/NACA0012_validation/CLCD_Ladson_expdata.dat",
+    "retrieval_date_utc": "2026-11-06",
+    "retrieval_tool": "Firecrawl",
+    "local_markdown": "tmr_ladson_raw_20261106.md",
+    "sha256": "cc4dd35ad370fbc3eea57141a360dd3906f44758a83c1bb3c7b08b7d4401e8af"
+  },
+  {
+    "local_pdf": "/workspace/aerokinetic/references/ohtake2007.pdf",
+    "sha256": "552c25268b8892c26f0cec7f45bc177f99b4109f926d3c60fc4a771c3a4924ee",
+    "role": "primary experimental publication already stored offline; source rechecked today"
+  },
+  {
+    "local_pdf": "/workspace/aerokinetic/references/nasa_tmr/NASA_TM4074_Ladson_1988.pdf",
+    "sha256": "8e466706cbdf54b3c778ea2b089c4f52d87686bf7f6b1bd10d224b42c2d06902",
+    "role": "primary experimental publication already stored offline; source rechecked today"
+  }
+]

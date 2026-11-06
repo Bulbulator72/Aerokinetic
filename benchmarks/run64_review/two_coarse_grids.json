@@ -1,0 +1,47 @@
+{
+  "meaning": "Two underresolved startup grids; no observed order, GCI or validated error estimate. Do not select a grid by closest match to the tunnel.",
+  "rows": [
+    {
+      "source": "local numerical diagnostic, not user history",
+      "cells_per_chord": 32,
+      "t_star": 2.0,
+      "average_after_t_star": 1.0,
+      "mean": {
+        "cl": 0.4043032422039808,
+        "cd": 0.07769742239697168,
+        "cm": -0.08264699243505902
+      },
+      "rms": {
+        "cl": 0.5540242969437073,
+        "cd": 0.05071500328769883,
+        "cm": 0.245478439708051
+      },
+      "half_mean_differences": {
+        "cl": 0.005559656085863396,
+        "cd": -0.0013493450645541277,
+        "cm": -0.00034138445609542545
+      }
+    },
+    {
+      "source": "local numerical diagnostic, not user history",
+      "cells_per_chord": 64,
+      "t_star": 2.0,
+      "average_after_t_star": 1.0,
+      "mean": {
+        "cl": 0.4530033857848513,
+        "cd": 0.057325345247249616,
+        "cm": -0.10238933854158785
+      },
+      "rms": {
+        "cl": 0.6598752064854977,
+        "cd": 0.052217968869232884,
+        "cm": 0.2962779113164664
+      },
+      "half_mean_differences": {
+        "cl": 0.036861006296395604,
+        "cd": -0.0004970679166677455,
+        "cm": -0.01210560955311532
+      }
+    }
+  ]
+}

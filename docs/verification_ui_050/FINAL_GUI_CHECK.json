@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "version": "0.5.0",
+  "installed": "/workspace/aerokinetic_ui_050/env/lib/python3.12/site-packages/aerokinetic/__init__.py",
+  "original_result_config_write_rejected": true,
+  "save_copy": true,
+  "separate_draft_result_context": true,
+  "invalid_input_preserved_and_pointed": true,
+  "sections_and_footer_1280x720": true,
+  "linux_scaling": [
+    1.3359631821170281,
+    2.0,
+    2.6666666667
+  ],
+  "actual_windows_dpi": "not_run",
+  "result_files_unchanged": true,
+  "errors": []
+}

@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "decoded_actual_delivered_txt": true,
+  "txt_sha256": "558d37b4369f38ae441230c09d5a146d665b14d8da2e7684b68d14c315d9e46a",
+  "old_to_new_offline_install": {
+    "status": "passed",
+    "previous_version": "0.2.0",
+    "installed_version": "0.2.1",
+    "backup": "/workspace/aerokinetic_021_release/clean_app/updates/final_transport_final/backup",
+    "dependency_downloads": false,
+    "user_results_changed": false,
+    "updated_wheelhouses": [
+      "downloads/wheels_windows"
+    ]
+  },
+  "manual_backup_restore_to_020": "passed_before_this_script",
+  "corrupt_wheel_rejected_before_install": true,
+  "deliberate_failure_after_runtime_and_source_replacement": "restored_original_020",
+  "restored_runtime_bytes_match_original_020_wheel": true,
+  "restored_local_document_bytes": true,
+  "all_original_case_bytes_preserved": true,
+  "final_runtime_bytes_match_021_wheel": true,
+  "prepared_windows_wheelhouse_all_files_and_sha256": "passed",
+  "windows_bat_execution": "not_run"
+}

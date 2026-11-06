@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "actual_txt_payload": "/workspace/aerokinetic_030_release/transport_draft/UPDATE_AEROKINETIC_030.txt",
+  "txt_sha256": "ee5b86dcd2c16e8c2c4dde594427b747ba57cd150b1a949fac20731d281a9083",
+  "corrupt_wheel_rejected_before_install": true,
+  "interrupted_runtime_and_source_copy_rollback": "passed",
+  "restored_runtime_matches_021_wheel": true,
+  "original_readme_restored": true,
+  "final_runtime_matches_030_wheel": true,
+  "preserved_user_files": true,
+  "prepared_windows_wheelhouse_all_hashes": "passed",
+  "install": {
+    "status": "passed",
+    "previous_version": "0.2.1",
+    "installed_version": "0.3.0",
+    "backup": "/workspace/aerokinetic_030_release/update_app/updates/draft_success/backup",
+    "dependency_downloads": false,
+    "user_results_changed": false,
+    "updated_wheelhouses": [
+      "downloads/wheels_windows"
+    ]
+  },
+  "linux_python_transaction": "passed",
+  "windows_bat_execution": "not_run"
+}

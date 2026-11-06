@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "installed_package": "/workspace/aerokinetic_02_release/verify_env/lib/python3.12/site-packages/aerokinetic/__init__.py",
+  "python_network_connections": "blocked",
+  "calculation": "completed",
+  "checkpoint": "saved",
+  "pressure_pa_gif": "created",
+  "experimental_comparison_export": "created",
+  "aerodynamic_accuracy": "not_validated; coarse startup example only"
+}

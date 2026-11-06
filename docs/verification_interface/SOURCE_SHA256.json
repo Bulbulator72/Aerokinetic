@@ -1,0 +1,216 @@
+{
+  "algorithm": "SHA-256",
+  "purpose": "Runtime/source, tests, instructions and criteria snapshot",
+  "files": [
+    {
+      "file": ".agents/skills/cfd-lbm/SKILL.md",
+      "bytes": 16403,
+      "sha256": "70c4e465b442ecfcf3589fa29ccd25d48e2b412cb5e6817b8da98c529fc1f043"
+    },
+    {
+      "file": ".agents/skills/cfd-lbm/references/experiment.md",
+      "bytes": 9687,
+      "sha256": "bfe84b49cc15ed0328a801053b3947f79466fce0485bb35409671b53cccc0ede"
+    },
+    {
+      "file": ".agents/skills/cfd-lbm/references/offline.md",
+      "bytes": 7984,
+      "sha256": "5a0a013f0001aab21f24465359f6e6fd8c570d0bccaab3dc549c3389ebac5b16"
+    },
+    {
+      "file": ".agents/skills/cfd-lbm/references/verification.md",
+      "bytes": 10673,
+      "sha256": "f39cf86c84248c7f3e953c5a3a085e8f13183a95a39fa12f33ba034c60349a45"
+    },
+    {
+      "file": ".agents/skills/cfd-lbm/templates/report.md",
+      "bytes": 5364,
+      "sha256": "06878c37274cf1bc0b14c1ad619a7ff1047e0b7f8ce118b562972596c604507a"
+    },
+    {
+      "file": "AGENTS.md",
+      "bytes": 3041,
+      "sha256": "bc81b68c6adee0e7d0f98ccf9d455320cbcc9d53ef4f7d28cbf7044c30ad90bf"
+    },
+    {
+      "file": "README_RU.md",
+      "bytes": 22607,
+      "sha256": "1501fff9bee67471b72a9c01fe6ef3163ac632f5e5bdf176e05ec9d2aaeb5731"
+    },
+    {
+      "file": "VALIDATION_RU.md",
+      "bytes": 5723,
+      "sha256": "81a448b129891705dfaa53adad2f9f192c3c65b492369ea402af8066ecd52ed1"
+    },
+    {
+      "file": "docs/INTERFACE_RU.md",
+      "bytes": 13183,
+      "sha256": "c2553b909c194be8acb4ec0dca2ca82be85923acf91324825fa847869ae68400"
+    },
+    {
+      "file": "docs/PROGRAM_REQUIREMENTS_RU.md",
+      "bytes": 20042,
+      "sha256": "cf03730de054d7810e2b8bc4ec169db776dd1a304e5ded54149185198916b172"
+    },
+    {
+      "file": "docs/REFINEMENT_RU.md",
+      "bytes": 12557,
+      "sha256": "cf8cbb109d080a63aed14c7b593a2d3a82de095b6c3573be90692429bca4c1f7"
+    },
+    {
+      "file": "docs/ROADMAP_RU.md",
+      "bytes": 9623,
+      "sha256": "591aa1d20481d5ececcdd9bdbad0564eddb429e9df5d6b687a6727381ea5fa50"
+    },
+    {
+      "file": "docs/verification_interface/EXPORT_PLAN.json",
+      "bytes": 1015,
+      "sha256": "1c651932c9739b8b5a0d18f96e7e313b71e2557ba2b462387eea129894d62b9b"
+    },
+    {
+      "file": "docs/verification_interface/METHOD_PROVENANCE.json",
+      "bytes": 1730,
+      "sha256": "09f6465cbe5e4d35d03ce7c05e36aa1327a267419881ea08fc5718887d3ee83b"
+    },
+    {
+      "file": "docs/verification_interface/PLAN.json",
+      "bytes": 4379,
+      "sha256": "bf6b6a99e9544b7915c6f897b5103092089ef2a9f283af6ec1aeebe4152f1c18"
+    },
+    {
+      "file": "docs/verification_interface/REPORT_RU.md",
+      "bytes": 16900,
+      "sha256": "9df56f732cd4c884223021a666c1c13222c19fb516e0d005cfb6e7dc29282401"
+    },
+    {
+      "file": "docs/verification_interface/WHEEL_CHECK.json",
+      "bytes": 1214,
+      "sha256": "90e6b4db76461c680e82acc5d1436ce254f08f0e70f843ce3e7dc0b24b81e4b8"
+    },
+    {
+      "file": "pyproject.toml",
+      "bytes": 890,
+      "sha256": "5379e595a25943760dbc0eab77ca51c296692fc1ed5628bbe1a33dc0e7d7320f"
+    },
+    {
+      "file": "requirements-offline-py312.txt",
+      "bytes": 557,
+      "sha256": "99a019bfc87cf71487a37c5db770bd04e458b9e302f775b8b525a44ef3470c8a"
+    },
+    {
+      "file": "src/aerokinetic/__init__.py",
+      "bytes": 571,
+      "sha256": "af2a1e2b8922f1c9fb995ae6e499c90b3d221103c09ca5c308e209bab386096f"
+    },
+    {
+      "file": "src/aerokinetic/_io.py",
+      "bytes": 1393,
+      "sha256": "26df857e7c0ae75fae63a1bcccc9d52fefba0b6d14f6ea39f5644a353a91fdec"
+    },
+    {
+      "file": "src/aerokinetic/animation.py",
+      "bytes": 3837,
+      "sha256": "f9e8bfb3ac8e0d2b6cc5e6bb686a30a0b0650fbf46b6ad0b474795c8a1b00473"
+    },
+    {
+      "file": "src/aerokinetic/checkpoint.py",
+      "bytes": 4603,
+      "sha256": "f8fd43942d490af6bb46bc1710bec72686da0ca348b621d0fddb42647cd091c0"
+    },
+    {
+      "file": "src/aerokinetic/cli.py",
+      "bytes": 4320,
+      "sha256": "62261fb9c66238bccffdf7fc0792dfea6bbd4799a1376def17c406eade1afa6c"
+    },
+    {
+      "file": "src/aerokinetic/config.py",
+      "bytes": 6657,
+      "sha256": "5c4c665e05712c7b862155918169104ce77713413db3e6ff88b255b82beded04"
+    },
+    {
+      "file": "src/aerokinetic/data/Ladson_TM4074_table_IX_Re5p95m_80W.csv",
+      "bytes": 500,
+      "sha256": "b78b3e278ceb1979d6f5099c84ec487475d136c8476fd8d99340636768c79fd2"
+    },
+    {
+      "file": "src/aerokinetic/data/experiments.json",
+      "bytes": 1777,
+      "sha256": "171332639ff9316334f504c67782bf99e0710a764a8a8013eabfb34b1ca531de"
+    },
+    {
+      "file": "src/aerokinetic/data/ohtake2007_fig5_cl_re30000.csv",
+      "bytes": 4181,
+      "sha256": "f281e6da50c0dc810f2ec1ef70ddea79e7d2cd6073f3791d0f872fdd263b2d72"
+    },
+    {
+      "file": "src/aerokinetic/experiments.py",
+      "bytes": 4768,
+      "sha256": "1dfc0b698839c4bb763a94d6fd73302f6616ad373f6ff3f4bd3792d626b16e3d"
+    },
+    {
+      "file": "src/aerokinetic/geometry.py",
+      "bytes": 8644,
+      "sha256": "30beffe1914547e836fcf636d776a12018878945db817172a9c35c970aef4a94"
+    },
+    {
+      "file": "src/aerokinetic/gui.py",
+      "bytes": 42828,
+      "sha256": "9c4ed704e3bf8883100ae573c476535467ef91742203910e53eba856e9d7d14e"
+    },
+    {
+      "file": "src/aerokinetic/interface.py",
+      "bytes": 18964,
+      "sha256": "c01b7fc9f7ade69cb645fb88b03dc85e43276e19258a317c30df0a0f8076b6cd"
+    },
+    {
+      "file": "src/aerokinetic/interface_checks.py",
+      "bytes": 19805,
+      "sha256": "282986da2a684c5db6bed89d667a3849be77a5a531251eb4951ff9190de26043"
+    },
+    {
+      "file": "src/aerokinetic/interface_visualization.py",
+      "bytes": 6007,
+      "sha256": "d174e092e9bd12fa02c5b844dca5159b976352b02d0422a46152bebc20fc4eea"
+    },
+    {
+      "file": "src/aerokinetic/project.py",
+      "bytes": 3716,
+      "sha256": "5477bfdf77c436eed8b50971613cbac155b041faf0d6e3186c0d3d05fdc8180e"
+    },
+    {
+      "file": "src/aerokinetic/refinement.py",
+      "bytes": 12325,
+      "sha256": "798053ea229960ca48c818e36e737aab8657e076ae9187230379f752d76b6df8"
+    },
+    {
+      "file": "src/aerokinetic/refinement_checks.py",
+      "bytes": 15446,
+      "sha256": "a6a4046d8b16db23c96698c4e725715e04b0d8d9731b98c0a245bded09778704"
+    },
+    {
+      "file": "src/aerokinetic/solver.py",
+      "bytes": 22923,
+      "sha256": "14cfee4f4a3475008dc06434bc9ededaa66b2c1179d91dfd0946377f30fe65ad"
+    },
+    {
+      "file": "src/aerokinetic/temporal.py",
+      "bytes": 15532,
+      "sha256": "ca6befa6e65d29981dc77522b7cff20f183067a939e66355a096cf7cfd856573"
+    },
+    {
+      "file": "tests/test_interface.py",
+      "bytes": 10553,
+      "sha256": "c5cbcaf574f6ad72b71166a5e3f7f80f97a425379709660ce8769d4a5cbff33e"
+    },
+    {
+      "file": "tests/test_refinement.py",
+      "bytes": 11794,
+      "sha256": "75e9ee32fac6e65397807490290e3c2d487284961532ef6c49fc024d6ba5f978"
+    },
+    {
+      "file": "tools/check_refinement_offline.py",
+      "bytes": 4566,
+      "sha256": "333d56875767f1de355572107d5dd837b73f9a2bf059d82af7403fb5f2283920"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "date": "2026-11-02",
+  "scope": "Input planning only; user chord/Mach still pending",
+  "target_reynolds": 6000000,
+  "user_mach_limit": 0.4,
+  "illustrative_cases_not_user_inputs": [
+    {
+      "freestream_inputs_consistent": true,
+      "chord_m": 0.65,
+      "speed_m_s": 134.83704667066053,
+      "reynolds": 6000000.0,
+      "mach": 0.3962369345776485,
+      "alpha_deg": 0.0,
+      "atmosphere": {
+        "temperature_k": 288.15,
+        "pressure_pa": 101325.0,
+        "rho_kg_m3": 1.225000018124288,
+        "nu_m2_s": 1.4607346722654891e-05,
+        "sound_speed_m_s": 340.293988026089
+      },
+      "matches_legacy_solver_input_limits": false,
+      "legacy_solver_limits": {
+        "reynolds_max": 100000.0,
+        "mach_max": 0.15
+      },
+      "solver_executed": false,
+      "aerodynamic_validation": "not_performed",
+      "note": "Input planning only. Matching legacy input limits does not establish aerodynamic accuracy. Cases outside those limits require a new verified solver; this tool does not enable them."
+    },
+    {
+      "freestream_inputs_consistent": true,
+      "chord_m": 1.0,
+      "speed_m_s": 87.64408033592935,
+      "reynolds": 6000000.0,
+      "mach": 0.2575540074754715,
+      "alpha_deg": 0.0,
+      "atmosphere": {
+        "temperature_k": 288.15,
+        "pressure_pa": 101325.0,
+        "rho_kg_m3": 1.225000018124288,
+        "nu_m2_s": 1.4607346722654891e-05,
+        "sound_speed_m_s": 340.293988026089
+      },
+      "matches_legacy_solver_input_limits": false,
+      "legacy_solver_limits": {
+        "reynolds_max": 100000.0,
+        "mach_max": 0.15
+      },
+      "solver_executed": false,
+      "aerodynamic_validation": "not_performed",
+      "note": "Input planning only. Matching legacy input limits does not establish aerodynamic accuracy. Cases outside those limits require a new verified solver; this tool does not enable them."
+    },
+    {
+      "freestream_inputs_consistent": true,
+      "chord_m": 2.0,
+      "speed_m_s": 43.82204016796467,
+      "reynolds": 6000000.0,
+      "mach": 0.12877700373773576,
+      "alpha_deg": 0.0,
+      "atmosphere": {
+        "temperature_k": 288.15,
+        "pressure_pa": 101325.0,
+        "rho_kg_m3": 1.225000018124288,
+        "nu_m2_s": 1.4607346722654891e-05,
+        "sound_speed_m_s": 340.293988026089
+      },
+      "matches_legacy_solver_input_limits": false,
+      "legacy_solver_limits": {
+        "reynolds_max": 100000.0,
+        "mach_max": 0.15
+      },
+      "solver_executed": false,
+      "aerodynamic_validation": "not_performed",
+      "note": "Input planning only. Matching legacy input limits does not establish aerodynamic accuracy. Cases outside those limits require a new verified solver; this tool does not enable them."
+    }
+  ],
+  "experimental_benchmark_inputs": {
+    "freestream_inputs_consistent": true,
+    "chord_m": 1.7027181605322843,
+    "speed_m_s": 51.04409820391334,
+    "reynolds": 5950000.0,
+    "mach": 0.15,
+    "alpha_deg": 0.0,
+    "atmosphere": {
+      "temperature_k": 288.15,
+      "pressure_pa": 101325.0,
+      "rho_kg_m3": 1.225000018124288,
+      "nu_m2_s": 1.4607346722654891e-05,
+      "sound_speed_m_s": 340.293988026089
+    },
+    "matches_legacy_solver_input_limits": false,
+    "legacy_solver_limits": {
+      "reynolds_max": 100000.0,
+      "mach_max": 0.15
+    },
+    "solver_executed": false,
+    "aerodynamic_validation": "not_performed",
+    "note": "Input planning only. Matching legacy input limits does not establish aerodynamic accuracy. Cases outside those limits require a new verified solver; this tool does not enable them."
+  },
+  "released_solver_re6m_rejection": "This module targets 10000 <= Re <= 100000",
+  "solver_executed": false,
+  "aerodynamic_validation": "not_performed",
+  "source_sha256": {
+    "src/aerokinetic/config.py": "fa2a3411c5b959a8568a924567bdc1f6746fda30208e35f8a411477d3de65972",
+    "tools/plan_case.py": "00030ee62d232f3542ce77f01bd3507b8984a8c3b61ccd99e9a2b85fb4920723",
+    "src/aerokinetic/data/experiments.json": "171332639ff9316334f504c67782bf99e0710a764a8a8013eabfb34b1ca531de"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "source_doi": "10.2322/jjsass.55.439",
+  "source_url": "https://www.jstage.jst.go.jp/article/jjsass/55/644/55_644_439/_article/-char/en",
+  "authors": "Tomohisa Ohtake, Yusuke Nakae, Tatsuo Motohashi",
+  "year": 2007,
+  "access_date": "2026-11-06",
+  "copyright": "The Japan Society for Aeronautical and Space Sciences, 2007; source rights retained",
+  "pdf_sha256": "552c25268b8892c26f0cec7f45bc177f99b4109f926d3c60fc4a771c3a4924ee",
+  "script_sha256": "635539c315a93fb760379a4e4aa761cc0b8d7d28fdbd1a727a68f0243798214f",
+  "digitizer": "PyMuPDF 1.26.6",
+  "reynolds": 30000,
+  "data_type": "Digitized published graph, not original author numeric data",
+  "method": "Vector triangular-marker bounding-box centres, affine calibration from exact rectangular plot frame",
+  "uncertainty_note": "Conservative half-marker bounds, not confidence intervals or wind-tunnel measurement uncertainty",
+  "series": {
+    "cd": {
+      "page_index": 3,
+      "figure": 6,
+      "printed_page": 442,
+      "frame": [
+        339.4993591308594,
+        414.22613525390625,
+        539.633544921875,
+        533.421875
+      ],
+      "x_range": [
+        -25.0,
+        25.0
+      ],
+      "y_range": [
+        0.0,
+        0.4
+      ],
+      "legend": [
+        340.0,
+        480.0,
+        370.0,
+        525.0
+      ],
+      "coefficient_half_marker_bound": 0.0031,
+      "points": 201,
+      "legend_markers_excluded": 1,
+      "alpha_half_marker_bound_deg": 0.23,
+      "csv_sha256": "6df47f20ef310ac662a1378f8956e05ae150c299b2aeea0307b46a12b02788a6"
+    },
+    "cm_c4": {
+      "page_index": 5,
+      "figure": 11,
+      "printed_page": 444,
+      "frame": [
+        84.09861755371094,
+        70.09184265136719,
+        281.97540283203125,
+        189.4114990234375
+      ],
+      "x_range": [
+        -25.0,
+        25.0
+      ],
+      "y_range": [
+        -0.1,
+        0.1
+      ],
+      "legend": [
+        245.0,
+        75.0,
+        280.0,
+        112.0
+      ],
+      "coefficient_half_marker_bound": 0.0016,
+      "points": 201,
+      "legend_markers_excluded": 1,
+      "alpha_half_marker_bound_deg": 0.23,
+      "csv_sha256": "5184dbafeb43d86d0668ead3deed1e26880ee0c2a360b8316f7d3cf9f5919931"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "analysis_script_syntax": "passed",
+  "experimental_marker_counts": {
+    "cl": 115,
+    "cd": 201,
+    "cm_c4": 201
+  },
+  "experimental_angles_strictly_increasing": true,
+  "interpolation_brackets_without_extrapolation": {
+    "cl": 0.3087391322234979,
+    "cd": 0.04450936437474284,
+    "cm_c4": -0.02053270491438635
+  },
+  "completed_original_targets_both_grids": true,
+  "independent_raw_history_means_rms_and_signed_differences": "passed",
+  "nasa_pdf_table_kept_separate": "17 rows, Re=5.95e6, M=0.15, 80-W",
+  "released_high_re_guard": "This module targets 10000 <= Re <= 100000",
+  "unchanged_installed_runtime_files": 33,
+  "source_hashes_and_repeated_digitization": "passed",
+  "scope": "Data consistency and provenance only; physical validation remains inconclusive"
+}

@@ -1,0 +1,80 @@
+{
+  "status": "completed",
+  "steps": 800,
+  "fine_steps": 1600,
+  "t_star": 1.0,
+  "average_after_t_star": 0.0,
+  "samples": 800,
+  "averaging_samples": 800,
+  "mean": {
+    "cl": 0.9756257852506204,
+    "cd": 0.36767775421800886,
+    "cm": -0.26906886677056113
+  },
+  "rms": {
+    "cl": 0.9706819317352477,
+    "cd": 0.9114426029398933,
+    "cm": 0.3615797752807929
+  },
+  "experimental_validation": "not_performed",
+  "statistical_convergence": "not_established",
+  "diagnostics": {
+    "local_mach_max": 0.10658965811180865,
+    "density_error_max": 0.005853845684893444,
+    "wall_fallback_links_including_donors": 0,
+    "coarse_boundary_calls": 800,
+    "fine_boundary_calls": 1600,
+    "cumulative_wall_mass_exchange": -0.0005186283035960419,
+    "cumulative_wall_mass_exchange_over_initial_mass": -0.00011655335957036036,
+    "last_budget": {
+      "mass_residual_per_volume": -2.1024456393388392e-18,
+      "momentum_residual_per_volume": [
+        4.101361428318141e-14,
+        3.1880079126951714e-16,
+        -2.5665200544342554e-21
+      ],
+      "wall_mass_exchange": -4.983625134708229e-07,
+      "external_mass_in": 3.7354028359465426e-07,
+      "wall_impulse": [
+        5.052018818314539e-05,
+        0.00019744686550460092,
+        1.490217572302564e-21
+      ],
+      "external_impulse_in": [
+        5.003429510495048e-05,
+        8.561119786729371e-05,
+        2.541098841762901e-19
+      ]
+    }
+  },
+  "termination_reason": "duration_reached",
+  "termination": {
+    "mode": "time",
+    "mass_tolerance": 1e-05,
+    "momentum_x_tolerance": 1e-05,
+    "momentum_y_tolerance": 1e-05,
+    "momentum_z_tolerance": 1e-05,
+    "minimum_t_star": 1.0,
+    "consecutive_checks": 10,
+    "max_steps": 0,
+    "wall_time_limit_s": 0.0
+  },
+  "last_residuals": {
+    "step": 800,
+    "t_star": 1.0,
+    "l2_rho": 0.01841848761071614,
+    "l2_jx": 0.2673858369129767,
+    "l2_jy": 0.41587221185244055,
+    "l2_jz": 9.086775657444055e-16,
+    "linf_rho": 0.05851323505690065,
+    "linf_jx": 6.9026872294382535,
+    "linf_jy": 13.638936483410586,
+    "linf_jz": 7.860465750519907e-15,
+    "balance_rho": 1.6819565114710714e-15,
+    "balance_jx": 3.281089142654513e-11,
+    "balance_jy": 2.550406330156137e-13,
+    "balance_jz": 2.0532160435474045e-18,
+    "streak": 0
+  },
+  "steady_residual_criterion_met": false
+}

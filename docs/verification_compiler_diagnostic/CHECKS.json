@@ -1,0 +1,30 @@
+{
+  "scope": "Read-only offline compiler evidence collection; no installer fix claim",
+  "implementation_and_transport": "passed",
+  "checks": [
+    "Unicode program path",
+    "UTF-16 logs",
+    "bootstrapper log prioritization",
+    "duplicate log suppression",
+    "bounded large log head/tail",
+    "missing evidence explicitly marked",
+    "input byte/mtime preservation",
+    "unique new reports",
+    "actual downloaded payload executed (CRLF/LF)",
+    "payload SHA and corruption rejection contract",
+    "ASCII and CMD line length"
+  ],
+  "network_connections_blocked": true,
+  "observed_network_attempts": 0,
+  "native_windows_bat_powershell": "not_run",
+  "msvc_installation": "not_run",
+  "latest_user_root_cause": "inconclusive; awaiting current report",
+  "numerical_solver_and_dependencies": "unchanged",
+  "sources": {
+    "tools/collect_compiler_diagnostics.py": "8d80ae321ec27556e88ba22f17f32b36414f8de0fc8be5131685cc63b3f0173c",
+    "tools/make_compiler_diagnostics.py": "d559a2020a2ca7e492286dbde2a3260506328c1c56925d5e6b63ba669817def6",
+    "docs/verification_compiler_diagnostic/verify.py": "bc87746f761278ca43842e3b33ab58f08ae623874c064c6e9023a6c698027079"
+  },
+  "download_sha256": "bd62e5378a71e51f9e6504fa0dd49f7838581418ca3ad6cd31e5cc45b96fc08c",
+  "download_bytes": 17106
+}

@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "installed_package": "/workspace/aerokinetic_030_release/clean_app/.venv/lib/python3.12/site-packages/aerokinetic/__init__.py",
+  "version": "0.3.0",
+  "refined_project_roundtrip": true,
+  "hidden_bulk_parameter_preserved": true,
+  "fine_box_preview": true,
+  "actual_worker_stop_resume": true,
+  "steps": 40,
+  "fine_steps": 80,
+  "field_choices_tested": 5,
+  "real_two_level_field": true,
+  "dimensional_pressure_gif": true,
+  "callback_errors": [],
+  "output": "/workspace/aerokinetic_030_release/gui/run_20261027_144808_217022",
+  "linux_tk": "passed",
+  "native_windows": "not_run"
+}

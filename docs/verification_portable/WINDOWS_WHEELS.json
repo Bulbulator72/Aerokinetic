@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "scope": "Download/inspect Windows freezer wheels, NOT a Windows application build",
+  "files": {
+    "pyinstaller-6.16.0-py3-none-win_amd64.whl": {
+      "bytes": 1374706,
+      "sha256": "bc10eb1a787f99fea613509f55b902fbd2d8b73ff5f51ff245ea29a481d97d41"
+    },
+    "pefile-2023.2.7-py3-none-any.whl": {
+      "bytes": 71791,
+      "sha256": "da185cd2af68c08a6cd4481f7325ed600a88f6a813bad9dea07ab3ef73d8d8d6"
+    },
+    "pyinstaller_hooks_contrib-2025.9-py3-none-any.whl": {
+      "bytes": 444283,
+      "sha256": "ccbfaa49399ef6b18486a165810155e5a8d4c59b41f20dc5da81af7482aaf038"
+    },
+    "altgraph-0.17.5-py2.py3-none-any.whl": {
+      "bytes": 21228,
+      "sha256": "f3a22400bce1b0c701683820ac4f3b159cd301acab067c51c653e06961600597"
+    },
+    "pywin32_ctypes-0.2.3-py3-none-any.whl": {
+      "bytes": 30756,
+      "sha256": "8a1513379d709975552d202d942d9837758905c8d01eb82b8bcc30918929e7b8"
+    }
+  },
+  "windowed_bootloader_machine": "0x8664",
+  "native_windows_execution": "not_run"
+}

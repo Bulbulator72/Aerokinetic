@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "installed_package": "/workspace/aerokinetic_030_release/update_app/.venv/lib/python3.12/site-packages/aerokinetic/__init__.py",
+  "version": "0.3.0",
+  "callback_errors": [],
+  "report_folder": "/workspace/aerokinetic_030_release/gui/run_20261027_144808_217022/analysis_20261027_145726_dd195c",
+  "original_files_unchanged": true,
+  "cutoff_changed_for_analysis_only": true,
+  "real_export_button": true,
+  "invalid_window_clears_stale_report": true
+}

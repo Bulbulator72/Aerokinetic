@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "wheel_sha256": "29c76b86687329facbe2d1d1d3203b40473eac077a8ddd9393c3f1718284659b",
+  "wheel_bytes": 57197,
+  "runtime_source_files_match_wheel": 15,
+  "changed_existing_runtime_files": [
+    "aerokinetic/__init__.py",
+    "aerokinetic/cli.py",
+    "aerokinetic/gui.py"
+  ],
+  "unchanged_runtime_files": [
+    "aerokinetic/_io.py",
+    "aerokinetic/animation.py",
+    "aerokinetic/checkpoint.py",
+    "aerokinetic/config.py",
+    "aerokinetic/experiments.py",
+    "aerokinetic/geometry.py",
+    "aerokinetic/project.py",
+    "aerokinetic/solver.py",
+    "aerokinetic/data/Ladson_TM4074_table_IX_Re5p95m_80W.csv",
+    "aerokinetic/data/experiments.json",
+    "aerokinetic/data/ohtake2007_fig5_cl_re30000.csv"
+  ],
+  "numerical_core_unchanged": true,
+  "checkpoint_numerics_revision": 1,
+  "dependencies_changed": false
+}

@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "all_20_installed_runtime_files_match_source_and_tested_wheel": true,
+  "full_installed_offline_suite": "passed",
+  "tests_passed": 65,
+  "actual_gif_frames_read_back": 21,
+  "saved_npz_frames": 21,
+  "all_changed_doc_local_links": "passed",
+  "windows_msvc": "not_run",
+  "gpu": "not_run",
+  "airfoil_validation": "not_run"
+}

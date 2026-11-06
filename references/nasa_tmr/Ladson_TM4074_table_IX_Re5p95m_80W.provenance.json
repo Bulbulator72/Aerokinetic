@@ -1,0 +1,29 @@
+{
+  "title": "Ladson NASA TM-4074 Table IX, R=5.95e6, M=0.15, No. 80-W grit",
+  "citation": "Ladson, Charles L., Effects of independent variation of Mach and Reynolds numbers on the low-speed aerodynamic characteristics of the NACA 0012 airfoil section, NASA TM-4074 (1988)",
+  "url": "https://ntrs.nasa.gov/citations/19880019495",
+  "pdf_url": "https://ntrs.nasa.gov/api/citations/19880019495/downloads/19880019495.pdf",
+  "source_pdf": "NASA_TM4074_Ladson_1988.pdf",
+  "source_pdf_sha256": "8e466706cbdf54b3c778ea2b089c4f52d87686bf7f6b1bd10d224b42c2d06902",
+  "table": "IX, bottom block",
+  "pdf_page_one_based": 21,
+  "printed_page": 19,
+  "extraction_date_utc": "2026-10-26",
+  "method": "Manual transcription of numerical table, checked visually against PDF page rendered with PyMuPDF at 1.7x; not digitization of plotted curves",
+  "rows": 17,
+  "columns": {
+    "alpha_deg": "degrees",
+    "cl": "dimensionless lift coefficient",
+    "cd": "dimensionless drag coefficient",
+    "cm_c4": "dimensionless moment about quarter chord; source sign convention retained"
+  },
+  "re": 5950000,
+  "mach": 0.15,
+  "airfoil": "NACA 0012 experimental model",
+  "trip_label": "No. 80-W grit (exact table title)",
+  "csv_sha256": "b78b3e278ceb1979d6f5099c84ec487475d136c8476fd8d99340636768c79fd2",
+  "derived_file": "Ladson_TM4074_table_IX_Re5p95m_80W.csv",
+  "uncertainty": "Measurement uncertainties not established by this transcription; printed precision is not an uncertainty interval",
+  "relation_to_TMR_original": "TMR labels this series 80 grit and rounds Re to 6 million. At alpha=8.30, this original PDF has Cl=0.8872 while the TMR file has 0.8873. Keep both original files unchanged; this derivative follows the PDF.",
+  "status": "transcribed_and_visual_checked; aerodynamic_accuracy_not_certified"
+}

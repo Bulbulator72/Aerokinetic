@@ -1,0 +1,9 @@
+{
+  "decoded_standalone_script": "passed",
+  "python_network_connections": "forbidden",
+  "original_files_unchanged": "passed",
+  "review_zip_crc_and_sha256": "passed",
+  "uses_existing_0_2_dependencies": "passed",
+  "user_64_cell_history": "not_supplied",
+  "windows_launcher_execution": "not_run"
+}

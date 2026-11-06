@@ -1,0 +1,46 @@
+{
+  "retrieval_date_utc": "2026-10-27",
+  "purpose": "Methodological evidence for remapping; not airfoil validation data",
+  "sources": [
+    {
+      "authors": "Alexandre Dupuis; Bastien Chopard",
+      "title": "Theory and applications of an alternative lattice Boltzmann grid refinement algorithm",
+      "publication": "Physical Review E 67, 066707 (20 June 2003)",
+      "doi": "10.1103/PhysRevE.67.066707",
+      "url": "https://journals.aps.org/pre/abstract/10.1103/PhysRevE.67.066707",
+      "retrieval": "Firecrawl scrape",
+      "scrape_id": "01a17ce5-b742-71b3-b0d3-fa05f1b08033",
+      "coverage": "Publisher bibliography and abstract read; publisher full text requires authorization and was not retrieved",
+      "use": "Primary paper identity and historical method reference. No full-text equations are claimed to have been read."
+    },
+    {
+      "author": "Orestis Malaspinas",
+      "title": "Grid-refinement in Palabos",
+      "publication": "Palabos summer school, 9 June 2021",
+      "url": "https://palabos.unige.ch/download_file/view/32/248",
+      "retrieval": "Firecrawl web search with document scraping",
+      "search_id": "01a17ce5-10d9-758b-af23-766a3df901d3",
+      "coverage": "Parsed slide text read: physical/lattice rescaling, non-equilibrium moments, time interpolation, spatial interpolation, filtering and recursive time stepping",
+      "use": "Methodological guidance; code prefactors independently derived from physical shear stress and verified using the pinned cumulant kernel",
+      "caveat": "Parsed slide text contains inconsistent coarse/fine labels in some equations; the implementation uses explicit dx_f=dx_c/2 and dt_f=dt_c/2 and does not copy those labels blindly"
+    },
+    {
+      "source": "Installed pinned lbmpy package",
+      "version": "1.4",
+      "files_read": [
+        "lbmpy/lbstep.py",
+        "lbmpy/creationfunctions.py",
+        "lbmpy/methods/creationfunctions.py",
+        "lbmpy/methods/cumulantbased/cumulantbasedmethod.py"
+      ],
+      "use": "Confirm collide_stream stores pre-collision PDFs at synchronized times; provide actual cumulant collision and equilibrium setter, with separate shear and bulk rates"
+    }
+  ],
+  "derivation": "For pre-collision populations the leading-order non-equilibrium stress is proportional to tau_lattice * dt_physical * physical strain. Therefore target/source stress scaling is tau_target*dt_target/(tau_source*dt_source), with shear and bulk parts treated separately.",
+  "original_implementation": "Conservative tensor-product five-point cell-average prediction, eight-child restriction, regularized hydrodynamic reconstruction and acceptance tooling written for this project",
+  "not_claimed": [
+    "Implementation of a complete algorithm from a primary paper read in full",
+    "Mass/momentum conservation of streaming across a spatial grid interface",
+    "Experimental validation of an airfoil or a turbulence model"
+  ]
+}

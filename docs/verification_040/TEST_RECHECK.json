@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "method": "Replace only the failed testcase with its successful re-run; retain the original and corrected JUnit files",
+  "initial_result": "61 passed, 1 test incorrectly compared unowned ghosts/solid storage",
+  "correction": "Compare physical fluid PDFs only, as required by the plan",
+  "absolute_pdf_tolerance_unchanged": 2e-12,
+  "corrected_test": "test_uniform_two_threads_preserve_pdfs_and_loads",
+  "all_unique_tests_passed": 62,
+  "runtime_code_changed": false,
+  "test_source_sha256": "96c5df8d00cc973626e1cd48cd356ab68d9978fa3fab566794a6cbff9983c84b"
+}

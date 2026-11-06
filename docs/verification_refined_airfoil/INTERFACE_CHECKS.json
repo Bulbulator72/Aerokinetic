@@ -1,0 +1,2212 @@
+{
+  "status": "passed",
+  "scope": "Periodic fluid-only spatial coarse/fine interfaces; no airfoil walls or loads",
+  "versions": {
+    "aerokinetic": "0.3.0",
+    "lbmpy": "1.4",
+    "pystencils": "1.4",
+    "numpy": "2.3.5",
+    "sympy": "1.12.1"
+  },
+  "python": "3.12.14",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "backend": "cpu_float64",
+  "source_sha256": {
+    "refinement.py": "798053ea229960ca48c818e36e737aab8657e076ae9187230379f752d76b6df8",
+    "interface.py": "001f26cd119232ecea61b93dd2a2278772bc34d010cd6c14b0b519be9711e67a",
+    "interface_checks.py": "282986da2a684c5db6bed89d667a3849be77a5a531251eb4951ff9190de26043",
+    "interface_visualization.py": "f9d0f1c61f9799c7c328c4ada8063f3d618e8249676dbd247d6868930cb88550"
+  },
+  "nu_physical_common_units": 0.03,
+  "zeta_physical_common_units": 0.02,
+  "airfoil_validation": "not_run",
+  "windows_msvc": "not_run",
+  "gpu": "not_run",
+  "shear_wave": [
+    {
+      "history": [
+        {
+          "time": 0.0,
+          "relative_velocity_l2_error": 5.9902416314219e-13,
+          "fitted_relative_amplitude": 1.0000000000002323,
+          "fitted_sine_coefficient": 0.00010000000000002323,
+          "fitted_cosine_coefficient": 1.988625157594836e-19
+        },
+        {
+          "time": 4.0,
+          "relative_velocity_l2_error": 0.03134632654055201,
+          "fitted_relative_amplitude": 0.9166695251565311,
+          "fitted_sine_coefficient": 9.077311357974314e-05,
+          "fitted_cosine_coefficient": -1.2769966113739535e-05,
+          "relative_mass_drift": 0.0,
+          "momentum_drift_per_volume": [
+            -4.163336342344337e-16,
+            3.365363543395006e-16,
+            -1.1726730697603216e-15
+          ]
+        },
+        {
+          "time": 8.0,
+          "relative_velocity_l2_error": 0.037032059825148615,
+          "fitted_relative_amplitude": 0.861994348598884,
+          "fitted_sine_coefficient": 8.283148054265885e-05,
+          "fitted_cosine_coefficient": -2.3859765323139128e-05,
+          "relative_mass_drift": 2.220446049250313e-16,
+          "momentum_drift_per_volume": [
+            -6.38378239159465e-16,
+            2.740863092043355e-16,
+            -8.951173136040325e-16
+          ]
+        },
+        {
+          "time": 12.0,
+          "relative_velocity_l2_error": 0.03854873145242528,
+          "fitted_relative_amplitude": 0.8141838927151371,
+          "fitted_sine_coefficient": 7.431169474601438e-05,
+          "fitted_cosine_coefficient": -3.326749367690505e-05,
+          "relative_mass_drift": 6.661338147750939e-16,
+          "momentum_drift_per_volume": [
+            -6.730727086790012e-16,
+            2.740863092043355e-16,
+            -9.228728892196614e-16
+          ]
+        },
+        {
+          "time": 16.0,
+          "relative_velocity_l2_error": 0.0393604491485018,
+          "fitted_relative_amplitude": 0.7696156754692004,
+          "fitted_sine_coefficient": 6.515490124417492e-05,
+          "fitted_cosine_coefficient": -4.096244283659058e-05,
+          "relative_mass_drift": 6.661338147750939e-16,
+          "momentum_drift_per_volume": [
+            -5.759281940243e-16,
+            2.7755575615628914e-16,
+            -1.0200174038743626e-15
+          ]
+        },
+        {
+          "time": 20.0,
+          "relative_velocity_l2_error": 0.04009941552673929,
+          "fitted_relative_amplitude": 0.7275842671531633,
+          "fitted_sine_coefficient": 5.557636869153014e-05,
+          "fitted_cosine_coefficient": -4.6958022755980314e-05,
+          "relative_mass_drift": 1.1102230246251565e-15,
+          "momentum_drift_per_volume": [
+            -7.7021722333370235e-16,
+            2.949029909160572e-16,
+            -9.471590178833367e-16
+          ]
+        },
+        {
+          "time": 24.0,
+          "relative_velocity_l2_error": 0.04083235108025039,
+          "fitted_relative_amplitude": 0.687865021992831,
+          "fitted_sine_coefficient": 4.581901613955453e-05,
+          "fitted_cosine_coefficient": -5.130497680357355e-05,
+          "relative_mass_drift": 1.1102230246251565e-15,
+          "momentum_drift_per_volume": [
+            -5.967448757360216e-16,
+            2.1510571102112408e-16,
+            -9.749145934989656e-16
+          ]
+        },
+        {
+          "time": 28.0,
+          "relative_velocity_l2_error": 0.04159748542307255,
+          "fitted_relative_amplitude": 0.6503156286917086,
+          "fitted_sine_coefficient": 3.611043978482973e-05,
+          "fitted_cosine_coefficient": -5.408456626204104e-05,
+          "relative_mass_drift": 1.5543122344752192e-15,
+          "momentum_drift_per_volume": [
+            -6.314393452555578e-16,
+            3.0531133177191805e-16,
+            -9.298117831235686e-16
+          ]
+        },
+        {
+          "time": 32.0,
+          "relative_velocity_l2_error": 0.04238245056474253,
+          "fitted_relative_amplitude": 0.6148156653205957,
+          "fitted_sine_coefficient": 2.6654530535150743e-05,
+          "fitted_cosine_coefficient": -5.5403240204764057e-05,
+          "relative_mass_drift": 1.7763568394002505e-15,
+          "momentum_drift_per_volume": [
+            -7.077671781985373e-16,
+            3.434752482434078e-16,
+            -8.98586760555986e-16
+          ]
+        },
+        {
+          "time": 36.0,
+          "relative_velocity_l2_error": 0.04318014032983377,
+          "fitted_relative_amplitude": 0.5812552826744811,
+          "fitted_sine_coefficient": 1.762833202384816e-05,
+          "fitted_cosine_coefficient": -5.5387895305986124e-05,
+          "relative_mass_drift": 1.7763568394002505e-15,
+          "momentum_drift_per_volume": [
+            -6.869504964868156e-16,
+            2.5326962749261384e-16,
+            -9.992007221626409e-16
+          ]
+        },
+        {
+          "time": 40.0,
+          "relative_velocity_l2_error": 0.04401505110074539,
+          "fitted_relative_amplitude": 0.5495266621242527,
+          "fitted_sine_coefficient": 9.180592723950115e-06,
+          "fitted_cosine_coefficient": -5.4180367672166834e-05,
+          "relative_mass_drift": 2.220446049250313e-15,
+          "momentum_drift_per_volume": [
+            -7.147060721024445e-16,
+            2.983724378680108e-16,
+            -9.43689570931383e-16
+          ]
+        }
+      ],
+      "max_sampled_relative_mass_drift": 2.220446049250313e-15,
+      "max_sampled_momentum_drift_per_volume": 1.1726730697603216e-15,
+      "max_absolute_local_reflux_density_or_momentum": 6.081869597749235e-06,
+      "coarse_steps": 40,
+      "fine_steps": 80,
+      "coarse_level": {
+        "dx": 1.0,
+        "dt": 1.0,
+        "tau_shear": 0.59,
+        "tau_bulk": 0.59
+      },
+      "fine_level": {
+        "dx": 0.5,
+        "dt": 0.5,
+        "tau_shear": 0.6799999999999999,
+        "tau_bulk": 0.6799999999999999
+      },
+      "coarse_shape": [
+        16,
+        16,
+        16
+      ],
+      "fine_owned_shape": [
+        8,
+        8,
+        8
+      ],
+      "fine_allocated_shape_with_donors": [
+        12,
+        12,
+        12
+      ],
+      "allocated_lattice_cells": 5824,
+      "uniform_finest_lattice_cells_for_same_domain": 32768,
+      "estimated_memory_gib": 0.26128196716308594,
+      "conservation_passed": true,
+      "subcycling_passed": true,
+      "n": 16,
+      "fitted_physical_viscosity": 0.030343382608816385,
+      "relative_viscosity_error": 0.011446086960546165,
+      "final_relative_velocity_l2_error": 0.04401505110074539
+    },
+    {
+      "history": [
+        {
+          "time": 0.0,
+          "relative_velocity_l2_error": 6.13266042993282e-13,
+          "fitted_relative_amplitude": 1.0000000000000546,
+          "fitted_sine_coefficient": 0.00010000000000000547,
+          "fitted_cosine_coefficient": -6.087722845625042e-19
+        },
+        {
+          "time": 4.0,
+          "relative_velocity_l2_error": 0.01529600571299073,
+          "fitted_relative_amplitude": 0.9316417794318471,
+          "fitted_sine_coefficient": 9.223996116308372e-05,
+          "fitted_cosine_coefficient": -1.3090210711145697e-05,
+          "relative_mass_drift": 2.220446049250313e-16,
+          "momentum_drift_per_volume": [
+            2.491062911502695e-15,
+            1.9845236565174673e-15,
+            9.488937413593135e-15
+          ]
+        },
+        {
+          "time": 8.0,
+          "relative_velocity_l2_error": 0.015817982951406462,
+          "fitted_relative_amplitude": 0.8808419155236786,
+          "fitted_sine_coefficient": 8.460551367252531e-05,
+          "fitted_cosine_coefficient": -2.450983185667271e-05,
+          "relative_mass_drift": 6.661338147750939e-16,
+          "momentum_drift_per_volume": [
+            1.0477729794899915e-15,
+            1.3426759704060487e-15,
+            9.377915111130619e-15
+          ]
+        },
+        {
+          "time": 12.0,
+          "relative_velocity_l2_error": 0.01593436008853803,
+          "fitted_relative_amplitude": 0.8331859963704265,
+          "fitted_sine_coefficient": 7.597722096490605e-05,
+          "fitted_cosine_coefficient": -3.419723585215103e-05,
+          "relative_mass_drift": 8.881784197001252e-16,
+          "momentum_drift_per_volume": [
+            1.2004286453759505e-15,
+            1.4259426972529354e-15,
+            9.370976217226712e-15
+          ]
+        },
+        {
+          "time": 16.0,
+          "relative_velocity_l2_error": 0.016046649813208438,
+          "fitted_relative_amplitude": 0.7881186387580098,
+          "fitted_sine_coefficient": 6.661028226100399e-05,
+          "fitted_cosine_coefficient": -4.2123392369171336e-05,
+          "relative_mass_drift": 1.1102230246251565e-15,
+          "momentum_drift_per_volume": [
+            1.096345236817342e-15,
+            1.4224732503009818e-15,
+            9.249545573908335e-15
+          ]
+        },
+        {
+          "time": 20.0,
+          "relative_velocity_l2_error": 0.016182182775447713,
+          "fitted_relative_amplitude": 0.7454890008697822,
+          "fitted_sine_coefficient": 5.6784560804119353e-05,
+          "fitted_cosine_coefficient": -4.8301678629852336e-05,
+          "relative_mass_drift": 1.5543122344752192e-15,
+          "momentum_drift_per_volume": [
+            1.1587952819525071e-15,
+            1.4259426972529354e-15,
+            9.364037323322805e-15
+          ]
+        },
+        {
+          "time": 24.0,
+          "relative_velocity_l2_error": 0.016324636047083212,
+          "fitted_relative_amplitude": 0.7051652699783412,
+          "fitted_sine_coefficient": 4.676144166729101e-05,
+          "fitted_cosine_coefficient": -5.27820817421292e-05,
+          "relative_mass_drift": 1.7763568394002505e-15,
+          "momentum_drift_per_volume": [
+            1.27675647831893e-15,
+            1.4675760606763788e-15,
+            9.218320551340753e-15
+          ]
+        },
+        {
+          "time": 28.0,
+          "relative_velocity_l2_error": 0.01648059045580913,
+          "fitted_relative_amplitude": 0.6670223117334654,
+          "fitted_sine_coefficient": 3.6779044282502424e-05,
+          "fitted_cosine_coefficient": -5.5646109883515565e-05,
+          "relative_mass_drift": 2.220446049250313e-15,
+          "momentum_drift_per_volume": [
+            9.506284648352903e-16,
+            1.4363510381087963e-15,
+            9.357098429418897e-15
+          ]
+        },
+        {
+          "time": 32.0,
+          "relative_velocity_l2_error": 0.01664534322109853,
+          "fitted_relative_amplitude": 0.6309424762943083,
+          "fitted_sine_coefficient": 2.704961249234995e-05,
+          "fitted_cosine_coefficient": -5.7001776708604834e-05,
+          "relative_mass_drift": 2.6645352591003757e-15,
+          "momentum_drift_per_volume": [
+            9.922618282587337e-16,
+            1.339206523454095e-15,
+            9.346690088563037e-15
+          ]
+        },
+        {
+          "time": 36.0,
+          "relative_velocity_l2_error": 0.016817758309845124,
+          "fitted_relative_amplitude": 0.5968145635764536,
+          "fitted_sine_coefficient": 1.7757562852130077e-05,
+          "fitted_cosine_coefficient": -5.697846254965272e-05,
+          "relative_mass_drift": 2.886579864025407e-15,
+          "momentum_drift_per_volume": [
+            1.1171619185290638e-15,
+            1.394717674685353e-15,
+            9.325873406851315e-15
+          ]
+        },
+        {
+          "time": 40.0,
+          "relative_velocity_l2_error": 0.017006183399878572,
+          "fitted_relative_amplitude": 0.5645326418980988,
+          "fitted_sine_coefficient": 9.058362450130402e-06,
+          "fitted_cosine_coefficient": -5.572178306018696e-05,
+          "relative_mass_drift": 3.3306690738754696e-15,
+          "momentum_drift_per_volume": [
+            9.992007221626409e-16,
+            1.4224732503009818e-15,
+            9.454242944073599e-15
+          ]
+        }
+      ],
+      "max_sampled_relative_mass_drift": 3.3306690738754696e-15,
+      "max_sampled_momentum_drift_per_volume": 9.488937413593135e-15,
+      "max_absolute_local_reflux_density_or_momentum": 3.752968547816381e-06,
+      "coarse_steps": 60,
+      "fine_steps": 120,
+      "coarse_level": {
+        "dx": 0.6666666666666666,
+        "dt": 0.6666666666666666,
+        "tau_shear": 0.635,
+        "tau_bulk": 0.635
+      },
+      "fine_level": {
+        "dx": 0.3333333333333333,
+        "dt": 0.3333333333333333,
+        "tau_shear": 0.77,
+        "tau_bulk": 0.77
+      },
+      "coarse_shape": [
+        24,
+        24,
+        24
+      ],
+      "fine_owned_shape": [
+        12,
+        12,
+        12
+      ],
+      "fine_allocated_shape_with_donors": [
+        16,
+        16,
+        16
+      ],
+      "allocated_lattice_cells": 17920,
+      "uniform_finest_lattice_cells_for_same_domain": 110592,
+      "estimated_memory_gib": 0.2847137451171875,
+      "conservation_passed": true,
+      "subcycling_passed": true,
+      "n": 24,
+      "fitted_physical_viscosity": 0.030049660047376546,
+      "relative_viscosity_error": 0.0016553349125516537,
+      "final_relative_velocity_l2_error": 0.017006183399878572
+    },
+    {
+      "history": [
+        {
+          "time": 0.0,
+          "relative_velocity_l2_error": 5.98283496542107e-13,
+          "fitted_relative_amplitude": 1.0000000000002158,
+          "fitted_sine_coefficient": 0.00010000000000002158,
+          "fitted_cosine_coefficient": -6.80114148705559e-20
+        },
+        {
+          "time": 4.0,
+          "relative_velocity_l2_error": 0.008198825160866256,
+          "fitted_relative_amplitude": 0.9383057018319424,
+          "fitted_sine_coefficient": 9.289644950927309e-05,
+          "fitted_cosine_coefficient": -1.320702727620474e-05,
+          "relative_mass_drift": 2.220446049250313e-16,
+          "momentum_drift_per_volume": [
+            2.6020852139652106e-15,
+            1.6618650899857812e-15,
+            1.6167622796103842e-14
+          ]
+        },
+        {
+          "time": 8.0,
+          "relative_velocity_l2_error": 0.008145887651337894,
+          "fitted_relative_amplitude": 0.8876682345857513,
+          "fitted_sine_coefficient": 8.525034505886017e-05,
+          "fitted_cosine_coefficient": -2.4737170700610016e-05,
+          "relative_mass_drift": 8.881784197001252e-16,
+          "momentum_drift_per_volume": [
+            3.795574965437254e-15,
+            8.396061623727746e-16,
+            1.9397677908372657e-14
+          ]
+        },
+        {
+          "time": 12.0,
+          "relative_velocity_l2_error": 0.008093674371921185,
+          "fitted_relative_amplitude": 0.8397782247831685,
+          "fitted_sine_coefficient": 7.655526760156267e-05,
+          "fitted_cosine_coefficient": -3.4519062424301594e-05,
+          "relative_mass_drift": 1.3322676295501878e-15,
+          "momentum_drift_per_volume": [
+            3.3306690738754696e-15,
+            3.95516952522712e-16,
+            1.9283186158958188e-14
+          ]
+        },
+        {
+          "time": 16.0,
+          "relative_velocity_l2_error": 0.008044510885691355,
+          "fitted_relative_amplitude": 0.7944717199776824,
+          "fitted_sine_coefficient": 6.710886482204748e-05,
+          "fitted_cosine_coefficient": -4.25235628885813e-05,
+          "relative_mass_drift": 1.7763568394002505e-15,
+          "momentum_drift_per_volume": [
+            3.885780586188048e-15,
+            5.551115123125783e-16,
+            1.9272777818102327e-14
+          ]
+        },
+        {
+          "time": 20.0,
+          "relative_velocity_l2_error": 0.00800796047899372,
+          "fitted_relative_amplitude": 0.7516093737720434,
+          "fitted_sine_coefficient": 5.719537273846668e-05,
+          "fitted_cosine_coefficient": -4.876326326988274e-05,
+          "relative_mass_drift": 2.220446049250313e-15,
+          "momentum_drift_per_volume": [
+            3.927413949611491e-15,
+            6.279698983036042e-16,
+            1.9297063946766002e-14
+          ]
+        },
+        {
+          "time": 24.0,
+          "relative_velocity_l2_error": 0.007974619683731364,
+          "fitted_relative_amplitude": 0.7110594675438413,
+          "fitted_sine_coefficient": 4.707934350968904e-05,
+          "fitted_cosine_coefficient": -5.328781360249276e-05,
+          "relative_mass_drift": 2.6645352591003757e-15,
+          "momentum_drift_per_volume": [
+            4.315992008230296e-15,
+            6.175615574477433e-16,
+            1.9376861226660935e-14
+          ]
+        },
+        {
+          "time": 28.0,
+          "relative_velocity_l2_error": 0.007948032727754363,
+          "fitted_relative_amplitude": 0.6726971354214015,
+          "fitted_sine_coefficient": 3.70019359651773e-05,
+          "fitted_cosine_coefficient": -5.617892037829236e-05,
+          "relative_mass_drift": 3.1086244689504383e-15,
+          "momentum_drift_per_volume": [
+            3.6290415117434804e-15,
+            5.828670879282072e-16,
+            1.960237527853792e-14
+          ]
+        },
+        {
+          "time": 32.0,
+          "relative_velocity_l2_error": 0.007925477439097293,
+          "fitted_relative_amplitude": 0.6364044863842077,
+          "fitted_sine_coefficient": 2.7178172709135787e-05,
+          "fitted_cosine_coefficient": -5.7545231175935496e-05,
+          "relative_mass_drift": 3.552713678800501e-15,
+          "momentum_drift_per_volume": [
+            3.760880495917718e-15,
+            5.169475958410885e-16,
+            1.9383800120564842e-14
+          ]
+        },
+        {
+          "time": 36.0,
+          "relative_velocity_l2_error": 0.007907508480326819,
+          "fitted_relative_amplitude": 0.6020700023626329,
+          "fitted_sine_coefficient": 1.7794985691790206e-05,
+          "fitted_cosine_coefficient": -5.7517139720942225e-05,
+          "relative_mass_drift": 3.9968028886505635e-15,
+          "momentum_drift_per_volume": [
+            3.9343528435153985e-15,
+            6.245004513516506e-16,
+            1.961278361939378e-14
+          ]
+        },
+        {
+          "time": 40.0,
+          "relative_velocity_l2_error": 0.007898429474170998,
+          "fitted_relative_amplitude": 0.5695879220449244,
+          "fitted_sine_coefficient": 9.010087630367565e-06,
+          "fitted_cosine_coefficient": -5.6241642314993307e-05,
+          "relative_mass_drift": 4.440892098500626e-15,
+          "momentum_drift_per_volume": [
+            3.698430450782553e-15,
+            4.961309141293668e-16,
+            1.9463597400459776e-14
+          ]
+        }
+      ],
+      "max_sampled_relative_mass_drift": 4.440892098500626e-15,
+      "max_sampled_momentum_drift_per_volume": 1.961278361939378e-14,
+      "max_absolute_local_reflux_density_or_momentum": 2.5921947899954856e-06,
+      "coarse_steps": 80,
+      "fine_steps": 160,
+      "coarse_level": {
+        "dx": 0.5,
+        "dt": 0.5,
+        "tau_shear": 0.6799999999999999,
+        "tau_bulk": 0.6799999999999999
+      },
+      "fine_level": {
+        "dx": 0.25,
+        "dt": 0.25,
+        "tau_shear": 0.8599999999999999,
+        "tau_bulk": 0.8599999999999999
+      },
+      "coarse_shape": [
+        32,
+        32,
+        32
+      ],
+      "fine_owned_shape": [
+        16,
+        16,
+        16
+      ],
+      "fine_allocated_shape_with_donors": [
+        20,
+        20,
+        20
+      ],
+      "allocated_lattice_cells": 40768,
+      "uniform_finest_lattice_cells_for_same_domain": 262144,
+      "estimated_memory_gib": 0.32897377014160156,
+      "conservation_passed": true,
+      "subcycling_passed": true,
+      "n": 32,
+      "fitted_physical_viscosity": 0.029969835795859594,
+      "relative_viscosity_error": 0.0010054734713468294,
+      "final_relative_velocity_l2_error": 0.007898429474170998
+    }
+  ],
+  "vortex_corner": [
+    {
+      "history": [
+        {
+          "time": 0.0,
+          "relative_velocity_l2_error": 4.604455812824417e-12
+        },
+        {
+          "time": 4.0,
+          "relative_velocity_l2_error": 0.08378734447696987,
+          "relative_mass_drift": 2.220446049250313e-16,
+          "momentum_drift_per_volume": [
+            -4.371503159461554e-16,
+            1.1102230246251565e-16,
+            -2.615963001773025e-15
+          ]
+        },
+        {
+          "time": 8.0,
+          "relative_velocity_l2_error": 0.08860093239631636,
+          "relative_mass_drift": 4.440892098500626e-16,
+          "momentum_drift_per_volume": [
+            -4.996003610813204e-16,
+            4.85722573273506e-17,
+            -2.7755575615628914e-15
+          ]
+        },
+        {
+          "time": 12.0,
+          "relative_velocity_l2_error": 0.0874311675779399,
+          "relative_mass_drift": 6.661338147750939e-16,
+          "momentum_drift_per_volume": [
+            -4.579669976578771e-16,
+            6.245004513516506e-17,
+            -2.831068712794149e-15
+          ]
+        },
+        {
+          "time": 16.0,
+          "relative_velocity_l2_error": 0.08533879746238544,
+          "relative_mass_drift": 8.881784197001252e-16,
+          "momentum_drift_per_volume": [
+            -4.371503159461554e-16,
+            -2.7755575615628914e-17,
+            -3.039235529911366e-15
+          ]
+        },
+        {
+          "time": 20.0,
+          "relative_velocity_l2_error": 0.08306729267726451,
+          "relative_mass_drift": 1.1102230246251565e-15,
+          "momentum_drift_per_volume": [
+            -4.0245584642661925e-16,
+            2.706168622523819e-16,
+            -2.8102520310824275e-15
+          ]
+        },
+        {
+          "time": 24.0,
+          "relative_velocity_l2_error": 0.08079629571311549,
+          "relative_mass_drift": 1.3322676295501878e-15,
+          "momentum_drift_per_volume": [
+            -4.787836793695988e-16,
+            6.245004513516506e-17,
+            -2.7200464103316335e-15
+          ]
+        },
+        {
+          "time": 28.0,
+          "relative_velocity_l2_error": 0.0785760170522954,
+          "relative_mass_drift": 1.5543122344752192e-15,
+          "momentum_drift_per_volume": [
+            -5.759281940243e-16,
+            9.020562075079397e-17,
+            -2.7408630920433552e-15
+          ]
+        },
+        {
+          "time": 32.0,
+          "relative_velocity_l2_error": 0.07641677071947889,
+          "relative_mass_drift": 1.7763568394002505e-15,
+          "momentum_drift_per_volume": [
+            -4.163336342344337e-16,
+            1.3877787807814457e-17,
+            -2.8796409701214998e-15
+          ]
+        },
+        {
+          "time": 36.0,
+          "relative_velocity_l2_error": 0.07434395044518531,
+          "relative_mass_drift": 1.9984014443252818e-15,
+          "momentum_drift_per_volume": [
+            -4.2327252813834093e-16,
+            1.3183898417423734e-16,
+            -2.7200464103316335e-15
+          ]
+        },
+        {
+          "time": 40.0,
+          "relative_velocity_l2_error": 0.072353348908755,
+          "relative_mass_drift": 2.220446049250313e-15,
+          "momentum_drift_per_volume": [
+            -3.191891195797325e-16,
+            -2.0122792321330962e-16,
+            -2.9004576518332215e-15
+          ]
+        },
+        {
+          "time": 44.0,
+          "relative_velocity_l2_error": 0.07043957239464353,
+          "relative_mass_drift": 2.4424906541753444e-15,
+          "momentum_drift_per_volume": [
+            -3.885780586188048e-16,
+            1.734723475976807e-16,
+            -2.768618667658984e-15
+          ]
+        },
+        {
+          "time": 48.0,
+          "relative_velocity_l2_error": 0.06860516761989616,
+          "relative_mass_drift": 2.6645352591003757e-15,
+          "momentum_drift_per_volume": [
+            -3.608224830031759e-16,
+            1.3877787807814457e-16,
+            -2.886579864025407e-15
+          ]
+        },
+        {
+          "time": 52.0,
+          "relative_velocity_l2_error": 0.06684161943801531,
+          "relative_mass_drift": 2.886579864025407e-15,
+          "momentum_drift_per_volume": [
+            -5.204170427930421e-16,
+            2.0816681711721685e-16,
+            -2.768618667658984e-15
+          ]
+        },
+        {
+          "time": 56.0,
+          "relative_velocity_l2_error": 0.06514672755705522,
+          "relative_mass_drift": 3.1086244689504383e-15,
+          "momentum_drift_per_volume": [
+            -4.787836793695988e-16,
+            1.3877787807814457e-16,
+            -2.671474153004283e-15
+          ]
+        },
+        {
+          "time": 60.0,
+          "relative_velocity_l2_error": 0.06352618144614675,
+          "relative_mass_drift": 3.3306690738754696e-15,
+          "momentum_drift_per_volume": [
+            -4.787836793695988e-16,
+            6.938893903907228e-17,
+            -2.8727020762175925e-15
+          ]
+        },
+        {
+          "time": 64.0,
+          "relative_velocity_l2_error": 0.06196390536327518,
+          "relative_mass_drift": 3.552713678800501e-15,
+          "momentum_drift_per_volume": [
+            -4.0939474033052647e-16,
+            1.8041124150158794e-16,
+            -2.699229728619912e-15
+          ]
+        },
+        {
+          "time": 68.0,
+          "relative_velocity_l2_error": 0.06046013012670364,
+          "relative_mass_drift": 3.774758283725532e-15,
+          "momentum_drift_per_volume": [
+            -5.412337245047638e-16,
+            1.8735013540549517e-16,
+            -3.0184188481996443e-15
+          ]
+        },
+        {
+          "time": 72.0,
+          "relative_velocity_l2_error": 0.059009002763841474,
+          "relative_mass_drift": 3.9968028886505635e-15,
+          "momentum_drift_per_volume": [
+            -4.85722573273506e-16,
+            1.6653345369377348e-16,
+            -2.7547408798511697e-15
+          ]
+        },
+        {
+          "time": 76.0,
+          "relative_velocity_l2_error": 0.05759103400738992,
+          "relative_mass_drift": 4.218847493575595e-15,
+          "momentum_drift_per_volume": [
+            -3.677613769070831e-16,
+            1.3877787807814457e-17,
+            -2.8171909249863347e-15
+          ]
+        },
+        {
+          "time": 80.0,
+          "relative_velocity_l2_error": 0.05622087595138291,
+          "relative_mass_drift": 4.440892098500626e-15,
+          "momentum_drift_per_volume": [
+            -3.885780586188048e-16,
+            1.249000902703301e-16,
+            -2.8449465006019636e-15
+          ]
+        }
+      ],
+      "max_sampled_relative_mass_drift": 4.440892098500626e-15,
+      "max_sampled_momentum_drift_per_volume": 3.039235529911366e-15,
+      "max_absolute_local_reflux_density_or_momentum": 1.1032366830430844e-06,
+      "coarse_steps": 80,
+      "fine_steps": 160,
+      "coarse_level": {
+        "dx": 1.0,
+        "dt": 1.0,
+        "tau_shear": 0.59,
+        "tau_bulk": 0.59
+      },
+      "fine_level": {
+        "dx": 0.5,
+        "dt": 0.5,
+        "tau_shear": 0.6799999999999999,
+        "tau_bulk": 0.6799999999999999
+      },
+      "coarse_shape": [
+        16,
+        16,
+        16
+      ],
+      "fine_owned_shape": [
+        8,
+        8,
+        8
+      ],
+      "fine_allocated_shape_with_donors": [
+        12,
+        12,
+        12
+      ],
+      "allocated_lattice_cells": 5824,
+      "uniform_finest_lattice_cells_for_same_domain": 32768,
+      "estimated_memory_gib": 0.26128196716308594,
+      "conservation_passed": true,
+      "subcycling_passed": true,
+      "n": 16,
+      "topology": "corner",
+      "initial_center": [
+        4.0,
+        4.0,
+        4.0
+      ],
+      "background_velocity": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "final_relative_velocity_l2_error": 0.05622087595138291,
+      "reference": "Linear periodic advection-diffusion of a 3D Gaussian vector potential; finite-amplitude and compressibility effects remain"
+    },
+    {
+      "history": [
+        {
+          "time": 0.0,
+          "relative_velocity_l2_error": 4.555064532282873e-12
+        },
+        {
+          "time": 4.0,
+          "relative_velocity_l2_error": 0.03704803517144017,
+          "relative_mass_drift": 2.220446049250313e-16,
+          "momentum_drift_per_volume": [
+            5.204170427930421e-16,
+            5.065392549852277e-16,
+            4.8433479449272454e-15
+          ]
+        },
+        {
+          "time": 8.0,
+          "relative_velocity_l2_error": 0.03639576583731932,
+          "relative_mass_drift": 6.661338147750939e-16,
+          "momentum_drift_per_volume": [
+            5.065392549852277e-16,
+            1.0755285551056204e-15,
+            4.718447854656915e-15
+          ]
+        },
+        {
+          "time": 12.0,
+          "relative_velocity_l2_error": 0.035083339117226275,
+          "relative_mass_drift": 1.1102230246251565e-15,
+          "momentum_drift_per_volume": [
+            4.926614671774132e-16,
+            9.020562075079397e-16,
+            5.0584536559483695e-15
+          ]
+        },
+        {
+          "time": 16.0,
+          "relative_velocity_l2_error": 0.03380332697286304,
+          "relative_mass_drift": 1.3322676295501878e-15,
+          "momentum_drift_per_volume": [
+            4.649058915617843e-16,
+            8.257283745649602e-16,
+            5.023759186428833e-15
+          ]
+        },
+        {
+          "time": 20.0,
+          "relative_velocity_l2_error": 0.03256804539181055,
+          "relative_mass_drift": 1.5543122344752192e-15,
+          "momentum_drift_per_volume": [
+            3.0531133177191805e-16,
+            7.91033905045424e-16,
+            5.065392549852277e-15
+          ]
+        },
+        {
+          "time": 24.0,
+          "relative_velocity_l2_error": 0.03139386309745312,
+          "relative_mass_drift": 1.7763568394002505e-15,
+          "momentum_drift_per_volume": [
+            7.979727989493313e-16,
+            4.85722573273506e-16,
+            5.266620473065586e-15
+          ]
+        },
+        {
+          "time": 28.0,
+          "relative_velocity_l2_error": 0.03029239119057758,
+          "relative_mass_drift": 2.220446049250313e-15,
+          "momentum_drift_per_volume": [
+            7.216449660063518e-16,
+            7.7021722333370235e-16,
+            5.218048215738236e-15
+          ]
+        },
+        {
+          "time": 32.0,
+          "relative_velocity_l2_error": 0.029261268284390744,
+          "relative_mass_drift": 2.6645352591003757e-15,
+          "momentum_drift_per_volume": [
+            6.175615574477433e-16,
+            8.604228440844963e-16,
+            5.2111093218343285e-15
+          ]
+        },
+        {
+          "time": 36.0,
+          "relative_velocity_l2_error": 0.02830089573907884,
+          "relative_mass_drift": 3.1086244689504383e-15,
+          "momentum_drift_per_volume": [
+            4.579669976578771e-16,
+            9.367506770274758e-16,
+            5.113964807179627e-15
+          ]
+        },
+        {
+          "time": 40.0,
+          "relative_velocity_l2_error": 0.02740724802894316,
+          "relative_mass_drift": 3.3306690738754696e-15,
+          "momentum_drift_per_volume": [
+            5.828670879282072e-16,
+            7.7021722333370235e-16,
+            5.322131624296844e-15
+          ]
+        },
+        {
+          "time": 44.0,
+          "relative_velocity_l2_error": 0.026574917405243766,
+          "relative_mass_drift": 3.774758283725532e-15,
+          "momentum_drift_per_volume": [
+            8.396061623727746e-16,
+            9.159339953157541e-16,
+            5.4817261840867104e-15
+          ]
+        },
+        {
+          "time": 48.0,
+          "relative_velocity_l2_error": 0.025802438654598425,
+          "relative_mass_drift": 3.9968028886505635e-15,
+          "momentum_drift_per_volume": [
+            6.938893903907228e-16,
+            9.783840404509192e-16,
+            5.585809592645319e-15
+          ]
+        },
+        {
+          "time": 52.0,
+          "relative_velocity_l2_error": 0.025078825560625885,
+          "relative_mass_drift": 4.440892098500626e-15,
+          "momentum_drift_per_volume": [
+            6.661338147750939e-16,
+            1.033895191682177e-15,
+            5.43315392675936e-15
+          ]
+        },
+        {
+          "time": 56.0,
+          "relative_velocity_l2_error": 0.0243996959041817,
+          "relative_mass_drift": 4.6629367034256575e-15,
+          "momentum_drift_per_volume": [
+            7.632783294297951e-16,
+            9.506284648352903e-16,
+            5.4262150328554526e-15
+          ]
+        },
+        {
+          "time": 60.0,
+          "relative_velocity_l2_error": 0.023761935445200666,
+          "relative_mass_drift": 5.10702591327572e-15,
+          "momentum_drift_per_volume": [
+            6.175615574477433e-16,
+            7.632783294297951e-16,
+            5.1486592766991635e-15
+          ]
+        },
+        {
+          "time": 64.0,
+          "relative_velocity_l2_error": 0.02315001162476087,
+          "relative_mass_drift": 5.329070518200751e-15,
+          "momentum_drift_per_volume": [
+            5.134781488891349e-16,
+            8.881784197001252e-16,
+            5.322131624296844e-15
+          ]
+        },
+        {
+          "time": 68.0,
+          "relative_velocity_l2_error": 0.02256049782142533,
+          "relative_mass_drift": 5.773159728050814e-15,
+          "momentum_drift_per_volume": [
+            5.898059818321144e-16,
+            9.367506770274758e-16,
+            5.176414852314792e-15
+          ]
+        },
+        {
+          "time": 72.0,
+          "relative_velocity_l2_error": 0.021992076125053776,
+          "relative_mass_drift": 5.995204332975845e-15,
+          "momentum_drift_per_volume": [
+            6.938893903907228e-16,
+            6.38378239159465e-16,
+            5.023759186428833e-15
+          ]
+        },
+        {
+          "time": 76.0,
+          "relative_velocity_l2_error": 0.02143401231082581,
+          "relative_mass_drift": 6.217248937900877e-15,
+          "momentum_drift_per_volume": [
+            8.881784197001252e-16,
+            8.118505867571457e-16,
+            5.377642775528102e-15
+          ]
+        },
+        {
+          "time": 80.0,
+          "relative_velocity_l2_error": 0.02089261805544892,
+          "relative_mass_drift": 6.661338147750939e-15,
+          "momentum_drift_per_volume": [
+            5.204170427930421e-16,
+            8.326672684688674e-16,
+            5.43315392675936e-15
+          ]
+        }
+      ],
+      "max_sampled_relative_mass_drift": 6.661338147750939e-15,
+      "max_sampled_momentum_drift_per_volume": 5.585809592645319e-15,
+      "max_absolute_local_reflux_density_or_momentum": 8.458972594164068e-07,
+      "coarse_steps": 120,
+      "fine_steps": 240,
+      "coarse_level": {
+        "dx": 0.6666666666666666,
+        "dt": 0.6666666666666666,
+        "tau_shear": 0.635,
+        "tau_bulk": 0.635
+      },
+      "fine_level": {
+        "dx": 0.3333333333333333,
+        "dt": 0.3333333333333333,
+        "tau_shear": 0.77,
+        "tau_bulk": 0.77
+      },
+      "coarse_shape": [
+        24,
+        24,
+        24
+      ],
+      "fine_owned_shape": [
+        12,
+        12,
+        12
+      ],
+      "fine_allocated_shape_with_donors": [
+        16,
+        16,
+        16
+      ],
+      "allocated_lattice_cells": 17920,
+      "uniform_finest_lattice_cells_for_same_domain": 110592,
+      "estimated_memory_gib": 0.2847137451171875,
+      "conservation_passed": true,
+      "subcycling_passed": true,
+      "n": 24,
+      "topology": "corner",
+      "initial_center": [
+        4.0,
+        4.0,
+        4.0
+      ],
+      "background_velocity": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "final_relative_velocity_l2_error": 0.02089261805544892,
+      "reference": "Linear periodic advection-diffusion of a 3D Gaussian vector potential; finite-amplitude and compressibility effects remain"
+    },
+    {
+      "history": [
+        {
+          "time": 0.0,
+          "relative_velocity_l2_error": 4.528610154178225e-12,
+          "slice_file": "frame_000000000.npz"
+        },
+        {
+          "time": 4.0,
+          "relative_velocity_l2_error": 0.019434391242897347,
+          "slice_file": "frame_000000008.npz",
+          "relative_mass_drift": 4.440892098500626e-16,
+          "momentum_drift_per_volume": [
+            1.0130785099704553e-15,
+            1.5265566588595902e-15,
+            2.5576762929802044e-14
+          ]
+        },
+        {
+          "time": 8.0,
+          "relative_velocity_l2_error": 0.018367936758297114,
+          "slice_file": "frame_000000016.npz",
+          "relative_mass_drift": 8.881784197001252e-16,
+          "momentum_drift_per_volume": [
+            2.0747292772682613e-15,
+            2.699229728619912e-15,
+            2.7797208979052357e-14
+          ]
+        },
+        {
+          "time": 12.0,
+          "relative_velocity_l2_error": 0.0173648491332588,
+          "slice_file": "frame_000000024.npz",
+          "relative_mass_drift": 1.3322676295501878e-15,
+          "momentum_drift_per_volume": [
+            2.2551405187698492e-15,
+            3.101685575046531e-15,
+            2.8352320491364935e-14
+          ]
+        },
+        {
+          "time": 16.0,
+          "relative_velocity_l2_error": 0.01645309787361836,
+          "slice_file": "frame_000000032.npz",
+          "relative_mass_drift": 1.5543122344752192e-15,
+          "momentum_drift_per_volume": [
+            2.2620794126737565e-15,
+            2.67841304690819e-15,
+            2.8199664825478976e-14
+          ]
+        },
+        {
+          "time": 20.0,
+          "relative_velocity_l2_error": 0.015619348884971174,
+          "slice_file": "frame_000000040.npz",
+          "relative_mass_drift": 2.220446049250313e-15,
+          "momentum_drift_per_volume": [
+            2.282896094385478e-15,
+            2.824129818890242e-15,
+            2.819272593157507e-14
+          ]
+        },
+        {
+          "time": 24.0,
+          "relative_velocity_l2_error": 0.014861396859647975,
+          "slice_file": "frame_000000048.npz",
+          "relative_mass_drift": 2.6645352591003757e-15,
+          "momentum_drift_per_volume": [
+            2.220446049250313e-15,
+            2.9698465908722937e-15,
+            2.7797208979052357e-14
+          ]
+        },
+        {
+          "time": 28.0,
+          "relative_velocity_l2_error": 0.014177682450537047,
+          "slice_file": "frame_000000056.npz",
+          "relative_mass_drift": 3.1086244689504383e-15,
+          "momentum_drift_per_volume": [
+            2.192690473634684e-15,
+            2.9906632725840154e-15,
+            2.7623736631454676e-14
+          ]
+        },
+        {
+          "time": 32.0,
+          "relative_velocity_l2_error": 0.013561784808020763,
+          "slice_file": "frame_000000064.npz",
+          "relative_mass_drift": 3.552713678800501e-15,
+          "momentum_drift_per_volume": [
+            2.1441182163073336e-15,
+            2.6645352591003757e-15,
+            2.8130275886439904e-14
+          ]
+        },
+        {
+          "time": 36.0,
+          "relative_velocity_l2_error": 0.013009408042645698,
+          "slice_file": "frame_000000072.npz",
+          "relative_mass_drift": 3.9968028886505635e-15,
+          "momentum_drift_per_volume": [
+            1.7139067942650854e-15,
+            2.5951463200613034e-15,
+            2.779027008514845e-14
+          ]
+        },
+        {
+          "time": 40.0,
+          "relative_velocity_l2_error": 0.01251507068322338,
+          "slice_file": "frame_000000080.npz",
+          "relative_mass_drift": 4.440892098500626e-15,
+          "momentum_drift_per_volume": [
+            2.338407245616736e-15,
+            2.8727020762175925e-15,
+            2.78388423424758e-14
+          ]
+        },
+        {
+          "time": 44.0,
+          "relative_velocity_l2_error": 0.012072976417932781,
+          "slice_file": "frame_000000088.npz",
+          "relative_mass_drift": 4.884981308350689e-15,
+          "momentum_drift_per_volume": [
+            1.7069679003611782e-15,
+            3.1710745140856034e-15,
+            2.839395385478838e-14
+          ]
+        },
+        {
+          "time": 48.0,
+          "relative_velocity_l2_error": 0.011679244529189906,
+          "slice_file": "frame_000000096.npz",
+          "relative_mass_drift": 5.329070518200751e-15,
+          "momentum_drift_per_volume": [
+            2.2898349882893854e-15,
+            2.706168622523819e-15,
+            2.7859659024187522e-14
+          ]
+        },
+        {
+          "time": 52.0,
+          "relative_velocity_l2_error": 0.011324511643284052,
+          "slice_file": "frame_000000104.npz",
+          "relative_mass_drift": 5.773159728050814e-15,
+          "momentum_drift_per_volume": [
+            2.248201624865942e-15,
+            2.8380076066980564e-15,
+            2.8234359294998512e-14
+          ]
+        },
+        {
+          "time": 56.0,
+          "relative_velocity_l2_error": 0.01100336697254341,
+          "slice_file": "frame_000000112.npz",
+          "relative_mass_drift": 6.217248937900877e-15,
+          "momentum_drift_per_volume": [
+            2.310651670001107e-15,
+            3.0600522116230877e-15,
+            2.821354261328679e-14
+          ]
+        },
+        {
+          "time": 60.0,
+          "relative_velocity_l2_error": 0.010711805983393436,
+          "slice_file": "frame_000000120.npz",
+          "relative_mass_drift": 6.8833827526759706e-15,
+          "momentum_drift_per_volume": [
+            2.942091015256665e-15,
+            2.4494295480792516e-15,
+            2.816497035595944e-14
+          ]
+        },
+        {
+          "time": 64.0,
+          "relative_velocity_l2_error": 0.010439198703416941,
+          "slice_file": "frame_000000128.npz",
+          "relative_mass_drift": 7.105427357601002e-15,
+          "momentum_drift_per_volume": [
+            2.157996004115148e-15,
+            2.733924198139448e-15,
+            2.811639809863209e-14
+          ]
+        },
+        {
+          "time": 68.0,
+          "relative_velocity_l2_error": 0.010182706562470622,
+          "slice_file": "frame_000000136.npz",
+          "relative_mass_drift": 7.549516567451064e-15,
+          "momentum_drift_per_volume": [
+            2.8796409701214998e-15,
+            3.2751579226442118e-15,
+            2.8074764735208646e-14
+          ]
+        },
+        {
+          "time": 72.0,
+          "relative_velocity_l2_error": 0.00994219734822056,
+          "slice_file": "frame_000000144.npz",
+          "relative_mass_drift": 7.993605777301127e-15,
+          "momentum_drift_per_volume": [
+            2.6575963651964685e-15,
+            3.5110803153770576e-15,
+            2.8130275886439904e-14
+          ]
+        },
+        {
+          "time": 76.0,
+          "relative_velocity_l2_error": 0.0097123001580004,
+          "slice_file": "frame_000000152.npz",
+          "relative_mass_drift": 8.43769498715119e-15,
+          "momentum_drift_per_volume": [
+            1.8318679906315083e-15,
+            2.9559688030644793e-15,
+            2.7977620220553945e-14
+          ]
+        },
+        {
+          "time": 80.0,
+          "relative_velocity_l2_error": 0.009496634761161204,
+          "slice_file": "frame_000000160.npz",
+          "relative_mass_drift": 8.881784197001252e-15,
+          "momentum_drift_per_volume": [
+            2.275957200481571e-15,
+            3.400058012914542e-15,
+            2.819272593157507e-14
+          ]
+        }
+      ],
+      "max_sampled_relative_mass_drift": 8.881784197001252e-15,
+      "max_sampled_momentum_drift_per_volume": 2.839395385478838e-14,
+      "max_absolute_local_reflux_density_or_momentum": 6.487320805634994e-07,
+      "coarse_steps": 160,
+      "fine_steps": 320,
+      "coarse_level": {
+        "dx": 0.5,
+        "dt": 0.5,
+        "tau_shear": 0.6799999999999999,
+        "tau_bulk": 0.6799999999999999
+      },
+      "fine_level": {
+        "dx": 0.25,
+        "dt": 0.25,
+        "tau_shear": 0.8599999999999999,
+        "tau_bulk": 0.8599999999999999
+      },
+      "coarse_shape": [
+        32,
+        32,
+        32
+      ],
+      "fine_owned_shape": [
+        16,
+        16,
+        16
+      ],
+      "fine_allocated_shape_with_donors": [
+        20,
+        20,
+        20
+      ],
+      "allocated_lattice_cells": 40768,
+      "uniform_finest_lattice_cells_for_same_domain": 262144,
+      "estimated_memory_gib": 0.32897377014160156,
+      "conservation_passed": true,
+      "subcycling_passed": true,
+      "n": 32,
+      "topology": "corner",
+      "initial_center": [
+        4.0,
+        4.0,
+        4.0
+      ],
+      "background_velocity": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "final_relative_velocity_l2_error": 0.009496634761161204,
+      "reference": "Linear periodic advection-diffusion of a 3D Gaussian vector potential; finite-amplitude and compressibility effects remain"
+    }
+  ],
+  "vortex_face_edge": [
+    {
+      "history": [
+        {
+          "time": 0.0,
+          "relative_velocity_l2_error": 3.7849556429692604e-12
+        },
+        {
+          "time": 4.0,
+          "relative_velocity_l2_error": 0.017745436627353898,
+          "relative_mass_drift": 4.440892098500626e-16,
+          "momentum_drift_per_volume": [
+            7.28583859910259e-16,
+            -2.1009064069866818e-19,
+            -1.019318125236845e-19
+          ]
+        },
+        {
+          "time": 8.0,
+          "relative_velocity_l2_error": 0.01668661076484716,
+          "relative_mass_drift": 6.661338147750939e-16,
+          "momentum_drift_per_volume": [
+            2.7131075164277263e-15,
+            -2.6636539213187576e-19,
+            -1.8099373547150288e-19
+          ]
+        },
+        {
+          "time": 12.0,
+          "relative_velocity_l2_error": 0.01587700928820531,
+          "relative_mass_drift": 1.1102230246251565e-15,
+          "momentum_drift_per_volume": [
+            2.5396351688300456e-15,
+            -2.191433053224485e-19,
+            -1.353449461871515e-19
+          ]
+        },
+        {
+          "time": 16.0,
+          "relative_velocity_l2_error": 0.015165879100424055,
+          "relative_mass_drift": 1.7763568394002505e-15,
+          "momentum_drift_per_volume": [
+            2.123301534595612e-15,
+            -2.7067996620695235e-19,
+            -7.647781071420273e-20
+          ]
+        },
+        {
+          "time": 20.0,
+          "relative_velocity_l2_error": 0.014541829328466883,
+          "relative_mass_drift": 2.220446049250313e-15,
+          "momentum_drift_per_volume": [
+            2.5743296383495817e-15,
+            -2.9971731443001384e-19,
+            -1.2342031047658705e-19
+          ]
+        },
+        {
+          "time": 24.0,
+          "relative_velocity_l2_error": 0.013983304914422177,
+          "relative_mass_drift": 2.6645352591003757e-15,
+          "momentum_drift_per_volume": [
+            2.5673907444456745e-15,
+            -3.219254595158375e-19,
+            -1.6895494883640611e-19
+          ]
+        },
+        {
+          "time": 28.0,
+          "relative_velocity_l2_error": 0.013435330586189826,
+          "relative_mass_drift": 3.1086244689504383e-15,
+          "momentum_drift_per_volume": [
+            2.192690473634684e-15,
+            -2.938939629176405e-19,
+            -2.0423420196179275e-19
+          ]
+        },
+        {
+          "time": 32.0,
+          "relative_velocity_l2_error": 0.01292805827828896,
+          "relative_mass_drift": 3.3306690738754696e-15,
+          "momentum_drift_per_volume": [
+            2.5951463200613034e-15,
+            -2.4452782396047583e-19,
+            -2.3603764215323155e-19
+          ]
+        },
+        {
+          "time": 36.0,
+          "relative_velocity_l2_error": 0.012432301705847693,
+          "relative_mass_drift": 3.9968028886505635e-15,
+          "momentum_drift_per_volume": [
+            2.0192181260370035e-15,
+            -2.6832415582240133e-19,
+            -2.4557338025474286e-19
+          ]
+        },
+        {
+          "time": 40.0,
+          "relative_velocity_l2_error": 0.012008569255359654,
+          "relative_mass_drift": 4.440892098500626e-15,
+          "momentum_drift_per_volume": [
+            3.6637359812630166e-15,
+            -3.1639327557908287e-19,
+            -2.6775505556096485e-19
+          ]
+        },
+        {
+          "time": 44.0,
+          "relative_velocity_l2_error": 0.01156343901200376,
+          "relative_mass_drift": 4.884981308350689e-15,
+          "momentum_drift_per_volume": [
+            2.130240428499519e-15,
+            -2.8977791218957666e-19,
+            -2.3452886471593483e-19
+          ]
+        },
+        {
+          "time": 48.0,
+          "relative_velocity_l2_error": 0.011185185837488365,
+          "relative_mass_drift": 5.329070518200751e-15,
+          "momentum_drift_per_volume": [
+            2.185751579730777e-15,
+            -2.8947350972415714e-19,
+            -2.4724263073087487e-19
+          ]
+        },
+        {
+          "time": 52.0,
+          "relative_velocity_l2_error": 0.010790775865876453,
+          "relative_mass_drift": 5.773159728050814e-15,
+          "momentum_drift_per_volume": [
+            2.2412627309620348e-15,
+            -3.4204249201312716e-19,
+            -2.687294743225523e-19
+          ]
+        },
+        {
+          "time": 56.0,
+          "relative_velocity_l2_error": 0.010471259010939895,
+          "relative_mass_drift": 6.217248937900877e-15,
+          "momentum_drift_per_volume": [
+            2.67841304690819e-15,
+            -3.5578030762640784e-19,
+            -2.5198899308570414e-19
+          ]
+        },
+        {
+          "time": 60.0,
+          "relative_velocity_l2_error": 0.010115141137177068,
+          "relative_mass_drift": 6.661338147750939e-15,
+          "momentum_drift_per_volume": [
+            3.157196726277789e-15,
+            -3.6474032802158224e-19,
+            -3.288373807143306e-19
+          ]
+        },
+        {
+          "time": 64.0,
+          "relative_velocity_l2_error": 0.009799202351608527,
+          "relative_mass_drift": 7.105427357601002e-15,
+          "momentum_drift_per_volume": [
+            2.5673907444456745e-15,
+            -4.137971014296521e-19,
+            -3.897277999655841e-19
+          ]
+        },
+        {
+          "time": 68.0,
+          "relative_velocity_l2_error": 0.009524728350777525,
+          "relative_mass_drift": 7.549516567451064e-15,
+          "momentum_drift_per_volume": [
+            2.9282132274488504e-15,
+            -3.4152136822721875e-19,
+            -3.581493529007597e-19
+          ]
+        },
+        {
+          "time": 72.0,
+          "relative_velocity_l2_error": 0.009224410501775592,
+          "relative_mass_drift": 7.993605777301127e-15,
+          "momentum_drift_per_volume": [
+            2.5049406993105094e-15,
+            -3.283973206284524e-19,
+            -3.4168184126605404e-19
+          ]
+        },
+        {
+          "time": 76.0,
+          "relative_velocity_l2_error": 0.008963510148738873,
+          "relative_mass_drift": 8.43769498715119e-15,
+          "momentum_drift_per_volume": [
+            2.5604518505417673e-15,
+            -3.588838892847068e-19,
+            -2.9420829155041067e-19
+          ]
+        },
+        {
+          "time": 80.0,
+          "relative_velocity_l2_error": 0.008761651839890248,
+          "relative_mass_drift": 8.881784197001252e-15,
+          "momentum_drift_per_volume": [
+            2.9906632725840154e-15,
+            -3.6378741595592115e-19,
+            -2.7707407234198726e-19
+          ]
+        }
+      ],
+      "max_sampled_relative_mass_drift": 8.881784197001252e-15,
+      "max_sampled_momentum_drift_per_volume": 3.6637359812630166e-15,
+      "max_absolute_local_reflux_density_or_momentum": 1.93373936518363e-06,
+      "coarse_steps": 160,
+      "fine_steps": 320,
+      "coarse_level": {
+        "dx": 0.5,
+        "dt": 0.5,
+        "tau_shear": 0.6799999999999999,
+        "tau_bulk": 0.6799999999999999
+      },
+      "fine_level": {
+        "dx": 0.25,
+        "dt": 0.25,
+        "tau_shear": 0.8599999999999999,
+        "tau_bulk": 0.8599999999999999
+      },
+      "coarse_shape": [
+        32,
+        32,
+        32
+      ],
+      "fine_owned_shape": [
+        16,
+        16,
+        16
+      ],
+      "fine_allocated_shape_with_donors": [
+        20,
+        20,
+        20
+      ],
+      "allocated_lattice_cells": 40768,
+      "uniform_finest_lattice_cells_for_same_domain": 262144,
+      "estimated_memory_gib": 0.32897377014160156,
+      "conservation_passed": true,
+      "subcycling_passed": true,
+      "n": 32,
+      "topology": "face",
+      "initial_center": [
+        4.0,
+        8.0,
+        8.0
+      ],
+      "background_velocity": [
+        0.06,
+        0.0,
+        0.0
+      ],
+      "final_relative_velocity_l2_error": 0.008761651839890248,
+      "reference": "Linear periodic advection-diffusion of a 3D Gaussian vector potential; finite-amplitude and compressibility effects remain"
+    },
+    {
+      "history": [
+        {
+          "time": 0.0,
+          "relative_velocity_l2_error": 4.056983981132208e-12
+        },
+        {
+          "time": 4.0,
+          "relative_velocity_l2_error": 0.01925688713453474,
+          "relative_mass_drift": 2.220446049250313e-16,
+          "momentum_drift_per_volume": [
+            7.632783294297951e-16,
+            1.4988010832439613e-15,
+            3.508569286204922e-20
+          ]
+        },
+        {
+          "time": 8.0,
+          "relative_velocity_l2_error": 0.018060990826410824,
+          "relative_mass_drift": 6.661338147750939e-16,
+          "momentum_drift_per_volume": [
+            1.339206523454095e-15,
+            2.9282132274488504e-15,
+            -3.489378695993692e-20
+          ]
+        },
+        {
+          "time": 12.0,
+          "relative_velocity_l2_error": 0.0169504103174661,
+          "relative_mass_drift": 1.1102230246251565e-15,
+          "momentum_drift_per_volume": [
+            2.0747292772682613e-15,
+            2.9698465908722937e-15,
+            -1.688110194098219e-20
+          ]
+        },
+        {
+          "time": 16.0,
+          "relative_velocity_l2_error": 0.01596138290843521,
+          "relative_mass_drift": 1.7763568394002505e-15,
+          "momentum_drift_per_volume": [
+            1.880440247958859e-15,
+            2.9629076969683865e-15,
+            -8.503416697045124e-21
+          ]
+        },
+        {
+          "time": 20.0,
+          "relative_velocity_l2_error": 0.015092681504667655,
+          "relative_mass_drift": 2.220446049250313e-15,
+          "momentum_drift_per_volume": [
+            2.373101715136272e-15,
+            3.1710745140856034e-15,
+            -6.999933215668741e-20
+          ]
+        },
+        {
+          "time": 24.0,
+          "relative_velocity_l2_error": 0.01433309349487832,
+          "relative_mass_drift": 2.4424906541753444e-15,
+          "momentum_drift_per_volume": [
+            1.7277845820728999e-15,
+            2.8102520310824275e-15,
+            -1.1039883327377729e-19
+          ]
+        },
+        {
+          "time": 28.0,
+          "relative_velocity_l2_error": 0.013675693779126419,
+          "relative_mass_drift": 2.886579864025407e-15,
+          "momentum_drift_per_volume": [
+            2.2690183065776637e-15,
+            2.7200464103316335e-15,
+            -1.2634687548379966e-19
+          ]
+        },
+        {
+          "time": 32.0,
+          "relative_velocity_l2_error": 0.013104140601803144,
+          "relative_mass_drift": 3.3306690738754696e-15,
+          "momentum_drift_per_volume": [
+            1.5057399771478686e-15,
+            2.8171909249863347e-15,
+            -1.6441041855103978e-19
+          ]
+        },
+        {
+          "time": 36.0,
+          "relative_velocity_l2_error": 0.012604647273420368,
+          "relative_mass_drift": 3.9968028886505635e-15,
+          "momentum_drift_per_volume": [
+            1.880440247958859e-15,
+            2.8935187579293142e-15,
+            -2.0868774237977825e-19
+          ]
+        },
+        {
+          "time": 40.0,
+          "relative_velocity_l2_error": 0.012169198636310453,
+          "relative_mass_drift": 4.440892098500626e-15,
+          "momentum_drift_per_volume": [
+            2.2551405187698492e-15,
+            2.8727020762175925e-15,
+            -2.406897059182298e-19
+          ]
+        },
+        {
+          "time": 44.0,
+          "relative_velocity_l2_error": 0.011785318404335712,
+          "relative_mass_drift": 4.884981308350689e-15,
+          "momentum_drift_per_volume": [
+            2.4702462297909733e-15,
+            2.345346139520643e-15,
+            -2.527136033023006e-19
+          ]
+        },
+        {
+          "time": 48.0,
+          "relative_velocity_l2_error": 0.01144441101737245,
+          "relative_mass_drift": 5.329070518200751e-15,
+          "momentum_drift_per_volume": [
+            3.039235529911366e-15,
+            2.7269853042355408e-15,
+            -3.565677835695583e-19
+          ]
+        },
+        {
+          "time": 52.0,
+          "relative_velocity_l2_error": 0.011141598684750573,
+          "relative_mass_drift": 5.773159728050814e-15,
+          "momentum_drift_per_volume": [
+            1.8110513089197866e-15,
+            2.8380076066980564e-15,
+            -3.712651286934005e-19
+          ]
+        },
+        {
+          "time": 56.0,
+          "relative_velocity_l2_error": 0.010871812042195127,
+          "relative_mass_drift": 6.217248937900877e-15,
+          "momentum_drift_per_volume": [
+            2.0747292772682613e-15,
+            3.70536934468646e-15,
+            -3.7078205521566955e-19
+          ]
+        },
+        {
+          "time": 60.0,
+          "relative_velocity_l2_error": 0.010621173289123369,
+          "relative_mass_drift": 6.661338147750939e-15,
+          "momentum_drift_per_volume": [
+            2.55351295663786e-15,
+            2.8171909249863347e-15,
+            -3.8946310216956713e-19
+          ]
+        },
+        {
+          "time": 64.0,
+          "relative_velocity_l2_error": 0.01039223525265339,
+          "relative_mass_drift": 7.105427357601002e-15,
+          "momentum_drift_per_volume": [
+            2.192690473634684e-15,
+            3.3861802251067274e-15,
+            -4.056295200613035e-19
+          ]
+        },
+        {
+          "time": 68.0,
+          "relative_velocity_l2_error": 0.010181196452027898,
+          "relative_mass_drift": 7.549516567451064e-15,
+          "momentum_drift_per_volume": [
+            2.2273849431542203e-15,
+            2.7131075164277263e-15,
+            -3.171410468528308e-19
+          ]
+        },
+        {
+          "time": 72.0,
+          "relative_velocity_l2_error": 0.009980950082336812,
+          "relative_mass_drift": 7.993605777301127e-15,
+          "momentum_drift_per_volume": [
+            2.2065682614424986e-15,
+            2.7824964554667986e-15,
+            -2.891624898138372e-19
+          ]
+        },
+        {
+          "time": 76.0,
+          "relative_velocity_l2_error": 0.009793932992436293,
+          "relative_mass_drift": 8.43769498715119e-15,
+          "momentum_drift_per_volume": [
+            1.8457457784393227e-15,
+            3.3792413312028202e-15,
+            -2.909161127124496e-19
+          ]
+        },
+        {
+          "time": 80.0,
+          "relative_velocity_l2_error": 0.00962233525344398,
+          "relative_mass_drift": 8.881784197001252e-15,
+          "momentum_drift_per_volume": [
+            2.2273849431542203e-15,
+            2.5326962749261384e-15,
+            -2.5064896049336823e-19
+          ]
+        }
+      ],
+      "max_sampled_relative_mass_drift": 8.881784197001252e-15,
+      "max_sampled_momentum_drift_per_volume": 3.70536934468646e-15,
+      "max_absolute_local_reflux_density_or_momentum": 1.6932534625826133e-06,
+      "coarse_steps": 160,
+      "fine_steps": 320,
+      "coarse_level": {
+        "dx": 0.5,
+        "dt": 0.5,
+        "tau_shear": 0.6799999999999999,
+        "tau_bulk": 0.6799999999999999
+      },
+      "fine_level": {
+        "dx": 0.25,
+        "dt": 0.25,
+        "tau_shear": 0.8599999999999999,
+        "tau_bulk": 0.8599999999999999
+      },
+      "coarse_shape": [
+        32,
+        32,
+        32
+      ],
+      "fine_owned_shape": [
+        16,
+        16,
+        16
+      ],
+      "fine_allocated_shape_with_donors": [
+        20,
+        20,
+        20
+      ],
+      "allocated_lattice_cells": 40768,
+      "uniform_finest_lattice_cells_for_same_domain": 262144,
+      "estimated_memory_gib": 0.32897377014160156,
+      "conservation_passed": true,
+      "subcycling_passed": true,
+      "n": 32,
+      "topology": "edge",
+      "initial_center": [
+        4.0,
+        4.0,
+        8.0
+      ],
+      "background_velocity": [
+        0.05,
+        0.05,
+        0.0
+      ],
+      "final_relative_velocity_l2_error": 0.00962233525344398,
+      "reference": "Linear periodic advection-diffusion of a 3D Gaussian vector potential; finite-amplitude and compressibility effects remain"
+    }
+  ],
+  "acoustic": [
+    {
+      "history": [
+        {
+          "time": 0.0
+        },
+        {
+          "time": 4.0,
+          "relative_mass_drift": 2.220446049250313e-16,
+          "momentum_drift_per_volume": [
+            -1.537364799266555e-19,
+            3.054360356475913e-20,
+            -4.413410635286829e-20
+          ]
+        },
+        {
+          "time": 8.0,
+          "relative_mass_drift": 6.661338147750939e-16,
+          "momentum_drift_per_volume": [
+            -3.714239473710107e-19,
+            1.9925472091010268e-20,
+            -5.1136719840884465e-20
+          ]
+        },
+        {
+          "time": 12.0,
+          "relative_mass_drift": 1.3322676295501878e-15,
+          "momentum_drift_per_volume": [
+            -3.102258169318875e-19,
+            5.590907788174431e-20,
+            3.4188957771326795e-20
+          ]
+        }
+      ],
+      "max_sampled_relative_mass_drift": 1.3322676295501878e-15,
+      "max_sampled_momentum_drift_per_volume": 3.714239473710107e-19,
+      "max_absolute_local_reflux_density_or_momentum": 4.766660770153008e-08,
+      "coarse_steps": 24,
+      "fine_steps": 48,
+      "coarse_level": {
+        "dx": 0.5,
+        "dt": 0.5,
+        "tau_shear": 0.6799999999999999,
+        "tau_bulk": 0.6799999999999999
+      },
+      "fine_level": {
+        "dx": 0.25,
+        "dt": 0.25,
+        "tau_shear": 0.8599999999999999,
+        "tau_bulk": 0.8599999999999999
+      },
+      "coarse_shape": [
+        32,
+        32,
+        32
+      ],
+      "fine_owned_shape": [
+        16,
+        16,
+        16
+      ],
+      "fine_allocated_shape_with_donors": [
+        20,
+        20,
+        20
+      ],
+      "allocated_lattice_cells": 40768,
+      "uniform_finest_lattice_cells_for_same_domain": 262144,
+      "estimated_memory_gib": 0.32897377014160156,
+      "conservation_passed": true,
+      "subcycling_passed": true,
+      "direction": 1,
+      "reflected_characteristic_excess_vs_uniform_coarse": 0.0014508743101740737,
+      "backward_characteristic_difference_vs_uniform_fine": 0.0014405956723769393,
+      "reference_transverse_invariance": "Uniform reference uses periodic 4x4 transverse cells for a one-dimensional state",
+      "amplitude_density": 1e-05,
+      "sigma": 1.2
+    },
+    {
+      "history": [
+        {
+          "time": 0.0
+        },
+        {
+          "time": 4.0,
+          "relative_mass_drift": 2.220446049250313e-16,
+          "momentum_drift_per_volume": [
+            -1.3976043629695956e-20,
+            4.0723953422737777e-20,
+            -3.2735637400817516e-20
+          ]
+        },
+        {
+          "time": 8.0,
+          "relative_mass_drift": 6.661338147750939e-16,
+          "momentum_drift_per_volume": [
+            8.766791004082009e-20,
+            5.751046575363465e-20,
+            -3.83533213578305e-20
+          ]
+        },
+        {
+          "time": 12.0,
+          "relative_mass_drift": 1.1102230246251565e-15,
+          "momentum_drift_per_volume": [
+            1.6305384234645282e-20,
+            7.510944612250238e-21,
+            -1.792717225149303e-20
+          ]
+        }
+      ],
+      "max_sampled_relative_mass_drift": 1.1102230246251565e-15,
+      "max_sampled_momentum_drift_per_volume": 8.766791004082009e-20,
+      "max_absolute_local_reflux_density_or_momentum": 4.766660773228881e-08,
+      "coarse_steps": 24,
+      "fine_steps": 48,
+      "coarse_level": {
+        "dx": 0.5,
+        "dt": 0.5,
+        "tau_shear": 0.6799999999999999,
+        "tau_bulk": 0.6799999999999999
+      },
+      "fine_level": {
+        "dx": 0.25,
+        "dt": 0.25,
+        "tau_shear": 0.8599999999999999,
+        "tau_bulk": 0.8599999999999999
+      },
+      "coarse_shape": [
+        32,
+        32,
+        32
+      ],
+      "fine_owned_shape": [
+        16,
+        16,
+        16
+      ],
+      "fine_allocated_shape_with_donors": [
+        20,
+        20,
+        20
+      ],
+      "allocated_lattice_cells": 40768,
+      "uniform_finest_lattice_cells_for_same_domain": 262144,
+      "estimated_memory_gib": 0.32897377014160156,
+      "conservation_passed": true,
+      "subcycling_passed": true,
+      "direction": -1,
+      "reflected_characteristic_excess_vs_uniform_coarse": 0.0014508743071406055,
+      "backward_characteristic_difference_vs_uniform_fine": 0.0014405956695002472,
+      "reference_transverse_invariance": "Uniform reference uses periodic 4x4 transverse cells for a one-dimensional state",
+      "amplitude_density": 1e-05,
+      "sigma": 1.2
+    }
+  ],
+  "negative_control": {
+    "history": [
+      {
+        "time": 0.0
+      },
+      {
+        "time": 1.0,
+        "relative_mass_drift": 5.326673768735191e-09,
+        "momentum_drift_per_volume": [
+          2.8833367880787275e-08,
+          1.0039926813532052e-08,
+          -1.3645481689028571e-09
+        ]
+      },
+      {
+        "time": 2.0,
+        "relative_mass_drift": 1.0339588296659485e-08,
+        "momentum_drift_per_volume": [
+          6.799901485290971e-08,
+          2.651194230471332e-08,
+          -4.743151786265609e-09
+        ]
+      },
+      {
+        "time": 3.0,
+        "relative_mass_drift": 4.151574417576853e-08,
+        "momentum_drift_per_volume": [
+          9.485502130979206e-08,
+          4.594319849560158e-08,
+          -1.0364179476446411e-08
+        ]
+      },
+      {
+        "time": 4.0,
+        "relative_mass_drift": 7.220204834013089e-08,
+        "momentum_drift_per_volume": [
+          9.974099925494362e-08,
+          5.337664542651166e-08,
+          -1.2983784601280912e-08
+        ]
+      },
+      {
+        "time": 5.0,
+        "relative_mass_drift": 9.645717802264642e-08,
+        "momentum_drift_per_volume": [
+          8.333571629645653e-08,
+          4.4403155118055704e-08,
+          -1.0116984689237385e-08
+        ]
+      },
+      {
+        "time": 6.0,
+        "relative_mass_drift": 1.0838365893661717e-07,
+        "momentum_drift_per_volume": [
+          5.548606653998922e-08,
+          2.7334605849638205e-08,
+          -4.162783636893486e-09
+        ]
+      },
+      {
+        "time": 7.0,
+        "relative_mass_drift": 1.0644337389287273e-07,
+        "momentum_drift_per_volume": [
+          3.183355262378895e-08,
+          1.4288460688932636e-08,
+          4.1017781358954064e-10
+        ]
+      },
+      {
+        "time": 8.0,
+        "relative_mass_drift": 9.258612165830016e-08,
+        "momentum_drift_per_volume": [
+          2.329898151146037e-08,
+          1.0990458196302733e-08,
+          1.4318515661332354e-09
+        ]
+      }
+    ],
+    "max_sampled_relative_mass_drift": 1.0838365893661717e-07,
+    "max_sampled_momentum_drift_per_volume": 9.974099925494362e-08,
+    "max_absolute_local_reflux_density_or_momentum": 0.0,
+    "coarse_steps": 8,
+    "fine_steps": 16,
+    "coarse_level": {
+      "dx": 1.0,
+      "dt": 1.0,
+      "tau_shear": 0.59,
+      "tau_bulk": 0.59
+    },
+    "fine_level": {
+      "dx": 0.5,
+      "dt": 0.5,
+      "tau_shear": 0.6799999999999999,
+      "tau_bulk": 0.6799999999999999
+    },
+    "coarse_shape": [
+      16,
+      16,
+      16
+    ],
+    "fine_owned_shape": [
+      8,
+      8,
+      8
+    ],
+    "fine_allocated_shape_with_donors": [
+      12,
+      12,
+      12
+    ],
+    "allocated_lattice_cells": 5824,
+    "uniform_finest_lattice_cells_for_same_domain": 32768,
+    "estimated_memory_gib": 0.26128196716308594,
+    "conservation_passed": false,
+    "subcycling_passed": true,
+    "expected_balance_violation_detected": true
+  },
+  "acceptance": {
+    "composite_conservation": true,
+    "integer_subcycling": true,
+    "finest_oblique_wave_error": true,
+    "finest_oblique_wave_viscosity": true,
+    "oblique_wave_error_reduced_with_resolution": true,
+    "finest_vortex_errors": true,
+    "corner_vortex_error_reduced_with_resolution": true,
+    "acoustic_excess_reflection": true,
+    "disabled_reflux_detected": true,
+    "field_exports": true
+  },
+  "field_exports": {
+    "gif": "verification_vortex.gif",
+    "png": "verification_vortex.png",
+    "frame_count": 21,
+    "times": [
+      0.0,
+      4.0,
+      8.0,
+      12.0,
+      16.0,
+      20.0,
+      24.0,
+      28.0,
+      32.0,
+      36.0,
+      40.0,
+      44.0,
+      48.0,
+      52.0,
+      56.0,
+      60.0,
+      64.0,
+      68.0,
+      72.0,
+      76.0,
+      80.0
+    ],
+    "colour_scale_fixed_across_frames": true,
+    "xy_interpolation": "none: flat shading of actual cells",
+    "z_interpolation": "density and momentum linearly interpolated to the stated plane",
+    "gif_frames_read_back": 21
+  },
+  "elapsed_seconds": 305.1050532309964,
+  "process_peak_rss_gib_linux": 0.6087532043457031
+}

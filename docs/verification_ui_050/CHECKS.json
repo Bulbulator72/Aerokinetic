@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-29",
+  "version": "0.5.0",
+  "scope": "Desktop redesign; no numerical kernel changes",
+  "status": "passed_with_platform_limits",
+  "wheel": "aerokinetic-0.5.0-py3-none-any.whl",
+  "wheel_sha256": "8aea2033cfd4f2b5044298b048eff71e4b00a79b31b720adab30de21e2f204c6",
+  "installed_tests": 32,
+  "installed_real_worker_stop_resume": "passed",
+  "selected_threads": 2,
+  "project_input_readonly_view_export": "passed",
+  "final_layout_and_save_protection": "passed",
+  "frozen_relocated_cold_cache_gui": "passed",
+  "frozen_bundle_files_verified": 1890,
+  "kernel_and_data_unchanged_files": 26,
+  "runtime_sources_match_wheel": true,
+  "dependencies_added": false,
+  "frozen_startup_mean_differences_vs_040": {
+    "uniform_mean": {
+      "cl": 0.0,
+      "cd": 0.0,
+      "cm": 0.0
+    },
+    "refined_mean": {
+      "cl": 1.9095836023552692e-14,
+      "cd": 4.440892098500626e-16,
+      "cm": 5.773159728050814e-15
+    }
+  },
+  "fixed_numerical_tolerance": 1e-10,
+  "heartbeat_max_s": 1.07904168999994,
+  "heartbeat_p95_s": 0.09395004905031781,
+  "linux_1280x720": "passed",
+  "linux_large_font_form_reflow_and_primary_actions": "passed",
+  "full_large_font_plot_layout": "inconclusive; 200% at 1280x720 needs more plot space; see report",
+  "native_windows_050": "not_run; builder performs GUI acceptance on home PC, offline target check required",
+  "os_network_isolation": "not_established; Python connection and DNS denied in self-test",
+  "aerodynamic_validation": "not_run; no new physical-accuracy claim"
+}

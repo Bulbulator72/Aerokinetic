@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "scope": "certificate download/inspection and static preparation script checks",
+  "certificate_download": "passed; HTTPS Microsoft PKI",
+  "certificate_der_bytes": 1729,
+  "certificate_sha256": "fe229efc927f6d77b738896752a21803a59736baa17bf5be9a50c72e219cbcd2",
+  "certificate_asn1_inspection": "passed; OpenSSL x509",
+  "artifact_bytes": 10130,
+  "artifact_sha256": "af1b6d438866920ed4dca0e41e27b8301204c1514ad332fc2fe348409d114a6c",
+  "ascii_crlf_and_txt_identity": "passed",
+  "script_does_not_import_certificates": true,
+  "native_windows_powershell_execution": "not_run",
+  "full_layout_download_in_this_environment": "not_run",
+  "user_missing_pca2024": "inconclusive; not proven by provided log",
+  "solver_or_dependency_versions_changed": false
+}

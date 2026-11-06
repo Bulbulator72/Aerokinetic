@@ -1,0 +1,75 @@
+{
+  "datasets": [
+    {
+      "file": "CLCD_Ladson_expdata.dat",
+      "url": "https://tmbwg.github.io/turbmodels/NACA0012_validation/CLCD_Ladson_expdata.dat",
+      "role": "experimental_force_data",
+      "bytes": 1343,
+      "sha256": "78cd2f6aa4968e80f44cbf6c96f699bd9c6e45681d958ec528a10cf72ed23357",
+      "downloaded_at_utc": "2026-10-26T07:57:46.325086+00:00",
+      "status": "downloaded",
+      "solver_comparison": "not_performed"
+    },
+    {
+      "file": "CP_Gregory_expdata.dat",
+      "url": "https://tmbwg.github.io/turbmodels/NACA0012_validation/CP_Gregory_expdata.dat",
+      "role": "experimental_pressure_data",
+      "bytes": 1608,
+      "sha256": "38d8474bc67661c3cef5e4cd9eeddb95d4a436d06abc1f58a8518066f510647c",
+      "downloaded_at_utc": "2026-10-26T07:57:46.362446+00:00",
+      "status": "downloaded",
+      "solver_comparison": "not_performed"
+    },
+    {
+      "file": "CP_Ladson.dat",
+      "url": "https://tmbwg.github.io/turbmodels/NACA0012_validation/CP_Ladson.dat",
+      "role": "experimental_pressure_data",
+      "bytes": 6331,
+      "sha256": "547e022634a360cd7697813543348cd447ee0038cdbc8f00a5296c7822ec7af8",
+      "downloaded_at_utc": "2026-10-26T07:57:46.427578+00:00",
+      "status": "downloaded",
+      "solver_comparison": "not_performed"
+    },
+    {
+      "file": "naca4412.cp.expt.dat",
+      "url": "https://tmbwg.github.io/turbmodels/NACA4412sep_validation/naca4412.cp.expt.dat",
+      "role": "experimental_pressure_data",
+      "bytes": 2375,
+      "sha256": "501a77e4176625d8d240eceb311cf9436bbdeb0ab790c8386731a3e914f5952b",
+      "downloaded_at_utc": "2026-10-26T07:57:46.240871+00:00",
+      "status": "downloaded",
+      "solver_comparison": "not_performed"
+    },
+    {
+      "file": "naca4412.exp.profiles.new.dat",
+      "url": "https://tmbwg.github.io/turbmodels/NACA4412sep_validation/exp.profiles.new.dat",
+      "role": "experimental_velocity_profiles",
+      "bytes": 70197,
+      "sha256": "7d87d6915648589a4bdcc194ec495b3f48aa55fe7e7fd4baab17cd98f013bd5f",
+      "downloaded_at_utc": "2026-10-26T07:57:47.025518+00:00",
+      "status": "downloaded",
+      "solver_comparison": "not_performed"
+    },
+    {
+      "file": "n0012points_superbig_clust_fix.dat",
+      "url": "https://tmbwg.github.io/turbmodels/NACA0012_grids/n0012points_superbig_clust_fix.dat",
+      "role": "benchmark_geometry",
+      "bytes": 824246,
+      "sha256": "74e147db4fa052be7ab79465a756c55b39b1786bfd7141a86257e89586728ae1",
+      "downloaded_at_utc": "2026-10-26T07:57:47.832658+00:00",
+      "status": "downloaded",
+      "solver_comparison": "not_performed"
+    },
+    {
+      "file": "NASA_TM4074_Ladson_1988.pdf",
+      "url": "https://ntrs.nasa.gov/api/citations/19880019495/downloads/19880019495.pdf",
+      "role": "experimental_report",
+      "bytes": 11348135,
+      "sha256": "8e466706cbdf54b3c778ea2b089c4f52d87686bf7f6b1bd10d224b42c2d06902",
+      "downloaded_at_utc": "2026-10-26T07:57:51.769322+00:00",
+      "status": "downloaded",
+      "solver_comparison": "not_performed"
+    }
+  ],
+  "note": "Original source bytes; benchmark conditions and limitations are documented separately. Download does not validate a CFD result."
+}

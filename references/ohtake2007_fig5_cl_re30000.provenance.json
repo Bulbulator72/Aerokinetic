@@ -1,0 +1,30 @@
+{
+  "doi": "10.2322/jjsass.55.439",
+  "printed_page": 441,
+  "figure": 5,
+  "pdf_sha256": "552c25268b8892c26f0cec7f45bc177f99b4109f926d3c60fc4a771c3a4924ee",
+  "method": "Vector triangular marker bounding-box centers; affine calibration from plot frame",
+  "axis_frame_pdf_points": [
+    342.98333740234375,
+    600.6068115234375,
+    537.49609375,
+    718.6524658203125
+  ],
+  "axis_ranges": {
+    "alpha_deg": [
+      -5,
+      20
+    ],
+    "cl": [
+      -0.2,
+      0.8
+    ]
+  },
+  "points": 115,
+  "digitization_bounds": {
+    "alpha_deg": 0.12,
+    "cl": 0.008
+  },
+  "bounds_meaning": "Approximate half-marker-width bounds; NOT tunnel measurement uncertainties",
+  "status": "digitized_published_graph; not an original author-supplied dataset"
+}

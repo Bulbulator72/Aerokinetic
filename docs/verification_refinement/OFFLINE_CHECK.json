@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "installed_package": "/workspace/aerokinetic_refinement_dev/clean_env/lib/python3.12/site-packages/aerokinetic/__init__.py",
+  "tests_passed": 52,
+  "fresh_jit_caches": true,
+  "python_network_connections_and_dns": "blocked",
+  "blocked_attempt_count": 0,
+  "os_network_namespace_disconnected": false,
+  "cli_verify_refinement": "passed",
+  "analytic_shear_wave_remeshing": "passed",
+  "png_report": true,
+  "spatial_interface": "not_run",
+  "airfoil_accuracy": "not_validated",
+  "windows_msvc": "not_run",
+  "gpu": "not_run"
+}

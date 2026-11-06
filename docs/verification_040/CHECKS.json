@@ -1,0 +1,47 @@
+{
+  "implementation": {
+    "status": "passed",
+    "installed_tests": 62,
+    "first_test_attempt": "61 passed; test-only ownership correction; see TEST_RECHECK.json",
+    "corrected_uniform_test": "passed with original 2e-12 tolerance",
+    "additional_source_airfoil_regression": 19
+  },
+  "threaded_interface": {
+    "status": "passed",
+    "positive_cases": 10,
+    "negative_control": "passed"
+  },
+  "residuals_and_stopping": {
+    "status": "passed",
+    "four_conservative_components": true,
+    "checkpointed_monitor": true
+  },
+  "gui": {
+    "status": "passed",
+    "actual_worker_threads": 2,
+    "mesh_and_conditions": true,
+    "final_ui_sync": true
+  },
+  "offline_linux_cpu": {
+    "status": "passed",
+    "python_network_attempts": 0,
+    "fresh_jit": true
+  },
+  "performance": {
+    "status": "passed",
+    "benchmark": 1.5717105052450688,
+    "linear_thread_scaling": "not_established"
+  },
+  "numerical_aerodynamic_uncertainty": {
+    "status": "not_run"
+  },
+  "wind_tunnel_accuracy": {
+    "status": "inconclusive"
+  },
+  "windows_msvc": {
+    "status": "not_run"
+  },
+  "gpu": {
+    "status": "not_run"
+  }
+}

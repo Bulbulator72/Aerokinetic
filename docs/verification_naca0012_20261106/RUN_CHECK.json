@@ -1,0 +1,194 @@
+{
+  "status": "finished",
+  "installed": "/workspace/aerokinetic_ui_050/env/lib/python3.12/site-packages/aerokinetic/__init__.py",
+  "version": "0.5.0",
+  "cases": {
+    "uniform32": {
+      "summary": {
+        "status": "completed",
+        "steps": 4800,
+        "t_star": 6.0,
+        "wall_clock_seconds": 132.56433290999996,
+        "samples": 1200,
+        "averaging_samples": 600,
+        "average_after_t_star": 3,
+        "mean": {
+          "cl": 0.20285906207143725,
+          "cd": 0.07444551967594126,
+          "cm": 0.016998288068344566
+        },
+        "rms_fluctuation": {
+          "cl": 0.1785076666651338,
+          "cd": 0.009898750976411196,
+          "cm": 0.03819908221246668
+        },
+        "wall_fallback_links": 0,
+        "experimental_validation": "not_performed",
+        "termination_reason": "duration_reached",
+        "termination": {
+          "mode": "time",
+          "mass_tolerance": 1e-05,
+          "momentum_x_tolerance": 1e-05,
+          "momentum_y_tolerance": 1e-05,
+          "momentum_z_tolerance": 1e-05,
+          "minimum_t_star": 1.0,
+          "consecutive_checks": 10,
+          "max_steps": 0,
+          "wall_time_limit_s": 1800
+        },
+        "last_residuals": {
+          "step": 4800,
+          "t_star": 6.0,
+          "l2_rho": 0.006640837086781483,
+          "l2_jx": 0.2961350864618399,
+          "l2_jy": 0.47172146302516504,
+          "l2_jz": 7.143991679559481e-07,
+          "linf_rho": 0.021344695405989267,
+          "linf_jx": 4.712162067665898,
+          "linf_jy": 5.4921064620053315,
+          "linf_jz": 2.0554107745110245e-05,
+          "streak": 0
+        },
+        "steady_residual_criterion_met": false,
+        "statistical_convergence": "not_established"
+      },
+      "plan": {
+        "shape": [
+          176,
+          101,
+          16
+        ],
+        "origin": [
+          -1.749391012564956,
+          -1.5829000833015587
+        ],
+        "dx": 0.03125,
+        "span": 0.5,
+        "viscosity": 4.266666666666667e-05,
+        "relaxation_rate": 1.999488131038454,
+        "dt_convective": 0.00125,
+        "dt_seconds": 6.418003336266459e-05,
+        "estimated_memory_gib": 0.22792899906635286,
+        "notes": [
+          "Uniform isotropic grid; no mesh refinement or wall model.",
+          "Accuracy is unvalidated until grid/domain/span/Mach/statistical convergence and tunnel comparison.",
+          "The initial spanwise perturbation is numerical seeding, not a specified tunnel turbulence spectrum.",
+          "Fewer than 256 cells/chord: use for development; do not assume a resolved boundary layer.",
+          "Relaxation time is close to 0.5; low-viscosity stability and resolution require special checks."
+        ]
+      },
+      "elapsed_seconds": 132.66310417
+    },
+    "uniform64": {
+      "summary": {
+        "status": "stopped",
+        "steps": 8696,
+        "t_star": 5.4350000000000005,
+        "wall_clock_seconds": 1801.263997951,
+        "samples": 2174,
+        "averaging_samples": 974,
+        "average_after_t_star": 3,
+        "mean": {
+          "cl": 0.2159342586325173,
+          "cd": 0.051447522171711085,
+          "cm": 0.021210317676149663
+        },
+        "rms_fluctuation": {
+          "cl": 0.3142327780640529,
+          "cd": 0.02046004806325172,
+          "cm": 0.07868373019334726
+        },
+        "wall_fallback_links": 0,
+        "experimental_validation": "not_performed",
+        "termination_reason": "wall_time_limit",
+        "termination": {
+          "mode": "time",
+          "mass_tolerance": 1e-05,
+          "momentum_x_tolerance": 1e-05,
+          "momentum_y_tolerance": 1e-05,
+          "momentum_z_tolerance": 1e-05,
+          "minimum_t_star": 1.0,
+          "consecutive_checks": 10,
+          "max_steps": 0,
+          "wall_time_limit_s": 1800
+        },
+        "last_residuals": {
+          "step": 8672,
+          "t_star": 5.42,
+          "l2_rho": 0.006384813333609082,
+          "l2_jx": 0.38572517170018655,
+          "l2_jy": 0.5839501346527627,
+          "l2_jz": 2.212722195238593e-05,
+          "linf_rho": 0.020350727967050064,
+          "linf_jx": 12.108679130806737,
+          "linf_jy": 16.145825636066775,
+          "linf_jz": 0.0009300915873464372,
+          "streak": 0
+        },
+        "steady_residual_criterion_met": false,
+        "statistical_convergence": "not_established"
+      },
+      "plan": {
+        "shape": [
+          352,
+          201,
+          32
+        ],
+        "origin": [
+          -1.749391012564956,
+          -1.5750875833015587
+        ],
+        "dx": 0.015625,
+        "span": 0.5,
+        "viscosity": 8.533333333333334e-05,
+        "relaxation_rate": 1.9989765240197017,
+        "dt_convective": 0.000625,
+        "dt_seconds": 3.209001668133229e-05,
+        "estimated_memory_gib": 1.6875166565179824,
+        "notes": [
+          "Uniform isotropic grid; no mesh refinement or wall model.",
+          "Accuracy is unvalidated until grid/domain/span/Mach/statistical convergence and tunnel comparison.",
+          "The initial spanwise perturbation is numerical seeding, not a specified tunnel turbulence spectrum.",
+          "Fewer than 256 cells/chord: use for development; do not assume a resolved boundary layer.",
+          "Relaxation time is close to 0.5; low-viscosity stability and resolution require special checks."
+        ]
+      },
+      "elapsed_seconds": 1801.9724823919998
+    }
+  },
+  "experimental_validation": "inconclusive; comparison only",
+  "source_sha256": {
+    "config.py": "fa2a3411c5b959a8568a924567bdc1f6746fda30208e35f8a411477d3de65972",
+    "project.py": "503dae52f098f1c370f996512fa5c75daac7e9511f6e19866d0da5291366685c",
+    "experiments.py": "1dfc0b698839c4bb763a94d6fd73302f6616ad373f6ff3f4bd3792d626b16e3d",
+    "refined_run.py": "36fc858be6ebcfa679588fe758fad8d0679c8ea083e2e51c3db6938d2c4df1ee",
+    "cli.py": "38b69606715a79f0e31440dc893e48169ac739ba51b3766c839e11601bd66a07",
+    "__init__.py": "7aa5ee6826a0c0a54aa4f065055f71845f1c7015c1e1f9396e3d273611e9118d",
+    "temporal.py": "81a5f98b874180606c8d29783a309b1493bd6479f728de2ebdb4be184c99ddf4",
+    "parallel.py": "97e907d036f169bdc195f101eefcf4d3cb50ff2c7bba4d917b362d2c739d691a",
+    "walls.py": "13c8e9812f05390f3afb20f9d6908c00bb6f37ab58515e2d244cf031d64346dd",
+    "convergence.py": "c4acfcbdc0cd067884e65df1405273f2269e79437aa06dd6fc438f93fb7afd14",
+    "refined_checkpoint.py": "c2be84a529fb6647f62dbe15b5b0a3862782dd65d35accdace86d2d571860795",
+    "gui_style.py": "0058f06add0938d406834eb5edfe3a12618015af854cfd479ae4e01734b71ac2",
+    "checkpoint.py": "a5a802cc3fbb91d0261ed927f9269f81df6dc663b44d2947013d5afdf59994e2",
+    "gui_widgets.py": "c243d1100a3d65fc8e62bc1252551a46c4cb8e103999c04d2d0fb3434932e236",
+    "refinement_checks.py": "a6a4046d8b16db23c96698c4e725715e04b0d8d9731b98c0a245bded09778704",
+    "mesh.py": "5336a04a85239e7ad24c43de62a4ff8921ae9f85196d29869c5f410de8b6148b",
+    "interface_visualization.py": "f9d0f1c61f9799c7c328c4ada8063f3d618e8249676dbd247d6868930cb88550",
+    "refinement.py": "798053ea229960ca48c818e36e737aab8657e076ae9187230379f752d76b6df8",
+    "solver.py": "f115417ec90a4e4a41237e8c8bfde3f906342a40b9a3f3ebd37f0791deeee238",
+    "gui_convergence.py": "a0e8422c5753b1c92852856352ff96bad88c4b928a5ec150922afeace4179ac0",
+    "refined_visualization.py": "f36bbaea2c471884301da7bee6fad2e775527076965a5ff2daf70151b12b050c",
+    "interface_checks.py": "fdf1b945d373785d924ee93aaa75fa134611a7d3ee83dfdb5941000502c19622",
+    "animation.py": "a083d3ac1420c7d4038a70e157ce5f5cdddd959041738443d76186a251faf067",
+    "refined_solver.py": "5b789e0d47cc3c116f8959f3c2d20f39110ba55d01210e7cbc85c20154089019",
+    "gui.py": "db83f2806503f1b6eed895fb766ca0666f65fb089eb20fca36433787a5b96ccd",
+    "_io.py": "26df857e7c0ae75fae63a1bcccc9d52fefba0b6d14f6ea39f5644a353a91fdec",
+    "gui_mesh.py": "f7ffef88a7d200ee6372c280b19a52df23b91b2e74bef1a0fbbf53252f032677",
+    "interface.py": "97a8f327ce2d091ba8ca9a5b6870e2d0fa00b4a0961945d130118a0e06c61a2b",
+    "gui_layout.py": "7367391418ad2ea60887db88f14414b8c2dec43af8486d2698e57866a04f56a4",
+    "geometry.py": "30beffe1914547e836fcf636d776a12018878945db817172a9c35c970aef4a94"
+  },
+  "elapsed_seconds": 1999.742904785,
+  "python_network_attempts": []
+}

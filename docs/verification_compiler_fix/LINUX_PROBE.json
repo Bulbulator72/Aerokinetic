@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "backend": "Linux CPU / g++",
+  "fresh_jit_and_symbolic_cache": true,
+  "test": "32 double values, dst=2*src; exact comparison",
+  "probe_code_sha256": "9fafbb6849a055b49f6a68913047e3487615babd11b036e4150b2463da249111",
+  "windows_msvc_execution": "not_run"
+}

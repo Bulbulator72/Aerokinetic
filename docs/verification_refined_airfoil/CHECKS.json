@@ -1,0 +1,58 @@
+{
+  "implementation": {
+    "status": "passed",
+    "tests": 97,
+    "pytest_seconds": 1023.695,
+    "relevant_cases": "Fractional wall decay, geometry, isotropic pressure, symmetry, force/moment/time, budget, virtual fill isolation, restart, crash rollback"
+  },
+  "interface_regression": {
+    "status": "passed",
+    "positive_cases": 10,
+    "negative_control": true
+  },
+  "strict_reference_moment_recheck": {
+    "status": "passed",
+    "absolute_tolerance": 2e-12
+  },
+  "numerical_uncertainty": {
+    "status": "not_run",
+    "scope": "Airfoil mesh/domain/span/timestep-Mach/long-time statistics"
+  },
+  "wind_tunnel": {
+    "status": "inconclusive",
+    "scope": "Short startup NACA0012 Re=30000 alpha=5; only digitized Cl available"
+  },
+  "offline_linux_cpu": {
+    "status": "passed",
+    "fresh_jit": true,
+    "python_network_attempts": 0
+  },
+  "gui_linux": {
+    "status": "passed",
+    "actual_refined_worker_stop_resume": true,
+    "legacy_results": true,
+    "lossless_analysis_cutoff_export": true
+  },
+  "offline_update_linux": {
+    "status": "passed",
+    "fault_injection_rollback": true,
+    "user_files_preserved": true
+  },
+  "final_wheel": {
+    "candidate_wheel_sha256": "a4467789a91dc7b418cd2064b1aadf246aa7ebc661c518b5e982f8f4068e83e7",
+    "final_wheel_sha256": "4594cbc68cf56e1ec052c86d2abdb8d3dc2ee5b671eeb5495947642367b77566",
+    "runtime_files": 25,
+    "runtime_matches_source": true,
+    "candidate_to_final_runtime_changes": [
+      "aerokinetic/gui.py"
+    ],
+    "numerical_runtime_and_data_byte_identical": true,
+    "gui_change": "Preserve averaging-cutoff float roundtrip for refresh/export; separate GUI recheck required"
+  },
+  "windows_msvc": {
+    "status": "not_run"
+  },
+  "gpu": {
+    "status": "not_run"
+  }
+}

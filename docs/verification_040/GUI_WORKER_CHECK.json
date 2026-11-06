@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "version": "0.4.0",
+  "installed_package": "/workspace/aerokinetic_040_release/clean_app/.venv/lib/python3.12/site-packages/aerokinetic/__init__.py",
+  "mesh_draft_cancel": true,
+  "mesh_apply_and_zoom": true,
+  "threads_selected": 2,
+  "hidden_flow_settings_preserved": true,
+  "stopping_settings_roundtrip": true,
+  "actual_worker_stop_resume": true,
+  "actual_step_limit": 30,
+  "four_live_residual_components": true,
+  "residual_views": 3,
+  "residual_rows": 15,
+  "pressure_gif": true,
+  "callback_errors": [],
+  "output": "/workspace/aerokinetic_040_release/gui/run_20261027_170157_d0a041",
+  "native_windows": "not_run"
+}

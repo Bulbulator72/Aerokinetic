@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "scope": "photo interpretation and documentation consistency; no Windows certificate import executed",
+  "photo_sha256": "afa608b06a95338376f0057bc47729ac1d13aff745b6ff2d91234e7d5b6ffc55",
+  "observed_windows_version": "10.0.19045",
+  "observed_build_tools_bootstrapper": "17.14.37824.6",
+  "observed_error_code": "0x80131509",
+  "observed_certificate_status": "InvalidCertificate",
+  "local_vs_installer_opc_found": true,
+  "first_commentary_code_0x800B0109": "incorrect reading; corrected; not present on screenshot",
+  "recommended_procedure": "Microsoft documented import of three named layout root-certificate files into LocalMachine Root",
+  "official_source": "https://learn.microsoft.com/en-us/visualstudio/install/install-certificates-for-visual-studio-offline?view=vs-2022",
+  "windows_certificate_import": "not_run",
+  "user_fix_result": "inconclusive; awaiting retry",
+  "solver_changes": false
+}

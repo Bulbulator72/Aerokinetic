@@ -1,0 +1,19 @@
+{
+  "README_RU.md": "700344cab96372a762e44814d1f084ae01f87de30668247d72e022783193a6a6",
+  "docs/BUILD_PORTABLE_RU.md": "86e0703f168190cacacd931e21d9c6f422c706b3cf3abdbda8709ba135300441",
+  "docs/PORTABLE_WINDOWS_RU.md": "e387bb99bc3600db79c344c9385e68eb8bd04fedbd7da40ef37316203e7ba960",
+  "docs/verification_portable/finalize.py": "72e04241dc7d4667528fc36fcf7b5acbdea49a33c82647769e2bf39758c49ad3",
+  "tests/test_portable_packaging.py": "73886e76dfcc6c6b30aa8a1b4150c73115a26548095872ef9c9bdccec751786a",
+  "tools/make_portable_builder_transfer.py": "2b5cbeb7d362d538907707e4340cbd60cf7099821abb4caaef26157aabf796f4",
+  "tools/portable/AeroKinetic.spec": "a3e663b011eb025438bf3b27365dabb71d3dd08af404c006fc7f7b1f7f1f26e6",
+  "tools/portable/ak_portable_runtime.py": "c30ef9a12d3a671c98c940420a4bc4b57b6100b7f58ac09b1b97eff3a7061641",
+  "tools/portable/ak_portable_selftest.py": "afcc12b42d45b39a6728edcf217ede8fe3312a1ed490ead7917a04a178e9df98",
+  "tools/portable/build.py": "d852edb5327b1d490c74192f2c996b4b9036917ad341d2e3966e9c652192a626",
+  "tools/portable/entry.py": "cb769d5d919a727fb9b537a03b6227b0f2112272639e3cf76963562a7b67d4a9",
+  "tools/portable/hooks/hook-aerokinetic.py": "470253fb2915153d26acef68f5890c87f66298c351bb2b64e6fb6005c95594e7",
+  "tools/portable/hooks/hook-lbmpy.py": "7a5d636c1b5d8e7bd795d38b26d8ca9dfbbeb1fb59987dc46b1fee67271418b3",
+  "tools/portable/hooks/hook-pystencils.py": "3a55a2ca2bfefc08bf2c5edc178ae5f13d92d38b3444f8b0bdec9517d0ccd97f",
+  "tools/portable/hooks/hook-sympy.py": "3284f3b0406590dc496caeb3274374de2cdd1d13ce1cbc6dffb22db6439c696c",
+  "tools/portable/requirements-build.txt": "a9aa3b8b7f41b7c16fdc18504c9129beb1f4c7299df4b49fa4921dad530066f3",
+  "tools/portable/toolchain.py": "78c639ce92e288f6aa18b6642753f95db7fcb5a308f557cb35e15a2c5430547d"
+}

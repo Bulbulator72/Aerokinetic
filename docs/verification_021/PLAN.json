@@ -1,0 +1,14 @@
+{
+  "scope": "0.2.1: integrated descriptive temporal statistics, mean traces and one-click review archive; offline update",
+  "numerical_solver_changes": false,
+  "acceptance_before_verification": {
+    "statistics": "Known periodic signal has the analytic mean and population RMS to absolute tolerance 1e-14; linear drift is detected descriptively; no automatic convergence certification",
+    "gui": "Open an actual saved case on a real Tk display, match displayed numeric mean to analyzer at 5e-6 relative tolerance for 6 significant digit formatting; change analysis cutoff without changing any original run bytes; create valid review archive through button; no callback exceptions",
+    "wheel": "Built wheel contains exact checked runtime sources and unchanged numerical core compared to 0.2.0",
+    "offline": "Install old then new application wheel with no-index/no-deps into isolated env populated from cached pinned wheels; run installed package with Python socket network denied; analyze actual saved user run, create CSV-containing review ZIP and PNG; pip check passes",
+    "update_transport": "Actual embedded ZIP roundtrip with CRLF and LF; size/SHA and per-file hashes pass; updater works against existing 0.2.0 venv; damaged payload rejected before install; old package backup remains available",
+    "platform_limits": "Linux CPU/Tk verified if execution passes; Windows BAT/PowerShell execution not_run unless actually available"
+  },
+  "experimental_validation": "inconclusive: this post-processing/UI change does not establish aerodynamic accuracy",
+  "spatial_temporal_convergence": "not_assessed: no changed numerical method and no new convergence claim"
+}

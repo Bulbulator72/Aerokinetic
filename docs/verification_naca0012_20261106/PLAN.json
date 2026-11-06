@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-06",
+  "scope": "Primary experimental sources, preliminary NACA0012 comparison, accurate popular-science method description",
+  "runtime_version": "0.5.0 installed wheel",
+  "new_runs": {
+    "method": "Existing uniform D3Q27 cumulant CPU solver; no numerical model changes",
+    "reynolds": 30000,
+    "alpha_deg": 4,
+    "geometry": "NACA0012 analytic finite trailing-edge definition, 81 points per side, one element, no flap",
+    "physical_chord_m": 0.15,
+    "moment_reference": "quarter chord, y=0",
+    "grids_cells_per_chord": [32, 64],
+    "domain_chords": {"upstream": 1.5, "downstream": 3.0, "transverse_each_side": 1.5, "periodic_span": 0.5},
+    "lattice_speed": 0.04,
+    "sgs": "none",
+    "initial_perturbation": 0.0001,
+    "seed": 31,
+    "threads": 2,
+    "duration_t_star": 6,
+    "average_after_t_star": 3,
+    "sample_every_steps": 4,
+    "field_check_every_steps": 32,
+    "frame_every_steps": 800,
+    "checkpoint_every_steps": 1000,
+    "memory_limit_gib": 4,
+    "wall_time_limit_seconds_per_run_after_setup": 1800
+  },
+  "experimental_data": {
+    "low_re": "Ohtake, Nakae, Motohashi 2007; Re=30000, Cl Fig.5, Cd Fig.6, Cm(c/4) Fig.11; digitize distinguishable triangular markers",
+    "high_re": "NASA Ladson TM-4074 table IX, Re=5.95e6, M=0.15, 80-W trip; retain original values and conditions",
+    "no_other_cfd_as_truth": true,
+    "no_extrapolation": true,
+    "interpolation": "Piecewise linear within each measured coefficient series, preserving original digitized angles"
+  },
+  "digitization_policy": "Calibrate from PDF frame, separate legend markers, visually inspect overlays, record half-marker-size bounds; do not call them tunnel uncertainty",
+  "analysis": [
+    "Signed absolute differences Cl/Cd/Cm; Cd relative difference for nonzero experimental Cd",
+    "Same alpha/Re and moment convention; document geometry, turbulence/transition, span/tunnel and Mach mismatches/unknowns",
+    "Report actual averaging times, counts, RMS and block/half-window changes; do not equate RMS with uncertainty of mean",
+    "Compare the two mesh results as grid sensitivity only; no formal observed order or GCI from two meshes",
+    "Do not alter physical inputs or averaging interval to fit experimental data",
+    "Report time-limit or numerical failures as incomplete; preserve checkpoints and partial histories",
+    "No physical validation pass/fail threshold claimed: missing numerical/statistical convergence and unknown tunnel uncertainty keep validation inconclusive"
+  ],
+  "high_re_solver_comparison": "not_run: released Flow rejects Re=6e6; no fabricated calculation or extrapolation from low Re",
+  "method_text": "Separate UTF-8 TXT explaining actual 0.5 implementation, not a proposed high-Re solver; cite primary method papers and exact source/pinned dependencies"
+}

@@ -1,0 +1,6 @@
+{
+  "geometry": {"naca0012": {"n_side": 401, "closed_te": false}},
+  "flow": {"reynolds": 30000, "alpha_deg": 5.0, "lattice_speed": 0.04, "physical_chord_m": 0.15, "sgs": "none", "perturbation": 0.0001},
+  "grid": {"cells_per_chord": 512, "upstream_chords": 6, "downstream_chords": 12, "transverse_chords": 6, "span_chords": 0.5, "memory_limit_gib": 8, "target": "cpu", "openmp_threads": 4},
+  "run": {"duration_convective": 100, "sample_every": 40, "frame_every": 2000, "check_every": 200, "average_after": 30}
+}

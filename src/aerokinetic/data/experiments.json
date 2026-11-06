@@ -1,0 +1,40 @@
+[
+  {
+    "id": "ohtake_re30000",
+    "label": "NACA0012 — Ohtake 2007, Re=30000",
+    "file": "ohtake2007_fig5_cl_re30000.csv",
+    "reynolds": 30000,
+    "mach": null,
+    "coefficients": [
+      "cl"
+    ],
+    "url": "https://doi.org/10.2322/jjsass.55.439",
+    "source": "Ohtake, Nakae, Motohashi (2007), Fig.5, printed p.441",
+    "conditions": "Свободный переход; доступна оцифровка Cl. Cd/Cm пока не извлечены. M в наборе не задан.",
+    "digitization_bounds": {
+      "alpha_deg": 0.12,
+      "cl": 0.008
+    },
+    "uncertainty_note": "Границы оцифровки не являются погрешностью продувки.",
+    "copyright": "The Japan Society for Aeronautical and Space Sciences (2007); source attribution retained.",
+    "sha256": "f281e6da50c0dc810f2ec1ef70ddea79e7d2cd6073f3791d0f872fdd263b2d72"
+  },
+  {
+    "id": "ladson_80w_re5950000",
+    "label": "NACA0012 — NASA TM-4074, Re=5.95 млн",
+    "file": "Ladson_TM4074_table_IX_Re5p95m_80W.csv",
+    "reynolds": 5950000,
+    "mach": 0.15,
+    "coefficients": [
+      "cl",
+      "cd",
+      "cm_c4"
+    ],
+    "url": "https://ntrs.nasa.gov/citations/19880019495",
+    "source": "Ladson NASA TM-4074 (1988), table IX, printed p.19, PDF p.21, lower block",
+    "conditions": "M=0.15; Re=5.95 млн; трип 80-W. Момент относительно c/4.",
+    "uncertainty_note": "Числа переписаны из таблицы и визуально проверены; погрешность измерения не установлена.",
+    "copyright": "NASA TM-4074 (1988), original scientific source retained.",
+    "sha256": "b78b3e278ceb1979d6f5099c84ec487475d136c8476fd8d99340636768c79fd2"
+  }
+]

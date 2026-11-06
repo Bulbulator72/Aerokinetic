@@ -1,0 +1,56 @@
+[
+  {
+    "cells_per_chord": 32,
+    "shape": [
+      176,
+      101,
+      16
+    ],
+    "estimated_memory_gib": 0.18858850300312044
+  },
+  {
+    "cells_per_chord": 64,
+    "shape": [
+      352,
+      201,
+      32
+    ],
+    "estimated_memory_gib": 1.3962516456842422
+  },
+  {
+    "cells_per_chord": 96,
+    "shape": [
+      528,
+      302,
+      48
+    ],
+    "estimated_memory_gib": 4.603677988052368
+  },
+  {
+    "cells_per_chord": 128,
+    "shape": [
+      704,
+      402,
+      64
+    ],
+    "estimated_memory_gib": 10.757602250576019
+  },
+  {
+    "cells_per_chord": 192,
+    "shape": [
+      1056,
+      603,
+      96
+    ],
+    "estimated_memory_gib": 35.84698210656643
+  },
+  {
+    "cells_per_chord": 256,
+    "shape": [
+      1408,
+      804,
+      128
+    ],
+    "estimated_memory_gib": 84.42731693387032
+  }
+]

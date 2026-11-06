@@ -1,0 +1,28 @@
+# Tested package closure for CPython 3.12, 64-bit Windows and Linux.
+# Windows-only pytest dependency colorama is included for both platforms.
+appdirs==1.4.4
+colorama==0.4.6
+contourpy==1.3.3
+cycler==0.12.1
+fasteners==0.20
+fonttools==4.61.1
+iniconfig==2.3.1
+joblib==1.5.3
+kiwisolver==1.4.9
+lbmpy==1.4
+matplotlib==3.10.8
+mpmath==1.3.0
+numpy==2.3.5
+packaging==26.3
+pillow==12.3.0
+pluggy==1.7.0
+pygments==2.21.0
+pyparsing==3.3.2
+pystencils==1.4
+pytest==9.1.1
+python-dateutil==2.9.0.post0
+pyyaml==6.0.3
+setuptools==84.0.0
+six==1.17.0
+sympy==1.12.1
+wheel==0.48.0

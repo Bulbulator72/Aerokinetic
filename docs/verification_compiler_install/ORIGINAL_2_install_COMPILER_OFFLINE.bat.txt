@@ -1,0 +1,13 @@
+@echo off
+setlocal
+cd /d "%~dp0"
+if not exist downloads\vs_buildtools\vs_BuildTools.exe (
+  echo Offline C++ layout missing. Prepare it with 1b_download_COMPILER_ONLINE.bat.
+  pause
+  exit /b 1
+)
+start /wait "" downloads\vs_buildtools\vs_BuildTools.exe --noWeb --add Microsoft.VisualStudio.Workload.VCTools --includeRecommended --lang en-US --passive --wait --norestart
+set "AEROKINETIC_RESULT=%ERRORLEVEL%"
+if "%AEROKINETIC_RESULT%"=="3010" echo Installation completed; reboot is required.
+pause
+exit /b %AEROKINETIC_RESULT%

@@ -1,0 +1,134 @@
+{
+  "feature": "offline descriptive temporal diagnostics, standalone in existing 0.2 environment",
+  "source_sha256": "54d95dcde8555c04f9b089288c6b7924c02b9c7f29054fdf51a72a19fa971721",
+  "tests": {
+    "passed": 7,
+    "wall_seconds": 0.83,
+    "command": "MPLCONFIGDIR=/workspace/.cache/matplotlib_v02 OPENBLAS_NUM_THREADS=1 /workspace/aerokinetic_02_release/verify_env/bin/python -m pytest tests/test_temporal.py -q"
+  },
+  "standalone_check": {
+    "decoded_standalone_script": "passed",
+    "python_network_connections": "forbidden",
+    "original_files_unchanged": "passed",
+    "review_zip_crc_and_sha256": "passed",
+    "uses_existing_0_2_dependencies": "passed",
+    "user_64_cell_history": "not_supplied",
+    "windows_launcher_execution": "not_run"
+  },
+  "launcher": {
+    "artifact": "ANALYZE_RESULTS.txt",
+    "bytes": 22966,
+    "sha256": "9296b013d55e367a8fdddeef7841475712a64349fca2b04377eeac76e401330b",
+    "source_sha256": "54d95dcde8555c04f9b089288c6b7924c02b9c7f29054fdf51a72a19fa971721",
+    "source_roundtrip_crlf_and_lf": "passed",
+    "windows_launcher_execution": "not_run",
+    "solver_or_dependency_changes": false
+  },
+  "numerical_solver": "unchanged",
+  "application_and_dependency_wheel_rebuild": "not_performed; existing installation used",
+  "experimental_accuracy": "not_validated",
+  "local_diagnostic_execution": {
+    "original": {
+      "status": "completed",
+      "steps": 3200,
+      "t_star": 2.0,
+      "wall_clock_seconds": 412.67182026699993,
+      "samples": 160,
+      "averaging_samples": 80,
+      "average_after_t_star": 1.0,
+      "mean": {
+        "cl": 0.4530033857848513,
+        "cd": 0.057325345247249616,
+        "cm": -0.10238933854158785
+      },
+      "rms_fluctuation": {
+        "cl": 0.6598752064854977,
+        "cd": 0.052217968869232884,
+        "cm": 0.2962779113164664
+      },
+      "wall_fallback_links": 0,
+      "experimental_validation": "not_performed"
+    },
+    "later_transient": {
+      "status": "stopped",
+      "steps": 6440,
+      "t_star": 4.025,
+      "wall_clock_seconds": 458.16641295600016,
+      "samples": 162,
+      "averaging_samples": 82,
+      "average_after_t_star": 3,
+      "mean": {
+        "cl": 0.3986276531223873,
+        "cd": 0.07332256464347567,
+        "cm": -0.10244860563256333
+      },
+      "rms_fluctuation": {
+        "cl": 0.429561385892957,
+        "cd": 0.035381365901790404,
+        "cm": 0.19477276953098363
+      },
+      "wall_fallback_links": 0,
+      "experimental_validation": "not_performed"
+    },
+    "peak_rss_kib_linux": 1372216,
+    "wall_seconds_including_compilation": 903.7040050380001,
+    "core_changes": false,
+    "experimental_validation": "not_performed",
+    "user_history_reproduction": "not_tested; only project.json supplied"
+  },
+  "grid_probe": {
+    "meaning": "Two underresolved startup grids; no observed order, GCI or validated error estimate. Do not select a grid by closest match to the tunnel.",
+    "rows": [
+      {
+        "source": "local numerical diagnostic, not user history",
+        "cells_per_chord": 32,
+        "t_star": 2.0,
+        "average_after_t_star": 1.0,
+        "mean": {
+          "cl": 0.4043032422039808,
+          "cd": 0.07769742239697168,
+          "cm": -0.08264699243505902
+        },
+        "rms": {
+          "cl": 0.5540242969437073,
+          "cd": 0.05071500328769883,
+          "cm": 0.245478439708051
+        },
+        "half_mean_differences": {
+          "cl": 0.005559656085863396,
+          "cd": -0.0013493450645541277,
+          "cm": -0.00034138445609542545
+        }
+      },
+      {
+        "source": "local numerical diagnostic, not user history",
+        "cells_per_chord": 64,
+        "t_star": 2.0,
+        "average_after_t_star": 1.0,
+        "mean": {
+          "cl": 0.4530033857848513,
+          "cd": 0.057325345247249616,
+          "cm": -0.10238933854158785
+        },
+        "rms": {
+          "cl": 0.6598752064854977,
+          "cd": 0.052217968869232884,
+          "cm": 0.2962779113164664
+        },
+        "half_mean_differences": {
+          "cl": 0.036861006296395604,
+          "cd": -0.0004970679166677455,
+          "cm": -0.01210560955311532
+        }
+      }
+    ]
+  },
+  "user_64_cell_history_received": false,
+  "core_byte_match_with_tested_0_2_wheel": {
+    "solver.py": true,
+    "geometry.py": true,
+    "config.py": true,
+    "checkpoint.py": true,
+    "project.py": true
+  }
+}

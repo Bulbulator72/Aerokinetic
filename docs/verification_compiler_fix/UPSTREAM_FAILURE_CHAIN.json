@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "scope": "forced missing-MSVC discovery in pinned pystencils 1.4 on Linux; confirms secondary partial-import cascade",
+  "errors": [
+    {
+      "type": "ValueError",
+      "message": "Visual Studio not found. Write path to VS folder in pystencils config"
+    },
+    {
+      "type": "AttributeError",
+      "message": "partially initialized module 'pystencils' has no attribute 'astnodes' (most likely due to a circular import)"
+    }
+  ],
+  "windows_execution": "not_run"
+}

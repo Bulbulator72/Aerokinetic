@@ -1,0 +1,23 @@
+{
+  "freestream_inputs_consistent": true,
+  "chord_m": 10.731416978144646,
+  "speed_m_s": 136.1175952104356,
+  "reynolds": 100000000.0,
+  "mach": 0.4000000000000001,
+  "alpha_deg": 30.0,
+  "atmosphere": {
+    "temperature_k": 288.15,
+    "pressure_pa": 101325.0,
+    "rho_kg_m3": 1.225000018124288,
+    "nu_m2_s": 1.4607346722654891e-05,
+    "sound_speed_m_s": 340.293988026089
+  },
+  "matches_legacy_solver_input_limits": false,
+  "legacy_solver_limits": {
+    "reynolds_max": 100000.0,
+    "mach_max": 0.15
+  },
+  "solver_executed": false,
+  "aerodynamic_validation": "not_performed",
+  "note": "Input planning only. Matching legacy input limits does not establish aerodynamic accuracy. Cases outside those limits require a new verified solver; this tool does not enable them."
+}

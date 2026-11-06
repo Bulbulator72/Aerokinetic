@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "purpose": "Internal source-snapshot verification, not a published application update",
+  "wheel": "/workspace/aerokinetic_refinement_dev/dist/aerokinetic-0.2.1-1refinement-py3-none-any.whl",
+  "wheel_bytes": 66940,
+  "wheel_sha256": "e36795b19d7bd902a09da010129da5d9857fafa818f01b91cab1d48455ee42a3",
+  "baseline_wheel_sha256": "29c76b86687329facbe2d1d1d3203b40473eac077a8ddd9393c3f1718284659b",
+  "runtime_source_files_match_wheel": 17,
+  "changed_existing_runtime_files": [
+    "aerokinetic/cli.py"
+  ],
+  "added_runtime_files": [
+    "aerokinetic/refinement.py",
+    "aerokinetic/refinement_checks.py"
+  ],
+  "unchanged_runtime_files": [
+    "aerokinetic/__init__.py",
+    "aerokinetic/_io.py",
+    "aerokinetic/animation.py",
+    "aerokinetic/checkpoint.py",
+    "aerokinetic/config.py",
+    "aerokinetic/experiments.py",
+    "aerokinetic/geometry.py",
+    "aerokinetic/gui.py",
+    "aerokinetic/project.py",
+    "aerokinetic/solver.py",
+    "aerokinetic/temporal.py",
+    "aerokinetic/data/Ladson_TM4074_table_IX_Re5p95m_80W.csv",
+    "aerokinetic/data/experiments.json",
+    "aerokinetic/data/ohtake2007_fig5_cl_re30000.csv"
+  ],
+  "production_solver_unchanged": true,
+  "dependencies_changed": false,
+  "requirements_sha256": "99a019bfc87cf71487a37c5db770bd04e458b9e302f775b8b525a44ef3470c8a",
+  "tested_before_build_tag_repack_sha256": "38184f79452787f26dfab199f7947483a8638899d6848e71a6d5ea605c9bba78",
+  "build_tag_repack_all_17_runtime_files_identical_to_tested_wheel": true
+}

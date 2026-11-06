@@ -1,0 +1,40 @@
+{
+  "reference": {
+    "id": "ohtake_re30000",
+    "label": "NACA0012 — Ohtake 2007, Re=30000",
+    "file": "ohtake2007_fig5_cl_re30000.csv",
+    "reynolds": 30000,
+    "mach": null,
+    "coefficients": [
+      "cl"
+    ],
+    "url": "https://doi.org/10.2322/jjsass.55.439",
+    "source": "Ohtake, Nakae, Motohashi (2007), Fig.5, printed p.441",
+    "conditions": "Свободный переход; доступна оцифровка Cl. Cd/Cm пока не извлечены. M в наборе не задан.",
+    "digitization_bounds": {
+      "alpha_deg": 0.12,
+      "cl": 0.008
+    },
+    "uncertainty_note": "Границы оцифровки не являются погрешностью продувки.",
+    "copyright": "The Japan Society for Aeronautical and Space Sciences (2007); source attribution retained.",
+    "sha256": "f281e6da50c0dc810f2ec1ef70ddea79e7d2cd6073f3791d0f872fdd263b2d72"
+  },
+  "alpha_deg": 5.0,
+  "reynolds": 30000.0,
+  "differences": [
+    {
+      "coefficient": "cl",
+      "calculated": 0.07142621014671684,
+      "experimental_interpolated": 0.4250615352704849,
+      "difference": -0.35363532512376805,
+      "relative_difference_percent": null
+    }
+  ],
+  "status": "comparison_only",
+  "validation": "inconclusive",
+  "limitations": [
+    "No grid/domain/span/time/statistical convergence is certified by this comparison.",
+    "Experimental geometry, transition, turbulence and tunnel corrections need independent agreement.",
+    "Interpolated/digitized values do not have zero experimental uncertainty."
+  ]
+}

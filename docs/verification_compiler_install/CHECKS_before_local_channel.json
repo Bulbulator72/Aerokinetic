@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "scope": "static contract checks and exact TXT delivery; no native Windows execution",
+  "bytes": 5974,
+  "sha256": "2fb374befccfb607738ecac4e7923b94324e0f2fdd841588e9b072bcdb2e60af",
+  "ascii_and_crlf": "passed",
+  "txt_matches_bat": "passed",
+  "offline_product_flag": "--noWeb",
+  "language_install_argument": "--addProductLang en-US",
+  "captures_exit_code_immediately": "passed",
+  "prints_code_before_pause": "passed",
+  "keeps_original_result_after_log_collection": "passed",
+  "windows_cmd_powershell_execution": "not_run",
+  "user_installation_cause": "inconclusive; awaiting actual exit code",
+  "solver_or_dependencies_changed": false
+}

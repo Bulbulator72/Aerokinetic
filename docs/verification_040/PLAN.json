@@ -1,0 +1,22 @@
+{
+  "date_utc": "2026-10-27",
+  "scope": "Mesh builder, four conservative-component stationarity residuals and stopping criteria, threaded CPU LBM and fused transfer",
+  "status_before_execution": "not_run",
+  "physics": "Preserve the existing low-Mach/Re contract, fixed geometry, viscosities, two-level time scaling and force normalization. No new turbulence or energy model.",
+  "criteria_fixed_before_execution": {
+    "mesh_builder": "Preview uses exact plan coordinates and ownership, shows grid lines and solid cell centres, supports zoom, validates unsafe guards/unresolved elements and reports memory before 3D allocation. Cancel has no project effect; Apply/save/open preserve all unrelated parameters.",
+    "residual_definition": "Volume-weighted L2 and Linf of differences of conservative rho,j_common divided by elapsed convective time, normalized with rho_inf=U_inf=1. Use only owned fluid cells at synchronized times. These are stationarity residuals, not residuals of a solved implicit NS system or turbulence accuracy.",
+    "analytic_residuals": {"absolute_error_max": 2e-12, "cases": "Known distinct changes of all four components on unequal cell volumes; ownership; exact zero; NaN rejection; dt scaling"},
+    "stopping": "All four user thresholds AND minimum t* AND consecutive successful checks. Integral balance closure must never independently trigger convergence. Duration, absolute run-step cap, per-launch wall-time cap and user stop have distinct reasons. Default is fixed duration.",
+    "monitor_restart": "Previous conservative samples and convergence streak survive checkpoint. Residual CSV and loads match uninterrupted evolution; modified committed prefix rejected; uncommitted suffix preserved before rollback.",
+    "fused_transfer": {"absolute_moment_or_pdf_error_max": 2e-13, "cases": "Pinned NumPy reference, arbitrary stencil order and zero-centering, stress, density, positivity and Mach rejection"},
+    "thread_equivalence": {"absolute_pdf_error_max": 2e-12, "absolute_load_error_max": 1e-10, "cases": "CPU 1 versus 2 threads, actual open airfoil, outflow and checkpoint; generated OpenMP pragmas must specify requested threads"},
+    "balances": {"mass_per_volume_max": 5e-11, "momentum_per_volume_max": 2e-12},
+    "regression": "Retain analytic/interface transport checks for optimized coupling and relevant stationary-wall/force/restart checks. Compare version 0.3 reference continuation with the new backend.",
+    "performance": "Measure warmed serial/reference/new/threaded whole coarse steps on identical cases; report repetitions and CPU quota. Do not promise linear scaling or a speedup not measured.",
+    "gui": "Actual installed Tk mesh apply/cancel, live residuals, stopping configuration, multi-thread selection, save/open and stop/resume without callback errors.",
+    "offline": "Unchanged pinned dependencies, installed wheel in a clean venv, blocked Python connections/DNS, fresh compiled kernels including OpenMP, CSV and GIF; exact delivered TXT checksum and update/rollback.",
+    "experiment": "No new aerodynamic-accuracy claim. Existing Ohtake comparison remains startup/inconclusive; if numerical evolution changes beyond roundoff, rerun the named short case and retain its experimental limitations.",
+    "not_claimed": "Airfoil spatial/statistical convergence, validated Cl/Cd/Cm, Windows/MSVC native execution or GPU"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.microsoft.com/pkiops/certs/Microsoft%20Windows%20Code%20Signing%20PCA%202024.crt",
+  "final_url": "https://www.microsoft.com/pkiops/certs/Microsoft%20Windows%20Code%20Signing%20PCA%202024.crt",
+  "bytes": 1729,
+  "sha256": "fe229efc927f6d77b738896752a21803a59736baa17bf5be9a50c72e219cbcd2",
+  "http_content_type": "application/octet-stream",
+  "official_document": "https://learn.microsoft.com/en-us/visualstudio/install/install-certificates-for-visual-studio-offline?view=vs-2022",
+  "inspection": "subject=C=US, O=Microsoft Corporation, CN=Microsoft Windows Code Signing PCA 2024\nissuer=C=US, ST=Washington, L=Redmond, O=Microsoft Corporation, CN=Microsoft Root Certificate Authority 2010\nnotBefore=Aug  8 21:36:23 2024 GMT\nnotAfter=Jun 23 22:04:01 2035 GMT\nsha256 Fingerprint=FE:22:9E:FC:92:7F:6D:77:B7:38:89:67:52:A2:18:03:A5:97:36:BA:A1:7B:F5:BE:9A:50:C7:2E:21:9C:BC:D2\nX509v3 Basic Constraints: critical\n    CA:TRUE\n",
+  "installed_into_any_trust_store": false,
+  "windows_verification": "not_run",
+  "user_specific_chain_missing_this_certificate": "inconclusive"
+}

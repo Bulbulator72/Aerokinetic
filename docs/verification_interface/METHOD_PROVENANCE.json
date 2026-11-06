@@ -1,0 +1,23 @@
+{
+  "date_utc": "2026-10-27",
+  "purpose": "Method provenance for the second, spatial-interface milestone",
+  "reused_stage1_source_record": "references/refinement/PROVENANCE.json",
+  "new_external_retrieval": false,
+  "pinned_collision_implementation": "lbmpy 1.4 and pystencils 1.4, D3Q27 cumulant, collide_stream pre-collision state, shear and bulk rates explicit",
+  "original_implementation": [
+    "Exact Cartesian-face representation of diagonal streaming, averaged over all six coordinate orderings",
+    "Face-aligned rectangular ownership and periodic fine-axis donor wrap",
+    "Fine-face integrated flux register over four child faces and two acoustic time substeps",
+    "Local coarse-face reflux by an equilibrium difference retaining the previous non-equilibrium populations",
+    "Three-dimensional analytic verification and raw-slice/export tooling"
+  ],
+  "basis_of_exact_flux_claim": "Algebraic telescoping identity for commuting coordinate shifts, tested against independent direct diagonal streaming on nonuniform arbitrary PDFs and under axis permutation",
+  "basis_of_accuracy_claim": "Only the named smooth periodic wave, small-amplitude Gaussian-vortex and acoustic-packet experiments, with predeclared tolerances and saved raw data",
+  "uniform_reference": "Our own pinned D3Q27 kernels; acoustic initial state is exactly transverse-invariant, allowing a 4x4 transverse reference without changing that one-dimensional solution",
+  "not_claimed": [
+    "Full implementation of a specific refinement paper whose full text was not read",
+    "General stability theorem for low-viscosity turbulent flow",
+    "Airfoil or flap validation against wind-tunnel data",
+    "Native Windows or GPU execution"
+  ]
+}

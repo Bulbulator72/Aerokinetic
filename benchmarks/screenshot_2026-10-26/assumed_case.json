@@ -1,0 +1,37 @@
+{
+  "title": "Screenshot diagnostic; unreported grid/time settings assumed",
+  "geometry": {
+    "naca0012": {
+      "n_side": 81,
+      "closed_te": false
+    },
+    "moment_reference": [
+      0.0375,
+      0
+    ]
+  },
+  "flow": {
+    "reynolds": 30000,
+    "alpha_deg": 4,
+    "physical_chord_m": 1.0,
+    "lattice_speed": 0.04,
+    "sgs": "none"
+  },
+  "grid": {
+    "cells_per_chord": 32,
+    "upstream_chords": 1.5,
+    "downstream_chords": 3,
+    "transverse_chords": 1.5,
+    "span_chords": 0.5,
+    "memory_limit_gib": 2,
+    "openmp_threads": 1
+  },
+  "run": {
+    "duration_convective": 0.2,
+    "average_after": 0.1,
+    "sample_every": 10,
+    "frame_every": 20,
+    "check_every": 10,
+    "checkpoint_every": 0
+  }
+}

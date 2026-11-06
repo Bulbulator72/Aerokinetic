@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "date_utc": "2026-10-26",
+  "platform": "Linux x86_64 CPython3.12 CPU float64",
+  "wheel_sha256": "322c4c7946f1e9f21c393d447dd10937252700234c3393b47734778383d1f1cc",
+  "pytest": {
+    "passed": 30,
+    "failed": 0,
+    "skipped": 0,
+    "wall_seconds": 147.9,
+    "installed_wheel": true
+  },
+  "fresh_jit_cache_before_tests": true,
+  "python_network_connections": "blocked during full pytest and runtime check",
+  "gui": {
+    "installed_wheel": true,
+    "status": "passed",
+    "steps": 320,
+    "history_samples": 40,
+    "pause_resume": true,
+    "pressure_pa_gif": true
+  },
+  "experimental_accuracy": "not_validated",
+  "windows_execution": "not_run",
+  "gpu_execution": "not_run"
+}

@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aerokinetic"
+version = "0.5.0"
+description = "Unsteady three-dimensional kinetic flow around fixed multi-element sections"
+requires-python = ">=3.10,<3.13"
+license = "GPL-3.0-or-later"
+dependencies = [
+  "numpy>=1.26,<3", "lbmpy==1.4", "pystencils==1.4", "sympy==1.12.1",
+  "matplotlib>=3.9,<4", "pillow>=11,<13", "setuptools>=75"
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+gpu = ["cupy-cuda12x>=13,<14"]
+
+[project.scripts]
+aerokinetic = "aerokinetic.cli:main"
+aerokinetic-gui = "aerokinetic.gui:main"
+
+[tool.setuptools.package-data]
+aerokinetic = ["data/*.csv", "data/*.json"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+markers = ["integration: compiles and runs numerical kernels"]

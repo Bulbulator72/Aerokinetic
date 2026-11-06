@@ -1,0 +1,80 @@
+{
+  "status": "completed",
+  "steps": 32,
+  "fine_steps": 64,
+  "t_star": 0.04,
+  "average_after_t_star": 0.0,
+  "samples": 32,
+  "averaging_samples": 32,
+  "mean": {
+    "cl": 2.8922192565448497,
+    "cd": 2.2964678201446094,
+    "cm": -0.9818616793267211
+  },
+  "rms": {
+    "cl": 1.397301453939034,
+    "cd": 3.7173684728551324,
+    "cm": 0.8232592800797331
+  },
+  "experimental_validation": "not_performed",
+  "statistical_convergence": "not_established",
+  "diagnostics": {
+    "local_mach_max": 0.14294420709344174,
+    "density_error_max": 0.012377613859009484,
+    "wall_fallback_links_including_donors": 0,
+    "coarse_boundary_calls": 32,
+    "fine_boundary_calls": 64,
+    "cumulative_wall_mass_exchange": -6.45993984721164e-06,
+    "cumulative_wall_mass_exchange_over_initial_mass": -1.4374528650918855e-06,
+    "last_budget": {
+      "mass_residual_per_volume": 1.334029918236906e-16,
+      "momentum_residual_per_volume": [
+        1.6299394869852007e-14,
+        -9.319661103630542e-17,
+        -4.473880949898496e-19
+      ],
+      "wall_mass_exchange": -1.0196554442346058e-06,
+      "external_mass_in": 2.864526461271135e-19,
+      "wall_impulse": [
+        9.089324028677598e-05,
+        0.00023987249569878182,
+        -2.9920673719691548e-21
+      ],
+      "external_impulse_in": [
+        2.965392865165851e-17,
+        5.0772759588811115e-18,
+        1.4823076576950256e-18
+      ]
+    }
+  },
+  "termination_reason": "duration_reached",
+  "termination": {
+    "mode": "time",
+    "mass_tolerance": 1e-05,
+    "momentum_x_tolerance": 1e-05,
+    "momentum_y_tolerance": 1e-05,
+    "momentum_z_tolerance": 1e-05,
+    "minimum_t_star": 1.0,
+    "consecutive_checks": 10,
+    "max_steps": 0,
+    "wall_time_limit_s": 0.0
+  },
+  "last_residuals": {
+    "step": 32,
+    "t_star": 0.04,
+    "l2_rho": 0.1301537630819737,
+    "l2_jx": 1.259731460141944,
+    "l2_jy": 1.5077475034294499,
+    "l2_jz": 6.182226217861903e-16,
+    "linf_rho": 1.0505779286762995,
+    "linf_jx": 12.850313509148004,
+    "linf_jy": 14.042220354011505,
+    "linf_jz": 7.318364664277155e-15,
+    "balance_rho": 1.0672239345895247e-13,
+    "balance_jx": 1.3039515895881606e-11,
+    "balance_jy": 7.455728882904433e-14,
+    "balance_jz": 3.5791047599187963e-16,
+    "streak": 0
+  },
+  "steady_residual_criterion_met": false
+}

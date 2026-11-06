@@ -1,0 +1,20 @@
+{
+  "sources": [
+    {
+      "url": "https://learn.microsoft.com/en-us/visualstudio/install/deploy-a-layout-onto-a-client-machine?view=vs-2022",
+      "finding": "Microsoft labels 5003 'Bootstrapper failed to download installer'; installer bootstrap precedes product installation. noWeb prevents acquiring missing product content; certificates required offline."
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/visualstudio/install/install-certificates-for-visual-studio-offline?view=vs-2022",
+      "scrape_id": "01a1815f-822d-754c-8a75-0a25b9f2a7ba",
+      "findings": [
+        "Offline clients may need current Microsoft roots/intermediates; cannot refresh automatically online.",
+        "Layout Certificates contains Microsoft Root Certificate Authority 2011 and 2010.",
+        "Maintaining offline machine section links Microsoft Windows Code Signing PCA 2024.",
+        "Certificates in CurrentUser are not automatically available to other users."
+      ]
+    }
+  ],
+  "latest_user_evidence": "Screenshot gives 5003 only; previous InvalidCertificate does not establish the latest root cause.",
+  "status": "inconclusive"
+}

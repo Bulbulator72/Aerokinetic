@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "scope": "static offline-install script contract and exact TXT delivery",
+  "bytes": 6646,
+  "sha256": "e138fac49bccc3f4ec01069398eed05029ed0e45ecd7734376a0b1edc64b93b2",
+  "ascii_and_crlf": "passed",
+  "txt_matches_bat": "passed",
+  "offline_product_flag": "--noWeb",
+  "channel_source": "local ChannelManifest.json; existence checked before launch",
+  "language_install_argument": "--addProductLang en-US",
+  "captures_exit_code_immediately": "passed",
+  "prints_code_before_pause": "passed",
+  "keeps_original_result_after_log_collection": "passed",
+  "user_reported_bootstrapper_code": 5003,
+  "detailed_user_root_cause": "inconclusive; dd_bootstrapper log requested",
+  "windows_cmd_powershell_execution": "not_run",
+  "solver_or_dependencies_changed": false
+}

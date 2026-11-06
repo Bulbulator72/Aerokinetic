@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "real_tk_interface": true,
+  "installed_wheel": true,
+  "stop_and_resume": true,
+  "steps": 320,
+  "history_samples": 40,
+  "pressure_gif_frames": 33,
+  "averaging_analysis_available": true,
+  "numerical_accuracy": "not_validated; coarse functional calculation only"
+}

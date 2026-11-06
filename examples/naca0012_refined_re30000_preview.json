@@ -1,0 +1,17 @@
+{
+  "format": "aerokinetic_refined_project",
+  "schema_version": 1,
+  "project": {
+    "geometry": {"naca0012": {"n_side": 81, "closed_te": false}},
+    "flow": {"reynolds": 30000, "alpha_deg": 5.0, "lattice_speed": 0.04,
+             "physical_chord_m": 0.15, "sgs": "none", "perturbation": 0.0001, "seed": 31},
+    "grid": {"cells_per_chord": 32, "upstream_chords": 1.5, "downstream_chords": 3.0,
+             "transverse_chords": 1.5, "span_chords": 0.5, "memory_limit_gib": 4.0,
+             "target": "cpu", "openmp_threads": 1},
+    "run": {"duration_convective": 0.2, "average_after": 0.1,
+            "sample_every": 4, "frame_every": 20, "check_every": 4, "checkpoint_every": 80}
+  },
+  "refinement": {"upstream_chords": 0.375, "downstream_chords": 0.75,
+                 "transverse_chords": 0.375, "guard_coarse_cells": 4,
+                 "coarse_bulk_relaxation_time": 1.5}
+}

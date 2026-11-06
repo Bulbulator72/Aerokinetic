@@ -1,0 +1,104 @@
+{
+  "initial_summary": {
+    "status": "stopped",
+    "steps": 8696,
+    "t_star": 5.4350000000000005,
+    "wall_clock_seconds": 1801.263997951,
+    "samples": 2174,
+    "averaging_samples": 974,
+    "average_after_t_star": 3,
+    "mean": {
+      "cl": 0.2159342586325173,
+      "cd": 0.051447522171711085,
+      "cm": 0.021210317676149663
+    },
+    "rms_fluctuation": {
+      "cl": 0.3142327780640529,
+      "cd": 0.02046004806325172,
+      "cm": 0.07868373019334726
+    },
+    "wall_fallback_links": 0,
+    "experimental_validation": "not_performed",
+    "termination_reason": "wall_time_limit",
+    "termination": {
+      "mode": "time",
+      "mass_tolerance": 1e-05,
+      "momentum_x_tolerance": 1e-05,
+      "momentum_y_tolerance": 1e-05,
+      "momentum_z_tolerance": 1e-05,
+      "minimum_t_star": 1.0,
+      "consecutive_checks": 10,
+      "max_steps": 0,
+      "wall_time_limit_s": 1800
+    },
+    "last_residuals": {
+      "step": 8672,
+      "t_star": 5.42,
+      "l2_rho": 0.006384813333609082,
+      "l2_jx": 0.38572517170018655,
+      "l2_jy": 0.5839501346527627,
+      "l2_jz": 2.212722195238593e-05,
+      "linf_rho": 0.020350727967050064,
+      "linf_jx": 12.108679130806737,
+      "linf_jy": 16.145825636066775,
+      "linf_jz": 0.0009300915873464372,
+      "streak": 0
+    },
+    "steady_residual_criterion_met": false,
+    "statistical_convergence": "not_established"
+  },
+  "final_summary": {
+    "status": "completed",
+    "steps": 9600,
+    "t_star": 6.0,
+    "wall_clock_seconds": 168.214908509,
+    "samples": 2400,
+    "averaging_samples": 1200,
+    "average_after_t_star": 3,
+    "mean": {
+      "cl": 0.19866537326115144,
+      "cd": 0.05432658088295375,
+      "cm": 0.019688066914251488
+    },
+    "rms_fluctuation": {
+      "cl": 0.3019483983061319,
+      "cd": 0.02021652672962609,
+      "cm": 0.07595846337929701
+    },
+    "wall_fallback_links": 0,
+    "experimental_validation": "not_performed",
+    "termination_reason": "duration_reached",
+    "termination": {
+      "mode": "time",
+      "mass_tolerance": 1e-05,
+      "momentum_x_tolerance": 1e-05,
+      "momentum_y_tolerance": 1e-05,
+      "momentum_z_tolerance": 1e-05,
+      "minimum_t_star": 1.0,
+      "consecutive_checks": 10,
+      "max_steps": 0,
+      "wall_time_limit_s": 1800
+    },
+    "last_residuals": {
+      "step": 9600,
+      "t_star": 6.0,
+      "l2_rho": 0.008359357047745389,
+      "l2_jx": 0.4165056155365681,
+      "l2_jy": 0.7435179703106326,
+      "l2_jz": 1.962129135172217e-05,
+      "linf_rho": 0.03210557048426432,
+      "linf_jx": 13.119869306548903,
+      "linf_jy": 21.01655153272651,
+      "linf_jz": 0.0008970339601883822,
+      "streak": 0
+    },
+    "steady_residual_criterion_met": false,
+    "statistical_convergence": "not_established"
+  },
+  "elapsed_seconds_including_restore": 195.92199026699973,
+  "original_settings_and_case_unchanged": true,
+  "original_history_prefix_unchanged": true,
+  "history_prefix_bytes": 301684,
+  "history_prefix_sha256": "bbd28d68aa62f6afcfcf3449afc227b1283b2c472e74f27e2fc82b5388c7c1be",
+  "python_network_attempts": []
+}

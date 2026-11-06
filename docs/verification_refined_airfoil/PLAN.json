@@ -1,0 +1,31 @@
+{
+  "date_utc": "2026-10-27",
+  "stage": "Stationary extruded airfoil on two levels, open coarse boundaries, fine Bouzidi wall, integrated loads and restart",
+  "status_before_execution": "not_run",
+  "scope": {
+    "flow": "Existing low-Mach Re=1e4..1e5 Flow contract, CPU float64, no explicit SGS in this milestone",
+    "coarse_outer": "Prescribed freestream west/north/south, history-dependent extrapolation east, periodic span",
+    "fine_wall": "All body surfaces on fine level, stationary no-slip linear Bouzidi, true periodic fine span",
+    "ownership": "Solid fine cells and all covered coarse cells excluded from fluid integrals; virtual covered interior never supplies physical donor stencils",
+    "geometry_guard": "At least four coarse-cell widths from every wall to the x/y fine interface; retain three coarse fluid rows for donor prediction",
+    "time": "dx_f=dx_c/2 and dt_f=dt_c/2; force history is average of both fine momentum-transfer intervals, labelled at coarse-interval midpoint",
+    "checkpoint": "Both levels, counters, all CPU fields and structured boundary history, at synchronized times only",
+    "not_claimed": "DNS, high-Re or M=0.4, aerodynamic convergence, validated Cl/Cd/Cm, native Windows/GPU"
+  },
+  "criteria_fixed_before_execution": {
+    "wall_link_geometry": {"max_distance_in_cell_units": 1e-6, "require": "Each positive-q link crosses the exact contour at that fraction"},
+    "closed_surface_isotropic_pressure": {"absolute_load_max": 2e-12, "require": "Force and moment cancel on a closed extruded wall; physical span excludes fine donor layers"},
+    "stationary_fractional_flat_wall_shear_decay": {"relative_velocity_l2_error_max": 0.02, "require": "Independent analytic sine-mode decay with non-halfway Bouzidi walls and the same pre-collision ordering"},
+    "symmetric_naca0012_alpha0_startup": {"abs_cl_cm_max": 2e-10, "require": "Cd positive, finite flow and exactly two fine wall applications per accepted coarse step"},
+    "force_units_and_time": {"absolute_coefficient_error_max": 2e-12, "require": "Independent impulse/area normalization and arbitrary-reference moment transformation"},
+    "open_domain_balance": {"absolute_mass_residual_per_volume_max": 5e-11, "absolute_momentum_residual_per_volume_max": 2e-12, "require": "Use actual external PDF flux and actual wall exchange; do not infer conservation from mean density"},
+    "wall_mass_leakage": "Measure and report separately. The open-domain budget identity does not certify impermeability accuracy of interpolated bounce-back; grid convergence remains required.",
+    "virtual_interior_isolation": {"absolute_physical_pdf_difference_max": 2e-13, "require": "Changing the unused virtual interior fill must not change owned coarse/fine fluid evolution with the required guard"},
+    "diagnostics_do_not_advance_boundaries": "Repeated diagnostics/export must leave PDFs and outflow history unchanged",
+    "checkpoint": {"absolute_pdf_error_max": 5e-13, "absolute_coefficient_error_max": 1e-10, "require": "Continuous versus restored evolution, exact counters, structured outflow history restored; malformed/changed-case checkpoints rejected"},
+    "run_output": "New output only, uniform force sampling times, actual two-grid NPZ/PNG/GIF, stop/resume without mixed history",
+    "experiment": "Export preliminary Ohtake Re=30000 Cl comparison at alpha=5 after a named short startup interval. Explicitly inconclusive for aerodynamic accuracy; Cd/Cm unavailable in this low-Re reference.",
+    "offline": "Installed wheel from unchanged pinned local dependencies, fresh JIT cache, blocked Python socket/DNS, relevant tests and actual airfoil run/export/restart",
+    "regression": "Retain the prior periodic interface flux, equilibrium, subcycling and transport checks when adding extension hooks"
+  }
+}

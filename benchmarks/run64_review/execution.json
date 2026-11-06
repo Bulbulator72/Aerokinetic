@@ -1,0 +1,49 @@
+{
+  "original": {
+    "status": "completed",
+    "steps": 3200,
+    "t_star": 2.0,
+    "wall_clock_seconds": 412.67182026699993,
+    "samples": 160,
+    "averaging_samples": 80,
+    "average_after_t_star": 1.0,
+    "mean": {
+      "cl": 0.4530033857848513,
+      "cd": 0.057325345247249616,
+      "cm": -0.10238933854158785
+    },
+    "rms_fluctuation": {
+      "cl": 0.6598752064854977,
+      "cd": 0.052217968869232884,
+      "cm": 0.2962779113164664
+    },
+    "wall_fallback_links": 0,
+    "experimental_validation": "not_performed"
+  },
+  "later_transient": {
+    "status": "stopped",
+    "steps": 6440,
+    "t_star": 4.025,
+    "wall_clock_seconds": 458.16641295600016,
+    "samples": 162,
+    "averaging_samples": 82,
+    "average_after_t_star": 3,
+    "mean": {
+      "cl": 0.3986276531223873,
+      "cd": 0.07332256464347567,
+      "cm": -0.10244860563256333
+    },
+    "rms_fluctuation": {
+      "cl": 0.429561385892957,
+      "cd": 0.035381365901790404,
+      "cm": 0.19477276953098363
+    },
+    "wall_fallback_links": 0,
+    "experimental_validation": "not_performed"
+  },
+  "peak_rss_kib_linux": 1372216,
+  "wall_seconds_including_compilation": 903.7040050380001,
+  "core_changes": false,
+  "experimental_validation": "not_performed",
+  "user_history_reproduction": "not_tested; only project.json supplied"
+}

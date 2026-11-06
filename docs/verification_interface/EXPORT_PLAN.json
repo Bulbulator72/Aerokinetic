@@ -1,0 +1,14 @@
+{
+  "date_utc": "2026-10-27",
+  "status_before_execution": "not_run",
+  "purpose": "Scientific slice export of the verification vortex, separate from the production airfoil GUI",
+  "criteria": [
+    "Coarse and fine slices use the same stated z plane; interpolate density and momentum in z, never silently use different cell centres",
+    "A known linear velocity field at constant density is reproduced on both slice grids to absolute tolerance 2e-13",
+    "Owned/virtual coarse masks, actual dx ratio 2, edge coordinates, background velocity and true synchronized time are saved",
+    "Saving a slice must not change the source PDFs or advance either clock",
+    "PNG and offline Pillow GIF are rendered from actual saved arrays with a common fixed colour scale and flat cell shading in x/y",
+    "Full acceptance run exports 21 increasing-time snapshots of the N=32 corner-vortex case from t=0 through t=80, and the GIF contains 21 frames",
+    "No extra dependencies, network download, browser or ffmpeg"
+  ]
+}

@@ -1,0 +1,756 @@
+{
+  "status": "passed",
+  "version": "0.5.0",
+  "installed": "/workspace/aerokinetic_ui_050/env/lib/python3.12/site-packages/aerokinetic/__init__.py",
+  "reynolds_actually_tested": 10000,
+  "requested_reynolds": 6000000,
+  "cases": {
+    "slotted": {
+      "geometry_32_64": {
+        "shape": [
+          176,
+          104,
+          8
+        ],
+        "fine_shape": [
+          136,
+          64,
+          16
+        ],
+        "memory_gib_estimate": 1.0876789093017578,
+        "solid_counts": {
+          "1: main": 259,
+          "2: flap": 53
+        },
+        "assembly_chord_input_units": 1.0202967594518608,
+        "pairs": [
+          {
+            "elements": [
+              "main",
+              "flap"
+            ],
+            "minimum_gap_over_full_chord": 0.03950633386824558,
+            "minimum_gap_in_fine_cells": 2.528405367567717,
+            "discrete_8_neighbour_solid_contacts": 0,
+            "direct_fluid_gap": true,
+            "intervening_elements": [],
+            "nearest_points_normalized": [
+              [
+                0.43749830610203216,
+                0.005140739414172541
+              ],
+              [
+                0.4534887310343997,
+                -0.030984829455972696
+              ]
+            ]
+          }
+        ],
+        "all_elements_represented": true,
+        "note": "Geometry representation does not establish wall-layer or gap-flow accuracy"
+      },
+      "geometry_48_96_only": {
+        "shape": [
+          264,
+          156,
+          12
+        ],
+        "fine_shape": [
+          204,
+          96,
+          24
+        ],
+        "memory_gib_estimate": 2.781363010406494,
+        "solid_counts": {
+          "1: main": 575,
+          "2: flap": 115
+        },
+        "assembly_chord_input_units": 1.0202967594518608,
+        "pairs": [
+          {
+            "elements": [
+              "main",
+              "flap"
+            ],
+            "minimum_gap_over_full_chord": 0.03950633386824558,
+            "minimum_gap_in_fine_cells": 3.7926080513515754,
+            "discrete_8_neighbour_solid_contacts": 0,
+            "direct_fluid_gap": true,
+            "intervening_elements": [],
+            "nearest_points_normalized": [
+              [
+                0.43749830610203216,
+                0.005140739414172541
+              ],
+              [
+                0.4534887310343997,
+                -0.030984829455972696
+              ]
+            ]
+          }
+        ],
+        "all_elements_represented": true,
+        "note": "Geometry representation does not establish wall-layer or gap-flow accuracy"
+      },
+      "wall_checks": [
+        {
+          "element": "main",
+          "owned_links": 13152,
+          "owned_fallback_links": 0,
+          "isotropic_force_lattice": [
+            0.0,
+            1.6653345369377348e-16,
+            0.0
+          ],
+          "isotropic_moment_common_lattice": 0.0
+        },
+        {
+          "element": "flap",
+          "owned_links": 6336,
+          "owned_fallback_links": 0,
+          "isotropic_force_lattice": [
+            -1.7763568394002505e-15,
+            1.6653345369377348e-16,
+            0.0
+          ],
+          "isotropic_moment_common_lattice": -3.552713678800501e-15
+        }
+      ],
+      "summary": {
+        "status": "completed",
+        "steps": 800,
+        "fine_steps": 1600,
+        "t_star": 1.0,
+        "average_after_t_star": 0.0,
+        "samples": 800,
+        "averaging_samples": 800,
+        "mean": {
+          "cl": 0.9756257852506204,
+          "cd": 0.36767775421800886,
+          "cm": -0.26906886677056113
+        },
+        "rms": {
+          "cl": 0.9706819317352477,
+          "cd": 0.9114426029398933,
+          "cm": 0.3615797752807929
+        },
+        "experimental_validation": "not_performed",
+        "statistical_convergence": "not_established",
+        "diagnostics": {
+          "local_mach_max": 0.10658965811180865,
+          "density_error_max": 0.005853845684893444,
+          "wall_fallback_links_including_donors": 0,
+          "coarse_boundary_calls": 800,
+          "fine_boundary_calls": 1600,
+          "cumulative_wall_mass_exchange": -0.0005186283035960419,
+          "cumulative_wall_mass_exchange_over_initial_mass": -0.00011655335957036036,
+          "last_budget": {
+            "mass_residual_per_volume": -2.1024456393388392e-18,
+            "momentum_residual_per_volume": [
+              4.101361428318141e-14,
+              3.1880079126951714e-16,
+              -2.5665200544342554e-21
+            ],
+            "wall_mass_exchange": -4.983625134708229e-07,
+            "external_mass_in": 3.7354028359465426e-07,
+            "wall_impulse": [
+              5.052018818314539e-05,
+              0.00019744686550460092,
+              1.490217572302564e-21
+            ],
+            "external_impulse_in": [
+              5.003429510495048e-05,
+              8.561119786729371e-05,
+              2.541098841762901e-19
+            ]
+          }
+        },
+        "termination_reason": "duration_reached",
+        "termination": {
+          "mode": "time",
+          "mass_tolerance": 1e-05,
+          "momentum_x_tolerance": 1e-05,
+          "momentum_y_tolerance": 1e-05,
+          "momentum_z_tolerance": 1e-05,
+          "minimum_t_star": 1.0,
+          "consecutive_checks": 10,
+          "max_steps": 0,
+          "wall_time_limit_s": 0.0
+        },
+        "last_residuals": {
+          "step": 800,
+          "t_star": 1.0,
+          "l2_rho": 0.01841848761071614,
+          "l2_jx": 0.2673858369129767,
+          "l2_jy": 0.41587221185244055,
+          "l2_jz": 9.086775657444055e-16,
+          "linf_rho": 0.05851323505690065,
+          "linf_jx": 6.9026872294382535,
+          "linf_jy": 13.638936483410586,
+          "linf_jz": 7.860465750519907e-15,
+          "balance_rho": 1.6819565114710714e-15,
+          "balance_jx": 3.281089142654513e-11,
+          "balance_jy": 2.550406330156137e-13,
+          "balance_jz": 2.0532160435474045e-18,
+          "streak": 0
+        },
+        "steady_residual_criterion_met": false
+      },
+      "max_mass_budget_per_volume": 3.4842015241716504e-16,
+      "max_momentum_budget_per_volume": 1.4098502197919986e-13
+    },
+    "double": {
+      "geometry_32_64": {
+        "shape": [
+          176,
+          105,
+          8
+        ],
+        "fine_shape": [
+          136,
+          66,
+          16
+        ],
+        "memory_gib_estimate": 1.1041873693466187,
+        "solid_counts": {
+          "1: main": 245,
+          "2: vane": 22,
+          "3: flap": 23
+        },
+        "assembly_chord_input_units": 1.050886454117117,
+        "pairs": [
+          {
+            "elements": [
+              "main",
+              "vane"
+            ],
+            "minimum_gap_over_full_chord": 0.038415362893086315,
+            "minimum_gap_in_fine_cells": 2.458583225157524,
+            "discrete_8_neighbour_solid_contacts": 0,
+            "direct_fluid_gap": true,
+            "intervening_elements": [],
+            "nearest_points_normalized": [
+              [
+                0.4175040103867052,
+                0.0054987263857262944
+              ],
+              [
+                0.4329058552516506,
+                -0.029693933089847132
+              ]
+            ]
+          },
+          {
+            "elements": [
+              "main",
+              "flap"
+            ],
+            "minimum_gap_over_full_chord": 0.17665270602034208,
+            "minimum_gap_in_fine_cells": 11.305773185301893,
+            "discrete_8_neighbour_solid_contacts": 0,
+            "direct_fluid_gap": false,
+            "intervening_elements": [
+              "vane"
+            ],
+            "nearest_points_normalized": [
+              [
+                0.4175040103867052,
+                0.0054987263857262944
+              ],
+              [
+                0.5363594347122813,
+                -0.12519008971074255
+              ]
+            ]
+          },
+          {
+            "elements": [
+              "vane",
+              "flap"
+            ],
+            "minimum_gap_over_full_chord": 0.03826372548466971,
+            "minimum_gap_in_fine_cells": 2.4488784310188616,
+            "discrete_8_neighbour_solid_contacts": 0,
+            "direct_fluid_gap": true,
+            "intervening_elements": [],
+            "nearest_points_normalized": [
+              [
+                0.5340043801531681,
+                -0.08466237363687024
+              ],
+              [
+                0.5451811098163992,
+                -0.12125736512479399
+              ]
+            ]
+          }
+        ],
+        "all_elements_represented": true,
+        "note": "Geometry representation does not establish wall-layer or gap-flow accuracy"
+      },
+      "geometry_48_96_only": {
+        "shape": [
+          263,
+          158,
+          12
+        ],
+        "fine_shape": [
+          202,
+          100,
+          24
+        ],
+        "memory_gib_estimate": 2.8308143615722656,
+        "solid_counts": {
+          "1: main": 548,
+          "2: vane": 48,
+          "3: flap": 49
+        },
+        "assembly_chord_input_units": 1.050886454117117,
+        "pairs": [
+          {
+            "elements": [
+              "main",
+              "vane"
+            ],
+            "minimum_gap_over_full_chord": 0.038415362893086315,
+            "minimum_gap_in_fine_cells": 3.6878748377362864,
+            "discrete_8_neighbour_solid_contacts": 0,
+            "direct_fluid_gap": true,
+            "intervening_elements": [],
+            "nearest_points_normalized": [
+              [
+                0.4175040103867052,
+                0.0054987263857262944
+              ],
+              [
+                0.4329058552516506,
+                -0.029693933089847132
+              ]
+            ]
+          },
+          {
+            "elements": [
+              "main",
+              "flap"
+            ],
+            "minimum_gap_over_full_chord": 0.17665270602034208,
+            "minimum_gap_in_fine_cells": 16.958659777952843,
+            "discrete_8_neighbour_solid_contacts": 0,
+            "direct_fluid_gap": false,
+            "intervening_elements": [
+              "vane"
+            ],
+            "nearest_points_normalized": [
+              [
+                0.4175040103867052,
+                0.0054987263857262944
+              ],
+              [
+                0.5363594347122813,
+                -0.12519008971074255
+              ]
+            ]
+          },
+          {
+            "elements": [
+              "vane",
+              "flap"
+            ],
+            "minimum_gap_over_full_chord": 0.03826372548466971,
+            "minimum_gap_in_fine_cells": 3.6733176465282926,
+            "discrete_8_neighbour_solid_contacts": 0,
+            "direct_fluid_gap": true,
+            "intervening_elements": [],
+            "nearest_points_normalized": [
+              [
+                0.5340043801531681,
+                -0.08466237363687024
+              ],
+              [
+                0.5451811098163992,
+                -0.12125736512479399
+              ]
+            ]
+          }
+        ],
+        "all_elements_represented": true,
+        "note": "Geometry representation does not establish wall-layer or gap-flow accuracy"
+      },
+      "wall_checks": [
+        {
+          "element": "main",
+          "owned_links": 12960,
+          "owned_fallback_links": 0,
+          "isotropic_force_lattice": [
+            -1.7763568394002505e-15,
+            1.6653345369377348e-16,
+            0.0
+          ],
+          "isotropic_moment_common_lattice": -3.552713678800501e-15
+        },
+        {
+          "element": "vane",
+          "owned_links": 2496,
+          "owned_fallback_links": 0,
+          "isotropic_force_lattice": [
+            -1.7763568394002505e-15,
+            1.6653345369377348e-16,
+            0.0
+          ],
+          "isotropic_moment_common_lattice": 3.552713678800501e-15
+        },
+        {
+          "element": "flap",
+          "owned_links": 3840,
+          "owned_fallback_links": 0,
+          "isotropic_force_lattice": [
+            -1.7763568394002505e-15,
+            1.6653345369377348e-16,
+            0.0
+          ],
+          "isotropic_moment_common_lattice": 0.0
+        }
+      ],
+      "summary": {
+        "status": "completed",
+        "steps": 32,
+        "fine_steps": 64,
+        "t_star": 0.04,
+        "average_after_t_star": 0.0,
+        "samples": 32,
+        "averaging_samples": 32,
+        "mean": {
+          "cl": 2.8922192565448497,
+          "cd": 2.2964678201446094,
+          "cm": -0.9818616793267211
+        },
+        "rms": {
+          "cl": 1.397301453939034,
+          "cd": 3.7173684728551324,
+          "cm": 0.8232592800797331
+        },
+        "experimental_validation": "not_performed",
+        "statistical_convergence": "not_established",
+        "diagnostics": {
+          "local_mach_max": 0.14294420709344174,
+          "density_error_max": 0.012377613859009484,
+          "wall_fallback_links_including_donors": 0,
+          "coarse_boundary_calls": 32,
+          "fine_boundary_calls": 64,
+          "cumulative_wall_mass_exchange": -6.45993984721164e-06,
+          "cumulative_wall_mass_exchange_over_initial_mass": -1.4374528650918855e-06,
+          "last_budget": {
+            "mass_residual_per_volume": 1.334029918236906e-16,
+            "momentum_residual_per_volume": [
+              1.6299394869852007e-14,
+              -9.319661103630542e-17,
+              -4.473880949898496e-19
+            ],
+            "wall_mass_exchange": -1.0196554442346058e-06,
+            "external_mass_in": 2.864526461271135e-19,
+            "wall_impulse": [
+              9.089324028677598e-05,
+              0.00023987249569878182,
+              -2.9920673719691548e-21
+            ],
+            "external_impulse_in": [
+              2.965392865165851e-17,
+              5.0772759588811115e-18,
+              1.4823076576950256e-18
+            ]
+          }
+        },
+        "termination_reason": "duration_reached",
+        "termination": {
+          "mode": "time",
+          "mass_tolerance": 1e-05,
+          "momentum_x_tolerance": 1e-05,
+          "momentum_y_tolerance": 1e-05,
+          "momentum_z_tolerance": 1e-05,
+          "minimum_t_star": 1.0,
+          "consecutive_checks": 10,
+          "max_steps": 0,
+          "wall_time_limit_s": 0.0
+        },
+        "last_residuals": {
+          "step": 32,
+          "t_star": 0.04,
+          "l2_rho": 0.1301537630819737,
+          "l2_jx": 1.259731460141944,
+          "l2_jy": 1.5077475034294499,
+          "l2_jz": 6.182226217861903e-16,
+          "linf_rho": 1.0505779286762995,
+          "linf_jx": 12.850313509148004,
+          "linf_jy": 14.042220354011505,
+          "linf_jz": 7.318364664277155e-15,
+          "balance_rho": 1.0672239345895247e-13,
+          "balance_jx": 1.3039515895881606e-11,
+          "balance_jy": 7.455728882904433e-14,
+          "balance_jz": 3.5791047599187963e-16,
+          "streak": 0
+        },
+        "steady_residual_criterion_met": false
+      }
+    },
+    "fowler": {
+      "geometry_32_64": {
+        "shape": [
+          176,
+          104,
+          8
+        ],
+        "fine_shape": [
+          136,
+          64,
+          16
+        ],
+        "memory_gib_estimate": 1.0876789093017578,
+        "solid_counts": {
+          "1: main": 233,
+          "2: flap": 53
+        },
+        "assembly_chord_input_units": 1.0202977452126587,
+        "pairs": [
+          {
+            "elements": [
+              "main",
+              "flap"
+            ],
+            "minimum_gap_over_full_chord": 0.039506295699195976,
+            "minimum_gap_in_fine_cells": 2.5284029247485424,
+            "discrete_8_neighbour_solid_contacts": 0,
+            "direct_fluid_gap": true,
+            "intervening_elements": [],
+            "nearest_points_normalized": [
+              [
+                0.43749751287475935,
+                0.005135186798640407
+              ],
+              [
+                0.45348792235797564,
+                -0.03099034716878182
+              ]
+            ]
+          }
+        ],
+        "all_elements_represented": true,
+        "note": "Geometry representation does not establish wall-layer or gap-flow accuracy"
+      },
+      "geometry_48_96_only": {
+        "shape": [
+          264,
+          156,
+          12
+        ],
+        "fine_shape": [
+          204,
+          96,
+          24
+        ],
+        "memory_gib_estimate": 2.781363010406494,
+        "solid_counts": {
+          "1: main": 524,
+          "2: flap": 115
+        },
+        "assembly_chord_input_units": 1.0202977452126587,
+        "pairs": [
+          {
+            "elements": [
+              "main",
+              "flap"
+            ],
+            "minimum_gap_over_full_chord": 0.039506295699195976,
+            "minimum_gap_in_fine_cells": 3.7926043871228137,
+            "discrete_8_neighbour_solid_contacts": 0,
+            "direct_fluid_gap": true,
+            "intervening_elements": [],
+            "nearest_points_normalized": [
+              [
+                0.43749751287475935,
+                0.005135186798640407
+              ],
+              [
+                0.45348792235797564,
+                -0.03099034716878182
+              ]
+            ]
+          }
+        ],
+        "all_elements_represented": true,
+        "note": "Geometry representation does not establish wall-layer or gap-flow accuracy"
+      },
+      "wall_checks": [
+        {
+          "element": "main",
+          "owned_links": 13056,
+          "owned_fallback_links": 0,
+          "isotropic_force_lattice": [
+            -1.7208456881689926e-15,
+            1.6653345369377348e-16,
+            0.0
+          ],
+          "isotropic_moment_common_lattice": 0.0
+        },
+        {
+          "element": "flap",
+          "owned_links": 6336,
+          "owned_fallback_links": 0,
+          "isotropic_force_lattice": [
+            -1.7763568394002505e-15,
+            1.6653345369377348e-16,
+            0.0
+          ],
+          "isotropic_moment_common_lattice": 0.0
+        }
+      ],
+      "summary": {
+        "status": "completed",
+        "steps": 32,
+        "fine_steps": 64,
+        "t_star": 0.04,
+        "average_after_t_star": 0.0,
+        "samples": 32,
+        "averaging_samples": 32,
+        "mean": {
+          "cl": 3.3966906159691557,
+          "cd": 2.5942465217931527,
+          "cm": -1.361528563158953
+        },
+        "rms": {
+          "cl": 1.649830089786613,
+          "cd": 3.8755895233043707,
+          "cm": 1.0804536898078128
+        },
+        "experimental_validation": "not_performed",
+        "statistical_convergence": "not_established",
+        "diagnostics": {
+          "local_mach_max": 0.12996241829072028,
+          "density_error_max": 0.012530752353167363,
+          "wall_fallback_links_including_donors": 0,
+          "coarse_boundary_calls": 32,
+          "fine_boundary_calls": 64,
+          "cumulative_wall_mass_exchange": 2.6490152034324365e-05,
+          "cumulative_wall_mass_exchange_over_initial_mass": 5.951112723575627e-06,
+          "last_budget": {
+            "mass_residual_per_volume": -5.2321334187210194e-17,
+            "momentum_residual_per_volume": [
+              2.939524699645924e-14,
+              5.851163056971413e-17,
+              -4.698205131320371e-19
+            ],
+            "wall_mass_exchange": 8.574552261658908e-07,
+            "external_mass_in": 2.858818915044519e-19,
+            "wall_impulse": [
+              6.427745873192302e-05,
+              0.0002409915273302259,
+              -1.5690582244365244e-21
+            ],
+            "external_impulse_in": [
+              2.863769591010649e-17,
+              5.069128229847464e-18,
+              1.4823076576950256e-18
+            ]
+          }
+        },
+        "termination_reason": "duration_reached",
+        "termination": {
+          "mode": "time",
+          "mass_tolerance": 1e-05,
+          "momentum_x_tolerance": 1e-05,
+          "momentum_y_tolerance": 1e-05,
+          "momentum_z_tolerance": 1e-05,
+          "minimum_t_star": 1.0,
+          "consecutive_checks": 10,
+          "max_steps": 0,
+          "wall_time_limit_s": 0.0
+        },
+        "last_residuals": {
+          "step": 32,
+          "t_star": 0.04,
+          "l2_rho": 0.15234568481420088,
+          "l2_jx": 1.5021899444630074,
+          "l2_jy": 1.725104619659942,
+          "l2_jz": 6.158849443607097e-16,
+          "linf_rho": 1.1481389215527993,
+          "linf_jx": 17.6659015769423,
+          "linf_jy": 20.15115908887199,
+          "linf_jz": 5.421010862427522e-15,
+          "balance_rho": 4.1857067349768154e-14,
+          "balance_jx": 2.3516197597167393e-11,
+          "balance_jy": 4.68093044557713e-14,
+          "balance_jz": 3.758564105056297e-16,
+          "streak": 0
+        },
+        "steady_residual_criterion_met": false
+      }
+    }
+  },
+  "scope": "Installed multi-element functionality, not converged aerodynamics",
+  "native_windows": "not_run",
+  "aerodynamic_validation": "not_performed",
+  "re6m": {
+    "status": "unsupported_not_run",
+    "reason": "This module targets 10000 <= Re <= 100000"
+  },
+  "restart_exact_csv_prefix": "passed",
+  "reflection_max_differences": {
+    "cl": 1.0302869668521453e-13,
+    "cd": 3.26405569239796e-14,
+    "cm": 1.4988010832439613e-14
+  },
+  "uniform_slotted": {
+    "status": "completed",
+    "steps": 64,
+    "t_star": 0.04,
+    "wall_clock_seconds": 17.06656698199913,
+    "samples": 64,
+    "averaging_samples": 64,
+    "average_after_t_star": 0.0,
+    "mean": {
+      "cl": 4.125342910951641,
+      "cd": 2.721730449182117,
+      "cm": -1.5274443894078182
+    },
+    "rms_fluctuation": {
+      "cl": 1.7766317616945737,
+      "cd": 5.863263999144601,
+      "cm": 1.1005814772321727
+    },
+    "wall_fallback_links": 0,
+    "experimental_validation": "not_performed",
+    "termination_reason": "duration_reached",
+    "termination": {
+      "mode": "time",
+      "mass_tolerance": 1e-05,
+      "momentum_x_tolerance": 1e-05,
+      "momentum_y_tolerance": 1e-05,
+      "momentum_z_tolerance": 1e-05,
+      "minimum_t_star": 1.0,
+      "consecutive_checks": 10,
+      "max_steps": 0,
+      "wall_time_limit_s": 0.0
+    },
+    "last_residuals": {
+      "step": 64,
+      "t_star": 0.04,
+      "l2_rho": 0.20711487922433508,
+      "l2_jx": 1.8669478144668337,
+      "l2_jy": 2.3907734433054024,
+      "l2_jz": 6.913712786877122e-16,
+      "linf_rho": 2.2171509409427914,
+      "linf_jx": 20.642683571564536,
+      "linf_jy": 29.28201954580335,
+      "linf_jz": 8.40256683676266e-15,
+      "streak": 0
+    },
+    "steady_residual_criterion_met": false,
+    "statistical_convergence": "not_established"
+  },
+  "fine_field_speed_range": [
+    0.0003593622342022201,
+    1.5384891950920725
+  ],
+  "export": "passed",
+  "python_network_attempts": [],
+  "elapsed_seconds": 867.2802227390002
+}

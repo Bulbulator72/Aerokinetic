@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-29",
+  "status_before_execution": "not_run",
+  "target": "Windows x64 CPython 3.12 portable onedir app, private transfer between user PCs",
+  "runtime_baseline": "AeroKinetic 0.4.0 final wheel, unchanged scientific source",
+  "acceptance": [
+    "Isolated build environment and pinned freezer dependencies; existing app unchanged",
+    "Bundle installed x64 MSVC compiler, SDK, CRT/OpenMP runtime, Python headers/import library",
+    "Pystencils 1.4 adapter uses bundled environment exclusively, no VS installation/discovery at runtime",
+    "Real source/metadata available for checkpoint identity and dependency version checks",
+    "Cold-cache scalar/OpenMP JIT plus two real small cases, field/CSV/GIF and stop/resume in frozen executable",
+    "Relocated bundle in path with spaces/Unicode, developer environment removed, no setup/download on offline target",
+    "Private build kit delivered as one hash-checked TXT/BAT; do not overwrite previous updates or results",
+    "Windows/MSVC proof remains not_run here; builder produces user-run proof/report and never labels untested EXE validated"
+  ],
+  "local_checks": [
+    "stdlib staging/adapter tests with synthetic toolchains",
+    "frozen Linux execution with real JIT/solver, clearly separate from Windows",
+    "source/wheel identity and transport manifest checks"
+  ],
+  "native_windows_environment": "unavailable"
+}

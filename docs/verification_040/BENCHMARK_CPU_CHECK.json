@@ -1,0 +1,222 @@
+{
+  "status": "passed",
+  "hardware": {
+    "logical_cpus": 3,
+    "affinity_cpus": 3,
+    "cgroup_cpu_max": "200000 100000"
+  },
+  "OPENBLAS_NUM_THREADS": "1",
+  "OMP_WAIT_POLICY": "PASSIVE",
+  "includes": "Whole synchronized coarse step with both fine substeps, walls, loads, fluxes and budgets",
+  "excludes": "Construction, JIT compilation, residual checks and output files",
+  "results": [
+    {
+      "version": "0.3.0",
+      "threads": 1,
+      "coarse_cells_per_chord": 32,
+      "fine_cells_per_chord": 64,
+      "shape": [
+        128,
+        69,
+        16
+      ],
+      "fine_shape": [
+        136,
+        58,
+        32
+      ],
+      "steps_per_batch": 8,
+      "warmup_steps": 4,
+      "seconds_per_batch": [
+        15.315217990995734,
+        15.405414066000958,
+        14.968711615001666
+      ],
+      "cpu_seconds_per_batch": [
+        15.293762560000005,
+        15.393547429999998,
+        14.963770098000012
+      ],
+      "median_seconds_per_coarse_step": 1.9144022488744667,
+      "median_cpu_time_per_wall_time": 0.9992297100259611,
+      "final_loads": {
+        "step": 28,
+        "t_star": 0.034375,
+        "cl": 2.3455736941973506,
+        "cd": 0.590775547153923,
+        "cm": -0.5122655944798368,
+        "time_s": 0.005294852752419828
+      },
+      "integrals": {
+        "mass": 4.2728296497598555,
+        "momentum": [
+          4.2559489936801365,
+          -0.030191094618623904,
+          -1.7000259117678042e-16
+        ]
+      },
+      "last_budget": {
+        "mass_residual_per_volume": 2.0044548130151002e-17,
+        "momentum_residual_per_volume": [
+          -3.9704579683793395e-15,
+          -2.9193191208324833e-16,
+          -6.003130946232956e-19
+        ],
+        "wall_mass_exchange": 7.035912189011626e-07,
+        "external_mass_in": 7.768271508167197e-17,
+        "wall_impulse": [
+          0.00018461735848560094,
+          0.0007329917794366721,
+          1.6892579071981362e-21
+        ],
+        "external_impulse_in": [
+          1.4531715423170132e-10,
+          -1.2375871837690008e-10,
+          -1.444191175068582e-17
+        ]
+      },
+      "imported_package": "/workspace/aerokinetic_030_release/clean_app/.venv/lib/python3.12/site-packages/aerokinetic/__init__.py",
+      "label": "reference030",
+      "speedup_against_first": 1.0
+    },
+    {
+      "version": "0.4.0",
+      "threads": 1,
+      "coarse_cells_per_chord": 32,
+      "fine_cells_per_chord": 64,
+      "shape": [
+        128,
+        69,
+        16
+      ],
+      "fine_shape": [
+        136,
+        58,
+        32
+      ],
+      "steps_per_batch": 8,
+      "warmup_steps": 4,
+      "seconds_per_batch": [
+        9.655854233002174,
+        9.818704149998666,
+        11.840659513996798
+      ],
+      "cpu_seconds_per_batch": [
+        9.649853467,
+        9.814986425,
+        11.819793301000004
+      ],
+      "median_seconds_per_coarse_step": 1.2273380187498333,
+      "median_cpu_time_per_wall_time": 0.9993785359785503,
+      "final_loads": {
+        "step": 28,
+        "t_star": 0.034375,
+        "cl": 2.3455736941973484,
+        "cd": 0.5907755471539229,
+        "cm": -0.5122655944798361,
+        "time_s": 0.005294852752419828
+      },
+      "integrals": {
+        "mass": 4.2728296497598555,
+        "momentum": [
+          4.2559489936801365,
+          -0.03019109461862364,
+          -1.5368803299215405e-16
+        ]
+      },
+      "last_budget": {
+        "mass_residual_per_volume": 2.0242463114618428e-17,
+        "momentum_residual_per_volume": [
+          -5.217442403100167e-15,
+          -2.555197179207571e-16,
+          -7.1686935819341995e-19
+        ],
+        "wall_mass_exchange": 7.03591218901184e-07,
+        "external_mass_in": 7.681561804147958e-17,
+        "wall_impulse": [
+          0.00018461735848560092,
+          0.0007329917794366715,
+          1.85727896912297e-21
+        ],
+        "external_impulse_in": [
+          1.4531715328627524e-10,
+          -1.237587183928233e-10,
+          -1.4738373282224826e-17
+        ]
+      },
+      "imported_package": "/workspace/aerokinetic_040_release/clean_app/.venv/lib/python3.12/site-packages/aerokinetic/__init__.py",
+      "label": "current_1_threads",
+      "speedup_against_first": 1.5598003317981441
+    },
+    {
+      "version": "0.4.0",
+      "threads": 2,
+      "coarse_cells_per_chord": 32,
+      "fine_cells_per_chord": 64,
+      "shape": [
+        128,
+        69,
+        16
+      ],
+      "fine_shape": [
+        136,
+        58,
+        32
+      ],
+      "steps_per_batch": 8,
+      "warmup_steps": 4,
+      "seconds_per_batch": [
+        9.770409390002897,
+        9.744299564001267,
+        9.545940152005642
+      ],
+      "cpu_seconds_per_batch": [
+        10.506713419,
+        10.469913347000002,
+        10.297318700000005
+      ],
+      "median_seconds_per_coarse_step": 1.2180374455001584,
+      "median_cpu_time_per_wall_time": 1.0753606117826027,
+      "final_loads": {
+        "step": 28,
+        "t_star": 0.034375,
+        "cl": 2.34557369419735,
+        "cd": 0.5907755471539196,
+        "cm": -0.5122655944798352,
+        "time_s": 0.005294852752419828
+      },
+      "integrals": {
+        "mass": 4.2728296497598555,
+        "momentum": [
+          4.255948993680136,
+          -0.03019109461862389,
+          -1.4401051354871174e-16
+        ]
+      },
+      "last_budget": {
+        "mass_residual_per_volume": 2.0394486205855146e-17,
+        "momentum_residual_per_volume": [
+          -5.217613679971663e-15,
+          -2.949768342431779e-16,
+          1.770818651428117e-19
+        ],
+        "wall_mass_exchange": 7.035912189011852e-07,
+        "external_mass_in": 7.616492468442087e-17,
+        "wall_impulse": [
+          0.00018461735848559986,
+          0.0007329917794366719,
+          8.633697643522226e-22
+        ],
+        "external_impulse_in": [
+          1.4531715295482397e-10,
+          -1.2375874023882872e-10,
+          -1.5500702934753696e-17
+        ]
+      },
+      "imported_package": "/workspace/aerokinetic_040_release/clean_app/.venv/lib/python3.12/site-packages/aerokinetic/__init__.py",
+      "label": "current_2_threads",
+      "speedup_against_first": 1.5717105052450688
+    }
+  ],
+  "native_windows": "not_run"
+}

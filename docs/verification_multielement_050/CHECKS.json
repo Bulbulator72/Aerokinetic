@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-02",
+  "version": "0.5.0",
+  "status": "functionality_passed_accuracy_not_established",
+  "installed_wheel_sha256": "8aea2033cfd4f2b5044298b048eff71e4b00a79b31b720adab30de21e2f204c6",
+  "installed_runtime_matches_released_wheel": true,
+  "reynolds_actually_run": 10000,
+  "requested_reynolds": 6000000,
+  "re6m": "unsupported_not_run",
+  "configurations": {
+    "slotted": 2,
+    "double": 3,
+    "fowler": 2
+  },
+  "refined_cpu_threads": 2,
+  "coarse_fine_cells_per_chord": [
+    32,
+    64
+  ],
+  "geometry_only_other_grid": [
+    48,
+    96
+  ],
+  "actual_minimum_direct_gap_cells": {
+    "slotted": [
+      2.528405367567717
+    ],
+    "double": [
+      2.458583225157524,
+      2.4488784310188616
+    ],
+    "fowler": [
+      2.5284029247485424
+    ]
+  },
+  "main_case_steps": 800,
+  "main_case_t_star": 1.0,
+  "refined_wall_intersections_and_isotropic_loads": "passed",
+  "refined_mass_momentum_budgets": "passed",
+  "restart_csv": "byte_identical",
+  "reflection_max_differences": {
+    "cl": 1.0302869668521453e-13,
+    "cd": 3.26405569239796e-14,
+    "cm": 1.4988010832439613e-14
+  },
+  "uniform_two_element_run": "passed",
+  "actual_multi_dat_gui_result_load": "passed",
+  "field_csv_png_gif": "passed",
+  "python_connections_and_dns": "blocked during numerical check",
+  "gui_network": "local X11 permitted; no new network resources required",
+  "native_windows": "not_run",
+  "gpu": "not_run",
+  "aerodynamic_tunnel_validation": "not_performed",
+  "numerical_and_statistical_convergence": "not_established",
+  "runtime_code_changes": false,
+  "raw_run_location": "/workspace/aerokinetic_mechanization_20261102/check_v2",
+  "elapsed_full_check_seconds": 867.2802227390002
+}

@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "scope": "offline compiler discovery/setup control flow and TXT delivery; no solver changes",
+  "discovery_configuration_and_transaction_tests_passed": 8,
+  "delivered_payload_matches_tested_source": true,
+  "crlf_and_lf_roundtrip": "passed",
+  "source_sha256": "f72e009c8c56c01120465b590f83210d94ff3b359b0234c9587344665471a8b7",
+  "artifact_sha256": "dbcc44f6a0b6bec667d4a6b71acc46eb5acb8175926a836b07f63c8209d94678",
+  "windows_execution": "not_run",
+  "project_code_wheel_changed": false,
+  "aerodynamic_validation": "not_assessed; configuration repair only",
+  "relevant_commands": [
+    "python -m pytest tests/test_windows_compiler_setup.py -q",
+    "python tools/make_compiler_fix.py"
+  ],
+  "evidence": [
+    "UPSTREAM_FAILURE_CHAIN.json",
+    "LINUX_PROBE.json"
+  ]
+}

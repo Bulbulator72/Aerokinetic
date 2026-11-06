@@ -1,0 +1,6 @@
+# Freezer closure for CPython 3.12. Application pins are kept separately.
+pyinstaller==6.16.0
+pyinstaller-hooks-contrib==2025.9
+altgraph==0.17.5
+pefile==2023.2.7; sys_platform == 'win32'
+pywin32-ctypes==0.2.3; sys_platform == 'win32'

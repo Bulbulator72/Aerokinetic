@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "version": "0.5.0",
+  "cases": {
+    "slotted": {
+      "imported_elements": 2,
+      "coordinates_and_settings": "passed",
+      "actual_results_and_four_residuals": "passed"
+    },
+    "double": {
+      "imported_elements": 3,
+      "coordinates_and_settings": "passed",
+      "actual_results_and_four_residuals": "passed"
+    },
+    "fowler": {
+      "imported_elements": 2,
+      "coordinates_and_settings": "passed",
+      "actual_results_and_four_residuals": "passed"
+    }
+  },
+  "re6m": "GUI rejects unsupported input and preserves it for correction",
+  "source_run_files_unchanged": true,
+  "callback_errors": [],
+  "native_windows": "not_run"
+}

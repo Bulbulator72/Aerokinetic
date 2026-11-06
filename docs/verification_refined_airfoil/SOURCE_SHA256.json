@@ -1,0 +1,294 @@
+{
+  ".agents/skills/cfd-lbm/SKILL.md": {
+    "bytes": 16635,
+    "sha256": "9bb888f9adb1f923a04c2472805ee34883eaeae07697097155777f2a89cb0ed2"
+  },
+  ".agents/skills/cfd-lbm/references/experiment.md": {
+    "bytes": 9687,
+    "sha256": "bfe84b49cc15ed0328a801053b3947f79466fce0485bb35409671b53cccc0ede"
+  },
+  ".agents/skills/cfd-lbm/references/offline.md": {
+    "bytes": 7984,
+    "sha256": "5a0a013f0001aab21f24465359f6e6fd8c570d0bccaab3dc549c3389ebac5b16"
+  },
+  ".agents/skills/cfd-lbm/references/verification.md": {
+    "bytes": 10673,
+    "sha256": "f39cf86c84248c7f3e953c5a3a085e8f13183a95a39fa12f33ba034c60349a45"
+  },
+  ".agents/skills/cfd-lbm/templates/report.md": {
+    "bytes": 5364,
+    "sha256": "06878c37274cf1bc0b14c1ad619a7ff1047e0b7f8ce118b562972596c604507a"
+  },
+  "0_install_PYTHON_OFFLINE.bat": {
+    "bytes": 610,
+    "sha256": "c2989dbd9f9c5705e5c7e3c3e3064e5e46fa4cb18cec7ec300e74095c6092e18"
+  },
+  "1_download_ONLINE_WINDOWS.bat": {
+    "bytes": 913,
+    "sha256": "e9fecbfa75484374ba32f44ca4fc9b1905e473748c5cb87c105ce4d7abbb4b46"
+  },
+  "1b_download_COMPILER_ONLINE.bat": {
+    "bytes": 10130,
+    "sha256": "af1b6d438866920ed4dca0e41e27b8301204c1514ad332fc2fe348409d114a6c"
+  },
+  "1c_download_LINUX_WHEELS_ONLINE.bat": {
+    "bytes": 230,
+    "sha256": "25ed4e2d43dcb54aba7edca921a899eb62a81a89167274915ace4cda5521c086"
+  },
+  "2_install_COMPILER_OFFLINE.bat": {
+    "bytes": 6646,
+    "sha256": "e138fac49bccc3f4ec01069398eed05029ed0e45ecd7734376a0b1edc64b93b2"
+  },
+  "3_install_WINDOWS_OFFLINE.bat": {
+    "bytes": 1003,
+    "sha256": "16ab7122b32e38123b9f768647abd4b32b0fb13bc2d86ab451ca16117572d05c"
+  },
+  "4_run_PREVIEW.bat": {
+    "bytes": 573,
+    "sha256": "af21744f8cf92339d6cf690d0e189de98e372af4d65970559cce5b6ef057d376"
+  },
+  "5_check_hardware_WINDOWS.bat": {
+    "bytes": 379,
+    "sha256": "658374cf4d7d9ab725e64a7668ba87f3ef33786db51443e0ee0cddf031f5732f"
+  },
+  "6_run_AEROKINETIC.bat": {
+    "bytes": 477,
+    "sha256": "05aaf1162a901e2675daa1e5f25bf02f869cdf058a518c59a4b4de5fc8d16d0c"
+  },
+  "AGENTS.md": {
+    "bytes": 3041,
+    "sha256": "bc81b68c6adee0e7d0f98ccf9d455320cbcc9d53ef4f7d28cbf7044c30ad90bf"
+  },
+  "docs/verification_refined_airfoil/PLAN.json": {
+    "bytes": 3823,
+    "sha256": "9cd1bb6dc29f7688438dfa6246c009c09a1fb36d66d9f9dfeb93da48e3bf9b6c"
+  },
+  "docs/verification_refined_airfoil/finalize_evidence.py": {
+    "bytes": 18087,
+    "sha256": "4783b718825e0c53765044f185a319f1f8fad03f15984df44ec40e32400f5eda"
+  },
+  "docs/verification_refined_airfoil/verify_update.py": {
+    "bytes": 4760,
+    "sha256": "38bacc8a38630d8f81c93226f1442e8beb9f00cc5d8a7aad88ef5c6fe71ef5be"
+  },
+  "pyproject.toml": {
+    "bytes": 890,
+    "sha256": "1cd96a05751c4573888b439d93c877ede262597ba4be1ad2d618cbf14dbf929c"
+  },
+  "requirements-offline-py312.txt": {
+    "bytes": 557,
+    "sha256": "99a019bfc87cf71487a37c5db770bd04e458b9e302f775b8b525a44ef3470c8a"
+  },
+  "src/aerokinetic/__init__.py": {
+    "bytes": 778,
+    "sha256": "6996cc6c142ac29a769584ede596affa02f6d2e74a6407f4224477d82fd0e0be"
+  },
+  "src/aerokinetic/_io.py": {
+    "bytes": 1393,
+    "sha256": "26df857e7c0ae75fae63a1bcccc9d52fefba0b6d14f6ea39f5644a353a91fdec"
+  },
+  "src/aerokinetic/animation.py": {
+    "bytes": 4182,
+    "sha256": "a083d3ac1420c7d4038a70e157ce5f5cdddd959041738443d76186a251faf067"
+  },
+  "src/aerokinetic/checkpoint.py": {
+    "bytes": 4603,
+    "sha256": "f8fd43942d490af6bb46bc1710bec72686da0ca348b621d0fddb42647cd091c0"
+  },
+  "src/aerokinetic/cli.py": {
+    "bytes": 5906,
+    "sha256": "38b69606715a79f0e31440dc893e48169ac739ba51b3766c839e11601bd66a07"
+  },
+  "src/aerokinetic/config.py": {
+    "bytes": 6657,
+    "sha256": "5c4c665e05712c7b862155918169104ce77713413db3e6ff88b255b82beded04"
+  },
+  "src/aerokinetic/data/Ladson_TM4074_table_IX_Re5p95m_80W.csv": {
+    "bytes": 500,
+    "sha256": "b78b3e278ceb1979d6f5099c84ec487475d136c8476fd8d99340636768c79fd2"
+  },
+  "src/aerokinetic/data/experiments.json": {
+    "bytes": 1777,
+    "sha256": "171332639ff9316334f504c67782bf99e0710a764a8a8013eabfb34b1ca531de"
+  },
+  "src/aerokinetic/data/ohtake2007_fig5_cl_re30000.csv": {
+    "bytes": 4181,
+    "sha256": "f281e6da50c0dc810f2ec1ef70ddea79e7d2cd6073f3791d0f872fdd263b2d72"
+  },
+  "src/aerokinetic/experiments.py": {
+    "bytes": 4768,
+    "sha256": "1dfc0b698839c4bb763a94d6fd73302f6616ad373f6ff3f4bd3792d626b16e3d"
+  },
+  "src/aerokinetic/geometry.py": {
+    "bytes": 8644,
+    "sha256": "30beffe1914547e836fcf636d776a12018878945db817172a9c35c970aef4a94"
+  },
+  "src/aerokinetic/gui.py": {
+    "bytes": 49146,
+    "sha256": "a6635fb83062effca289c5f10993c1e08f3f8266637ba9f9944a25506d0cf5da"
+  },
+  "src/aerokinetic/interface.py": {
+    "bytes": 19343,
+    "sha256": "001f26cd119232ecea61b93dd2a2278772bc34d010cd6c14b0b519be9711e67a"
+  },
+  "src/aerokinetic/interface_checks.py": {
+    "bytes": 19805,
+    "sha256": "282986da2a684c5db6bed89d667a3849be77a5a531251eb4951ff9190de26043"
+  },
+  "src/aerokinetic/interface_visualization.py": {
+    "bytes": 6196,
+    "sha256": "f9d0f1c61f9799c7c328c4ada8063f3d618e8249676dbd247d6868930cb88550"
+  },
+  "src/aerokinetic/project.py": {
+    "bytes": 3716,
+    "sha256": "5477bfdf77c436eed8b50971613cbac155b041faf0d6e3186c0d3d05fdc8180e"
+  },
+  "src/aerokinetic/refined_checkpoint.py": {
+    "bytes": 7079,
+    "sha256": "6090c1303edf608ba92ba200a1d6632c57c2c490548741cbaa94e0dc43feac10"
+  },
+  "src/aerokinetic/refined_run.py": {
+    "bytes": 7955,
+    "sha256": "6bd941a6c247d1fdffd1f670d524a0932e3819730ffc2f91c1dbbf7176eb5136"
+  },
+  "src/aerokinetic/refined_solver.py": {
+    "bytes": 20253,
+    "sha256": "871807df8f3e61ad41eae2214fc5020072f679cef8e522a1368fe75bb964da94"
+  },
+  "src/aerokinetic/refined_visualization.py": {
+    "bytes": 5842,
+    "sha256": "f36bbaea2c471884301da7bee6fad2e775527076965a5ff2daf70151b12b050c"
+  },
+  "src/aerokinetic/refinement.py": {
+    "bytes": 12325,
+    "sha256": "798053ea229960ca48c818e36e737aab8657e076ae9187230379f752d76b6df8"
+  },
+  "src/aerokinetic/refinement_checks.py": {
+    "bytes": 15446,
+    "sha256": "a6a4046d8b16db23c96698c4e725715e04b0d8d9731b98c0a245bded09778704"
+  },
+  "src/aerokinetic/solver.py": {
+    "bytes": 22923,
+    "sha256": "14cfee4f4a3475008dc06434bc9ededaa66b2c1179d91dfd0946377f30fe65ad"
+  },
+  "src/aerokinetic/temporal.py": {
+    "bytes": 15967,
+    "sha256": "9f5413128494a8320b12bde654d758e5602f2b5f245421348bcf2f813396c077"
+  },
+  "src/aerokinetic/walls.py": {
+    "bytes": 4739,
+    "sha256": "13c8e9812f05390f3afb20f9d6908c00bb6f37ab58515e2d244cf031d64346dd"
+  },
+  "tests/test_case_planning.py": {
+    "bytes": 2222,
+    "sha256": "1c603920af5c82547d0fce2044160dc57971e166227a1933c76188b8aeafd82e"
+  },
+  "tests/test_experiments.py": {
+    "bytes": 2768,
+    "sha256": "c17de79f020a27335cc0c98bfae2587887483528ba04d86a9c124ebeb183a9a1"
+  },
+  "tests/test_geometry_and_units.py": {
+    "bytes": 2272,
+    "sha256": "0d67806effe4df0ad2da44f97fe92a28acd53c68fad6315ba5e6334f3821c02f"
+  },
+  "tests/test_interface.py": {
+    "bytes": 10553,
+    "sha256": "c5cbcaf574f6ad72b71166a5e3f7f80f97a425379709660ce8769d4a5cbff33e"
+  },
+  "tests/test_multi_and_les.py": {
+    "bytes": 984,
+    "sha256": "a4249cf2b481418d1cae4503e5898536ff0dfc3b98c1a4cefd4b5988ea29fc61"
+  },
+  "tests/test_numerics.py": {
+    "bytes": 4316,
+    "sha256": "14326ab0651da8658e3626fa180a2680d43d34988e2f46097448cc85187d295a"
+  },
+  "tests/test_projects_and_restart.py": {
+    "bytes": 6583,
+    "sha256": "9b19db11d2eb09808db9922e80156178a4ef7ee1c3116b83b19cfb18a8537b46"
+  },
+  "tests/test_refined_airfoil.py": {
+    "bytes": 12272,
+    "sha256": "3fccd22faa49b802b25d1b5736c6b32c0fa18b31683ad40e83ac014853cd3044"
+  },
+  "tests/test_refined_run.py": {
+    "bytes": 3291,
+    "sha256": "dc598b03f9bde5731e336e8c05f9d4c4eb7e3eb87bfbd38d01326cd9a344a152"
+  },
+  "tests/test_refinement.py": {
+    "bytes": 11794,
+    "sha256": "75e9ee32fac6e65397807490290e3c2d487284961532ef6c49fc024d6ba5f978"
+  },
+  "tests/test_temporal.py": {
+    "bytes": 3574,
+    "sha256": "55201c5b38865a12542f865c7dfbffdbf9ddd106b142b3176a3bf01de5f86fd7"
+  },
+  "tests/test_windows_compiler_setup.py": {
+    "bytes": 5347,
+    "sha256": "d63849453b9da46a3597a11f133df45a9638573b10c1ed4deb77476bada4b1ec"
+  },
+  "tools/check_offline_runtime.py": {
+    "bytes": 2773,
+    "sha256": "af2bd3a3917b1f140833181ef6b9cb2923be7a0b874c98c2ff1207d55dc56264"
+  },
+  "tools/check_refined_offline.py": {
+    "bytes": 5275,
+    "sha256": "733fee1f0e372188466371504828098b43923fdcb57d41d84f849d823375ef69"
+  },
+  "tools/check_refinement_offline.py": {
+    "bytes": 4566,
+    "sha256": "333d56875767f1de355572107d5dd837b73f9a2bf059d82af7403fb5f2283920"
+  },
+  "tools/configure_windows_compiler.py": {
+    "bytes": 11933,
+    "sha256": "f72e009c8c56c01120465b590f83210d94ff3b359b0234c9587344665471a8b7"
+  },
+  "tools/digitize_ohtake_fig5.py": {
+    "bytes": 2832,
+    "sha256": "8294e7b5598193c12a45793a0275d5c35c8878f6c414e25629eae34e62fe55a1"
+  },
+  "tools/install_update.py": {
+    "bytes": 8734,
+    "sha256": "2738bd8ba224c8c1da5a7aa24ed90b4cad29f9b17155d74cb8eb7825897f6fd6"
+  },
+  "tools/make_compiler_fix.py": {
+    "bytes": 4536,
+    "sha256": "19379ae1f82e324dab28b75e0f587d06c6a944d6a808dc358d4cfcdda9357950"
+  },
+  "tools/make_temporal_launcher.py": {
+    "bytes": 4102,
+    "sha256": "69f02ef9189b4fb0f4e03307d24a64d9e080c86ae1f86c4a1a540da6dd07f5f6"
+  },
+  "tools/make_text_transfer.py": {
+    "bytes": 6505,
+    "sha256": "c6d266e9c27e47cc29720c2cef0c26e0a1fffa6e50e4df3eb3dcfe086d5b9a4e"
+  },
+  "tools/make_update_transfer.py": {
+    "bytes": 7603,
+    "sha256": "f1bd9806b07709cff2c518d38dd44a01ad23f6fcc2e14839d0b0709dbb9df8b5"
+  },
+  "tools/plan_case.py": {
+    "bytes": 4690,
+    "sha256": "00030ee62d232f3542ce77f01bd3507b8984a8c3b61ccd99e9a2b85fb4920723"
+  },
+  "tools/prepare_offline.py": {
+    "bytes": 2964,
+    "sha256": "1d434dde3a1942a636ea92817c2d0cb0a4ddc39818ac285176d2bf78bf38b918"
+  },
+  "tools/smoke_desktop.py": {
+    "bytes": 4104,
+    "sha256": "648e37cb0a17d51448035713fe196eee968d227b288d0adb9c163b171c169b98"
+  },
+  "tools/smoke_refined.py": {
+    "bytes": 4728,
+    "sha256": "05b68e2e23f021093e120195cd1d4d8d3a287542a7cfafa7c1822c4d1243144b"
+  },
+  "tools/smoke_statistics.py": {
+    "bytes": 4805,
+    "sha256": "ec64ec8607578581c5410e35b8fad9fb6770725d178d741d1620e47fb9beea62"
+  },
+  "tools/verify_offline.py": {
+    "bytes": 660,
+    "sha256": "dfcd1a7e8242c9024fae3c604b3fe1401a2e0f4538633df87ff17d77b9c15a17"
+  }
+}

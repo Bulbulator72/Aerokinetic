@@ -1,0 +1,141 @@
+{
+  "algorithm": "SHA-256",
+  "purpose": "Snapshot of runtime, criteria, new tests and development instructions",
+  "files": [
+    {
+      "file": "src/aerokinetic/__init__.py",
+      "bytes": 571,
+      "sha256": "af2a1e2b8922f1c9fb995ae6e499c90b3d221103c09ca5c308e209bab386096f"
+    },
+    {
+      "file": "src/aerokinetic/_io.py",
+      "bytes": 1393,
+      "sha256": "26df857e7c0ae75fae63a1bcccc9d52fefba0b6d14f6ea39f5644a353a91fdec"
+    },
+    {
+      "file": "src/aerokinetic/animation.py",
+      "bytes": 3837,
+      "sha256": "f9e8bfb3ac8e0d2b6cc5e6bb686a30a0b0650fbf46b6ad0b474795c8a1b00473"
+    },
+    {
+      "file": "src/aerokinetic/checkpoint.py",
+      "bytes": 4603,
+      "sha256": "f8fd43942d490af6bb46bc1710bec72686da0ca348b621d0fddb42647cd091c0"
+    },
+    {
+      "file": "src/aerokinetic/cli.py",
+      "bytes": 3843,
+      "sha256": "eb3ba4c720c18f7b6b56ff57de0823899e35f0f497737b7af6fc82f0ede50ce1"
+    },
+    {
+      "file": "src/aerokinetic/config.py",
+      "bytes": 6657,
+      "sha256": "5c4c665e05712c7b862155918169104ce77713413db3e6ff88b255b82beded04"
+    },
+    {
+      "file": "src/aerokinetic/experiments.py",
+      "bytes": 4768,
+      "sha256": "1dfc0b698839c4bb763a94d6fd73302f6616ad373f6ff3f4bd3792d626b16e3d"
+    },
+    {
+      "file": "src/aerokinetic/geometry.py",
+      "bytes": 8644,
+      "sha256": "30beffe1914547e836fcf636d776a12018878945db817172a9c35c970aef4a94"
+    },
+    {
+      "file": "src/aerokinetic/gui.py",
+      "bytes": 42828,
+      "sha256": "9c4ed704e3bf8883100ae573c476535467ef91742203910e53eba856e9d7d14e"
+    },
+    {
+      "file": "src/aerokinetic/project.py",
+      "bytes": 3716,
+      "sha256": "5477bfdf77c436eed8b50971613cbac155b041faf0d6e3186c0d3d05fdc8180e"
+    },
+    {
+      "file": "src/aerokinetic/refinement.py",
+      "bytes": 12325,
+      "sha256": "798053ea229960ca48c818e36e737aab8657e076ae9187230379f752d76b6df8"
+    },
+    {
+      "file": "src/aerokinetic/refinement_checks.py",
+      "bytes": 15446,
+      "sha256": "a6a4046d8b16db23c96698c4e725715e04b0d8d9731b98c0a245bded09778704"
+    },
+    {
+      "file": "src/aerokinetic/solver.py",
+      "bytes": 22923,
+      "sha256": "14cfee4f4a3475008dc06434bc9ededaa66b2c1179d91dfd0946377f30fe65ad"
+    },
+    {
+      "file": "src/aerokinetic/temporal.py",
+      "bytes": 15532,
+      "sha256": "ca6befa6e65d29981dc77522b7cff20f183067a939e66355a096cf7cfd856573"
+    },
+    {
+      "file": "pyproject.toml",
+      "bytes": 890,
+      "sha256": "5379e595a25943760dbc0eab77ca51c296692fc1ed5628bbe1a33dc0e7d7320f"
+    },
+    {
+      "file": "requirements-offline-py312.txt",
+      "bytes": 557,
+      "sha256": "99a019bfc87cf71487a37c5db770bd04e458b9e302f775b8b525a44ef3470c8a"
+    },
+    {
+      "file": "AGENTS.md",
+      "bytes": 3041,
+      "sha256": "bc81b68c6adee0e7d0f98ccf9d455320cbcc9d53ef4f7d28cbf7044c30ad90bf"
+    },
+    {
+      "file": ".agents/skills/cfd-lbm/SKILL.md",
+      "bytes": 16403,
+      "sha256": "70c4e465b442ecfcf3589fa29ccd25d48e2b412cb5e6817b8da98c529fc1f043"
+    },
+    {
+      "file": "tests/test_refinement.py",
+      "bytes": 11794,
+      "sha256": "75e9ee32fac6e65397807490290e3c2d487284961532ef6c49fc024d6ba5f978"
+    },
+    {
+      "file": "tools/check_refinement_offline.py",
+      "bytes": 3847,
+      "sha256": "474c53d602a5e3880c7f5b9b0a73cfef4196da3d6418254a8357f7bf4ce4e663"
+    },
+    {
+      "file": "references/refinement/PROVENANCE.json",
+      "bytes": 2946,
+      "sha256": "50e32762a91ecc47e9b97daffa57d4a5867765cfa675cd7a55357cfaa4e3ace6"
+    },
+    {
+      "file": "README_RU.md",
+      "bytes": 22486,
+      "sha256": "da42bcea16e4060b41119a043d89cd636b2f6242470fc080fb62028cf346c69d"
+    },
+    {
+      "file": "docs/PROGRAM_REQUIREMENTS_RU.md",
+      "bytes": 20017,
+      "sha256": "7fda8244df67379d284f03361f3ddac64708dd1b7858eaf27b181b60e09c4cc5"
+    },
+    {
+      "file": "docs/REFINEMENT_RU.md",
+      "bytes": 12238,
+      "sha256": "a2dcb6dd94ace0c8615a0b2ebe5699fd0086f02504a89a60aa02c1402aee53c5"
+    },
+    {
+      "file": "docs/ROADMAP_RU.md",
+      "bytes": 8232,
+      "sha256": "ef9bec93fe997d453869183d634d2a8d67b777c1eaf045d9f9d638dbb2c7bb72"
+    },
+    {
+      "file": "docs/verification_refinement/REPORT_RU.md",
+      "bytes": 12584,
+      "sha256": "fbd06efed24546f21ef5e6a01109fc3aa6229327245eaabd40932ac96a094097"
+    },
+    {
+      "file": "docs/verification_refinement/PLAN.json",
+      "bytes": 2303,
+      "sha256": "c54daf5fbdcdce33db52071fdba5123e265a140160a826bb39f622f6df6cdb40"
+    }
+  ]
+}

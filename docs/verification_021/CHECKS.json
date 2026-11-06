@@ -1,0 +1,72 @@
+{
+  "version": "0.2.1",
+  "date_utc": "2026-10-27",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "python": "3.12.14",
+  "scope": "Descriptive unsteady statistics and GUI/export/offline update; numerical solver unchanged",
+  "wheel_sha256": "29c76b86687329facbe2d1d1d3203b40473eac077a8ddd9393c3f1718284659b",
+  "implementation": {
+    "status": "passed",
+    "statistics_tests": 7,
+    "focused_tests_total": 20,
+    "installed_wheel_tests": true,
+    "statistical_and_cli_modules_unchanged_since_offline_tests": true,
+    "core_bytes_identical_to_020": true
+  },
+  "gui": {
+    "status": "passed",
+    "real_display": true,
+    "statistics_button_cutoff_and_archive": "passed",
+    "loaded_case_populates_form": "passed",
+    "calculation_stop_resume_gif": "passed"
+  },
+  "offline_update": {
+    "status": "passed",
+    "target_tested": "Linux x86_64 CPython 3.12 existing venv",
+    "dependency_downloads": false,
+    "python_postprocessing_network_connections": "blocked",
+    "pip_check": "passed",
+    "manual_and_automatic_restore": "passed",
+    "corrupt_wheel_rejection": "passed",
+    "existing_windows_wheelhouse_integrity": "passed; 28 wheels including previous and new application"
+  },
+  "numerical_convergence": {
+    "status": "not_run",
+    "reason": "No changed numerical method and no new convergence claim; short functional GUI run only"
+  },
+  "experimental_validation": {
+    "status": "inconclusive",
+    "reason": "Aerodynamic accuracy remains unvalidated; no solver, wind-tunnel data or comparison method changes"
+  },
+  "windows_bat_powershell_execution": {
+    "status": "not_run",
+    "reason": "No native Windows/PowerShell runner in this environment"
+  },
+  "gpu_execution": {
+    "status": "not_run",
+    "reason": "No GPU test performed"
+  },
+  "evidence": [
+    "PLAN.json",
+    "WHEEL_CHECK.json",
+    "OFFLINE_ANALYSIS_CHECK.json",
+    "GUI_STATISTICS_CHECK.json",
+    "GUI_RUN_CHECK.json",
+    "UPDATE_CHECK.json",
+    "verify_update.py"
+  ],
+  "source_sha256": {
+    "src/aerokinetic/gui.py": "9c4ed704e3bf8883100ae573c476535467ef91742203910e53eba856e9d7d14e",
+    "src/aerokinetic/temporal.py": "ca6befa6e65d29981dc77522b7cff20f183067a939e66355a096cf7cfd856573",
+    "src/aerokinetic/cli.py": "c262edded51d86ff66f2b9176fefc4b8823fe9dd3c3d9423629e18c48fd71c0b",
+    "tools/install_update.py": "4d201637d08f447b5eca31b0efec896cf770697def8fd385cb92f746b7533458"
+  },
+  "commands": [
+    "python -m pytest tests/test_temporal.py tests/test_experiments.py tests/test_case_planning.py -q -o pythonpath=",
+    "python tools/smoke_statistics.py <copy-of-saved-run> --output <empty-output>",
+    "python tools/smoke_desktop.py --output <empty-output>",
+    "python docs/verification_021/verify_update.py",
+    "python -m pip --disable-pip-version-check check",
+    "python tools/verify_offline.py <prepared-windows-wheelhouse>"
+  ]
+}

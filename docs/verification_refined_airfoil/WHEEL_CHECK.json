@@ -1,0 +1,11 @@
+{
+  "candidate_wheel_sha256": "a4467789a91dc7b418cd2064b1aadf246aa7ebc661c518b5e982f8f4068e83e7",
+  "final_wheel_sha256": "4594cbc68cf56e1ec052c86d2abdb8d3dc2ee5b671eeb5495947642367b77566",
+  "runtime_files": 25,
+  "runtime_matches_source": true,
+  "candidate_to_final_runtime_changes": [
+    "aerokinetic/gui.py"
+  ],
+  "numerical_runtime_and_data_byte_identical": true,
+  "gui_change": "Preserve averaging-cutoff float roundtrip for refresh/export; separate GUI recheck required"
+}

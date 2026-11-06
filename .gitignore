@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+downloads/
+scratch*/
+demo_run/
+preview_*/
+hardware_windows.json
+
+# Generated restart states and local credentials
+**/checkpoint.npz
+.env
+.env.*
+*.pem
+*.key
+portable_builds/

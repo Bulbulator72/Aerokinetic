@@ -1,0 +1,34 @@
+{
+  "date_utc": "2026-10-27",
+  "milestone": "Conservative fluid-only 2:1 D3Q27 remapping and acoustic level scaling",
+  "status_before_execution": "not_run",
+  "production_solver_changed": false,
+  "scope": [
+    "Explicit pre-collision, unforced, low-Mach populations; regularized second-order non-equilibrium moments",
+    "Acoustic dx/dt scaling, shear and bulk relaxation scaled separately",
+    "Five-point conservative cell-average prediction in each spatial direction; eight-child volume restriction",
+    "Conserved-variable time interpolation for the fine half step",
+    "Periodic uniform-level remeshing experiment using the pinned cumulant collision kernel"
+  ],
+  "out_of_scope": [
+    "Simultaneous coarse/fine streaming across a spatial interface and flux correction",
+    "Solid walls, forces and checkpoints on multiple levels",
+    "SGS-dependent local relaxation, compressibility up to physical Mach 0.4",
+    "Production GUI switch or claims of validated airfoil coefficients"
+  ],
+  "criteria_fixed_before_execution": {
+    "cellwise_density_and_momentum_error": {"absolute_max": 2e-13},
+    "equilibrium_vs_pinned_cumulant_setter": {"absolute_max": 3e-14},
+    "100_roundtrip_uniform_state_error": {"absolute_max": 2e-12},
+    "degree_four_cell_average_reproduction": {"absolute_max": 2e-12},
+    "remeshing_mass_relative_drift": {"absolute_max": 5e-11},
+    "remeshing_momentum_per_volume_drift": {"absolute_max": 2e-12},
+    "advected_shear_wave_complex_amplitude_error": {"relative_max": 0.02},
+    "advected_shear_wave_fitted_physical_viscosity_error": {"relative_max": 0.02},
+    "unscaled_relaxation_negative_control": "The measured physical viscosity must be 0.5 times the requested viscosity to within 0.03; it must fail the 0.02 accuracy criterion.",
+    "spatial_prediction_study": "At least three resolutions of smooth periodic cell averages; report errors and observed ratios, not airfoil GCI.",
+    "offline": "No new dependencies. Test the installed research wheel in a clean local-wheel-only venv with Python socket network attempts blocked; fresh JIT cache.",
+    "windows_gpu": "not_run: neither available in this executor",
+    "tunnel_validation": "not_run: transfer operators alone do not compute an airfoil solution; no new experimental accuracy claim"
+  }
+}

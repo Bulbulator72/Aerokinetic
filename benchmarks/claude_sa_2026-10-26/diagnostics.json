@@ -1,0 +1,31 @@
+{
+  "original_csv_sha256": "075a66f21311bba17b841efe18739d67f0ab7b6c744514be885302a57eb07e02",
+  "reference_csv_sha256": "b78b3e278ceb1979d6f5099c84ec487475d136c8476fd8d99340636768c79fd2",
+  "comparison_kind": "preliminary_Claude_RANS_vs_wind_tunnel",
+  "reference_interpolation": "piecewise_linear_in_alpha_within_one_series_no_extrapolation",
+  "re_difference_percent_relative_to_experiment": 0.8403361344537785,
+  "rotation_only_prediction_at_12": {
+    "cl": 1.0758419931655756,
+    "cd": 0.05047008910752222
+  },
+  "actual_minus_rotation_prediction_at_12": {
+    "cl": 2.8006834424498805e-05,
+    "cd": 4.910892477776041e-06
+  },
+  "body_axis_force_at_10": [
+    -0.1743129312824589,
+    1.0628255859456512
+  ],
+  "body_axis_force_at_12": [
+    -0.17431395065306393,
+    1.0628540017955062
+  ],
+  "relative_body_force_change": 2.6400616046354413e-05,
+  "cm_change": -6.000000000000796e-06,
+  "suspicion": "premature_convergence_after_warm_start; not_confirmed_by_CFD_reproduction",
+  "iteration_history_available": false,
+  "cp_available": false,
+  "solver_modified": false,
+  "CFD_reproduction": "not_run",
+  "new_kinetic_solver_validation": "not_run"
+}

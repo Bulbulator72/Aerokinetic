@@ -1,0 +1,479 @@
+09_05
+29
+F|K\9R6u1'Ch3X2qO@J8=8 !=O@ J8!=
+Vol. 55, No. 644, pp. 439–445, 2007
+DcRe?tNN0h$G$NNACA0012 Mc$NHs@~7A6uNOFC@-∗1
+Nonlinearity of the Aerodynamic Characteristics of
+NACA0012 Aerofoil at Low Reynolds Numbers
+Bg C] CR 5W∗2!&Cf 9> M: N<∗3!&K\ 66 N6 O:∗2
+Tomohisa Ohtake, Yusuke Nakae and Tatsuo Motohashi
+Key W ords : Low Reynolds Numbers, Nonlinearity, Aerodynamic Characteristics, NACA0012
+Abstract : Aerodynamic characteristics of NACA0012 airfoil at low Reynolds numbers ( Re = 1 .0 × 104!A1.0 × 105)
+are measured systematically to clarify nonlinearity of the aerofoil characteristics. The variation of the lift curve with
+the angle of attack is divided into 5 sub-regions; the gradient of the lift curve much depends on the incident angle.
+Negative values of the gradient of lift coeﬃcient are observed at lower angles of attack in a Reynolds numbers range.
+The sub-regions are summarized in a diagram of angle of attack and Reynolds numbers. The coeﬃcients of drag and
+moment around 0.25 chord length have also unique characteristics.
+1. $O $8 $a $K
+9R6u5!$N3+H/$H$H$b$KMc$N8&5f$OH/C#$7$F$-$?!% $7$?$,$C
+$F!$9R6u5!$NNIH]$O!$Bh0l$K!$Mc$N6uNOFC@-$KBg$-$/0MB8
+$9$k!%:#F|$G$b!$$h$jNI$$McFC@-$r$b$C$?Mc7?$N3+H/$,@9
+$s$K9T$o$l$F$$$k!%Mc7?$N@-G=$ORe ?t$K0MB8$9$k!$Nc$(
+$P!$%i%$%H7;Do$NIwF6<B83$GMQ$$$i$l$?Mc7?$N%l%$%N%k%:
+?t!J0J2<Re ?t$HI=5-!K$O$9$G$K1.0 × 106 $r1[$($F$$$?!%
+$=$N8e$NMc7?$N3+H/$K$*$$$F$b!$Re ?t$,1.0 × 106 $rBg$-
+$/1[$($F$$$k>l9g$NMcFC@-$K=EE@$,CV$+$l$F$$$k!%$7$+$7!$
+6aG/!$Re ?t$,?t10 K|!$$"$k$$$O?tK|$NMc7?$NFC@-$,=EMW
+$K$J$C$F$-$F$$$k!% M}M3$N0l$D$K$O!$ >.7? !& DcB.$N9R6u5!$r
+4^$a$?Ht9TBN$,<R2q$N$"$i$f$k>lLL$GEP>l$7$F$-$?$3$H$,
+5s$2$i$l$k!%Cf$G$b!$L5?MHt9T5!!JUA V!(Unmanned Air
+Vehicles!K$*$h$SD6>.7?Ht9T5!!JMA V!(Micro Air Vehi-
+cles!K$NEP>l$OFC5-$KCM$9$k!%$9$J$o$A!$:R328=>l$d3F<o
+D4::$KMQ$$$i$l$k$3$l$i$N9R6u5!$K;HMQ$5$l$kMc7?$N6uNO
+FC@-$O!$:#8eMc7?3+H/$NJ,Ln$GBg$-$JLr3d$r1i$8$F$$$/$b
+$N$H?dB,$5$l$k!%
+$7$+$7!$$3$N$h$&$KDc$$Re ?tNN0h$K$*$1$kMc7?$N6uNO
+FC@-$N8&5f$O>/$J$$!%$3$l$ODcRe ?tNN0h$G$OMc$KF/$/N.
+BNNO$,>.$5$/7WB,$,:$Fq$G$"$C$?$3$H$,0l0x$H9M$($i$l$k!%
+0lJ}!$:G6a$NEE;R5!4o$NH/C#$KH<$$!$>.$5$JN.BNNO$r7WB,
+$9$k$3$H$,$G$-$k$h$&$K$J$C$F$-$?!%
+Dc$$Re ?t$K$*$1$kMc7?$N6uNOFC@-$NFCD'$O!$MHNO78?t
+$,Hs@~7A@-$r$b$D$3$H$G$"$k!%$9$J$o$A!$MHNO$,7^3Q$KHf
+Nc$7$J$$$3$H$G$"$k!J9b$$Re ?tNN0h$KHf$YMHNO78?tCl $N
+∗1 C⃝ 2007 F|K\9R6u1'Ch3X2q
+J?@.19 G/3 7n23 F|869F<uM}
+∗2 F|K\Bg3XM}9)3XIt9R6u1'Ch9)3X2J
+∗3 F|K\Bg3XBg3X1!M}9)3X8&5f2J9R6u1'Ch9)3X@l96
+:GBgCMCl max $*$h$S93NO78?tCd $N:G>.CMCd min $,Re
+?t$K$h$C$FJQ2=$9$k$3$H$,CN$i$l$F$$$k1)!K !%$7$?$,$C$F!$
+MHNO$NA}2C$O0lDj$G$O$J$/$J$j!$7^3Q$K0MB8$9$k$3$H$K$J
+$k!%$^$?!$6uNOFC@-$NJQ2=$K2C$(!$Mc$N<:B.FC@-$bJQ2=$9
+$k!%Dc$$Re ?t$NN.$l$K$*$$$F$O!$Mc$NA01o$h$jH/C#$7$?
+6-3&AX$,AXN.$+$iMpN.$XA+0\$9$kA0$K!$AXN.>uBV$N$^$^Mc
+I=LL$+$i
+N%$r5/$3$9AXN.
+N%$,@8$8$k!%$=$N8e!$
+N%$7
+$?6-3&AX$,MpN.$X$HA+0\$7!$2<N.0h$GMcI=LL>e$X$N:FIUCe
+$r5/$3$7!$
+N%K"!JSeparation Bubble !K$,7A@.$5$l$k2)!%
+$3$N
+N%K"$,Mc$^$o$j$NN.$l$K1F6A$rM?$($k$3$H$K$h$jJ#
+;($JN.$l>l$,7A@.$5$l!$A0=R$7$?6uNOFC@-$NFCD'E*$JJQ2=
+$,8=$l$k$H9M$($i$l$k!%
+Tani $O!$McCullough $i$K$h$jJ,N`$5$l$kBeI=E*$JMc$N
+<:B.FC@-4) $K$D$$$F!$<:B.$,$I$N$h$&$J%a%+%K%:%`$GH/@8
+$9$k$N$+!$
+N%K"$,<:B.FC@-$K$I$N$h$&$J1F6A$r5Z$\$9$N
+$+Ey$r!$ 4{B8$N<B83%G!<%?$r4p$K2r@O !& 6cL#$r9T$C$F$$$k3)!%
+Mueller $i$O!$%9%b!<%/%o%$%dK!$rMQ$$$?N.$l$N2D;k2=$K
+2C$(!$6u5$NO$NB,Dj$r9T$&$3$H$K$h$j!$$=$l$i$N4XO"@-$r
+=R$Y$F$$$k!%$5$i$K!$McA01oIU6a$KIU2C$7$?I=LLAF$5$d2;
+6ANe5/$K$h$k6-3&AXH/C#$X$N1F6A$rO@$8$F$$$k5, 6)!%M{2H
+$O!$AXN.
+N%K"Fb$NB.EYJ,I[!$%l%$%N%k%:1~NOJ,I[$r%l!<
+%6!<N.B.7W$*$h$SG.@~N.B.7W$rMQ$$$F7WB,$r9T$C$?7)!%$^
+$?!$AXN.
+N%K"$N8&5f$r354Q$7$?!%
+N%K"$NFC@-$,7WB,4o
+$N?JJb$H$H$b$K2rL@$5$l$D$D$"$k$,!$
+N%K"$N2 <!859=B$
+$N8!F$$KN1$^$C$F$$$k!$3 <!85HsDj>o$J9=B$$NM}2r$,IT2D
+7g$G$"$k$H<gD%$7$F$$$k!%Cf:,$O9-$$Re ?tNN0h$G$NMcFC
+@-$N7WB,$r9T$$!$Mc$N6uNOFC@-$,Re ?t$H$H$b$K$I$N$h$&
+$KJQ2=$9$k$N$+!$IwF6<B83%G!<%?$r$b$H$K8!F$$r9T$C$?8)!%
+$3$N$h$&$K!$9qFb30$K$*$$$F!$<o!9$N<B83!&Js9p$,9T$o$l
+$F$$$k$,!$DcRe ?tNN0h$K$*$1$kN.$l>l$H6u5$NO$H$N4XO"
+( 439 )
+09_05
+30 F|K\9R6u1'Ch3X2qO@J8=8 Bh55 4, Bh644 9f!J2007 G/9 7n!K
+@-!$
+N%K"$,6uNOFC@-$KM?$($k1F6A!$
+N%K"$NH/@8%a%+%K
+%:%`$J$I$N>\:Y$K$D$$$F$O!$L$$@==J,$J5fL@$,9T$o$l$F$$
+$J$$$H9M$($i$l$k!%
+K\8&5f$G$O!$6-3&AX$,
+N%$dA+0\!$:FIUCeEy$NJ#;($JMM
+Aj$r<($9Dc$$Re ?tNN0h!$$9$J$o$ARe ?t$,1.0 × 104 $+
+$i1.0 × 105 $^$G$NMcFC@-$rB,Dj$7!$6uNOFC@-$HN.$l>l$H
+$N4X78$r5DO@$9$k!%$J$*!$K\Js9p$G9bRe ?t$H$$$&$N$O!$
+1.0 × 105 0J>e$NRe ?t$r;X$9$b$N$H$9$k!%DcRe ?t$O<g
+$K1.0 × 105 L$K~$NRe ?t$r<($9!%Re ?t$,1.0 × 105 $+$i
+1.0 × 106 NN0h$K$D$$$F$O0\9TNN0h$"$k$$$O6-3&NN0h$H9M
+$($k!%
+2. <B83AuCV!&J}K!
+2.1 IwF6AuCV6u5$NO$NB,Dj$K$O!$F|K\Bg3XM}9)3XIt
+9R6u1'Ch9)3X2J2sN.7?>.7?IwF6$*$h$S3 J,NO7WB,%7%9%F%`
+$r;HMQ$7$?!%IwF6AuCV$N35N,?^$rBh1 ?^$K<($9!%K\IwF6Au
+CV$O?bD>2sN.7?$G$"$j!$ ?a$-=P$78}@#K!$O0.3 m × 0.3 m $N
+@5J}7A!$=LN.F69J$jHf$O13.4 $G$"$k!%B,DjIt$OB,DjItJILL
+$K;HMQ$7$F$$$k%"%/%j%kJI$rJQ99$9$k$3$H$K$h$j!$<gN.J}
+8~D9$50.85 m $r$b$D<+M3JIB,DjIt!$$^$?$O8GDjJIB,DjIt$H
+$7$F;HMQ$9$k$3$H$,$G$-$k!%IwB.$N2DJQHO0O$O!$?a$-=P$7
+8}$GB,Dj$5$l$k<gN.B.EY$K$*$$$FU = 0 .2!A14 m/s $G$"
+$j!$<gN.Cf$N;DN1Mp$l$O5 m/s $K$*$$$F0.1%0J2<$G$"$k!%
+K\8&5f$K$*$$$F$O!$8GDjJIB,DjIt$r;HMQ$7$?B,Dj$r9T$&!%
+2.2 3 J,NO7WB,%7%9%F%`3 J,NO$N7WB,$K$OB?J,NO8!
+=P4o!JLMC-3501-20N!$F|>OEE5!(3t) <R@=!K$r;HMQ$7$?!%
+K!@~J}8~@.J,NON !$@\@~J}8~@.J,NOT !$%b!<%a%s%HM
+$N%U%k%9%1!<%k$O!$$=$l$>$l20 N!$20 N!$2 N·m $G$"$k!%
+J,2rG=$O:GBg$G%U%k%9%1!<%k$N1/4000!$HsD>@~@-$O3FJ,
+NO$H$b0.01%0J2<$G$"$k!%B,Dj;~$K$*$1$k8!=P4o$N3S@5$K
+4X$7$F$O!$8!=P4oIUB0$N2 <!3S@54o$rMQ$$$?3S@5$r9T$C$F
+$$$k!%8!=P4o$K$h$j8!=P$5$l$??.9f$O!$F1<R@=D>N.7?ODA}
+I}4o!JDSA-100A-3ch!K$K$h$jA}I}$5$l$?8e!$A/D JQ494o
+!JPCIe-6251!$NI <R@=!K $*$h$SPC $rMQ$$$FB,Dj$5$l$k!% Bh
+2 ?^$K3 J,NO7WB,%7%9%F%`$N35N,?^$r<($9!%
+B?J,NO8!=P4o$OB,DjIt>2LLB&$KCV$+$l!$McLO7?$OB,Dj
+It>2LL$+$iB,DjItFb$N5$N.Cf$K?bD>$KFM$-=P$97A$G@_CV
+$5$l$k!%B,Dj$K;HMQ$7$?McLO7?$O!$Mc7?$K4{B8$NB,Dj7k
+2L$NB?$$NACA0012 $r:NMQ$7!$Mc89D9c = 75 mm !$Mc
+I}b = 300 mm !$%"%9%Z%/%HHfAR = 4 .0 $N=t85$*$h$S
+c = 150 mm!$b = 300 mm!$AR = 2 .0 $N=t85$r$b$D2 <o
+N`$N6k7AMcLO7?$rMQ0U$7$?!%N>LO7?$H$b:`<A$O%"%k%_:`$H
+$7!$I=LL$rJ?3j;E>e$2$H$7$FAF$5$N1F6A$r<h$j=|$$$F$"$k!%
+B,Dj$K:]$7$F$O!$B,DjItB&JI$HMcLO7?McC<$H$N4V$KMcC<$r
+J?9T$K1dD9$9$kIt:`$r<h$jIU$1!$Mc$^$o$j$N3 <!85E*$JN.
+$l>l$r2 <!85E*$JN.$l>l$K6a$E$1$?!%LO7?McC<$HB,DjItB&
+JI$H$N4V3V$O!$Ls0.5 mm $G$"$k!%$3$l$K$h$k6u5$NO$X$N
+1F6A$O!$:GBgMHNO78?t$NDc2<!$9b7^3Q;~$NMHNO79<P$NDc2<!$
+9b7^3Q;~$N93NO78?t$NA}2C$J$I$,?t%DxEY@8$8$F$$$k$H9M
+$($i$l$k!%$7$+$7!$A4BNE*$J6uNOFC@-$X$N1F6A$O>.$5$$$b
+$N$H9M$($k!%
+Bh1 ?^0.3 m × 0.3 m >.7?IwF6
+Bh2 ?^3 J,NO7WB,%7%9%F%`
+B?J,NO8!=P4o$*$h$SMcLO7?$O!$%9%F%C%T%s%0%b!<%?$H8:
+B.%.%d$r;HMQ$7$?%?!<%s%F!<%V%k>e$K<h$jIU$1$i$l!$%?!<
+%s%F!<%V%k$r2sE>$5$;$k$3$H$K$h$C$FMcLO7?$N7^3Qα $rJQ
+2=$9$k$3$H$,$G$-$k!%$3$l$i$NAH$_9g$o$;$K$h$jF@$i$l$k
+7^3Qα $N:GBgJ,2rG=$O0.002◦ $G$"$k!%McLO7?$N2sE>Cf?4
+$O!$Mc89@~>e$NA01o$+$i25%0LCV$G$"$j!$%?!<%s%F!<%V%k
+$H8!=P4o$N2sE>Cf?4$H$b0lCW$5$;$F$$$k!%
+2.3 <B83J}K!3FB,Dj$K$O0lMMN.B.U $HMcLO7?$NMc89
+D9c $r4p=`$H$7$?Re ?t$rMQ$$!$Re ?t$,1.0 × 104 $+$i
+1.0 × 105 $NHO0O$K$*$$$F1.0 × 104 $*$-$KB,Dj$,9T$o$l$?!%
+7^3Qα $O−20◦ $+$i20◦ $^$G0.2◦ 9o$_$GJQ2=$5$;!$3 J,NO
+7WB,%7%9%F%`$K$h$j7WB,$5$l$?N !$T !$M $+$iMHNOLu!$
+93NODu!$%b!<%a%s%HMc/4u $r;;=P$7$?!%$5$i$K!$<B837k
+2L$r6cL#$7!$9M;!$KI,MW$H;W$o$l$kRe ?t$G$NB,Dj$b9T$o
+$l$?!%7WB,$5$l$?3F6u5$NO$K$O!$2 <!85N.$l$K$*$1$kJD:I
+8z2L$N=$@59, 10)!$B,DjItJILL$K$h$k6-3&=$@59) $rMQ$$$FB,
+DjIt$K$h$k1F6A$r<h$j=|$$$F$$$k!%
+3. <B837k2L!&9M;!
+3.1 MHNO78?t$NJQ2=Bh3 ?^$KRe ?t$,1.0 × 104 $+$i
+5.0 × 104 $^$G!$ Bh4 ?^$KRe ?t$,6.0 × 104 $+$i1.0 × 105
+( 440 )
+09_05
+DcRe ?tNN0h$G$NNACA0012 Mc$NHs@~7A6uNOFC@-!JBgC]CR5W!&Cf9>M:N<!&K\66N6O:!K31
+$^$G$N7^3Qα $KBP$9$kMHNO78?tCl $NJQ2=$r<($9!%$3$l$i
+$N?^$+$i!$ MHNO$NJQ2=$rBg$-$/5 $D$NNN0h$KJ,$1$F9M$($k$3
+$H$,$G$-$k !JBh5 ?^!K !% BeI=Nc$H$7$F!$ <g$KRe = 3.0 × 104
+$K$D$$$FO@$8$k!%
+Bh1 $NNN0h$O!$α = 2 ◦ IU6a$^$G$NDc$$MHNO78?t$r<($9
+7^3QNN0h$G$"$k!%Dc7^3Q$K$*$1$k$3$N$h$&$JMHNO$NDc2<$O
+Re = 9 .0 × 104 $^$G7QB3$9$k!%$5$i$KFC0[$J$3$H$K!$Re
+?t$,2.5 × 104 $+$i9.0 × 104 $N4V$G$OMHNO79<P!JdCl/dα!K
+$,Ii$H$J$k$3$H$,Bg$-$JFCD'$G$"$k!%$3$N8=>]$O!$Mueller
+$i$K$h$C$FRe = 1.3 × 105!$Mc7?NACA663-018 $NCl–α
+6J@~$K$*$$$F$b8+=P$5$l$F$$$k6) $,!$$3$N8=>]$r@bL@$9$k
+%a%+%K%:%`$K$D$$$F$O8@5Z$5$l$F$$$J$$!%$7$?$,$C$F!$Mc
+7?$dRe ?t$X$N0MB8@-$,L$2r7h$G$"$k$?$a!$$5$i$K6cL#$9
+$kI,MW$,$"$k!%$3$NIi$NMHNO79<P$NNN0h$ORe ?t$H$H$b$K
+8:>/$7!$Re = 9.0 × 104 0J>e$K$*$$$F>C<:$9$k$3$H$,4Q;!
+$5$l$k!%
+$3$NNN0h$G$O!$α = 0 ◦ $G$9$G$KMc$N>e!&2<LL$H$b$K8e
+1oIU6a$KAXN.
+N%NN0h$,B8:_$7$F$$$k!%$3$NAXN.
+N%NN0h
+$O!$$[$\;`?eNN0h$G$"$k!%$7$+$7!$7^3Qα $NA}2C$KH<$$Mc
+>eLLB&$N
+N%E@$OA01oB&$K!$A0LLB&$N
+N%E@$O8e1oB&$K0\
+F0$9$k!%$3$l$i$NJQ2=$K$h$j!$McLL>e$KB8:_$9$k;`?eNN0h
+$NBg$-$5$O!$Mc$N>eLLB&$G$OBg$-$/!$2<LLB&$G$O>.$5$/$J
+$k!%$3$N$h$&$JMcLL>e$N
+N%NN0h$NIT6Q9U$,!$McLL>e$N05
+NOJ,I[$K1F6A$r5Z$\$9$3$H$K$h$C$F!$Cl–α 6J@~$KHs@~7A@-
+Bh3 ?^ MHNO78?t!JRe = 1.0 × 104!A5.0 × 104!K
+Bh4 ?^ MHNO78?t!JRe = 6.0 × 104!A1.0 × 105!K
+$,8=$l$?$H9M$($i$l$k!%$3$N8=>]$N2rL@$K$O!$$5$^$6$^$J
+MWAG$N4XM?$r9M$($kI,MW$,$"$k!%Nc$($P!$Md$_E@$rDL2a$7
+$?J,4tN.@~$N?6$kIq$$$K1F6A$rM?$($kMcLL>e$N05NO8{G[!&
+JILL$;$sCG1~NO$,!$7^3Qα $NA}2C$KH<$$$I$N$h$&$JJQ2=$r
+<($9$N$+>\:Y$J?tCM7W;;7k2L$rMQ$$$?6cL#$,I,MW$G$"$k!%
+Bh2 $NNN0h$O!$7^3Qα $,2◦ $+$i4.5◦ IU6a$^$G$N5^7c$K
+MHNO$,A}2C$r<($9NN0h$G$"$k!%GvMcM}O@$GM=B,$5$l$kMHNO
+79<P0.11/deg!J2π/rad!K $N$[$\2 G\$NCM$r<($7$F$$$k!% $3
+$NNN0h$ORe ?t$NA}2C$H$H$b$KDc7^3QB&$K0\F0$9$k!% $3$N$h
+$&$JMHNO$N5^A}$O!$Mueller $i$K$h$kMc7?NACA663-018
+$rMQ$$$?Js9p6) $G$b=R$Y$i$l!$Re = 4.0 × 104 $G$O6I=jE*
+$KMHNO79<P0.11/deg!J2π/rad!K $NLs7 G\!$Re = 1.3 × 105
+$G$OLs4 G\$NCM$r<($7$?$3$H$,Js9p$5$l$F$$$k!%J?HDMc$K
+4X$9$k2,K\$N<B83$G$O!$A01o$G$N
+N%$K$h$C$F@8@.$5$l$?
+N%K"$,A01oIU6a$KH/@8$9$k$?$a$KMHNO79<P$,A}Bg$7$?$H
+9M$($F$$$k!%$^$?!$2,K\$O!$Re = 1.0 × 104 0J2<$NGv$$J?
+HD$G$OMHNO79<P$NBg$-$5$,2π $KHf$Y$F!$25!A35%A}2C$9
+$k$HJs9p$7$F$$$k11). $7$+$7!$K\8&5f$G;HMQ$7$?Mc7?$G$O!$
+A01o$G$N
+N%$K$h$k
+N%K"$O4Q;!$5$l$F$$$J$$!%AXN.
+N%
+NN0h$N8eC<IU6a$K$*$$$F!$$;$sCGAX$NIT0BDj@-$NA}2C$K$h
+$k12$rH<$&Mp$l$?N.$l$,4Q;!$5$l$F$$$k12)!%$3$l$O
+N%$;
+$sCGAX$H30ItN.$l$N4V$K129=B$$NH/@8$,9M$($i$l$k13)!%12
+$NH/@8$K$h$k6u5$NO$NA}2C$,MHNO79<P$NA}2C$K4sM?$7$?$b
+$N$H9M$($i$l$k!%
+Bh3 $NNN0h$O7^3Qα $,4.5◦ $+$i9◦ $KBP1~$9$k!%7^3Qα
+$,4.5◦ $r1[$($k$H5^$KMHNO79<P$,>.$5$/$J$j!$ Ls0.059/deg
+$r<($9!%$3$N8=>]$O!$AXN.
+N%$7$?McLL>e$NN.$l$,:FIUCe
+$7!$
+N%K"$,7A@.$5$l$k$3$H$K$h$j0z$-5/$3$5$l$k!%
+N%
+K"$O7^3Q$NA}2C$H$H$b$KMc$NA01oJ}8~$K0\F0!&=L>.$7$F$$
+$/!%$3$N$h$&$J?6$kIq$$$O!$Tani $K$h$k
+N%K"$NJ,N`$K$*
+$$$F“short bubble” $NFC@-$KEv$F$O$^$k$,!$ $=$NBg$-$5$O
+Mc89D9$N?t%!A?t10%$KAjEv$9$k!%$^$?!$
+N%K"$h$j2<N.
+B&$K:FIUCe$7$?N.$l$OMpN.6-3&AX$r7A@.$7!$McLL$+$i$N
+N%$rM^$($k8z2L$r$b$?$i$9!%$=$N8e!$
+N%K"$N=L>.$H$H$b
+$KMHNO$,A}2C$7$F$$$-!$8e1o$+$i$N
+N%$,;O$^$k$3$H$GMH
+NO$NA}2C$,=*N;$9$k!%
+Re = 3 .0 × 104 $G$O!$Ls4.5◦ $N9-$$7^3QHO0O$G
+N%K"
+Bh5 ?^ MHNO78?t$NNN0hJ,$1!JRe = 3.0 × 104!K
+( 441 )
+09_05
+32 F|K\9R6u1'Ch3X2qO@J8=8 Bh55 4, Bh644 9f!J2007 G/9 7n!K
+$NJQ2=$,5/$3$j!$Mc>eLL$G$N05NOJ,I[$K$*$$$F7^3Q$NA}2C
+$K$h$kIi05$NA}2C$H
+N%K"$K$h$kIi05>e>:4sM?J,$N%P%i%s
+%9$,J]$?$l$k$3$H$G!$0lDj$NMHNO79<P$,F@$i$l$?$H9M$($k
+$3$H$,$G$-$k!%
+K\8&5f$G;HMQ$7$?Mc7?NACA0012 $O!$0lHLE*$K!V8e1o
+<:B.7?!W$KJ,N`$5$l$k!%Re ?t$,$h$j9b$$!JNc$($P106 $N
+%*!<%@!<!K>l9g$O!$McLL>e$K
+N%K"$,7A@.$5$l$kA0$KAXN.
+6-3&AX$+$iMpN.6-3&AX$X$HA+0\$7!$$=$N8e!$Mc$N8e1o$h$j
+N%$,;O$^$j<:B.$K;j$k!%
+Bh4 $NNN0h$O!$α = 9 ◦ IU6a$N6I=jE*$JMHNO$N:GBgCM$+$i
+$f$k$d$+$K8:>/$7!$α = 13 ◦ IU6a$N6I=jE*$J:G>.CM$r$H$k
+$^$G$NNN0h$G$"$k!%$3$NNN0h$O!$9bRe ?t$G$NMcFC@-$K$*
+$1$k<:B.$KBP1~$9$k!%$3$N$h$&$J4KK}$J<:B.$ODc$$Re ?t
+$G$NMcFC@-$NFCD'$G$"$j!$McCullough $i$N<:B.FC@-$NJ,
+N`$K$h$k$H!V8e1o<:B.!W$KJ,N`$5$l$k!%<:B.$O!$Mc>eLL$G
+$NA4LL
+N%$K$h$k05NOJ,I[$NJ?C32=$H2<LL$N05NO$NA}2C$K
+$h$k$3$H$O!$9bRe ?t$G$N<B837k2L$+$i2rL@$5$l$F$$$k4)!%
+DcRe ?t$G$O!$A4LL
+N%$,H/@8$7$F$b!$N.$l>l$OMc>eLL$K
+1h$C$FB8:_$9$k!%N.$l$,McLL$+$i
+N%$7$F$$$/$?$a$K$O$5
+$i$K7^3Q$rA}2C$9$kI,MW$,$"$k!%$=$N2aDx$,$3$N7^3QNN0h
+$K$*$$$F9T$o$l$k$H9M$($i$l$k!%N.$l$NMcLL$+$i$N
+N%$O
+Re ?t$H$H$b$K6/2=$5$l$k!%$3$N$3$H$O!$Re ?t$H$H$b$KMH
+NO9_2<$,5^=T$K$J$C$F$/$k$3$H$KBP1~$9$k!%
+Bh5 $NNN0h$O!$7^3Qα $,12◦ $+$iMHNO$,4KK}$KA}2C$9
+$kNN0h$G$"$k!%$3$NNN0h$G$ON.$l$,A01o$+$i40A4$K
+N%$7
+$F$$$k!%
+N%E@$ND>8e$G4QB,$5$l$k:GDc05NO$NCM$O7^3Q$H
+$H$b$K=y!9$K8:>/$9$k!%$7$?$,$C$F!$Mc2<LL$G$N05NO$,MH
+NO$KM?$($k4sM?$,A}Bg$7!$MHNO$O$f$C$/$jA}2C$9$k!%
+0J>e$N5 $D$NNN0h$K$D$$$F!$MHNO79<P$NJQ2=$r4p$K!$Re
+?t$H7^3Q$H$N4X78$rLO<0E*$KJ,N`$7$??^$,Bh8 ?^$G$"$k!%
+Re ?t$,2.0 × 104 0J2<$G$O!$L@3N$J<:B.$O4QB,$5$l$:!$MH
+NO78?t$bJ#;($J6J@~$rIA$/!%Re ?t$,2.0 × 104 $r1[$($k$H!$
+Bh3 $NNN0h$,=y!9$KA}Bg$7!$Bg$-$JNN0h$r@j$a$k$3$H$K$J
+$k!%9b$$Re ?t$N>l9g$K8+$i$l$k@~7AE*$JJQ2=$KHf$Y!$MH
+NO79<P$,Re ?t$K$h$C$F$5$^$6$^$KJQ2=$9$k$3$H$,J,$+$k
+!JBh9 ?^!K !%$3$N$h$&$K!$Hs@~7AE*$J?6$kIq$$$r8+$;$kMHNO
+$NJQ2=$K$O!$7^3Q$NHy>.A}2C!&8:>/$KH<$$Bg$-$/1F6A$r<u
+$1$?Mc$^$o$j$NN.$l>l$,4XM?$7$F$$$k$H9M$($i$l$k!%$=$N
+$?$a!$:#2s$NJs9p$G$O7WB,$r9T$C$F$$$J$$$,!$7^3Q$NJQ2=
+$KBP$9$kMHNO$N%R%9%F%j%7%9$NB8:_$,M=B,$5$l$k!%
+3.2 93NO78?tBh6 ?^!$Bh7 ?^$K93NO78?tCd $NJQ2=
+$r<($9!%MHNO78?t$HF1MM!$BeI=Nc$H$7$FRe = 3.0 × 104 $r
+<h$j>e$2!$93NO78?t$NJQ2=$K$D$$$F5DO@$9$k!%
+9b$$Re ?t$G$O!$α = 0 ◦ $G$NMc7?$NDq9378?tCd $OJ?HD
+$NK`;$Dq9378?tCf $N2.04 G\$G6a;w$G$-$k$3$H$,CN$i$l$F
+$$$k!JEl15)!K !%$7$+$7!$DcRe ?tNN0h$K$*$$$F$b$3$N6a;w$,
+@.N)$9$k$N$+!$8=:_$^$G$KF@$i$l$F$$$kDcRe ?t$G$N<B83
+7k2L$r@0M}$9$k$HBh10 ?^$H$J$k!%Sunada $i16)!$0BED17)!$
+Cf:,8)!$2,K\11) $K$h$k<B837k2L$NJ?6QCM$+$iJ?6QDq9378?t
+$r5a$a$k$HLs3.4 G\$G$"$k!%$3$NCM$O!$JILL$KF/$/K`;$Dq
+93$H05NODq93$NOB$H9M$($i$l$k!%$7$?$,$C$F!$05NODq93$N
+4sM?$OJ?HD$NK`;$Dq93$N$[$\40%DxEY$G$"$k$HM=B,$5$l$k!%
+$7$+$7!$05NODq93$ORe ?t$H8|$5$K0MB8$9$k$H9M$($i$l$k!%
+>\:Y$O$5$i$K6cL#$r$9$kI,MW$,$"$k!%
+DcRe ?tNN0h$G$NDq9378?t$N5sF0$r8!F$$9$k!%MHNO78?t
+$NBh1 $*$h$SBh2 $NNN0h$G$O!$Dq9378?t$O7^3Q$N2 <!<0$K
+$h$C$F6a;w$G$-$k!JBh6 ?^!K !%$7$+$7!$MHNO78?t$NBh3 NN
+0h$KF~$k7^3Q$G7^3QJQ2=$KBP$9$k93NO78?t$N79<P$,JQ$o$j!$
+7^3Q$H$H$b$KDq9378?t$,D>@~E*$JA}2C$r<($9!%$5$i$K!$:G
+BgMHNO$r$H$k7^3Q$G$O93NO78?t$N6JN($,2<$KFL$+$i>e$KFL
+$KJQ2=$9$k!%$9$J$o$A!$MHNO78?t$,8:>/$r;O$a$k7^3Q$G93
+NO78?t$O5^A}$r;O$a$k$3$H$r0UL#$9$k!%$3$N8=>]$O9bRe
+?tNN0h$G$N<:B.$KBP1~$9$k!%$3$N$3$H$+$i!$DcRe ?tNN0h
+$G$O!$MHNO$N5^8:$h$j$O93NO$N5^A}$,“<:B.$N;XI8” $H$7
+$FE,@Z$H;W$o$l$k!%
+0lJ}!$Re ?t$r2<$2$F$$$/$H!$ $3$N$h$&$J8=>]$O8+$i$l$:!$
+7^3Q$KBP$9$k93NO$NJQ2=$,A4HLE*$KJ|J*@~>u$KJQ2=$9$k!% $D
+$^$j$3$l$i$N6uNO%G!<%?$+$i$O!$Mc$N<:B.$,L@3N$KH=Dj$G
+$-$J$/$J$k!%K\8&5f$NB,Dj%G!<%?$+$i$O!$Re = 2.0 × 104
+$r6-$K<:B.FC@-$,JQ2=$9$k$3$H$,3NG'$5$l$F$$$k$?$a!$$3
+$NRe ?t$,6uNO%G!<%?$+$i<:B.$rH=Dj$9$k$3$H$,2DG=$H$J
+$kNW3&CM$G$"$k$H9M$($i$l$k!%$3$N$h$&$JRe ?t$NNW3&CM
+$O!$MM!9$JMc7?$KBP$7$F$bB8:_$9$k$H9M$($i$l$k$?$a!$Dc
+Re ?tNN0h$G$NMc7?$N6uNOFC@-$KBP$9$kCN8+$rF@$k>e$G!$$5
+$i$J$kD4::$,I,MW$G$"$k!%
+Bh6 ?^ 93NO78?t!JRe = 1.0 × 104!A5.0 × 104!K
+Bh7 ?^ 93NO78?t!JRe = 6.0 × 104!A1.0 × 105!K
+( 442 )
+09_05
+DcRe ?tNN0h$G$NNACA0012 Mc$NHs@~7A6uNOFC@-!JBgC]CR5W!&Cf9>M:N<!&K\66N6O:!K33
+Bh8 ?^ MHNO78?t$NHs@~7A@-$K4X$9$kLO<0?^
+Bh9 ?^ DcRe ?tNN0h$H9bRe ?tNN0h!JAbbott $i14)!K$H$NMHNO78?t$NHf3S
+Bh10 ?^NACA0012 Mc$K$*$1$k:G>.93NO78?t$NJQ2=8, 9, 12, 14, 15)
+( 443 )
+09_05
+34 F|K\9R6u1'Ch3X2qO@J8=8 Bh55 4, Bh644 9f!J2007 G/9 7n!K
+Bh11 ?^ %b!<%a%s%H78?t!JRe = 1.0 × 104!A5.0 × 104!K
+Bh12 ?^ %b!<%a%s%H78?t!JRe = 6.0 × 104!A1.0 × 105!K
+3.3 %b!<%a%s%H78?tDcRe ?tNN0h$K$*$1$kMc$KF/$/
+%b!<%a%s%H$NJs9pNc$OHs>o$K>/$J$$!%K\Js9p$G$O1/4 Mc89
+<~$j$N%b!<%a%s%H$NB,Dj7k2L$rJs9p$9$k!%Mc$KF/$/6u5$NO
+$NJQ2=!$FC$KMHNO$NJQ2=$O%b!<%a%s%H$N5sF0$HL)@\$K4X78
+$7$F$$$k$3$H$,?dB,$5$l$k!%$7$?$,$C$F!$%b!<%a%s%H78?t
+$O?7$7$$<B83;v<B$rDs6!$7$F$/$l$k$b$N$H;W$o$l$k!%Bh11
+?^!$Bh12 ?^$K%b!<%a%s%H78?tCm c/4 $NJQ2=$r<($9!%
+Re ?t$,1.0 × 104 $+$i5.0 × 104 $^$G$NHO0O$G$O!$7^3Q
+$NA}2C$H$H$b$K!$2 2s$NJQF0$rH<$$$J$,$i!$ Ii$NCM$r$b$C$?
+9b7^3Q$K$D$J$,$k!%:G=i$NJQF0$N:GBgCM$O!$MHNO78?t$NBh
+1 NN0h$N>e8B$KBP1~$7$F$$$k!%$^$?!$%b!<%a%s%H$N:G>.CM
+$r<($97^3Q$O!$MHNO78?t$NBh3 NN0h$N;O$^$j$N7^3Q$KBP1~
+$9$k!%$3$N$h$&$KMHNO$NJQ2=$,%b!<%a%s%H$K:nMQ$7$F$$$k
+$3$H$,J,$+$k!%$3$l$i$N<B837k2L$N$_$+$i$O
+N%K"$H$N4X
+78$OCGDj$G$-$J$$$,!$
+N%K"$N0LCV$,JQ2=$9$k$3$H$K$h$C
+$F05NOJ,I[$,JQ2=$r<u$1!$%b!<%a%s%H$,JQF0$9$k$3$H$OMF
+0W$K?dB,$5$l$k!%
+Re ?t$,6.0 × 104 $+$i1.0 × 105 $G$O!$Dc7^3Q$GIi$NCM
+$r$H$C$?8e!$%b!<%a%s%H$O7^3Q$H$H$b$KA}2C$7!$<:B.7^3Q
+IU6a$G5^8:$9$k!%9bRe ?t$G$O!$$[$H$s$I0lDj$G$"$k%b!<
+%a%s%H78?t$,$3$N$h$&$KJQF0$9$k$3$H$O?7$7$$;v<B$G$"$k
+$H9M$($i$l$k!%
+Bh13 ?^!$ Bh14 ?^$K!$ MHNO78?t!$ 93NO78?t$*$h$S%b!<%a%s
+%H78?t$+$i;;=P$7$?05NOCf?40LCVC.P. $NJQ2=$r<($9!%Re
+Bh13 ?^ 05NOCf?40LCV!JRe = 1.0 × 104!A5.0 × 104!K
+Bh14 ?^ 05NOCf?40LCV!JRe = 6.0 × 104!A1.0 × 105!K
+?t$,1.0 × 104 $+$i5.0 × 104 $G$O!$7^3Q0◦ IU6a$GA08e$K
+Bg$-$/05NOCf?40LCV$,JQF0$9$k!%$3$l$OMHNO$NCM$,Hs>o$K
+Hy>.$G$"$k$?$a$G$"$k!%Re = 1.0 × 104 $G$O!$Mc$NA01o$h
+$jA0J}$K$"$C$?05NOCf?4$O7^3Q$H$H$b$K8eB`$7!$7^3Q7.5◦
+$G$O30%Mc89$N0LCV$KC#$7$F$$$k!%$5$i$K7^3Q$rA}2C$5$;
+$F$b05NOCf?40LCV$O$[$H$s$IJQ$o$i$J$$!%$^$?!$Re ?t$,
+2.0 × 104 0J>e$G$O!$30%Mc890LCV$KC#$7$?05NOCf?4$O:F$S
+A0?J$7!$20%Mc890LCV$KC#$7!$7^3Q10◦ IU6a$G5^$K30%Mc
+890LCV$K8eB`$9$k!%Re = 4 .0 × 104 $*$h$S5.0 × 104 $G
+$O!$05NOCf?40LCV$,0lC68eJ}$K0\F0$7$F$+$i30%Mc890LCV
+$K$b$I$C$F$/$k!%Re ?t$,6.0 × 104 0J>e$G$O!$7^3Q0◦ IU
+6a$G!$05NOCf?40LCV$,A08e$KBg$-$/JQF0$9$k$3$H!$<:B.$^
+$G$O20%Mc890LCV$KN1$^$k$3$H!$<:B.0J9_$O$[$\35%Mc89
+$N0LCV$KN1$^$k$3$H$,J,$+$C$?!%
+3.4 6K6J@~Bh15 ?^!$Bh16 ?^$K6K6J@~$r<($9!%Re ?t
+$,1.0 × 104 $+$i5.0 × 104 $G$O!$86E@$K8~$+$C$F@m$C$?6J
+@~$,Re ?t$H$H$b$KJ?C32=$9$kMM;R$,L@3N$KB*$($i$l$F$$
+$k!%:GBgMH93Hf(Cl/Cd)max $O!$5 $+$i15 $G$"$k!%Re ?t
+$,5.0 × 104 0J>e$G$O!$$[$H$s$I6K6J@~$N7A>u$OJQ2=$7$J
+$$!%:GBgMH93Hf$O17 $+$i25 $^$GRe ?t$H$H$b$KA}2C$9$k!%
+4. 7k O@
+Mc89$rMQ$$$?Re ?t$,1.0 × 104 $+$i1.0 × 105 $^$G$NDc
+Re ?tNN0h$K$*$1$kNACA0012 Mc7?$KF/$/6u5$NO$r7OE}E*
+( 444 )
+09_05
+DcRe ?tNN0h$G$NNACA0012 Mc$NHs@~7A6uNOFC@-!JBgC]CR5W!&Cf9>M:N<!&K\66N6O:!K35
+Bh15 ?^ 6K6J@~!JRe = 1.0 × 104!A5.0 × 104!K
+Bh16 ?^ 6K6J@~!JRe = 6.0 × 104!A1.0 × 105!K
+$KB,Dj$7!$0J2<$N7kO@$rF@$?!%
+1!KMHNO78?tCl $O6/$$Hs@~7A@-$r<($9!%MHNO$NJQ2=$r<(
+$9!VMHNO79<P!W$r$b$H$K!$7^3Q$K$h$C$FBg$-$/5 $D$NNN0h
+$KJ,$1$F9M$($k$3$H$,E,@Z$G$"$k!%α $O7^3Q$rI=$9!%
+!&NN0h1!Jα = 0!A2◦!KMHNO79<P$,0 $KA26a$^$?$OIi$NCM$r
+<($7!$H/@8$9$kMHNO$NCM$b>.$5$$!%
+!&NN0h2!Jα = 2!A4.5◦!KMHNO79<P$N5^7c$JA}2C!$GvMcM}O@
+$K$h$jM=B,$5$l$kMHNO79<P2π $r1[$($k!%
+!&NN0h3!Jα = 4.5!A9◦!KMHNO79<P$,8:>/$9$k!%:GBgMHNO$^
+$G$[$\0lDj$NMHNO79<P$rJ]$A$J$,$iMHNO78?t$,A}2C!%
+!&NN0h4!Jα = 9 !A12◦!K:GBgMHNO$+$i8:>/!$6K>.CM$^$G!%
+Mc>eLL$NN.$l$,A4LLE*$J
+N%$K;j$k!%
+!&NN0h5!Jα > 12◦!K6K>.CM$+$i$f$C$/$jA}2C!%Mc2<LLB&$N
+05NO>e>:$,MHNO$NA}2C$K4sM?$9$k!%
+2!KRe = 3 .0 × 104 L$K~$NDcRe ?t$G$O!$93NO78?tCd
+$O7^3Q$H$H$b$KJ|J*@~E*$JA}2C$r<($9!%Re ?t$r$5$i$KA}2C
+$5$;$k$H!$9bRe ?tNN0h$K$*$1$k93NO78?t$HF1MM$N5sF0$r
+<($9!%
+3!K25%Mc89<~$j$N%b!<%a%s%H78?tCm c/4 $O7^3Q$NJQ2=
+$K1~$8$FJQF0$9$k!%$3$NJQF0$OMHNO78?t$NJQ2=$K8F1~$7$F
+$$$k!%
+4!KDcRe ?tNN0h$G$NCd min $OJ?HD$NK`;$Dq93Cf $NLs
+3.4 G\$H$J$j!$$=$NFb$N$[$\40%$O05NODq93$N4sM?$G$"$k!%
+K\8&5f$r?k9T$9$k$K$"$?$j!$B?$/$NJ}!9$K$46(NO$r$$$?
+$@$$$?!%$3$3$K2~$a$F46<U$N0U$rI=$7$^$9!%FC$K!$B<>>C6
+E5=Z65<x!$5mEg@5F;=u<j$K$OB?$/$NM-1W$J<(:6$r$$$?$@$$
+$?$3$H$KBP$7$F46<U$$$?$7$^$9!%
+;2 9M J8 8%
+1) Mueller, T. J.: Fixed and Flapping Wing Aerodynamics for
+Micro Air Vehicle Applications, Prog. Astronautics Aeronau-
+tics, 195 (2001), pp. 1–10.
+2) Schlighting, H.: Boundary Layer Theory, 4th ed., McGraw-
+Hill Company, New York, 1960, pp. 107–127.
+3) Tani, I.: Low-Speed Flows Involving Bubble Separations,
+Prog. Aeronautical Sci., 5 (1964), pp. 70–103.
+4) McCullough, G. B. and Gault, D. E.: Examples of Three
+Representative Types of Airfoil-Section Stall at Low Speed,
+NACA TN 2502, 1951.
+5) Mueller, T. J. and Batill, S. M.: Visualization of Transition
+in the Flow over an Airfoil Using the Smoke-Wire Technique,
+AIAA J., 19 (1981), pp. 340–345.
+6) Mueller, T. J. and Batill, S. M.: Experimental Studies of
+Separation on a Two-Dimensional Airfoil at Low Reynolds
+Numbers, AIAA J., 20 (1982), pp. 457–463.
+7) M{2H8-0l!'Mc7?>e$K@8$:$kAXN.
+N%K"!$$J$,$l!$22 (2003), pp.
+15–22.
+8) Cf:,5*>O!'DcRe ?tNN0h$K$*$1$kNACA0012 Mc7?$N6uNOFC@-!$
+F|K\Bg3XBg3X1!Gn;NO@J8!$2005.
+9) Allen, H. J. and Vincenti, W. G.: Wall Interference in a
+Two-Dimensional-Flow Wind Tunnel with Consideration of
+the Eﬀect of Compressibility, NACA TR 782, 1944.
+10) Maskell, E. C.: A Theory of the Blockage Eﬀects on Bluﬀ
+Bodies and Stalled Wings in a Closed Wind Tunnel, ARC
+R&M 3400, 1965.
+11) 2,K\@5?M!'DcRe ?t$K$*$1$kDj>o!&HsDj>oMc7?6uNOFC@-$N<B83E*
+8&5f!$F|K\Bg3XBg3X1!Gn;NO@J8!$2005.
+12) BgC]CR5W!$K\66N6O:!'Dc$$B.EY0h$K$*$1$kNACA0012 Mc$N6uNO
+FC@-$H
+N%K"$N5sF0$K$D$$$F!$Bh38 2sN.BNNO3X9V1i2q9V1i=8!$
+2006, pp. 49–52.
+13) Cf9>M:N<!'Dc%l%$%N%k%:?tNN0h$K$*$1$kMc$N6uNOFC@-$K1F6A$rM?
+$($k
+N%K"$N?6F05sF0$K4X$9$k8&5f!$F|K\Bg3XBg3X1!=$;NO@J8!$
+2007.
+14) Abbott, I. H. and Von Doenhoﬀ, A. E.: Theory of Wing
+Sections, Dover Publications, Inc., New York, 1959.
+15) El ><!'9R6u9)3X!JI!K !$>X2ZK<!$El5~!$1989.
+16) Sunada, S., Sakaguchi, A. and Kawaguchi, K.: Airfoil Section
+Characteristics at Low Reynolds Number, J. Fluids Eng.,
+119 (1997), pp. 129–135.
+17) 0BEDCN1{!'Dc%l%$%N%k%:?t$K$*$1$kMc7?FC@-!$F|K\Bg3XBg3X1!=$
+;NO@J8!$2000.
+( 445 )

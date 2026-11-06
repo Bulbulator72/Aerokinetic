@@ -1,0 +1,111 @@
+{
+  "project_fingerprint": "passed",
+  "averaging_count": 8,
+  "history_monotonic": true,
+  "cl": {
+    "mean_recomputed": 0.07142621014671682,
+    "rms_recomputed": 0.29881511790919857,
+    "min_all_samples": -0.3865493189581916,
+    "max_all_samples": 4.526172483328244
+  },
+  "cd": {
+    "mean_recomputed": 0.02699633639180484,
+    "rms_recomputed": 0.09376024525130458,
+    "min_all_samples": -0.7898354150165331,
+    "max_all_samples": 0.1786966319054867
+  },
+  "cm": {
+    "mean_recomputed": 0.04051492823692855,
+    "rms_recomputed": 0.13859114505760178,
+    "min_all_samples": -1.8496155494203685,
+    "max_all_samples": 0.2784312349257743
+  },
+  "max_sampled_lattice_mach": 0.10390505489317937,
+  "max_sampled_density_error": 0.018931185323220356,
+  "physical_speed_m_s": 0.4382204016796467,
+  "physical_mach": 0.0012877700373773576,
+  "physical_duration_s": 0.45639134835672596,
+  "frames": [
+    {
+      "step": 0,
+      "t_star": 0.0,
+      "shape": [
+        176,
+        101
+      ],
+      "max_solid_cells_per_y_column": 4
+    },
+    {
+      "step": 20,
+      "t_star": 0.025,
+      "shape": [
+        176,
+        101
+      ],
+      "max_solid_cells_per_y_column": 4
+    },
+    {
+      "step": 40,
+      "t_star": 0.05,
+      "shape": [
+        176,
+        101
+      ],
+      "max_solid_cells_per_y_column": 4
+    },
+    {
+      "step": 60,
+      "t_star": 0.075,
+      "shape": [
+        176,
+        101
+      ],
+      "max_solid_cells_per_y_column": 4
+    },
+    {
+      "step": 80,
+      "t_star": 0.1,
+      "shape": [
+        176,
+        101
+      ],
+      "max_solid_cells_per_y_column": 4
+    },
+    {
+      "step": 100,
+      "t_star": 0.125,
+      "shape": [
+        176,
+        101
+      ],
+      "max_solid_cells_per_y_column": 4
+    },
+    {
+      "step": 120,
+      "t_star": 0.15,
+      "shape": [
+        176,
+        101
+      ],
+      "max_solid_cells_per_y_column": 4
+    },
+    {
+      "step": 140,
+      "t_star": 0.17500000000000002,
+      "shape": [
+        176,
+        101
+      ],
+      "max_solid_cells_per_y_column": 4
+    },
+    {
+      "step": 160,
+      "t_star": 0.2,
+      "shape": [
+        176,
+        101
+      ],
+      "max_solid_cells_per_y_column": 4
+    }
+  ]
+}

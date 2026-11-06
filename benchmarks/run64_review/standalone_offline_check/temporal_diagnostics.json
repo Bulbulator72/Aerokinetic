@@ -1,0 +1,124 @@
+{
+  "format": "aerokinetic_temporal_diagnostics",
+  "schema_version": 1,
+  "run_status": "completed",
+  "case_fingerprint": "817e5dde80aa1c0c58c52a96af69397a289908b38e43f7361cb0f24c4a81b939",
+  "reynolds": 30000.0,
+  "alpha_deg": 5.0,
+  "cells_per_chord": 32,
+  "requested_average_after_t_star": 0.1,
+  "original_average_after_t_star": 0.1,
+  "last_saved_force_time_t_star": 0.199375,
+  "calculated_final_time_t_star": 0.2,
+  "series": {
+    "cl": {
+      "samples": 8,
+      "sample_dt_t_star": 0.012499999999999997,
+      "selected_t_first": 0.111875,
+      "selected_t_last": 0.199375,
+      "selected_interval_t_star": 0.0875,
+      "mean": 0.07142621014671682,
+      "rms_fluctuation": 0.29881511790919857,
+      "minimum": -0.3625454208523242,
+      "maximum": 0.6050261800291895,
+      "first_half_mean": -0.18149567253724802,
+      "last_half_mean": 0.32434809283068167,
+      "last_minus_first_half_mean": 0.5058437653679297,
+      "blocks": [
+        {
+          "t_first": 0.111875,
+          "t_last": 0.199375,
+          "samples": 8,
+          "mean": 0.07142621014671682,
+          "rms_fluctuation": 0.29881511790919857
+        }
+      ],
+      "block_mean_range": 0.0,
+      "correlation": {
+        "status": "too_few_samples",
+        "tau_samples": null,
+        "effective_samples_heuristic": null
+      },
+      "confidence_interval": null,
+      "temporal_convergence": "not_certified"
+    },
+    "cd": {
+      "samples": 8,
+      "sample_dt_t_star": 0.012499999999999997,
+      "selected_t_first": 0.111875,
+      "selected_t_last": 0.199375,
+      "selected_interval_t_star": 0.0875,
+      "mean": 0.02699633639180484,
+      "rms_fluctuation": 0.09376024525130458,
+      "minimum": -0.13247627349059568,
+      "maximum": 0.1786966319054867,
+      "first_half_mean": -0.050961039915346576,
+      "last_half_mean": 0.10495371269895626,
+      "last_minus_first_half_mean": 0.15591475261430282,
+      "blocks": [
+        {
+          "t_first": 0.111875,
+          "t_last": 0.199375,
+          "samples": 8,
+          "mean": 0.02699633639180484,
+          "rms_fluctuation": 0.09376024525130458
+        }
+      ],
+      "block_mean_range": 0.0,
+      "correlation": {
+        "status": "too_few_samples",
+        "tau_samples": null,
+        "effective_samples_heuristic": null
+      },
+      "confidence_interval": null,
+      "temporal_convergence": "not_certified"
+    },
+    "cm": {
+      "samples": 8,
+      "sample_dt_t_star": 0.012499999999999997,
+      "selected_t_first": 0.111875,
+      "selected_t_last": 0.199375,
+      "selected_interval_t_star": 0.0875,
+      "mean": 0.04051492823692855,
+      "rms_fluctuation": 0.13859114505760178,
+      "minimum": -0.20430918677345036,
+      "maximum": 0.2487132240235538,
+      "first_half_mean": 0.15741285528687818,
+      "last_half_mean": -0.07638299881302105,
+      "last_minus_first_half_mean": -0.23379585409989923,
+      "blocks": [
+        {
+          "t_first": 0.111875,
+          "t_last": 0.199375,
+          "samples": 8,
+          "mean": 0.04051492823692855,
+          "rms_fluctuation": 0.13859114505760178
+        }
+      ],
+      "block_mean_range": 0.0,
+      "correlation": {
+        "status": "too_few_samples",
+        "tau_samples": null,
+        "effective_samples_heuristic": null
+      },
+      "confidence_interval": null,
+      "temporal_convergence": "not_certified"
+    }
+  },
+  "sampled_field_diagnostics": {
+    "local_mach_max": 0.10390505489317937,
+    "density_error_max": 0.018931185323220356
+  },
+  "spatial_convergence": "not_assessed",
+  "temporal_convergence": "not_certified",
+  "experimental_validation": "not_performed",
+  "limitations": [
+    "Large instantaneous oscillations do not alone prove numerical divergence.",
+    "The physical or numerical origin of oscillations is not classified by this tool.",
+    "Block statistics are descriptive; the blocks are not assumed independent.",
+    "Autocorrelation/effective sample counts assume stationarity and a sufficiently long record.",
+    "No confidence interval or accepted error tolerance has been established.",
+    "Sampled density/Mach diagnostics do not certify behavior between saved samples.",
+    "This analysis does not validate the mesh, domain, span, timestep/Mach or wind-tunnel conditions."
+  ]
+}

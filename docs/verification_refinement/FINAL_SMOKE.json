@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "tagged_wheel_installed": true,
+  "all_17_installed_runtime_files_match_tagged_wheel": true,
+  "numerical_source_hashes_match_current": true,
+  "local_report_links": "passed",
+  "python_socket_connections_and_dns": "blocked",
+  "manifest_files": 27
+}

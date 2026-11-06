@@ -1,0 +1,49 @@
+{
+  "date_utc": "2026-10-27",
+  "milestone": "Static periodic D3Q27 coarse/fine box with genuine spatial interfaces and 2:1 subcycling",
+  "status_before_execution": "not_run",
+  "production_airfoil_solver_changed": false,
+  "model": "Unforced, no SGS, low-Mach cumulant D3Q27, float64, pre-collision states; same physical shear and bulk viscosities on both levels",
+  "algorithm": [
+    "Coarse prediction over one full step; coarse old/predicted pre-collision moments supply fine donors at t and t+dt_c/2",
+    "Two fine collision/stream steps; physical fine cells own the covered region; coarse covered cells are virtual and excluded from integrals",
+    "Exact Cartesian-face decomposition of D3Q27 streaming, symmetrized over all coordinate orders",
+    "Integrated actual fine flux over four child faces and two substeps replaces coarse interface flux by local reflux into adjacent coarse cells",
+    "Reflux changes equilibrium for the required density/momentum increment, preserving the pre-existing non-equilibrium PDF part; no global density or momentum adjustment",
+    "Volume restriction into virtual coarse cells only after synchronized completion"
+  ],
+  "geometry": "One static rectangular fine box aligned with coarse faces. Fully periodic enclosing domain. A box may span a whole periodic axis; all other box boundaries must be interior.",
+  "criteria_fixed_before_execution": {
+    "exact_face_flux_vs_direct_streaming": {"absolute_max_per_cell_moment": 2e-13},
+    "uniform_rest_and_moving_equilibria_after_40_coarse_steps": {"absolute_max_density_or_momentum_error": 2e-12},
+    "all_periodic_composite_runs": {"relative_mass_drift_max": 5e-11, "physical_momentum_drift_per_volume_max": 2e-12},
+    "subcycling": "Exactly two fine steps per accepted coarse step, with integer clocks and distinct t/t+dt_c/2 donor states",
+    "local_reflux": "Changes restricted to the coarse cells sharing a Cartesian face with the fine box; no correction applied to all-domain averages",
+    "oblique_shear_wave": {
+      "domain": [16,16,16], "nu": 0.03, "zeta": 0.02,
+      "resolutions": [16,24,32], "fine_box_physical_lower": [6,6,6], "fine_box_physical_upper": [10,10,10],
+      "background_velocity": [0.04,0.02,0.03], "wave_vector_period_counts": [1,1,1], "amplitude": 0.0001,
+      "duration": 40, "finest_relative_velocity_l2_error_max": 0.05,
+      "finest_relative_fitted_viscosity_error_max": 0.05,
+      "resolution_study": "Save all three errors and differences. Finest error must be smaller than coarsest; do not claim GCI or order without asymptotic evidence."
+    },
+    "advected_3d_gaussian_vortex": {
+      "domain": [16,16,16], "nu": 0.03, "zeta": 0.02, "amplitude": 0.0001, "initial_sigma": 1.6,
+      "duration": 80, "resolutions_corner_case": [16,24,32],
+      "corner_case_initial_center": [4,4,4], "corner_case_background_velocity": [0.05,0.05,0.05],
+      "finest_topologies": ["face", "edge", "corner"],
+      "finest_relative_velocity_l2_error_max": 0.05,
+      "reference": "Analytic periodic linear advection-diffusion of a Gaussian vector potential; exact cell averages. Small but finite-amplitude nonlinear/compressible effects are not claimed to vanish."
+    },
+    "acoustic_packet": {
+      "domain": [16,16,16], "resolution": 32, "sigma": 1.2, "amplitude_density": 0.00001,
+      "duration": 12, "directions": [1,-1], "box": "Finite 3D box [6,10]^3",
+      "excess_upstream_backward_characteristic_l2_vs_uniform_coarse_max": 0.03,
+      "reference": "Uniform coarse and fine D3Q27 calculations of the same 1D periodic acoustic initial state; transverse invariance permits symmetry reduction of the references. This is verification of our own numerics, not comparison with another CFD product."
+    },
+    "negative_control": "A separately labelled run with reflux disabled must violate the declared mass or momentum tolerance; its failure is expected and must not be hidden.",
+    "offline": "Installed research wheel, unchanged pinned local dependencies, fresh JIT caches and blocked Python socket/DNS calls.",
+    "memory": "Estimate cell/PDF/moment/temporary memory before allocation and enforce a stated limit; distinguish estimate from measured process peak.",
+    "not_claimed": ["Airfoil walls or loads", "Validated Cl/Cd/Cm", "Open external boundaries", "Re=1e8 or physical M=0.4", "GPU or native Windows/MSVC execution"]
+  }
+}
