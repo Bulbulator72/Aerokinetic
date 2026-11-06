@@ -191,9 +191,9 @@
     },
     {
       "path": "README.md",
-      "bytes": 2977,
-      "sha256": "ec62ad4c650c882cfc2ea3177ca51c57db57dc80bcc0a75a898bb1da9d02ff1d",
-      "git_blob_sha": "49964c2f691738338791dd6c3c1f09eccb3770df",
+      "bytes": 3061,
+      "sha256": "b5b781d6bfe184e6cb03dddeb5d15e6dddf90eef89998eef22d19dca297a6bd9",
+      "git_blob_sha": "42b50b20587322df80730175c3000486f9bce9b4",
       "encoding": "utf-8",
       "mode": "100644"
     },
@@ -2071,9 +2071,9 @@
     },
     {
       "path": "docs/CURRENT_STATE_RU.md",
-      "bytes": 19856,
-      "sha256": "bad71d3bbaf6ba5f140d595a5459356173b4a14f6eb5ba3f7ce87c4f94caec46",
-      "git_blob_sha": "354f6ffedff4de1624b7e3635cc116377566e2b3",
+      "bytes": 20090,
+      "sha256": "23966f95b877c5e811682ead9731b4bb7bf1c7d7fae21c2298712786f56b14aa",
+      "git_blob_sha": "d35fc314d953d06e45d36a75cd464ab39070216d",
       "encoding": "utf-8",
       "mode": "100644"
     },
@@ -2206,10 +2206,26 @@
       "mode": "100644"
     },
     {
-      "path": "docs/ROADMAP_RU.md",
+      "path": "docs/ROADMAP_20261027_RU.md",
       "bytes": 10755,
       "sha256": "f0913d4560f0ad9404eb43efe4f3248d5ca1254e223bc53ac7dab1f1d50801b2",
       "git_blob_sha": "87661eb004189d1dbbc2f80fa755fbdb2d5e91f4",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/ROADMAP_RU.md",
+      "bytes": 26062,
+      "sha256": "3ff3f61526bdb2c1fbcd7a25bd766af78af1964b19490b6f758918b543b76458",
+      "git_blob_sha": "4ab9781b7cc43c1508a657322c5e18c676755a97",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/ROADMAP_RU.txt",
+      "bytes": 26019,
+      "sha256": "b0bb509f96d1818dc4ef2b690922035387d261135f2e91e6ec7ad562c1495fbd",
+      "git_blob_sha": "c741c0d0cd116b7dba814ba51c29c2e74148e50f",
       "encoding": "utf-8",
       "mode": "100644"
     },
@@ -6437,5 +6453,6 @@
       "encoding": "utf-8",
       "mode": "100644"
     }
-  ]
+  ],
+  "documentation_update": "2026-11-06: development roadmap after NACA0012 comparison; runtime unchanged"
 }
