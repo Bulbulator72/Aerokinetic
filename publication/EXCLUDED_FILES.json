@@ -110,5 +110,19 @@
     "bytes": 63939408,
     "sha256": "c6cb69de3d5f1367c891e30a302b96dd4a7a38b8cbbfe0f73d483cdfb486e177",
     "reason": "large generated restart/diagnostic state; retained in workspace; metadata and raw CSV published"
+  },
+  {
+    "source": "/workspace/aerokinetic_farfield_20261107/capture_acoustic_guard051/parent/checkpoint.npz",
+    "repository_path": null,
+    "bytes": 11999852,
+    "sha256": "345d6ed128bef16897d509ed001fde150e5066fffba7b26186e1bb37606a4d8b",
+    "reason": "Generated research/replay state retained in workspace; raw histories, inputs, small planes and hashes published. Failed PDF arrays are diagnostic, not restart checkpoints."
+  },
+  {
+    "source": "/workspace/aerokinetic/docs/verification_failure_capture_20261107/inadmissible_plane.npz",
+    "repository_path": "docs/verification_failure_capture_20261107/inadmissible_plane.npz",
+    "bytes": 12900,
+    "sha256": "995752600f5a8196ba3e4d606d9548138a18c583c9ec91173fef35456f446bb5",
+    "reason": "Omitted from the public tree after automatic approval review rejected a new binary vortex-field export as unverified internal data. Original retained in workspace. No re-encoded field substitution published."
   }
 ]

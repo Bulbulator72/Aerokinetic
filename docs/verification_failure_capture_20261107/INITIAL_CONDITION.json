@@ -1,0 +1,14 @@
+{
+  "kind": "synthetic colliding acoustic pulses for guard/replay verification only",
+  "density_amplitudes": [
+    0.085,
+    0.085
+  ],
+  "centers_y_lattice": [
+    5.5,
+    12.5
+  ],
+  "sigma_lattice": 1.5,
+  "velocity_uy": "cs*(pulse1-pulse2)",
+  "validation": "not an experimental benchmark"
+}

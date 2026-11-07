@@ -1,9 +1,9 @@
 {
   "date": "2026-11-07",
   "repository": "Bulbulator72/Aerokinetic",
-  "version": "0.5.1",
+  "version": "0.5.1; diagnostic replay tool added without library changes",
   "source_root": "aerokinetic",
-  "publication_sanitization": "Full publisher HTML and source_0 capture replaced by citation-only records; no captured site scripts/configuration published",
+  "publication_sanitization": "Historical publisher HTML/source_0 remain citation-only. New binary diagnostic plane omitted after approval review; source and prepared text evidence published",
   "manifest_excludes_itself": true,
   "files": [
     {
@@ -200,17 +200,17 @@
     },
     {
       "path": "README_RU.md",
-      "bytes": 26956,
-      "sha256": "605fbe452e47e9f691208ee83491900af95b3919c295489a9afe741e7d84694a",
-      "git_blob_sha": "0de1278dae76851ec148da17fbf1c7d4c1c47742",
+      "bytes": 27361,
+      "sha256": "ff5f02741be1d1d9164c997bebc9d6f9f640456d03bda62fe3d980de16f4235e",
+      "git_blob_sha": "3cd9aecc64bf954aea4d61a30b612530e8a178c9",
       "encoding": "utf-8",
       "mode": "100644"
     },
     {
       "path": "REPOSITORY_CONTENTS_RU.md",
-      "bytes": 3893,
-      "sha256": "ca20bd951d632f1630f9404975b9916355232562ec24b2ba881ee246b5f146c2",
-      "git_blob_sha": "ac6492cdb537672367128b5bb9626287eadd59c5",
+      "bytes": 4438,
+      "sha256": "c7c56c782a2edaa38ea7fbdaa1ed5368c122bb0fcc39e1d99b227222d6ebcecf",
+      "git_blob_sha": "2d582dfaec441f65b21847c07c603501412fd111",
       "encoding": "utf-8",
       "mode": "100644"
     },
@@ -2104,9 +2104,17 @@
     },
     {
       "path": "docs/CURRENT_STATE_RU.md",
-      "bytes": 26726,
-      "sha256": "a915fadd7ae8a15ee8753cd516ef684bdb3dd2e5f1b286a1980f046e285b3e21",
-      "git_blob_sha": "cf26b16a5d226a861883a61609a73808ca5c36c1",
+      "bytes": 29259,
+      "sha256": "523ec29d7b92becf63ba9256ccdff6a53788f343366e2a51e8400bbb72f406df",
+      "git_blob_sha": "1de1a705074e21e54d395ba845ed190349d56f90",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/FARFIELD_RESEARCH_STATUS_RU.md",
+      "bytes": 3193,
+      "sha256": "e1b3f4e6a9a45bbc971ecd6499d6989a24ee637093052560da73b30402d4016b",
+      "git_blob_sha": "fc32a260d7cc61aba667daf195367c9a3ea7ed6f",
       "encoding": "utf-8",
       "mode": "100644"
     },
@@ -2179,6 +2187,14 @@
       "bytes": 20584,
       "sha256": "249aeb481b8c14fefebba57491c488b07fb30f760c34ce87c87d08283a3af09f",
       "git_blob_sha": "5739272917924d94f6f88959d23eb0c19c05a4ef",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/PUBLICATION_LIMITS_20261107_RU.md",
+      "bytes": 1628,
+      "sha256": "a285267c79f38ea864a0d253a1510b6343f943a75d6ea869d8ca2ce850ec9389",
+      "git_blob_sha": "c41d0fce5b1a075cece91eea95caf7063ea508fb",
       "encoding": "utf-8",
       "mode": "100644"
     },
@@ -2256,17 +2272,17 @@
     },
     {
       "path": "docs/ROADMAP_RU.md",
-      "bytes": 27059,
-      "sha256": "eab4c08b622f382afdc941e693bc14eb34b1d659eb009c101ddb745efece3540",
-      "git_blob_sha": "44bf60e75d5a97186405badd080614137e4a29ee",
+      "bytes": 27454,
+      "sha256": "27a3fcdbe907702027749aa585503620337c939889da96d52afc54248e1f7eb8",
+      "git_blob_sha": "266e0c9cf60bc91be3b3c22240dfc2ec4260e296",
       "encoding": "utf-8",
       "mode": "100644"
     },
     {
       "path": "docs/ROADMAP_RU.txt",
-      "bytes": 27059,
-      "sha256": "eab4c08b622f382afdc941e693bc14eb34b1d659eb009c101ddb745efece3540",
-      "git_blob_sha": "44bf60e75d5a97186405badd080614137e4a29ee",
+      "bytes": 27454,
+      "sha256": "27a3fcdbe907702027749aa585503620337c939889da96d52afc54248e1f7eb8",
+      "git_blob_sha": "266e0c9cf60bc91be3b3c22240dfc2ec4260e296",
       "encoding": "utf-8",
       "mode": "100644"
     },
@@ -2787,6 +2803,86 @@
       "bytes": 935,
       "sha256": "0c42b388af33cbb9a2ef60d35bf215d102c608949605ec6b5d6586866db4862b",
       "git_blob_sha": "37b8c93929317bf057630cda828ddbf6dc863bb4",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_failure_capture_20261107/CHECKS.json",
+      "bytes": 1899,
+      "sha256": "5f16a45bb43644e46a413bc98075a4daf83303ca6cdd02d52afe24ba805dd634",
+      "git_blob_sha": "eac2790a1c863e3cdf479f4bf8d118680eee9554",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_failure_capture_20261107/INITIAL_CONDITION.json",
+      "bytes": 299,
+      "sha256": "a015da9df78f21f6075af77521bcaa0ff8a694ba6cd312e16672bc85e8825cad",
+      "git_blob_sha": "4d966143fd292d3f1bf8514414b27aa5143beef0",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_failure_capture_20261107/MANIFEST_SHA256.json",
+      "bytes": 1423,
+      "sha256": "7aae96389b031c52f04403716ffb56d00ed1c3a8241fb670fa43d65170a9e8c3",
+      "git_blob_sha": "279eea82ecf8a20c39d75fd4b3bb254343832f4f",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_failure_capture_20261107/REPORT_RU.md",
+      "bytes": 5207,
+      "sha256": "1b59492f36053390bafe484f5fef7206376e8445cad7b22b15a6e8b1b82f220c",
+      "git_blob_sha": "60ee9c268d0e3865a610539a2e416c46bebbfc62",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_failure_capture_20261107/history.csv",
+      "bytes": 392,
+      "sha256": "73171bf276294b211533f0e8812a7ae620273e4a8f5152376cd27ccb2f567619",
+      "git_blob_sha": "7f528da45f70277f07540ba692f3c950e5e413d5",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_failure_capture_20261107/metadata.json",
+      "bytes": 7883,
+      "sha256": "218df025e6860a1b507474c938cbde3c8cbf7d1083d7d0bff4054bf8499acd6d",
+      "git_blob_sha": "6eb05cea57e4334c3efc3c438fb00c396b102c5c",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_failure_capture_20261107/project.json",
+      "bytes": 6786,
+      "sha256": "bc76deed747440f7f9786b29301ea3fad99401b1a62740ccb624c91e796cace7",
+      "git_blob_sha": "2df123a48a89b3f9540c432316523f2459e34ce8",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_failure_capture_20261107/reproduce.py",
+      "bytes": 2428,
+      "sha256": "ee90a681d189dcbe0ec5b620d8c9c519fc2330261f4e05569c34116a9b93ec8a",
+      "git_blob_sha": "626c1a1c5564804c433dc15f14705af2a60c1482",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_failure_capture_20261107/residuals.csv",
+      "bytes": 638,
+      "sha256": "206e440da47269c996821bb5c2102e5c355bdecd993538cd00bd9ced035e902c",
+      "git_blob_sha": "d906bc4b56211562ff5475099f0645841e5931e2",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_failure_capture_20261107/summary.json",
+      "bytes": 1055,
+      "sha256": "0e5d3ed67179480e3ef9a52d938690bf1bab7365898c841776dc4aaaaccb7d05",
+      "git_blob_sha": "06035b24fcc61473e7b3ea2ad1390a0f9e48522a",
       "encoding": "utf-8",
       "mode": "100644"
     },
@@ -6008,9 +6104,9 @@
     },
     {
       "path": "publication/EXCLUDED_FILES.json",
-      "bytes": 6216,
-      "sha256": "d4c87fcf35d97180a337401f3175077b78028e85afc863965031b9f4fa8b0280",
-      "git_blob_sha": "438df9ace391a5504679ff6d29f7f67306f53b70",
+      "bytes": 7186,
+      "sha256": "d85a9f78715f0ca9907bcad533fb49ea9b7a11a217e07ab7990834e4862ae6a2",
+      "git_blob_sha": "83cdefd7fc7a0ab4675acd8287ffc1e1b1330923",
       "encoding": "utf-8",
       "mode": "100644"
     },
@@ -6715,6 +6811,14 @@
       "bytes": 4465,
       "sha256": "4d7d991386c6cb3da92f2dceb34a957fc33a8c3c63af2c55143836d1145e6c35",
       "git_blob_sha": "a1c23115d2b397e8066aff14a3f50a26a5e818a2",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "tools/capture_failure.py",
+      "bytes": 5999,
+      "sha256": "dc89edd08123f5dbb0ca504df84836c11ac5947f05677086d7bc68af6ca18c45",
+      "git_blob_sha": "07af2fdcdccf8ded05844687c83d26802597c27d",
       "encoding": "utf-8",
       "mode": "100644"
     },

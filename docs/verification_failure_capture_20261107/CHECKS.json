@@ -1,0 +1,42 @@
+{
+  "status": "reproduced",
+  "runtime_version": "0.5.1",
+  "imported": "/workspace/aerokinetic_stage1_20261106/env/lib/python3.12/site-packages/aerokinetic/__init__.py",
+  "tool_sha256": "dc89edd08123f5dbb0ca504df84836c11ac5947f05677086d7bc68af6ca18c45",
+  "solver_sha256": "690cb05c2534552d2e789220be770b885d248295da0a61003c337cdeb6538957",
+  "case_fingerprint": "5c03150ffe63bfadb19dbc4a462cc2270c1584942fb7aeaab7187421878cd28d",
+  "checkpoint_step": 3,
+  "original_failure_step": 4,
+  "replayed_step": 4,
+  "replayed_t_star": 0.01,
+  "exception": "Low-Mach validity check failed: local Ma=0.0999, |rho-1|max=0.122",
+  "original_exception": "NumericalFailure: Low-Mach validity check failed: local Ma=0.0999, |rho-1|max=0.122",
+  "parent_files_unchanged": true,
+  "parent_sha256": {
+    "checkpoint.npz": "345d6ed128bef16897d509ed001fde150e5066fffba7b26186e1bb37606a4d8b",
+    "metadata.json": "218df025e6860a1b507474c938cbde3c8cbf7d1083d7d0bff4054bf8499acd6d",
+    "summary.json": "0e5d3ed67179480e3ef9a52d938690bf1bab7365898c841776dc4aaaaccb7d05",
+    "project.json": "bc76deed747440f7f9786b29301ea3fad99401b1a62740ccb624c91e796cace7",
+    "history.csv": "73171bf276294b211533f0e8812a7ae620273e4a8f5152376cd27ccb2f567619",
+    "residuals.csv": "206e440da47269c996821bb5c2102e5c355bdecd993538cd00bd9ced035e902c",
+    "frames/frame_0000000000.npz": "403d679a6235d7595d17a8c619f4fef4d611b60984d75df332663ff5b341a664"
+  },
+  "all_fluid_finite": true,
+  "local_mach_max": 0.099907127212074,
+  "density_error_max": 0.1220544089010347,
+  "max_mach_index": [
+    63,
+    10,
+    0
+  ],
+  "max_mach_xy_over_c": [
+    2.71875,
+    -0.40625
+  ],
+  "plane_z_index": 0,
+  "pdf_archive_is_restart": false,
+  "aerodynamic_averages": "withheld: captured state is inadmissible",
+  "captured_files_sha256": {
+    "inadmissible_plane.npz": "995752600f5a8196ba3e4d606d9548138a18c583c9ec91173fef35456f446bb5"
+  }
+}
