@@ -1,0 +1,9 @@
+{
+ "date_utc":"2026-11-07",
+ "reason":"The initial shipped-candidate boundary passed isolated wave/vortex tests but both N32 airfoil domains failed near t*=3.25. Last saved t*=3 field localizes large short-wavelength disturbances to glancing transverse faces; incoming invariants reached about0.3 while freestream Un=0. Preserve both failures and original gates.",
+ "hypothesis":"The explicit use of a trapezoidal average of current and previous fluid-derived transverse rates can be unstable in coupled tangential advection; test rather than assert the exact cause. A conventional explicit second-order Adams-Bashforth rate is a candidate; no viscosity, Reynolds number, Mach limit, collision, wall, geometry or acoustic threshold changes.",
+ "candidate":"Rminus_new=Rminus_old+1.5*F_current-0.5*F_previous; same transverse spatial operator, actual-initial-state startup and NEEP as earlier candidate. Distinct boundary identity required if integrated.",
+ "case":{"shape":[64,24,8],"periodic_axes":[true,false,true],"freestream":[0.04,0,0],"initial":"rho=1, ux=.04, uy=2e-5*cos(2*pi*x/wavelength), uz=0, independent of y,z; solenoidal shear convected tangentially along open y faces","wavelengths_cells":[16,8,4],"viscosity":0.00004266666666666667,"steps":10000,"sample_every":100},
+ "gates":{"max_sampled_perturbation_energy_over_initial":1.1,"perturbation_energy":"mean(|u-Uinf|^2+cs^2*(rho-1)^2)","max_sampled_density_error_from1":0.000002,"finite_fields":true},
+ "scope":"A long-time boundedness check including poorly resolved tangential modes; phase accuracy at wavelength4 is not claimed. Keep the earlier wave/vortex/budget gates. If this test passes, repeat them on the new candidate before new fixed-physics airfoil runs; do not tune tolerances to results."
+}

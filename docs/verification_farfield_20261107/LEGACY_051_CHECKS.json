@@ -1,0 +1,21 @@
+{
+  "runtime_version": "0.5.2",
+  "checks": {
+    "uniform": {
+      "status": "passed",
+      "exact_physical_state_arrays": 5,
+      "parent_immutable": true,
+      "old_checkpoint_sha256": "83888f9ab6acea57381ec1375e4c725de3e8c3e4ffba13f0f50148fbc345a78f",
+      "released_manual12_sha256": "feac8c43851273f9e1d5603a16ba2148d0251c3cdb3b7f66819c1c174708ebd3",
+      "continued_checkpoint_sha256": "b6bdac965268fbdc87709649c8ce3891c01584f2c3620c5adcaa08e5a1861652"
+    },
+    "refined": {
+      "status": "passed",
+      "exact_physical_state_arrays": 8,
+      "parent_immutable": true,
+      "old_checkpoint_sha256": "de89bd0126f20f740fb8ebd82a99012c6cdeb38e7c4bf3de337032678afe735e",
+      "released_manual12_sha256": "7de6a06193dd266ce9e054700ec9945c66b5de56301e3649ea28c61c9b7ec32e",
+      "continued_checkpoint_sha256": "47082cf831608f89a3c5bc9a4fc47f224374ff7bf7dde8168476a68ea2575206"
+    }
+  }
+}

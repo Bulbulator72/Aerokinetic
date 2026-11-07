@@ -1,0 +1,48 @@
+{
+  "status": "completed",
+  "steps": 9600,
+  "t_star": 12.0,
+  "wall_clock_seconds": 485.3922199089993,
+  "samples": 1200,
+  "averaging_samples": 600,
+  "average_after_t_star": 6,
+  "mean": {
+    "cl": 0.09031620007369962,
+    "cd": 0.07582444533536173,
+    "cm": 0.02137720777262152
+  },
+  "rms_fluctuation": {
+    "cl": 0.056013840286665534,
+    "cd": 0.003576361190730191,
+    "cm": 0.012156475730068462
+  },
+  "wall_fallback_links": 0,
+  "experimental_validation": "not_performed",
+  "termination_reason": "duration_reached",
+  "termination": {
+    "mode": "time",
+    "mass_tolerance": 1e-05,
+    "momentum_x_tolerance": 1e-05,
+    "momentum_y_tolerance": 1e-05,
+    "momentum_z_tolerance": 1e-05,
+    "minimum_t_star": 1.0,
+    "consecutive_checks": 10,
+    "max_steps": 0,
+    "wall_time_limit_s": 3600
+  },
+  "last_residuals": {
+    "step": 9600,
+    "t_star": 12.0,
+    "l2_rho": 0.0017720105550572427,
+    "l2_jx": 0.28662555820529456,
+    "l2_jy": 0.5460613917538517,
+    "l2_jz": 6.265654943134758e-08,
+    "linf_rho": 0.013507172183153948,
+    "linf_jx": 4.13791173257872,
+    "linf_jy": 4.550696072960526,
+    "linf_jz": 2.137079222133421e-06,
+    "streak": 0
+  },
+  "steady_residual_criterion_met": false,
+  "statistical_convergence": "not_established"
+}

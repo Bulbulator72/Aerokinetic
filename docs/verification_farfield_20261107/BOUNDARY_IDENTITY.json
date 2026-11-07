@@ -1,0 +1,7 @@
+{
+  "tested_final_wheel_sha256": "a3c2930ffcf45cf326fd09217c1afb9bea69c91299a8d83eafbe31c56e49639f",
+  "final_wheel_sha256": "a3c2930ffcf45cf326fd09217c1afb9bea69c91299a8d83eafbe31c56e49639f",
+  "tested_and_final_farfield_py_sha256": "f4b917ca09580fc4a74c4136e6c53e51e9f899c9fa272f17fbb5d22d9793239c",
+  "boundary_module_unchanged": true,
+  "difference": "All eight final boundary groups, final Solver tests, airfoil cases and cold smoke use this final wheel. Earlier failures/pass-only trials are retained separately."
+}

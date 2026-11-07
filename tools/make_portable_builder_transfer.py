@@ -18,8 +18,9 @@ def make_transfer(wheel, output):
     paths = [root / name for name in ('AGENTS.md', 'LICENSE', 'README_RU.md', 'VALIDATION_RU.md',
              'requirements-offline-py312.txt', 'pyproject.toml', 'START_DESKTOP_RU.md',
              'tools/configure_windows_compiler.py', 'tools/make_portable_builder_transfer.py',
-             'tools/smoke_ui_050.py')]
-    for directory in ('tools/portable', 'src/aerokinetic', 'examples', '.agents/skills', 'tests'):
+             'tools/smoke_ui_050.py', 'tools/smoke_052_offline.py',
+             'tools/verify_farfield.py', 'tools/audit_uniform_loads.py')]
+    for directory in ('tools/portable', 'tools/farfield_checks', 'src/aerokinetic', 'examples', '.agents/skills', 'tests'):
         paths += [p for p in (root / directory).rglob('*') if p.is_file() and '__pycache__' not in p.parts]
     paths += [p for p in (root / 'docs').rglob('*') if p.suffix in ('.md', '.json', '.csv', '.xml', '.py')]
     entries = {p.relative_to(root).as_posix(): p.read_bytes() for p in sorted(set(paths))}

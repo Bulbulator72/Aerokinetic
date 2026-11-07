@@ -1,0 +1,12 @@
+{
+  "date_utc":"2026-11-07",
+  "reason":"Normal-wave and density-radiation gates passed, but the 2D radiation field retains a velocity perturbation. Add explicit rotational/tangential verification before airfoil use; do not reinterpret density-only evidence as a full NSCBC validation.",
+  "candidate":"Unchanged prototype v1, incoming/outgoing tangential characteristic selected by predicted normal velocity",
+  "shape":[160,160,8],"periodic_axes":[false,false,true],"background_velocity":[0.04,0.04,0],
+  "initial_vortex":{"center":[110,110],"sigma":10,"A":0.0002,"velocity":"(-A*(y-yc)/sigma, A*(x-xc)/sigma, 0)*exp(-r^2/(2sigma^2)) plus freestream","density":"exp[-A^2/(2cs^2)*exp(-r^2/sigma^2)]"},
+  "kinematic_viscosity":0.00004266666666666667,"steps":3000,"sample_every":100,
+  "analytic_control":"Convected linearized NS solenoidal Gaussian vortex, broadened by b^2=sigma^2+2nu*t, velocity amplitude factor A*sigma^3/b^4. Initial density gives inviscid isothermal radial pressure balance; finite-amplitude/viscous corrections are not an exact nonlinear analytic solution.",
+  "acceptance":{"finite_fields":true,"max_abs_density_error_from1":0.000002,"step500_max_velocity_error_relative_initial_rotational_peak":0.05,"step3000_velocity_L2_error_over_initial_rotational_L2":0.05},
+  "additional_radiation_diagnostics":"Record velocity and discrete curl errors against the large-domain control without introducing a new post-result pass threshold. Preserve all v1 density and wave results.",
+  "interpretation":"Numerical boundary-vorticity check, not a wind-tunnel validation or proof of resolved turbulence"
+}

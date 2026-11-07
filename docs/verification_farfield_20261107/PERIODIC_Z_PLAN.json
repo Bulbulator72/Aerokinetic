@@ -1,0 +1,10 @@
+{
+  "date_utc":"2026-11-07",
+  "purpose":"Exercise nonzero third velocity and periodic-z derivative wrapping before interpreting the boundary as a 3D implementation",
+  "candidate":"Unchanged transverse v2 candidate, actual initial PDF state with backward-Taylor startup",
+  "shape":[160,8,160],"periodic_axes":[false,true,true],"background_velocity":[0.04,0,0],
+  "vortex":{"plane":"x,z","center":[110,3],"sigma":10,"A":0.0002,"periodic_z":"minimum-image displacement across z=0; 160-cell period, Gaussian far tails negligible","velocity":"(-A*rz/sigma,0,A*rx/sigma)*exp[-(rx^2+rz^2)/(2sigma^2)] plus freestream","density":"exp[-A^2/(2cs^2)*exp(-(rx^2+rz^2)/sigma^2)]"},
+  "viscosity":0.00004266666666666667,"steps":3000,"sample_every":100,
+  "acceptance":{"max_abs_density_error_from1":0.000002,"max_velocity_L2_error_over_initial_rotational_L2_during_entire_sampled_transit":0.1,"step3000_velocity_L2_error_over_initial_rotational_L2":0.05,"open_mass_momentum_budget_per_cell":2e-12},
+  "analytic_control":"Same small-amplitude convected/diffusing linearized Gaussian vortex as VORTEX_PLAN, rotated into x,z and periodized; not an exact finite-amplitude compressible solution or turbulence validation"
+}

@@ -54,6 +54,8 @@ class RefinedPlan:
 
     @classmethod
     def create(cls, project, refinement):
+        if project.grid.farfield != "legacy":
+            raise ValueError("Characteristic farfield is not yet verified on refined grids; use a uniform grid explicitly")
         if project.grid.target != "cpu":
             raise ValueError("The refined solver currently requires CPU")
         if project.flow.sgs != "none":

@@ -1,0 +1,40 @@
+{
+  "status": "failed",
+  "steps": 2608,
+  "t_star": 3.2600000000000002,
+  "wall_clock_seconds": 499.83824769200146,
+  "samples": 325,
+  "averaging_samples": 0,
+  "average_after_t_star": 6,
+  "mean": null,
+  "rms_fluctuation": null,
+  "wall_fallback_links": 0,
+  "experimental_validation": "not_performed",
+  "termination_reason": "failed",
+  "termination": {
+    "mode": "time",
+    "mass_tolerance": 1e-05,
+    "momentum_x_tolerance": 1e-05,
+    "momentum_y_tolerance": 1e-05,
+    "momentum_z_tolerance": 1e-05,
+    "minimum_t_star": 1.0,
+    "consecutive_checks": 10,
+    "max_steps": 0,
+    "wall_time_limit_s": 3600
+  },
+  "last_residuals": {
+    "step": 2560,
+    "t_star": 3.2,
+    "l2_rho": 0.006462151068494899,
+    "l2_jx": 0.4673984419410852,
+    "l2_jy": 0.447178717521806,
+    "l2_jz": 0.16417235852963016,
+    "linf_rho": 0.23950222302191876,
+    "linf_jx": 19.527027546634272,
+    "linf_jy": 20.175404524990178,
+    "linf_jz": 6.042716792826712,
+    "streak": 0
+  },
+  "steady_residual_criterion_met": false,
+  "statistical_convergence": "not_established"
+}

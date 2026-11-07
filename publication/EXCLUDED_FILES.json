@@ -110,5 +110,320 @@
     "bytes": 63939408,
     "sha256": "c6cb69de3d5f1367c891e30a302b96dd4a7a38b8cbbfe0f73d483cdfb486e177",
     "reason": "large generated restart/diagnostic state; retained in workspace; metadata and raw CSV published"
+  },
+  {
+    "source": "/workspace/aerokinetic_farfield_20261107/airfoil/legacy_down6/checkpoint.npz",
+    "repository_path": null,
+    "bytes": 253974020,
+    "sha256": "2d5550f819c5ea80622c5a03ed447765937662473f3739ed0e756c22e230a69d",
+    "reason": "Generated research/replay state retained in workspace; raw histories, inputs, small planes and hashes published. Failed PDF arrays are diagnostic, not restart checkpoints."
+  },
+  {
+    "source": "/workspace/aerokinetic_farfield_20261107/airfoil/characteristic_down6/checkpoint.npz",
+    "repository_path": null,
+    "bytes": 258034360,
+    "sha256": "e435b585aae4436378861645b4b19e1bad3960def5455c69c39993bb3af578cb",
+    "reason": "Generated research/replay state retained in workspace; raw histories, inputs, small planes and hashes published. Failed PDF arrays are diagnostic, not restart checkpoints."
+  },
+  {
+    "source": "/workspace/aerokinetic_farfield_20261107/airfoil/characteristic_down3/checkpoint.npz",
+    "repository_path": null,
+    "bytes": 168225200,
+    "sha256": "0a807b6103145864a2c1ce359776a8b6e0a7088837f4f71ce637768faa0a3c84",
+    "reason": "Generated research/replay state retained in workspace; raw histories, inputs, small planes and hashes published. Failed PDF arrays are diagnostic, not restart checkpoints."
+  },
+  {
+    "source": "/workspace/aerokinetic_farfield_20261107/transport_airfoil/characteristic_down6/checkpoint.npz",
+    "repository_path": null,
+    "bytes": 265538080,
+    "sha256": "18697442357c19f763e788329dcf2a8c755a059ddceba614072b4e50200950f7",
+    "reason": "Generated research/replay state retained in workspace; raw histories, inputs, small planes and hashes published. Failed PDF arrays are diagnostic, not restart checkpoints."
+  },
+  {
+    "source": "/workspace/aerokinetic_farfield_20261107/transport_airfoil/characteristic_down3/checkpoint.npz",
+    "repository_path": null,
+    "bytes": 173102344,
+    "sha256": "28f1ffa7cd184cf8d439872bde9882e1a3b7200418d1b1a4ff8a7a3858600b9c",
+    "reason": "Generated research/replay state retained in workspace; raw histories, inputs, small planes and hashes published. Failed PDF arrays are diagnostic, not restart checkpoints."
+  },
+  {
+    "source": "/workspace/aerokinetic_farfield_20261107/legacy051/refined_manual12.npz",
+    "repository_path": null,
+    "bytes": 41440806,
+    "sha256": "7de6a06193dd266ce9e054700ec9945c66b5de56301e3649ea28c61c9b7ec32e",
+    "reason": "Generated research/replay state retained in workspace; raw histories, inputs, small planes and hashes published. Failed PDF arrays are diagnostic, not restart checkpoints."
+  },
+  {
+    "source": "/workspace/aerokinetic_farfield_20261107/legacy051/uniform_manual12.npz",
+    "repository_path": null,
+    "bytes": 12334568,
+    "sha256": "feac8c43851273f9e1d5603a16ba2148d0251c3cdb3b7f66819c1c174708ebd3",
+    "reason": "Generated research/replay state retained in workspace; raw histories, inputs, small planes and hashes published. Failed PDF arrays are diagnostic, not restart checkpoints."
+  },
+  {
+    "source": "/workspace/aerokinetic_farfield_20261107/legacy051/refined/checkpoint.npz",
+    "repository_path": null,
+    "bytes": 41442094,
+    "sha256": "de89bd0126f20f740fb8ebd82a99012c6cdeb38e7c4bf3de337032678afe735e",
+    "reason": "Generated research/replay state retained in workspace; raw histories, inputs, small planes and hashes published. Failed PDF arrays are diagnostic, not restart checkpoints."
+  },
+  {
+    "source": "/workspace/aerokinetic_farfield_20261107/legacy051/uniform/checkpoint.npz",
+    "repository_path": null,
+    "bytes": 12335848,
+    "sha256": "83888f9ab6acea57381ec1375e4c725de3e8c3e4ffba13f0f50148fbc345a78f",
+    "reason": "Generated research/replay state retained in workspace; raw histories, inputs, small planes and hashes published. Failed PDF arrays are diagnostic, not restart checkpoints."
+  },
+  {
+    "source": "/workspace/aerokinetic_farfield_20261107/legacy_compatibility_transport/refined/checkpoint.npz",
+    "repository_path": null,
+    "bytes": 41442126,
+    "sha256": "47082cf831608f89a3c5bc9a4fc47f224374ff7bf7dde8168476a68ea2575206",
+    "reason": "Generated research/replay state retained in workspace; raw histories, inputs, small planes and hashes published. Failed PDF arrays are diagnostic, not restart checkpoints."
+  },
+  {
+    "source": "/workspace/aerokinetic_farfield_20261107/legacy_compatibility_transport/uniform/checkpoint.npz",
+    "repository_path": null,
+    "bytes": 12335876,
+    "sha256": "b6bdac965268fbdc87709649c8ce3891c01584f2c3620c5adcaa08e5a1861652",
+    "reason": "Generated research/replay state retained in workspace; raw histories, inputs, small planes and hashes published. Failed PDF arrays are diagnostic, not restart checkpoints."
+  },
+  {
+    "source": "/workspace/aerokinetic_farfield_20261107/capture_acoustic_guard051/parent/checkpoint.npz",
+    "repository_path": null,
+    "bytes": 11999852,
+    "sha256": "345d6ed128bef16897d509ed001fde150e5066fffba7b26186e1bb37606a4d8b",
+    "reason": "Generated research/replay state retained in workspace; raw histories, inputs, small planes and hashes published. Failed PDF arrays are diagnostic, not restart checkpoints."
+  },
+  {
+    "source": "/workspace/aerokinetic_farfield_20261107/failure_replay_down3/inadmissible_pdfs_NOT_RESTART.npz",
+    "repository_path": null,
+    "bytes": 142850374,
+    "sha256": "c563a2294b686d57107d16c471dd675b3a3d1cfa29ab1ef3a0b1076cba72119e",
+    "reason": "Generated research/replay state retained in workspace; raw histories, inputs, small planes and hashes published. Failed PDF arrays are diagnostic, not restart checkpoints."
+  },
+  {
+    "source": "/workspace/aerokinetic_farfield_20261107/failure_replay_down6/inadmissible_pdfs_NOT_RESTART.npz",
+    "repository_path": null,
+    "bytes": 219894598,
+    "sha256": "d7f2faadee8e8ed6f0dfba456da2673dc63c4d9b82d295136e4e6c7b68773226",
+    "reason": "Generated research/replay state retained in workspace; raw histories, inputs, small planes and hashes published. Failed PDF arrays are diagnostic, not restart checkpoints."
+  },
+  {
+    "source": "/workspace/aerokinetic/docs/verification_failure_capture_20261107/inadmissible_plane.npz",
+    "repository_path": "docs/verification_failure_capture_20261107/inadmissible_plane.npz",
+    "bytes": 12900,
+    "sha256": "995752600f5a8196ba3e4d606d9548138a18c583c9ec91173fef35456f446bb5",
+    "reason": "Omitted from the public tree after automatic approval review rejected a new binary vortex-field export as unverified internal data. Original retained in workspace. No re-encoded field substitution published."
+  },
+  {
+    "source": "/workspace/aerokinetic/docs/verification_farfield_20261107/actual_failure_fields.png",
+    "repository_path": "docs/verification_farfield_20261107/actual_failure_fields.png",
+    "bytes": 73266,
+    "sha256": "072dcfc703074baccd66b71ba5d25b2ef3c4d80f22e1cda4d52fcb5f5a46b091",
+    "reason": "Omitted from the public tree after automatic approval review rejected a new binary vortex-field export as unverified internal data. Original retained in workspace. No re-encoded field substitution published."
+  },
+  {
+    "source": "/workspace/aerokinetic/docs/verification_farfield_20261107/boundary/radiation/control_0000.npz",
+    "repository_path": "docs/verification_farfield_20261107/boundary/radiation/control_0000.npz",
+    "bytes": 90777,
+    "sha256": "97954deada824f1be2ff90da649c75eba5656bd2188669a51c55cada0f6c457a",
+    "reason": "Omitted from the public tree after automatic approval review rejected a new binary vortex-field export as unverified internal data. Original retained in workspace. No re-encoded field substitution published."
+  },
+  {
+    "source": "/workspace/aerokinetic/docs/verification_farfield_20261107/boundary/radiation/control_0360.npz",
+    "repository_path": "docs/verification_farfield_20261107/boundary/radiation/control_0360.npz",
+    "bytes": 316277,
+    "sha256": "afb6975ca4714d750951b8d79bb303684a22a6c904e0ea7d422d25cfc934ba2f",
+    "reason": "Omitted from the public tree after automatic approval review rejected a new binary vortex-field export as unverified internal data. Original retained in workspace. No re-encoded field substitution published."
+  },
+  {
+    "source": "/workspace/aerokinetic/docs/verification_farfield_20261107/boundary/radiation/riemann_0360.npz",
+    "repository_path": "docs/verification_farfield_20261107/boundary/radiation/riemann_0360.npz",
+    "bytes": 316415,
+    "sha256": "13f8751854dc40ec219835541be3c0efc2457074ec70416098a16379299c0a18",
+    "reason": "Omitted from the public tree after automatic approval review rejected a new binary vortex-field export as unverified internal data. Original retained in workspace. No re-encoded field substitution published."
+  },
+  {
+    "source": "/workspace/aerokinetic/docs/verification_farfield_20261107/boundary/radiation/ubb_0360.npz",
+    "repository_path": "docs/verification_farfield_20261107/boundary/radiation/ubb_0360.npz",
+    "bytes": 333623,
+    "sha256": "44b1ed90f6cc889766effd56262eadfb3182edb1453de50088b7413ed2d6dba1",
+    "reason": "Omitted from the public tree after automatic approval review rejected a new binary vortex-field export as unverified internal data. Original retained in workspace. No re-encoded field substitution published."
+  },
+  {
+    "source": "/workspace/aerokinetic/docs/verification_farfield_20261107/boundary/seam_vortex/field_3000.npz",
+    "repository_path": "docs/verification_farfield_20261107/boundary/seam_vortex/field_3000.npz",
+    "bytes": 517828,
+    "sha256": "7202d634eee366642ddde6616240c376d9eefecf0fdd1a07f1c88fca4d22c038",
+    "reason": "Omitted from the public tree after automatic approval review rejected a new binary vortex-field export as unverified internal data. Original retained in workspace. No re-encoded field substitution published."
+  },
+  {
+    "source": "/workspace/aerokinetic/docs/verification_farfield_20261107/boundary/vortex/field_0000.npz",
+    "repository_path": "docs/verification_farfield_20261107/boundary/vortex/field_0000.npz",
+    "bytes": 173567,
+    "sha256": "7761e0d3583cb30ef49834aa826ddd6b8812f81b6d47c62c49e953e5eac20cde",
+    "reason": "Omitted from the public tree after automatic approval review rejected a new binary vortex-field export as unverified internal data. Original retained in workspace. No re-encoded field substitution published."
+  },
+  {
+    "source": "/workspace/aerokinetic/docs/verification_farfield_20261107/boundary/vortex/field_1500.npz",
+    "repository_path": "docs/verification_farfield_20261107/boundary/vortex/field_1500.npz",
+    "bytes": 456875,
+    "sha256": "753a38266cfac3aa6a37727d2888642b34bd656e82183b727751396ad0984515",
+    "reason": "Omitted from the public tree after automatic approval review rejected a new binary vortex-field export as unverified internal data. Original retained in workspace. No re-encoded field substitution published."
+  },
+  {
+    "source": "/workspace/aerokinetic/docs/verification_farfield_20261107/boundary/vortex/field_3000.npz",
+    "repository_path": "docs/verification_farfield_20261107/boundary/vortex/field_3000.npz",
+    "bytes": 414496,
+    "sha256": "d7df6b1ecbb8e22198dc774a50a458e180e9e89a79e8ff7f4367b9caf6323ee2",
+    "reason": "Omitted from the public tree after automatic approval review rejected a new binary vortex-field export as unverified internal data. Original retained in workspace. No re-encoded field substitution published."
+  },
+  {
+    "source": "/workspace/aerokinetic/docs/verification_farfield_20261107/boundary_checks.png",
+    "repository_path": "docs/verification_farfield_20261107/boundary_checks.png",
+    "bytes": 137746,
+    "sha256": "34bc1e66d52dce5049de51629f5d716ac405a401fd4e44a7c693b5f5d057cdb1",
+    "reason": "Omitted from the public tree after automatic approval review rejected a new binary vortex-field export as unverified internal data. Original retained in workspace. No re-encoded field substitution published."
+  },
+  {
+    "source": "/workspace/aerokinetic/docs/verification_farfield_20261107/boundary_checks_initial.png",
+    "repository_path": "docs/verification_farfield_20261107/boundary_checks_initial.png",
+    "bytes": 136188,
+    "sha256": "b058451e30a9fe44bb5197d325997dd812e81a58ca68f1f466f6451f030ddeef",
+    "reason": "Omitted from the public tree after automatic approval review rejected a new binary vortex-field export as unverified internal data. Original retained in workspace. No re-encoded field substitution published."
+  },
+  {
+    "source": "/workspace/aerokinetic/docs/verification_farfield_20261107/comparison/loads.png",
+    "repository_path": "docs/verification_farfield_20261107/comparison/loads.png",
+    "bytes": 155731,
+    "sha256": "4a74d8624703171e3d318856e06a9ab318ba6fceb70ce443dce545f926a4789b",
+    "reason": "Omitted from the public tree after automatic approval review rejected a new binary vortex-field export as unverified internal data. Original retained in workspace. No re-encoded field substitution published."
+  },
+  {
+    "source": "/workspace/aerokinetic/docs/verification_farfield_20261107/comparison/loads_full_history.png",
+    "repository_path": "docs/verification_farfield_20261107/comparison/loads_full_history.png",
+    "bytes": 278068,
+    "sha256": "cbc3b2f401252bf3d2cd8790de81c61ed750f7f45655bf5f6742f92518ad099e",
+    "reason": "Omitted from the public tree after automatic approval review rejected a new binary vortex-field export as unverified internal data. Original retained in workspace. No re-encoded field substitution published."
+  },
+  {
+    "source": "/workspace/aerokinetic/docs/verification_farfield_20261107/failed_airfoil_v1/last_saved_failed_plane.npz",
+    "repository_path": "docs/verification_farfield_20261107/failed_airfoil_v1/last_saved_failed_plane.npz",
+    "bytes": 524993,
+    "sha256": "e42e25a815962e9d8d1d18746cf3495072be0eb490a9d9d3c773028344ebdb7a",
+    "reason": "Omitted from the public tree after automatic approval review rejected a new binary vortex-field export as unverified internal data. Original retained in workspace. No re-encoded field substitution published."
+  },
+  {
+    "source": "/workspace/aerokinetic/docs/verification_farfield_20261107/failed_airfoil_v1/last_saved_failed_plane.png",
+    "repository_path": "docs/verification_farfield_20261107/failed_airfoil_v1/last_saved_failed_plane.png",
+    "bytes": 72645,
+    "sha256": "6d1d5fe64bc25740e09c882963b445df64a05412f8d8ccecd3b55073dce7b61f",
+    "reason": "Omitted from the public tree after automatic approval review rejected a new binary vortex-field export as unverified internal data. Original retained in workspace. No re-encoded field substitution published."
+  },
+  {
+    "source": "/workspace/aerokinetic/docs/verification_farfield_20261107/failure_replay/down3/inadmissible_plane.npz",
+    "repository_path": "docs/verification_farfield_20261107/failure_replay/down3/inadmissible_plane.npz",
+    "bytes": 521077,
+    "sha256": "fe4ccb07e92a02e8752c08c281536de3c5a9338bd3dc10bc3f06c910d9178a61",
+    "reason": "Omitted from the public tree after automatic approval review rejected a new binary vortex-field export as unverified internal data. Original retained in workspace. No re-encoded field substitution published."
+  },
+  {
+    "source": "/workspace/aerokinetic/docs/verification_farfield_20261107/failure_replay/down6/inadmissible_plane.npz",
+    "repository_path": "docs/verification_farfield_20261107/failure_replay/down6/inadmissible_plane.npz",
+    "bytes": 807438,
+    "sha256": "f0d6c0cf3e0190317c798e8ad8f95c4feef6b3ec47b4b7277c83117e8690e697",
+    "reason": "Omitted from the public tree after automatic approval review rejected a new binary vortex-field export as unverified internal data. Original retained in workspace. No re-encoded field substitution published."
+  },
+  {
+    "source": "/workspace/aerokinetic/docs/verification_farfield_20261107/glancing_stability.png",
+    "repository_path": "docs/verification_farfield_20261107/glancing_stability.png",
+    "bytes": 92982,
+    "sha256": "60d4d9f2a1e1f4a5cce9aadaa1ac99870504f9370a44d559f23d51df408fc6e5",
+    "reason": "Omitted from the public tree after automatic approval review rejected a new binary vortex-field export as unverified internal data. Original retained in workspace. No re-encoded field substitution published."
+  },
+  {
+    "source": "/workspace/aerokinetic/docs/verification_farfield_20261107/initial_boundary_passes/radiation/control_0000.npz",
+    "repository_path": "docs/verification_farfield_20261107/initial_boundary_passes/radiation/control_0000.npz",
+    "bytes": 90777,
+    "sha256": "97954deada824f1be2ff90da649c75eba5656bd2188669a51c55cada0f6c457a",
+    "reason": "Omitted from the public tree after automatic approval review rejected a new binary vortex-field export as unverified internal data. Original retained in workspace. No re-encoded field substitution published."
+  },
+  {
+    "source": "/workspace/aerokinetic/docs/verification_farfield_20261107/initial_boundary_passes/radiation/control_0360.npz",
+    "repository_path": "docs/verification_farfield_20261107/initial_boundary_passes/radiation/control_0360.npz",
+    "bytes": 316277,
+    "sha256": "afb6975ca4714d750951b8d79bb303684a22a6c904e0ea7d422d25cfc934ba2f",
+    "reason": "Omitted from the public tree after automatic approval review rejected a new binary vortex-field export as unverified internal data. Original retained in workspace. No re-encoded field substitution published."
+  },
+  {
+    "source": "/workspace/aerokinetic/docs/verification_farfield_20261107/initial_boundary_passes/radiation/riemann_0360.npz",
+    "repository_path": "docs/verification_farfield_20261107/initial_boundary_passes/radiation/riemann_0360.npz",
+    "bytes": 316000,
+    "sha256": "5899254198d0cb896d8fff4e95a01aba9700a9ae3c78134f77b70aa2dcc2896d",
+    "reason": "Omitted from the public tree after automatic approval review rejected a new binary vortex-field export as unverified internal data. Original retained in workspace. No re-encoded field substitution published."
+  },
+  {
+    "source": "/workspace/aerokinetic/docs/verification_farfield_20261107/initial_boundary_passes/radiation/ubb_0360.npz",
+    "repository_path": "docs/verification_farfield_20261107/initial_boundary_passes/radiation/ubb_0360.npz",
+    "bytes": 333623,
+    "sha256": "44b1ed90f6cc889766effd56262eadfb3182edb1453de50088b7413ed2d6dba1",
+    "reason": "Omitted from the public tree after automatic approval review rejected a new binary vortex-field export as unverified internal data. Original retained in workspace. No re-encoded field substitution published."
+  },
+  {
+    "source": "/workspace/aerokinetic/docs/verification_farfield_20261107/initial_boundary_passes/seam_vortex/field_3000.npz",
+    "repository_path": "docs/verification_farfield_20261107/initial_boundary_passes/seam_vortex/field_3000.npz",
+    "bytes": 517828,
+    "sha256": "7202d634eee366642ddde6616240c376d9eefecf0fdd1a07f1c88fca4d22c038",
+    "reason": "Omitted from the public tree after automatic approval review rejected a new binary vortex-field export as unverified internal data. Original retained in workspace. No re-encoded field substitution published."
+  },
+  {
+    "source": "/workspace/aerokinetic/docs/verification_farfield_20261107/initial_boundary_passes/vortex/field_0000.npz",
+    "repository_path": "docs/verification_farfield_20261107/initial_boundary_passes/vortex/field_0000.npz",
+    "bytes": 173567,
+    "sha256": "7761e0d3583cb30ef49834aa826ddd6b8812f81b6d47c62c49e953e5eac20cde",
+    "reason": "Omitted from the public tree after automatic approval review rejected a new binary vortex-field export as unverified internal data. Original retained in workspace. No re-encoded field substitution published."
+  },
+  {
+    "source": "/workspace/aerokinetic/docs/verification_farfield_20261107/initial_boundary_passes/vortex/field_1500.npz",
+    "repository_path": "docs/verification_farfield_20261107/initial_boundary_passes/vortex/field_1500.npz",
+    "bytes": 456474,
+    "sha256": "e1224f71f7a1e3b649b954fafcd6f5ba729c20cfe0672b2c3296509b987484bd",
+    "reason": "Omitted from the public tree after automatic approval review rejected a new binary vortex-field export as unverified internal data. Original retained in workspace. No re-encoded field substitution published."
+  },
+  {
+    "source": "/workspace/aerokinetic/docs/verification_farfield_20261107/initial_boundary_passes/vortex/field_3000.npz",
+    "repository_path": "docs/verification_farfield_20261107/initial_boundary_passes/vortex/field_3000.npz",
+    "bytes": 415015,
+    "sha256": "0086ab26372e33dcb8f666212ade35165b10173cbc38235f80d5695ec6d5bc44",
+    "reason": "Omitted from the public tree after automatic approval review rejected a new binary vortex-field export as unverified internal data. Original retained in workspace. No re-encoded field substitution published."
+  },
+  {
+    "source": "/workspace/aerokinetic/docs/verification_farfield_20261107/last_saved_before_failure/failed_plane.npz",
+    "repository_path": "docs/verification_farfield_20261107/last_saved_before_failure/failed_plane.npz",
+    "bytes": 517613,
+    "sha256": "e595250b5ec061686727d908bb0c86085d0a6b3ff34cdba87dca9dda876e5a56",
+    "reason": "Omitted from the public tree after automatic approval review rejected a new binary vortex-field export as unverified internal data. Original retained in workspace. No re-encoded field substitution published."
+  },
+  {
+    "source": "/workspace/aerokinetic/docs/verification_farfield_20261107/last_saved_before_failure/failed_plane.png",
+    "repository_path": "docs/verification_farfield_20261107/last_saved_before_failure/failed_plane.png",
+    "bytes": 60767,
+    "sha256": "3cc15597850e3ce3dfcfb3b49ae2407cc2a7b45aae13c83c4ad1763c21bd0e5b",
+    "reason": "Omitted from the public tree after automatic approval review rejected a new binary vortex-field export as unverified internal data. Original retained in workspace. No re-encoded field substitution published."
+  },
+  {
+    "source": "/workspace/aerokinetic/docs/verification_farfield_20261107/rejected_transport_v1/aerokinetic-0.5.2-py3-none-any.whl",
+    "repository_path": "docs/verification_farfield_20261107/rejected_transport_v1/aerokinetic-0.5.2-py3-none-any.whl",
+    "bytes": 134865,
+    "sha256": "a3c2930ffcf45cf326fd09217c1afb9bea69c91299a8d83eafbe31c56e49639f",
+    "reason": "Omitted from the public tree after automatic approval review rejected a new binary vortex-field export as unverified internal data. Original retained in workspace. No re-encoded field substitution published."
+  },
+  {
+    "source": "/workspace/aerokinetic/docs/verification_farfield_20261107/rejected_transverse_v1/aerokinetic-0.5.2-py3-none-any.whl",
+    "repository_path": "docs/verification_farfield_20261107/rejected_transverse_v1/aerokinetic-0.5.2-py3-none-any.whl",
+    "bytes": 134019,
+    "sha256": "53526805b49a5b96f3018ed18e431f804734c0c2721e95a9b129534d97f80de6",
+    "reason": "Omitted from the public tree after automatic approval review rejected a new binary vortex-field export as unverified internal data. Original retained in workspace. No re-encoded field substitution published."
   }
 ]

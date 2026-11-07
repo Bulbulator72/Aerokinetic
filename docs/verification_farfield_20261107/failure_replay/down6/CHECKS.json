@@ -1,0 +1,44 @@
+{
+  "status": "reproduced",
+  "runtime_version": "0.5.2",
+  "imported": "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/aerokinetic/__init__.py",
+  "tool_sha256": "dc89edd08123f5dbb0ca504df84836c11ac5947f05677086d7bc68af6ca18c45",
+  "solver_sha256": "395fd076cc67ea6458da5b20801bfa684a997ceb240ff62f9c216bcc00c36fa6",
+  "case_fingerprint": "b52a0bd28f705f4fd764685e5fd88a4696928b9caabe03369b604534c7c88566",
+  "checkpoint_step": 4800,
+  "original_failure_step": 6640,
+  "replayed_step": 6640,
+  "replayed_t_star": 8.3,
+  "exception": "Low-Mach validity check failed: local Ma=0.332, |rho-1|max=0.0467",
+  "original_exception": "NumericalFailure: Low-Mach validity check failed: local Ma=0.332, |rho-1|max=0.0467",
+  "parent_files_unchanged": true,
+  "parent_sha256": {
+    "checkpoint.npz": "18697442357c19f763e788329dcf2a8c755a059ddceba614072b4e50200950f7",
+    "metadata.json": "7f079c324fd7d6fd10c041182399c50fec58c69cb8f1e79aaaa438fcf071d42f",
+    "summary.json": "830601b08448303cf93dd86a46f6e138c2bd7d9a5dda87e8e42677aaa23f4fb9",
+    "project.json": "1d9260a84f4a3e92567f7a0f81ebe197902810bdecd66ea0e6196c05ebab8704",
+    "history.csv": "71cb66dc1a94dc1347c6ccf588d3fb4d04fc930afb0ebaa1e5535d76a2d33f49",
+    "residuals.csv": "72ab101a9b6f8fa16cce118348d8039531cb7e367563b699e45e2502d7556f4d",
+    "frames/frame_0000002400.npz": "4af25b7e40b19658dda2a26b7e260160b0d548486af2b3be1fe4b620b5c26dc0",
+    "frames/frame_0000000000.npz": "e1b48965748641e362a0b8d78678a22780520a1b97222bdcf1b8a0ab645f1e9c",
+    "frames/frame_0000004800.npz": "71c4d8d84c9005daba72d4f6f659f5d3c36f27644ef7a5ba7f8bffa73095fe0b"
+  },
+  "all_fluid_finite": true,
+  "local_mach_max": 0.33170177459192657,
+  "density_error_max": 0.046650775643389486,
+  "max_mach_index": [
+    271,
+    98,
+    14
+  ],
+  "max_mach_xy_over_c": [
+    6.734983987435044,
+    1.4952249166984413
+  ],
+  "plane_z_index": 14,
+  "pdf_archive_is_restart": false,
+  "aerodynamic_averages": "withheld: captured state is inadmissible",
+  "captured_files_sha256": {
+    "inadmissible_plane.npz": "f0d6c0cf3e0190317c798e8ad8f95c4feef6b3ec47b4b7277c83117e8690e697"
+  }
+}

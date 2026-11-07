@@ -28,6 +28,8 @@ def main(argv=None):
     for name in ("plan", "run"):
         sub = commands.add_parser(name)
         sub.add_argument("config", type=Path)
+        sub.add_argument("--farfield", choices=("legacy","characteristic_transport_v1"),
+                         help="Explicit boundary override; characteristic_transport_v1 is experimental, CPU uniform only")
         if name == "run":
             sub.add_argument("--output", type=Path, required=True)
             sub.add_argument("--animate", action="store_true")
@@ -116,6 +118,9 @@ def main(argv=None):
             raise SystemExit(1)
         return
     section, flow, grid, options = load_case(args.config)
+    if args.farfield is not None:
+        from dataclasses import replace
+        grid = replace(grid,farfield=args.farfield)
     plan = Plan.create(section, flow, grid)
     if args.command == "plan":
         print(json.dumps(plan.as_dict(), indent=2))

@@ -88,6 +88,7 @@ def audited_step(solver):
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output',type=Path,required=True)
+    parser.add_argument('--farfield',choices=('legacy','characteristic_transport_v1'),default='legacy')
     args=parser.parse_args();args.output.mkdir(parents=True,exist_ok=False)
     os.environ.setdefault('MPLBACKEND','Agg')
     from aerokinetic import Flow,Grid,Section,Solver,naca0012
@@ -97,7 +98,8 @@ def main():
     def make(alpha,reference=(.25,0)):
         return Solver(Section((naca0012(51),),1.,reference),Flow(reynolds=30000,alpha_deg=alpha,perturbation=0),
             Grid(cells_per_chord=16,upstream_chords=1.5,downstream_chords=3,
-                 transverse_chords=1.5,span_chords=.5,memory_limit_gib=1,openmp_threads=1))
+                 transverse_chords=1.5,span_chords=.5,memory_limit_gib=1,openmp_threads=1,
+                 farfield=args.farfield))
     for alpha in (0,4,-4):
         solver=make(alpha)
         case=[]
@@ -127,7 +129,8 @@ def main():
         np.testing.assert_allclose(value[:2],old[:2],atol=2e-10,rtol=0)
         np.testing.assert_allclose(value[2],old[2]+dx*old[0]-dy*old[1],atol=2e-10,rtol=0)
         shift.append(r)
-    result={'runtime_version':aerokinetic.__version__,'installed':aerokinetic.__file__,'cases':records,
+    result={'runtime_version':aerokinetic.__version__,'installed':aerokinetic.__file__,
+        'farfield':args.farfield,'cases':records,
         'shifted_reference':shift,'independent_budget':'passed','force_adjacency':'passed',
         'mirror_and_reference_shift':'passed','validation':'not_performed; numerical audit only'}
     (args.output/'CHECKS.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')

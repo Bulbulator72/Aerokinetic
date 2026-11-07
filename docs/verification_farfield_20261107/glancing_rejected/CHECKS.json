@@ -1,0 +1,42 @@
+{
+  "trapezoid": {
+    "16": {
+      "last_step": 5400,
+      "max_energy_over_initial": 161.14641215175718,
+      "max_density_error": 0.00032255256333446614,
+      "passed": false
+    },
+    "8": {
+      "last_step": 5200,
+      "max_energy_over_initial": 130.25057350934395,
+      "max_density_error": 0.00032476594176544804,
+      "passed": false
+    },
+    "4": {
+      "last_step": 10000,
+      "max_energy_over_initial": 73.11824339310674,
+      "max_density_error": 5.8406846942915536e-05,
+      "passed": false
+    }
+  },
+  "ab2": {
+    "16": {
+      "last_step": 5100,
+      "max_energy_over_initial": 107.49138407442656,
+      "max_density_error": 0.00022992131578891684,
+      "passed": false
+    },
+    "8": {
+      "last_step": 4900,
+      "max_energy_over_initial": 154.37411979488874,
+      "max_density_error": 0.0003526938541784652,
+      "passed": false
+    },
+    "4": {
+      "last_step": 10000,
+      "max_energy_over_initial": 10.915565127166305,
+      "max_density_error": 2.208244506074486e-05,
+      "passed": false
+    }
+  }
+}

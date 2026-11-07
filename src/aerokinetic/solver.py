@@ -114,11 +114,15 @@ class Solver:
         bh = step.boundary_handling
         nx, ny, nz = self.plan.shape
         freestream = (self.flow.lattice_speed, 0.0, 0.0)
-        outer = UBB(freestream, name="freestream")
-        bh.set_boundary(outer, mask_callback=lambda x, y, z: (x < 0) | (y < 0) | (y > ny))
-        outflow = ExtrapolationOutflow((1, 0, 0), step.method,
-                                      initial_density=1.0, initial_velocity=freestream)
-        bh.set_boundary(outflow, mask_callback=lambda x, y, z: x > nx)
+        if self.grid.farfield == "legacy":
+            outer = UBB(freestream, name="freestream")
+            bh.set_boundary(outer, mask_callback=lambda x, y, z: (x < 0) | (y < 0) | (y > ny))
+            outflow = ExtrapolationOutflow((1, 0, 0), step.method,
+                                          initial_density=1.0, initial_velocity=freestream)
+            bh.set_boundary(outflow, mask_callback=lambda x, y, z: x > nx)
+        else:
+            from .farfield import install_characteristic_farfield
+            install_characteristic_farfield(step,self.plan.shape,(False,False,True),freestream)
         self._wall_objects = []
         for i, contour in enumerate(self.contours):
             wall = NoSlipLinearBouzidi(name=f"solid_{i}", init_wall_distance=self._distance_callback(contour))
@@ -139,6 +143,12 @@ class Solver:
         self._run_control=None
         step, plan = self._stepper, self.plan
         dh = step.data_handling
+        if self.grid.farfield != "legacy":
+            # The upstream macro setter writes owned cells only. Unused ghost
+            # populations in its empty-allocated buffers otherwise contain
+            # allocator history and spoil reproducible full-state checkpoints.
+            for name in (step.pdf_array_name,step._tmp_arr_name):
+                dh.cpu_arrays[name].fill(0)
         rng = np.random.default_rng(self.flow.seed)
         phase_y, phase_z = rng.uniform(0, 2 * np.pi, 2)
         # A reporting-point change must not move the physical initial seed.

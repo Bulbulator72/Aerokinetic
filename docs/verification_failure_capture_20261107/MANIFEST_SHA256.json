@@ -1,0 +1,46 @@
+{
+  "date_utc": "2026-11-07",
+  "files": {
+    "CHECKS.json": {
+      "bytes": 1899,
+      "sha256": "5f16a45bb43644e46a413bc98075a4daf83303ca6cdd02d52afe24ba805dd634"
+    },
+    "INITIAL_CONDITION.json": {
+      "bytes": 299,
+      "sha256": "a015da9df78f21f6075af77521bcaa0ff8a694ba6cd312e16672bc85e8825cad"
+    },
+    "REPORT_RU.md": {
+      "bytes": 4534,
+      "sha256": "edea5e41093f2754bf2792b881a1ad377f64ceca0a73ac581595fed361158dba"
+    },
+    "history.csv": {
+      "bytes": 392,
+      "sha256": "73171bf276294b211533f0e8812a7ae620273e4a8f5152376cd27ccb2f567619"
+    },
+    "inadmissible_plane.npz": {
+      "bytes": 12900,
+      "sha256": "995752600f5a8196ba3e4d606d9548138a18c583c9ec91173fef35456f446bb5"
+    },
+    "metadata.json": {
+      "bytes": 7883,
+      "sha256": "218df025e6860a1b507474c938cbde3c8cbf7d1083d7d0bff4054bf8499acd6d"
+    },
+    "project.json": {
+      "bytes": 6786,
+      "sha256": "bc76deed747440f7f9786b29301ea3fad99401b1a62740ccb624c91e796cace7"
+    },
+    "reproduce.py": {
+      "bytes": 2428,
+      "sha256": "ee90a681d189dcbe0ec5b620d8c9c519fc2330261f4e05569c34116a9b93ec8a"
+    },
+    "residuals.csv": {
+      "bytes": 638,
+      "sha256": "206e440da47269c996821bb5c2102e5c355bdecd993538cd00bd9ced035e902c"
+    },
+    "summary.json": {
+      "bytes": 1055,
+      "sha256": "0e5d3ed67179480e3ef9a52d938690bf1bab7365898c841776dc4aaaaccb7d05"
+    }
+  },
+  "excludes_itself": true
+}

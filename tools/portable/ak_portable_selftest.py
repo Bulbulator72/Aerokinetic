@@ -66,6 +66,30 @@ def run_checks(output, runtime, *, gui=False):
         assert summary['last_residuals']
         assert all(np.isfinite(summary['mean'][key]) for key in ('cl', 'cd', 'cm'))
 
+    print('[check farfield] Characteristic CPU boundary, real exact stop/resume', flush=True)
+    pp=replace(p,grid=replace(p.grid,farfield='characteristic_transport_v1'))
+    a=Solver(pp.section,pp.flow,pp.grid)
+    characteristic=a.run(output=output/'characteristic_direct',**asdict(pp.run))
+    b=Solver(pp.section,pp.flow,pp.grid)
+    stopped=b.run(output=output/'characteristic_resume',callback=lambda s,r:s.steps<4,**asdict(pp.run))
+    assert stopped['status']=='stopped'
+    result=Solver.resume_run(output/'characteristic_resume')
+    assert characteristic['status']==result['status']=='completed'
+    b=Solver.from_checkpoint(output/'characteristic_resume/checkpoint.npz')
+    fields=[a._stepper.pdf_array_name,a._stepper._tmp_arr_name]
+    fields.extend(name for name in a._stepper.data_handling.cpu_arrays if name.startswith('ff_initial_'))
+    assert len(fields)>2
+    for name in fields:
+        np.testing.assert_array_equal(a._stepper.data_handling.cpu_arrays[name],b._stepper.data_handling.cpu_arrays[name])
+    from aerokinetic.checkpoint import _boundaries
+    aa,bb=_boundaries(a),_boundaries(b)
+    assert aa.keys()==bb.keys()
+    for name in aa:
+        np.testing.assert_array_equal(aa[name],bb[name])
+        if 'clock'in aa[name].dtype.names:np.testing.assert_array_equal(aa[name]['clock'],a.steps)
+    for name in ('history.csv','residuals.csv'):
+        assert (output/'characteristic_direct'/name).read_bytes()==(output/'characteristic_resume'/name).read_bytes()
+
     print('[check 4/5] Built-in references, real fields, CSV/PNG/GIF and review archive', flush=True)
     references = catalog()
     for reference in references:
@@ -87,6 +111,7 @@ def run_checks(output, runtime, *, gui=False):
     return {'status': 'passed', 'frozen': runtime['frozen'], 'version': aerokinetic.__version__,
             'openmp_compile_execute': 'passed', 'tested_threads': [1, 2],
             'different_grid_specializations': [20, [16, 32]], 'checkpoint_exact_history': 'passed',
+            'characteristic_farfield_exact_stop_resume':'passed',
             'numerical_identity': expected, 'uniform_mean': uniform['mean'], 'refined_mean': direct['mean'],
             'field_csv_png_gif_review': 'passed', 'reference_series_checked': len(references),
             'gui': gui_state, 'runtime': runtime, 'elapsed_seconds': time.monotonic() - started,

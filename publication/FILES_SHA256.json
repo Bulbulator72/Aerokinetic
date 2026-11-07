@@ -1,9 +1,9 @@
 {
   "date": "2026-11-07",
   "repository": "Bulbulator72/Aerokinetic",
-  "version": "0.5.1",
+  "version": "0.5.2 unreleased research candidate; main stays0.5.1",
   "source_root": "aerokinetic",
-  "publication_sanitization": "Full publisher HTML and source_0 capture replaced by citation-only records; no captured site scripts/configuration published",
+  "publication_sanitization": "Historical publisher HTML/source_0 are citation-only; all new binary research fields/images/wheels omitted after automatic approval review rejection",
   "manifest_excludes_itself": true,
   "files": [
     {
@@ -129,8 +129,8 @@
     {
       "path": "3_install_WINDOWS_OFFLINE.bat",
       "bytes": 1003,
-      "sha256": "a8b7196135f07e7ac309d4cc432babe1f7bbdbb5ca03106aa3bf4d34dd3b11e2",
-      "git_blob_sha": "fa4f0e6c7d194e27f1e88a0c24f36e351d145313",
+      "sha256": "ce4c49dcec39fae2f4801a49395a0515b0c90874aeb6c1f39a3251e4e452cda2",
+      "git_blob_sha": "b03971f8beea55b9cb64eaa4f9c87b7216d24fe9",
       "encoding": "utf-8",
       "mode": "100644"
     },
@@ -200,25 +200,25 @@
     },
     {
       "path": "README_RU.md",
-      "bytes": 26956,
-      "sha256": "605fbe452e47e9f691208ee83491900af95b3919c295489a9afe741e7d84694a",
-      "git_blob_sha": "0de1278dae76851ec148da17fbf1c7d4c1c47742",
+      "bytes": 28206,
+      "sha256": "3acf3ed4beff788cdf5fc68c42100561c236d845418da405f6ea12ed1824b60f",
+      "git_blob_sha": "59658eaace5f47bcfc1f82efe0d334abccb95062",
       "encoding": "utf-8",
       "mode": "100644"
     },
     {
       "path": "REPOSITORY_CONTENTS_RU.md",
-      "bytes": 3893,
-      "sha256": "ca20bd951d632f1630f9404975b9916355232562ec24b2ba881ee246b5f146c2",
-      "git_blob_sha": "ac6492cdb537672367128b5bb9626287eadd59c5",
+      "bytes": 4880,
+      "sha256": "b0e2bc2ae5a3224670c03e081553b968005c7157de2b954d05b6775e60862167",
+      "git_blob_sha": "0ac4a0d0d7dae417feffa4706781fe9f8c2e9319",
       "encoding": "utf-8",
       "mode": "100644"
     },
     {
       "path": "START_DESKTOP_RU.md",
-      "bytes": 14777,
-      "sha256": "fb2e507f61d32863d2980942be2bcd7843e29eca3783b37aeadd3509a1f402ca",
-      "git_blob_sha": "7ff71e1264c938a39e0e2341c0e273cbd9ba4118",
+      "bytes": 14793,
+      "sha256": "80f6301dcb357bb5607c3ec2374cdc55154ef5ed77ee7ff90c1e219a50a6a316",
+      "git_blob_sha": "c815187d5c5b062c3e76d2d2e6080986ae72840c",
       "encoding": "utf-8",
       "mode": "100644"
     },
@@ -2104,9 +2104,17 @@
     },
     {
       "path": "docs/CURRENT_STATE_RU.md",
-      "bytes": 26726,
-      "sha256": "a915fadd7ae8a15ee8753cd516ef684bdb3dd2e5f1b286a1980f046e285b3e21",
-      "git_blob_sha": "cf26b16a5d226a861883a61609a73808ca5c36c1",
+      "bytes": 30934,
+      "sha256": "3409c120568d76b13374efa7f3c4f19b2bbfcdaf8b692458c35c58aa1cad858c",
+      "git_blob_sha": "7726fb9a806036772bfa5871cebe17325e9906fe",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/FARFIELD_RESEARCH_STATUS_RU.md",
+      "bytes": 2822,
+      "sha256": "bb15d5a85012321204ff12830bcd32ae6f4273c550fd335b88f5963c841e9026",
+      "git_blob_sha": "c6789237c778a047f37d190e2cc3c2fe9166b688",
       "encoding": "utf-8",
       "mode": "100644"
     },
@@ -2183,6 +2191,14 @@
       "mode": "100644"
     },
     {
+      "path": "docs/PUBLICATION_LIMITS_20261107_RU.md",
+      "bytes": 1628,
+      "sha256": "a285267c79f38ea864a0d253a1510b6343f943a75d6ea869d8ca2ce850ec9389",
+      "git_blob_sha": "c41d0fce5b1a075cece91eea95caf7063ea508fb",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
       "path": "docs/REFINED_AIRFOIL_RU.md",
       "bytes": 9458,
       "sha256": "136d9b38f71fd0203aea9e047ba8b3b534222aa5d34f0410672208566c33ca0b",
@@ -2247,6 +2263,14 @@
       "mode": "100644"
     },
     {
+      "path": "docs/RELEASE_052_RU.md",
+      "bytes": 1961,
+      "sha256": "80cfebcca2eaa39109df73f4278a2457bb3cdc32c7e62eefd5444bc70f352bec",
+      "git_blob_sha": "61f663981860e5c72561272e91bb24038d5015a0",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
       "path": "docs/ROADMAP_20261027_RU.md",
       "bytes": 10755,
       "sha256": "f0913d4560f0ad9404eb43efe4f3248d5ca1254e223bc53ac7dab1f1d50801b2",
@@ -2256,17 +2280,17 @@
     },
     {
       "path": "docs/ROADMAP_RU.md",
-      "bytes": 27059,
-      "sha256": "eab4c08b622f382afdc941e693bc14eb34b1d659eb009c101ddb745efece3540",
-      "git_blob_sha": "44bf60e75d5a97186405badd080614137e4a29ee",
+      "bytes": 28194,
+      "sha256": "c5c178524bf405ad9c29708bc67856eee4188583c005a67fac1725409f7b8f72",
+      "git_blob_sha": "7b8d0c776c52a424e502505338c76a4c13fe131c",
       "encoding": "utf-8",
       "mode": "100644"
     },
     {
       "path": "docs/ROADMAP_RU.txt",
-      "bytes": 27059,
-      "sha256": "eab4c08b622f382afdc941e693bc14eb34b1d659eb009c101ddb745efece3540",
-      "git_blob_sha": "44bf60e75d5a97186405badd080614137e4a29ee",
+      "bytes": 28194,
+      "sha256": "c5c178524bf405ad9c29708bc67856eee4188583c005a67fac1725409f7b8f72",
+      "git_blob_sha": "7b8d0c776c52a424e502505338c76a4c13fe131c",
       "encoding": "utf-8",
       "mode": "100644"
     },
@@ -2787,6 +2811,1126 @@
       "bytes": 935,
       "sha256": "0c42b388af33cbb9a2ef60d35bf215d102c608949605ec6b5d6586866db4862b",
       "git_blob_sha": "37b8c93929317bf057630cda828ddbf6dc863bb4",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_failure_capture_20261107/CHECKS.json",
+      "bytes": 1899,
+      "sha256": "5f16a45bb43644e46a413bc98075a4daf83303ca6cdd02d52afe24ba805dd634",
+      "git_blob_sha": "eac2790a1c863e3cdf479f4bf8d118680eee9554",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_failure_capture_20261107/INITIAL_CONDITION.json",
+      "bytes": 299,
+      "sha256": "a015da9df78f21f6075af77521bcaa0ff8a694ba6cd312e16672bc85e8825cad",
+      "git_blob_sha": "4d966143fd292d3f1bf8514414b27aa5143beef0",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_failure_capture_20261107/MANIFEST_SHA256.json",
+      "bytes": 1423,
+      "sha256": "7aae96389b031c52f04403716ffb56d00ed1c3a8241fb670fa43d65170a9e8c3",
+      "git_blob_sha": "279eea82ecf8a20c39d75fd4b3bb254343832f4f",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_failure_capture_20261107/REPORT_RU.md",
+      "bytes": 5207,
+      "sha256": "1b59492f36053390bafe484f5fef7206376e8445cad7b22b15a6e8b1b82f220c",
+      "git_blob_sha": "60ee9c268d0e3865a610539a2e416c46bebbfc62",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_failure_capture_20261107/history.csv",
+      "bytes": 392,
+      "sha256": "73171bf276294b211533f0e8812a7ae620273e4a8f5152376cd27ccb2f567619",
+      "git_blob_sha": "7f528da45f70277f07540ba692f3c950e5e413d5",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_failure_capture_20261107/metadata.json",
+      "bytes": 7883,
+      "sha256": "218df025e6860a1b507474c938cbde3c8cbf7d1083d7d0bff4054bf8499acd6d",
+      "git_blob_sha": "6eb05cea57e4334c3efc3c438fb00c396b102c5c",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_failure_capture_20261107/project.json",
+      "bytes": 6786,
+      "sha256": "bc76deed747440f7f9786b29301ea3fad99401b1a62740ccb624c91e796cace7",
+      "git_blob_sha": "2df123a48a89b3f9540c432316523f2459e34ce8",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_failure_capture_20261107/reproduce.py",
+      "bytes": 2428,
+      "sha256": "ee90a681d189dcbe0ec5b620d8c9c519fc2330261f4e05569c34116a9b93ec8a",
+      "git_blob_sha": "626c1a1c5564804c433dc15f14705af2a60c1482",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_failure_capture_20261107/residuals.csv",
+      "bytes": 638,
+      "sha256": "206e440da47269c996821bb5c2102e5c355bdecd993538cd00bd9ced035e902c",
+      "git_blob_sha": "d906bc4b56211562ff5475099f0645841e5931e2",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_failure_capture_20261107/summary.json",
+      "bytes": 1055,
+      "sha256": "0e5d3ed67179480e3ef9a52d938690bf1bab7365898c841776dc4aaaaccb7d05",
+      "git_blob_sha": "06035b24fcc61473e7b3ea2ad1390a0f9e48522a",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/BOUNDARY_IDENTITY.json",
+      "bytes": 522,
+      "sha256": "ddc6593878bf0e336bcda71e1e755752997eca344e8583e454645cbd0a535b95",
+      "git_blob_sha": "b1b7fb59c29d91c50f5a09fc63e0722ce87cff09",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/BOUNDARY_IDENTITY_INITIAL.json",
+      "bytes": 562,
+      "sha256": "1cdc62aa05d0e5371a5ad53f111ee052803975d9a21f2188c90d69d1bac6887a",
+      "git_blob_sha": "d0f0a11d9e59f653ddccafa8d4f32616dbdbbae0",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/CHECKS.json",
+      "bytes": 1409,
+      "sha256": "1b035b9c893de730802a103bb8744cd47da3014a244d44abd3e8c3b162d8114f",
+      "git_blob_sha": "9153a07d7b329cfa1cc83ddee5293f1d8d2311d9",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/COLD_OFFLINE_CHECKS.json",
+      "bytes": 476,
+      "sha256": "44210593620d7d436802c477ad360d4b95709372f47cad68668d9196ff7b494f",
+      "git_blob_sha": "e0576d8407adc3a290359a0d2fb8cc7995d030a7",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/COLD_OFFLINE_CHECKS_INITIAL.json",
+      "bytes": 466,
+      "sha256": "0548c48ab4a8f8e8f65dcc1f3e8e5d70ac5840027ca75f650d0eb81863a5b7fd",
+      "git_blob_sha": "07dd7563fb1154781e160607e1009d1bcf156c94",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/FROZEN_BUILD.json",
+      "bytes": 1208,
+      "sha256": "464392e4adfb8dbaab803c722c46d7d810cfb9f7a2027964c8cc4d520fbaf208",
+      "git_blob_sha": "4e6d5b8f8ef05676003a004ed4aae6f4ab11d66c",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/FROZEN_CHECKS.json",
+      "bytes": 3089,
+      "sha256": "0a2e17ca9542b9541d043c6aa8a2fc55bfce66c4ff8c3e3e0c78e6e6d54730fc",
+      "git_blob_sha": "2fd3dae7f37d2166ec8a8080d55014bd138dcdc1",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/FROZEN_INITIAL_BUILD.json",
+      "bytes": 1158,
+      "sha256": "bd85d5a4c439abf474b771a84585d2662804a922290d0c16649cc44bf50e043d",
+      "git_blob_sha": "dba92c8dd88a4c9de484e7acd230415ff168a028",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/FROZEN_INITIAL_CHECKS.json",
+      "bytes": 3060,
+      "sha256": "f6f0399f8b5eec4b5ef5154420a587f5a9ab2301d6db56de060b4bc4da71b7a1",
+      "git_blob_sha": "150afca349f47b44c5db3a527d84ba0e927b5dd6",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/GLANCING_3D_PLAN.json",
+      "bytes": 754,
+      "sha256": "0be7cb1f2eefac5277b4fc050c86e0691a3273ffa8efd90f0ddee1e426cef0c9",
+      "git_blob_sha": "10faeafdd27e908df4ee5e93139b5c8d32e0b70d",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/GLANCING_STABILITY_PLAN.json",
+      "bytes": 1771,
+      "sha256": "8292558426f2c1647a4feffc83e4b4d293278947ec044f85ac8d2ad69a4c3108",
+      "git_blob_sha": "7d3086b8a6ae21b18eb78e223c68c52225774d87",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/GLANCING_TRANSPORT_PLAN.json",
+      "bytes": 1722,
+      "sha256": "209c0139a217f6bf397d18c1ee46efaf3fcf9f473bd6773fa34fd1cdd16e8b7f",
+      "git_blob_sha": "8ff60449555eb153a0da4e0799bee6f536e41ef2",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/LEGACY_051_CHECKS.json",
+      "bytes": 905,
+      "sha256": "d8bc3a8882c3480bddfdefc33ad6ed5db245b0d39a7af11ff584cafa1aeadfa7",
+      "git_blob_sha": "b9a43ccc8ed04eaba1861ef1863dde1b9e6374b8",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/LOAD_AUDIT.json",
+      "bytes": 70912,
+      "sha256": "254e880382b55cf4fbde8b7c0765a948d3f83bed0fc2c4ee661ef5cccf35b5da",
+      "git_blob_sha": "71cd24e16ad4c85c9c553786704bc0ba31d1328f",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/LOAD_AUDIT_INITIAL.json",
+      "bytes": 70749,
+      "sha256": "8a6bde81d1e6b4afa5e9b9dc85d20af1b6f48a312437db8c8d022195d3e2e26c",
+      "git_blob_sha": "7f8b5dd0cccfbe3ef8168bce644f1a1785066fb4",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/MANIFEST_SHA256.json",
+      "bytes": 24954,
+      "sha256": "6f978da9779533642e707ab77882eea4cf5f63621c58e092f30cedecdb103d97",
+      "git_blob_sha": "46381bc97bdb75c57f3bd3727de2e5000f2f5293",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/METHOD_RU.md",
+      "bytes": 9212,
+      "sha256": "fa1413c2724724741d4a8481ba849de712e81fe396ce162d5489e42b8434592c",
+      "git_blob_sha": "2cd85ee701ed100bd7f1ff6cadf9c98bc0c09f14",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/METHOD_TRANSPORT_RU.md",
+      "bytes": 12569,
+      "sha256": "de2ccd968579bf05d1cfbb2f3b7f833c78e3c675d61423b035175f9461d9ec32",
+      "git_blob_sha": "767e870d68df34bf8709dfc9bab46f10dbc03d05",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/PERIODIC_Z_PLAN.json",
+      "bytes": 1207,
+      "sha256": "915784f0d3f39253c2b5742ea8e264781f03abc92ea528929bdd50305c589b93",
+      "git_blob_sha": "54cfb5bc696fdd176f6c97a6e9c417d431d6fa65",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/PLAN.json",
+      "bytes": 4007,
+      "sha256": "49fde75ff1e6ba3b6bc510fa051023d73c5e42559d32d2cc450d518d85b22a72",
+      "git_blob_sha": "c86a814f7f230069565123d707d9b3bdfd26c489",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/REPORT_RU.md",
+      "bytes": 20444,
+      "sha256": "860c504f783628ea4cf810149932ce7030381b2b9e8eabf0a659fa2221ee5ac6",
+      "git_blob_sha": "d24e545f36b36114b8271e48f61c41420a9269bc",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/REPRODUCE_RU.md",
+      "bytes": 4788,
+      "sha256": "fcdec41a31b1cd2fc07bb6f15b63433ad8ddc38eefcab903535a401336ba9fed",
+      "git_blob_sha": "9e47984b65d28d3a9159e8fe741d33e01f9569d1",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/SOURCE_WHEEL_IDENTITY.json",
+      "bytes": 3430,
+      "sha256": "c02378529bf9092c98f252277b1f030ff61423cde8d0b938bbfb8545ed2672b2",
+      "git_blob_sha": "d7f24ba12f45f3ed1ea9615edb88fbd53edd5bdd",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/SOURCE_WHEEL_IDENTITY_INITIAL.json",
+      "bytes": 4006,
+      "sha256": "0ddbfd5c30510136a14d9f72f0bdca508192d5b28de7fe0ab54465be382f8b4f",
+      "git_blob_sha": "d6a6707794d7c1cf340bd1bb6ca9b81df87307a3",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/TIME_RULE_DIAGNOSTIC.json",
+      "bytes": 1496,
+      "sha256": "459ba4ca10677c1c384c361100e289a3fe7c1fe6486b06067f169eee07db7e74",
+      "git_blob_sha": "99ede88833050737d70c2f59afeab244c4518431",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/TRANSPORT_RATES_AUDIT.json",
+      "bytes": 2752,
+      "sha256": "90d685afceb430b00b5193ba6078a3de9dd193b417af4241ee9f686862892d6a",
+      "git_blob_sha": "6beaabd3d32a2ad8a6b6e7476a1067691c24c5c4",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/TRANSVERSE_V2_PLAN.json",
+      "bytes": 2192,
+      "sha256": "402cebdcb27a1916c9142918c68ea58227ae473bcdc9a22d8bcbe88e344d7fcc",
+      "git_blob_sha": "3c1b645ff59bedb267edfa46c04903169a9e1817",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/VORTEX_PLAN.json",
+      "bytes": 1618,
+      "sha256": "55ad8f406bc0099e1f581a683a27c59e4099cb0cba91fdf16a4a63d181774c29",
+      "git_blob_sha": "dfc4b6236fcf93f059c793c1b5422bca39822f9b",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/airfoil/SOURCE_IDENTITY.json",
+      "bytes": 3135,
+      "sha256": "b91126dcfcfc365baa355b97e0e728e0c46f8a20e01f188b3318c1789d3c2732",
+      "git_blob_sha": "c71fca5fc76c067235fd462b6dfab36faf76f2de",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/airfoil/characteristic_down3/history.csv",
+      "bytes": 89437,
+      "sha256": "4befb99642a8d3f71b80dda03e8a2d26e2d95218c6642b08b836899750e310ce",
+      "git_blob_sha": "0090dd12973ca03305802b75e6cbdd2c662f35bd",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/airfoil/characteristic_down3/metadata.json",
+      "bytes": 16331,
+      "sha256": "9dabb7b8c05bffcbdf4d1f9a26f112527f74cb4b6b07ee369858dd7e71822553",
+      "git_blob_sha": "3ed119526b2dd5ef8242352ee90811c6ffe2b34b",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/airfoil/characteristic_down3/project.json",
+      "bytes": 15911,
+      "sha256": "c1c13223959b1bd27b7688ff8c949c5244dff6fc689dbb252fae2f010f60bc5a",
+      "git_blob_sha": "d14c80c9114f9108131f551d496e26384752db3a",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/airfoil/characteristic_down3/residuals.csv",
+      "bytes": 7345,
+      "sha256": "c65d9011bccd2e9de6fde0d304709abc64e4db8c1776f91e420d45e410b6a38d",
+      "git_blob_sha": "867690e76b00d75f73cc0ec2dc5507ef3b3af51a",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/airfoil/characteristic_down3/summary.json",
+      "bytes": 1055,
+      "sha256": "b973dcd3bc1fe154ea54c3eea29658246581fdecdf63e836c0a8996164d48548",
+      "git_blob_sha": "9fecdbbd0bfb1295eafffdabf04f7c30c66f4418",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/airfoil/characteristic_down6/history.csv",
+      "bytes": 114337,
+      "sha256": "71cb66dc1a94dc1347c6ccf588d3fb4d04fc930afb0ebaa1e5535d76a2d33f49",
+      "git_blob_sha": "9da4ebb37a192f48e519de92fe4bded929c4f729",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/airfoil/characteristic_down6/metadata.json",
+      "bytes": 16331,
+      "sha256": "7f079c324fd7d6fd10c041182399c50fec58c69cb8f1e79aaaa438fcf071d42f",
+      "git_blob_sha": "861ac7cee4d9f951daa3cb9ca44b6bfaec68f667",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/airfoil/characteristic_down6/project.json",
+      "bytes": 15911,
+      "sha256": "1d9260a84f4a3e92567f7a0f81ebe197902810bdecd66ea0e6196c05ebab8704",
+      "git_blob_sha": "0a5799b07bb568fa147abee12a5ebe32412ac4f8",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/airfoil/characteristic_down6/residuals.csv",
+      "bytes": 9370,
+      "sha256": "72ab101a9b6f8fa16cce118348d8039531cb7e367563b699e45e2502d7556f4d",
+      "git_blob_sha": "91967cca05eaa00aeff651afde6eb587c734c321",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/airfoil/characteristic_down6/summary.json",
+      "bytes": 1062,
+      "sha256": "830601b08448303cf93dd86a46f6e138c2bd7d9a5dda87e8e42677aaa23f4fb9",
+      "git_blob_sha": "41429721886a98d0b747b85a80a416a802557a03",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/airfoil/legacy_down6/history.csv",
+      "bytes": 165329,
+      "sha256": "69f76e801787deaea0a244e40cc87a23f5a2d5699ff3f98e3d7a36008c71dba9",
+      "git_blob_sha": "a562ad81e9b8a7a0360b51842f11161640b5b159",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/airfoil/legacy_down6/metadata.json",
+      "bytes": 16048,
+      "sha256": "d287891fa7a5a623752ba5e69b92056bfa713ec055577a0b634611d46c1789e2",
+      "git_blob_sha": "14f2f8078f75a23f2cf5500da2b478bc76b46a4f",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/airfoil/legacy_down6/project.json",
+      "bytes": 15864,
+      "sha256": "8e2e2e9e3a1d352a3d348178615f731b64932d6874b12b601b668cacd1f328d5",
+      "git_blob_sha": "3e0adb2c90debdae39d41adb360d23ce6f589910",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/airfoil/legacy_down6/residuals.csv",
+      "bytes": 13708,
+      "sha256": "11bbceeff709be90e933361ef42f101f17a2f6e5b584b260a2008779905f2fe2",
+      "git_blob_sha": "6c4aaef3b567a28a10e6ee6c1d25869e228f6b16",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/airfoil/legacy_down6/summary.json",
+      "bytes": 1271,
+      "sha256": "2fc52381f831ad8545b9d28eb92eeae8a873428457f7c008eadefc6838a395a8",
+      "git_blob_sha": "30b2a717b284b0ea24ecf0fd07b81777ad15966d",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/boundary/budget/CHECKS.json",
+      "bytes": 8363,
+      "sha256": "7eab3a765f7c282e0e5823df803fb9f61bcb861aca54f201e40b44a81716eebb",
+      "git_blob_sha": "4e37b115f3a1e9038b2bd0223a2a8179f625950e",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/boundary/budget/RUNTIME.json",
+      "bytes": 3812,
+      "sha256": "f1cad45ce03d3efb429c0ac0458e0c74a8d5bd8b7a6e9cc7d59ef9a8b033a07f",
+      "git_blob_sha": "68e88e2e3096e5e6c9f2c1cfdd7825554882e783",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/boundary/glancing/CHECKS.json",
+      "bytes": 687,
+      "sha256": "3f6a0e4bf7b543aaa14bfb03d746ab1b1b943eb52467d3f3ca5d46d7f86c9e60",
+      "git_blob_sha": "41ec153c8bf3c97ffe4db7d70d628fe64e661cdc",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/boundary/glancing/RUNTIME.json",
+      "bytes": 3812,
+      "sha256": "f1cad45ce03d3efb429c0ac0458e0c74a8d5bd8b7a6e9cc7d59ef9a8b033a07f",
+      "git_blob_sha": "68e88e2e3096e5e6c9f2c1cfdd7825554882e783",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/boundary/glancing/w16.csv",
+      "bytes": 4802,
+      "sha256": "c9248c710fa3f64fd41fe3a6f420d52fa9571c1c0701f249bb71b0ce10834460",
+      "git_blob_sha": "ea2b2afa69ecf65a968270dc78503f4b930eb5fb",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/boundary/glancing/w4.csv",
+      "bytes": 4904,
+      "sha256": "01abc90d96267613a3f7ecfdc084c0816aedc59b1fb0248936a2366189262aff",
+      "git_blob_sha": "f563187cef3140548a96f7888c9a50516b067f36",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/boundary/glancing/w8.csv",
+      "bytes": 4814,
+      "sha256": "964452e548e3bd00a95785b185abe813c474bdf18cb2fbf9191996abafbf6e7b",
+      "git_blob_sha": "0a78f2cdc63e4e39f9e430b9cea46ec5084aae39",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/boundary/glancing_3d/CHECKS.json",
+      "bytes": 150,
+      "sha256": "4db0074218aef8150ab1901c1afbbc680572b5f4ad7f493a99c73f89ee662e92",
+      "git_blob_sha": "e4f3a2976be52a0af0b78505eaeafc8d86532fc8",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/boundary/glancing_3d/RUNTIME.json",
+      "bytes": 3812,
+      "sha256": "f1cad45ce03d3efb429c0ac0458e0c74a8d5bd8b7a6e9cc7d59ef9a8b033a07f",
+      "git_blob_sha": "68e88e2e3096e5e6c9f2c1cfdd7825554882e783",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/boundary/glancing_3d/w16.csv",
+      "bytes": 4832,
+      "sha256": "0bf2a3747a5634ba5b1a46cd9a11b3a93da77be1a71e4a51eedb6800d4405be5",
+      "git_blob_sha": "aa786d0a3fbd8bf73c7545d904ee4777a24bfd21",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/boundary/preflight/CHECKS.json",
+      "bytes": 650,
+      "sha256": "36198733a0b0ea481b07f001a13f0afd653062d87b039368921cdf2121dfb7e0",
+      "git_blob_sha": "1363442d4196c6de8b15a665a94c7d0f3efe830f",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/boundary/preflight/RUNTIME.json",
+      "bytes": 3812,
+      "sha256": "f1cad45ce03d3efb429c0ac0458e0c74a8d5bd8b7a6e9cc7d59ef9a8b033a07f",
+      "git_blob_sha": "68e88e2e3096e5e6c9f2c1cfdd7825554882e783",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/boundary/preflight/riemann.csv",
+      "bytes": 34462,
+      "sha256": "b9468b26224b6cc469e3c9673ea9396da416568837826225e154dd7b06bac49c",
+      "git_blob_sha": "e882d17b5f5905d242af559fd8a31e6865703bd0",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/boundary/preflight/ubb.csv",
+      "bytes": 34614,
+      "sha256": "0e149cea3334f2abf3a39dd1f1b57ee40f61043f0062ae30d4ec899e29fead24",
+      "git_blob_sha": "4384bef11d43cd25ccf066742244442bb80d1da7",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/boundary/radiation/CHECKS.json",
+      "bytes": 5270,
+      "sha256": "358a7f489292afd7aec7c944d954ab351b69a008d731ce03f85a8d08bdd93cd1",
+      "git_blob_sha": "a23a976c8fb55c388950d6075bc7c4d65e669f8b",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/boundary/radiation/RUNTIME.json",
+      "bytes": 3812,
+      "sha256": "f1cad45ce03d3efb429c0ac0458e0c74a8d5bd8b7a6e9cc7d59ef9a8b033a07f",
+      "git_blob_sha": "68e88e2e3096e5e6c9f2c1cfdd7825554882e783",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/boundary/radiation/velocity_curl_descriptive.csv",
+      "bytes": 1232,
+      "sha256": "46159dddd8b7f8396153d104b51dcc08932dd9dbe0768180ea3e40e65f8f4dee",
+      "git_blob_sha": "84198d3718ad26c48f667884f2b6ac826e11d70e",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/boundary/seam_vortex/CHECKS.json",
+      "bytes": 3374,
+      "sha256": "234a2866e41faf4d7b58fb27f90dc6cc4a80289eb64c0ef5165a4559472e27b7",
+      "git_blob_sha": "a32cab02cb52d8ddcdbce02802f5d51b1f6c85d5",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/boundary/seam_vortex/RUNTIME.json",
+      "bytes": 3812,
+      "sha256": "f1cad45ce03d3efb429c0ac0458e0c74a8d5bd8b7a6e9cc7d59ef9a8b033a07f",
+      "git_blob_sha": "68e88e2e3096e5e6c9f2c1cfdd7825554882e783",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/boundary/seam_vortex/history.csv",
+      "bytes": 1594,
+      "sha256": "8a1ca71a84d1a280a4a2c848e8551c3f22659eafd1489cb7209eac1e789f28b3",
+      "git_blob_sha": "3f869f3a1cdcaebbf2ea91a6565ae02ea3472fe6",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/boundary/shear/CHECKS.json",
+      "bytes": 400,
+      "sha256": "bc080c8c275143725734f510c56eff0182945ef6c147a665e3729a86e63e0369",
+      "git_blob_sha": "bc5aa8f851a3e1b51fa03d3914fbcb972d3825fe",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/boundary/shear/RUNTIME.json",
+      "bytes": 3812,
+      "sha256": "f1cad45ce03d3efb429c0ac0458e0c74a8d5bd8b7a6e9cc7d59ef9a8b033a07f",
+      "git_blob_sha": "68e88e2e3096e5e6c9f2c1cfdd7825554882e783",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/boundary/shear/history.csv",
+      "bytes": 2334,
+      "sha256": "aa6049a3de1ca3c01d3edf5b71223ec81aa252cacb589db3220650adc6196f51",
+      "git_blob_sha": "08e29d483b73f4f86d02cf65dfb30bdbaedc89ea",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/boundary/vortex/CHECKS.json",
+      "bytes": 611,
+      "sha256": "98c502a9ad7dfd70265b8c4be05d4e5e1b5703fe097cfbfbecfb93f8f8aac6e2",
+      "git_blob_sha": "6f51a782a8916664fb266de8ec9cba4ffd030a56",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/boundary/vortex/RUNTIME.json",
+      "bytes": 3812,
+      "sha256": "f1cad45ce03d3efb429c0ac0458e0c74a8d5bd8b7a6e9cc7d59ef9a8b033a07f",
+      "git_blob_sha": "68e88e2e3096e5e6c9f2c1cfdd7825554882e783",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/boundary/vortex/history.csv",
+      "bytes": 2289,
+      "sha256": "dcd0c6b9af4a089311b95b3468127dea63104c23d143aa48b32d10f7f387867c",
+      "git_blob_sha": "dbf44ed47e8e0ce66a94ad8ab543a32454744c68",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/comparison/COMPARISON.json",
+      "bytes": 28780,
+      "sha256": "1002950892c0f3a06afc747e3acf34691963929e7304262ddde265a714066ee0",
+      "git_blob_sha": "a47131d899fc5afd0c623de74d8016266d7b3583",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/comparison/comparison.csv",
+      "bytes": 1468,
+      "sha256": "3af70f6e021cb475164b7b1e2e278acecc81524502894c70d1e0167cdd5f9b7f",
+      "git_blob_sha": "1683eb03df118fc451109467729406085f3270fa",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/failed_airfoil_v1/characteristic_down3/history.csv",
+      "bytes": 44693,
+      "sha256": "2fab0f36c6459aacc97ef3b7841ff2b61bb8b188ed668bf6aff23297517dffda",
+      "git_blob_sha": "5bf562a1693557f385577b03521fe90e217d9ac6",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/failed_airfoil_v1/characteristic_down3/metadata.json",
+      "bytes": 16312,
+      "sha256": "d104031eb5bf3634352bf07815c66bbd003fb3ef7b85979f325e7bc3e5d53d33",
+      "git_blob_sha": "fd6ead9936104549737a01efe5a0266104b8818d",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/failed_airfoil_v1/characteristic_down3/project.json",
+      "bytes": 15901,
+      "sha256": "a70946bb29123bae42ce6ef43df15efc6ac360952ad881b0a8506b9c43b232f1",
+      "git_blob_sha": "70696834108ddfe7908f3025b6115fe7a6f29708",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/failed_airfoil_v1/characteristic_down3/residuals.csv",
+      "bytes": 3638,
+      "sha256": "10b0e980f209d7d0e2c90a3b0bed967c301cbc545d9a1fc122521eb92f661a39",
+      "git_blob_sha": "20a1b7f97b676e23507944f57d96bc825f840364",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/failed_airfoil_v1/characteristic_down3/summary.json",
+      "bytes": 1059,
+      "sha256": "fa08e828eb8a362e7d246b5f3c92045beb78158fc97c4f2dfdd70cd200976c99",
+      "git_blob_sha": "1183e9a7b24cae24a0588b03c80818b2c5d15ddd",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/failed_airfoil_v1/characteristic_down6/history.csv",
+      "bytes": 44855,
+      "sha256": "81a5fa87662732740116ad9649636ce798d84bff9c62dbfc7944fc92b4941980",
+      "git_blob_sha": "2b03ce7cd910a0d1aa950619125c56a23c31fbbe",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/failed_airfoil_v1/characteristic_down6/metadata.json",
+      "bytes": 16311,
+      "sha256": "dca62172691a65a66d52fcf8ed680436f374d0f1da26490ba23eb687dad3cb5e",
+      "git_blob_sha": "fdad49f87d0730a3c5d72bab19a5bc6db859e73f",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/failed_airfoil_v1/characteristic_down6/project.json",
+      "bytes": 15901,
+      "sha256": "a3cea50ddeb20d56ce5686f0757c8206a61c1479057f8bdfe42356aa6a903f55",
+      "git_blob_sha": "94bc5b7c2f61fc3c6eee8a5d0e68e2beb0dcf778",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/failed_airfoil_v1/characteristic_down6/residuals.csv",
+      "bytes": 3654,
+      "sha256": "afcb9ee5dcd54eaa54375b38860190d4b73f26194ccb070a4cc8eb3b7c55b2cf",
+      "git_blob_sha": "327c6bab05e1f85527e943eefe6217069d54601e",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/failed_airfoil_v1/characteristic_down6/summary.json",
+      "bytes": 1073,
+      "sha256": "bb09cccb29139640a9482d27be11039ea19a46a664bb27d54704d91bae8b0212",
+      "git_blob_sha": "b9c9fa0a18251e53279232135a68712966c6b7fc",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/failed_airfoil_v1/last_saved_CHECKS.json",
+      "bytes": 2181,
+      "sha256": "98c3fbdddd14b4b37167c2e8b0daae28572414808fa1e73acfd488ef97785aad",
+      "git_blob_sha": "341f1a06ab749bb61d483e991fbd0c294120084a",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/failed_airfoil_v1/legacy_down6/history.csv",
+      "bytes": 165329,
+      "sha256": "69f76e801787deaea0a244e40cc87a23f5a2d5699ff3f98e3d7a36008c71dba9",
+      "git_blob_sha": "a562ad81e9b8a7a0360b51842f11161640b5b159",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/failed_airfoil_v1/legacy_down6/metadata.json",
+      "bytes": 16048,
+      "sha256": "d287891fa7a5a623752ba5e69b92056bfa713ec055577a0b634611d46c1789e2",
+      "git_blob_sha": "14f2f8078f75a23f2cf5500da2b478bc76b46a4f",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/failed_airfoil_v1/legacy_down6/project.json",
+      "bytes": 15864,
+      "sha256": "8e2e2e9e3a1d352a3d348178615f731b64932d6874b12b601b668cacd1f328d5",
+      "git_blob_sha": "3e0adb2c90debdae39d41adb360d23ce6f589910",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/failed_airfoil_v1/legacy_down6/residuals.csv",
+      "bytes": 13708,
+      "sha256": "11bbceeff709be90e933361ef42f101f17a2f6e5b584b260a2008779905f2fe2",
+      "git_blob_sha": "6c4aaef3b567a28a10e6ee6c1d25869e228f6b16",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/failed_airfoil_v1/legacy_down6/summary.json",
+      "bytes": 1271,
+      "sha256": "2fc52381f831ad8545b9d28eb92eeae8a873428457f7c008eadefc6838a395a8",
+      "git_blob_sha": "30b2a717b284b0ea24ecf0fd07b81777ad15966d",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/failure_replay/down3/CHECKS.json",
+      "bytes": 2141,
+      "sha256": "06a0fc9943b1601d302c36caf527f26556713c60f5d09f17b65703c36a5acb4c",
+      "git_blob_sha": "3aa2d15b3e32c139ed580caa90139d0e8cb55415",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/failure_replay/down6/CHECKS.json",
+      "bytes": 2142,
+      "sha256": "75c08d4c7a1055627320571fa2ad6269f9dffa7f21b3975948e2a43fbc8f4535",
+      "git_blob_sha": "b4ef53e82f0891153a19e117edb5c1f039c0dcd8",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/glancing_rejected/CHECKS.json",
+      "bytes": 1054,
+      "sha256": "b7363c47ca9ed6f944e350ce40ea8690e8c5f2be8089ae5103421a5d4111ac59",
+      "git_blob_sha": "6c4f996221ef70f96ce2e4a340f6fd844cac352b",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/glancing_rejected/ab2_boundary.py",
+      "bytes": 10613,
+      "sha256": "2950e5c7328914a1c2d8895bb3fb92d3fb6bcdd3d862f294e687c9ab14f03a76",
+      "git_blob_sha": "51b0542416b4c2d9275cca388e0a69567892001d",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/glancing_rejected/ab2_w16.csv",
+      "bytes": 2450,
+      "sha256": "bb14dda7e1cb634cc1f840a3eedc09d3b7310bc2b4aaef03f5418ba72609571d",
+      "git_blob_sha": "f485b06ccda1e5b9a276886705f31e848a6e5914",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/glancing_rejected/ab2_w4.csv",
+      "bytes": 4793,
+      "sha256": "5db185169c3cee487ba782475af21a27b7f201a28515da4d7932eaa550d1b35f",
+      "git_blob_sha": "235fa92dbd93275bedebe7520c49f384afde8578",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/glancing_rejected/ab2_w8.csv",
+      "bytes": 2378,
+      "sha256": "1258b40e512a161d871b68cb56387259969e27f720b287d5cbfa7af923ff4c1b",
+      "git_blob_sha": "d604b06a7e85db287101dcbf75aa0c7956ae2206",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/glancing_rejected/glancing_stability.py",
+      "bytes": 1932,
+      "sha256": "c97cf61d57f0a20b8c3114eb700eda942967e3c5069ebdba52feb3856469e532",
+      "git_blob_sha": "16158fe1f451b69f1b9c7ccedc9a3352d908172b",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/glancing_rejected/trapezoid_w16.csv",
+      "bytes": 2584,
+      "sha256": "88cdf2ba5d01aaec604125f50dcc6ce11f704439d5b767f8a6b2a4a791bfba33",
+      "git_blob_sha": "d5aa7e1342b5ab76c73f822ea56db08d7241c085",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/glancing_rejected/trapezoid_w4.csv",
+      "bytes": 4769,
+      "sha256": "2adab32240edf026442cee4f2782aaaf1b46a3c5386a6df8fbb78c236486b83c",
+      "git_blob_sha": "51327bdd0bb0fc8da96151da490556c8ba3712ee",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/glancing_rejected/trapezoid_w8.csv",
+      "bytes": 2524,
+      "sha256": "565d012b7dac3a0142522a0564dbd8de76e85100dbe1d38c8a2918cd7c49eeb5",
+      "git_blob_sha": "9016569fd5fbac8241c1a2059c3495550c436b7f",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/initial_boundary_passes/budget/CHECKS.json",
+      "bytes": 8363,
+      "sha256": "7eab3a765f7c282e0e5823df803fb9f61bcb861aca54f201e40b44a81716eebb",
+      "git_blob_sha": "4e37b115f3a1e9038b2bd0223a2a8179f625950e",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/initial_boundary_passes/budget/RUNTIME.json",
+      "bytes": 3725,
+      "sha256": "ef3930acb36c616aa2055ee4f5b0e197d249e3885ab8bd3f6e88fbccde8c764f",
+      "git_blob_sha": "a9961d9db2df822200a09f4a470167fa14228a55",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/initial_boundary_passes/preflight/CHECKS.json",
+      "bytes": 650,
+      "sha256": "e3cde45b3944fc0d01067ef4064bb31870d97fe268fd19f8f852c8eeebe75a84",
+      "git_blob_sha": "d41f6446e5094a9aa4c0a734b6bbee66c29f4857",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/initial_boundary_passes/preflight/RUNTIME.json",
+      "bytes": 3725,
+      "sha256": "ef3930acb36c616aa2055ee4f5b0e197d249e3885ab8bd3f6e88fbccde8c764f",
+      "git_blob_sha": "a9961d9db2df822200a09f4a470167fa14228a55",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/initial_boundary_passes/preflight/riemann.csv",
+      "bytes": 34462,
+      "sha256": "b9468b26224b6cc469e3c9673ea9396da416568837826225e154dd7b06bac49c",
+      "git_blob_sha": "e882d17b5f5905d242af559fd8a31e6865703bd0",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/initial_boundary_passes/preflight/ubb.csv",
+      "bytes": 34614,
+      "sha256": "0e149cea3334f2abf3a39dd1f1b57ee40f61043f0062ae30d4ec899e29fead24",
+      "git_blob_sha": "4384bef11d43cd25ccf066742244442bb80d1da7",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/initial_boundary_passes/radiation/CHECKS.json",
+      "bytes": 5271,
+      "sha256": "050342e87dc942b1cae1188575498a74c3e2dd601dba39fa3046157cd1b80870",
+      "git_blob_sha": "9bcc43c12fc8ae1c3d1126e0547ede711d2959aa",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/initial_boundary_passes/radiation/RUNTIME.json",
+      "bytes": 3725,
+      "sha256": "ef3930acb36c616aa2055ee4f5b0e197d249e3885ab8bd3f6e88fbccde8c764f",
+      "git_blob_sha": "a9961d9db2df822200a09f4a470167fa14228a55",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/initial_boundary_passes/radiation/velocity_curl_descriptive.csv",
+      "bytes": 1229,
+      "sha256": "2685a1f54867c7b0400da4cde2643e52b6bf227dbdae27b59978e3f817ad00cd",
+      "git_blob_sha": "d63183806b3592fed5bae414da280fe6ede83eaf",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/initial_boundary_passes/seam_vortex/CHECKS.json",
+      "bytes": 3374,
+      "sha256": "234a2866e41faf4d7b58fb27f90dc6cc4a80289eb64c0ef5165a4559472e27b7",
+      "git_blob_sha": "a32cab02cb52d8ddcdbce02802f5d51b1f6c85d5",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/initial_boundary_passes/seam_vortex/RUNTIME.json",
+      "bytes": 3725,
+      "sha256": "ef3930acb36c616aa2055ee4f5b0e197d249e3885ab8bd3f6e88fbccde8c764f",
+      "git_blob_sha": "a9961d9db2df822200a09f4a470167fa14228a55",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/initial_boundary_passes/seam_vortex/history.csv",
+      "bytes": 1594,
+      "sha256": "8a1ca71a84d1a280a4a2c848e8551c3f22659eafd1489cb7209eac1e789f28b3",
+      "git_blob_sha": "3f869f3a1cdcaebbf2ea91a6565ae02ea3472fe6",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/initial_boundary_passes/shear/CHECKS.json",
+      "bytes": 400,
+      "sha256": "bc080c8c275143725734f510c56eff0182945ef6c147a665e3729a86e63e0369",
+      "git_blob_sha": "bc5aa8f851a3e1b51fa03d3914fbcb972d3825fe",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/initial_boundary_passes/shear/RUNTIME.json",
+      "bytes": 3725,
+      "sha256": "ef3930acb36c616aa2055ee4f5b0e197d249e3885ab8bd3f6e88fbccde8c764f",
+      "git_blob_sha": "a9961d9db2df822200a09f4a470167fa14228a55",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/initial_boundary_passes/shear/history.csv",
+      "bytes": 2334,
+      "sha256": "aa6049a3de1ca3c01d3edf5b71223ec81aa252cacb589db3220650adc6196f51",
+      "git_blob_sha": "08e29d483b73f4f86d02cf65dfb30bdbaedc89ea",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/initial_boundary_passes/vortex/CHECKS.json",
+      "bytes": 605,
+      "sha256": "adf3cac1cf70a7d6453094c52e39dd5643e7a5a1f3dd4c0bc44f2d61584fddf8",
+      "git_blob_sha": "2c9900ed7a84cd6538bf829c14b2910bd9aed34e",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/initial_boundary_passes/vortex/RUNTIME.json",
+      "bytes": 3725,
+      "sha256": "ef3930acb36c616aa2055ee4f5b0e197d249e3885ab8bd3f6e88fbccde8c764f",
+      "git_blob_sha": "a9961d9db2df822200a09f4a470167fa14228a55",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/initial_boundary_passes/vortex/history.csv",
+      "bytes": 2278,
+      "sha256": "b64476150081bf0ebe6ae3487b7dfc460cf3dcaffedd1f849f76b22621c722a4",
+      "git_blob_sha": "89f46f43611604e2996dc0276ba55a4ed1992e00",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/last_saved_before_failure/CHECKS.json",
+      "bytes": 1786,
+      "sha256": "d0d88cd4c07a9eb1a9890eabb26d27e9a67021f1a45a5522c28d05ebd63e9d8a",
+      "git_blob_sha": "4ceae0bc244c508aedaa94f5dcfce0e77a223d29",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/rejected_reservoir_v1/preflight_v1/CHECKS.json",
+      "bytes": 644,
+      "sha256": "7ce2388c689698d42caa06f7edac1302adef68754627d59e89469e1169004b8e",
+      "git_blob_sha": "1b678668ceea80b7d5ea6b75454d061ee5fd5f50",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/rejected_reservoir_v1/preflight_v1/riemann.csv",
+      "bytes": 34438,
+      "sha256": "35a8ab18468041cbc80ea7254c502320aaf38a21f2fd7535f9d3696287f6f46c",
+      "git_blob_sha": "c214533f1f80d8e06b9c9431772860a0a191d76e",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/rejected_reservoir_v1/preflight_v1/ubb.csv",
+      "bytes": 34614,
+      "sha256": "0e149cea3334f2abf3a39dd1f1b57ee40f61043f0062ae30d4ec899e29fead24",
+      "git_blob_sha": "4384bef11d43cd25ccf066742244442bb80d1da7",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/rejected_reservoir_v1/riemann_boundary.py",
+      "bytes": 3605,
+      "sha256": "5b6a7b30c63d58e710160199ae9d248d06c12e163e8b4fd5a270271757f9c1d9",
+      "git_blob_sha": "e6d45693009f4b9be26fdb87ca26057ae877360c",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/rejected_reservoir_v1/vortex_v1/CHECKS.json",
+      "bytes": 543,
+      "sha256": "0f5851913cef822e5c8ccd99724a7b0bb8d406818ecde7ea20a2275d241ac0d7",
+      "git_blob_sha": "a2288d39396e5ec5a20e9562d7d5d1b75429e4b8",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/rejected_reservoir_v1/vortex_v1/history.csv",
+      "bytes": 2270,
+      "sha256": "f28ed1e176fdfa837397b4772e8e019ce65520e78fc171cb2843a26884e894f1",
+      "git_blob_sha": "aa6930a9c85fc4c43ea47e425349af79a463803c",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/rejected_transport_v1/README_RU.md",
+      "bytes": 664,
+      "sha256": "1ded73e2f07210afdaf854f65373e5dc59dd8257f9a64c3c119d2364df90b39c",
+      "git_blob_sha": "4c20bee46c9bddb1369882c4db3a86715465ea69",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/rejected_transverse_v1/README_RU.md",
+      "bytes": 1340,
+      "sha256": "d94d81b788157858ce4f94a48a5ab1d47121e0c2e44ba5ced2cb256f788ce39b",
+      "git_blob_sha": "7338f9ca58d92c9717afd757e120ba6fa4cbfd85",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/rejected_transverse_v1/farfield.py",
+      "bytes": 10604,
+      "sha256": "5effbc33cf7df2996aa163af5f5e74b83b49703df38e1358d6bb091e6b2b0710",
+      "git_blob_sha": "cc4fa42a0afd7fbdccd63c0dc168aeecf90688ac",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/tests_farfield_initial.xml",
+      "bytes": 613,
+      "sha256": "2431d2e4dbe9cb6d1aac0e2f299f26915fa390a939b6ef2a4fb2543990ce7573",
+      "git_blob_sha": "afe503343ebc2366f0cfd41095cf23377f93081c",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/tests_regression_initial.xml",
+      "bytes": 5818,
+      "sha256": "1445fea1afe8a5818d6a206f147f92a2622612b89df7c066b82f9f0955f0a777",
+      "git_blob_sha": "a8f33b6c544ac3b74d4acd30969b8b1094181369",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/verification_farfield_20261107/tests_transport.xml",
+      "bytes": 2975,
+      "sha256": "9262a135afd171f61980466746c508dd3536035fc202533326e78f640cbc6712",
+      "git_blob_sha": "702a1e23b580926f982694164a305a0102a292a2",
       "encoding": "utf-8",
       "mode": "100644"
     },
@@ -4799,6 +5943,22 @@
       "mode": "100644"
     },
     {
+      "path": "examples/naca0012_re30000_n32_characteristic_down3.json",
+      "bytes": 15970,
+      "sha256": "c6f14ea40f2923270c6d73935962d661622988336310eb29bdb5d92d5a873769",
+      "git_blob_sha": "d0f4de3597fc9155abf1d2b88b00115e1a9c8a30",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "examples/naca0012_re30000_n32_characteristic_down6.json",
+      "bytes": 15970,
+      "sha256": "a6ddea2f25b5837a775fc465b68309da5c11f136bf127c593da42f8aad82d691",
+      "git_blob_sha": "794db86a75ef19fc8a44c75fb3bdc694c1fc4184",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
       "path": "examples/naca0012_re30000_plan.json",
       "bytes": 514,
       "sha256": "1c09b19618b9f17bdef943dbf71514089ada548fac4a64a732aad526cd6a3cbb",
@@ -6008,17 +7168,17 @@
     },
     {
       "path": "publication/EXCLUDED_FILES.json",
-      "bytes": 6216,
-      "sha256": "d4c87fcf35d97180a337401f3175077b78028e85afc863965031b9f4fa8b0280",
-      "git_blob_sha": "438df9ace391a5504679ff6d29f7f67306f53b70",
+      "bytes": 29424,
+      "sha256": "6ff19aa3c348c77d249b557f2da57f2eb7837612667228678441517008e9c1c0",
+      "git_blob_sha": "88615850e55dbc791187d51dd475159bf9c2df16",
       "encoding": "utf-8",
       "mode": "100644"
     },
     {
       "path": "pyproject.toml",
       "bytes": 890,
-      "sha256": "7bc65364cefbd706e09ebbad9bd35e195f05387648e24eed2ed507bc43740a14",
-      "git_blob_sha": "2f4caba6a9377ba936b257e8383abceb0551321a",
+      "sha256": "b8b2b02ae92b0d4197f1e147b2be7270d09591229e28ebb64fb1ac7f7234ab23",
+      "git_blob_sha": "7225cfd03cfe9c9c65bcd8520b71c4910c191b2f",
       "encoding": "utf-8",
       "mode": "100644"
     },
@@ -6257,8 +7417,8 @@
     {
       "path": "src/aerokinetic/__init__.py",
       "bytes": 954,
-      "sha256": "13f38a6f58728edb5d49c814c9924f9b5e824b287d3e706ddfbf18c381d7f3c1",
-      "git_blob_sha": "c6c78a937b1ac106493509095258510f775ea0c5",
+      "sha256": "4cb9c24f96d9ac90d04af858cd639f4d7e1526adcdff2d15d27dfaf75ded7064",
+      "git_blob_sha": "e2e53f801971bf2b2c5cf2f64147368abcabbbba",
       "encoding": "utf-8",
       "mode": "100644"
     },
@@ -6288,17 +7448,17 @@
     },
     {
       "path": "src/aerokinetic/cli.py",
-      "bytes": 6579,
-      "sha256": "642c9a065b9a2915c82c191163ce1e503d5682e6fcd9e1a5111d038f696c43ec",
-      "git_blob_sha": "872bda2742ca6ffeb3b7867ca0ae54f7878279b8",
+      "bytes": 6917,
+      "sha256": "1489d7e93917d966db8fc69218c834b76e570fccd1e5365323d77fd2ab2f57ca",
+      "git_blob_sha": "6f8ce850ae1b81a74f046045edb489a9bc180871",
       "encoding": "utf-8",
       "mode": "100644"
     },
     {
       "path": "src/aerokinetic/config.py",
-      "bytes": 6661,
-      "sha256": "fa2a3411c5b959a8568a924567bdc1f6746fda30208e35f8a411477d3de65972",
-      "git_blob_sha": "736b264b963fec82fba37bc75c47a5c46d49011b",
+      "bytes": 7482,
+      "sha256": "ca8c98047a4332b67c172f89ad2a517c5060394efcce420f301ba152296aa581",
+      "git_blob_sha": "31ad796b5ac47b1ba174c6beae5ffdfdd3ab91bc",
       "encoding": "utf-8",
       "mode": "100644"
     },
@@ -6347,6 +7507,14 @@
       "bytes": 4768,
       "sha256": "1dfc0b698839c4bb763a94d6fd73302f6616ad373f6ff3f4bd3792d626b16e3d",
       "git_blob_sha": "e68858f686fa08bc5fe6d0e435683aaf4d9acbf0",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "src/aerokinetic/farfield.py",
+      "bytes": 13633,
+      "sha256": "f4b917ca09580fc4a74c4136e6c53e51e9f899c9fa272f17fbb5d22d9793239c",
+      "git_blob_sha": "8c0212aee9e6cb7f785c52ec27621dc05e9678a6",
       "encoding": "utf-8",
       "mode": "100644"
     },
@@ -6448,17 +7616,17 @@
     },
     {
       "path": "src/aerokinetic/project.py",
-      "bytes": 4068,
-      "sha256": "503dae52f098f1c370f996512fa5c75daac7e9511f6e19866d0da5291366685c",
-      "git_blob_sha": "927e70d03e4bbe11ebfb9e6494d5cf5abdb4ce26",
+      "bytes": 4315,
+      "sha256": "51fd87bd91253111d4826d864b268e74e1053cb72acc9c125f4330e8850e787d",
+      "git_blob_sha": "d04391a717debb33b296c6259d55969e561cde15",
       "encoding": "utf-8",
       "mode": "100644"
     },
     {
       "path": "src/aerokinetic/refined_checkpoint.py",
-      "bytes": 8069,
-      "sha256": "c2be84a529fb6647f62dbe15b5b0a3862782dd65d35accdace86d2d571860795",
-      "git_blob_sha": "15543ba0d5898495d2f03b12af0709362f9356c4",
+      "bytes": 9117,
+      "sha256": "06df1756f6abd21d02e7875d5cc969b1b92ed48ab6dfed10df3f46fc6c02c7b7",
+      "git_blob_sha": "02bb81245935a5dd15d59a51021e721519e0a276",
       "encoding": "utf-8",
       "mode": "100644"
     },
@@ -6472,9 +7640,9 @@
     },
     {
       "path": "src/aerokinetic/refined_solver.py",
-      "bytes": 20550,
-      "sha256": "5b789e0d47cc3c116f8959f3c2d20f39110ba55d01210e7cbc85c20154089019",
-      "git_blob_sha": "6cfc35b836e452023d30c80420aa21ea6c08f086",
+      "bytes": 20720,
+      "sha256": "45a76e91c5032ba3a122e4908560a28e306a26913930756b09536fc4720e1416",
+      "git_blob_sha": "678f809b89634e4af8c7ed13fed0602291212a33",
       "encoding": "utf-8",
       "mode": "100644"
     },
@@ -6504,9 +7672,9 @@
     },
     {
       "path": "src/aerokinetic/solver.py",
-      "bytes": 25246,
-      "sha256": "690cb05c2534552d2e789220be770b885d248295da0a61003c337cdeb6538957",
-      "git_blob_sha": "4fbcecfac7463d5b66e1c4759f01054e9474b51c",
+      "bytes": 25870,
+      "sha256": "395fd076cc67ea6458da5b20801bfa684a997ceb240ff62f9c216bcc00c36fa6",
+      "git_blob_sha": "c50c07c481e14d9b208768101a297ad1d5916010",
       "encoding": "utf-8",
       "mode": "100644"
     },
@@ -6531,6 +7699,14 @@
       "bytes": 4739,
       "sha256": "13c8e9812f05390f3afb20f9d6908c00bb6f37ab58515e2d244cf031d64346dd",
       "git_blob_sha": "0358ee4b17ba6e036c1c634f5371920ace0c557e",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "tests/fixtures/legacy051_project.json",
+      "bytes": 6792,
+      "sha256": "4054b7554a12c1b0bc505ab67c38728a2e41f988f63d44cd8b6098adbc0a3b29",
+      "git_blob_sha": "96e76670148cfe81ca65cc864553bf05635fff18",
       "encoding": "utf-8",
       "mode": "100644"
     },
@@ -6563,6 +7739,14 @@
       "bytes": 2768,
       "sha256": "c17de79f020a27335cc0c98bfae2587887483528ba04d86a9c124ebeb183a9a1",
       "git_blob_sha": "db04e8bffb25741e148e2fa91d19c3979d826334",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "tests/test_farfield.py",
+      "bytes": 4599,
+      "sha256": "ab9bd0a5667679f421dd2418e38a32b73a0e0a872e62ff43e41801a669164f43",
+      "git_blob_sha": "f0078b39b383616434b0a975f3ae1a3efd766e08",
       "encoding": "utf-8",
       "mode": "100644"
     },
@@ -6704,9 +7888,9 @@
     },
     {
       "path": "tools/audit_uniform_loads.py",
-      "bytes": 7100,
-      "sha256": "28286d3486e4ac1e3936ae3218eb6fa3d2d2be9d0297aa3bc81b8fbd2059a4a6",
-      "git_blob_sha": "c6126eda46a5c3eea39d074e91c58c070d83c911",
+      "bytes": 7279,
+      "sha256": "2af6212a9661d896176050e3c8fa5f3c5ebf80866ee2c0110ac4dabddf6e5324",
+      "git_blob_sha": "3664401101eace5a81f4017ae895225c2647553c",
       "encoding": "utf-8",
       "mode": "100644"
     },
@@ -6715,6 +7899,14 @@
       "bytes": 4465,
       "sha256": "4d7d991386c6cb3da92f2dceb34a957fc33a8c3c63af2c55143836d1145e6c35",
       "git_blob_sha": "a1c23115d2b397e8066aff14a3f50a26a5e818a2",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "tools/capture_failure.py",
+      "bytes": 5999,
+      "sha256": "dc89edd08123f5dbb0ca504df84836c11ac5947f05677086d7bc68af6ca18c45",
+      "git_blob_sha": "07af2fdcdccf8ded05844687c83d26802597c27d",
       "encoding": "utf-8",
       "mode": "100644"
     },
@@ -6815,6 +8007,14 @@
       "mode": "100644"
     },
     {
+      "path": "tools/compare_farfield.py",
+      "bytes": 6966,
+      "sha256": "dc0899c19dfedcff80cefd4deaebee987e743cb2d6d064db57d16bd210be776c",
+      "git_blob_sha": "f6e5ff67222cd556516c3dd93616bcf3eb6c21e6",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
       "path": "tools/compare_naca0012_20261106.py",
       "bytes": 19023,
       "sha256": "58af36e5f866638953fbc987b9c1ec0f40dccf0cecefc8ea8ccc95c2f676c90d",
@@ -6871,6 +8071,54 @@
       "mode": "100644"
     },
     {
+      "path": "tools/farfield_checks/__init__.py",
+      "bytes": 79,
+      "sha256": "0385035dd4f750e506866c42f66cb311cd6eaf6a3e0a5eb96752badb2412fe41",
+      "git_blob_sha": "e9c7eda0ae500a65c02e0e895fef45d317efbc7b",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "tools/farfield_checks/glancing.py",
+      "bytes": 2439,
+      "sha256": "b063b16e7c196005ecdb5fb302cf7e486ae2fafebc13b20908493257d39e75db",
+      "git_blob_sha": "6450f1c7c28040448539aa082b7464abfa74ab2a",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "tools/farfield_checks/preflight.py",
+      "bytes": 4600,
+      "sha256": "c1c1c2b413e3c19b82bc8db106f9074f554fc45e1cd3f7571d54fb90758f8d2a",
+      "git_blob_sha": "bc88905e87fcc5c139ce107f06f9e751ed4bd367",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "tools/farfield_checks/seam_vortex.py",
+      "bytes": 2975,
+      "sha256": "2c4f4cd924b764956036d15dc17c619c8d7e5e33e6c65abf065169bcbc3a9894",
+      "git_blob_sha": "a6bd1e18cb04b77616c7e50dde2291641d42ffa8",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "tools/farfield_checks/verification.py",
+      "bytes": 7259,
+      "sha256": "59dea2b2824b693cc1672fc6185a0045cc789c1c362b8599153bbefbf4db26a4",
+      "git_blob_sha": "b8ba75025326e8d4ea9b7d385cdd71944d73bd19",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "tools/farfield_checks/vortex.py",
+      "bytes": 2801,
+      "sha256": "36e4644b98b1f20ed95a3d40e6dd8cd437b54ba1b3bcbd8768f1f5c70e6f0617",
+      "git_blob_sha": "b61a6d5c67f12eafcef571fab1bbcc50be9d2690",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
       "path": "tools/fetch_ohtake_reference.py",
       "bytes": 1546,
       "sha256": "157c28cb10a98b913d845fc4ca91e2de25bffd11b168518f69a2bf3e10ad2d9a",
@@ -6881,8 +8129,8 @@
     {
       "path": "tools/install_linux_offline.sh",
       "bytes": 557,
-      "sha256": "95e1521f0657b17dcab6a4ab5a45b805cb7e7583fa97cc2de57eb88c60ff6238",
-      "git_blob_sha": "f199f714cbc2fc4e1f7c974dd478ab14254fdcb9",
+      "sha256": "1d30287f5f05aac5e864e53bdc2d06e55810726e795ea33c7c742e5120dc0b09",
+      "git_blob_sha": "e406252d0259f31a7e760f5a53f6d2da4fe29cf1",
       "encoding": "utf-8",
       "mode": "100644"
     },
@@ -6912,9 +8160,9 @@
     },
     {
       "path": "tools/make_portable_builder_transfer.py",
-      "bytes": 7192,
-      "sha256": "dcc588d3da5c52603445ce358fe06bc87ead8d7b59e506645a9658f6bfb41c6c",
-      "git_blob_sha": "16aee8238b9cd01a6078a3c2870caa69d8e3872b",
+      "bytes": 7320,
+      "sha256": "fb72ba9161bada9afac5e407403f283641f6a6016abc1fd40ff31b982bfe1d35",
+      "git_blob_sha": "8e658b6b49c6b5dd698c69f0480dffa16406a3b0",
       "encoding": "utf-8",
       "mode": "100644"
     },
@@ -6968,9 +8216,9 @@
     },
     {
       "path": "tools/portable/ak_portable_selftest.py",
-      "bytes": 8722,
-      "sha256": "aecc1de385cf14d4eff429138ebaee4ccd1056590926032b4ee29b50f2bce2b8",
-      "git_blob_sha": "d49db16c272dc410795d420a0c163b32d0ef9b5f",
+      "bytes": 10280,
+      "sha256": "0c7ed6c24d2c22b74be650943eb9d8cbea4658fef9e8cbfb67be501424db9483",
+      "git_blob_sha": "74367713984ae2f2c31de43d8d5fb2777688a9dd",
       "encoding": "utf-8",
       "mode": "100644"
     },
@@ -7103,6 +8351,14 @@
       "mode": "100644"
     },
     {
+      "path": "tools/smoke_052_offline.py",
+      "bytes": 2866,
+      "sha256": "e18136053da1648e3b8433ddfd0ec99e332bef0d7d829d2a8ee99ffd55cf3c96",
+      "git_blob_sha": "0e511146ed2b3d14cd5399bdf00088487790d7c5",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
       "path": "tools/smoke_desktop.py",
       "bytes": 4104,
       "sha256": "648e37cb0a17d51448035713fe196eee968d227b288d0adb9c163b171c169b98",
@@ -7131,6 +8387,14 @@
       "bytes": 12805,
       "sha256": "655cbd97356efee0575ca007e90495d0819a8c76541a5304dbbae8709d7eaa46",
       "git_blob_sha": "02bd59006c3db2e090334a98565f244852f51c42",
+      "encoding": "utf-8",
+      "mode": "100644"
+    },
+    {
+      "path": "tools/verify_farfield.py",
+      "bytes": 2656,
+      "sha256": "18e824538231d0b6fc8e9431ab0dc810aafdea9d0a4a42413bced9f3d0c22e6d",
+      "git_blob_sha": "97894a1fc777ab8d3c817a92117403f3e44821b6",
       "encoding": "utf-8",
       "mode": "100644"
     },

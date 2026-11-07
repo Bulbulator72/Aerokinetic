@@ -1,0 +1,25 @@
+{
+  "(0.04, 0, 0)": {
+    "density_max_error": 1.1102230246251565e-15,
+    "velocity_max_error": 5.759281940243e-16,
+    "elapsed_s": 35.71491852800045,
+    "passed": true
+  },
+  "(0.04, 0.01, 0.005)": {
+    "density_max_error": 1.7763568394002505e-15,
+    "velocity_max_error": 8.049116928532385e-16,
+    "elapsed_s": 19.2645265379997,
+    "passed": true
+  },
+  "ubb": {
+    "incident": 2.2314456929962898e-05,
+    "reflected": 2.0883293738206694e-05,
+    "ratio": 0.9358638573975556
+  },
+  "riemann": {
+    "incident": 2.2314456929897e-05,
+    "reflected": 2.5623762386939375e-07,
+    "ratio": 0.011483032039470589
+  },
+  "wave_gate": true
+}

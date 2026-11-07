@@ -1,0 +1,25 @@
+{
+  "status": "build_checks_passed_target_offline_test_pending",
+  "platform": "linux",
+  "work": "/workspace/aerokinetic_farfield_20261107/freeze_transport_proof",
+  "log": "/workspace/aerokinetic_farfield_20261107/freeze_transport_proof/BUILD.log",
+  "version": "0.5.2",
+  "target": "Linux development proof ONLY",
+  "ready_to_copy": "/workspace/aerokinetic_farfield_20261107/freeze_transport_proof/dist/AeroKinetic",
+  "executable": "/workspace/aerokinetic_farfield_20261107/freeze_transport_proof/dist/AeroKinetic/AeroKinetic",
+  "self_test": "/workspace/aerokinetic_farfield_20261107/freeze_transport_proof/checks/CHECK.json",
+  "bundle_files": 1899,
+  "bundle_bytes": 204241770,
+  "compiler_metadata": {
+    "platform": "linux",
+    "python_sdk": "python-sdk",
+    "compiler_command": "/usr/bin/g++",
+    "compiler_flags": "-Ofast -DNDEBUG -fPIC -march=native -fopenmp -std=c++11",
+    "usage": "Linux development proof, not an offline Windows distribution"
+  },
+  "runtime_wheel_sha256": "a3c2930ffcf45cf326fd09217c1afb9bea69c91299a8d83eafbe31c56e49639f",
+  "relocated_frozen_self_test": "passed",
+  "gui": "not_run",
+  "clean_target_offline_test": "not_run",
+  "elapsed_seconds": 683.2523913200021
+}

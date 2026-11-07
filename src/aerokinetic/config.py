@@ -81,6 +81,7 @@ class Grid:
     memory_limit_gib: float = 8.0
     target: str = "cpu"
     openmp_threads: int = 1
+    farfield: str = "legacy"
 
     def __post_init__(self):
         if not isinstance(self.cells_per_chord, int) or self.cells_per_chord < 16:
@@ -92,6 +93,10 @@ class Grid:
                 raise ValueError(f"{key} must be finite and positive")
         if type(self.openmp_threads) is not int or self.openmp_threads < 1:
             raise ValueError("openmp_threads must be a positive integer")
+        if self.farfield not in ("legacy", "characteristic_transport_v1"):
+            raise ValueError("farfield must be legacy or characteristic_transport_v1 (research)")
+        if self.farfield != "legacy" and self.target != "cpu":
+            raise ValueError("Experimental characteristic farfield is currently verified for CPU only")
 
 
 @dataclass(frozen=True)
@@ -130,6 +135,10 @@ class Plan:
         notes = ["Uniform isotropic grid; no mesh refinement or wall model.",
                  "Accuracy is unvalidated until grid/domain/span/Mach/statistical convergence and tunnel comparison.",
                  "The initial spanwise perturbation is numerical seeding, not a specified tunnel turbulence spectrum."]
+        if grid.farfield != "legacy":
+            if min(grid.upstream_chords, grid.downstream_chords, grid.transverse_chords)*n < 2:
+                raise ValueError("Characteristic farfield needs at least two fluid cells between body bounds and exterior")
+            notes.append("Experimental characteristic_transport_v1 farfield with linearized transverse transport; not full viscous NSCBC or validated airfoil accuracy. CPU uniform grids only.")
         if n < 256:
             notes.append("Fewer than 256 cells/chord: use for development; do not assume a resolved boundary layer.")
         if tau < 0.501:
