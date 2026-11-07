@@ -1,0 +1,8 @@
+{
+  "first_failure": "Full-runtime identity detected missing cli.py in frozen output; old hook collected GUI-reachable modules only",
+  "fix": "collect_submodules(aerokinetic) in the freezer hook; keep full hash verification",
+  "subsequent_frozen_self_test": "passed",
+  "runtime_wheel_unchanged": true,
+  "windows": "not_run",
+  "gui": "not_run: no display/Xvfb in this executor"
+}

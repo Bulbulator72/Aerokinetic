@@ -9,7 +9,7 @@ if not exist .venv\Scripts\python.exe py -3.12 -m venv .venv
 if errorlevel 1 goto fail
 .venv\Scripts\python.exe -m pip install --no-index --find-links downloads\wheels_windows -r requirements-offline-py312.txt
 if errorlevel 1 goto fail
-.venv\Scripts\python.exe -m pip install --no-index --find-links downloads\wheels_windows aerokinetic==0.4.0
+.venv\Scripts\python.exe -m pip install --no-index --find-links downloads\wheels_windows aerokinetic==0.5.1
 if errorlevel 1 goto fail
 .venv\Scripts\python.exe -m pip check
 if errorlevel 1 goto fail

@@ -1,0 +1,40 @@
+{
+  "date_utc": "2026-11-07T07:20:39.251934+00:00",
+  "release_version": "0.5.1",
+  "release_scope": "research release with open scientific and bitwise-thread checks",
+  "wheel_sha256": "01f84482f4ca1f6fcf3882303709b4f89969010b27367880e25faff8e42a152e",
+  "test_reports": {
+    "tests_final_051.xml": {
+      "tests": "29",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "time": "920.465"
+    },
+    "tests_packaging_final.xml": {
+      "tests": "9",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "time": "0.192"
+    }
+  },
+  "implementation_regressions": "passed",
+  "source_wheel_installed_identity": "passed",
+  "legacy_050_checkpoint_continuation": "passed: exact PDFs/outflow state after seven additional steps",
+  "installed_linux_cpu_cold_cache_offline": "passed",
+  "frozen_linux_cpu_relocation_cold_cache": "passed",
+  "gui": "not_run: no display/Xvfb in this executor",
+  "windows_msvc": "not_run: target platform unavailable",
+  "gpu": "not_run: no selected GPU capability",
+  "grid_span_mach_convergence": "not_run: systematic final matrix pending",
+  "time_domain_convergence": "inconclusive: sensitivity measured, convergence not established",
+  "cl_cd_cm_experimental_validation": "inconclusive: large differences and unresolved numerical uncertainty",
+  "thread_count_bitwise_identity": "failed",
+  "same_thread_repeat_bitwise_identity": "passed for both tested counts",
+  "performance": "measured cloud pilot; two threads slower on this small grid; no user-i9 extrapolation",
+  "roadmap_stage1": "in_progress: farfield, wall resolution/impermeability and transport parameters remain open",
+  "high_re_mechanization": "not_run; released input guards retained",
+  "raw_restart_files": "retained in workspace; scientific metadata/CSV and hashes published",
+  "runtime_dependency_changes": false
+}

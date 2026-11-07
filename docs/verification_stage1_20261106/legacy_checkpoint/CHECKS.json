@@ -1,0 +1,32 @@
+{
+  "source_version": "0.5.0",
+  "continued_version": "0.5.1",
+  "pdfs_exact": true,
+  "outflow_boundary_state_exact": true,
+  "steps": 12,
+  "restored_parent_seed_preserved": true,
+  "lineage": {
+    "format": "aerokinetic_continuation",
+    "schema_version": 1,
+    "parent_directory": "/workspace/aerokinetic_stage1_20261106/legacy_checkpoint/parent",
+    "parent_version": "0.5.0",
+    "parent_file_sha256": {
+      "metadata.json": "99e2b026d5e0e062f97debd61afb2b3296d362a82e867a2f54334be46f5bc8ab",
+      "summary.json": "a36944163321d04235d2af7d52cd4ab9aa18858ef0b5cc5f1a6614ac52dbe3a1",
+      "project.json": "8eef182b1d2b2844b77ea50c4cd24f82cd4f25d3f3807e29fd3642b3dde3ddd2",
+      "history.csv": "44dfd9c4a32c44313579f30e461fda460c08ce3e8ec2099d2a68f52a51530b59",
+      "residuals.csv": "1cec856fa040f44ead7466251afe58b7df5dd0958fa6f7e814c96c5580d69401",
+      "checkpoint.npz": "4094a5129dac05149fe9ad8d92656c98459a7c6b3b044f3ce9dd4445ac11ec3b"
+    },
+    "case_fingerprint": "32cbcd74eda5350a9a20be0728004c083b266d97b26f14eb6a4b11b573ebba24",
+    "start_step": 5,
+    "start_t_star": 0.0125,
+    "requested_additional_t_star": 0.0175,
+    "target_step": 12,
+    "history_scope": "new_segment_only",
+    "averaging_scope": "new_segment_only; global tU/c cutoff",
+    "average_after_t_star": 0.0125,
+    "parent_files_unchanged": true
+  },
+  "validation": "not_performed"
+}

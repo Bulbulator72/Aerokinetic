@@ -21,7 +21,8 @@ def run(solver, output, *, callback=None, stop_event=None, resume=False, residua
     from .refined_visualization import save_frame
     output = Path(output)
     settings = solver.project.run
-    requested = math.ceil(settings.duration_convective / solver.coarse_level.dt)
+    from .timing import duration_steps
+    requested = duration_steps(settings.duration_convective, solver.coarse_level.dt)
     if not resume and output.exists() and any(output.iterdir()):
         raise FileExistsError("Use a new/empty refined result directory")
     output.mkdir(parents=True, exist_ok=True)

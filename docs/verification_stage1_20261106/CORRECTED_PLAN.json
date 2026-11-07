@@ -1,0 +1,11 @@
+{
+  "date_utc":"2026-11-07",
+  "purpose":"Fresh corrected-version airfoil calculation, preserving the baseline physical/numerical setup; preliminary tunnel comparison, no convergence claim",
+  "version":"0.5.1",
+  "wheel_sha256":"01f84482f4ca1f6fcf3882303709b4f89969010b27367880e25faff8e42a152e",
+  "case":{"reynolds":30000,"alpha_deg":4,"physical_chord_m":0.15,"naca0012_points_per_side":81,"closed_te":false,"moment_reference":[0.25,0],"lattice_speed":0.04,"sgs":"none","perturbation":0.0001,"seed":31},
+  "grid":{"cells_per_chord":32,"upstream_chords":1.5,"downstream_chords":3,"transverse_chords":1.5,"span_chords":0.5,"openmp_threads":2},
+  "time":{"duration_convective":12,"average_after":6,"sample_every":8,"frame_every":2400,"check_every":128,"checkpoint_every":2400,"wall_time_limit_s":3600},
+  "acceptance":"Completed finite state at step9600; immutable configuration and raw records. Quantify Cl/Cd/Cm versus Ohtake2007 Re30000 without retuning; experimental accuracy remains inconclusive without convergence.",
+  "baseline_comparison":"Old0.5.0 baseline [6,12) at the same N32/BCs. The corrected reference-independent seed is the only intentionally changed physical initial field. No production boundary, collision frequency, wall rule or Re is changed."
+}

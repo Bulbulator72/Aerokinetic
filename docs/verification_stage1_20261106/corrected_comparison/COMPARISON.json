@@ -1,0 +1,383 @@
+{
+  "version": "0.5.1",
+  "reynolds": 30000,
+  "alpha_deg": 4,
+  "temporal": {
+    "format": "aerokinetic_temporal_diagnostics",
+    "schema_version": 1,
+    "run_status": "completed",
+    "case_fingerprint": "782c6b33844c2701c52f5aed0268abc08a32dc740e5af05b1d8ee02b6ca227f5",
+    "reynolds": 30000,
+    "alpha_deg": 4,
+    "cells_per_chord": 32,
+    "fine_cells_per_chord": null,
+    "force_time_convention": "midpoint of boundary momentum-transfer interval",
+    "termination_reason": "duration_reached",
+    "steady_residual_criterion_met": false,
+    "last_residuals": {
+      "step": 9600,
+      "t_star": 12.0,
+      "l2_rho": 0.0030012486326066925,
+      "l2_jx": 0.3353567704439268,
+      "l2_jy": 0.5700281833184455,
+      "l2_jz": 1.1254844701886244e-08,
+      "linf_rho": 0.01204590957228982,
+      "linf_jx": 4.698969409067823,
+      "linf_jy": 5.637591460969793,
+      "linf_jz": 1.92481461830054e-07,
+      "streak": 0
+    },
+    "requested_average_after_t_star": 6.0,
+    "original_average_after_t_star": 6,
+    "last_saved_force_time_t_star": 11.999375,
+    "calculated_final_time_t_star": 12.0,
+    "series": {
+      "cl": {
+        "samples": 600,
+        "sample_dt_t_star": 0.009999999999999787,
+        "selected_t_first": 6.009375,
+        "selected_t_last": 11.999375,
+        "selected_interval_t_star": 5.99,
+        "mean": 0.0924354515196035,
+        "rms_fluctuation": 0.188564401499344,
+        "minimum": -0.45539428983157165,
+        "maximum": 0.7282412595413714,
+        "first_half_mean": 0.08482059656086903,
+        "last_half_mean": 0.10005030647833796,
+        "first_half_rms_fluctuation": 0.14307685917395582,
+        "last_half_rms_fluctuation": 0.22478013115585305,
+        "last_minus_first_half_mean": 0.015229709917468928,
+        "blocks": [
+          {
+            "t_first": 6.009375,
+            "t_last": 6.749375000000001,
+            "samples": 75,
+            "mean": 0.11715013325506916,
+            "rms_fluctuation": 0.17049556033480398
+          },
+          {
+            "t_first": 6.759375,
+            "t_last": 7.499375000000001,
+            "samples": 75,
+            "mean": 0.0993353716201064,
+            "rms_fluctuation": 0.17564854614345335
+          },
+          {
+            "t_first": 7.509375,
+            "t_last": 8.249375,
+            "samples": 75,
+            "mean": 0.07828402513415142,
+            "rms_fluctuation": 0.07376477951718363
+          },
+          {
+            "t_first": 8.259375,
+            "t_last": 8.999375,
+            "samples": 75,
+            "mean": 0.04451285623414913,
+            "rms_fluctuation": 0.11661149873312178
+          },
+          {
+            "t_first": 9.009375,
+            "t_last": 9.749375,
+            "samples": 75,
+            "mean": 0.08891402795674001,
+            "rms_fluctuation": 0.14063616016490818
+          },
+          {
+            "t_first": 9.759375,
+            "t_last": 10.499375,
+            "samples": 75,
+            "mean": 0.07902786675990506,
+            "rms_fluctuation": 0.0966481628350343
+          },
+          {
+            "t_first": 10.509375,
+            "t_last": 11.249375,
+            "samples": 75,
+            "mean": 0.04917934447296577,
+            "rms_fluctuation": 0.13767468160466817
+          },
+          {
+            "t_first": 11.259375,
+            "t_last": 11.999375,
+            "samples": 75,
+            "mean": 0.18307998672374104,
+            "rms_fluctuation": 0.3794508826204975
+          }
+        ],
+        "block_mean_range": 0.1385671304895919,
+        "correlation": {
+          "status": "heuristic_requires_stationarity",
+          "tau_samples": 15.25754516696582,
+          "effective_samples_heuristic": 39.324805755716376,
+          "correlation_span_t_star": 0.15257545166965494,
+          "last_positive_pair_lag": 12,
+          "positive_tail_reached_half_record": false
+        },
+        "confidence_interval": null,
+        "temporal_convergence": "not_certified"
+      },
+      "cd": {
+        "samples": 600,
+        "sample_dt_t_star": 0.009999999999999787,
+        "selected_t_first": 6.009375,
+        "selected_t_last": 11.999375,
+        "selected_interval_t_star": 5.99,
+        "mean": 0.07583910464018687,
+        "rms_fluctuation": 0.010958969036322532,
+        "minimum": 0.04850776894447749,
+        "maximum": 0.10966022350653305,
+        "first_half_mean": 0.07566505503291111,
+        "last_half_mean": 0.07601315424746259,
+        "first_half_rms_fluctuation": 0.00872350957628575,
+        "last_half_rms_fluctuation": 0.012807724185780123,
+        "last_minus_first_half_mean": 0.0003480992145514783,
+        "blocks": [
+          {
+            "t_first": 6.009375,
+            "t_last": 6.749375000000001,
+            "samples": 75,
+            "mean": 0.07582847726666343,
+            "rms_fluctuation": 0.01023354577999838
+          },
+          {
+            "t_first": 6.759375,
+            "t_last": 7.499375000000001,
+            "samples": 75,
+            "mean": 0.07645347138320023,
+            "rms_fluctuation": 0.010833573169623523
+          },
+          {
+            "t_first": 7.509375,
+            "t_last": 8.249375,
+            "samples": 75,
+            "mean": 0.07577768460643296,
+            "rms_fluctuation": 0.005005983867140735
+          },
+          {
+            "t_first": 8.259375,
+            "t_last": 8.999375,
+            "samples": 75,
+            "mean": 0.07460058687534786,
+            "rms_fluctuation": 0.007446660387853641
+          },
+          {
+            "t_first": 9.009375,
+            "t_last": 9.749375,
+            "samples": 75,
+            "mean": 0.07624067608005042,
+            "rms_fluctuation": 0.008167812653103677
+          },
+          {
+            "t_first": 9.759375,
+            "t_last": 10.499375,
+            "samples": 75,
+            "mean": 0.0742964088932742,
+            "rms_fluctuation": 0.0056359084389204
+          },
+          {
+            "t_first": 10.509375,
+            "t_last": 11.249375,
+            "samples": 75,
+            "mean": 0.07237742845689397,
+            "rms_fluctuation": 0.008288449634109487
+          },
+          {
+            "t_first": 11.259375,
+            "t_last": 11.999375,
+            "samples": 75,
+            "mean": 0.08113810355963177,
+            "rms_fluctuation": 0.021130394747823886
+          }
+        ],
+        "block_mean_range": 0.0087606751027378,
+        "correlation": {
+          "status": "heuristic_requires_stationarity",
+          "tau_samples": 13.470215983845923,
+          "effective_samples_heuristic": 44.54271562679815,
+          "correlation_span_t_star": 0.13470215983845638,
+          "last_positive_pair_lag": 12,
+          "positive_tail_reached_half_record": false
+        },
+        "confidence_interval": null,
+        "temporal_convergence": "not_certified"
+      },
+      "cm": {
+        "samples": 600,
+        "sample_dt_t_star": 0.009999999999999787,
+        "selected_t_first": 6.009375,
+        "selected_t_last": 11.999375,
+        "selected_interval_t_star": 5.99,
+        "mean": 0.019699549041990862,
+        "rms_fluctuation": 0.041439205070345396,
+        "minimum": -0.11417685350606929,
+        "maximum": 0.13356548269678925,
+        "first_half_mean": 0.02253458951484204,
+        "last_half_mean": 0.01686450856913969,
+        "first_half_rms_fluctuation": 0.03157210122822987,
+        "last_half_rms_fluctuation": 0.04920917545329607,
+        "last_minus_first_half_mean": -0.005670080945702351,
+        "blocks": [
+          {
+            "t_first": 6.009375,
+            "t_last": 6.749375000000001,
+            "samples": 75,
+            "mean": 0.01726324851410602,
+            "rms_fluctuation": 0.0385314397954469
+          },
+          {
+            "t_first": 6.759375,
+            "t_last": 7.499375000000001,
+            "samples": 75,
+            "mean": 0.02241908862802403,
+            "rms_fluctuation": 0.039330046889455426
+          },
+          {
+            "t_first": 7.509375,
+            "t_last": 8.249375,
+            "samples": 75,
+            "mean": 0.02192256358465973,
+            "rms_fluctuation": 0.01620414150068264
+          },
+          {
+            "t_first": 8.259375,
+            "t_last": 8.999375,
+            "samples": 75,
+            "mean": 0.028533457332578394,
+            "rms_fluctuation": 0.02507848268569163
+          },
+          {
+            "t_first": 9.009375,
+            "t_last": 9.749375,
+            "samples": 75,
+            "mean": 0.016640942426681744,
+            "rms_fluctuation": 0.032559923963270676
+          },
+          {
+            "t_first": 9.759375,
+            "t_last": 10.499375,
+            "samples": 75,
+            "mean": 0.0237104688757811,
+            "rms_fluctuation": 0.019703451281590748
+          },
+          {
+            "t_first": 10.509375,
+            "t_last": 11.249375,
+            "samples": 75,
+            "mean": 0.029217271895906113,
+            "rms_fluctuation": 0.029228909962096983
+          },
+          {
+            "t_first": 11.259375,
+            "t_last": 11.999375,
+            "samples": 75,
+            "mean": -0.002110648921810201,
+            "rms_fluctuation": 0.0826069213731339
+          }
+        ],
+        "block_mean_range": 0.031327920817716313,
+        "correlation": {
+          "status": "heuristic_requires_stationarity",
+          "tau_samples": 15.469500196456169,
+          "effective_samples_heuristic": 38.785997762064156,
+          "correlation_span_t_star": 0.15469500196455838,
+          "last_positive_pair_lag": 12,
+          "positive_tail_reached_half_record": false
+        },
+        "confidence_interval": null,
+        "temporal_convergence": "not_certified"
+      }
+    },
+    "sampled_field_diagnostics": {
+      "local_mach_max": 0.10068712728787502,
+      "density_error_max": 0.01948039016976244
+    },
+    "spatial_convergence": "not_assessed",
+    "temporal_convergence": "not_certified",
+    "experimental_validation": "not_performed",
+    "limitations": [
+      "Large instantaneous oscillations do not alone prove numerical divergence.",
+      "The physical or numerical origin of oscillations is not classified by this tool.",
+      "Block statistics are descriptive; the blocks are not assumed independent.",
+      "Autocorrelation/effective sample counts assume stationarity and a sufficiently long record.",
+      "No confidence interval or accepted error tolerance has been established.",
+      "Sampled density/Mach diagnostics do not certify behavior between saved samples.",
+      "This analysis does not validate the mesh, domain, span, timestep/Mach or wind-tunnel conditions."
+    ]
+  },
+  "rows": [
+    {
+      "coefficient": "cl",
+      "calculated": 0.0924354515196035,
+      "experimental_interpolated": 0.3087391322234979,
+      "signed_difference": -0.2163036807038944,
+      "cd_difference_percent": null,
+      "rms_fluctuation_not_mean_error": 0.188564401499344,
+      "half_window_mean_change": 0.015229709917468928,
+      "previous_050_mean_same_window": 0.09243545156398514,
+      "corrected_minus_previous": -4.43816372541761e-11,
+      "digitization_half_marker_alpha_bound_deg": 0.12,
+      "digitization_half_marker_value_bound": 0.008,
+      "digitization_is_tunnel_uncertainty": false,
+      "validation": "inconclusive"
+    },
+    {
+      "coefficient": "cd",
+      "calculated": 0.07583910464018687,
+      "experimental_interpolated": 0.04450936437474284,
+      "signed_difference": 0.03132974026544403,
+      "cd_difference_percent": 70.38909835167702,
+      "rms_fluctuation_not_mean_error": 0.010958969036322532,
+      "half_window_mean_change": 0.0003480992145514783,
+      "previous_050_mean_same_window": 0.07583910464471183,
+      "corrected_minus_previous": -4.524963737040366e-12,
+      "digitization_half_marker_alpha_bound_deg": 0.23,
+      "digitization_half_marker_value_bound": 0.0031,
+      "digitization_is_tunnel_uncertainty": false,
+      "validation": "inconclusive"
+    },
+    {
+      "coefficient": "cm",
+      "calculated": 0.019699549041990862,
+      "experimental_interpolated": -0.02053270491438635,
+      "signed_difference": 0.04023225395637721,
+      "cd_difference_percent": null,
+      "rms_fluctuation_not_mean_error": 0.041439205070345396,
+      "half_window_mean_change": -0.005670080945702351,
+      "previous_050_mean_same_window": 0.019699549041006025,
+      "corrected_minus_previous": 9.84837211781553e-13,
+      "digitization_half_marker_alpha_bound_deg": 0.23,
+      "digitization_half_marker_value_bound": 0.0016,
+      "digitization_is_tunnel_uncertainty": false,
+      "validation": "inconclusive"
+    }
+  ],
+  "source_doi": "10.2322/jjsass.55.439",
+  "reference_files": {
+    "ohtake2007_fig5_cl_re30000.csv": {
+      "sha256": "f281e6da50c0dc810f2ec1ef70ddea79e7d2cd6073f3791d0f872fdd263b2d72",
+      "figure": 5
+    },
+    "ohtake2007_re30000_cd.csv": {
+      "sha256": "6df47f20ef310ac662a1378f8956e05ae150c299b2aeea0307b46a12b02788a6",
+      "figure": 6
+    },
+    "ohtake2007_re30000_cm_c4.csv": {
+      "sha256": "5184dbafeb43d86d0668ead3deed1e26880ee0c2a360b8316f7d3cf9f5919931",
+      "figure": 11
+    }
+  },
+  "run_file_sha256": {
+    "history.csv": "baac01a6d252f0f3d65a6fc86beca6a09ec075ef5d65a758d7d5a8f9771c876f",
+    "summary.json": "10f6f3df4ebcd258565f6575ce76ef59da4514a2562b85ad82b312d3a3951edb",
+    "project.json": "26d44e1c4ea111228fd49f16ba2b8779686e68f483758fd78af040a990cc8135",
+    "metadata.json": "b924e239eea08c6946a2b80b99955fd76fb0a222ff7f92d38d5e8efc782ccee7"
+  },
+  "status": "preliminary_comparison_not_validation",
+  "limitations": [
+    "Coarse N32 wall, old boundary conditions and default bulk damping retained",
+    "No grid/span/time/statistical convergence or exact tunnel-condition agreement established",
+    "Only a corrected-seed regression: a tiny change in this point does not validate its absolute coefficients",
+    "No high-Re or mechanized-profile accuracy claim"
+  ]
+}

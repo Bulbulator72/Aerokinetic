@@ -1,0 +1,63 @@
+ЖУРНАЛ ВЫПОЛНЕННЫХ КОМАНД, 6–7 НОЯБРЯ 2026 UTC
+
+Это журнал воспроизведения, не BAT для запуска поверх существующих результатов.
+Диагностические программы с датой используют указанную рабочую папку и
+отказываются смешивать результаты. Старые checkpoint остаются в workspace.
+Для повторного опыта нужны отдельные пустые выходные папки и явно выбранная
+версия библиотеки. Окончательное ядро 0.5.1 проверялось установленным wheel.
+
+Общая среда численных команд:
+PYSTENCILS_CONFIG=/workspace/aerokinetic_validation_20261106/runs/pystencils.json
+PYSTENCILS_CACHE_DIR=/workspace/aerokinetic_validation_20261106/runs/symbolic
+XDG_CACHE_HOME=/workspace/aerokinetic_validation_20261106/cache
+OPENBLAS_NUM_THREADS=1, MPLBACKEND=Agg
+MPLCONFIGDIR=/workspace/aerokinetic_stage1_20261106/mpl_tests
+
+OLD_PY=/workspace/aerokinetic_ui_050/env/bin/python
+NEW_PY=/workspace/aerokinetic_stage1_20261106/env/bin/python
+ROOT=/workspace/aerokinetic
+WORK=/workspace/aerokinetic_stage1_20261106
+
+Неизменённый 0.5.0:
+$OLD_PY $ROOT/tools/audit_uniform_loads.py --output $WORK/loads_audit
+$OLD_PY $ROOT/tools/check_initial_reference_invariance.py --output $WORK/reference_before.json
+$OLD_PY $ROOT/tools/continue_stage1_baseline.py
+$OLD_PY $ROOT/tools/run_stage1_domains.py
+$OLD_PY $ROOT/tools/check_acoustic_boundaries.py
+$OLD_PY $ROOT/tools/check_051_legacy_checkpoint.py old
+
+Первый 0.5.1 до исправления округления (SHA в WHEEL_IDENTITY.json):
+$NEW_PY $ROOT/tools/check_initial_reference_invariance.py --output $WORK/reference_after.json
+
+Окончательный wheel 0.5.1, работа из /tmp:
+$NEW_PY -m pip wheel --no-deps --no-build-isolation --no-index --wheel-dir $WORK/release $ROOT
+$NEW_PY -m pip install --no-index --no-deps --force-reinstall $WORK/release/aerokinetic-0.5.1-py3-none-any.whl
+$NEW_PY -m pip check
+$NEW_PY -m pytest -q -o pythonpath= $ROOT/tests/test_timing.py $ROOT/tests/test_initialization_invariance.py $ROOT/tests/test_continuation.py $ROOT/tests/test_projects_and_restart.py $ROOT/tests/test_numerics.py $ROOT/tests/test_geometry_and_units.py --junitxml=$WORK/tests_final_051.xml
+$NEW_PY -m pytest -q -o pythonpath= $ROOT/tests/test_portable_packaging.py --junitxml=$WORK/tests_packaging_final.xml
+$NEW_PY $ROOT/tools/check_051_legacy_checkpoint.py new --child-name child_rounding_fixed
+$NEW_PY $ROOT/tools/smoke_051_offline.py --output $WORK/cold_offline_final
+$NEW_PY $ROOT/tools/run_stage1_corrected.py
+$NEW_PY $ROOT/tools/compare_stage1_corrected.py
+$NEW_PY $ROOT/tools/analyze_stage1.py --output $WORK/analysis_final
+$NEW_PY $ROOT/tools/check_stage1_span.py $WORK/baseline32_t24/checkpoint.npz --output $WORK/SPAN_DIAGNOSTIC.json
+
+Пилот потоков выполнялся последовательно после завершения других CPU-заданий:
+$NEW_PY $ROOT/tools/profile_stage1.py --threads 1
+$NEW_PY $ROOT/tools/profile_stage1.py --threads 2
+После несовпадения хешей выполнено описательное исследование; исходный
+критерий не переименован в passed:
+$NEW_PY $ROOT/tools/profile_stage1.py --threads 1 --output $WORK/profile_snapshot_threads1.json --snapshot
+$NEW_PY $ROOT/tools/profile_stage1.py --threads 2 --output $WORK/profile_snapshot_threads2.json --snapshot
+$NEW_PY $ROOT/tools/compare_stage1_threads.py
+
+Упаковка Linux (отдельная offline-установленная freeze_env):
+$WORK/freeze_env/bin/python $ROOT/tools/portable/build.py --app-root $WORK/freeze_app --kit-root $ROOT --wheel $WORK/release/aerokinetic-0.5.1-py3-none-any.whl --work-dir $WORK/freeze_final --linux-proof --prepared-env --skip-gui-proof
+Перед этой командой каталог app-root создан. Подготовка использовала
+закреплённый PyInstaller 6.16.0 и прежние requirements-build.txt/runtime pins.
+Первая полноценная freeze-попытка не включила cli.py; исправлен hook,
+повтор выполнен в новой папке freeze_final. Ошибка/повтор сохранены в frozen_linux/.
+
+Python-сокеты/DNS блокировались внутри холодных runtime-проверок.
+Подготовка сборочного PyInstaller с интернетом отделена от offline self-test.
+Linux не подтверждает Windows/MSVC. Полный JIT-кеш, venv и EXE в Git не включены.

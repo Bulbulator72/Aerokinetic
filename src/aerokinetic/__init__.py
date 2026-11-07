@@ -7,11 +7,14 @@ from .config import Atmosphere, Flow, Grid, Plan
 from .project import Project, RunSettings
 from .convergence import StopCriteria
 
-__version__ = "0.5.0"
-__all__ = ["Contour", "Section", "naca0012", "naca4", "Atmosphere", "Flow", "Grid", "Plan", "Project", "RunSettings", "StopCriteria", "Solver", "RefinedSolver", "RefinedPlan", "RefinementSettings"]
+__version__ = "0.5.1"
+__all__ = ["Contour", "Section", "naca0012", "naca4", "Atmosphere", "Flow", "Grid", "Plan", "Project", "RunSettings", "StopCriteria", "Solver", "RefinedSolver", "RefinedPlan", "RefinementSettings", "continue_run"]
 
 
 def __getattr__(name):
+    if name == "continue_run":
+        from .continuation import continue_run
+        return continue_run
     if name == "Solver":
         from .solver import Solver
         return Solver

@@ -1,0 +1,40 @@
+{
+  "version": "0.5.1",
+  "original_exact_hash_criterion": "failed",
+  "exact_equality": {
+    "full": false,
+    "owned_fluid": false,
+    "owned_solid": false,
+    "ghost": false
+  },
+  "max_abs_fluid_pdf_difference": 6.314393452555578e-16,
+  "max_abs_fluid_density_difference": 1.3322676295501878e-15,
+  "max_abs_fluid_velocity_difference": 5.828670879282072e-16,
+  "max_abs_fluid_velocity_difference_over_U": 1.457167719820518e-14,
+  "last_load_differences_2_minus_1": {
+    "cl": -2.0650148258027912e-14,
+    "cd": -1.1518563880485999e-14,
+    "cm": 5.190292640122607e-15
+  },
+  "repeat_same_thread_count_pdf_exact": [
+    true,
+    true
+  ],
+  "timing_pilot_mlups": [
+    20.003819535866267,
+    16.562055453098456
+  ],
+  "timing_repeat_mlups": [
+    20.463395944583784,
+    16.759659620616063
+  ],
+  "two_thread_speedup_pilot": 0.8279446544397769,
+  "two_thread_speedup_repeat": 0.8190067604615733,
+  "scope": "Descriptive follow-up. No replacement tolerance/pass label introduced after the failed exact-hash criterion. No accuracy or workstation scaling claim.",
+  "compiler_configuration": {
+    "os": "linux",
+    "command": "g++",
+    "flags": "-Ofast -DNDEBUG -fPIC -march=native -fopenmp -std=c++11",
+    "restrict_qualifier": "__restrict__"
+  }
+}

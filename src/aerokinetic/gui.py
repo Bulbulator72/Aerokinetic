@@ -598,7 +598,8 @@ class Application:
         self.empty_plot('field', 'Кадры появятся после первой записи.')
         self.draw_history()
         if self.residual_window and self.residual_window.window.winfo_exists():self.residual_window.refresh()
-        self.target_steps = math.ceil(project.run.duration_convective / project.plan().dt_convective)
+        from .timing import duration_steps
+        self.target_steps = duration_steps(project.run.duration_convective, project.plan().dt_convective)
         if project.run.termination.max_steps:self.target_steps=min(self.target_steps,project.run.termination.max_steps)
         self.status.set("Восстановление состояния…" if resume else "Подготовка и компиляция расчёта…")
         self.progress["value"] = 0

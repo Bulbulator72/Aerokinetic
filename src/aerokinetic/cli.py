@@ -17,6 +17,11 @@ def main(argv=None):
     commands.add_parser("gui")
     sub = commands.add_parser("resume")
     sub.add_argument("directory", type=Path)
+    sub = commands.add_parser("continue", help="Continue a saved CPU result into a NEW time-segment directory")
+    sub.add_argument("directory", type=Path)
+    sub.add_argument("--output", type=Path, required=True)
+    sub.add_argument("--additional-time", type=float, required=True)
+    sub.add_argument("--average-after", type=float)
     sub = commands.add_parser("compare")
     sub.add_argument("directory", type=Path)
     sub.add_argument("--reference", default="ohtake_re30000")
@@ -49,6 +54,12 @@ def main(argv=None):
     sub.add_argument("--output", type=Path, required=True)
     sub.add_argument("--no-plot", action="store_true")
     args = parser.parse_args(argv)
+    if args.command == "continue":
+        from .continuation import continue_run
+        result=continue_run(args.directory,args.output,args.additional_time,
+                            average_after=args.average_after,progress=lambda m:print(m,flush=True))
+        print(json.dumps(result,ensure_ascii=False,indent=2))
+        return
     if args.command in ("plan-refined", "run-refined"):
         from .refined_solver import RefinedPlan, RefinedSolver, load_refined_project
         project, refinement = load_refined_project(args.config)

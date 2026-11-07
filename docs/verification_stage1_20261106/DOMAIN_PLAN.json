@@ -1,0 +1,14 @@
+{
+  "baseline": "Unmodified installed 0.5.0, uniform32, Re30000 alpha4, initial 0..6 followed by unchanged checkpoint evolution 6..24",
+  "reason": "The longer baseline did not remove large fluctuations; investigate boundary sensitivity without fitting forces",
+  "preserve": {"reynolds":30000,"alpha_deg":4,"lattice_speed":0.04,"physical_chord_m":0.15,"n_side":81,"moment_reference":[0.25,0],"cells_per_chord":32,"span_chords":0.5,"perturbation":0.0001,"seed":31,"sgs":"none","threads":2},
+  "baseline_domain": {"upstream":1.5,"downstream":3,"transverse_each_side":1.5},
+  "cases": [
+    {"name":"transverse3","upstream":1.5,"downstream":3,"transverse_each_side":3},
+    {"name":"downstream6","upstream":1.5,"downstream":6,"transverse_each_side":1.5}
+  ],
+  "time": {"target_t_star":12,"average_after":6,"sample_every":8,"check_every":128,"frame_every":2400,"checkpoint_every":2400,"wall_time_limit_s":3600},
+  "acceptance": "Finite admissible states, unchanged Re/molecular viscosity and exact input provenance; quantify mean/RMS/frequency differences. This is a sensitivity study, no accuracy pass or causal classification from a single frequency.",
+  "known_coupling": "Changing transverse size also changes the seeded initial transverse wavelength in 0.5.0. This small initial seeding difference remains disclosed. Downstream-only expansion preserves seed field on the original interior.",
+  "no_calibration": true
+}

@@ -1,0 +1,7 @@
+{
+  "status": "failed",
+  "error": "[Errno 2] No such file or directory: '/workspace/aerokinetic_stage1_20261106/freeze_proof/relocation_test/\u041f\u0430\u043f\u043a\u0430 \u0441 \u043f\u0440\u043e\u0431\u0435\u043b\u0430\u043c\u0438/AeroKinetic/_internal/aerokinetic/cli.py'",
+  "traceback": "Traceback (most recent call last):\n  File \"entry.py\", line 59, in main\n  File \"ak_portable_selftest.py\", line 29, in run_checks\n  File \"pathlib.py\", line 1019, in read_bytes\n  File \"pathlib.py\", line 1013, in open\nFileNotFoundError: [Errno 2] No such file or directory: '/workspace/aerokinetic_stage1_20261106/freeze_proof/relocation_test/\u041f\u0430\u043f\u043a\u0430 \u0441 \u043f\u0440\u043e\u0431\u0435\u043b\u0430\u043c\u0438/AeroKinetic/_internal/aerokinetic/cli.py'\n",
+  "platform": "linux",
+  "network_attempts": 0
+}

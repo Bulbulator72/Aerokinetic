@@ -1,0 +1,14 @@
+{
+  "installed": "/workspace/aerokinetic_stage1_20261106/env/lib/python3.12/site-packages/aerokinetic/__init__.py",
+  "version": "0.5.1",
+  "clean_environment": true,
+  "cold_cache_jit": true,
+  "python_network_attempts": [],
+  "parent_steps": 8,
+  "requested_additional_steps": 7,
+  "child_steps": 15,
+  "cli_continuation": "passed",
+  "gif_bytes": 80535,
+  "windows": "not_run",
+  "gpu": "not_run"
+}

@@ -1,0 +1,72 @@
+{
+  "status": "passed",
+  "frozen": true,
+  "version": "0.5.1",
+  "openmp_compile_execute": "passed",
+  "tested_threads": [
+    1,
+    2
+  ],
+  "different_grid_specializations": [
+    20,
+    [
+      16,
+      32
+    ]
+  ],
+  "checkpoint_exact_history": "passed",
+  "numerical_identity": {
+    "interface.py": "97a8f327ce2d091ba8ca9a5b6870e2d0fa00b4a0961945d130118a0e06c61a2b",
+    "refinement.py": "798053ea229960ca48c818e36e737aab8657e076ae9187230379f752d76b6df8",
+    "walls.py": "13c8e9812f05390f3afb20f9d6908c00bb6f37ab58515e2d244cf031d64346dd",
+    "refined_solver.py": "5b789e0d47cc3c116f8959f3c2d20f39110ba55d01210e7cbc85c20154089019",
+    "refined_checkpoint.py": "c2be84a529fb6647f62dbe15b5b0a3862782dd65d35accdace86d2d571860795",
+    "parallel.py": "97e907d036f169bdc195f101eefcf4d3cb50ff2c7bba4d917b362d2c739d691a",
+    "convergence.py": "c4acfcbdc0cd067884e65df1405273f2269e79437aa06dd6fc438f93fb7afd14",
+    "config.py": "fa2a3411c5b959a8568a924567bdc1f6746fda30208e35f8a411477d3de65972",
+    "geometry.py": "30beffe1914547e836fcf636d776a12018878945db817172a9c35c970aef4a94",
+    "project.py": "503dae52f098f1c370f996512fa5c75daac7e9511f6e19866d0da5291366685c"
+  },
+  "uniform_mean": {
+    "cl": -2.6475002971538288e-14,
+    "cd": -1.7609604631696252,
+    "cm": 7.859742949071583e-15
+  },
+  "refined_mean": {
+    "cl": 3.6370985721821185,
+    "cd": 2.0806644731398944,
+    "cm": -0.8044062172205024
+  },
+  "field_csv_png_gif_review": "passed",
+  "reference_series_checked": 2,
+  "gui": "not_run",
+  "runtime": {
+    "bundle": "/workspace/aerokinetic_stage1_20261106/freeze_final/relocation_test/\u041f\u0430\u043f\u043a\u0430 \u0441 \u043f\u0440\u043e\u0431\u0435\u043b\u0430\u043c\u0438/AeroKinetic/_internal",
+    "workspace": "/workspace/aerokinetic_stage1_20261106/freeze_final/checks/runtime",
+    "metadata": {
+      "platform": "linux",
+      "python_sdk": "python-sdk",
+      "compiler_command": "/usr/bin/g++",
+      "compiler_flags": "-Ofast -DNDEBUG -fPIC -march=native -fopenmp -std=c++11",
+      "usage": "Linux development proof, not an offline Windows distribution"
+    },
+    "jit_include": "/workspace/aerokinetic_stage1_20261106/freeze_final/relocation_test/\u041f\u0430\u043f\u043a\u0430 \u0441 \u043f\u0440\u043e\u0431\u0435\u043b\u0430\u043c\u0438/AeroKinetic/_internal/portable/python-sdk/include",
+    "compiler": {
+      "os": "linux",
+      "command": "/usr/bin/g++",
+      "flags": "-Ofast -DNDEBUG -fPIC -march=native -fopenmp -std=c++11",
+      "restrict_qualifier": "__restrict__"
+    },
+    "compiler_environment": {},
+    "frozen": true
+  },
+  "elapsed_seconds": 211.514054406,
+  "aerodynamic_validation": "not_run; short packaging smoke only",
+  "clean_windows_without_installed_tools": "not_run; run transferred folder on offline target",
+  "os_level_network_isolation": "not_established_by_this_test",
+  "python_network": "blocked",
+  "network_attempts": 0,
+  "cold_cache_at_start": true,
+  "platform": "linux",
+  "bundle_files_verified": 1896
+}

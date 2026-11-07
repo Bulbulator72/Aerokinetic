@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "aerokinetic"
-version = "0.5.0"
+version = "0.5.1"
 description = "Unsteady three-dimensional kinetic flow around fixed multi-element sections"
 requires-python = ">=3.10,<3.13"
 license = "GPL-3.0-or-later"

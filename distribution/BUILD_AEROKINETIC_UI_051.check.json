@@ -1,0 +1,11 @@
+{
+  "artifact": "BUILD_AEROKINETIC_UI_051.txt",
+  "bytes": 2330118,
+  "sha256": "85a46a140788f8c20460c6bf9eaa32edf9f22d61538520625395f10b61d79737",
+  "embedded_zip_sha256": "c3578527e086e586fbab8a22ac9716de823f3d3da8b20cc5b1870ac6d91a3b5b",
+  "manifest_files": 361,
+  "source_wheel_sha256": "01f84482f4ca1f6fcf3882303709b4f89969010b27367880e25faff8e42a152e",
+  "transport_crc_sha_crlf_lf": "passed",
+  "native_windows_build": "not_run",
+  "artifact_kind": "Windows build script/kit; NOT a finished Windows executable"
+}

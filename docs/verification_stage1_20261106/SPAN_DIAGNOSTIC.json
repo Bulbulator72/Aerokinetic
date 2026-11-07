@@ -1,0 +1,9 @@
+{
+  "checkpoint_sha256": "5f89acaa9773eabf3d61d9f538dc1a89720855c9e4b3e633496d8ade2a59c0c1",
+  "steps": 19200,
+  "t_star": 24.0,
+  "max_abs_span_velocity_over_freestream": 4.5874587943543136e-14,
+  "max_spanwise_velocity_variation_over_freestream": 1.2559397966072083e-13,
+  "scope": "All owned nodes including solids: an upper bound for the fluid subset. No temporal/span/grid convergence inferred.",
+  "interpretation": "Describe this one terminal field only; a spanwise-invariant field does not demonstrate resolved 3D turbulence."
+}

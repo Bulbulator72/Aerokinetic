@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-06",
+  "scope": "Autonomous roadmap stages 1-2: independent loads/budget audit, longer unmodified baseline, controlled bulk and boundary diagnostics; no high-Re input bypass",
+  "baseline": "Installed aerokinetic 0.5.0 wheel, lbmpy/pystencils 1.4; GitHub baseline fb09924b4579c4ea646aba77b87edb2449a54c9b",
+  "invariants": ["Preserve original Re=30000, alpha=4, finite-TE NACA0012, c=0.15m, moment=c/4, lattice_speed=0.04, perturbation=0.0001 seed31 for the continued baseline", "Never overwrite existing runs or fabricate experimental coefficients", "No experimental validation claim from a balance test, checkpoint or CPU run"],
+  "first_checks": {
+    "wall_loads": "Compare production boundary-index momentum exchange against independently enumerated fluid-solid adjacency, including owned periodic span",
+    "open_budget": "Compute owned-fluid PDF mass, linear momentum, angular momentum before/after a single update and independent external/wall fluxes; expose any boundary edits to owned fluid",
+    "tolerance": "Raw loads absolute 2e-10; mass/momentum residual per owned-fluid cell 2e-12; angular residual additionally scaled by chord cells 2e-12",
+    "geometry": "NACA0012 alpha0/4, mirror and independent shift of reference point, fixed geometry and no perturbation for exact symmetry checks"
+  },
+  "long_baseline": {
+    "source": "/workspace/aerokinetic_validation_20261106/runs/uniform32",
+    "grid_cells_per_chord": 32,
+    "start_t_star": 6,
+    "additional_t_star": 18,
+    "target_t_star": 24,
+    "averaging_after_t_star": 12,
+    "sample_every": 8,
+    "check_every": 128,
+    "frame_every": 2400,
+    "checkpoint_every": 2400,
+    "threads": 2,
+    "wall_time_limit_per_launch_s": 3600,
+    "purpose": "Measure transient/drift over windows [3,6], [6,12], [12,18], [18,24]; not a mesh convergence study"
+  },
+  "numeric_changes": "Only after a defect or numerical parameter inconsistency is independently demonstrated; tests and installed-wheel comparison required",
+  "independent_next_work": "Safe continuation into a NEW output directory, diagnostics/reports, resource profiling and controlled relaxation interface; do not silently turn a future feature into a validated solver",
+  "validation": "inconclusive until numerical/statistical convergence and tunnel conditions are established"
+}

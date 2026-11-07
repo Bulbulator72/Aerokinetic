@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 import sys
 import sysconfig
+import zipfile
 
 import pytest
 
@@ -125,6 +126,34 @@ def test_validation_environment_removes_development_paths(tmp_path, monkeypatch)
     assert original['PYTHONPATH'] == 'source'
     assert not any(name in env for name in ('PYTHONPATH', 'INCLUDE', 'LIB', 'VS170COMNTOOLS', 'UCRTVersion', 'PYSTENCILS_CONFIG'))
     assert 'home-python' not in env['PATH'] and r'C:\VS' not in env['PATH']
+
+
+def test_builder_rejects_stale_wheel_and_modified_runtime_source(tmp_path, monkeypatch):
+    monkeypatch.syspath_prepend(str(PORTABLE))
+    builder = load('portable_builder_identity_test', PORTABLE / 'build.py')
+    kit = tmp_path / 'kit'
+    source = kit / 'src/aerokinetic'
+    source.mkdir(parents=True)
+    (kit / 'pyproject.toml').write_text('[project]\nversion="9.1.2"\n')
+    names = (*builder.IDENTITY_FILES, 'solver.py', 'timing.py', 'continuation.py')
+    for name in names:
+        (source / name).write_text('# Synthetic fixture: ' + name + '\n')
+    def wheel(version):
+        path = tmp_path / f'aerokinetic-{version}-py3-none-any.whl'
+        with zipfile.ZipFile(path, 'w') as archive:
+            for name in names:
+                archive.write(source / name, 'aerokinetic/' + name)
+            archive.writestr(f'aerokinetic-{version}.dist-info/METADATA',
+                             f'Name: aerokinetic\nVersion: {version}\n')
+        return path
+    good, stale = wheel('9.1.2'), wheel('9.1.1')
+    version, _, runtime = builder.verify_runtime_wheel(kit, good)
+    assert version == '9.1.2' and 'continuation.py' in runtime['files']
+    with pytest.raises(ValueError, match='version'):
+        builder.verify_runtime_wheel(kit, stale)
+    (source / 'solver.py').write_text('# Different initial conditions\n')
+    with pytest.raises(ValueError, match='solver.py'):
+        builder.verify_runtime_wheel(kit, good)
 
 
 def test_windows_freezer_spec_uses_matching_crt_and_preserves_other_binaries(tmp_path, monkeypatch):

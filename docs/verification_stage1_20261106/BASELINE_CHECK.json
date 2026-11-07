@@ -1,0 +1,69 @@
+{
+  "source": "/workspace/aerokinetic_validation_20261106/runs/uniform32",
+  "source_steps": 4800,
+  "source_t_star": 6,
+  "target_t_star": 24,
+  "additional_t_star": 18,
+  "source_file_sha256": {
+    "metadata.json": "bcb57aafc83c59896cc9f7880edd515ac33ee49baa30b79cd36edbb17dbd2a55",
+    "summary.json": "d6a72f61e08159c71f55a03ff84a9f622cc1f14d08d956f0d3c72391ce9467ea",
+    "project.json": "7924b7c66c481600f7013f9b555a4dc835b5f8c9d2e6c6fb3bf00769d6909bb6",
+    "history.csv": "a6c2c47a1014ec1a71f652c865cd548216adc3c591aa19d882a03cd75628c764",
+    "residuals.csv": "87491fcf9912d8e34d4151ee6d943223ad7621174b36249432f7091ada31a004"
+  },
+  "source_unchanged": true,
+  "installed": "/workspace/aerokinetic_ui_050/env/lib/python3.12/site-packages/aerokinetic/__init__.py",
+  "runtime_version": "0.5.0",
+  "case_fingerprint": "1c46f84fa9377be96b7e34157b4521e03ed6bb71defd3cac5adc7d361583b69b",
+  "summary": {
+    "status": "completed",
+    "steps": 19200,
+    "t_star": 24.0,
+    "wall_clock_seconds": 360.0614847910001,
+    "samples": 1800,
+    "averaging_samples": 1200,
+    "average_after_t_star": 12,
+    "mean": {
+      "cl": 0.12823561585658252,
+      "cd": 0.07725805928769126,
+      "cm": 0.01865785261729862
+    },
+    "rms_fluctuation": {
+      "cl": 0.5180796825691159,
+      "cd": 0.028472914286832525,
+      "cm": 0.1105977202774957
+    },
+    "wall_fallback_links": 0,
+    "experimental_validation": "not_performed",
+    "termination_reason": "duration_reached",
+    "termination": {
+      "mode": "time",
+      "mass_tolerance": 1e-05,
+      "momentum_x_tolerance": 1e-05,
+      "momentum_y_tolerance": 1e-05,
+      "momentum_z_tolerance": 1e-05,
+      "minimum_t_star": 1.0,
+      "consecutive_checks": 10,
+      "max_steps": 0,
+      "wall_time_limit_s": 3600
+    },
+    "last_residuals": {
+      "step": 19200,
+      "t_star": 24.0,
+      "l2_rho": 0.004068178529932841,
+      "l2_jx": 0.2973646073976692,
+      "l2_jy": 0.6480375113359463,
+      "l2_jz": 1.9393478284721785e-14,
+      "linf_rho": 0.01982435078056663,
+      "linf_jx": 3.7031292650132808,
+      "linf_jy": 5.502807613374452,
+      "linf_jz": 3.230922474006803e-13,
+      "streak": 0
+    },
+    "steady_residual_criterion_met": false,
+    "statistical_convergence": "not_established"
+  },
+  "python_network_attempts": [],
+  "elapsed_s": 379.9463109039989,
+  "interpretation": "Additional evolution of the unchanged grid32 case; no grid/statistical/experimental validation inferred"
+}

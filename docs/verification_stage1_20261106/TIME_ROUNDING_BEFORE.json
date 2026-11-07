@@ -1,0 +1,11 @@
+{
+  "finding": "ceil of floating duration/dt can add an unintended step",
+  "requested_steps": 7,
+  "duration": 0.0175,
+  "dt": 0.0025,
+  "quotient": 7.000000000000001,
+  "old_ceil": 8,
+  "expected_final_steps": 12,
+  "actual_final_steps": 13,
+  "preliminary_wheel_sha256": "24214f10ca28523c3570878ce1a68a4018b971f023ebd40d72e548e83c3fca29"
+}

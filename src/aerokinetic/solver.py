@@ -141,19 +141,29 @@ class Solver:
         dh = step.data_handling
         rng = np.random.default_rng(self.flow.seed)
         phase_y, phase_z = rng.uniform(0, 2 * np.pi, 2)
+        # A reporting-point change must not move the physical initial seed.
+        # The computational coordinates are centred on moment_reference, so
+        # transform the leading edge into that frame before evaluating it.
+        original = np.concatenate([e.xy for e in self.section.elements])
+        leading = original[np.argmin(original[:, 0])]
+        angle = -np.deg2rad(self.flow.alpha_deg)
+        rotation = np.array([[np.cos(angle), -np.sin(angle)],
+                             [np.sin(angle), np.cos(angle)]])
+        leading = rotation @ ((leading - np.asarray(self.section.moment_reference)) / self.section.chord)
         for block in dh.iterate(ghost_layers=True):
             x, y, z = block.midpoint_arrays
             u = block[step.velocity_data_name]
             u[..., 0] = self.flow.lattice_speed
             yy = y * plan.dx + plan.origin[1]
             xx = x * plan.dx + plan.origin[0]
+            relative_x, relative_y = xx - leading[0], yy - leading[1]
             zz = z * plan.dx
             ky = 2 * np.pi / (plan.shape[1] * plan.dx)
             kz = 2 * np.pi / plan.span
             amp = self.flow.perturbation * self.flow.lattice_speed
-            envelope = np.exp(-((xx - 0.25) / 0.75) ** 2)
-            u[..., 1] = amp * np.sin(ky * yy + phase_y) * np.cos(kz * zz + phase_z) * envelope
-            u[..., 2] = -amp * ky / kz * np.cos(ky * yy + phase_y) * np.sin(kz * zz + phase_z) * envelope
+            envelope = np.exp(-((relative_x - 0.5) / 0.75) ** 2)
+            u[..., 1] = amp * np.sin(ky * relative_y + phase_y) * np.cos(kz * zz + phase_z) * envelope
+            u[..., 2] = -amp * ky / kz * np.cos(ky * relative_y + phase_y) * np.sin(kz * zz + phase_z) * envelope
             solid = np.zeros(x.shape[:2], dtype=bool)
             for e in self.contours:
                 solid |= e.contains(xx[:, :, 0], yy[:, :, 0])
@@ -298,13 +308,17 @@ class Solver:
                     "force_time": "midpoint of boundary momentum-transfer interval",
                     "status": "running", "experimental_validation": "not_performed",
                     "case_fingerprint": project.case_fingerprint, "run": asdict(settings),
+                    "start_step": self.steps, "start_t_star": self.steps * self.plan.dt_convective,
                     "resume_supported": self.grid.target == "cpu"}
-        requested_steps = math.ceil(duration_convective / self.plan.dt_convective)
+        from .timing import duration_steps
+        requested_steps = duration_steps(duration_convective, self.plan.dt_convective)
         end_step = self.steps + requested_steps
         rows = []
         history = output / "history.csv"
         if resume:
             old = json.loads((output / "metadata.json").read_text(encoding="utf-8"))
+            metadata['start_step']=old.get('start_step',0)
+            metadata['start_t_star']=metadata['start_step']*self.plan.dt_convective
             metadata['resumed_from_version']=old.get('version')
             context = getattr(self, "_checkpoint_context", {})
             saved_project = Project.load(output / "project.json")

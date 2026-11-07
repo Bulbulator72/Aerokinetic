@@ -1,0 +1,11 @@
+{
+  "purpose":"Independent linear-wave reflection characterization; not an airfoil validation or a replacement boundary prescription",
+  "method":"Pinned D3Q27 cumulant, zero-centered, molecular lattice viscosity 0.04*32/30000, bulk frequency default1",
+  "domain":[8,256,8],"periodic_axes":[true,false,true],"background_velocity":[0.04,0,0],
+  "pulse":{"axis":"y","density_amplitude":0.00002,"center":180,"sigma":10,"velocity_y":"cs*delta_rho","cs":"sqrt(1/3)"},
+  "boundaries":{"lower":"UBB freestream","upper_cases":["UBB freestream (production transverse condition)","ExtrapolationOutflow normal+y (diagnostic comparison only)"]},
+  "probe_y_index":216,"steps":360,
+  "measurement":"Rplus=delta_uy+cs*delta_rho incident maximum during steps20..130; Rminus=delta_uy-cs*delta_rho reflected maximum during steps140..330; record ratio, including propagation/damping to probe, not a universal boundary coefficient",
+  "checks":"finite states, exact prescribed small initial perturbation, same bulk/shear and pulse in both cases; no selected reflection pass/fail threshold or physical accuracy claim",
+  "caution":"An extrapolation outflow is not automatically a valid farfield condition for mixed incoming/outgoing multidimensional airfoil flow; no production boundary will be changed just to damp coefficients"
+}

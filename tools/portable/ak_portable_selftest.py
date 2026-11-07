@@ -21,8 +21,12 @@ def run_checks(output, runtime, *, gui=False):
     from aerokinetic.temporal import write_analysis
     from PIL import Image
 
-    assert aerokinetic.__version__ == '0.5.0'
+    runtime_identity = json.loads((Path(runtime['bundle']) / 'portable/runtime_identity.json').read_text())
+    assert aerokinetic.__version__ == runtime_identity['version']
     assert Path(aerokinetic.__file__).resolve().is_relative_to(Path(runtime['bundle']))
+    for name, digest in runtime_identity['files'].items():
+        source = Path(aerokinetic.__file__).parent / name
+        assert hashlib.sha256(source.read_bytes()).hexdigest() == digest, 'Runtime file differs: ' + name
     expected = json.loads((Path(runtime['bundle']) / 'portable/source_identity.json').read_text())
     assert numerical_identity() == expected, 'Numerical source identity differs from the bundled wheel'
     print('[check 1/5] Real OpenMP C++ compilation from bundled headers', flush=True)

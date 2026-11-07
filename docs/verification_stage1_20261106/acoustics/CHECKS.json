@@ -1,0 +1,13 @@
+{
+  "ubb": {
+    "incident_probe_peak": 2.2314456929962898e-05,
+    "reflected_probe_peak": 2.0883293738206694e-05,
+    "probe_amplitude_ratio_including_propagation": 0.9358638573975556
+  },
+  "extrapolation": {
+    "incident_probe_peak": 2.2314456930042804e-05,
+    "reflected_probe_peak": 1.8382615630175737e-08,
+    "probe_amplitude_ratio_including_propagation": 0.000823798476826318
+  },
+  "interpretation": "Probe reflection sensitivity only; no universal coefficient or replacement farfield validation inferred"
+}

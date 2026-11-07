@@ -1,0 +1,8 @@
+{
+  "purpose":"Stage3 pilot on the available Linux cloud executor; do not transfer measured timings to the user's i9/Windows/GPU",
+  "case":"Installed0.5.1, Re30000 alpha4, NACA0012 finiteTE81, N32, domain1.5/3/1.5, span0.5, seed31 perturbation0.0001, latticeU0.04",
+  "threads":[1,2],"warmup_steps":16,"timed_steps":256,
+  "work_included":"Every production step and boundaries, loads every8, density/Mach diagnostics every8; excludes frame/checkpoint disk writes and initialization",
+  "checks":"Finite states, same final PDF hash across thread counts; record full environment, CPU quota, cgroup memory and peak process RSS",
+  "scope":"Measure actual throughput and memory of this small case; no GPU or high-Re capability inferred"
+}

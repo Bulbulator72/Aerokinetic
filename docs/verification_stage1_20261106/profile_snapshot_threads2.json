@@ -1,0 +1,25 @@
+{
+  "version": "0.5.1",
+  "threads": 2,
+  "shape": [
+    176,
+    101,
+    16
+  ],
+  "warmup_steps": 16,
+  "timed_steps": 256,
+  "compute_seconds": 4.344389900999886,
+  "setup_seconds": 17.314042341999993,
+  "compute_loop_mlups": 16.759659620616063,
+  "peak_rss_kib": 272188,
+  "pdf_sha256": "98ead4f29c31ca1d0d9a6c8801129dd795001f72dc6fe210e96940a25923f28b",
+  "last_sample": {
+    "cl": 0.6809729010189981,
+    "cd": 0.09415087272703213,
+    "cm": -0.10721506684234629
+  },
+  "owned_fluid_pdf_sha256": "cb421ea8ae24e296c495108f2d2f93b4a11422c71109e221c4c468e71515bfd5",
+  "cpu_quota": "200000 100000",
+  "memory_limit_bytes": "8589934592",
+  "interpretation": "Cloud compute loop only; no disk/Windows/GPU performance claim"
+}

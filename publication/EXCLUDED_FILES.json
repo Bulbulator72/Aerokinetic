@@ -68,5 +68,47 @@
     "bytes": 71625,
     "sha256": "4a23c125a1cf3e5dbdc4ec4b097be78a44b1fda79a52ec9d5bcd1ee06555ef12",
     "reason": "captured publisher HTML replaced by citation-only HTML; embedded site configuration is not published"
+  },
+  {
+    "source": "/workspace/aerokinetic_stage1_20261106/baseline32_t24/checkpoint.npz",
+    "repository_path": "docs/verification_stage1_20261106/baseline32_t24/checkpoint.npz",
+    "bytes": 165270824,
+    "sha256": "5f89acaa9773eabf3d61d9f538dc1a89720855c9e4b3e633496d8ade2a59c0c1",
+    "reason": "large generated restart/diagnostic state; retained in workspace; metadata and raw CSV published"
+  },
+  {
+    "source": "/workspace/aerokinetic_stage1_20261106/transverse3/checkpoint.npz",
+    "repository_path": "docs/verification_stage1_20261106/transverse3/checkpoint.npz",
+    "bytes": 318534412,
+    "sha256": "d8cd5e94527845fc0c146cf11b6aac64738156fdfe03f5181ad2cf5988e38487",
+    "reason": "large generated restart/diagnostic state; retained in workspace; metadata and raw CSV published"
+  },
+  {
+    "source": "/workspace/aerokinetic_stage1_20261106/downstream6/checkpoint.npz",
+    "repository_path": "docs/verification_stage1_20261106/downstream6/checkpoint.npz",
+    "bytes": 253974016,
+    "sha256": "7186fbbc534311fdc405155e7030568c2310784cb2508d3f97fb341da0dbdfd6",
+    "reason": "large generated restart/diagnostic state; retained in workspace; metadata and raw CSV published"
+  },
+  {
+    "source": "/workspace/aerokinetic_stage1_20261106/corrected32_t12/checkpoint.npz",
+    "repository_path": "docs/verification_stage1_20261106/corrected32_t12/checkpoint.npz",
+    "bytes": 165270784,
+    "sha256": "f6cbdba06d1e12841749bf5a567aca82e574c7f16dcb452d75190f0ecc6c6227",
+    "reason": "large generated restart/diagnostic state; retained in workspace; metadata and raw CSV published"
+  },
+  {
+    "source": "/workspace/aerokinetic_stage1_20261106/profile_snapshot_threads1.npz",
+    "repository_path": "docs/verification_stage1_20261106/profile_snapshot_threads1.npz",
+    "bytes": 63789563,
+    "sha256": "3d46ac49d7147cb7863b5ec95f6143af22b9fc927d895bbb16ce0441692c11fa",
+    "reason": "large generated restart/diagnostic state; retained in workspace; metadata and raw CSV published"
+  },
+  {
+    "source": "/workspace/aerokinetic_stage1_20261106/profile_snapshot_threads2.npz",
+    "repository_path": "docs/verification_stage1_20261106/profile_snapshot_threads2.npz",
+    "bytes": 63939408,
+    "sha256": "c6cb69de3d5f1367c891e30a302b96dd4a7a38b8cbbfe0f73d483cdfb486e177",
+    "reason": "large generated restart/diagnostic state; retained in workspace; metadata and raw CSV published"
   }
 ]

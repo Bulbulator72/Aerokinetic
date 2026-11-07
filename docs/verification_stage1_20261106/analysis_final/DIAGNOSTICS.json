@@ -1,0 +1,1588 @@
+{
+  "baseline_3_6": {
+    "cl": {
+      "samples": 600,
+      "sample_dt_t_star": 0.004999999999999893,
+      "selected_t_first": 3.004375,
+      "selected_t_last": 5.999375000000001,
+      "selected_interval_t_star": 2.9950000000000006,
+      "mean": 0.2028590620714373,
+      "rms_fluctuation": 0.17850766666513387,
+      "minimum": -0.16538899249494482,
+      "maximum": 0.6075292982055811,
+      "first_half_mean": 0.24905791422738097,
+      "last_half_mean": 0.15666020991549362,
+      "first_half_rms_fluctuation": 0.1698182182510781,
+      "last_half_rms_fluctuation": 0.17499451130088853,
+      "last_minus_first_half_mean": -0.09239770431188735,
+      "blocks": [
+        {
+          "t_first": 3.004375,
+          "t_last": 3.374375,
+          "samples": 75,
+          "mean": 0.27672664357140947,
+          "rms_fluctuation": 0.2030716718564338
+        },
+        {
+          "t_first": 3.379375,
+          "t_last": 3.749375,
+          "samples": 75,
+          "mean": 0.22884527274198732,
+          "rms_fluctuation": 0.17446545442716843
+        },
+        {
+          "t_first": 3.754375,
+          "t_last": 4.124375,
+          "samples": 75,
+          "mean": 0.25624997437114727,
+          "rms_fluctuation": 0.15883320523947167
+        },
+        {
+          "t_first": 4.1293750000000005,
+          "t_last": 4.499375,
+          "samples": 75,
+          "mean": 0.2344097662249798,
+          "rms_fluctuation": 0.13041556573450724
+        },
+        {
+          "t_first": 4.5043750000000005,
+          "t_last": 4.874375,
+          "samples": 75,
+          "mean": 0.21440315998926698,
+          "rms_fluctuation": 0.164006236812907
+        },
+        {
+          "t_first": 4.8793750000000005,
+          "t_last": 5.249375,
+          "samples": 75,
+          "mean": 0.1821007364066994,
+          "rms_fluctuation": 0.17167205745596922
+        },
+        {
+          "t_first": 5.2543750000000005,
+          "t_last": 5.624375,
+          "samples": 75,
+          "mean": 0.09783674418563884,
+          "rms_fluctuation": 0.18152885883327718
+        },
+        {
+          "t_first": 5.6293750000000005,
+          "t_last": 5.999375000000001,
+          "samples": 75,
+          "mean": 0.13230019908036925,
+          "rms_fluctuation": 0.15854074999194248
+        }
+      ],
+      "block_mean_range": 0.17888989938577063,
+      "correlation": {
+        "status": "heuristic_requires_stationarity",
+        "tau_samples": 13.630679299537315,
+        "effective_samples_heuristic": 44.01834910901078,
+        "correlation_span_t_star": 0.06815339649768512,
+        "last_positive_pair_lag": 12,
+        "positive_tail_reached_half_record": false
+      },
+      "confidence_interval": null,
+      "temporal_convergence": "not_certified",
+      "hann_peak_frequency_per_t_star": 6.000000000000128,
+      "frequency_bin_width": 0.3333333333333404
+    },
+    "cd": {
+      "samples": 600,
+      "sample_dt_t_star": 0.004999999999999893,
+      "selected_t_first": 3.004375,
+      "selected_t_last": 5.999375000000001,
+      "selected_interval_t_star": 2.9950000000000006,
+      "mean": 0.07444551967594125,
+      "rms_fluctuation": 0.009898750976411196,
+      "minimum": 0.05285609401912285,
+      "maximum": 0.09240293038099359,
+      "first_half_mean": 0.07372695357378764,
+      "last_half_mean": 0.07516408577809487,
+      "first_half_rms_fluctuation": 0.010165758572401805,
+      "last_half_rms_fluctuation": 0.009570539167012167,
+      "last_minus_first_half_mean": 0.0014371322043072315,
+      "blocks": [
+        {
+          "t_first": 3.004375,
+          "t_last": 3.374375,
+          "samples": 75,
+          "mean": 0.0730110063528383,
+          "rms_fluctuation": 0.011973973678425754
+        },
+        {
+          "t_first": 3.379375,
+          "t_last": 3.749375,
+          "samples": 75,
+          "mean": 0.07159714323613821,
+          "rms_fluctuation": 0.01052685418058671
+        },
+        {
+          "t_first": 3.754375,
+          "t_last": 4.124375,
+          "samples": 75,
+          "mean": 0.07476685586160534,
+          "rms_fluctuation": 0.009204208114308922
+        },
+        {
+          "t_first": 4.1293750000000005,
+          "t_last": 4.499375,
+          "samples": 75,
+          "mean": 0.07553280884456873,
+          "rms_fluctuation": 0.008066675602886523
+        },
+        {
+          "t_first": 4.5043750000000005,
+          "t_last": 4.874375,
+          "samples": 75,
+          "mean": 0.07613814060567303,
+          "rms_fluctuation": 0.009585025518720845
+        },
+        {
+          "t_first": 4.8793750000000005,
+          "t_last": 5.249375,
+          "samples": 75,
+          "mean": 0.07583830867830549,
+          "rms_fluctuation": 0.009995738928175076
+        },
+        {
+          "t_first": 5.2543750000000005,
+          "t_last": 5.624375,
+          "samples": 75,
+          "mean": 0.07238433654598748,
+          "rms_fluctuation": 0.009744886003027208
+        },
+        {
+          "t_first": 5.6293750000000005,
+          "t_last": 5.999375000000001,
+          "samples": 75,
+          "mean": 0.07629555728241347,
+          "rms_fluctuation": 0.008319854131997298
+        }
+      ],
+      "block_mean_range": 0.004698414046275259,
+      "correlation": {
+        "status": "heuristic_requires_stationarity",
+        "tau_samples": 12.840498397495402,
+        "effective_samples_heuristic": 46.72715820104247,
+        "correlation_span_t_star": 0.06420249198747564,
+        "last_positive_pair_lag": 10,
+        "positive_tail_reached_half_record": false
+      },
+      "confidence_interval": null,
+      "temporal_convergence": "not_certified",
+      "hann_peak_frequency_per_t_star": 6.000000000000128,
+      "frequency_bin_width": 0.3333333333333404
+    },
+    "cm": {
+      "samples": 600,
+      "sample_dt_t_star": 0.004999999999999893,
+      "selected_t_first": 3.004375,
+      "selected_t_last": 5.999375000000001,
+      "selected_interval_t_star": 2.9950000000000006,
+      "mean": 0.01699828806834457,
+      "rms_fluctuation": 0.03819908221246668,
+      "minimum": -0.06419894008054368,
+      "maximum": 0.09429607257745602,
+      "first_half_mean": 0.013292413700567544,
+      "last_half_mean": 0.0207041624361216,
+      "first_half_rms_fluctuation": 0.038171451778025355,
+      "last_half_rms_fluctuation": 0.037865723593349804,
+      "last_minus_first_half_mean": 0.007411748735554054,
+      "blocks": [
+        {
+          "t_first": 3.004375,
+          "t_last": 3.374375,
+          "samples": 75,
+          "mean": 0.010420436422601952,
+          "rms_fluctuation": 0.045974648246630244
+        },
+        {
+          "t_first": 3.379375,
+          "t_last": 3.749375,
+          "samples": 75,
+          "mean": 0.019511923603967585,
+          "rms_fluctuation": 0.038585887662974494
+        },
+        {
+          "t_first": 3.754375,
+          "t_last": 4.124375,
+          "samples": 75,
+          "mean": 0.009934580547535472,
+          "rms_fluctuation": 0.036179986850347845
+        },
+        {
+          "t_first": 4.1293750000000005,
+          "t_last": 4.499375,
+          "samples": 75,
+          "mean": 0.013302714228165166,
+          "rms_fluctuation": 0.029300217750520833
+        },
+        {
+          "t_first": 4.5043750000000005,
+          "t_last": 4.874375,
+          "samples": 75,
+          "mean": 0.014163111477066422,
+          "rms_fluctuation": 0.03579029306057891
+        },
+        {
+          "t_first": 4.8793750000000005,
+          "t_last": 5.249375,
+          "samples": 75,
+          "mean": 0.01329172797111041,
+          "rms_fluctuation": 0.036987219097010166
+        },
+        {
+          "t_first": 5.2543750000000005,
+          "t_last": 5.624375,
+          "samples": 75,
+          "mean": 0.0293778318365739,
+          "rms_fluctuation": 0.04180748508535453
+        },
+        {
+          "t_first": 5.6293750000000005,
+          "t_last": 5.999375000000001,
+          "samples": 75,
+          "mean": 0.025983978459735654,
+          "rms_fluctuation": 0.03372755993959208
+        }
+      ],
+      "block_mean_range": 0.019443251289038427,
+      "correlation": {
+        "status": "heuristic_requires_stationarity",
+        "tau_samples": 13.083308336396463,
+        "effective_samples_heuristic": 45.85996023122528,
+        "correlation_span_t_star": 0.06541654168198092,
+        "last_positive_pair_lag": 10,
+        "positive_tail_reached_half_record": false
+      },
+      "confidence_interval": null,
+      "temporal_convergence": "not_certified",
+      "hann_peak_frequency_per_t_star": 6.000000000000128,
+      "frequency_bin_width": 0.3333333333333404
+    }
+  },
+  "baseline_6_12": {
+    "cl": {
+      "samples": 600,
+      "sample_dt_t_star": 0.009999999999999787,
+      "selected_t_first": 6.009375,
+      "selected_t_last": 11.999375,
+      "selected_interval_t_star": 5.99,
+      "mean": 0.09243545156398514,
+      "rms_fluctuation": 0.1885644018024623,
+      "minimum": -0.4553942911392298,
+      "maximum": 0.7282412587398668,
+      "first_half_mean": 0.08482059658617536,
+      "last_half_mean": 0.1000503065417949,
+      "first_half_rms_fluctuation": 0.14307685926126762,
+      "last_half_rms_fluctuation": 0.22478013160754703,
+      "last_minus_first_half_mean": 0.01522970995561955,
+      "blocks": [
+        {
+          "t_first": 6.009375,
+          "t_last": 6.749375000000001,
+          "samples": 75,
+          "mean": 0.11715013322751137,
+          "rms_fluctuation": 0.17049556041159922
+        },
+        {
+          "t_first": 6.759375,
+          "t_last": 7.499375000000001,
+          "samples": 75,
+          "mean": 0.09933537163848612,
+          "rms_fluctuation": 0.17564854621061554
+        },
+        {
+          "t_first": 7.509375,
+          "t_last": 8.249375,
+          "samples": 75,
+          "mean": 0.07828402523838915,
+          "rms_fluctuation": 0.07376477957454085
+        },
+        {
+          "t_first": 8.259375,
+          "t_last": 8.999375,
+          "samples": 75,
+          "mean": 0.04451285624031485,
+          "rms_fluctuation": 0.1166114989252306
+        },
+        {
+          "t_first": 9.009375,
+          "t_last": 9.749375,
+          "samples": 75,
+          "mean": 0.08891402799254347,
+          "rms_fluctuation": 0.14063616039195448
+        },
+        {
+          "t_first": 9.759375,
+          "t_last": 10.499375,
+          "samples": 75,
+          "mean": 0.07902786674904504,
+          "rms_fluctuation": 0.09664816333331563
+        },
+        {
+          "t_first": 10.509375,
+          "t_last": 11.249375,
+          "samples": 75,
+          "mean": 0.049179344074133505,
+          "rms_fluctuation": 0.137674682957026
+        },
+        {
+          "t_first": 11.259375,
+          "t_last": 11.999375,
+          "samples": 75,
+          "mean": 0.18307998735145758,
+          "rms_fluctuation": 0.3794508827986901
+        }
+      ],
+      "block_mean_range": 0.13856713111114274,
+      "correlation": {
+        "status": "heuristic_requires_stationarity",
+        "tau_samples": 15.257545171016563,
+        "effective_samples_heuristic": 39.32480574527599,
+        "correlation_span_t_star": 0.15257545171016237,
+        "last_positive_pair_lag": 12,
+        "positive_tail_reached_half_record": false
+      },
+      "confidence_interval": null,
+      "temporal_convergence": "not_certified",
+      "hann_peak_frequency_per_t_star": 2.0000000000000426,
+      "frequency_bin_width": 0.1666666666666702
+    },
+    "cd": {
+      "samples": 600,
+      "sample_dt_t_star": 0.009999999999999787,
+      "selected_t_first": 6.009375,
+      "selected_t_last": 11.999375,
+      "selected_interval_t_star": 5.99,
+      "mean": 0.07583910464471183,
+      "rms_fluctuation": 0.010958969052187358,
+      "minimum": 0.04850776888674507,
+      "maximum": 0.10966022348501415,
+      "first_half_mean": 0.07566505503777814,
+      "last_half_mean": 0.07601315425164552,
+      "first_half_rms_fluctuation": 0.008723509581396727,
+      "last_half_rms_fluctuation": 0.012807724209457843,
+      "last_minus_first_half_mean": 0.0003480992138673866,
+      "blocks": [
+        {
+          "t_first": 6.009375,
+          "t_last": 6.749375000000001,
+          "samples": 75,
+          "mean": 0.075828477265637,
+          "rms_fluctuation": 0.010233545783650305
+        },
+        {
+          "t_first": 6.759375,
+          "t_last": 7.499375000000001,
+          "samples": 75,
+          "mean": 0.07645347138667326,
+          "rms_fluctuation": 0.010833573172458439
+        },
+        {
+          "t_first": 7.509375,
+          "t_last": 8.249375,
+          "samples": 75,
+          "mean": 0.07577768462160415,
+          "rms_fluctuation": 0.005005983874257597
+        },
+        {
+          "t_first": 8.259375,
+          "t_last": 8.999375,
+          "samples": 75,
+          "mean": 0.07460058687719814,
+          "rms_fluctuation": 0.007446660397565605
+        },
+        {
+          "t_first": 9.009375,
+          "t_last": 9.749375,
+          "samples": 75,
+          "mean": 0.07624067607986014,
+          "rms_fluctuation": 0.008167812664178088
+        },
+        {
+          "t_first": 9.759375,
+          "t_last": 10.499375,
+          "samples": 75,
+          "mean": 0.07429640889095875,
+          "rms_fluctuation": 0.005635908464953175
+        },
+        {
+          "t_first": 10.509375,
+          "t_last": 11.249375,
+          "samples": 75,
+          "mean": 0.07237742843664245,
+          "rms_fluctuation": 0.008288449721719778
+        },
+        {
+          "t_first": 11.259375,
+          "t_last": 11.999375,
+          "samples": 75,
+          "mean": 0.08113810359912076,
+          "rms_fluctuation": 0.021130394746393034
+        }
+      ],
+      "block_mean_range": 0.008760675162478304,
+      "correlation": {
+        "status": "heuristic_requires_stationarity",
+        "tau_samples": 13.470215993951872,
+        "effective_samples_heuristic": 44.542715593380244,
+        "correlation_span_t_star": 0.13470215993951584,
+        "last_positive_pair_lag": 12,
+        "positive_tail_reached_half_record": false
+      },
+      "confidence_interval": null,
+      "temporal_convergence": "not_certified",
+      "hann_peak_frequency_per_t_star": 1.666666666666702,
+      "frequency_bin_width": 0.1666666666666702
+    },
+    "cm": {
+      "samples": 600,
+      "sample_dt_t_star": 0.009999999999999787,
+      "selected_t_first": 6.009375,
+      "selected_t_last": 11.999375,
+      "selected_interval_t_star": 5.99,
+      "mean": 0.019699549041006025,
+      "rms_fluctuation": 0.041439205139555145,
+      "minimum": -0.11417685335129589,
+      "maximum": 0.13356548292514586,
+      "first_half_mean": 0.022534589513711855,
+      "last_half_mean": 0.016864508568300192,
+      "first_half_rms_fluctuation": 0.031572101246495746,
+      "last_half_rms_fluctuation": 0.049209175558157126,
+      "last_minus_first_half_mean": -0.005670080945411663,
+      "blocks": [
+        {
+          "t_first": 6.009375,
+          "t_last": 6.749375000000001,
+          "samples": 75,
+          "mean": 0.017263248518182978,
+          "rms_fluctuation": 0.038531439812762885
+        },
+        {
+          "t_first": 6.759375,
+          "t_last": 7.499375000000001,
+          "samples": 75,
+          "mean": 0.022419088625559608,
+          "rms_fluctuation": 0.039330046902174974
+        },
+        {
+          "t_first": 7.509375,
+          "t_last": 8.249375,
+          "samples": 75,
+          "mean": 0.02192256356233109,
+          "rms_fluctuation": 0.01620414150218576
+        },
+        {
+          "t_first": 8.259375,
+          "t_last": 8.999375,
+          "samples": 75,
+          "mean": 0.02853345734877374,
+          "rms_fluctuation": 0.025078482726576392
+        },
+        {
+          "t_first": 9.009375,
+          "t_last": 9.749375,
+          "samples": 75,
+          "mean": 0.01664094242923486,
+          "rms_fluctuation": 0.0325599240013916
+        },
+        {
+          "t_first": 9.759375,
+          "t_last": 10.499375,
+          "samples": 75,
+          "mean": 0.02371046886988731,
+          "rms_fluctuation": 0.01970345134374673
+        },
+        {
+          "t_first": 10.509375,
+          "t_last": 11.249375,
+          "samples": 75,
+          "mean": 0.029217271991536387,
+          "rms_fluctuation": 0.029228910234851746
+        },
+        {
+          "t_first": 11.259375,
+          "t_last": 11.999375,
+          "samples": 75,
+          "mean": -0.0021106490174577944,
+          "rms_fluctuation": 0.08260692146086229
+        }
+      ],
+      "block_mean_range": 0.03132792100899418,
+      "correlation": {
+        "status": "heuristic_requires_stationarity",
+        "tau_samples": 15.469500193740352,
+        "effective_samples_heuristic": 38.78599776887341,
+        "correlation_span_t_star": 0.1546950019374002,
+        "last_positive_pair_lag": 12,
+        "positive_tail_reached_half_record": false
+      },
+      "confidence_interval": null,
+      "temporal_convergence": "not_certified",
+      "hann_peak_frequency_per_t_star": 1.666666666666702,
+      "frequency_bin_width": 0.1666666666666702
+    }
+  },
+  "baseline_12_18": {
+    "cl": {
+      "samples": 600,
+      "sample_dt_t_star": 0.009999999999999787,
+      "selected_t_first": 12.009375,
+      "selected_t_last": 17.999375,
+      "selected_interval_t_star": 5.99,
+      "mean": 0.10618086375052063,
+      "rms_fluctuation": 0.3810717422085062,
+      "minimum": -0.7021845971300582,
+      "maximum": 0.901131674563984,
+      "first_half_mean": 0.07965047587434892,
+      "last_half_mean": 0.13271125162669237,
+      "first_half_rms_fluctuation": 0.29657518310947933,
+      "last_half_rms_fluctuation": 0.44840470918748276,
+      "last_minus_first_half_mean": 0.05306077575234344,
+      "blocks": [
+        {
+          "t_first": 12.009375,
+          "t_last": 12.749375,
+          "samples": 75,
+          "mean": 0.01498319684938276,
+          "rms_fluctuation": 0.2667378556222263
+        },
+        {
+          "t_first": 12.759375,
+          "t_last": 13.499375,
+          "samples": 75,
+          "mean": 0.14319122581904906,
+          "rms_fluctuation": 0.2995011900508598
+        },
+        {
+          "t_first": 13.509375,
+          "t_last": 14.249375,
+          "samples": 75,
+          "mean": 0.12365072883044313,
+          "rms_fluctuation": 0.16710398257226608
+        },
+        {
+          "t_first": 14.259375,
+          "t_last": 14.999375,
+          "samples": 75,
+          "mean": 0.03677675199852073,
+          "rms_fluctuation": 0.388664517484088
+        },
+        {
+          "t_first": 15.009375,
+          "t_last": 15.749375,
+          "samples": 75,
+          "mean": 0.12506905116685502,
+          "rms_fluctuation": 0.37961116292482
+        },
+        {
+          "t_first": 15.759375,
+          "t_last": 16.499375,
+          "samples": 75,
+          "mean": 0.2333177981650078,
+          "rms_fluctuation": 0.49357803593440236
+        },
+        {
+          "t_first": 16.509375,
+          "t_last": 17.249375,
+          "samples": 75,
+          "mean": 0.07394361263683484,
+          "rms_fluctuation": 0.38798908397739357
+        },
+        {
+          "t_first": 17.259375000000002,
+          "t_last": 17.999375,
+          "samples": 75,
+          "mean": 0.09851454453807175,
+          "rms_fluctuation": 0.5012031129432944
+        }
+      ],
+      "block_mean_range": 0.21833460131562504,
+      "correlation": {
+        "status": "heuristic_requires_stationarity",
+        "tau_samples": 14.247445192315515,
+        "effective_samples_heuristic": 42.11281334309784,
+        "correlation_span_t_star": 0.1424744519231521,
+        "last_positive_pair_lag": 10,
+        "positive_tail_reached_half_record": false
+      },
+      "confidence_interval": null,
+      "temporal_convergence": "not_certified",
+      "hann_peak_frequency_per_t_star": 2.3333333333333828,
+      "frequency_bin_width": 0.1666666666666702
+    },
+    "cd": {
+      "samples": 600,
+      "sample_dt_t_star": 0.009999999999999787,
+      "selected_t_first": 12.009375,
+      "selected_t_last": 17.999375,
+      "selected_interval_t_star": 5.99,
+      "mean": 0.07646552876325158,
+      "rms_fluctuation": 0.02087811053990587,
+      "minimum": 0.03141038023320793,
+      "maximum": 0.12233503602068439,
+      "first_half_mean": 0.07550354950662358,
+      "last_half_mean": 0.07742750801987958,
+      "first_half_rms_fluctuation": 0.016325403912277853,
+      "last_half_rms_fluctuation": 0.024564636743776104,
+      "last_minus_first_half_mean": 0.0019239585132559966,
+      "blocks": [
+        {
+          "t_first": 12.009375,
+          "t_last": 12.749375,
+          "samples": 75,
+          "mean": 0.07262884204653249,
+          "rms_fluctuation": 0.013806935520819281
+        },
+        {
+          "t_first": 12.759375,
+          "t_last": 13.499375,
+          "samples": 75,
+          "mean": 0.07938079661607193,
+          "rms_fluctuation": 0.016213150640750226
+        },
+        {
+          "t_first": 13.509375,
+          "t_last": 14.249375,
+          "samples": 75,
+          "mean": 0.07738092626160102,
+          "rms_fluctuation": 0.009083967900936275
+        },
+        {
+          "t_first": 14.259375,
+          "t_last": 14.999375,
+          "samples": 75,
+          "mean": 0.07262363310228889,
+          "rms_fluctuation": 0.022247328075303607
+        },
+        {
+          "t_first": 15.009375,
+          "t_last": 15.749375,
+          "samples": 75,
+          "mean": 0.0770489037273695,
+          "rms_fluctuation": 0.02101476139993427
+        },
+        {
+          "t_first": 15.759375,
+          "t_last": 16.499375,
+          "samples": 75,
+          "mean": 0.08281367987125687,
+          "rms_fluctuation": 0.02748460607346543
+        },
+        {
+          "t_first": 16.509375,
+          "t_last": 17.249375,
+          "samples": 75,
+          "mean": 0.07390234330627635,
+          "rms_fluctuation": 0.02058561489728423
+        },
+        {
+          "t_first": 17.259375000000002,
+          "t_last": 17.999375,
+          "samples": 75,
+          "mean": 0.07594510517461553,
+          "rms_fluctuation": 0.027369978299755987
+        }
+      ],
+      "block_mean_range": 0.01019004676896798,
+      "correlation": {
+        "status": "heuristic_requires_stationarity",
+        "tau_samples": 14.066287332233761,
+        "effective_samples_heuristic": 42.65517871407782,
+        "correlation_span_t_star": 0.14066287332233463,
+        "last_positive_pair_lag": 10,
+        "positive_tail_reached_half_record": false
+      },
+      "confidence_interval": null,
+      "temporal_convergence": "not_certified",
+      "hann_peak_frequency_per_t_star": 2.3333333333333828,
+      "frequency_bin_width": 0.1666666666666702
+    },
+    "cm": {
+      "samples": 600,
+      "sample_dt_t_star": 0.009999999999999787,
+      "selected_t_first": 12.009375,
+      "selected_t_last": 17.999375,
+      "selected_interval_t_star": 5.99,
+      "mean": 0.022289572034612515,
+      "rms_fluctuation": 0.08203977593676952,
+      "minimum": -0.1526594460318374,
+      "maximum": 0.19753980346399605,
+      "first_half_mean": 0.025519126702142902,
+      "last_half_mean": 0.019060017367082124,
+      "first_half_rms_fluctuation": 0.06431643646136369,
+      "last_half_rms_fluctuation": 0.0964550964217077,
+      "last_minus_first_half_mean": -0.006459109335060779,
+      "blocks": [
+        {
+          "t_first": 12.009375,
+          "t_last": 12.749375,
+          "samples": 75,
+          "mean": 0.03685403416017904,
+          "rms_fluctuation": 0.05870693633307801
+        },
+        {
+          "t_first": 12.759375,
+          "t_last": 13.499375,
+          "samples": 75,
+          "mean": 0.015397776175781874,
+          "rms_fluctuation": 0.06526667102756692
+        },
+        {
+          "t_first": 13.509375,
+          "t_last": 14.249375,
+          "samples": 75,
+          "mean": 0.016599992016020866,
+          "rms_fluctuation": 0.03148152274981499
+        },
+        {
+          "t_first": 14.259375,
+          "t_last": 14.999375,
+          "samples": 75,
+          "mean": 0.03322470445658983,
+          "rms_fluctuation": 0.08648258926183909
+        },
+        {
+          "t_first": 15.009375,
+          "t_last": 15.749375,
+          "samples": 75,
+          "mean": 0.020586829914164488,
+          "rms_fluctuation": 0.07987257948349559
+        },
+        {
+          "t_first": 15.759375,
+          "t_last": 16.499375,
+          "samples": 75,
+          "mean": -0.0033858439231463566,
+          "rms_fluctuation": 0.1061593429871086
+        },
+        {
+          "t_first": 16.509375,
+          "t_last": 17.249375,
+          "samples": 75,
+          "mean": 0.026390033671687133,
+          "rms_fluctuation": 0.08505439576225143
+        },
+        {
+          "t_first": 17.259375000000002,
+          "t_last": 17.999375,
+          "samples": 75,
+          "mean": 0.03264904980562323,
+          "rms_fluctuation": 0.10763883323570793
+        }
+      ],
+      "block_mean_range": 0.040239878083325395,
+      "correlation": {
+        "status": "heuristic_requires_stationarity",
+        "tau_samples": 14.328264785943784,
+        "effective_samples_heuristic": 41.87527303296404,
+        "correlation_span_t_star": 0.1432826478594348,
+        "last_positive_pair_lag": 10,
+        "positive_tail_reached_half_record": false
+      },
+      "confidence_interval": null,
+      "temporal_convergence": "not_certified",
+      "hann_peak_frequency_per_t_star": 2.3333333333333828,
+      "frequency_bin_width": 0.1666666666666702
+    }
+  },
+  "baseline_18_24": {
+    "cl": {
+      "samples": 600,
+      "sample_dt_t_star": 0.010000000000001563,
+      "selected_t_first": 18.009375000000002,
+      "selected_t_last": 23.999375,
+      "selected_interval_t_star": 5.989999999999998,
+      "mean": 0.15029036796264422,
+      "rms_fluctuation": 0.6249996944727941,
+      "minimum": -1.1078053963565055,
+      "maximum": 1.4169039124933165,
+      "first_half_mean": 0.14976295259367114,
+      "last_half_mean": 0.15081778333161727,
+      "first_half_rms_fluctuation": 0.4877785348448657,
+      "last_half_rms_fluctuation": 0.7371029648514685,
+      "last_minus_first_half_mean": 0.0010548307379461275,
+      "blocks": [
+        {
+          "t_first": 18.009375000000002,
+          "t_last": 18.749375,
+          "samples": 75,
+          "mean": 0.16745613009722626,
+          "rms_fluctuation": 0.30651768767336135
+        },
+        {
+          "t_first": 18.759375000000002,
+          "t_last": 19.499375,
+          "samples": 75,
+          "mean": 0.12858849480356135,
+          "rms_fluctuation": 0.46496411492974976
+        },
+        {
+          "t_first": 19.509375000000002,
+          "t_last": 20.249375,
+          "samples": 75,
+          "mean": 0.07059054902399071,
+          "rms_fluctuation": 0.4016629489156278
+        },
+        {
+          "t_first": 20.259375000000002,
+          "t_last": 20.999375,
+          "samples": 75,
+          "mean": 0.23241663644990623,
+          "rms_fluctuation": 0.6829146678217588
+        },
+        {
+          "t_first": 21.009375000000002,
+          "t_last": 21.749375,
+          "samples": 75,
+          "mean": 0.20507874957481576,
+          "rms_fluctuation": 0.6857927393199478
+        },
+        {
+          "t_first": 21.759375000000002,
+          "t_last": 22.499375,
+          "samples": 75,
+          "mean": -0.07515772979044891,
+          "rms_fluctuation": 0.8203039449419464
+        },
+        {
+          "t_first": 22.509375000000002,
+          "t_last": 23.249375,
+          "samples": 75,
+          "mean": 0.22328060311024903,
+          "rms_fluctuation": 0.6742968266908831
+        },
+        {
+          "t_first": 23.259375000000002,
+          "t_last": 23.999375,
+          "samples": 75,
+          "mean": 0.25006951043185327,
+          "rms_fluctuation": 0.7115375736554971
+        }
+      ],
+      "block_mean_range": 0.3252272402223022,
+      "correlation": {
+        "status": "heuristic_requires_stationarity",
+        "tau_samples": 14.101088865342348,
+        "effective_samples_heuristic": 42.549905594501986,
+        "correlation_span_t_star": 0.14101088865344552,
+        "last_positive_pair_lag": 10,
+        "positive_tail_reached_half_record": false
+      },
+      "confidence_interval": null,
+      "temporal_convergence": "not_certified",
+      "hann_peak_frequency_per_t_star": 2.333333333332969,
+      "frequency_bin_width": 0.16666666666664062
+    },
+    "cd": {
+      "samples": 600,
+      "sample_dt_t_star": 0.010000000000001563,
+      "selected_t_first": 18.009375000000002,
+      "selected_t_last": 23.999375,
+      "selected_interval_t_star": 5.989999999999998,
+      "mean": 0.07805058981213123,
+      "rms_fluctuation": 0.0344131077787194,
+      "minimum": 0.010183920872541618,
+      "maximum": 0.15146710186156026,
+      "first_half_mean": 0.07817280611323113,
+      "last_half_mean": 0.0779283735110313,
+      "first_half_rms_fluctuation": 0.027143593940094978,
+      "last_half_rms_fluctuation": 0.04039454676495635,
+      "last_minus_first_half_mean": -0.0002444326021998344,
+      "blocks": [
+        {
+          "t_first": 18.009375000000002,
+          "t_last": 18.749375,
+          "samples": 75,
+          "mean": 0.07895186432501564,
+          "rms_fluctuation": 0.0173231970279136
+        },
+        {
+          "t_first": 18.759375000000002,
+          "t_last": 19.499375,
+          "samples": 75,
+          "mean": 0.07720194394148704,
+          "rms_fluctuation": 0.025775052790926133
+        },
+        {
+          "t_first": 19.509375000000002,
+          "t_last": 20.249375,
+          "samples": 75,
+          "mean": 0.07401610349974205,
+          "rms_fluctuation": 0.022546906083854987
+        },
+        {
+          "t_first": 20.259375000000002,
+          "t_last": 20.999375,
+          "samples": 75,
+          "mean": 0.08252131268667981,
+          "rms_fluctuation": 0.037901874640335884
+        },
+        {
+          "t_first": 21.009375000000002,
+          "t_last": 21.749375,
+          "samples": 75,
+          "mean": 0.08079355867970318,
+          "rms_fluctuation": 0.03764039944919197
+        },
+        {
+          "t_first": 21.759375000000002,
+          "t_last": 22.499375,
+          "samples": 75,
+          "mean": 0.06542833331666616,
+          "rms_fluctuation": 0.04482949235581147
+        },
+        {
+          "t_first": 22.509375000000002,
+          "t_last": 23.249375,
+          "samples": 75,
+          "mean": 0.08172675202194567,
+          "rms_fluctuation": 0.03655751615259634
+        },
+        {
+          "t_first": 23.259375000000002,
+          "t_last": 23.999375,
+          "samples": 75,
+          "mean": 0.08376485002581022,
+          "rms_fluctuation": 0.039382612435336056
+        }
+      ],
+      "block_mean_range": 0.01833651670914406,
+      "correlation": {
+        "status": "heuristic_requires_stationarity",
+        "tau_samples": 13.995391650369694,
+        "effective_samples_heuristic": 42.87125469505177,
+        "correlation_span_t_star": 0.13995391650371883,
+        "last_positive_pair_lag": 10,
+        "positive_tail_reached_half_record": false
+      },
+      "confidence_interval": null,
+      "temporal_convergence": "not_certified",
+      "hann_peak_frequency_per_t_star": 2.333333333332969,
+      "frequency_bin_width": 0.16666666666664062
+    },
+    "cm": {
+      "samples": 600,
+      "sample_dt_t_star": 0.010000000000001563,
+      "selected_t_first": 18.009375000000002,
+      "selected_t_last": 23.999375,
+      "selected_interval_t_star": 5.989999999999998,
+      "mean": 0.015026133199984736,
+      "rms_fluctuation": 0.13306692997717667,
+      "minimum": -0.25186477884016273,
+      "maximum": 0.2875798888189463,
+      "first_half_mean": 0.016283945689723633,
+      "last_half_mean": 0.013768320710245835,
+      "first_half_rms_fluctuation": 0.10456027550841107,
+      "last_half_rms_fluctuation": 0.1564531888719056,
+      "last_minus_first_half_mean": -0.0025156249794777985,
+      "blocks": [
+        {
+          "t_first": 18.009375000000002,
+          "t_last": 18.749375,
+          "samples": 75,
+          "mean": 0.01300455714026779,
+          "rms_fluctuation": 0.06447037137798255
+        },
+        {
+          "t_first": 18.759375000000002,
+          "t_last": 19.499375,
+          "samples": 75,
+          "mean": 0.012442103155586083,
+          "rms_fluctuation": 0.10295738942823131
+        },
+        {
+          "t_first": 19.509375000000002,
+          "t_last": 20.249375,
+          "samples": 75,
+          "mean": 0.033440368963751986,
+          "rms_fluctuation": 0.08256912023260961
+        },
+        {
+          "t_first": 20.259375000000002,
+          "t_last": 20.999375,
+          "samples": 75,
+          "mean": 0.0062487534992886696,
+          "rms_fluctuation": 0.1474331385168501
+        },
+        {
+          "t_first": 21.009375000000002,
+          "t_last": 21.749375,
+          "samples": 75,
+          "mean": -0.0020162576481167274,
+          "rms_fluctuation": 0.13940004816058457
+        },
+        {
+          "t_first": 21.759375000000002,
+          "t_last": 22.499375,
+          "samples": 75,
+          "mean": 0.06363128844011354,
+          "rms_fluctuation": 0.17618741686699838
+        },
+        {
+          "t_first": 22.509375000000002,
+          "t_last": 23.249375,
+          "samples": 75,
+          "mean": 0.005699690686187068,
+          "rms_fluctuation": 0.1476055852664148
+        },
+        {
+          "t_first": 23.259375000000002,
+          "t_last": 23.999375,
+          "samples": 75,
+          "mean": -0.012241438637200555,
+          "rms_fluctuation": 0.14890108899841767
+        }
+      ],
+      "block_mean_range": 0.07587272707731409,
+      "correlation": {
+        "status": "heuristic_requires_stationarity",
+        "tau_samples": 14.162612116950806,
+        "effective_samples_heuristic": 42.36506620709311,
+        "correlation_span_t_star": 0.1416261211695302,
+        "last_positive_pair_lag": 10,
+        "positive_tail_reached_half_record": false
+      },
+      "confidence_interval": null,
+      "temporal_convergence": "not_certified",
+      "hann_peak_frequency_per_t_star": 2.333333333332969,
+      "frequency_bin_width": 0.16666666666664062
+    }
+  },
+  "transverse3": {
+    "cl": {
+      "samples": 600,
+      "sample_dt_t_star": 0.009999999999999787,
+      "selected_t_first": 6.009375,
+      "selected_t_last": 11.999375,
+      "selected_interval_t_star": 5.99,
+      "mean": 0.07652806281186632,
+      "rms_fluctuation": 0.17418760948628478,
+      "minimum": -0.33966646173313964,
+      "maximum": 0.4586263158312072,
+      "first_half_mean": 0.0835078562603637,
+      "last_half_mean": 0.0695482693633689,
+      "first_half_rms_fluctuation": 0.05255106757410068,
+      "last_half_rms_fluctuation": 0.2404653755964626,
+      "last_minus_first_half_mean": -0.013959586896994794,
+      "blocks": [
+        {
+          "t_first": 6.009375,
+          "t_last": 6.749375000000001,
+          "samples": 75,
+          "mean": 0.1009765466540606,
+          "rms_fluctuation": 0.02491750644366506
+        },
+        {
+          "t_first": 6.759375,
+          "t_last": 7.499375000000001,
+          "samples": 75,
+          "mean": 0.07170819014580443,
+          "rms_fluctuation": 0.055158359116970104
+        },
+        {
+          "t_first": 7.509375,
+          "t_last": 8.249375,
+          "samples": 75,
+          "mean": 0.06667114345455855,
+          "rms_fluctuation": 0.06387887509460069
+        },
+        {
+          "t_first": 8.259375,
+          "t_last": 8.999375,
+          "samples": 75,
+          "mean": 0.09467554478703118,
+          "rms_fluctuation": 0.04949789886341356
+        },
+        {
+          "t_first": 9.009375,
+          "t_last": 9.749375,
+          "samples": 75,
+          "mean": 0.08205614174822015,
+          "rms_fluctuation": 0.19498793931690958
+        },
+        {
+          "t_first": 9.759375,
+          "t_last": 10.499375,
+          "samples": 75,
+          "mean": 0.08234692757888754,
+          "rms_fluctuation": 0.25732688604982074
+        },
+        {
+          "t_first": 10.509375,
+          "t_last": 11.249375,
+          "samples": 75,
+          "mean": 0.05581836753281177,
+          "rms_fluctuation": 0.29460612633467503
+        },
+        {
+          "t_first": 11.259375,
+          "t_last": 11.999375,
+          "samples": 75,
+          "mean": 0.05797164059355616,
+          "rms_fluctuation": 0.19905128470887187
+        }
+      ],
+      "block_mean_range": 0.04515817912124883,
+      "correlation": {
+        "status": "heuristic_requires_stationarity",
+        "tau_samples": 21.278811210654464,
+        "effective_samples_heuristic": 28.19706392712274,
+        "correlation_span_t_star": 0.2127881121065401,
+        "last_positive_pair_lag": 18,
+        "positive_tail_reached_half_record": false
+      },
+      "confidence_interval": null,
+      "temporal_convergence": "not_certified",
+      "hann_peak_frequency_per_t_star": 1.3333333333333617,
+      "frequency_bin_width": 0.1666666666666702
+    },
+    "cd": {
+      "samples": 600,
+      "sample_dt_t_star": 0.009999999999999787,
+      "selected_t_first": 6.009375,
+      "selected_t_last": 11.999375,
+      "selected_interval_t_star": 5.99,
+      "mean": 0.0748798605627545,
+      "rms_fluctuation": 0.011126211091094655,
+      "minimum": 0.05267851482036747,
+      "maximum": 0.10344028137836685,
+      "first_half_mean": 0.07386344567298507,
+      "last_half_mean": 0.07589627545252396,
+      "first_half_rms_fluctuation": 0.005119230668301509,
+      "last_half_rms_fluctuation": 0.014809200700767973,
+      "last_minus_first_half_mean": 0.0020328297795388917,
+      "blocks": [
+        {
+          "t_first": 6.009375,
+          "t_last": 6.749375000000001,
+          "samples": 75,
+          "mean": 0.07220436138778463,
+          "rms_fluctuation": 0.006628814488878668
+        },
+        {
+          "t_first": 6.759375,
+          "t_last": 7.499375000000001,
+          "samples": 75,
+          "mean": 0.07256189956630787,
+          "rms_fluctuation": 0.005174694365987302
+        },
+        {
+          "t_first": 7.509375,
+          "t_last": 8.249375,
+          "samples": 75,
+          "mean": 0.07413558216969986,
+          "rms_fluctuation": 0.00347093877772124
+        },
+        {
+          "t_first": 8.259375,
+          "t_last": 8.999375,
+          "samples": 75,
+          "mean": 0.07655193956814788,
+          "rms_fluctuation": 0.003211135407095123
+        },
+        {
+          "t_first": 9.009375,
+          "t_last": 9.749375,
+          "samples": 75,
+          "mean": 0.07495051853267817,
+          "rms_fluctuation": 0.01187456687714117
+        },
+        {
+          "t_first": 9.759375,
+          "t_last": 10.499375,
+          "samples": 75,
+          "mean": 0.07456388582231688,
+          "rms_fluctuation": 0.016114218559559832
+        },
+        {
+          "t_first": 10.509375,
+          "t_last": 11.249375,
+          "samples": 75,
+          "mean": 0.07705863308797327,
+          "rms_fluctuation": 0.018589953465259743
+        },
+        {
+          "t_first": 11.259375,
+          "t_last": 11.999375,
+          "samples": 75,
+          "mean": 0.07701206436712753,
+          "rms_fluctuation": 0.011212679206338857
+        }
+      ],
+      "block_mean_range": 0.0048542717001886365,
+      "correlation": {
+        "status": "heuristic_requires_stationarity",
+        "tau_samples": 21.053574689574297,
+        "effective_samples_heuristic": 28.49872332118114,
+        "correlation_span_t_star": 0.21053574689573848,
+        "last_positive_pair_lag": 18,
+        "positive_tail_reached_half_record": false
+      },
+      "confidence_interval": null,
+      "temporal_convergence": "not_certified",
+      "hann_peak_frequency_per_t_star": 1.1666666666666914,
+      "frequency_bin_width": 0.1666666666666702
+    },
+    "cm": {
+      "samples": 600,
+      "sample_dt_t_star": 0.009999999999999787,
+      "selected_t_first": 6.009375,
+      "selected_t_last": 11.999375,
+      "selected_interval_t_star": 5.99,
+      "mean": 0.021653128162541148,
+      "rms_fluctuation": 0.034683409278133105,
+      "minimum": -0.06871589779288288,
+      "maximum": 0.1100243687670714,
+      "first_half_mean": 0.02137537525111364,
+      "last_half_mean": 0.021930881073968653,
+      "first_half_rms_fluctuation": 0.010490930309754749,
+      "last_half_rms_fluctuation": 0.047913086377160415,
+      "last_minus_first_half_mean": 0.0005555058228550146,
+      "blocks": [
+        {
+          "t_first": 6.009375,
+          "t_last": 6.749375000000001,
+          "samples": 75,
+          "mean": 0.022759064189560415,
+          "rms_fluctuation": 0.005527893956131793
+        },
+        {
+          "t_first": 6.759375,
+          "t_last": 7.499375000000001,
+          "samples": 75,
+          "mean": 0.023205308470801992,
+          "rms_fluctuation": 0.010469197397498447
+        },
+        {
+          "t_first": 7.509375,
+          "t_last": 8.249375,
+          "samples": 75,
+          "mean": 0.023020969047330392,
+          "rms_fluctuation": 0.012404478997085475
+        },
+        {
+          "t_first": 8.259375,
+          "t_last": 8.999375,
+          "samples": 75,
+          "mean": 0.01651615929676175,
+          "rms_fluctuation": 0.010706187969080697
+        },
+        {
+          "t_first": 9.009375,
+          "t_last": 9.749375,
+          "samples": 75,
+          "mean": 0.018715972338564146,
+          "rms_fluctuation": 0.040216862322580135
+        },
+        {
+          "t_first": 9.759375,
+          "t_last": 10.499375,
+          "samples": 75,
+          "mean": 0.01855196482542976,
+          "rms_fluctuation": 0.051608822162630894
+        },
+        {
+          "t_first": 10.509375,
+          "t_last": 11.249375,
+          "samples": 75,
+          "mean": 0.02432873481142669,
+          "rms_fluctuation": 0.05938063349014793
+        },
+        {
+          "t_first": 11.259375,
+          "t_last": 11.999375,
+          "samples": 75,
+          "mean": 0.026126852320454023,
+          "rms_fluctuation": 0.03647767290443623
+        }
+      ],
+      "block_mean_range": 0.009610693023692274,
+      "correlation": {
+        "status": "heuristic_requires_stationarity",
+        "tau_samples": 20.599793158698738,
+        "effective_samples_heuristic": 29.126506046816115,
+        "correlation_span_t_star": 0.20599793158698299,
+        "last_positive_pair_lag": 18,
+        "positive_tail_reached_half_record": false
+      },
+      "confidence_interval": null,
+      "temporal_convergence": "not_certified",
+      "hann_peak_frequency_per_t_star": 1.3333333333333617,
+      "frequency_bin_width": 0.1666666666666702
+    }
+  },
+  "downstream6": {
+    "cl": {
+      "samples": 600,
+      "sample_dt_t_star": 0.009999999999999787,
+      "selected_t_first": 6.009375,
+      "selected_t_last": 11.999375,
+      "selected_interval_t_star": 5.99,
+      "mean": 0.0903162000656446,
+      "rms_fluctuation": 0.05601384023578415,
+      "minimum": -0.05099721050411136,
+      "maximum": 0.2904539084921138,
+      "first_half_mean": 0.09182771770774023,
+      "last_half_mean": 0.08880468242354896,
+      "first_half_rms_fluctuation": 0.06484381179422721,
+      "last_half_rms_fluctuation": 0.0454511968681795,
+      "last_minus_first_half_mean": -0.003023035284191275,
+      "blocks": [
+        {
+          "t_first": 6.009375,
+          "t_last": 6.749375000000001,
+          "samples": 75,
+          "mean": 0.11756933342257042,
+          "rms_fluctuation": 0.08138595348177806
+        },
+        {
+          "t_first": 6.759375,
+          "t_last": 7.499375000000001,
+          "samples": 75,
+          "mean": 0.08714566835325739,
+          "rms_fluctuation": 0.06552251148616882
+        },
+        {
+          "t_first": 7.509375,
+          "t_last": 8.249375,
+          "samples": 75,
+          "mean": 0.07574665140284989,
+          "rms_fluctuation": 0.05343444267224601
+        },
+        {
+          "t_first": 8.259375,
+          "t_last": 8.999375,
+          "samples": 75,
+          "mean": 0.08684921765228325,
+          "rms_fluctuation": 0.04559417277088771
+        },
+        {
+          "t_first": 9.009375,
+          "t_last": 9.749375,
+          "samples": 75,
+          "mean": 0.07665053983634863,
+          "rms_fluctuation": 0.031099341941826876
+        },
+        {
+          "t_first": 9.759375,
+          "t_last": 10.499375,
+          "samples": 75,
+          "mean": 0.0918987347266966,
+          "rms_fluctuation": 0.030932769514656407
+        },
+        {
+          "t_first": 10.509375,
+          "t_last": 11.249375,
+          "samples": 75,
+          "mean": 0.08425269360388905,
+          "rms_fluctuation": 0.05269013280622058
+        },
+        {
+          "t_first": 11.259375,
+          "t_last": 11.999375,
+          "samples": 75,
+          "mean": 0.10241676152726152,
+          "rms_fluctuation": 0.05656575069224048
+        }
+      ],
+      "block_mean_range": 0.04182268201972053,
+      "correlation": {
+        "status": "heuristic_requires_stationarity",
+        "tau_samples": 8.283033950676458,
+        "effective_samples_heuristic": 72.43722572826098,
+        "correlation_span_t_star": 0.08283033950676282,
+        "last_positive_pair_lag": 6,
+        "positive_tail_reached_half_record": false
+      },
+      "confidence_interval": null,
+      "temporal_convergence": "not_certified",
+      "hann_peak_frequency_per_t_star": 6.1666666666667975,
+      "frequency_bin_width": 0.1666666666666702
+    },
+    "cd": {
+      "samples": 600,
+      "sample_dt_t_star": 0.009999999999999787,
+      "selected_t_first": 6.009375,
+      "selected_t_last": 11.999375,
+      "selected_interval_t_star": 5.99,
+      "mean": 0.07582444533343853,
+      "rms_fluctuation": 0.0035763611903476505,
+      "minimum": 0.06517070926427299,
+      "maximum": 0.08480729249693057,
+      "first_half_mean": 0.07622130193003382,
+      "last_half_mean": 0.07542758873684327,
+      "first_half_rms_fluctuation": 0.003545226064567744,
+      "last_half_rms_fluctuation": 0.0035632991120921726,
+      "last_minus_first_half_mean": -0.0007937131931905483,
+      "blocks": [
+        {
+          "t_first": 6.009375,
+          "t_last": 6.749375000000001,
+          "samples": 75,
+          "mean": 0.07592328171972991,
+          "rms_fluctuation": 0.004512412827066001
+        },
+        {
+          "t_first": 6.759375,
+          "t_last": 7.499375000000001,
+          "samples": 75,
+          "mean": 0.07606682985276175,
+          "rms_fluctuation": 0.003707971483500763
+        },
+        {
+          "t_first": 7.509375,
+          "t_last": 8.249375,
+          "samples": 75,
+          "mean": 0.07621788315232142,
+          "rms_fluctuation": 0.0031716763057518826
+        },
+        {
+          "t_first": 8.259375,
+          "t_last": 8.999375,
+          "samples": 75,
+          "mean": 0.07667721299532222,
+          "rms_fluctuation": 0.0024048938660301915
+        },
+        {
+          "t_first": 9.009375,
+          "t_last": 9.749375,
+          "samples": 75,
+          "mean": 0.0756349822824845,
+          "rms_fluctuation": 0.0017101478356767196
+        },
+        {
+          "t_first": 9.759375,
+          "t_last": 10.499375,
+          "samples": 75,
+          "mean": 0.07594483652872483,
+          "rms_fluctuation": 0.004006992918445852
+        },
+        {
+          "t_first": 10.509375,
+          "t_last": 11.249375,
+          "samples": 75,
+          "mean": 0.07452751322638339,
+          "rms_fluctuation": 0.004559799907373918
+        },
+        {
+          "t_first": 11.259375,
+          "t_last": 11.999375,
+          "samples": 75,
+          "mean": 0.07560302290978034,
+          "rms_fluctuation": 0.0031407895107395463
+        }
+      ],
+      "block_mean_range": 0.002149699768938834,
+      "correlation": {
+        "status": "heuristic_requires_stationarity",
+        "tau_samples": 7.264365169473827,
+        "effective_samples_heuristic": 82.5949668005827,
+        "correlation_span_t_star": 0.07264365169473672,
+        "last_positive_pair_lag": 6,
+        "positive_tail_reached_half_record": false
+      },
+      "confidence_interval": null,
+      "temporal_convergence": "not_certified",
+      "hann_peak_frequency_per_t_star": 6.1666666666667975,
+      "frequency_bin_width": 0.1666666666666702
+    },
+    "cm": {
+      "samples": 600,
+      "sample_dt_t_star": 0.009999999999999787,
+      "selected_t_first": 6.009375,
+      "selected_t_last": 11.999375,
+      "selected_interval_t_star": 5.99,
+      "mean": 0.021377207774084594,
+      "rms_fluctuation": 0.012156475720781651,
+      "minimum": -0.01647385742382275,
+      "maximum": 0.055706981997034916,
+      "first_half_mean": 0.02141023891534859,
+      "last_half_mean": 0.021344176632820597,
+      "first_half_rms_fluctuation": 0.013845966431939829,
+      "last_half_rms_fluctuation": 0.010190526745606264,
+      "last_minus_first_half_mean": -6.606228252799273e-05,
+      "blocks": [
+        {
+          "t_first": 6.009375,
+          "t_last": 6.749375000000001,
+          "samples": 75,
+          "mean": 0.02033740367210568,
+          "rms_fluctuation": 0.017758641725504943
+        },
+        {
+          "t_first": 6.759375,
+          "t_last": 7.499375000000001,
+          "samples": 75,
+          "mean": 0.021896345635025283,
+          "rms_fluctuation": 0.014619442713591349
+        },
+        {
+          "t_first": 7.509375,
+          "t_last": 8.249375,
+          "samples": 75,
+          "mean": 0.02305073987617229,
+          "rms_fluctuation": 0.011091033080429582
+        },
+        {
+          "t_first": 8.259375,
+          "t_last": 8.999375,
+          "samples": 75,
+          "mean": 0.020356466478091088,
+          "rms_fluctuation": 0.010466408878004171
+        },
+        {
+          "t_first": 9.009375,
+          "t_last": 9.749375,
+          "samples": 75,
+          "mean": 0.022657792755606213,
+          "rms_fluctuation": 0.007125302966975087
+        },
+        {
+          "t_first": 9.759375,
+          "t_last": 10.499375,
+          "samples": 75,
+          "mean": 0.020015871895545056,
+          "rms_fluctuation": 0.0070347139108677915
+        },
+        {
+          "t_first": 10.509375,
+          "t_last": 11.249375,
+          "samples": 75,
+          "mean": 0.02284873778205556,
+          "rms_fluctuation": 0.011965675331906497
+        },
+        {
+          "t_first": 11.259375,
+          "t_last": 11.999375,
+          "samples": 75,
+          "mean": 0.01985430409807556,
+          "rms_fluctuation": 0.012805444462003032
+        }
+      ],
+      "block_mean_range": 0.0031964357780967304,
+      "correlation": {
+        "status": "heuristic_requires_stationarity",
+        "tau_samples": 7.956967106191802,
+        "effective_samples_heuristic": 75.40561522908689,
+        "correlation_span_t_star": 0.07956967106191633,
+        "last_positive_pair_lag": 6,
+        "positive_tail_reached_half_record": false
+      },
+      "confidence_interval": null,
+      "temporal_convergence": "not_certified",
+      "hann_peak_frequency_per_t_star": 6.1666666666667975,
+      "frequency_bin_width": 0.1666666666666702
+    }
+  },
+  "interpretation": [
+    "Independent budgets test implementation, not tunnel accuracy",
+    "Unequal original/new sample cadence is analyzed in separate uniform windows",
+    "Frequency peaks do not establish an acoustic/physical cause; no coherence or mode fit inferred",
+    "Domain comparison is at the same coarse wall resolution; no grid convergence",
+    "Transverse-domain change also alters the small original seeding wavelength",
+    "Airfoil diagnostic data were produced with unmodified installed 0.5.0; they do not validate the corrected 0.5.1 initializer"
+  ]
+}

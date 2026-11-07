@@ -3,6 +3,7 @@
 The Linux-proof switch is for development evidence only, not a Windows target.
 """
 import argparse
+from email.parser import Parser
 from datetime import datetime
 import hashlib
 import json
@@ -14,6 +15,7 @@ import subprocess
 import sys
 import time
 import traceback
+import tomllib
 import uuid
 import zipfile
 
@@ -21,6 +23,30 @@ from toolchain import DEFAULT_FLAGS, discover_windows, stage_windows, stage_pyth
 
 IDENTITY_FILES = ('interface.py', 'refinement.py', 'walls.py', 'refined_solver.py', 'refined_checkpoint.py',
                   'parallel.py', 'convergence.py', 'config.py', 'geometry.py', 'project.py')
+
+
+def verify_runtime_wheel(kit, wheel):
+    """Reject stale versions or source files before copying a toolchain."""
+    with (kit / 'pyproject.toml').open('rb') as handle:
+        expected_version = tomllib.load(handle)['project']['version']
+    with zipfile.ZipFile(wheel) as archive:
+        if archive.testzip() is not None:
+            raise ValueError('Runtime wheel is damaged')
+        metadata_names = [n for n in archive.namelist() if n.endswith('.dist-info/METADATA')]
+        if len(metadata_names) != 1:
+            raise ValueError('Runtime wheel needs one package metadata record')
+        metadata = Parser().parsestr(archive.read(metadata_names[0]).decode('utf-8'))
+        if metadata['Name'] != 'aerokinetic' or metadata['Version'] != expected_version:
+            raise ValueError('Runtime wheel version differs from the source project')
+        runtime_names = [n for n in archive.namelist() if n.startswith('aerokinetic/') and not n.endswith('/')]
+        for name in runtime_names:
+            if (kit / 'src' / name).read_bytes() != archive.read(name):
+                raise ValueError('Kit source differs from the tested wheel: ' + name)
+        identity = {name: hashlib.sha256(archive.read('aerokinetic/' + name)).hexdigest() for name in IDENTITY_FILES}
+        runtime_identity = {'version': expected_version, 'files': {
+            name.removeprefix('aerokinetic/'): hashlib.sha256(archive.read(name)).hexdigest()
+            for name in runtime_names}}
+    return expected_version, identity, runtime_identity
 
 
 def stripped_environment(environment=None, target_platform=None):
@@ -96,17 +122,14 @@ def main(argv=None):
 
     try:
         note('AeroKinetic portable builder: app remains unchanged. Build log: ' + str(log_path))
-        candidates = [kit / 'wheelhouse/aerokinetic-0.5.0-py3-none-any.whl',
-                      kit / 'downloads/wheels_windows/aerokinetic-0.5.0-py3-none-any.whl',
-                      app / 'downloads/wheels_windows/aerokinetic-0.5.0-py3-none-any.whl']
+        with (kit / 'pyproject.toml').open('rb') as handle:
+            version = tomllib.load(handle)['project']['version']
+        wheel_name = f'aerokinetic-{version}-py3-none-any.whl'
+        candidates = [kit / 'wheelhouse' / wheel_name,
+                      kit / 'downloads/wheels_windows' / wheel_name,
+                      app / 'downloads/wheels_windows' / wheel_name]
         wheel = (args.wheel or next((p for p in candidates if p.is_file()), candidates[0])).resolve()
-        with zipfile.ZipFile(wheel) as archive:
-            assert archive.testzip() is None
-            runtime_names = [n for n in archive.namelist() if n.startswith('aerokinetic/') and not n.endswith('/')]
-            for name in runtime_names:
-                if (kit / 'src' / name).read_bytes() != archive.read(name):
-                    raise ValueError('Kit source differs from the tested wheel: ' + name)
-            identity = {name: hashlib.sha256(archive.read('aerokinetic/' + name)).hexdigest() for name in IDENTITY_FILES}
+        version, identity, runtime_identity = verify_runtime_wheel(kit, wheel)
         stage = work / 'stage'
         stage.mkdir()
         portable = stage / 'portable'
@@ -134,6 +157,7 @@ def main(argv=None):
             (portable / 'toolchain.json').write_text(json.dumps(metadata, indent=2) + '\n')
             analysis_compiler = {'os': 'linux', 'command': command, 'flags': metadata['compiler_flags'], 'restrict_qualifier': '__restrict__'}
         (portable / 'source_identity.json').write_text(json.dumps(identity, indent=2) + '\n')
+        (portable / 'runtime_identity.json').write_text(json.dumps(runtime_identity, indent=2) + '\n')
         write_manifest(portable)
 
         note('[2/6] Preparing isolated build environment and PINNED wheels...')
@@ -157,7 +181,7 @@ def main(argv=None):
                  '-r', kit / 'requirements-offline-py312.txt', '-r', kit / 'tools/portable/requirements-build.txt'])
             run([py, '-m', 'pip', 'install', '--no-index', '--no-deps', house / wheel.name])
         run([py, '-m', 'pip', 'check'])
-        run([py, '-c', "from importlib.metadata import version; assert version('pyinstaller')=='6.16.0'; assert version('aerokinetic')=='0.5.0'; assert version('pystencils')=='1.4'; print('Pinned build environment verified')"])
+        run([py, '-c', f"from importlib.metadata import version; assert version('pyinstaller')=='6.16.0'; assert version('aerokinetic')=={version!r}; assert version('pystencils')=='1.4'; print('Pinned build environment verified')"])
         analysis_config = work / 'analysis_pystencils.json'
         analysis_config.write_text(json.dumps({'compiler': analysis_compiler,
             'cache': {'object_cache': str(work / 'analysis_jit'), 'clear_cache_on_start': False}}, indent=2) + '\n')
@@ -192,7 +216,7 @@ def main(argv=None):
                      'pause\r\nexit /b %AK_CHECK_RESULT%\r\n')
         (bundle / 'CHECK_PORTABLE.bat').write_bytes(check_bat.encode('ascii'))
         (bundle / 'START_HERE_RU.txt').write_text(
-            'AeroKinetic 0.5.0: переносимая сборка для личного использования.\n'
+            f'AeroKinetic {version}: переносимая сборка для личного использования.\n'
             'Скопируйте ВСЮ эту папку на локальный диск рабочего ПК.\n'
             'Запуск: AeroKinetic.exe. Python и Visual Studio устанавливать на целевом ПК не требуется по замыслу комплекта.\n'
             'Сначала отключите сеть и запустите CHECK_PORTABLE.bat; дождитесь кода 0.\n'
@@ -227,7 +251,7 @@ def main(argv=None):
         if evidence.get('status') != 'passed' or not evidence.get('frozen'):
             raise RuntimeError('Frozen self-test did not pass')
         note('[6/6] Saving build report and exact folder to transfer...')
-        result.update(status='build_checks_passed_target_offline_test_pending',
+        result.update(status='build_checks_passed_target_offline_test_pending', version=version,
                       target='Windows x64' if sys.platform == 'win32' else 'Linux development proof ONLY',
                       ready_to_copy=str(bundle), executable=str(executable),
                       self_test=str(checks / 'CHECK.json'), bundle_files=len(entries),
