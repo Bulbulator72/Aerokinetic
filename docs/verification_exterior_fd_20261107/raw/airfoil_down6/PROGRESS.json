@@ -1,0 +1,15 @@
+{
+  "step": 9600,
+  "t_star": 12.0,
+  "cl": 0.07581097471380593,
+  "cd": 0.07390544624374015,
+  "elapsed_s": 2147.526356315,
+  "last_diagnostics": {
+    "local_mach_max": 0.09094988160859596,
+    "density_mean": 0.9999640737441071,
+    "density_error_max": 0.002620702205259562,
+    "wall_fallback_links": 0,
+    "step": 9600,
+    "t_star": 12.0
+  }
+}

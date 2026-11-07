@@ -1,0 +1,71 @@
+{
+  "input_fixture": "/workspace/aerokinetic/examples/naca0012_re30000_n32_characteristic_down6.json",
+  "fixture_sha256": "a6ddea2f25b5837a775fc465b68309da5c11f136bf127c593da42f8aad82d691",
+  "fixture_fingerprint": "b52a0bd28f705f4fd764685e5fd88a4696928b9caabe03369b604534c7c88566",
+  "adapted_input_fingerprint": "cadb9b14dc7073987e0932c6dab99abbec66083f3a6758f24da2ee4f7b2c6c2c",
+  "overrides": "CPU1 thread and separate research_exterior_fd_v1 driver; no original characteristic boundary installed",
+  "identity": {
+    "model": "research_exterior_fd_v1",
+    "core_plan": {
+      "shape": [
+        272,
+        101,
+        16
+      ],
+      "origin": [
+        -1.749391012564956,
+        -1.5829000833015587
+      ],
+      "dx": 0.03125,
+      "span": 0.5,
+      "viscosity": 4.266666666666667e-05,
+      "relaxation_rate": 1.999488131038454,
+      "dt_convective": 0.00125,
+      "dt_seconds": 6.418003336266459e-05,
+      "estimated_memory_gib": 0.3508569985628128,
+      "notes": [
+        "Uniform isotropic grid; no mesh refinement or wall model.",
+        "Accuracy is unvalidated until grid/domain/span/Mach/statistical convergence and tunnel comparison.",
+        "The initial spanwise perturbation is numerical seeding, not a specified tunnel turbulence spectrum.",
+        "Fewer than 256 cells/chord: use for development; do not assume a resolved boundary layer.",
+        "Relaxation time is close to 0.5; low-viscosity stability and resolution require special checks."
+      ]
+    },
+    "auxiliary_plan": {
+      "shape": [
+        274,
+        103,
+        16
+      ],
+      "origin": [
+        -1.780641012564956,
+        -1.6141500833015587
+      ],
+      "dx": 0.03125,
+      "span": 0.5,
+      "viscosity": 4.266666666666667e-05,
+      "relaxation_rate": 1.999488131038454,
+      "dt_convective": 0.00125,
+      "dt_seconds": 6.418003336266459e-05,
+      "estimated_memory_gib": 0.3508569985628128,
+      "notes": [
+        "Uniform isotropic grid; no mesh refinement or wall model.",
+        "Accuracy is unvalidated until grid/domain/span/Mach/statistical convergence and tunnel comparison.",
+        "The initial spanwise perturbation is numerical seeding, not a specified tunnel turbulence spectrum.",
+        "Fewer than 256 cells/chord: use for development; do not assume a resolved boundary layer.",
+        "Relaxation time is close to 0.5; low-viscosity stability and resolution require special checks."
+      ]
+    },
+    "storage": "pre_collision",
+    "exterior_source_sha256": "9c0b2f35c79c340f916364c6cd7fff9cf36776df16f1d7a45b03024d7e853c02",
+    "adapter_source_sha256": "04f9f0ee17cda8ede09b8ee1f726fb99b22af763404e8d40fe891c7c512a6d9a",
+    "installed_solver_source_sha256": "395fd076cc67ea6458da5b20801bfa684a997ceb240ff62f9c216bcc00c36fa6",
+    "wall_fallback_links": 0,
+    "limits": "CPU1 prototype; unchanged installed wheel. N32 is not a resolved airfoil validation."
+  },
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "fluid_physical_cells": 438176,
+  "coefficient_convention": "Cl up; Cd downstream; Cm nose up; total reference chord and periodic span",
+  "force_clock": "(step-.5)*dt_convective, after collision and wall reflection before streaming",
+  "scope": "Completion/domain research gate at N32. Not grid convergence or wind-tunnel validation."
+}

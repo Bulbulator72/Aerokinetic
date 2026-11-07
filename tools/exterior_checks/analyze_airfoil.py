@@ -40,6 +40,7 @@ def main():
         if not result['completion_gate_passed']or result['steps']!=9600:
             raise ValueError('Fixed full candidate window is unavailable; no partial-window statistics')
         project=Project.load(root/'input_project.json')
+        assert project.flow.reynolds==30000 and project.flow.alpha_deg==4 and project.grid.cells_per_chord==32
         if not np.allclose(np.array(project.section.moment_reference)/project.section.chord,[.25,0],rtol=0,atol=1e-14):
             raise ValueError('Experimental Cm is about c/4; input moment reference does not match')
         old=a.project_root/'docs/verification_stage1_20261106'/legacy_name
@@ -51,7 +52,12 @@ def main():
             assert old_metadata['grid'][k]==getattr(project.grid,k)
         for k in('shape','origin','dx','span','viscosity','dt_convective'):
             assert np.array_equal(old_metadata['plan'][k],result['identity']['core_plan'][k]),k
-        contours=project.section.normalized(project.flow.alpha_deg)
+        # Historical metadata stores the ORIGINAL input contours, not the
+        # translated/rotated computational contours. Compare in that same frame.
+        contours=project.section.elements
+        assert old_metadata['reference_chord_input_units']==project.section.chord
+        assert np.array_equal(old_metadata['moment_reference_input_units'],project.section.moment_reference)
+        assert len(contours)==len(old_metadata['contours'])
         assert all(np.array_equal(c.xy,np.asarray(e['xy']))for c,e in zip(contours,old_metadata['contours']))
         guards[f'domain{domain}_legacy_geometry_physics_match']=True
         for family,path in(('exterior_fd',root),('legacy',old)):
@@ -85,7 +91,7 @@ def main():
     import matplotlib
     matplotlib.use('Agg')
     import matplotlib.pyplot as plt
-    plt.rcParams.update({'svg.fonttype':'none','font.size':10})
+    plt.rcParams.update({'svg.fonttype':'none','svg.hashsalt':'aerokinetic-exterior-20261107','font.size':10})
     fig,axes=plt.subplots(3,1,figsize=(11,8),sharex=True)
     colors={'exterior_fd_down3':'#1768ac','exterior_fd_down6':'#17845e','legacy_down3':'#c76d2d','legacy_down6':'#8c6ab3'}
     for ax,k in zip(axes,('cl','cd','cm')):
@@ -95,6 +101,16 @@ def main():
     axes[0].legend(ncol=3,fontsize=8);axes[-1].set_xlabel('t U / c');axes[-1].set_xlim(0,12)
     fig.suptitle('NACA0012, Re30000, alpha4deg, N32: diagnostic histories; accuracy unvalidated')
     fig.tight_layout();fig.savefig(a.output/'histories.svg',metadata={'Date':None});plt.close(fig)
+    fig,axes=plt.subplots(3,1,figsize=(11,8),sharex=True)
+    for ax,k in zip(axes,('cl','cd','cm')):
+        for name,h in histories.items():
+            selected=(h['t_star']>=6)&(h['t_star']<=12)
+            ax.plot(h['t_star'][selected],h['loads'][k][selected],label=name,color=colors[name],lw=1.0)
+        ax.axhline(exp[k]['interpolated'],color='black',ls='--',lw=1,label='Ohtake2007 interpolated')
+        ax.set_ylabel(k.upper());ax.grid(alpha=.2)
+    axes[0].legend(ncol=3,fontsize=8);axes[-1].set_xlabel('t U / c');axes[-1].set_xlim(6,12)
+    fig.suptitle('Preregistered6..12 window; RMS and drift are descriptive, accuracy unvalidated')
+    fig.tight_layout();fig.savefig(a.output/'window6_12.svg',metadata={'Date':None});plt.close(fig)
     fig,axes=plt.subplots(1,3,figsize=(12,4))
     names=list(histories)
     for ax,k in zip(axes,('cl','cd','cm')):
@@ -104,6 +120,8 @@ def main():
         ax.set_title(k.upper()+' mean6..12');ax.grid(axis='y',alpha=.2)
     axes[0].legend(fontsize=8);fig.suptitle('Descriptive N32 means; no confidence or grid-convergence claim')
     fig.tight_layout();fig.savefig(a.output/'means.svg',metadata={'Date':None});plt.close(fig)
+    for svg in a.output.glob('*.svg'):
+        svg.write_text('\n'.join(line.rstrip()for line in svg.read_text().splitlines())+'\n')
     write(a.output/'CHECKS.json',{'matched_physical_inputs':True,'complete_fixed_windows':True,
         'means_match_run_checkpoints':all(abs(stats[f'exterior_fd_down{d}'][k]['mean']-json.loads((a.runs/f'airfoil_down{d}/CHECKS.json').read_text())['window6_12']['mean'][k])<2e-14 for d in(3,6)for k in('cl','cd','cm')),
         'experimental_validation':'inconclusive','grid_convergence':'not_run','statistical_convergence':'not_certified',

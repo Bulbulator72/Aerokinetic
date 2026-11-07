@@ -1,0 +1,86 @@
+{
+  "status": "completed",
+  "steps": 9600,
+  "t_star": 12.0,
+  "requested_steps": 9600,
+  "completion_gate_passed": true,
+  "samples": 1200,
+  "elapsed_s": 2147.5271111840048,
+  "max_rss_kib": 526064,
+  "failure": null,
+  "identity": {
+    "model": "research_exterior_fd_v1",
+    "core_plan": {
+      "shape": [
+        272,
+        101,
+        16
+      ],
+      "origin": [
+        -1.749391012564956,
+        -1.5829000833015587
+      ],
+      "dx": 0.03125,
+      "span": 0.5,
+      "viscosity": 4.266666666666667e-05,
+      "relaxation_rate": 1.999488131038454,
+      "dt_convective": 0.00125,
+      "dt_seconds": 6.418003336266459e-05,
+      "estimated_memory_gib": 0.3508569985628128,
+      "notes": [
+        "Uniform isotropic grid; no mesh refinement or wall model.",
+        "Accuracy is unvalidated until grid/domain/span/Mach/statistical convergence and tunnel comparison.",
+        "The initial spanwise perturbation is numerical seeding, not a specified tunnel turbulence spectrum.",
+        "Fewer than 256 cells/chord: use for development; do not assume a resolved boundary layer.",
+        "Relaxation time is close to 0.5; low-viscosity stability and resolution require special checks."
+      ]
+    },
+    "auxiliary_plan": {
+      "shape": [
+        274,
+        103,
+        16
+      ],
+      "origin": [
+        -1.780641012564956,
+        -1.6141500833015587
+      ],
+      "dx": 0.03125,
+      "span": 0.5,
+      "viscosity": 4.266666666666667e-05,
+      "relaxation_rate": 1.999488131038454,
+      "dt_convective": 0.00125,
+      "dt_seconds": 6.418003336266459e-05,
+      "estimated_memory_gib": 0.3508569985628128,
+      "notes": [
+        "Uniform isotropic grid; no mesh refinement or wall model.",
+        "Accuracy is unvalidated until grid/domain/span/Mach/statistical convergence and tunnel comparison.",
+        "The initial spanwise perturbation is numerical seeding, not a specified tunnel turbulence spectrum.",
+        "Fewer than 256 cells/chord: use for development; do not assume a resolved boundary layer.",
+        "Relaxation time is close to 0.5; low-viscosity stability and resolution require special checks."
+      ]
+    },
+    "storage": "pre_collision",
+    "exterior_source_sha256": "9c0b2f35c79c340f916364c6cd7fff9cf36776df16f1d7a45b03024d7e853c02",
+    "adapter_source_sha256": "04f9f0ee17cda8ede09b8ee1f726fb99b22af763404e8d40fe891c7c512a6d9a",
+    "installed_solver_source_sha256": "395fd076cc67ea6458da5b20801bfa684a997ceb240ff62f9c216bcc00c36fa6",
+    "wall_fallback_links": 0,
+    "limits": "CPU1 prototype; unchanged installed wheel. N32 is not a resolved airfoil validation."
+  },
+  "experimental_validation": "not_run",
+  "grid_convergence": "not_run",
+  "window6_12": {
+    "samples": 600,
+    "mean": {
+      "cl": 0.06841284220502557,
+      "cd": 0.0738133621665839,
+      "cm": 0.022144239827024785
+    },
+    "rms_about_mean": {
+      "cl": 0.015958488811507982,
+      "cd": 0.0009019352809576998,
+      "cm": 0.0007052318275161092
+    },
+    "limits": "Prespecified common window; no assertion of stationary statistics or resolved N32 aerodynamics."
+  }
+}

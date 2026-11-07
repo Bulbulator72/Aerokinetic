@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/aerokinetic_fd_exterior_20261107/analyze_airfoil.py", line 126, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/aerokinetic_fd_exterior_20261107/analyze_airfoil.py", line 57, in main
+    assert all(np.array_equal(c.xy,np.asarray(e['xy']))for c,e in zip(contours,old_metadata['contours']))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

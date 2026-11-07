@@ -1,5 +1,5 @@
 {
-  "collected_utc": "2026-11-07T20:06:03.385547+00:00",
+  "collected_utc": "2026-11-07T20:39:02.798296+00:00",
   "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
   "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
   "packages": {
@@ -7,7 +7,8 @@
     "lbmpy": "1.4",
     "pystencils": "1.4",
     "numpy": "2.3.5",
-    "sympy": "1.12.1"
+    "sympy": "1.12.1",
+    "matplotlib": "3.10.8"
   },
   "known_resources": "Linux2CPU/8GiB,noGPU",
   "installed_package": "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/aerokinetic",
@@ -63,7 +64,7 @@
     "airfoil_preflight.py": "e0a37e57dc0dc9b12050e2ff7498507d8146c4022187b26a74f0c48650053a4e",
     "run_airfoil_pilot.py": "dbf0ad0427c4e6139e3a5f89c0e85f9c7596c9fc572838fc1ec39f0c2a7a74a6",
     "cold_restart_probe.py": "7d4f9d39b4eda33944a0d2ad9864bd909212b17dc72eb70b12cd04140f70d2aa",
-    "analyze_airfoil.py": "c18f0633d0736483accc5c88dce97a040cc5db4a187e45095156562fb78ea037"
+    "analyze_airfoil.py": "298630cb6998b435ce0118a60cab62a358c56a1a2103e0d3c14b06e0ab46c691"
   },
   "compiler_cache_environment": {
     "PYSTENCILS_CONFIG": "/workspace/aerokinetic_validation_20261106/runs/pystencils.json",

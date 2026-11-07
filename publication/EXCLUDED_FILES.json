@@ -758,5 +758,85 @@
     "sha256": "405779ec564d648af662f0ba2c401ff85dd21359e5517fee9931a62845b01e1e",
     "reason": "Local numerical matrix/checkpoint/frame; text-only research publication",
     "text_evidence": "docs/verification_exterior_fd_20261107/EXCLUDED_LOCAL_BINARIES.json"
+  },
+  {
+    "source": "/workspace/aerokinetic_fd_exterior_20261107/airfoil_down3/checkpoint_local.npz",
+    "repository_path": null,
+    "bytes": 156362752,
+    "sha256": "62dc8b6e40d36c719749020a2036cd9e2b3584a1bdeca72db4ba4e1922b7e4d6",
+    "reason": "Local numerical matrix/checkpoint/frame; text-only research publication",
+    "text_evidence": "docs/verification_exterior_fd_20261107/EXCLUDED_LOCAL_BINARIES.json"
+  },
+  {
+    "source": "/workspace/aerokinetic_fd_exterior_20261107/airfoil_down3/frame_local_00002400.npz",
+    "repository_path": null,
+    "bytes": 514311,
+    "sha256": "cbbf0628cccfec5bcb4b43c69d606b1803fc34c133278cd61e8a915fbd80c048",
+    "reason": "Local numerical matrix/checkpoint/frame; text-only research publication",
+    "text_evidence": "docs/verification_exterior_fd_20261107/EXCLUDED_LOCAL_BINARIES.json"
+  },
+  {
+    "source": "/workspace/aerokinetic_fd_exterior_20261107/airfoil_down3/frame_local_00004800.npz",
+    "repository_path": null,
+    "bytes": 515685,
+    "sha256": "27eb847ffa86cde84c29b07ca1aa715031f8a8c08d48d47e1f0e75680aa9ec69",
+    "reason": "Local numerical matrix/checkpoint/frame; text-only research publication",
+    "text_evidence": "docs/verification_exterior_fd_20261107/EXCLUDED_LOCAL_BINARIES.json"
+  },
+  {
+    "source": "/workspace/aerokinetic_fd_exterior_20261107/airfoil_down3/frame_local_00007200.npz",
+    "repository_path": null,
+    "bytes": 516879,
+    "sha256": "14100672666d6a95d0d8b38dfe818ec98e5b03238b611e73adad4da57b77731d",
+    "reason": "Local numerical matrix/checkpoint/frame; text-only research publication",
+    "text_evidence": "docs/verification_exterior_fd_20261107/EXCLUDED_LOCAL_BINARIES.json"
+  },
+  {
+    "source": "/workspace/aerokinetic_fd_exterior_20261107/airfoil_down3/frame_local_00009600.npz",
+    "repository_path": null,
+    "bytes": 516822,
+    "sha256": "20e27ff239d2627b704c1c95518ecc99d9d8472cdcfcd987ae6f42890cbd681b",
+    "reason": "Local numerical matrix/checkpoint/frame; text-only research publication",
+    "text_evidence": "docs/verification_exterior_fd_20261107/EXCLUDED_LOCAL_BINARIES.json"
+  },
+  {
+    "source": "/workspace/aerokinetic_fd_exterior_20261107/airfoil_down6/checkpoint_local.npz",
+    "repository_path": null,
+    "bytes": 239807480,
+    "sha256": "5c4f704313ab029dbdf03882b149679b9f45493d8d372286749c45d74724a175",
+    "reason": "Local numerical matrix/checkpoint/frame; text-only research publication",
+    "text_evidence": "docs/verification_exterior_fd_20261107/EXCLUDED_LOCAL_BINARIES.json"
+  },
+  {
+    "source": "/workspace/aerokinetic_fd_exterior_20261107/airfoil_down6/frame_local_00002400.npz",
+    "repository_path": null,
+    "bytes": 784963,
+    "sha256": "fb6538d063a97782e5c4eb250676704ad2e8c42817b1b978b41632bc38d1d0f8",
+    "reason": "Local numerical matrix/checkpoint/frame; text-only research publication",
+    "text_evidence": "docs/verification_exterior_fd_20261107/EXCLUDED_LOCAL_BINARIES.json"
+  },
+  {
+    "source": "/workspace/aerokinetic_fd_exterior_20261107/airfoil_down6/frame_local_00004800.npz",
+    "repository_path": null,
+    "bytes": 792204,
+    "sha256": "327706391ddcd16af7c50753f5bb02e21f07fcc6b796bbc835e7aaa9256a2827",
+    "reason": "Local numerical matrix/checkpoint/frame; text-only research publication",
+    "text_evidence": "docs/verification_exterior_fd_20261107/EXCLUDED_LOCAL_BINARIES.json"
+  },
+  {
+    "source": "/workspace/aerokinetic_fd_exterior_20261107/airfoil_down6/frame_local_00007200.npz",
+    "repository_path": null,
+    "bytes": 794834,
+    "sha256": "2a604a28a8950ca7fe5f42dfae43e9ece87f9202108a1b5b8477fa8bc38d3d18",
+    "reason": "Local numerical matrix/checkpoint/frame; text-only research publication",
+    "text_evidence": "docs/verification_exterior_fd_20261107/EXCLUDED_LOCAL_BINARIES.json"
+  },
+  {
+    "source": "/workspace/aerokinetic_fd_exterior_20261107/airfoil_down6/frame_local_00009600.npz",
+    "repository_path": null,
+    "bytes": 797530,
+    "sha256": "f0bb630c6cfe759dcafd14e7e6782b048e31390267c374516522140da7d80fa0",
+    "reason": "Local numerical matrix/checkpoint/frame; text-only research publication",
+    "text_evidence": "docs/verification_exterior_fd_20261107/EXCLUDED_LOCAL_BINARIES.json"
   }
 ]

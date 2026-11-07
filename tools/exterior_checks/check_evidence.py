@@ -20,7 +20,10 @@ def verify(project,require_airfoil=False):
     checked=0
     for name in('verification_exterior_fd_20261107','verification_moment_boundary_20261107'):
         base=docs/name
-        for record in read(base/'FILES_SHA256.json')['files']:
+        manifest=read(base/'FILES_SHA256.json')['files']
+        actual={p.relative_to(base).as_posix()for p in base.rglob('*')if p.is_file()and p.name!='FILES_SHA256.json'}
+        assert actual=={r['path']for r in manifest},f'{name}: incomplete file manifest'
+        for record in manifest:
             file=(base/record['path']).resolve();file.relative_to(base.resolve())
             assert file.is_file()and file.stat().st_size==record['bytes']and sha(file)==record['sha256'],str(file)
             checked+=1
@@ -75,8 +78,15 @@ def verify(project,require_airfoil=False):
         for k in('cl','cd','cm'):
             mean=sum(float(r[k])for r in window)/len(window)
             assert abs(mean-result['window6_12']['mean'][k])<=2e-14,(name,k)
+    comparison=report/'comparison/CHECKS.json'
+    if comparison.exists():
+        data=read(comparison)
+        assert all(data[k]for k in('matched_physical_inputs','complete_fixed_windows','means_match_run_checkpoints'))
+        assert data['source_sha256']==sha(tools/'analyze_airfoil.py')
+        assert data['experimental_validation']=='inconclusive'
     return {'packet_integrity':'passed','hashed_files':checked,'completed_groups':completed,
-        'prototype_source_sha256':source,'limits':'Evidence integrity and stored gate recomputation. No new CFD run or physical accuracy certification.'}
+        'prototype_source_sha256':source,'experimental_validation':'inconclusive'if comparison.exists()else'not_run',
+        'limits':'Evidence integrity and stored gate recomputation. No new CFD run or physical accuracy certification.'}
 
 
 def main():

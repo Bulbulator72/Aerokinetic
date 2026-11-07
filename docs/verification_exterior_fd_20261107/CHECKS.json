@@ -78,20 +78,20 @@
       "checks_file": "raw/cold_restart/CHECKS.json"
     },
     "airfoil_down3": {
-      "status": "inconclusive",
-      "reason": "No final CHECKS.json yet; inspect the running command",
-      "local_path": "/workspace/aerokinetic_fd_exterior_20261107/airfoil_down3"
+      "status": "passed",
+      "checks_file": "raw/airfoil_down3/CHECKS.json"
     },
     "airfoil_down6": {
-      "status": "inconclusive",
-      "reason": "No final CHECKS.json yet; inspect the running command",
-      "local_path": "/workspace/aerokinetic_fd_exterior_20261107/airfoil_down6"
+      "status": "passed",
+      "checks_file": "raw/airfoil_down6/CHECKS.json"
     }
   },
-  "implementation": "passed_isolated_prototype",
-  "airfoil_completion": "not_complete",
+  "implementation": "passed",
+  "implementation_scope": "Isolated prototype; fixed N32 body completion is tracked separately",
+  "airfoil_completion": "passed",
   "grid_convergence": "not_run",
-  "experimental_validation": "not_run",
+  "experimental_validation": "inconclusive",
+  "experimental_comparison_data_checks": "passed",
   "windows_gpu_offline_release": "not_run",
   "production_solver": "unchanged0.5.1",
   "installed_research_wheel": "unchanged0.5.2; earlier characteristic candidate remains rejected"
