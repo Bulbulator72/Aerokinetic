@@ -1,0 +1,6 @@
+{
+  "date_utc": "2026-11-07",
+  "trigger": "The first Ny=Nz=8, ky-index1,kz-index0 Fourier block is stable for both original and constant boundaries. It cannot explain the strong measured Ny48 noise growth. Do not infer stability from that one block.",
+  "diagnostic": "Replay the same preregistered noise fixture, preserving its exact SHA, and export the final transverse spectrum as a CSV. Extend the Fourier probe to Ny48 matching that fixture and select its leading growing transverse modes. Start with long ky-index1,kz-index0 and the leading diagonal mode if indicated.",
+  "unchanged": "Same x length24 initially, same collision, viscosity and source, same central-difference epsilon/map checks. Check sensitivity to x length if a growing mode is found. No candidate or acceptance gate is changed."
+}

@@ -1,0 +1,9 @@
+{
+ "date_utc":"2026-11-07",
+ "observation":"Euler and AB2 still show strong growth in the straight-outlet fixture; a constant-incoming control does not. Test the coupled kinetic reconstruction rather than assume time integration alone is the cause.",
+ "candidate":"Keep the original characteristic_transport_v1 macro/invariant update, replace full non-equilibrium PDF extrapolation by a factorized second-central-moment reconstruction at the outer ghost boundary. No change to owned-cell collision or molecular transport parameters.",
+ "derivation":{"phi_c":"2/3-u^2+(1.5*u^2-.5)*c^2+.5*c*u","B_c":"1.5*c^2-1","D_c":"d phi_c / du = -2*u+3*u*c^2+.5*c","S_ab":"sum_q g_q*cqa*cqb - rho*ua*ub - cs^2*(rho-1)*delta_ab","reg_neq":"sum_a S_aa B_ca product_{j!=a}phi_cj(uj) + sum_{a<b} S_ab D_ca D_cb product_{j not a,b}phi_cj(uj)","incoming":"g_i^boundary = feq_i(rho_b,u_b) - w_i + reg_neq_i(fluid)","scope":"Linear stress/covariance reconstruction with the same factorized equilibrium; filters higher nonequilibrium moments at the boundary. This is not a new collision operator, wall model or turbulence model."},
+ "pre_gates":"Prove zero mass/first moments and exact second-moment tensor of reg_neq symbolically for all27 directions; numeric random-distribution reconstruction must conserve mass/momentum/stress to2e-13 absolute in float64. Equilibrium must give zero nonequilibrium contribution.",
+ "noise_gates":"Identical PLAN fixtures and unchanged1.1 sampled energy gate over10000 steps, original initial-noise SHA. No relaxation or fitted damping coefficient.",
+ "if_noise_passes":"Repeat unchanged original wave/vortex/radiation/shear/seam/budget gates before fixed-physics N32 profile runs; retain any failure. All source and CSV/JSON retained; no new binary export."
+}

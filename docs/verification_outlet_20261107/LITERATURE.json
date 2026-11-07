@@ -1,0 +1,6 @@
+{
+ "source":{"authors":["Jonas Latt","Bastien Chopard"],"title":"Lattice Boltzmann Method with regularized non-equilibrium distribution functions","url":"https://arxiv.org/abs/physics/0506157","read_url":"https://arxiv.org/pdf/physics/0506157","version":"v1,20June2005","pages_read":4},
+ "used":"Equations6 and10: fneq=f-feq, Pi_neq=Pi-Pi_eq; stress-based reconstruction w_i Q_i:Pi_neq/(2cs^4). Rationale for filtering nonhydrodynamic moments while preserving hydrodynamic moments.",
+ "difference":"The paper regularizes the pre-collision distribution in BGK. This experiment leaves cumulant collision untouched and uses a separately derived factorized covariance reconstruction at the outer boundary only. No precision/stability claims from the paper are transferred to this implementation.",
+ "not_used":"The paper's numerical cavity/Kovasznay/3D turbulence comparisons are not experimental truth for this project and are not new validation cases."
+}

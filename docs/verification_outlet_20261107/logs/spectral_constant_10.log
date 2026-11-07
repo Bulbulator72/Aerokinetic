@@ -1,0 +1,37 @@
+constant [1, 0] column 0 / 648
+constant [1, 0] column 100 / 648
+constant [1, 0] column 200 / 648
+constant [1, 0] column 300 / 648
+constant [1, 0] column 400 / 648
+constant [1, 0] column 500 / 648
+constant [1, 0] column 600 / 648
+{
+  "candidate": "constant",
+  "shape": [
+    24,
+    8,
+    8
+  ],
+  "mode": [
+    1,
+    0
+  ],
+  "epsilon": 1e-06,
+  "dimension": 648,
+  "histories": [],
+  "outlet_links": 576,
+  "spectral_radius": 0.9845592588126397,
+  "leading_eigenvalue": [
+    0.9836751927099866,
+    0.041713898890721184
+  ],
+  "unstable_modes_over_1_plus_1e_6": 0,
+  "leading_mode_last_4_columns_fraction": 0.894882294621909,
+  "modal_map_relative_error": 8.481143551282716e-10,
+  "history_copy_max_error": 0.0,
+  "operator_sha256": "110d155d89dc4ba967589ba420b839d777257610943e69d3ea41cddeb1aa71e3",
+  "source": "/workspace/aerokinetic_outlet_20261107/boundary_constant.py",
+  "source_sha256": "d8798ffdb8b78ca2db0f308389594fb701b60659e625e06b88bb23e0c53aa9ec",
+  "elapsed_s": 38.925592346000485,
+  "map_checks_passed": true
+}

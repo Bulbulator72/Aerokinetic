@@ -1,0 +1,284 @@
+{
+  "date_utc": "2026-11-07",
+  "research_status": "rejected_for_release",
+  "production_version": "0.5.1",
+  "installed_research_package": "0.5.2",
+  "library_or_installed_wheel_changed": false,
+  "production_distribution_changed": false,
+  "noise": {
+    "periodic_control": {
+      "last_sampled_step": 10000,
+      "max_energy_over_initial": 1.0,
+      "boundedness_gate_passed": true
+    },
+    "straight_outlet": {
+      "last_sampled_step": 3200,
+      "max_energy_over_initial": 15861.896255758573,
+      "boundedness_gate_passed": false
+    },
+    "rectangle": {
+      "last_sampled_step": 2900,
+      "max_energy_over_initial": 17728.233034418397,
+      "boundedness_gate_passed": false
+    },
+    "euler_straight": {
+      "last_sampled_step": 3200,
+      "max_energy_over_initial": 16484.46376798719,
+      "boundedness_gate_passed": false
+    },
+    "euler_rectangle": {
+      "last_sampled_step": 2900,
+      "max_energy_over_initial": 18806.381267389617,
+      "boundedness_gate_passed": false
+    },
+    "ab2_straight": {
+      "last_sampled_step": 3200,
+      "max_energy_over_initial": 17165.244070623205,
+      "boundedness_gate_passed": false
+    },
+    "ab2_rectangle": {
+      "last_sampled_step": 2900,
+      "max_energy_over_initial": 20421.525081418902,
+      "boundedness_gate_passed": false
+    },
+    "constant_straight": {
+      "last_sampled_step": 10000,
+      "max_energy_over_initial": 1.0,
+      "boundedness_gate_passed": true
+    },
+    "constant_rectangle": {
+      "last_sampled_step": 10000,
+      "max_energy_over_initial": 1.0,
+      "boundedness_gate_passed": true
+    },
+    "regularized_straight": {
+      "last_sampled_step": 3200,
+      "max_energy_over_initial": 15861.898539886824,
+      "boundedness_gate_passed": false
+    },
+    "regularized_rectangle": {
+      "last_sampled_step": 2900,
+      "max_energy_over_initial": 17728.207046431893,
+      "boundedness_gate_passed": false
+    },
+    "ab3_straight": {
+      "last_sampled_step": 3200,
+      "max_energy_over_initial": 17167.612266314452,
+      "boundedness_gate_passed": false
+    },
+    "ab3_rectangle": {
+      "last_sampled_step": 2900,
+      "max_energy_over_initial": 20426.149795433477,
+      "boundedness_gate_passed": false
+    },
+    "convective_straight": {
+      "last_sampled_step": 10000,
+      "max_energy_over_initial": 1.0,
+      "boundedness_gate_passed": true
+    },
+    "convective_rectangle": {
+      "last_sampled_step": 10000,
+      "max_energy_over_initial": 1.0,
+      "boundedness_gate_passed": true
+    }
+  },
+  "spectral": {
+    "spectral_original_10": {
+      "shape": [
+        24,
+        8,
+        8
+      ],
+      "mode": [
+        1,
+        0
+      ],
+      "epsilon": 1e-06,
+      "spectral_radius": 0.9865422670188416,
+      "map_checks_passed": true,
+      "operator_sha256": "ac7606a5411f3914d1fbca9ac9f7d9a14872f0845823b3c9761edea05018050f"
+    },
+    "spectral_constant_10": {
+      "shape": [
+        24,
+        8,
+        8
+      ],
+      "mode": [
+        1,
+        0
+      ],
+      "epsilon": 1e-06,
+      "spectral_radius": 0.9845592588126397,
+      "map_checks_passed": true,
+      "operator_sha256": "110d155d89dc4ba967589ba420b839d777257610943e69d3ea41cddeb1aa71e3"
+    },
+    "spectral_original_long10": {
+      "shape": [
+        24,
+        48,
+        8
+      ],
+      "mode": [
+        1,
+        0
+      ],
+      "epsilon": 1e-06,
+      "spectral_radius": 0.9978720382998947,
+      "map_checks_passed": true,
+      "operator_sha256": "249b89729e7bff424a5e5b519fb3645226bf24ad677a7940ee6eabef92e4f86c"
+    },
+    "spectral_original_114": {
+      "shape": [
+        24,
+        48,
+        8
+      ],
+      "mode": [
+        11,
+        4
+      ],
+      "epsilon": 1e-06,
+      "spectral_radius": 1.0036206782875665,
+      "map_checks_passed": true,
+      "operator_sha256": "f9942b3157858c9a359e26a618d4180bc23a4c8473d3b03f8bf227611775f7e6"
+    },
+    "spectral_original_232": {
+      "shape": [
+        24,
+        48,
+        8
+      ],
+      "mode": [
+        23,
+        2
+      ],
+      "epsilon": 1e-06,
+      "spectral_radius": 1.003674166267925,
+      "map_checks_passed": true,
+      "operator_sha256": "c32ee96278bbefda7e22fc4c11fb7783d21838bd2bb563ee228e0e3abf062e4f"
+    },
+    "spectral_original_232_half": {
+      "shape": [
+        24,
+        48,
+        8
+      ],
+      "mode": [
+        23,
+        2
+      ],
+      "epsilon": 5e-07,
+      "spectral_radius": 1.0036741662632873,
+      "map_checks_passed": true,
+      "operator_sha256": "cf9192fdb6d107f4ef2b9c0f4fc837a0f6f4e2afa88c07271f700970d3ed254a"
+    },
+    "spectral_constant_232": {
+      "shape": [
+        24,
+        48,
+        8
+      ],
+      "mode": [
+        23,
+        2
+      ],
+      "epsilon": 1e-06,
+      "spectral_radius": 0.9707395488949346,
+      "map_checks_passed": true,
+      "operator_sha256": "e1e3c7cb6e748f4f04293f718dcdef18b0f34959a059ca1098bf807550979955"
+    },
+    "spectral_original_232_n48": {
+      "shape": [
+        48,
+        48,
+        8
+      ],
+      "mode": [
+        23,
+        2
+      ],
+      "epsilon": 1e-06,
+      "spectral_radius": 1.003674166267904,
+      "map_checks_passed": true,
+      "operator_sha256": "b8af2a384da497e5f4e9da0e540bd434af63494a882f43c30e0cfb34388066f8"
+    }
+  },
+  "spectral_audit": {
+    "epsilon_spectral_radius_difference": 4.637623618464204e-12,
+    "epsilon_check_passed": true,
+    "operator_max_entry_epsilon_difference": 1.582694530988249e-10,
+    "recovered_frozen_PDF_operator_vs_constant_control_max_entry_error": 6.289205206494792e-11,
+    "interpretation": "The growing real mode survives the epsilon change. The PDF suboperator with incoming history frozen agrees with the independent constant-incoming control to finite-difference roundoff."
+  },
+  "regularization_moments_passed": true,
+  "ab3_history_audit_passed": true,
+  "physical_groups": {
+    "convective_physics_a/shear": {
+      "passed": true,
+      "report": "results/convective_physics_a/shear/CHECKS.json"
+    },
+    "convective_physics_a/vortex": {
+      "passed": false,
+      "report": "results/convective_physics_a/vortex/CHECKS.json"
+    },
+    "convective_physics_a/preflight": {
+      "passed": true,
+      "report": "results/convective_physics_a/preflight/CHECKS.json"
+    },
+    "convective_physics_a/budget": {
+      "passed": true,
+      "report": "results/convective_physics_a/budget/CHECKS.json"
+    },
+    "convective_physics_b/glancing": {
+      "passed": true,
+      "report": "results/convective_physics_b/glancing/CHECKS.json"
+    },
+    "convective_physics_b/glancing_3d": {
+      "passed": true,
+      "report": "results/convective_physics_b/glancing_3d/CHECKS.json"
+    },
+    "convective_physics_b/seam_vortex": {
+      "passed": false,
+      "report": "results/convective_physics_b/seam_vortex/CHECKS.json"
+    },
+    "convective_physics_b/radiation": {
+      "passed": true,
+      "report": "results/convective_physics_b/radiation/CHECKS.json"
+    },
+    "copy_vortices/vortex": {
+      "passed": false,
+      "report": "results/copy_vortices/vortex/CHECKS.json"
+    },
+    "copy_vortices/seam_vortex": {
+      "passed": false,
+      "report": "results/copy_vortices/seam_vortex/CHECKS.json"
+    },
+    "copy_acoustic": {
+      "passed": false,
+      "report": "results/copy_acoustic/CHECKS.json"
+    },
+    "convective_acoustic": {
+      "passed": true,
+      "report": "results/convective_acoustic/CHECKS.json"
+    }
+  },
+  "portable_tools": {
+    "noise_initial_sha_equal": true,
+    "noise_history_bytes_equal": true,
+    "spectral_operator_sha_equal": true,
+    "spectrum_map_checks_passed": true,
+    "passed": true,
+    "budget_report_equal": true,
+    "normal_acoustic_reports_equal": true
+  },
+  "new_airfoil_runs": {
+    "status": "not_run",
+    "reason": "All replacement candidates failed mandatory isolated physical or boundedness gates; no new partial-window means or tunnel validation"
+  },
+  "windows_gpu_offline_release": {
+    "status": "not_run",
+    "reason": "Research prototypes rejected before release; no new package or executable built"
+  },
+  "reynolds_and_mach_guards": "Unchanged Re<=100000 and physical M<=0.15"
+}

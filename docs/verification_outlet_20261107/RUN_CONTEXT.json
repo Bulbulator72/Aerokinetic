@@ -1,0 +1,18 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "packages": {
+    "aerokinetic": "0.5.2",
+    "lbmpy": "1.4",
+    "pystencils": "1.4",
+    "numpy": "2.3.5",
+    "sympy": "1.12.1"
+  },
+  "known_resource_limits": "2 CPU quota,8GiB,no GPU",
+  "files_sha256": {
+    "/workspace/aerokinetic_outlet_20261107/noise_probe.py": "feee46154e4fb1d8ae79d910b5407114b3c07e1178bc930c2c498e2c0831c031",
+    "/workspace/aerokinetic/docs/verification_outlet_20261107/PLAN.json": "d8839e0301593543e0ae4ea8dddac89dcb3933a6aa3d0789228f11488bb6cd4d",
+    "/workspace/aerokinetic/tools/farfield_checks/preflight.py": "c1c1c2b413e3c19b82bc8db106f9074f554fc45e1cd3f7571d54fb90758f8d2a",
+    "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/aerokinetic/farfield.py": "f4b917ca09580fc4a74c4136e6c53e51e9f899c9fa272f17fbb5d22d9793239c"
+  }
+}

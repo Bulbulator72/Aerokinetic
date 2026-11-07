@@ -1,0 +1,17 @@
+{
+  "max_density_error": 2.6720146122594102e-05,
+  "step500": {
+    "step": 500,
+    "density_max_error": 2.462218603893618e-06,
+    "velocity_l2_error_over_initial_rotational_l2": 0.03138284315512208,
+    "velocity_max_error_over_initial_rotational_peak": 0.03624377603631425
+  },
+  "step3000": {
+    "step": 3000,
+    "density_max_error": 1.2563740123816558e-06,
+    "velocity_l2_error_over_initial_rotational_l2": 0.09101011503318486,
+    "velocity_max_error_over_initial_rotational_peak": 0.07806591181642891
+  },
+  "max_transit_velocity_l2_error_over_initial": 1.2390420988692157,
+  "passed": false
+}

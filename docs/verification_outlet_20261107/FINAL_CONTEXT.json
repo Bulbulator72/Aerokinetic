@@ -1,0 +1,53 @@
+{
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "packages": {
+      "aerokinetic": "0.5.2",
+      "lbmpy": "1.4",
+      "pystencils": "1.4",
+      "numpy": "2.3.5",
+      "sympy": "1.12.1"
+    },
+    "known_resource_limits": "2 CPU quota,8GiB,no GPU",
+    "files_sha256": {
+      "/workspace/aerokinetic_outlet_20261107/noise_probe.py": "feee46154e4fb1d8ae79d910b5407114b3c07e1178bc930c2c498e2c0831c031",
+      "/workspace/aerokinetic/docs/verification_outlet_20261107/PLAN.json": "d8839e0301593543e0ae4ea8dddac89dcb3933a6aa3d0789228f11488bb6cd4d",
+      "/workspace/aerokinetic/tools/farfield_checks/preflight.py": "c1c1c2b413e3c19b82bc8db106f9074f554fc45e1cd3f7571d54fb90758f8d2a",
+      "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/aerokinetic/farfield.py": "f4b917ca09580fc4a74c4136e6c53e51e9f899c9fa272f17fbb5d22d9793239c"
+    }
+  },
+  "final_source_hashes": {
+    "docs/verification_outlet_20261107/prototypes/noise_probe.py": "14a0f0039990a2ff582037440cb7779a5d4da095c11fd43f156fbcbc97ac54b1",
+    "docs/verification_outlet_20261107/prototypes/boundary_regularized.py": "bed4c82d611db5739233a848f17493eda4d186690eac02ec4e69c64fb6079b66",
+    "docs/verification_outlet_20261107/prototypes/spectral_probe.py": "42359e1ac2d25cd16d5f940a1c805f8a9db2df0d277547b40d40ca240ec88bd4",
+    "docs/verification_outlet_20261107/prototypes/boundary_ab2.py": "d14459534c5ccf5f7011757f777e80cf311572507d89d9c19364895e1ac35576",
+    "docs/verification_outlet_20261107/prototypes/reconstruction_probe.py": "4ab6f95d9157ad47f05da372278b30c27819cfd249bd36c343053021c4f72462",
+    "docs/verification_outlet_20261107/prototypes/prepare_regularized.py": "ed7084505bcfc827a1d4dbcb4292f0a185405e1a0391f186039c84f8726ccfc7",
+    "docs/verification_outlet_20261107/prototypes/outlet_acoustic.py": "003e143697af809a972b43beb9b14d1e2f595164d524421561b52bc860eb0874",
+    "docs/verification_outlet_20261107/prototypes/prepare_convective.py": "6d33b26b6730655b5acfc2f49e753379c27d94e3a9f7bae017a1b6ed0ad03a7a",
+    "docs/verification_outlet_20261107/prototypes/time_probe.py": "fde8531bbacb5d659eb2c5d2faa3d88f60802642785f2db6450ffa0594aa46e6",
+    "docs/verification_outlet_20261107/prototypes/physical_probe.py": "7e95e524ca99790e43abed50a5c540d76196ff5649055f9d8e466078759d8b18",
+    "docs/verification_outlet_20261107/prototypes/boundary_ab3.py": "0633bec2a1db2865dbe2b0b2172ce93616816c966939daf2e249815a3469dd48",
+    "docs/verification_outlet_20261107/prototypes/check_regularization.py": "6cc1df505b6ec7b783c4df117e9b4d072f1c3b83691ed27a76bb47e116491eda",
+    "docs/verification_outlet_20261107/prototypes/audit_ab3_history.py": "dafb617cf171c1eff7327c9ba2096a24d347ed76db5df27e0e492b746aebbfae",
+    "docs/verification_outlet_20261107/prototypes/boundary_convective.py": "c06d6442b1550c99adeee9393198aea40a86447cf37e535266e223c886698c91",
+    "docs/verification_outlet_20261107/prototypes/ab3_probe.py": "56b6d609645d45c7ea7bdf2524bbd2618552b916ab10d6db1d4799a79cf94cf5",
+    "docs/verification_outlet_20261107/prototypes/boundary_euler.py": "8a6ba458082a41751816529229a7c4b28328f62a1be6737e50a04c70bf98bb43",
+    "docs/verification_outlet_20261107/prototypes/noise_probe_initial.py": "feee46154e4fb1d8ae79d910b5407114b3c07e1178bc930c2c498e2c0831c031",
+    "docs/verification_outlet_20261107/prototypes/boundary_copy.py": "a4ceb0adc61c3028049281e95e5583ddbc049ae55463d3d701bb1b723463e13a",
+    "docs/verification_outlet_20261107/prototypes/boundary_constant.py": "d8798ffdb8b78ca2db0f308389594fb701b60659e625e06b88bb23e0c53aa9ec",
+    "tools/outlet_checks/physics.py": "dadda70795e0e7eeb4098535540f9dd1e648a82574d301e76ca7cad1208be518",
+    "tools/outlet_checks/noise.py": "10f888c95ca4f3749115610c05f7bcf4c55e64a8841a1a8358ff2463af4aecf2",
+    "tools/outlet_checks/spectrum.py": "a17e0d1193e17a4cc735dd32e3e024c6da03a79670b715931b41785b9550a551",
+    "tools/outlet_checks/acoustic.py": "bdbbdda75e6a1d1c5da82a2fd7372c1532ad68339971ab1a893440a48b987ed9",
+    "tools/farfield_checks/preflight.py": "c1c1c2b413e3c19b82bc8db106f9074f554fc45e1cd3f7571d54fb90758f8d2a",
+    "tools/farfield_checks/__init__.py": "0385035dd4f750e506866c42f66cb311cd6eaf6a3e0a5eb96752badb2412fe41",
+    "tools/farfield_checks/seam_vortex.py": "2c4f4cd924b764956036d15dc17c619c8d7e5e33e6c65abf065169bcbc3a9894",
+    "tools/farfield_checks/vortex.py": "36e4644b98b1f20ed95a3d40e6dd8cd437b54ba1b3bcbd8768f1f5c70e6f0617",
+    "tools/farfield_checks/glancing.py": "b063b16e7c196005ecdb5fb302cf7e486ae2fafebc13b20908493257d39e75db",
+    "tools/farfield_checks/verification.py": "59dea2b2824b693cc1672fc6185a0045cc789c1c362b8599153bbefbf4db26a4"
+  },
+  "original_noise_protocol_reconstructed_exactly": true,
+  "scope": "No new dependencies, no library changes; portable import roots differ from original scripts, exact numerical boundary sources retained"
+}

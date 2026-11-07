@@ -1,0 +1,17 @@
+{
+  "candidate": "copy",
+  "source": "/workspace/aerokinetic_outlet_20261107/boundary_copy.py",
+  "candidate_sha256": "a4ceb0adc61c3028049281e95e5583ddbc049ae55463d3d701bb1b723463e13a",
+  "protocol_hashes": {
+    "farfield_checks.preflight": "c1c1c2b413e3c19b82bc8db106f9074f554fc45e1cd3f7571d54fb90758f8d2a",
+    "farfield_checks.verification": "59dea2b2824b693cc1672fc6185a0045cc789c1c362b8599153bbefbf4db26a4",
+    "farfield_checks.vortex": "36e4644b98b1f20ed95a3d40e6dd8cd437b54ba1b3bcbd8768f1f5c70e6f0617",
+    "farfield_checks.seam_vortex": "2c4f4cd924b764956036d15dc17c619c8d7e5e33e6c65abf065169bcbc3a9894",
+    "farfield_checks.glancing": "b063b16e7c196005ecdb5fb302cf7e486ae2fafebc13b20908493257d39e75db"
+  },
+  "groups": [
+    "seam_vortex",
+    "vortex"
+  ],
+  "scope": "Prototype code verification; not a replacement installed wheel or tunnel validation"
+}

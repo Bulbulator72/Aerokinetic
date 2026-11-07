@@ -1,0 +1,155 @@
+{
+  "cases": {
+    "control": {
+      "snapshots": [
+        {
+          "step": 0,
+          "max_core_density_perturbation": 1.9950062448037542e-05,
+          "max_core_velocity_perturbation": 1.3877787807814457e-17
+        },
+        {
+          "step": 80,
+          "max_core_density_perturbation": 3.040165526435601e-06,
+          "max_core_velocity_perturbation": 1.9612879431571417e-06
+        },
+        {
+          "step": 160,
+          "max_core_density_perturbation": 1.92521351149999e-06,
+          "max_core_velocity_perturbation": 8.922021643917311e-07
+        },
+        {
+          "step": 240,
+          "max_core_density_perturbation": 3.438416484868867e-07,
+          "max_core_velocity_perturbation": 1.0995673360714164e-07
+        },
+        {
+          "step": 320,
+          "max_core_density_perturbation": 1.014032443569235e-07,
+          "max_core_velocity_perturbation": 2.4568597989382823e-08
+        },
+        {
+          "step": 360,
+          "max_core_density_perturbation": 7.074784935667822e-08,
+          "max_core_velocity_perturbation": 1.5490601884549093e-08
+        }
+      ],
+      "elapsed_s": 74.575383874002
+    },
+    "ubb": {
+      "snapshots": [
+        {
+          "step": 0,
+          "max_core_density_perturbation": 1.9950062448037542e-05,
+          "max_core_velocity_perturbation": 1.3877787807814457e-17
+        },
+        {
+          "step": 80,
+          "max_core_density_perturbation": 3.4746623878145755e-06,
+          "max_core_velocity_perturbation": 1.950311790212267e-06
+        },
+        {
+          "step": 160,
+          "max_core_density_perturbation": 8.143489808709603e-06,
+          "max_core_velocity_perturbation": 2.9651749830645096e-06
+        },
+        {
+          "step": 240,
+          "max_core_density_perturbation": 6.278342363996714e-06,
+          "max_core_velocity_perturbation": 2.1574854931684853e-06
+        },
+        {
+          "step": 320,
+          "max_core_density_perturbation": 7.056434131458289e-06,
+          "max_core_velocity_perturbation": 3.1230864790575554e-06
+        },
+        {
+          "step": 360,
+          "max_core_density_perturbation": 8.012353044595244e-06,
+          "max_core_velocity_perturbation": 3.100558403348402e-06
+        }
+      ],
+      "elapsed_s": 22.039505934997578
+    },
+    "riemann": {
+      "snapshots": [
+        {
+          "step": 0,
+          "max_core_density_perturbation": 1.9950062448037542e-05,
+          "max_core_velocity_perturbation": 1.3877787807814457e-17
+        },
+        {
+          "step": 80,
+          "max_core_density_perturbation": 3.0392660226308266e-06,
+          "max_core_velocity_perturbation": 1.968272787637726e-06
+        },
+        {
+          "step": 160,
+          "max_core_density_perturbation": 1.455959423912745e-06,
+          "max_core_velocity_perturbation": 1.0917141957250687e-06
+        },
+        {
+          "step": 240,
+          "max_core_density_perturbation": 2.654416375591495e-07,
+          "max_core_velocity_perturbation": 5.14206670951777e-07
+        },
+        {
+          "step": 320,
+          "max_core_density_perturbation": 1.7088596471204198e-07,
+          "max_core_velocity_perturbation": 4.902098522938656e-07
+        },
+        {
+          "step": 360,
+          "max_core_density_perturbation": 9.007644519165581e-08,
+          "max_core_velocity_perturbation": 4.0353085263970404e-07
+        }
+      ],
+      "elapsed_s": 30.645150768999883
+    }
+  },
+  "errors": [
+    {
+      "step": 0,
+      "ubb_density_l2_error_over_initial_pulse": 0.0,
+      "ubb_density_max_error": 0.0,
+      "riemann_density_l2_error_over_initial_pulse": 0.0,
+      "riemann_density_max_error": 0.0
+    },
+    {
+      "step": 80,
+      "ubb_density_l2_error_over_initial_pulse": 0.07049323238642338,
+      "ubb_density_max_error": 1.6475040680585806e-06,
+      "riemann_density_l2_error_over_initial_pulse": 0.003101883346564261,
+      "riemann_density_max_error": 5.726948359985329e-08
+    },
+    {
+      "step": 160,
+      "ubb_density_l2_error_over_initial_pulse": 0.7686737611580539,
+      "ubb_density_max_error": 6.22615540790683e-06,
+      "riemann_density_l2_error_over_initial_pulse": 0.03877191009867731,
+      "riemann_density_max_error": 4.807508098281232e-07
+    },
+    {
+      "step": 240,
+      "ubb_density_l2_error_over_initial_pulse": 0.760420755646471,
+      "ubb_density_max_error": 6.435220348155468e-06,
+      "riemann_density_l2_error_over_initial_pulse": 0.053006190455470927,
+      "riemann_density_max_error": 3.7261932295251654e-07
+    },
+    {
+      "step": 320,
+      "ubb_density_l2_error_over_initial_pulse": 0.71515988773928,
+      "ubb_density_max_error": 7.13945330921284e-06,
+      "riemann_density_l2_error_over_initial_pulse": 0.044587776223417565,
+      "riemann_density_max_error": 2.4269494791617774e-07
+    },
+    {
+      "step": 360,
+      "ubb_density_l2_error_over_initial_pulse": 0.5884533210752004,
+      "ubb_density_max_error": 8.083100893285788e-06,
+      "riemann_density_l2_error_over_initial_pulse": 0.03023125664964332,
+      "riemann_density_max_error": 1.5340773795724516e-07
+    }
+  ],
+  "passed": true,
+  "scope": "Larger-domain numerical truncation control at identical dx/dt/collision/initial field, not experimental truth."
+}

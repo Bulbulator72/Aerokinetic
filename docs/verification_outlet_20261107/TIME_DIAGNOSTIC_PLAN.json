@@ -1,0 +1,9 @@
+{
+ "date_utc":"2026-11-07",
+ "observation":"Periodic control decays; straight outlet reaches energy/initial15861 by step3200 without any corners. Rectangle also grows. Corners are not a necessary cause.",
+ "purpose":"Separate incoming-invariant time update from NEEP reconstruction using identical noise fixtures; no pressure coefficient tuning",
+ "variants":{"euler":"R_new=R_old+F_current","ab2":"R_new=R_old+1.5*F_current-0.5*F_previous","constant_control":"Rminus=Un_inf on non-glancing boundaries; no claim this control preserves vortices or is usable for profiles"},
+ "preserve":"Existing characteristic_transport_v1 spatial operator, glancing own-initial-state transport, same macro reconstruction and D3Q27 equilibrium; main unchanged",
+ "cases":"Straight outlet and rectangle, same seed/shape/viscosity/sampling/steps and gates as PLAN.json",
+ "acceptance":"Fixed sampled energy/initial<=1.1 over10000, finite fields; record any failure and strong growth using unchanged diagnostic criteria. Only if a time rule passes proceed to unchanged previous wave/vortex/budget gates and long profile completion gates. Constant control is diagnostic only."
+}

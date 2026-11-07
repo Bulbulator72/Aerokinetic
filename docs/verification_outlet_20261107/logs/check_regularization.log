@@ -1,0 +1,1 @@
+{'symbolic_mass_momentum_second_tensor': 'passed', 'numeric_trials': 30, 'max_raw_moment_error': 6.661338147750939e-16, 'tolerance': 2e-13, 'minimum_changed_distribution_l2': 6.203552423942776e-05, 'scope': 'Conservation/regularization property only; not boundary stability or airfoil validation', 'passed': True}

@@ -1,0 +1,7 @@
+{
+  "epsilon_spectral_radius_difference": 4.637623618464204e-12,
+  "epsilon_check_passed": true,
+  "operator_max_entry_epsilon_difference": 1.582694530988249e-10,
+  "recovered_frozen_PDF_operator_vs_constant_control_max_entry_error": 6.289205206494792e-11,
+  "interpretation": "The growing real mode survives the epsilon change. The PDF suboperator with incoming history frozen agrees with the independent constant-incoming control to finite-difference roundoff."
+}

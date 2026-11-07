@@ -1,0 +1,33 @@
+{
+  "candidate": "original",
+  "shape": [
+    24,
+    48,
+    8
+  ],
+  "mode": [
+    1,
+    0
+  ],
+  "epsilon": 1e-06,
+  "dimension": 650,
+  "histories": [
+    "incoming",
+    "derivative"
+  ],
+  "outlet_links": 3456,
+  "spectral_radius": 0.9978720382998947,
+  "leading_eigenvalue": [
+    -0.9978720382998947,
+    -3.9316713247024856e-13
+  ],
+  "unstable_modes_over_1_plus_1e_6": 0,
+  "leading_mode_last_4_columns_fraction": 0.16051282341312154,
+  "modal_map_relative_error": 3.5599577584816883e-10,
+  "history_copy_max_error": 8.271806125530277e-25,
+  "operator_sha256": "249b89729e7bff424a5e5b519fb3645226bf24ad677a7940ee6eabef92e4f86c",
+  "source": "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/aerokinetic/farfield.py",
+  "source_sha256": "f4b917ca09580fc4a74c4136e6c53e51e9f899c9fa272f17fbb5d22d9793239c",
+  "elapsed_s": 66.1891838019983,
+  "map_checks_passed": true
+}

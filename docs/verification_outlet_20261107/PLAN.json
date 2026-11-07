@@ -1,0 +1,12 @@
+{
+ "date_utc":"2026-11-07",
+ "purpose":"Localize the remaining characteristic_transport_v1 instability: straight outlet without corners versus rectangular faces/corners. Do not promote a solver from short-test success.",
+ "baseline":"Installed research wheel0.5.2, SHA256 a3c2930ffcf45cf326fd09217c1afb9bea69c91299a8d83eafbe31c56e49639f; production main0.5.1 remains unchanged",
+ "case":{"shape":[96,48,8],"background_velocity":[0.04,0,0],"density":1,"viscosity":0.00004266666666666667,"collision":"unchanged compressible zero-centered D3Q27 cumulant, default bulk rate1, no SGS","seed":3107,"initial_noise":"Independent deterministic normal rho and all3 velocity perturbations, std1e-8, each owned-component spatial mean removed; initialize equilibrium PDFs; ghost PDFs initialized deterministically","steps":10000,"sample_every":100,"cpu_threads_per_case":1},
+ "setups":{"periodic_control":[true,true,true],"straight_outlet":[false,true,true],"rectangle":[false,false,true]},
+ "measurements":["mean(|u-U|^2+cs^2*(rho-1)^2) / initial", "max density/velocity perturbation", "max perturbation location", "energy localized to outlet-middle/corner/side/core bands", "boundary incoming-invariant ranges"],
+ "gates":{"sampled_energy_boundedness_over_initial":1.1,"strong_growth_detection_energy_over_initial":100,"finite_fields":true,"early_stop":"energy ratio>10000 or max|rho-1|>.05 or localMa>.3; keep the failed result, never relax its gate"},
+ "interpretation":"The boundedness gate is the earlier glancing1.1 criterion, not experimental validation. Strong-growth detection is a diagnostic flag distinct from that gate. Any rectangular-only failure does not prove a corner defect by itself; follow with controlled corner-only changes. Any straight-outlet failure requires analysis of its full coupled operator.",
+ "invariants":["Do not retune Reynolds number, viscosity, collision rates, lattice speed or existing acoustic/vortex acceptance gates","No change to main or new Windows distribution before long airfoil gates pass","No export of new binary fields/images/wheels after prior approval rejection; publish source, already prepared text results and hashes only if publishing"],
+ "next_if_corner_supported":"Derive a consistent Cartesian-face treatment of corner ghost populations, test it separately on the same noise fixtures and the unchanged earlier verification gates before any profile claim"
+}

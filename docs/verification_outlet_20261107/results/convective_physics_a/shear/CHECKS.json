@@ -1,0 +1,11 @@
+{
+  "max_density_error": 4.596323321948148e-14,
+  "last": {
+    "step": 3000,
+    "max_density_error": 2.842170943040401e-14,
+    "max_uy_error_vs_gaussian": 2.8704921901834837e-10,
+    "max_interior_abs_uy": 2.3662386069641618e-11
+  },
+  "passed": true,
+  "scope": "Convected transverse Gaussian is an exact NS mode; finite LBM truncation/boundary errors remain. This is not a tunnel validation."
+}

@@ -1,0 +1,8 @@
+{
+ "date_utc":"2026-11-07",
+ "observation":"Stress-preserving boundary regularization changes the noise growth negligibly; the same growing mode remains. Euler and AB2 also failed. This points to the coupled hydrodynamic characteristic update, not a pure higher-kinetic-moment defect.",
+ "candidate":"Third-order explicit Adams-Bashforth for the incoming characteristic: R_new=R_old+(23 F_current-16 F_previous+5 F_previous2)/12. Extra derivative history is initialized from actual initial F and checkpointed if integrated. Original NEEP and spatial operator unchanged.",
+ "rationale":"Euler and AB2 do not have a finite stable interval on the imaginary axis, whereas AB3 does. Acoustic/transverse coupling can support oscillatory modes. This fact is motivation only, not a stability proof for the partitioned full LBM boundary; use the unchanged measured noise and earlier physical verification gates.",
+ "gates":"Same PLAN.json10000-step energy1.1 bound and same noise SHA; same previous acoustic/vortex thresholds before any airfoil test. Check actual history update ordering separately. No fitted coefficient or viscosity/rate change.",
+ "if_fails":"Do not add further time-order variants blindly; obtain the linearized full collide-stream-plus-boundary amplification operator and its eigenmodes."
+}

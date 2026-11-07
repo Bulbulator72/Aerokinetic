@@ -1,0 +1,36 @@
+rectangle 0 1.0 (np.int64(83), np.int64(29), np.int64(2))
+rectangle 1000 0.012055746976653244 (np.int64(73), np.int64(0), np.int64(0))
+rectangle 2000 0.0035251465120849984 (np.int64(89), np.int64(0), np.int64(6))
+rectangle 3000 5.944147679929099e-06 (np.int64(88), np.int64(0), np.int64(5))
+rectangle 4000 8.800272636181759e-07 (np.int64(84), np.int64(1), np.int64(5))
+rectangle 5000 4.45873094071516e-09 (np.int64(90), np.int64(0), np.int64(5))
+rectangle 6000 1.3879188715509058e-10 (np.int64(89), np.int64(0), np.int64(0))
+rectangle 7000 2.821700527698599e-11 (np.int64(63), np.int64(45), np.int64(5))
+rectangle 8000 7.1082662335141145e-12 (np.int64(90), np.int64(45), np.int64(7))
+rectangle 9000 1.8989464346568874e-12 (np.int64(92), np.int64(45), np.int64(5))
+rectangle 10000 5.205145918421201e-13 (np.int64(92), np.int64(45), np.int64(7))
+{
+  "case": "rectangle",
+  "version": "0.5.2",
+  "installed": "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/aerokinetic/__init__.py",
+  "initial_noise_sha256": "8cffaab76d458180be99119e04a236fb8809e17707d3dbea7e8dfa625759f5f2",
+  "shape": [
+    96,
+    48,
+    8
+  ],
+  "periodic": [
+    false,
+    false,
+    true
+  ],
+  "last_sampled_step": 10000,
+  "finite": true,
+  "max_energy_over_initial": 1.0,
+  "elapsed_s": 22.83322371000031,
+  "boundedness_gate_passed": true,
+  "strong_growth_detected": false,
+  "candidate": "constant",
+  "farfield_source": "/workspace/aerokinetic_outlet_20261107/boundary_constant.py",
+  "farfield_sha256": "d8798ffdb8b78ca2db0f308389594fb701b60659e625e06b88bb23e0c53aa9ec"
+}
