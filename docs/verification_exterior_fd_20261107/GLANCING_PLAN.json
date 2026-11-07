@@ -1,0 +1,8 @@
+{
+  "date_utc":"2026-11-07",
+  "case":"Same prior64x24x8 core, periodic x/z, U=.04x, normal uy amplitude2e-5, wavelengths16/8/4;3D64x24x32,U=(.04,0,.01),x wavelength16 and z wavelength16",
+  "gates":"10000 steps, sampled every100; physical-core perturbation energy/initial<=1.1 and max|rho-1|<=2e-6, same as previous protocol. Also require combined core+auxiliary energy normalized by its own initial total<=1.1; the auxiliary initial shear is nonzero and must be included in that reference.",
+  "fail_fast":"Stop once a sampled running-maximum acceptance threshold is exceeded. This is a definitive failure of the unchanged maximum gate; preserve all prefix samples. It cannot remove an earlier violation or turn an incomplete run into a pass.",
+  "order":"Begin with wavelength4, the shortest prior case. Do not continue other cases as a release-validation batch if this indispensable gate fails. No parameter or tolerance fitting.",
+  "scope":"Long-time boundedness and density consistency, not phase-accurate DNS or airfoil/tunnel validation."
+}

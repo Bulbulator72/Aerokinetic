@@ -1,0 +1,98 @@
+{
+  "prototype_source_sha256": "9c0b2f35c79c340f916364c6cd7fff9cf36776df16f1d7a45b03024d7e853c02",
+  "groups": {
+    "preflight": {
+      "status": "passed",
+      "checks_file": "raw/preflight/CHECKS.json"
+    },
+    "noise_straight_final": {
+      "status": "passed",
+      "checks_file": "raw/noise_straight_final/CHECKS.json"
+    },
+    "noise_rectangle_final": {
+      "status": "passed",
+      "checks_file": "raw/noise_rectangle_final/CHECKS.json"
+    },
+    "acoustic_normal_final": {
+      "status": "passed",
+      "checks_file": "raw/acoustic_normal_final/CHECKS.json"
+    },
+    "acoustic_glancing": {
+      "status": "passed",
+      "checks_file": "raw/acoustic_glancing/CHECKS.json"
+    },
+    "budget": {
+      "status": "passed",
+      "checks_file": "raw/budget/CHECKS.json"
+    },
+    "shear": {
+      "status": "passed",
+      "checks_file": "raw/shear/CHECKS.json"
+    },
+    "vortex_corner": {
+      "status": "passed",
+      "checks_file": "raw/vortex_corner/CHECKS.json"
+    },
+    "vortex_seam": {
+      "status": "passed",
+      "checks_file": "raw/vortex_seam/CHECKS.json"
+    },
+    "glancing_w4": {
+      "status": "passed",
+      "checks_file": "raw/glancing_w4/CHECKS.json"
+    },
+    "glancing_w8": {
+      "status": "passed",
+      "checks_file": "raw/glancing_w8/CHECKS.json"
+    },
+    "glancing_w16": {
+      "status": "passed",
+      "checks_file": "raw/glancing_w16/CHECKS.json"
+    },
+    "glancing_3d": {
+      "status": "passed",
+      "checks_file": "raw/glancing_3d/CHECKS.json"
+    },
+    "radiation": {
+      "status": "passed",
+      "checks_file": "raw/radiation/CHECKS.json"
+    },
+    "spectral_23_2": {
+      "status": "passed",
+      "checks_file": "raw/spectral_23_2/CHECKS.json"
+    },
+    "spectral_23_2_half": {
+      "status": "passed",
+      "checks_file": "raw/spectral_23_2_half/CHECKS.json"
+    },
+    "spectral_23_2_nx48": {
+      "status": "passed",
+      "checks_file": "raw/spectral_23_2_nx48/CHECKS.json"
+    },
+    "airfoil_preflight_final": {
+      "status": "passed",
+      "checks_file": "raw/airfoil_preflight_final/CHECKS.json"
+    },
+    "cold_restart": {
+      "status": "passed",
+      "checks_file": "raw/cold_restart/CHECKS.json"
+    },
+    "airfoil_down3": {
+      "status": "inconclusive",
+      "reason": "No final CHECKS.json yet; inspect the running command",
+      "local_path": "/workspace/aerokinetic_fd_exterior_20261107/airfoil_down3"
+    },
+    "airfoil_down6": {
+      "status": "inconclusive",
+      "reason": "No final CHECKS.json yet; inspect the running command",
+      "local_path": "/workspace/aerokinetic_fd_exterior_20261107/airfoil_down6"
+    }
+  },
+  "implementation": "passed_isolated_prototype",
+  "airfoil_completion": "not_complete",
+  "grid_convergence": "not_run",
+  "experimental_validation": "not_run",
+  "windows_gpu_offline_release": "not_run",
+  "production_solver": "unchanged0.5.1",
+  "installed_research_wheel": "unchanged0.5.2; earlier characteristic candidate remains rejected"
+}

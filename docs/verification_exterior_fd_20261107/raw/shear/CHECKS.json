@@ -1,0 +1,11 @@
+{
+  "max_density_error": 4.282130205979229e-13,
+  "last": {
+    "step": 3000,
+    "max_density_error": 4.282130205979229e-13,
+    "max_uy_error_vs_gaussian": 2.8039062391170896e-10,
+    "max_interior_abs_uy": 1.894541544045324e-11
+  },
+  "passed": true,
+  "source_sha256": "9c0b2f35c79c340f916364c6cd7fff9cf36776df16f1d7a45b03024d7e853c02"
+}

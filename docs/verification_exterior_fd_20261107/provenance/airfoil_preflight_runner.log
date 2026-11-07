@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/workspace/aerokinetic_fd_exterior_20261107/airfoil_preflight.py", line 72, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/aerokinetic_fd_exterior_20261107/airfoil_preflight.py", line 41, in main
+    pilot.restore_research_checkpoint(a.output/'restart_local.npz')
+  File "/workspace/aerokinetic_fd_exterior_20261107/airfoil_pilot.py", line 162, in restore_research_checkpoint
+    if json.loads(str(d['identity']))!=self.identity():raise ValueError('Research checkpoint identity mismatch')
+                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Research checkpoint identity mismatch

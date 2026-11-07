@@ -1,0 +1,22 @@
+{
+  "symbolic_identities": {
+    "(-1, 0)": true,
+    "(1, 0)": true,
+    "(0, -1)": true,
+    "(0, 1)": true,
+    "(-1, -1)": true,
+    "(-1, 1)": true,
+    "(1, -1)": true,
+    "(1, 1)": true
+  },
+  "boundary_cells": 384,
+  "owned_pdf_edit_max": 0.0,
+  "coherent_memory_max_error": 0.0,
+  "pulled_Rminus_max_error": 4.676841596287784e-16,
+  "post_collision_Rminus_max_error": 4.862434985360674e-16,
+  "tangent_velocity_target_max_error": 1.3877787807814457e-17,
+  "tolerance": 2e-12,
+  "elapsed_s": 14.122258402996522,
+  "source_sha256": "bab9dffc65b8c6c8801a6de20190de874f09916884eeaae72bfdbf570b159bf8",
+  "passed": true
+}

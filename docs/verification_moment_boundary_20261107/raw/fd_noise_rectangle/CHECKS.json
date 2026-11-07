@@ -1,0 +1,42 @@
+{
+  "case": "rectangle",
+  "version": "0.5.2",
+  "installed": "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/aerokinetic/__init__.py",
+  "initial_noise_sha256": "8cffaab76d458180be99119e04a236fb8809e17707d3dbea7e8dfa625759f5f2",
+  "shape": [
+    96,
+    48,
+    8
+  ],
+  "periodic": [
+    false,
+    false,
+    true
+  ],
+  "last_sampled_step": 1100,
+  "finite": true,
+  "max_energy_over_initial": 43115.13767575347,
+  "last": {
+    "step": 1100,
+    "energy_over_initial": 43115.13767575347,
+    "max_density_error": 5.335594226352214e-05,
+    "max_velocity_error": 9.242206741624098e-05,
+    "max_mach": 0.06943286707972741,
+    "peak_x": 95,
+    "peak_y": 34,
+    "peak_z": 7,
+    "outlet_corner_energy_over_initial": 151995.02293155124,
+    "outlet_middle_energy_over_initial": 869123.6040391597,
+    "side_energy_over_initial": 0.08749564974193452,
+    "core_energy_over_initial": 0.04158971507130784
+  },
+  "boundary_ranges": {
+    "OwnedMomentFDTrial_all": {}
+  },
+  "elapsed_s": 9.934200611998676,
+  "boundedness_gate_passed": false,
+  "strong_growth_detected": true,
+  "candidate": "moment_fd",
+  "farfield_source": "/workspace/aerokinetic_moment_boundary_20261107/boundary_moment_fd.py",
+  "farfield_sha256": "96f5c2149742d98d41be5149f90be1f67196d9e2cf6ad16752967b221191a11e"
+}

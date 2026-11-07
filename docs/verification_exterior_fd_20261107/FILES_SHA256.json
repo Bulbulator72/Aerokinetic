@@ -1,0 +1,300 @@
+{
+  "files": [
+    {
+      "path": "AIRFOIL_PLAN.json",
+      "bytes": 2876,
+      "sha256": "562521383eaccda7826377505da7c4b8ccdb639ba40f060a31097b5315ee6c13"
+    },
+    {
+      "path": "ANALYSIS_PLAN.json",
+      "bytes": 1743,
+      "sha256": "d38a9cec41cb73d86317be8613b836ef6dd2773f25aca37268849c193903a947"
+    },
+    {
+      "path": "CHECKS.json",
+      "bytes": 2993,
+      "sha256": "78664f65c75f1d7276b99c757eb39ab30adcf506cc28f49defeb9bcfe5840fe9"
+    },
+    {
+      "path": "EXCLUDED_LOCAL_BINARIES.json",
+      "bytes": 1203,
+      "sha256": "24337aa15e4daf2c6af01cfe91dbb8023fb5463af833dbd2972c9e4b84c90234"
+    },
+    {
+      "path": "GLANCING_PLAN.json",
+      "bytes": 1050,
+      "sha256": "3e82cf50bca1258eaad43d9bb834894aaf5b7279c2086cd8dc90a66fd1ed7cf1"
+    },
+    {
+      "path": "METADATA_FIX_EQUIVALENCE.json",
+      "bytes": 179,
+      "sha256": "8d1733e50c2736bcb90d6d15bc5d9c3be53b275c2c626e5f140adeada20da04e"
+    },
+    {
+      "path": "PLAN.json",
+      "bytes": 4015,
+      "sha256": "5da5b4f7ca600402b0b79e64ff83c5e9c54d4b3c35179a90af7d52e5117ef2b2"
+    },
+    {
+      "path": "REPORT_RU.md",
+      "bytes": 10714,
+      "sha256": "ccbbf353681fa9f60e51c83836cb3a04fa3c034a7a6603c4f218bbced427cff9"
+    },
+    {
+      "path": "RUN_CONTEXT.json",
+      "bytes": 5505,
+      "sha256": "0fe35fb6825cae95bd13dc787ac372ac976c28eb431055bd1a42162248653d3f"
+    },
+    {
+      "path": "STRAIN_CHECKS.json",
+      "bytes": 329,
+      "sha256": "3ec39f84e2db110c23ebddaf3ccdecffc8df50048304774ffffc9f7f5a483883"
+    },
+    {
+      "path": "provenance/acoustic_normal.log",
+      "bytes": 1867,
+      "sha256": "12d13335842b52e732d91b9bf24ee4d3855d47d64995034d110e2f5c20d0bb85"
+    },
+    {
+      "path": "provenance/airfoil_pilot_before_checkpoint_metadata_fix.py",
+      "bytes": 10575,
+      "sha256": "b07a7bd775d404ca92f39d4642c107e444b13928c6454831fd7df08065c82921"
+    },
+    {
+      "path": "provenance/airfoil_preflight_final_runner.log",
+      "bytes": 3174,
+      "sha256": "5af437fd30bbf6aca61a0cac53266ddbc1c01d527ff1464fa967706b7e744ae5"
+    },
+    {
+      "path": "provenance/airfoil_preflight_runner.log",
+      "bytes": 749,
+      "sha256": "8ac6045a7d22f2dfa654b061e0dc798e9d6526baecae8cd69e7a3f403015a845"
+    },
+    {
+      "path": "provenance/exterior_fd_before_metadata_fix.py",
+      "bytes": 10961,
+      "sha256": "59c6613b3f9225db43d84032ea3cf4f178de53e0ccf71bc116bff5f0c729a580"
+    },
+    {
+      "path": "provenance/noise_rectangle.log",
+      "bytes": 2290,
+      "sha256": "895e9b2f349d98d8d8575bdea919b53d685517634ac1c30b3f82f883e142196b"
+    },
+    {
+      "path": "provenance/noise_straight.log",
+      "bytes": 2282,
+      "sha256": "cb1427a742e3c97056d364c2c9da513389ce90b34a552533df3e5c0cdd1e0237"
+    },
+    {
+      "path": "provenance/preflight.log",
+      "bytes": 436,
+      "sha256": "8bce92a069071ee266f9e19a7e7dcc69c5eb250bdfdbe97dc0a89ee9eea33c86"
+    },
+    {
+      "path": "raw/acoustic_glancing/CHECKS.json",
+      "bytes": 374,
+      "sha256": "87e9f52f95d1e219c4aec5cb3f50d787d4fc86f778499435ad2925fddf981a44"
+    },
+    {
+      "path": "raw/acoustic_glancing/exterior_fd.csv",
+      "bytes": 34414,
+      "sha256": "c1cd33ee987b513d221baa758ef0cc2a9586f6660dd7869d335716b0a5bf643b"
+    },
+    {
+      "path": "raw/acoustic_glancing/ubb.csv",
+      "bytes": 34562,
+      "sha256": "8177d952c4c25cda3edec85a0029e4c66a387dc0cb80ca6883957cde3880b160"
+    },
+    {
+      "path": "raw/acoustic_normal_final/CHECKS.json",
+      "bytes": 375,
+      "sha256": "299664368712bc8f5db4c0c4d85533168415df69642b1c5450bcfda28e2b655d"
+    },
+    {
+      "path": "raw/acoustic_normal_final/exterior_fd.csv",
+      "bytes": 34584,
+      "sha256": "6dd3cfa1eed49caa772302a3ef18c6eb566b398e3cb51ab7b50457ffb6473982"
+    },
+    {
+      "path": "raw/acoustic_normal_final/ubb.csv",
+      "bytes": 34678,
+      "sha256": "02b852e3a10c1b759d2e16637ac200543e8928c62c0b1e2a07d65830a9c46959"
+    },
+    {
+      "path": "raw/airfoil_preflight_final/CHECKS.json",
+      "bytes": 3174,
+      "sha256": "5af437fd30bbf6aca61a0cac53266ddbc1c01d527ff1464fa967706b7e744ae5"
+    },
+    {
+      "path": "raw/airfoil_preflight_final/audits.json",
+      "bytes": 4457,
+      "sha256": "0cfa0968a4b5640d4c960a3c30c9992ade3babd75abcd074c772add64c1bd0b7"
+    },
+    {
+      "path": "raw/airfoil_preflight_final/loads_first16.json",
+      "bytes": 6030,
+      "sha256": "62898842adc27a978809c689dbdde1d675b5afb7ae83deea141eb08694491b1e"
+    },
+    {
+      "path": "raw/budget/CHECKS.json",
+      "bytes": 15024,
+      "sha256": "311ef1eaaa80556bcc57c0ad8372a6390c23e9460ce4bb975d2f4353dfbc0276"
+    },
+    {
+      "path": "raw/cold_restart/CHECKS.json",
+      "bytes": 2913,
+      "sha256": "180cc1e1afdb53a9979efc0da3d6da6f924f913c74455b22cae0e10c020f14a2"
+    },
+    {
+      "path": "raw/cold_restart/replay.csv",
+      "bytes": 1970,
+      "sha256": "98edf487cd5638159ce7b9ac2ef320d9cd604a48e78624f08a8cbc88620223c6"
+    },
+    {
+      "path": "raw/glancing_3d/CHECKS.json",
+      "bytes": 363,
+      "sha256": "08048572f08307dd7cb1a5417691d0c51f65ae7059c3aad4f7422dc8e66ac76f"
+    },
+    {
+      "path": "raw/glancing_3d/history.csv",
+      "bytes": 9012,
+      "sha256": "bb82d7cd9383991d198acd9e8938da51e014fc409262fd79555b45a53340e5d1"
+    },
+    {
+      "path": "raw/glancing_w16/CHECKS.json",
+      "bytes": 365,
+      "sha256": "dc39e0d1359c8583434e666ca2573f64fad43897c5650d158fb611290609f8ea"
+    },
+    {
+      "path": "raw/glancing_w16/history.csv",
+      "bytes": 9023,
+      "sha256": "b1325a4998c3debf932fbb67ce00be6a074c57149b0a9669c94bd6658c1be4a1"
+    },
+    {
+      "path": "raw/glancing_w4/CHECKS.json",
+      "bytes": 362,
+      "sha256": "7288a90666d0f7d31378d09177357f7e8a1f2760c9b29f2436462a430fc0decb"
+    },
+    {
+      "path": "raw/glancing_w4/history.csv",
+      "bytes": 9189,
+      "sha256": "a62d5572cd2e518010174c2e4849932b00a43c0e4e72660cb88e1ccfa5d6eb34"
+    },
+    {
+      "path": "raw/glancing_w8/CHECKS.json",
+      "bytes": 363,
+      "sha256": "eaaf42d8d1867de896e510e449a766adbfca5de578a67e65ddb19018ab81c755"
+    },
+    {
+      "path": "raw/glancing_w8/history.csv",
+      "bytes": 9041,
+      "sha256": "0aaaa3c3fb15a7aa8886208c8a3be0c26dd011f86bb59c7922d8bd799385d5ea"
+    },
+    {
+      "path": "raw/noise_rectangle_final/CHECKS.json",
+      "bytes": 32995,
+      "sha256": "0efc2b484605c3c38154b677c06de375f4c8dd5b9b5af57db1dbf2fa12ac0462"
+    },
+    {
+      "path": "raw/noise_rectangle_final/history.csv",
+      "bytes": 9390,
+      "sha256": "051fc6b96eed403ab3aecba4095d15f9c29f41f5b4dcd2ea294540b1b6e75036"
+    },
+    {
+      "path": "raw/noise_straight_final/CHECKS.json",
+      "bytes": 32854,
+      "sha256": "7fd0e65eb035a1987e5fae68202d8e0a70a0137767852d90e579ebe99a5347e7"
+    },
+    {
+      "path": "raw/noise_straight_final/history.csv",
+      "bytes": 9401,
+      "sha256": "5abe6d35359a408dc0dcb73d63fc8c4e75853e4376e732d5f90a1719da085dce"
+    },
+    {
+      "path": "raw/preflight/CHECKS.json",
+      "bytes": 6697,
+      "sha256": "75067fcb4688544963182963832ed0d71151899ccfdd9462143108dbc4dee78e"
+    },
+    {
+      "path": "raw/radiation/CHECKS.json",
+      "bytes": 7225,
+      "sha256": "97637c7eb4feda035fc582a721c6bcf2fb80920b77b111ad0308f5dd9a4727b6"
+    },
+    {
+      "path": "raw/shear/CHECKS.json",
+      "bytes": 342,
+      "sha256": "3928dbbf0ce026237adb66ffcd6385ef2ad30e54caeab43b8e042ea64bf5995e"
+    },
+    {
+      "path": "raw/shear/history.csv",
+      "bytes": 2339,
+      "sha256": "ae3749e4ce123a8c886d8f56bcaca0627235fe81b147de56f34fb096ee8c4aa9"
+    },
+    {
+      "path": "raw/spectral_23_2/CHECKS.json",
+      "bytes": 945,
+      "sha256": "2cefde1b6039f8d81f141a6c662b7b8b0ad91691261c68823707beab63c8d0a1"
+    },
+    {
+      "path": "raw/spectral_23_2/eigenvalues.csv",
+      "bytes": 49726,
+      "sha256": "8f9cfcedea9a225105e9167063418a944368b43a4d5b9e2726c341caeafeb9fd"
+    },
+    {
+      "path": "raw/spectral_23_2/leading_mode_x.csv",
+      "bytes": 685,
+      "sha256": "0d5378490305340cb9c62939de4d5da212869dcaaec2b2466ce25cacc9c3cb97"
+    },
+    {
+      "path": "raw/spectral_23_2_half/CHECKS.json",
+      "bytes": 944,
+      "sha256": "6e7605915df7215d454a62f4b250cb0bfcfad2584afabbad72495ad9a92cea56"
+    },
+    {
+      "path": "raw/spectral_23_2_half/eigenvalues.csv",
+      "bytes": 49894,
+      "sha256": "8864f64aaeacddb8bd40ac6958d8598400da674dfe6d412636db023c5de21454"
+    },
+    {
+      "path": "raw/spectral_23_2_half/leading_mode_x.csv",
+      "bytes": 684,
+      "sha256": "7dc277fb2bfa4350fe43fae51ce0fc807e95db6edc24391924cd0dae02845587"
+    },
+    {
+      "path": "raw/spectral_23_2_nx48/CHECKS.json",
+      "bytes": 947,
+      "sha256": "3ab6d23b495fb01cb8c8d0ebaa4dc8ee2adf387f3ef18685a6c2b65f8167f237"
+    },
+    {
+      "path": "raw/spectral_23_2_nx48/eigenvalues.csv",
+      "bytes": 96003,
+      "sha256": "553424bbbf13d92e09694c352a59d0c64b9b917f425636ce6057660ba9304f9d"
+    },
+    {
+      "path": "raw/spectral_23_2_nx48/leading_mode_x.csv",
+      "bytes": 1318,
+      "sha256": "fdb1fc382b99c7bdf17720325faddf5b1d367425908f0ca884aa9d4c1b5956f9"
+    },
+    {
+      "path": "raw/vortex_corner/CHECKS.json",
+      "bytes": 5132,
+      "sha256": "c11eadcda140bc0dd535903bccfd1292d94087e0ad2689aa16a44d46168d90d8"
+    },
+    {
+      "path": "raw/vortex_corner/history.csv",
+      "bytes": 2311,
+      "sha256": "c29b1c10229427f42dcfd7a325dd863e899e15e2fc691af0e086cd1450f52efc"
+    },
+    {
+      "path": "raw/vortex_seam/CHECKS.json",
+      "bytes": 5184,
+      "sha256": "721c8fc65860e8b28d79c71ef945bec5beaabe5b2b87681be7bbbbb85c411889"
+    },
+    {
+      "path": "raw/vortex_seam/history.csv",
+      "bytes": 2301,
+      "sha256": "b4ba1de9a3a10bfcdf26a9d2b79eed76e2f7ad354fa63250bad9071d806d2cd4"
+    }
+  ],
+  "self_excluded": true
+}

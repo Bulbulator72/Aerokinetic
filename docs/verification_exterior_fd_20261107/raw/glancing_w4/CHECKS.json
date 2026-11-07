@@ -1,0 +1,12 @@
+{
+  "wavelength": 4,
+  "three_d": false,
+  "last_sampled_step": 10000,
+  "finite": true,
+  "max_core_energy_over_initial": 1.0,
+  "max_combined_energy_over_initial": 1.0,
+  "max_core_density_error": 1.2147134533790904e-06,
+  "elapsed_s": 136.123005155001,
+  "source_sha256": "9c0b2f35c79c340f916364c6cd7fff9cf36776df16f1d7a45b03024d7e853c02",
+  "passed": true
+}

@@ -1,0 +1,41 @@
+WARNING:root:Using floating point numbers in equality comparison: Eq(0.04*indexField_C^n0, 0)
+WARNING:root:Using floating point numbers in equality comparison: Eq(0.0282842712474619*indexField_C^n0, 0)
+moment [23, 2] column 0 / 649
+moment [23, 2] column 100 / 649
+moment [23, 2] column 200 / 649
+moment [23, 2] column 300 / 649
+moment [23, 2] column 400 / 649
+moment [23, 2] column 500 / 649
+moment [23, 2] column 600 / 649
+{
+  "candidate": "moment",
+  "shape": [
+    24,
+    48,
+    8
+  ],
+  "mode": [
+    23,
+    2
+  ],
+  "epsilon": 1e-06,
+  "dimension": 649,
+  "histories": [
+    "incoming"
+  ],
+  "outlet_links": 3456,
+  "spectral_radius": 1.0140318302238802,
+  "leading_eigenvalue": [
+    1.0140318302238802,
+    1.2913281555171352e-13
+  ],
+  "unstable_modes_over_1_plus_1e_6": 1,
+  "leading_mode_last_4_columns_fraction": 0.9999700982297797,
+  "modal_map_relative_error": 3.826827782372699e-10,
+  "history_copy_max_error": 0.0,
+  "operator_sha256": "3c0233967d5f88236d3e8ac116cf38131f432417711b6c16d29d1c396a233f0f",
+  "source": "/workspace/aerokinetic_moment_boundary_20261107/boundary_moment.py",
+  "source_sha256": "bab9dffc65b8c6c8801a6de20190de874f09916884eeaae72bfdbf570b159bf8",
+  "elapsed_s": 36.74077384900011,
+  "map_checks_passed": true
+}

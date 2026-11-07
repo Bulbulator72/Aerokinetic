@@ -1,0 +1,174 @@
+{
+  "cases": {
+    "control": {
+      "elapsed_s": 84.45301419799944,
+      "snapshots": [
+        {
+          "step": 0,
+          "max_core_density_perturbation": 1.9950062448037542e-05,
+          "max_core_velocity_perturbation": 1.3877787807814457e-17,
+          "density_slice_sha256": "4b31de8e804032672acc1f1ef7537a74258d23ce96639a4caccb9aa16c97d44f"
+        },
+        {
+          "step": 80,
+          "max_core_density_perturbation": 3.04016552687969e-06,
+          "max_core_velocity_perturbation": 1.961287943073875e-06,
+          "density_slice_sha256": "7add1c35ae22a600c4d2e5fe9ff86d09e54901ca65db7d02ee1489122eb491e8"
+        },
+        {
+          "step": 160,
+          "max_core_density_perturbation": 1.9252135123881686e-06,
+          "max_core_velocity_perturbation": 8.922021643154032e-07,
+          "density_slice_sha256": "4fa46ea66d25275dff6772df0198eece0d31e36c5f4cdb16784e04683790125f"
+        },
+        {
+          "step": 240,
+          "max_core_density_perturbation": 3.438416452672399e-07,
+          "max_core_velocity_perturbation": 1.0995673498798153e-07,
+          "density_slice_sha256": "2fd2f79eed868c69485cf8a2fc78a4a7f45f28fb6cfc3ecae194077d971ed200"
+        },
+        {
+          "step": 320,
+          "max_core_density_perturbation": 1.0140324180341054e-07,
+          "max_core_velocity_perturbation": 2.4568598752661153e-08,
+          "density_slice_sha256": "0008f17868f7a9d2ed4f6af6207318ca202e183264ce77dd2f319a03982abadd"
+        },
+        {
+          "step": 360,
+          "max_core_density_perturbation": 7.074784535987533e-08,
+          "max_core_velocity_perturbation": 1.549060374417266e-08,
+          "density_slice_sha256": "4a49030e67537267ac70c9a2e56173b3b35cf8c5049cc2c98e4dd0e3a0c58f26"
+        }
+      ]
+    },
+    "ubb": {
+      "elapsed_s": 72.42304033399705,
+      "snapshots": [
+        {
+          "step": 0,
+          "max_core_density_perturbation": 1.9950062448037542e-05,
+          "max_core_velocity_perturbation": 1.3877787807814457e-17,
+          "density_slice_sha256": "4b31de8e804032672acc1f1ef7537a74258d23ce96639a4caccb9aa16c97d44f"
+        },
+        {
+          "step": 80,
+          "max_core_density_perturbation": 3.47466238803662e-06,
+          "max_core_velocity_perturbation": 1.950311790281656e-06,
+          "density_slice_sha256": "52b17fe63a2e35cd336707b541d0df96b1b706b15933ea144510eb3952b4448e"
+        },
+        {
+          "step": 160,
+          "max_core_density_perturbation": 8.143489808931648e-06,
+          "max_core_velocity_perturbation": 2.9651749939029352e-06,
+          "density_slice_sha256": "f91f18ad05922a4f429b5c3a7cae2d06ceb04758653f03c7219f8d7f22b731ad"
+        },
+        {
+          "step": 240,
+          "max_core_density_perturbation": 6.278342363996714e-06,
+          "max_core_velocity_perturbation": 2.1574854929546802e-06,
+          "density_slice_sha256": "5799e6c597c4ebad75685650ca062e33db2ccf05953c35b05b5f38cb0ab30ef7"
+        },
+        {
+          "step": 320,
+          "max_core_density_perturbation": 7.056434127017397e-06,
+          "max_core_velocity_perturbation": 3.123086479052247e-06,
+          "density_slice_sha256": "8def065f0863e4a37381409df16e93fb8af8c43a68466b14585e67e35b8689b8"
+        },
+        {
+          "step": 360,
+          "max_core_density_perturbation": 8.012353044817289e-06,
+          "max_core_velocity_perturbation": 3.1005584034147535e-06,
+          "density_slice_sha256": "07de7db3974ad89b496bdc75d9f9023d37f0f9bf968dc4a1e9daa64713c4515c"
+        }
+      ]
+    },
+    "exterior_fd": {
+      "elapsed_s": 74.08033006200276,
+      "snapshots": [
+        {
+          "step": 0,
+          "max_core_density_perturbation": 1.9950062448037542e-05,
+          "max_core_velocity_perturbation": 1.3877787807814457e-17,
+          "density_slice_sha256": "4b31de8e804032672acc1f1ef7537a74258d23ce96639a4caccb9aa16c97d44f"
+        },
+        {
+          "step": 80,
+          "max_core_density_perturbation": 3.0451645840479102e-06,
+          "max_core_velocity_perturbation": 1.9610060733449286e-06,
+          "density_slice_sha256": "9bc343913251a19e979e2be522ccb15eabf56590558c148a4dd9a52478870ada"
+        },
+        {
+          "step": 160,
+          "max_core_density_perturbation": 1.475424564523209e-06,
+          "max_core_velocity_perturbation": 1.0807521771266648e-06,
+          "density_slice_sha256": "6c492a770715a151a730a1c2a34a8ab0cd4c3576668398db14832da5e77d9cf9"
+        },
+        {
+          "step": 240,
+          "max_core_density_perturbation": 2.2530855181557286e-07,
+          "max_core_velocity_perturbation": 5.079584393990586e-07,
+          "density_slice_sha256": "b1e4a0ad843c665b3ac2483f1087d17cfeb9257f543e56b5c2089aa96cd8126c"
+        },
+        {
+          "step": 320,
+          "max_core_density_perturbation": 1.4737390530150662e-07,
+          "max_core_velocity_perturbation": 4.80099969631275e-07,
+          "density_slice_sha256": "b49858c0144fed9036a3823cfdcaec14fd9fceb0897b465cb7971a11c7ec0e79"
+        },
+        {
+          "step": 360,
+          "max_core_density_perturbation": 7.266520563042889e-08,
+          "max_core_velocity_perturbation": 4.1069482020692903e-07,
+          "density_slice_sha256": "b50a4055e6e4efb34f5f1b5c045fc814b4f4fc68e69e4eb616631a3a6fa9bf1b"
+        }
+      ]
+    }
+  },
+  "errors": [
+    {
+      "step": 0,
+      "ubb_density_l2_error_over_initial_pulse": 0.0,
+      "ubb_density_max_error": 0.0,
+      "exterior_fd_density_l2_error_over_initial_pulse": 0.0,
+      "exterior_fd_density_max_error": 0.0
+    },
+    {
+      "step": 80,
+      "ubb_density_l2_error_over_initial_pulse": 0.07049323236063973,
+      "ubb_density_max_error": 1.6475040676144914e-06,
+      "exterior_fd_density_l2_error_over_initial_pulse": 0.0013114385895173347,
+      "exterior_fd_density_max_error": 3.810937210246834e-08
+    },
+    {
+      "step": 160,
+      "ubb_density_l2_error_over_initial_pulse": 0.7686737610632957,
+      "ubb_density_max_error": 6.226155406574563e-06,
+      "exterior_fd_density_l2_error_over_initial_pulse": 0.032900939577549006,
+      "exterior_fd_density_max_error": 4.497889480870043e-07
+    },
+    {
+      "step": 240,
+      "ubb_density_l2_error_over_initial_pulse": 0.7604207555179753,
+      "ubb_density_max_error": 6.435220346490134e-06,
+      "exterior_fd_density_l2_error_over_initial_pulse": 0.05088146573970104,
+      "exterior_fd_density_max_error": 2.127948215413511e-07
+    },
+    {
+      "step": 320,
+      "ubb_density_l2_error_over_initial_pulse": 0.7151598875157302,
+      "ubb_density_max_error": 7.139453304438881e-06,
+      "exterior_fd_density_l2_error_over_initial_pulse": 0.04133906160744588,
+      "exterior_fd_density_max_error": 2.073768143873167e-07
+    },
+    {
+      "step": 360,
+      "ubb_density_l2_error_over_initial_pulse": 0.5884533206572008,
+      "ubb_density_max_error": 8.083100890177164e-06,
+      "exterior_fd_density_l2_error_over_initial_pulse": 0.031002592971923447,
+      "exterior_fd_density_max_error": 1.325237090066267e-07
+    }
+  ],
+  "passed": true,
+  "source_sha256": "9c0b2f35c79c340f916364c6cd7fff9cf36776df16f1d7a45b03024d7e853c02",
+  "scope": "Numerical truncation control at unchanged dx/dt/collision, not experimental validation"
+}

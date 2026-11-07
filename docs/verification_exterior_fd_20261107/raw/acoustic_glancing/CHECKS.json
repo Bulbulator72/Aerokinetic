@@ -1,0 +1,14 @@
+{
+  "ubb": {
+    "incident": 2.231445692986099e-05,
+    "reflected": 2.0883293738378398e-05,
+    "ratio": 0.9358638574095244
+  },
+  "exterior_fd": {
+    "incident": 2.2314456929993473e-05,
+    "reflected": 8.06540192688275e-08,
+    "ratio": 0.0036144289561633124
+  },
+  "passed": true,
+  "source_sha256": "9c0b2f35c79c340f916364c6cd7fff9cf36776df16f1d7a45b03024d7e853c02"
+}

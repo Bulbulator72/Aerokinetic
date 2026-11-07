@@ -1,0 +1,292 @@
+{
+  "status": "rejected_for_release",
+  "results": {
+    "preflight_07": {
+      "symbolic_identities": {
+        "(-1, 0)": true,
+        "(1, 0)": true,
+        "(0, -1)": true,
+        "(0, 1)": true,
+        "(-1, -1)": true,
+        "(-1, 1)": true,
+        "(1, -1)": true,
+        "(1, 1)": true
+      },
+      "boundary_cells": 384,
+      "owned_pdf_edit_max": 0.0,
+      "coherent_memory_max_error": 0.0,
+      "pulled_Rminus_max_error": 4.676841596287784e-16,
+      "post_collision_Rminus_max_error": 4.862434985360674e-16,
+      "tangent_velocity_target_max_error": 1.3877787807814457e-17,
+      "tolerance": 2e-12,
+      "elapsed_s": 14.122258402996522,
+      "source_sha256": "bab9dffc65b8c6c8801a6de20190de874f09916884eeaae72bfdbf570b159bf8",
+      "passed": true
+    },
+    "fd_preflight": {
+      "symbolic_identities": {
+        "(-1, 0)": true,
+        "(1, 0)": true,
+        "(0, -1)": true,
+        "(0, 1)": true,
+        "(-1, -1)": true,
+        "(-1, 1)": true,
+        "(1, -1)": true,
+        "(1, 1)": true
+      },
+      "boundary_cells": 384,
+      "owned_pdf_edit_max": 0.0,
+      "coherent_memory_max_error": 0.0,
+      "pulled_Rminus_max_error": 8.023129957710623e-16,
+      "post_collision_Rminus_max_error": 9.06460778833662e-16,
+      "tangent_velocity_target_max_error": 1.1449174941446927e-16,
+      "tolerance": 2e-12,
+      "elapsed_s": 16.380763372995716,
+      "source_sha256": "96f5c2149742d98d41be5149f90be1f67196d9e2cf6ad16752967b221191a11e",
+      "passed": true
+    },
+    "noise_straight": {
+      "case": "straight_outlet",
+      "version": "0.5.2",
+      "installed": "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/aerokinetic/__init__.py",
+      "initial_noise_sha256": "8cffaab76d458180be99119e04a236fb8809e17707d3dbea7e8dfa625759f5f2",
+      "shape": [
+        96,
+        48,
+        8
+      ],
+      "periodic": [
+        false,
+        true,
+        true
+      ],
+      "last_sampled_step": 400,
+      "finite": true,
+      "max_energy_over_initial": 37016.99890367489,
+      "last": {
+        "step": 400,
+        "energy_over_initial": 37016.99890367489,
+        "max_density_error": 1.8946035410749573e-05,
+        "max_velocity_error": 6.64525017699813e-05,
+        "max_mach": 0.06939713141964066,
+        "peak_x": 1,
+        "peak_y": 20,
+        "peak_z": 3,
+        "outlet_corner_energy_over_initial": 84.32330247313837,
+        "outlet_middle_energy_over_initial": 94.35842692896314,
+        "side_energy_over_initial": 396.2273108896614,
+        "core_energy_over_initial": 1707.08734078894
+      },
+      "boundary_ranges": {
+        "OwnedMomentCharacteristic_v1_all": {}
+      },
+      "elapsed_s": 2.0492356790055055,
+      "boundedness_gate_passed": false,
+      "strong_growth_detected": true,
+      "candidate": "moment",
+      "farfield_source": "/workspace/aerokinetic_moment_boundary_20261107/boundary_moment.py",
+      "farfield_sha256": "bab9dffc65b8c6c8801a6de20190de874f09916884eeaae72bfdbf570b159bf8"
+    },
+    "noise_rectangle": {
+      "case": "rectangle",
+      "version": "0.5.2",
+      "installed": "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/aerokinetic/__init__.py",
+      "initial_noise_sha256": "8cffaab76d458180be99119e04a236fb8809e17707d3dbea7e8dfa625759f5f2",
+      "shape": [
+        96,
+        48,
+        8
+      ],
+      "periodic": [
+        false,
+        false,
+        true
+      ],
+      "last_sampled_step": 400,
+      "finite": true,
+      "max_energy_over_initial": 32401.766782779705,
+      "last": {
+        "step": 400,
+        "energy_over_initial": 32401.766782779705,
+        "max_density_error": 1.903233487210443e-05,
+        "max_velocity_error": 6.676106342735216e-05,
+        "max_mach": 0.06939766586330795,
+        "peak_x": 1,
+        "peak_y": 20,
+        "peak_z": 3,
+        "outlet_corner_energy_over_initial": 79.41262179073254,
+        "outlet_middle_energy_over_initial": 96.09787687070103,
+        "side_energy_over_initial": 94.39311466171279,
+        "core_energy_over_initial": 1603.853362382896
+      },
+      "boundary_ranges": {
+        "OwnedMomentCharacteristic_v1_all": {}
+      },
+      "elapsed_s": 3.2873827450021054,
+      "boundedness_gate_passed": false,
+      "strong_growth_detected": true,
+      "candidate": "moment",
+      "farfield_source": "/workspace/aerokinetic_moment_boundary_20261107/boundary_moment.py",
+      "farfield_sha256": "bab9dffc65b8c6c8801a6de20190de874f09916884eeaae72bfdbf570b159bf8"
+    },
+    "noise_constant": {
+      "case": "straight_outlet",
+      "version": "0.5.2",
+      "installed": "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/aerokinetic/__init__.py",
+      "initial_noise_sha256": "8cffaab76d458180be99119e04a236fb8809e17707d3dbea7e8dfa625759f5f2",
+      "shape": [
+        96,
+        48,
+        8
+      ],
+      "periodic": [
+        false,
+        true,
+        true
+      ],
+      "last_sampled_step": 400,
+      "finite": true,
+      "max_energy_over_initial": 37011.261622068305,
+      "last": {
+        "step": 400,
+        "energy_over_initial": 37011.261622068305,
+        "max_density_error": 1.894556216819332e-05,
+        "max_velocity_error": 6.645223177212389e-05,
+        "max_mach": 0.06939713095199063,
+        "peak_x": 1,
+        "peak_y": 20,
+        "peak_z": 3,
+        "outlet_corner_energy_over_initial": 0.013910205250776509,
+        "outlet_middle_energy_over_initial": 0.02184458361387093,
+        "side_energy_over_initial": 396.21846609134514,
+        "core_energy_over_initial": 1707.0896894427628
+      },
+      "boundary_ranges": {
+        "OwnedMomentConstantControl_all": {}
+      },
+      "elapsed_s": 1.715167135997035,
+      "boundedness_gate_passed": false,
+      "strong_growth_detected": true,
+      "candidate": "moment_constant",
+      "farfield_source": "/workspace/aerokinetic_moment_boundary_20261107/boundary_moment_constant.py",
+      "farfield_sha256": "29349f4822bd358b4390e6bfd3a4a8fcfb24a3e05c971c9d072fc48e599b771d"
+    },
+    "spectral_232": {
+      "candidate": "moment",
+      "shape": [
+        24,
+        48,
+        8
+      ],
+      "mode": [
+        23,
+        2
+      ],
+      "epsilon": 1e-06,
+      "dimension": 649,
+      "histories": [
+        "incoming"
+      ],
+      "outlet_links": 3456,
+      "spectral_radius": 1.0140318302238802,
+      "leading_eigenvalue": [
+        1.0140318302238802,
+        1.2913281555171352e-13
+      ],
+      "unstable_modes_over_1_plus_1e_6": 1,
+      "leading_mode_last_4_columns_fraction": 0.9999700982297797,
+      "modal_map_relative_error": 3.826827782372699e-10,
+      "history_copy_max_error": 0.0,
+      "operator_sha256": "3c0233967d5f88236d3e8ac116cf38131f432417711b6c16d29d1c396a233f0f",
+      "source": "/workspace/aerokinetic_moment_boundary_20261107/boundary_moment.py",
+      "source_sha256": "bab9dffc65b8c6c8801a6de20190de874f09916884eeaae72bfdbf570b159bf8",
+      "elapsed_s": 36.74077384900011,
+      "map_checks_passed": true
+    },
+    "fd_noise_straight": {
+      "case": "straight_outlet",
+      "version": "0.5.2",
+      "installed": "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/aerokinetic/__init__.py",
+      "initial_noise_sha256": "8cffaab76d458180be99119e04a236fb8809e17707d3dbea7e8dfa625759f5f2",
+      "shape": [
+        96,
+        48,
+        8
+      ],
+      "periodic": [
+        false,
+        true,
+        true
+      ],
+      "last_sampled_step": 1100,
+      "finite": true,
+      "max_energy_over_initial": 59189.86850905835,
+      "last": {
+        "step": 1100,
+        "energy_over_initial": 59189.86850905835,
+        "max_density_error": 5.3870757546370385e-05,
+        "max_velocity_error": 9.333798517534991e-05,
+        "max_mach": 0.0694377499657035,
+        "peak_x": 95,
+        "peak_y": 34,
+        "peak_z": 7,
+        "outlet_corner_energy_over_initial": 955401.2369800541,
+        "outlet_middle_energy_over_initial": 944249.2603246818,
+        "side_energy_over_initial": 0.050124633650531776,
+        "core_energy_over_initial": 0.044375792678463394
+      },
+      "boundary_ranges": {
+        "OwnedMomentFDTrial_all": {}
+      },
+      "elapsed_s": 4.609876073001942,
+      "boundedness_gate_passed": false,
+      "strong_growth_detected": true,
+      "candidate": "moment_fd",
+      "farfield_source": "/workspace/aerokinetic_moment_boundary_20261107/boundary_moment_fd.py",
+      "farfield_sha256": "96f5c2149742d98d41be5149f90be1f67196d9e2cf6ad16752967b221191a11e"
+    },
+    "fd_noise_rectangle": {
+      "case": "rectangle",
+      "version": "0.5.2",
+      "installed": "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/aerokinetic/__init__.py",
+      "initial_noise_sha256": "8cffaab76d458180be99119e04a236fb8809e17707d3dbea7e8dfa625759f5f2",
+      "shape": [
+        96,
+        48,
+        8
+      ],
+      "periodic": [
+        false,
+        false,
+        true
+      ],
+      "last_sampled_step": 1100,
+      "finite": true,
+      "max_energy_over_initial": 43115.13767575347,
+      "last": {
+        "step": 1100,
+        "energy_over_initial": 43115.13767575347,
+        "max_density_error": 5.335594226352214e-05,
+        "max_velocity_error": 9.242206741624098e-05,
+        "max_mach": 0.06943286707972741,
+        "peak_x": 95,
+        "peak_y": 34,
+        "peak_z": 7,
+        "outlet_corner_energy_over_initial": 151995.02293155124,
+        "outlet_middle_energy_over_initial": 869123.6040391597,
+        "side_energy_over_initial": 0.08749564974193452,
+        "core_energy_over_initial": 0.04158971507130784
+      },
+      "boundary_ranges": {
+        "OwnedMomentFDTrial_all": {}
+      },
+      "elapsed_s": 9.934200611998676,
+      "boundedness_gate_passed": false,
+      "strong_growth_detected": true,
+      "candidate": "moment_fd",
+      "farfield_source": "/workspace/aerokinetic_moment_boundary_20261107/boundary_moment_fd.py",
+      "farfield_sha256": "96f5c2149742d98d41be5149f90be1f67196d9e2cf6ad16752967b221191a11e"
+    }
+  },
+  "next_work": "/workspace/aerokinetic_fd_exterior_20261107/; full-PDF exterior regularizedFD with same physical-core gates"
+}

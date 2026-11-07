@@ -1,0 +1,79 @@
+{
+  "physical_core_initial_pdf_max_error": 0.0,
+  "physical_solid_masks_equal": true,
+  "wall_link_keys_equal": true,
+  "wall_link_count": 9216,
+  "wall_q_max_error": 0.0,
+  "max_cl_cd_error_first16": 2.220446049250313e-14,
+  "max_cm_error_first16": 3.497202527569243e-15,
+  "max_fluid_budget_per_cell": 1.0383964902058446e-14,
+  "max_fluid_overwrite_budget_per_cell": 0.0,
+  "max_wall_force_balance_error": 2.3092638912203256e-14,
+  "max_wall_torque_balance_error": 6.750155989720952e-14,
+  "resume_pdf_max_error": 0.0,
+  "resume_initial_max_error": 0.0,
+  "resume_load_max_error": 0.0,
+  "resume_step_equal": true,
+  "passed": true,
+  "identity": {
+    "model": "research_exterior_fd_v1",
+    "core_plan": {
+      "shape": [
+        176,
+        101,
+        16
+      ],
+      "origin": [
+        -1.749391012564956,
+        -1.5829000833015587
+      ],
+      "dx": 0.03125,
+      "span": 0.5,
+      "viscosity": 4.266666666666667e-05,
+      "relaxation_rate": 1.999488131038454,
+      "dt_convective": 0.00125,
+      "dt_seconds": 6.418003336266459e-05,
+      "estimated_memory_gib": 0.22792899906635286,
+      "notes": [
+        "Uniform isotropic grid; no mesh refinement or wall model.",
+        "Accuracy is unvalidated until grid/domain/span/Mach/statistical convergence and tunnel comparison.",
+        "The initial spanwise perturbation is numerical seeding, not a specified tunnel turbulence spectrum.",
+        "Fewer than 256 cells/chord: use for development; do not assume a resolved boundary layer.",
+        "Relaxation time is close to 0.5; low-viscosity stability and resolution require special checks."
+      ]
+    },
+    "auxiliary_plan": {
+      "shape": [
+        178,
+        103,
+        16
+      ],
+      "origin": [
+        -1.780641012564956,
+        -1.6141500833015587
+      ],
+      "dx": 0.03125,
+      "span": 0.5,
+      "viscosity": 4.266666666666667e-05,
+      "relaxation_rate": 1.999488131038454,
+      "dt_convective": 0.00125,
+      "dt_seconds": 6.418003336266459e-05,
+      "estimated_memory_gib": 0.22792899906635286,
+      "notes": [
+        "Uniform isotropic grid; no mesh refinement or wall model.",
+        "Accuracy is unvalidated until grid/domain/span/Mach/statistical convergence and tunnel comparison.",
+        "The initial spanwise perturbation is numerical seeding, not a specified tunnel turbulence spectrum.",
+        "Fewer than 256 cells/chord: use for development; do not assume a resolved boundary layer.",
+        "Relaxation time is close to 0.5; low-viscosity stability and resolution require special checks."
+      ]
+    },
+    "storage": "pre_collision",
+    "exterior_source_sha256": "9c0b2f35c79c340f916364c6cd7fff9cf36776df16f1d7a45b03024d7e853c02",
+    "adapter_source_sha256": "04f9f0ee17cda8ede09b8ee1f726fb99b22af763404e8d40fe891c7c512a6d9a",
+    "installed_solver_source_sha256": "395fd076cc67ea6458da5b20801bfa684a997ceb240ff62f9c216bcc00c36fa6",
+    "wall_fallback_links": 0,
+    "limits": "CPU1 prototype; unchanged installed wheel. N32 is not a resolved airfoil validation."
+  },
+  "elapsed_s": 87.15495111200289,
+  "limits": "Same-code causal force/wall preflight, not experimental validation"
+}

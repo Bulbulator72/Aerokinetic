@@ -1,0 +1,10 @@
+{
+  "date_utc": "2026-11-07",
+  "timing": "Before any complete6..12 candidate window is available; raw early startup rows are diagnostic only.",
+  "eligible": "Only airfoil cases with completed9600steps/t*=12 and complete uniform sample8 force history. Do not summarize an incomplete6..12 record.",
+  "statistics": "Exactly6<=force_t_star<=12. Existing aerokinetic.temporal.diagnose_series,8 descriptive blocks; mean, RMS about mean, half-window drift, block range, heuristic autocorrelation. No independent-block/confidence/steady-state assumption. RMS is not mean uncertainty.",
+  "domain": "Compare exits3c/6c at the same original N32/dx/dt/nu/span/seed. Report signed differences and changes vs existing completed same-code legacy controls with exactly matching geometry/flow/domain. No new acceptance bound on Cl/Cd/Cm is invented after looking at values. Passing finite completion is not domain independence.",
+  "experiment": "Ohtake/Nakae/Motohashi2007, DOI10.2322/jjsass.55.439, same preserved digitized Cl/Cd/Cm(c/4), Re30000, alpha4. Linear interpolation within each measured angular bracket. Retain digitization marker bounds, not reinterpret them as total tunnel uncertainty. Actual tunnel transition/roughness/turbulence compatibility remains limited. No comparison with another CFD code.",
+  "validation": "Preliminary experimental discrepancy only, statusinconclusive: N32, short fixed window and one periodic span do not certify spatial/temporal/span/Mach convergence. New boundary alone cannot establish accuracy or high-Re applicability.",
+  "figures": "Standard static scientific plots of CSV histories/means in text SVG. No binary fields or checkpoints are published. Full source/CSV/JSON and hashes accompany figures."
+}

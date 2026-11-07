@@ -726,5 +726,37 @@
     "bytes": 340265,
     "sha256": "fb596bef0e42af75380733b506f52623c9bdc4676bd17d3cfa7a393f9f8887ce",
     "reason": "Local numerical field/operator retained in workspace; no new binary upload attempted after previous automatic approval-review rejection"
+  },
+  {
+    "source": "/workspace/aerokinetic_fd_exterior_20261107/spectral_23_2/operator.npy",
+    "repository_path": null,
+    "bytes": 7884992,
+    "sha256": "1971e8bcc90fe9bca918678aa6703ca8cf12d50c070466519165b92583f8e2fe",
+    "reason": "Local numerical matrix/checkpoint/frame; text-only research publication",
+    "text_evidence": "docs/verification_exterior_fd_20261107/EXCLUDED_LOCAL_BINARIES.json"
+  },
+  {
+    "source": "/workspace/aerokinetic_fd_exterior_20261107/spectral_23_2_half/operator.npy",
+    "repository_path": null,
+    "bytes": 7884992,
+    "sha256": "d9318c839600c3106e5f20dbae4506a0eb1608f93b8b58843333189c60054f88",
+    "reason": "Local numerical matrix/checkpoint/frame; text-only research publication",
+    "text_evidence": "docs/verification_exterior_fd_20261107/EXCLUDED_LOCAL_BINARIES.json"
+  },
+  {
+    "source": "/workspace/aerokinetic_fd_exterior_20261107/spectral_23_2_nx48/operator.npy",
+    "repository_path": null,
+    "bytes": 29160128,
+    "sha256": "f4ed8edb6c67ac6caaeeb3178037486b31546f00bf835a6ca9032a9468ce84cc",
+    "reason": "Local numerical matrix/checkpoint/frame; text-only research publication",
+    "text_evidence": "docs/verification_exterior_fd_20261107/EXCLUDED_LOCAL_BINARIES.json"
+  },
+  {
+    "source": "/workspace/aerokinetic_fd_exterior_20261107/airfoil_preflight_final/restart_local.npz",
+    "repository_path": null,
+    "bytes": 156362752,
+    "sha256": "405779ec564d648af662f0ba2c401ff85dd21359e5517fee9931a62845b01e1e",
+    "reason": "Local numerical matrix/checkpoint/frame; text-only research publication",
+    "text_evidence": "docs/verification_exterior_fd_20261107/EXCLUDED_LOCAL_BINARIES.json"
   }
 ]

@@ -1,0 +1,33 @@
+{
+  "shape_core": [
+    24,
+    48,
+    8
+  ],
+  "shape_augmented": [
+    26,
+    48,
+    8
+  ],
+  "mode": [
+    23,
+    2
+  ],
+  "epsilon": 5e-07,
+  "dimension": 702,
+  "storage": "all27 pre-collision PDFs including exterior; no independent history at this non-glancing outlet",
+  "spectral_radius": 0.9705354043113019,
+  "leading_eigenvalue": [
+    -0.9704988444717981,
+    -0.008424007395944844
+  ],
+  "unstable_modes_over_1_plus_1e_6": 0,
+  "leading_mode_last4_augmented_x_fraction": 0.9741107047773682,
+  "modal_map_relative_error": 7.447472049368083e-10,
+  "map_checks_passed": true,
+  "passed": true,
+  "operator_sha256": "8228834fb4774fc9442b6ee2e133211ea7ad9161becf36572a443605f1019323",
+  "source_sha256": "9c0b2f35c79c340f916364c6cd7fff9cf36776df16f1d7a45b03024d7e853c02",
+  "elapsed_s": 81.24700524899526,
+  "limits": "A single Fourier block of the linearized body-free map; not proof of all-mode or nonlinear airfoil stability."
+}

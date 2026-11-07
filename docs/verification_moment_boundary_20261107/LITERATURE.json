@@ -1,0 +1,18 @@
+{
+  "title": "Regularized characteristic boundary conditions for the Lattice-Boltzmann methods at high Reynolds number flows",
+  "authors": [
+    "G.Wissocq",
+    "N.Gourdain",
+    "O.Malaspinas",
+    "A.Eyssartier"
+  ],
+  "source": "https://arxiv.org/html/1701.07734v1",
+  "arxiv": "1701.07734v1",
+  "read_sections": [
+    "1 model/stress relation",
+    "2 primitive characteristic system and populations adaptation",
+    "3 stability discussion"
+  ],
+  "used": "The compatibility of known populations and imposed macros; distinguishing partial population preservation from all-populationFD reconstruction. Published BGK results are not accepted as validation of this cumulant prototype.",
+  "feedback": "search feedback accepted; scrape feedback window expired, no retry requested"
+}
