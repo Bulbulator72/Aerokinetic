@@ -2104,17 +2104,17 @@
     },
     {
       "path": "docs/CURRENT_STATE_RU.md",
-      "bytes": 30934,
-      "sha256": "3409c120568d76b13374efa7f3c4f19b2bbfcdaf8b692458c35c58aa1cad858c",
-      "git_blob_sha": "7726fb9a806036772bfa5871cebe17325e9906fe",
+      "bytes": 31240,
+      "sha256": "bf992d4dd48dd468c1ce90ebaf0ce4361e0c78694ac2879d3b8ac22d1df4917f",
+      "git_blob_sha": "e34b2c2b6921b76b12ba56ee7dc63a514f6ea9d5",
       "encoding": "utf-8",
       "mode": "100644"
     },
     {
       "path": "docs/FARFIELD_RESEARCH_STATUS_RU.md",
-      "bytes": 2822,
-      "sha256": "bb15d5a85012321204ff12830bcd32ae6f4273c550fd335b88f5963c841e9026",
-      "git_blob_sha": "c6789237c778a047f37d190e2cc3c2fe9166b688",
+      "bytes": 3193,
+      "sha256": "e1b3f4e6a9a45bbc971ecd6499d6989a24ee637093052560da73b30402d4016b",
+      "git_blob_sha": "fc32a260d7cc61aba667daf195367c9a3ea7ed6f",
       "encoding": "utf-8",
       "mode": "100644"
     },
