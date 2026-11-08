@@ -1,0 +1,28 @@
+WARNING:root:Using floating point numbers in equality comparison: Eq(0.04*indexField_C^n0, 0)
+WARNING:root:Using floating point numbers in equality comparison: Eq(0.0282842712474619*indexField_C^n0, 0)
+straight_outlet 0 1.0 (np.int64(83), np.int64(29), np.int64(2))
+{
+  "case": "straight_outlet",
+  "version": "0.5.2",
+  "installed": "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/aerokinetic/__init__.py",
+  "initial_noise_sha256": "8cffaab76d458180be99119e04a236fb8809e17707d3dbea7e8dfa625759f5f2",
+  "shape": [
+    96,
+    48,
+    8
+  ],
+  "periodic": [
+    false,
+    true,
+    true
+  ],
+  "last_sampled_step": 400,
+  "finite": true,
+  "max_energy_over_initial": 37016.99890367489,
+  "elapsed_s": 2.0492356790055055,
+  "boundedness_gate_passed": false,
+  "strong_growth_detected": true,
+  "candidate": "moment",
+  "farfield_source": "/workspace/aerokinetic_moment_boundary_20261107/boundary_moment.py",
+  "farfield_sha256": "bab9dffc65b8c6c8801a6de20190de874f09916884eeaae72bfdbf570b159bf8"
+}

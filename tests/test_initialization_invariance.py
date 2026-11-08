@@ -5,17 +5,18 @@ import pytest
 from aerokinetic import Flow,Grid,Section,Solver,naca0012
 
 
-def make(reference):
+def make(reference,farfield='legacy'):
     return Solver(Section((naca0012(51),),1.,reference),
         Flow(reynolds=30000,alpha_deg=4,perturbation=.002,seed=31),
         Grid(cells_per_chord=16,upstream_chords=1.5,downstream_chords=3,
-             transverse_chords=1.5,span_chords=.5,memory_limit_gib=1))
+             transverse_chords=1.5,span_chords=.5,memory_limit_gib=1,farfield=farfield))
 
 
 @pytest.mark.integration
 @pytest.mark.parametrize('reference',[(.4,-.03),(.1,.05)])
-def test_seed_and_flow_are_invariant_to_moment_reference(reference):
-    base,other=make((.25,0)),make(reference)
+@pytest.mark.parametrize('farfield',['legacy','exterior_regularized_fd_v1'])
+def test_seed_and_flow_are_invariant_to_moment_reference(reference,farfield):
+    base,other=make((.25,0),farfield),make(reference,farfield)
     assert base.plan.shape==other.plan.shape
     # Geometry and its physical mesh coincide after a pure coordinate shift.
     np.testing.assert_array_equal(base._solid_xy,other._solid_xy)

@@ -1,0 +1,15 @@
+{
+  "date_utc": "2026-11-07",
+  "purpose": "Additional normal-acoustic check through the changed non-glancing outlet; the older y-normal pulse has zero normal background speed and tests the unchanged glancing branch.",
+  "shape": [256,8,8],
+  "periodicity": [false,true,true],
+  "background_velocity": [0.04,0,0],
+  "initial_pulse": "delta_rho=2e-5*exp(-0.5*((x-180)/10)^2), delta_ux=cs*delta_rho; same amplitude, width and probe distance as previous y test",
+  "steps": 360,
+  "probe_x_index": 216,
+  "incident_step_window": [20,130],
+  "reflected_step_window": [140,330],
+  "comparison": "Same pulse and UBB at both ends versus UBB inflow and prototype characteristic outlet. Same lattice collision/viscosity as all other diagnostics.",
+  "gate": "reflected/incident amplitude <=0.1 and <=UBB ratio/5, exactly the previous acoustic acceptance threshold",
+  "scope": "Small normal linear pulse; does not establish oblique-wave, corner or airfoil accuracy."
+}

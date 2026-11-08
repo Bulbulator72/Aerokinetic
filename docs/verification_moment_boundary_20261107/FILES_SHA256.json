@@ -1,0 +1,275 @@
+{
+  "files": [
+    {
+      "path": "FD_PLAN.json",
+      "bytes": 2289,
+      "sha256": "e8946d852e4fb439b60251d08d1f3457860bcfe863c83cb7ce3b29ad2890b2bb"
+    },
+    {
+      "path": "IMPLEMENTATION_NOTE.json",
+      "bytes": 999,
+      "sha256": "429e32833058b47f3ed1a73bb6411800feaf62a53ce3cc4872a43d8cb7c0e47a"
+    },
+    {
+      "path": "LITERATURE.json",
+      "bytes": 786,
+      "sha256": "52c1b9044fdbc87e17004a9f719e8e70932843ccc871b6dc599890742033ace5"
+    },
+    {
+      "path": "PLAN.json",
+      "bytes": 3589,
+      "sha256": "d6e157531b83049c859d0df2dd7a56e01b0297d209aece242c63ab188ec60b7c"
+    },
+    {
+      "path": "REPORT_RU.md",
+      "bytes": 4070,
+      "sha256": "0d44e37554387fd7804f1144ca0fe489f095c833cb29eea2e1cb610fb168495e"
+    },
+    {
+      "path": "RUN_CONTEXT.json",
+      "bytes": 1913,
+      "sha256": "65d2ac0e2292393b3207092c6ff556d3a5fcfc56b36f7b608ab3b23bf130eb5b"
+    },
+    {
+      "path": "WORK_RESULTS.json",
+      "bytes": 10174,
+      "sha256": "8ce9d3e55db6b3d3c931d866d0c9f959d225babf7b263a235a995db3637bd7b6"
+    },
+    {
+      "path": "logs/debug_codegen.log",
+      "bytes": 4663,
+      "sha256": "037b604a745f5e97e4e9c00f0117484f7b06d3cb10fd30c9901168157933bc98"
+    },
+    {
+      "path": "logs/fd_noise_rectangle.log",
+      "bytes": 1095,
+      "sha256": "951b9c8b6da1b218eb9beb4ff79a5386875b05bf7690e4ecd43a1d7d131677f7"
+    },
+    {
+      "path": "logs/fd_noise_straight.log",
+      "bytes": 1112,
+      "sha256": "c2e7908f2f4a8e2325e3e2de92e518c30f99067e21701af11dc00987ff9537ef"
+    },
+    {
+      "path": "logs/fd_preflight.log",
+      "bytes": 870,
+      "sha256": "55b40b230c07c1359c50f32770c946a18b344a1500e43fb78143ba86504991b7"
+    },
+    {
+      "path": "logs/noise_constant.log",
+      "bytes": 1043,
+      "sha256": "160f3de61c5dfd518b7f657e3befe6a0294ceba84aae69a6f0567630f4e52902"
+    },
+    {
+      "path": "logs/noise_rectangle.log",
+      "bytes": 1015,
+      "sha256": "88afb0520450caf1f843d651008a47bd5f9fd2a77c4728bce6d88e7db6520b07"
+    },
+    {
+      "path": "logs/noise_straight.log",
+      "bytes": 1025,
+      "sha256": "a6f6c66760d5a9c0b21e7d4963373403a8b27cb72bcfede1b209e55d75e368fc"
+    },
+    {
+      "path": "logs/preflight.log",
+      "bytes": 221148,
+      "sha256": "455c529730d831ba8a9b906be54288b13dc15f17a44140d9c0f5106b9db9b3ba"
+    },
+    {
+      "path": "logs/preflight_02.log",
+      "bytes": 4802,
+      "sha256": "5402af5cd0c4aacf0dd47c0bc09805bd407d157cec4a5b31076f58c8f9390501"
+    },
+    {
+      "path": "logs/preflight_03.log",
+      "bytes": 4223,
+      "sha256": "576c60ead45ecd53b101ef50272143cc1221c68edd0089dc740a1fda3b7eeb15"
+    },
+    {
+      "path": "logs/preflight_04.log",
+      "bytes": 4223,
+      "sha256": "7a75fbfd3a7e72611e0c9b2d0e4a992c48327670ba5bda5f79ced5056486897d"
+    },
+    {
+      "path": "logs/preflight_05.log",
+      "bytes": 3834,
+      "sha256": "b687319baf6bba690eea038ee63fe47eb34ea5b8334f16186a687f7218018efb"
+    },
+    {
+      "path": "logs/preflight_06.log",
+      "bytes": 4373,
+      "sha256": "a51b7190205584afa13fb003b5ce217e10089cdb30b01faa41d28dc57b272337"
+    },
+    {
+      "path": "logs/preflight_07.log",
+      "bytes": 871,
+      "sha256": "c73af5297487a4ce8dc36d7d1a886373003473a5b45232f418bb42b443d172df"
+    },
+    {
+      "path": "logs/spectral_232.log",
+      "bytes": 1256,
+      "sha256": "625546643f78e51c2c2312df20d6601d963022261fc7ca56cb07df4d999aee03"
+    },
+    {
+      "path": "prototypes/acoustic_probe.py",
+      "bytes": 2554,
+      "sha256": "44c11dd8bd8eb0408f4e0c72430aecc14991293bffe5c7367683e30e522ca8ae"
+    },
+    {
+      "path": "prototypes/boundary_moment.py",
+      "bytes": 11719,
+      "sha256": "bab9dffc65b8c6c8801a6de20190de874f09916884eeaae72bfdbf570b159bf8"
+    },
+    {
+      "path": "prototypes/boundary_moment_constant.py",
+      "bytes": 11673,
+      "sha256": "29349f4822bd358b4390e6bfd3a4a8fcfb24a3e05c971c9d072fc48e599b771d"
+    },
+    {
+      "path": "prototypes/boundary_moment_fd.py",
+      "bytes": 14324,
+      "sha256": "96f5c2149742d98d41be5149f90be1f67196d9e2cf6ad16752967b221191a11e"
+    },
+    {
+      "path": "prototypes/boundary_moment_struct.py",
+      "bytes": 10931,
+      "sha256": "f6bf2ce439be08c256ad6f001a11fef5bf663a40b82bd2ae0f8562e25ac99035"
+    },
+    {
+      "path": "prototypes/debug_codegen.py",
+      "bytes": 600,
+      "sha256": "e3357fe9246d37d437e675c61713c6dc3e683ad05632e1d1663bc32c50eaed70"
+    },
+    {
+      "path": "prototypes/debug_parameters.py",
+      "bytes": 539,
+      "sha256": "e9160f76386eda14c0dbb2c6086573560f96edb1d36d7a14c05a8e90d75b2537"
+    },
+    {
+      "path": "prototypes/noise_probe.py",
+      "bytes": 5055,
+      "sha256": "2922c0172feae286b272d5877bb5e0f3dfc1414f7eab97566b4b7747a8f8eee3"
+    },
+    {
+      "path": "prototypes/physical_probe.py",
+      "bytes": 2443,
+      "sha256": "03e7917f18f9b3b2a3476d31d7a66b5198852e57e2556cd2f4efb957933049eb"
+    },
+    {
+      "path": "prototypes/preflight_moments.py",
+      "bytes": 5616,
+      "sha256": "21bd874b40b4f6bc89947554077e8efc327af5e0c32f12b763e5121df6bcd8b1"
+    },
+    {
+      "path": "prototypes/prepare_fd.py",
+      "bytes": 3322,
+      "sha256": "81a9a39beb272640184fdc9bdd3b157068fbce16fec095de69349edc63e4ae09"
+    },
+    {
+      "path": "prototypes/spectral_probe.py",
+      "bytes": 7584,
+      "sha256": "9786e53cbe4a27359819025cf91fc8471f15de62a509f2341354db6236e0d896"
+    },
+    {
+      "path": "raw/fd_noise_rectangle/CHECKS.json",
+      "bytes": 1315,
+      "sha256": "0b39d11a7a004dceb83d0f55371f0a86d0ff3f3a4d2925d2789296a4a82b5a45"
+    },
+    {
+      "path": "raw/fd_noise_rectangle/history.csv",
+      "bytes": 2287,
+      "sha256": "bc43831db93c705fa9e2242972e7a9960c71a8e172d993ac56bc6e1570f162b7"
+    },
+    {
+      "path": "raw/fd_noise_rectangle/terminal_transverse_spectrum.csv",
+      "bytes": 10805,
+      "sha256": "f4e26cb8517f38d9e444e3bac0124c2660b09e9f954d5e5478857c74b97b362e"
+    },
+    {
+      "path": "raw/fd_noise_straight/CHECKS.json",
+      "bytes": 1321,
+      "sha256": "0e563d5cbcb68bc944e3cd454099dfc7ee2bb2bac609bd68bd14768c53bee270"
+    },
+    {
+      "path": "raw/fd_noise_straight/history.csv",
+      "bytes": 2300,
+      "sha256": "b51f22ab781bdb926793a6b25d812c8d4e7b52255e7fe89bf620604273112075"
+    },
+    {
+      "path": "raw/fd_noise_straight/terminal_transverse_spectrum.csv",
+      "bytes": 10859,
+      "sha256": "e04536f4cd185e2b87047adffbe806c16109066e59c07f7d27740c4cb034105a"
+    },
+    {
+      "path": "raw/fd_preflight/CHECKS.json",
+      "bytes": 626,
+      "sha256": "6829e944751c8258cf3ca782a89af53bdcb0828227b6d0e2e4b539ebc92ed204"
+    },
+    {
+      "path": "raw/noise_constant/CHECKS.json",
+      "bytes": 1341,
+      "sha256": "81c354f6a5c34c3b41593392f50738569af969ea377d0b31253a95450ea120fd"
+    },
+    {
+      "path": "raw/noise_constant/history.csv",
+      "bytes": 1072,
+      "sha256": "a5e902366edd1a9f8627c673abf73fe8b0bceebe758a4d24a219fa6bf81c1515"
+    },
+    {
+      "path": "raw/noise_constant/terminal_transverse_spectrum.csv",
+      "bytes": 10840,
+      "sha256": "20645a777a4b2b24a78563af5354d67964968895dc1cd9329c3a265bf302b017"
+    },
+    {
+      "path": "raw/noise_rectangle/CHECKS.json",
+      "bytes": 1314,
+      "sha256": "4d82a370b062de44d36e2d0c09230d9da4a23632e807bbc95369667c85be27dc"
+    },
+    {
+      "path": "raw/noise_rectangle/history.csv",
+      "bytes": 1056,
+      "sha256": "339981fa359ed6a11db92f30583f1d6582f623be281468f5c9288f98f9c206d6"
+    },
+    {
+      "path": "raw/noise_rectangle/terminal_transverse_spectrum.csv",
+      "bytes": 10822,
+      "sha256": "3f4294bce14a4c7de568353f8968b4973e7be16aefa4358ff55a032fd9c74427"
+    },
+    {
+      "path": "raw/noise_straight/CHECKS.json",
+      "bytes": 1316,
+      "sha256": "297502cb3753a6db2cd481408a6d88152e6ef52e51fc7c41e7a61bcac4d5b219"
+    },
+    {
+      "path": "raw/noise_straight/history.csv",
+      "bytes": 1050,
+      "sha256": "db052b88bb748786464e343237a4b492f30558ac61ddff1e2c4e5fce8f51a2e5"
+    },
+    {
+      "path": "raw/noise_straight/terminal_transverse_spectrum.csv",
+      "bytes": 10846,
+      "sha256": "06d200a358371b53f6b4e5ebaa8fefb07607b9bb868c5bc7387e581908b8b696"
+    },
+    {
+      "path": "raw/preflight_07/CHECKS.json",
+      "bytes": 627,
+      "sha256": "b0bcba64f9d5497729153b55f00f144fa4a048ef0300d585056e707021c69879"
+    },
+    {
+      "path": "raw/spectral_232/CHECKS.json",
+      "bytes": 832,
+      "sha256": "ffb5c52b0dd4bc5f75a8110390decbb8fa944b157eadf96ea81ea86cc7bc6a07"
+    },
+    {
+      "path": "raw/spectral_232/eigenvalues.csv",
+      "bytes": 45382,
+      "sha256": "bf6329bc67ba94573f8958e310fd0b2557e002b24321b2b54f0017ec4ccf67b3"
+    },
+    {
+      "path": "raw/spectral_232/leading_mode_x.csv",
+      "bytes": 633,
+      "sha256": "d3779280fb604b77165f39a9e6447c9fd43da0c50d20f050f2db6d9189b88eb2"
+    }
+  ],
+  "self_excluded": true
+}

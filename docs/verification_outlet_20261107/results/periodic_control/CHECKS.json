@@ -1,0 +1,38 @@
+{
+  "case": "periodic_control",
+  "version": "0.5.2",
+  "installed": "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/aerokinetic/__init__.py",
+  "initial_noise_sha256": "8cffaab76d458180be99119e04a236fb8809e17707d3dbea7e8dfa625759f5f2",
+  "shape": [
+    96,
+    48,
+    8
+  ],
+  "periodic": [
+    true,
+    true,
+    true
+  ],
+  "last_sampled_step": 10000,
+  "finite": true,
+  "max_energy_over_initial": 1.0,
+  "last": {
+    "step": 10000,
+    "energy_over_initial": 0.004485378239416575,
+    "max_density_error": 5.845479655874897e-11,
+    "max_velocity_error": 3.9817984091870475e-09,
+    "max_mach": 0.06928203540226835,
+    "peak_x": 75,
+    "peak_y": 8,
+    "peak_z": 3,
+    "outlet_corner_energy_over_initial": 0.004076903862073529,
+    "outlet_middle_energy_over_initial": 0.004837891892336522,
+    "side_energy_over_initial": 0.004789579204199808,
+    "core_energy_over_initial": 0.004404162168076518
+  },
+  "boundary_ranges": {},
+  "elapsed_s": 15.720587425999838,
+  "boundedness_gate_passed": true,
+  "strong_growth_detected": false,
+  "farfield_sha256": "f4b917ca09580fc4a74c4136e6c53e51e9f899c9fa272f17fbb5d22d9793239c"
+}

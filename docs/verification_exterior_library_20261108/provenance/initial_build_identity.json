@@ -1,0 +1,5 @@
+{
+  "solver_sha256": "8546938f50a968bb2116be623212b7f4eb03ae9565c9a79ec264977c2c7a3ac0",
+  "wheel_sha256": "08e6ac2069c518d0dd3343b085a3f7cb2c482434cd985b6c935bd3fa88d4c523",
+  "reason": "Freeze initial build used by running full matched cases; final change is failed-run diagnostic serialization only"
+}

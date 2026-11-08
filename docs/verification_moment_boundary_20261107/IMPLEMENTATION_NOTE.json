@@ -1,0 +1,7 @@
+{
+  "date_utc": "2026-11-07",
+  "engineering_issue": "pystencils1.4 indexed-kernel constant hoisting rejects writes to structured index-field members (ReinterpretCastFunc has no name). No installed library patch or dependency change was made.",
+  "prototype_storage": "Incoming and clock histories use two ordinary27-channel fields, indexed by owned cell and outward link direction. Every boundary link has a unique storage address, so no duplicate updates or concurrent writes to shared history. Formulas and physics gates are unchanged.",
+  "memory_cost": "54*8 extra bytes per domain cell plus ghost cells, approximately15.2MiB for96*48*8 noise case. This is deliberately a research implementation; sparse surface history is needed before any production-memory claim.",
+  "earlier_compile_attempts": "preflight.log and preflight_02/03/04.log retain failed compilation traces. They are engineering failures, not completed numerical verification runs. Destination moment gates remain mandatory."
+}

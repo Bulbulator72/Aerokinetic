@@ -1,0 +1,22 @@
+F                                                                        [100%]
+=================================== FAILURES ===================================
+____________ test_two_elements_keep_common_chord_and_global_budgets ____________
+
+    @pytest.mark.integration
+    def test_two_elements_keep_common_chord_and_global_budgets():
+        flap = Contour(naca4("0020",31).xy*.5 + (1.15,-.05), "flap")
+        section = Section((naca4("0012",31),flap))
+        s = Solver(section, Flow(reynolds=30000,alpha_deg=4),
+            Grid(cells_per_chord=32,upstream_chords=1,downstream_chords=2,
+                 transverse_chords=1,span_chords=.25,memory_limit_gib=1,farfield=MODE,openmp_threads=2))
+>       assert s.section.chord == pytest.approx(1.65)
+E       assert 1.6507574019219178 == 1.65 ± 1.6e-06
+E
+E         comparison failed
+E         Obtained: 1.6507574019219178
+E         Expected: 1.65 ± 1.6e-06
+
+tests/test_exterior.py:93: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_exterior.py::test_two_elements_keep_common_chord_and_global_budgets
+1 failed in 154.19s (0:02:34)

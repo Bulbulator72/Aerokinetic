@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "stopped_at_step": 12,
+  "completed_steps": 48,
+  "fresh_runner_resume_history_exact": true,
+  "residuals_exact": true,
+  "both_pdfs_exact": true,
+  "boundary_accumulators_exact": true
+}

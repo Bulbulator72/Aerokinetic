@@ -1,0 +1,10 @@
+WARNING: The directory '/home/agent/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+Processing ./aerokinetic
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: aerokinetic
+  Building wheel for aerokinetic (pyproject.toml): started
+  Building wheel for aerokinetic (pyproject.toml): finished with status 'done'
+  Created wheel for aerokinetic: filename=aerokinetic-0.5.3-py3-none-any.whl size=140962 sha256=4e334e1db6f0a5e33dcbb12f32be2dc2f6ecafca86e1b8cf658f86633ad25942
+  Stored in directory: /tmp/pip-ephem-wheel-cache-kxm6igsa/wheels/03/94/d5/9457536afcb4c5b5fe59d4a0469462fe99ff9c05639ab56c66
+Successfully built aerokinetic

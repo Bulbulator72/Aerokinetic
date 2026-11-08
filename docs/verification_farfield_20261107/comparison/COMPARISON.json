@@ -1,0 +1,722 @@
+{
+  "scope": "controlled boundary/domain experiment; coarse N32, no grid/span/Mach/statistical convergence",
+  "all_duration_gates_passed": false,
+  "failed_case_averages_withheld": true,
+  "experimental_validation": "inconclusive",
+  "references": {
+    "cl": {
+      "value": 0.3087391322234979,
+      "file": "ohtake2007_fig5_cl_re30000.csv",
+      "sha256": "f281e6da50c0dc810f2ec1ef70ddea79e7d2cd6073f3791d0f872fdd263b2d72",
+      "method": "linear interpolation within measured/digitized angles; no extrapolation",
+      "doi": "10.2322/jjsass.55.439"
+    },
+    "cd": {
+      "value": 0.04450936437474284,
+      "file": "ohtake2007_re30000_cd.csv",
+      "sha256": "6df47f20ef310ac662a1378f8956e05ae150c299b2aeea0307b46a12b02788a6",
+      "method": "linear interpolation within measured/digitized angles; no extrapolation",
+      "doi": "10.2322/jjsass.55.439"
+    },
+    "cm": {
+      "value": -0.02053270491438635,
+      "file": "ohtake2007_re30000_cm_c4.csv",
+      "sha256": "5184dbafeb43d86d0668ead3deed1e26880ee0c2a360b8316f7d3cf9f5919931",
+      "method": "linear interpolation within measured/digitized angles; no extrapolation",
+      "doi": "10.2322/jjsass.55.439"
+    }
+  },
+  "cases": {
+    "legacy_down3": {
+      "runtime_version": "0.5.1",
+      "case_fingerprint": "782c6b33844c2701c52f5aed0268abc08a32dc740e5af05b1d8ee02b6ca227f5",
+      "status": "completed",
+      "duration_gate": "passed",
+      "temporal": {
+        "format": "aerokinetic_temporal_diagnostics",
+        "schema_version": 1,
+        "run_status": "completed",
+        "case_fingerprint": "782c6b33844c2701c52f5aed0268abc08a32dc740e5af05b1d8ee02b6ca227f5",
+        "reynolds": 30000,
+        "alpha_deg": 4,
+        "cells_per_chord": 32,
+        "fine_cells_per_chord": null,
+        "force_time_convention": "midpoint of boundary momentum-transfer interval",
+        "termination_reason": "duration_reached",
+        "steady_residual_criterion_met": false,
+        "last_residuals": {
+          "step": 9600,
+          "t_star": 12.0,
+          "l2_rho": 0.0030012486326066925,
+          "l2_jx": 0.3353567704439268,
+          "l2_jy": 0.5700281833184455,
+          "l2_jz": 1.1254844701886244e-08,
+          "linf_rho": 0.01204590957228982,
+          "linf_jx": 4.698969409067823,
+          "linf_jy": 5.637591460969793,
+          "linf_jz": 1.92481461830054e-07,
+          "streak": 0
+        },
+        "requested_average_after_t_star": 6.0,
+        "original_average_after_t_star": 6,
+        "last_saved_force_time_t_star": 11.999375,
+        "calculated_final_time_t_star": 12.0,
+        "series": {
+          "cl": {
+            "samples": 600,
+            "sample_dt_t_star": 0.009999999999999787,
+            "selected_t_first": 6.009375,
+            "selected_t_last": 11.999375,
+            "selected_interval_t_star": 5.99,
+            "mean": 0.0924354515196035,
+            "rms_fluctuation": 0.188564401499344,
+            "minimum": -0.45539428983157165,
+            "maximum": 0.7282412595413714,
+            "first_half_mean": 0.08482059656086903,
+            "last_half_mean": 0.10005030647833796,
+            "first_half_rms_fluctuation": 0.14307685917395582,
+            "last_half_rms_fluctuation": 0.22478013115585305,
+            "last_minus_first_half_mean": 0.015229709917468928,
+            "blocks": [
+              {
+                "t_first": 6.009375,
+                "t_last": 6.749375000000001,
+                "samples": 75,
+                "mean": 0.11715013325506916,
+                "rms_fluctuation": 0.17049556033480398
+              },
+              {
+                "t_first": 6.759375,
+                "t_last": 7.499375000000001,
+                "samples": 75,
+                "mean": 0.0993353716201064,
+                "rms_fluctuation": 0.17564854614345335
+              },
+              {
+                "t_first": 7.509375,
+                "t_last": 8.249375,
+                "samples": 75,
+                "mean": 0.07828402513415142,
+                "rms_fluctuation": 0.07376477951718363
+              },
+              {
+                "t_first": 8.259375,
+                "t_last": 8.999375,
+                "samples": 75,
+                "mean": 0.04451285623414913,
+                "rms_fluctuation": 0.11661149873312178
+              },
+              {
+                "t_first": 9.009375,
+                "t_last": 9.749375,
+                "samples": 75,
+                "mean": 0.08891402795674001,
+                "rms_fluctuation": 0.14063616016490818
+              },
+              {
+                "t_first": 9.759375,
+                "t_last": 10.499375,
+                "samples": 75,
+                "mean": 0.07902786675990506,
+                "rms_fluctuation": 0.0966481628350343
+              },
+              {
+                "t_first": 10.509375,
+                "t_last": 11.249375,
+                "samples": 75,
+                "mean": 0.04917934447296577,
+                "rms_fluctuation": 0.13767468160466817
+              },
+              {
+                "t_first": 11.259375,
+                "t_last": 11.999375,
+                "samples": 75,
+                "mean": 0.18307998672374104,
+                "rms_fluctuation": 0.3794508826204975
+              }
+            ],
+            "block_mean_range": 0.1385671304895919,
+            "correlation": {
+              "status": "heuristic_requires_stationarity",
+              "tau_samples": 15.25754516696582,
+              "effective_samples_heuristic": 39.324805755716376,
+              "correlation_span_t_star": 0.15257545166965494,
+              "last_positive_pair_lag": 12,
+              "positive_tail_reached_half_record": false
+            },
+            "confidence_interval": null,
+            "temporal_convergence": "not_certified"
+          },
+          "cd": {
+            "samples": 600,
+            "sample_dt_t_star": 0.009999999999999787,
+            "selected_t_first": 6.009375,
+            "selected_t_last": 11.999375,
+            "selected_interval_t_star": 5.99,
+            "mean": 0.07583910464018687,
+            "rms_fluctuation": 0.010958969036322532,
+            "minimum": 0.04850776894447749,
+            "maximum": 0.10966022350653305,
+            "first_half_mean": 0.07566505503291111,
+            "last_half_mean": 0.07601315424746259,
+            "first_half_rms_fluctuation": 0.00872350957628575,
+            "last_half_rms_fluctuation": 0.012807724185780123,
+            "last_minus_first_half_mean": 0.0003480992145514783,
+            "blocks": [
+              {
+                "t_first": 6.009375,
+                "t_last": 6.749375000000001,
+                "samples": 75,
+                "mean": 0.07582847726666343,
+                "rms_fluctuation": 0.01023354577999838
+              },
+              {
+                "t_first": 6.759375,
+                "t_last": 7.499375000000001,
+                "samples": 75,
+                "mean": 0.07645347138320023,
+                "rms_fluctuation": 0.010833573169623523
+              },
+              {
+                "t_first": 7.509375,
+                "t_last": 8.249375,
+                "samples": 75,
+                "mean": 0.07577768460643296,
+                "rms_fluctuation": 0.005005983867140735
+              },
+              {
+                "t_first": 8.259375,
+                "t_last": 8.999375,
+                "samples": 75,
+                "mean": 0.07460058687534786,
+                "rms_fluctuation": 0.007446660387853641
+              },
+              {
+                "t_first": 9.009375,
+                "t_last": 9.749375,
+                "samples": 75,
+                "mean": 0.07624067608005042,
+                "rms_fluctuation": 0.008167812653103677
+              },
+              {
+                "t_first": 9.759375,
+                "t_last": 10.499375,
+                "samples": 75,
+                "mean": 0.0742964088932742,
+                "rms_fluctuation": 0.0056359084389204
+              },
+              {
+                "t_first": 10.509375,
+                "t_last": 11.249375,
+                "samples": 75,
+                "mean": 0.07237742845689397,
+                "rms_fluctuation": 0.008288449634109487
+              },
+              {
+                "t_first": 11.259375,
+                "t_last": 11.999375,
+                "samples": 75,
+                "mean": 0.08113810355963177,
+                "rms_fluctuation": 0.021130394747823886
+              }
+            ],
+            "block_mean_range": 0.0087606751027378,
+            "correlation": {
+              "status": "heuristic_requires_stationarity",
+              "tau_samples": 13.470215983845923,
+              "effective_samples_heuristic": 44.54271562679815,
+              "correlation_span_t_star": 0.13470215983845638,
+              "last_positive_pair_lag": 12,
+              "positive_tail_reached_half_record": false
+            },
+            "confidence_interval": null,
+            "temporal_convergence": "not_certified"
+          },
+          "cm": {
+            "samples": 600,
+            "sample_dt_t_star": 0.009999999999999787,
+            "selected_t_first": 6.009375,
+            "selected_t_last": 11.999375,
+            "selected_interval_t_star": 5.99,
+            "mean": 0.019699549041990862,
+            "rms_fluctuation": 0.041439205070345396,
+            "minimum": -0.11417685350606929,
+            "maximum": 0.13356548269678925,
+            "first_half_mean": 0.02253458951484204,
+            "last_half_mean": 0.01686450856913969,
+            "first_half_rms_fluctuation": 0.03157210122822987,
+            "last_half_rms_fluctuation": 0.04920917545329607,
+            "last_minus_first_half_mean": -0.005670080945702351,
+            "blocks": [
+              {
+                "t_first": 6.009375,
+                "t_last": 6.749375000000001,
+                "samples": 75,
+                "mean": 0.01726324851410602,
+                "rms_fluctuation": 0.0385314397954469
+              },
+              {
+                "t_first": 6.759375,
+                "t_last": 7.499375000000001,
+                "samples": 75,
+                "mean": 0.02241908862802403,
+                "rms_fluctuation": 0.039330046889455426
+              },
+              {
+                "t_first": 7.509375,
+                "t_last": 8.249375,
+                "samples": 75,
+                "mean": 0.02192256358465973,
+                "rms_fluctuation": 0.01620414150068264
+              },
+              {
+                "t_first": 8.259375,
+                "t_last": 8.999375,
+                "samples": 75,
+                "mean": 0.028533457332578394,
+                "rms_fluctuation": 0.02507848268569163
+              },
+              {
+                "t_first": 9.009375,
+                "t_last": 9.749375,
+                "samples": 75,
+                "mean": 0.016640942426681744,
+                "rms_fluctuation": 0.032559923963270676
+              },
+              {
+                "t_first": 9.759375,
+                "t_last": 10.499375,
+                "samples": 75,
+                "mean": 0.0237104688757811,
+                "rms_fluctuation": 0.019703451281590748
+              },
+              {
+                "t_first": 10.509375,
+                "t_last": 11.249375,
+                "samples": 75,
+                "mean": 0.029217271895906113,
+                "rms_fluctuation": 0.029228909962096983
+              },
+              {
+                "t_first": 11.259375,
+                "t_last": 11.999375,
+                "samples": 75,
+                "mean": -0.002110648921810201,
+                "rms_fluctuation": 0.0826069213731339
+              }
+            ],
+            "block_mean_range": 0.031327920817716313,
+            "correlation": {
+              "status": "heuristic_requires_stationarity",
+              "tau_samples": 15.469500196456169,
+              "effective_samples_heuristic": 38.785997762064156,
+              "correlation_span_t_star": 0.15469500196455838,
+              "last_positive_pair_lag": 12,
+              "positive_tail_reached_half_record": false
+            },
+            "confidence_interval": null,
+            "temporal_convergence": "not_certified"
+          }
+        },
+        "sampled_field_diagnostics": {
+          "local_mach_max": 0.10068712728787502,
+          "density_error_max": 0.01948039016976244
+        },
+        "spatial_convergence": "not_assessed",
+        "temporal_convergence": "not_certified",
+        "experimental_validation": "not_performed",
+        "limitations": [
+          "Large instantaneous oscillations do not alone prove numerical divergence.",
+          "The physical or numerical origin of oscillations is not classified by this tool.",
+          "Block statistics are descriptive; the blocks are not assumed independent.",
+          "Autocorrelation/effective sample counts assume stationarity and a sufficiently long record.",
+          "No confidence interval or accepted error tolerance has been established.",
+          "Sampled density/Mach diagnostics do not certify behavior between saved samples.",
+          "This analysis does not validate the mesh, domain, span, timestep/Mach or wind-tunnel conditions."
+        ]
+      },
+      "mean": {
+        "cl": 0.0924354515196034,
+        "cd": 0.07583910464018684,
+        "cm": 0.019699549041990852
+      },
+      "rms_fluctuation": {
+        "cl": 0.18856440149934395,
+        "cd": 0.010958969036322532,
+        "cm": 0.041439205070345396
+      },
+      "diagnostics": null,
+      "wall_clock_seconds": 407.567753733,
+      "run_sha256": {
+        "project.json": "26d44e1c4ea111228fd49f16ba2b8779686e68f483758fd78af040a990cc8135",
+        "metadata.json": "b924e239eea08c6946a2b80b99955fd76fb0a222ff7f92d38d5e8efc782ccee7",
+        "history.csv": "baac01a6d252f0f3d65a6fc86beca6a09ec075ef5d65a758d7d5a8f9771c876f",
+        "summary.json": "10f6f3df4ebcd258565f6575ce76ef59da4514a2562b85ad82b312d3a3951edb",
+        "residuals.csv": "689687086a31a55b39847483d0fe2de7cf2b47b48ad30fd7eeb3ba28b4aa1bc0"
+      }
+    },
+    "legacy_down6": {
+      "runtime_version": "0.5.2",
+      "case_fingerprint": "b2e9dd39a57809a7ca921170d1c2c63627834392d212ae3fbe1c1e5247ff5579",
+      "status": "completed",
+      "duration_gate": "passed",
+      "temporal": {
+        "format": "aerokinetic_temporal_diagnostics",
+        "schema_version": 1,
+        "run_status": "completed",
+        "case_fingerprint": "b2e9dd39a57809a7ca921170d1c2c63627834392d212ae3fbe1c1e5247ff5579",
+        "reynolds": 30000,
+        "alpha_deg": 4,
+        "cells_per_chord": 32,
+        "fine_cells_per_chord": null,
+        "force_time_convention": "midpoint of boundary momentum-transfer interval",
+        "termination_reason": "duration_reached",
+        "steady_residual_criterion_met": false,
+        "last_residuals": {
+          "step": 9600,
+          "t_star": 12.0,
+          "l2_rho": 0.0017720105550572427,
+          "l2_jx": 0.28662555820529456,
+          "l2_jy": 0.5460613917538517,
+          "l2_jz": 6.265654943134758e-08,
+          "linf_rho": 0.013507172183153948,
+          "linf_jx": 4.13791173257872,
+          "linf_jy": 4.550696072960526,
+          "linf_jz": 2.137079222133421e-06,
+          "streak": 0
+        },
+        "requested_average_after_t_star": 6.0,
+        "original_average_after_t_star": 6,
+        "last_saved_force_time_t_star": 11.999375,
+        "calculated_final_time_t_star": 12.0,
+        "series": {
+          "cl": {
+            "samples": 600,
+            "sample_dt_t_star": 0.009999999999999787,
+            "selected_t_first": 6.009375,
+            "selected_t_last": 11.999375,
+            "selected_interval_t_star": 5.99,
+            "mean": 0.0903162000736996,
+            "rms_fluctuation": 0.05601384028666551,
+            "minimum": -0.05099721049766072,
+            "maximum": 0.29045390849942276,
+            "first_half_mean": 0.09182771768536184,
+            "last_half_mean": 0.08880468246203736,
+            "first_half_rms_fluctuation": 0.06484381187831616,
+            "last_half_rms_fluctuation": 0.04545119687564848,
+            "last_minus_first_half_mean": -0.0030230352233244773,
+            "blocks": [
+              {
+                "t_first": 6.009375,
+                "t_last": 6.749375000000001,
+                "samples": 75,
+                "mean": 0.11756933343433104,
+                "rms_fluctuation": 0.0813859534671324
+              },
+              {
+                "t_first": 6.759375,
+                "t_last": 7.499375000000001,
+                "samples": 75,
+                "mean": 0.08714566838869563,
+                "rms_fluctuation": 0.06552251153647194
+              },
+              {
+                "t_first": 7.509375,
+                "t_last": 8.249375,
+                "samples": 75,
+                "mean": 0.07574665132545952,
+                "rms_fluctuation": 0.05343444293960429
+              },
+              {
+                "t_first": 8.259375,
+                "t_last": 8.999375,
+                "samples": 75,
+                "mean": 0.08684921759296117,
+                "rms_fluctuation": 0.04559417285299788
+              },
+              {
+                "t_first": 9.009375,
+                "t_last": 9.749375,
+                "samples": 75,
+                "mean": 0.0766505400131688,
+                "rms_fluctuation": 0.031099341658391223
+              },
+              {
+                "t_first": 9.759375,
+                "t_last": 10.499375,
+                "samples": 75,
+                "mean": 0.0918987346178775,
+                "rms_fluctuation": 0.030932769387601294
+              },
+              {
+                "t_first": 10.509375,
+                "t_last": 11.249375,
+                "samples": 75,
+                "mean": 0.08425269362619979,
+                "rms_fluctuation": 0.05269013300694687
+              },
+              {
+                "t_first": 11.259375,
+                "t_last": 11.999375,
+                "samples": 75,
+                "mean": 0.10241676159090339,
+                "rms_fluctuation": 0.05656575078500823
+              }
+            ],
+            "block_mean_range": 0.04182268210887152,
+            "correlation": {
+              "status": "heuristic_requires_stationarity",
+              "tau_samples": 8.283033957634787,
+              "effective_samples_heuristic": 72.43722566740864,
+              "correlation_span_t_star": 0.0828303395763461,
+              "last_positive_pair_lag": 6,
+              "positive_tail_reached_half_record": false
+            },
+            "confidence_interval": null,
+            "temporal_convergence": "not_certified"
+          },
+          "cd": {
+            "samples": 600,
+            "sample_dt_t_star": 0.009999999999999787,
+            "selected_t_first": 6.009375,
+            "selected_t_last": 11.999375,
+            "selected_interval_t_star": 5.99,
+            "mean": 0.07582444533536173,
+            "rms_fluctuation": 0.0035763611907301917,
+            "minimum": 0.06517070923807915,
+            "maximum": 0.08480729249913722,
+            "first_half_mean": 0.07622130193055679,
+            "last_half_mean": 0.07542758874016665,
+            "first_half_rms_fluctuation": 0.0035452260656190174,
+            "last_half_rms_fluctuation": 0.003563299112126008,
+            "last_minus_first_half_mean": -0.0007937131903901357,
+            "blocks": [
+              {
+                "t_first": 6.009375,
+                "t_last": 6.749375000000001,
+                "samples": 75,
+                "mean": 0.07592328172255176,
+                "rms_fluctuation": 0.00451241282614314
+              },
+              {
+                "t_first": 6.759375,
+                "t_last": 7.499375000000001,
+                "samples": 75,
+                "mean": 0.07606682985468663,
+                "rms_fluctuation": 0.0037079714756720695
+              },
+              {
+                "t_first": 7.509375,
+                "t_last": 8.249375,
+                "samples": 75,
+                "mean": 0.07621788315098653,
+                "rms_fluctuation": 0.003171676323588816
+              },
+              {
+                "t_first": 8.259375,
+                "t_last": 8.999375,
+                "samples": 75,
+                "mean": 0.07667721299400226,
+                "rms_fluctuation": 0.002404893863229017
+              },
+              {
+                "t_first": 9.009375,
+                "t_last": 9.749375,
+                "samples": 75,
+                "mean": 0.07563498229581794,
+                "rms_fluctuation": 0.0017101478203365443
+              },
+              {
+                "t_first": 9.759375,
+                "t_last": 10.499375,
+                "samples": 75,
+                "mean": 0.07594483652258122,
+                "rms_fluctuation": 0.004006992918819518
+              },
+              {
+                "t_first": 10.509375,
+                "t_last": 11.249375,
+                "samples": 75,
+                "mean": 0.07452751322948153,
+                "rms_fluctuation": 0.004559799913246432
+              },
+              {
+                "t_first": 11.259375,
+                "t_last": 11.999375,
+                "samples": 75,
+                "mean": 0.07560302291278591,
+                "rms_fluctuation": 0.0031407895110946308
+              }
+            ],
+            "block_mean_range": 0.0021496997645207294,
+            "correlation": {
+              "status": "heuristic_requires_stationarity",
+              "tau_samples": 7.264365182104356,
+              "effective_samples_heuristic": 82.59496665697507,
+              "correlation_span_t_star": 0.07264365182104202,
+              "last_positive_pair_lag": 6,
+              "positive_tail_reached_half_record": false
+            },
+            "confidence_interval": null,
+            "temporal_convergence": "not_certified"
+          },
+          "cm": {
+            "samples": 600,
+            "sample_dt_t_star": 0.009999999999999787,
+            "selected_t_first": 6.009375,
+            "selected_t_last": 11.999375,
+            "selected_interval_t_star": 5.99,
+            "mean": 0.0213772077726215,
+            "rms_fluctuation": 0.012156475730068466,
+            "minimum": -0.016473857424195156,
+            "maximum": 0.05570698199703994,
+            "first_half_mean": 0.02141023892099007,
+            "last_half_mean": 0.021344176624252937,
+            "first_half_rms_fluctuation": 0.01384596644641614,
+            "last_half_rms_fluctuation": 0.01019052674804794,
+            "last_minus_first_half_mean": -6.606229673713354e-05,
+            "blocks": [
+              {
+                "t_first": 6.009375,
+                "t_last": 6.749375000000001,
+                "samples": 75,
+                "mean": 0.020337403670254602,
+                "rms_fluctuation": 0.017758641720952702
+              },
+              {
+                "t_first": 6.759375,
+                "t_last": 7.499375000000001,
+                "samples": 75,
+                "mean": 0.021896345624758683,
+                "rms_fluctuation": 0.01461944273174764
+              },
+              {
+                "t_first": 7.509375,
+                "t_last": 8.249375,
+                "samples": 75,
+                "mean": 0.023050739890034703,
+                "rms_fluctuation": 0.011091033115613786
+              },
+              {
+                "t_first": 8.259375,
+                "t_last": 8.999375,
+                "samples": 75,
+                "mean": 0.020356466498912297,
+                "rms_fluctuation": 0.010466408899896685
+              },
+              {
+                "t_first": 9.009375,
+                "t_last": 9.749375,
+                "samples": 75,
+                "mean": 0.022657792718445726,
+                "rms_fluctuation": 0.007125302920888827
+              },
+              {
+                "t_first": 9.759375,
+                "t_last": 10.499375,
+                "samples": 75,
+                "mean": 0.02001587191320219,
+                "rms_fluctuation": 0.007034713876740586
+              },
+              {
+                "t_first": 10.509375,
+                "t_last": 11.249375,
+                "samples": 75,
+                "mean": 0.022848737786053064,
+                "rms_fluctuation": 0.011965675370334283
+              },
+              {
+                "t_first": 11.259375,
+                "t_last": 11.999375,
+                "samples": 75,
+                "mean": 0.019854304079310756,
+                "rms_fluctuation": 0.012805444481249853
+              }
+            ],
+            "block_mean_range": 0.0031964358107239473,
+            "correlation": {
+              "status": "heuristic_requires_stationarity",
+              "tau_samples": 7.9569671131150095,
+              "effective_samples_heuristic": 75.40561516347789,
+              "correlation_span_t_star": 0.07956967113114839,
+              "last_positive_pair_lag": 6,
+              "positive_tail_reached_half_record": false
+            },
+            "confidence_interval": null,
+            "temporal_convergence": "not_certified"
+          }
+        },
+        "sampled_field_diagnostics": {
+          "local_mach_max": 0.10068712728787499,
+          "density_error_max": 0.019480390169762662
+        },
+        "spatial_convergence": "not_assessed",
+        "temporal_convergence": "not_certified",
+        "experimental_validation": "not_performed",
+        "limitations": [
+          "Large instantaneous oscillations do not alone prove numerical divergence.",
+          "The physical or numerical origin of oscillations is not classified by this tool.",
+          "Block statistics are descriptive; the blocks are not assumed independent.",
+          "Autocorrelation/effective sample counts assume stationarity and a sufficiently long record.",
+          "No confidence interval or accepted error tolerance has been established.",
+          "Sampled density/Mach diagnostics do not certify behavior between saved samples.",
+          "This analysis does not validate the mesh, domain, span, timestep/Mach or wind-tunnel conditions."
+        ]
+      },
+      "mean": {
+        "cl": 0.09031620007369962,
+        "cd": 0.07582444533536173,
+        "cm": 0.02137720777262152
+      },
+      "rms_fluctuation": {
+        "cl": 0.056013840286665534,
+        "cd": 0.003576361190730191,
+        "cm": 0.012156475730068462
+      },
+      "diagnostics": null,
+      "wall_clock_seconds": 485.3922199089993,
+      "run_sha256": {
+        "project.json": "8e2e2e9e3a1d352a3d348178615f731b64932d6874b12b601b668cacd1f328d5",
+        "metadata.json": "d287891fa7a5a623752ba5e69b92056bfa713ec055577a0b634611d46c1789e2",
+        "history.csv": "69f76e801787deaea0a244e40cc87a23f5a2d5699ff3f98e3d7a36008c71dba9",
+        "summary.json": "2fc52381f831ad8545b9d28eb92eeae8a873428457f7c008eadefc6838a395a8",
+        "residuals.csv": "11bbceeff709be90e933361ef42f101f17a2f6e5b584b260a2008779905f2fe2"
+      }
+    },
+    "characteristic_down3": {
+      "runtime_version": "0.5.2",
+      "case_fingerprint": "6e6c216e02cf32f43cf9005634d0e3c41256e73893e049fc40f8ab46e53f93b7",
+      "status": "failed",
+      "steps": 5192,
+      "t_star": 6.49,
+      "duration_gate": "failed",
+      "mean": null,
+      "partial_window_averaging": "withheld",
+      "run_sha256": {
+        "project.json": "c1c13223959b1bd27b7688ff8c949c5244dff6fc689dbb252fae2f010f60bc5a",
+        "metadata.json": "9dabb7b8c05bffcbdf4d1f9a26f112527f74cb4b6b07ee369858dd7e71822553",
+        "history.csv": "4befb99642a8d3f71b80dda03e8a2d26e2d95218c6642b08b836899750e310ce",
+        "summary.json": "b973dcd3bc1fe154ea54c3eea29658246581fdecdf63e836c0a8996164d48548",
+        "residuals.csv": "c65d9011bccd2e9de6fde0d304709abc64e4db8c1776f91e420d45e410b6a38d"
+      }
+    },
+    "characteristic_down6": {
+      "runtime_version": "0.5.2",
+      "case_fingerprint": "b52a0bd28f705f4fd764685e5fd88a4696928b9caabe03369b604534c7c88566",
+      "status": "failed",
+      "steps": 6640,
+      "t_star": 8.3,
+      "duration_gate": "failed",
+      "mean": null,
+      "partial_window_averaging": "withheld",
+      "run_sha256": {
+        "project.json": "1d9260a84f4a3e92567f7a0f81ebe197902810bdecd66ea0e6196c05ebab8704",
+        "metadata.json": "7f079c324fd7d6fd10c041182399c50fec58c69cb8f1e79aaaa438fcf071d42f",
+        "history.csv": "71cb66dc1a94dc1347c6ccf588d3fb4d04fc930afb0ebaa1e5535d76a2d33f49",
+        "summary.json": "830601b08448303cf93dd86a46f6e138c2bd7d9a5dda87e8e42677aaa23f4fb9",
+        "residuals.csv": "72ab101a9b6f8fa16cce118348d8039531cb7e367563b699e45e2502d7556f4d"
+      }
+    }
+  },
+  "note": "legacy_down3 is the preserved0.5.1 corrected-seed run; other cases are installed0.5.2. Legacy numerical operators are unchanged; exact release restart is checked separately."
+}

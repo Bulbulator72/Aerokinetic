@@ -1,0 +1,56 @@
+START preflight
+UNIFORM (0.04, 0, 0) {'density_max_error': 1.1102230246251565e-15, 'velocity_max_error': 4.868067754459912e-16, 'elapsed_s': 39.53040210600011, 'passed': True}
+UNIFORM (0.04, 0.01, 0.005) {'density_max_error': 1.7763568394002505e-15, 'velocity_max_error': 9.992007221626409e-16, 'elapsed_s': 37.312179909000406, 'passed': True}
+ACOUSTIC ubb {'incident': 2.2314456929962898e-05, 'reflected': 2.0883293738206694e-05, 'ratio': 0.9358638573975556}
+ACOUSTIC riemann {'incident': 2.2314456929906123e-05, 'reflected': 2.562376237509729e-07, 'ratio': 0.01148303203415898}
+{
+  "(0.04, 0, 0)": {
+    "density_max_error": 1.1102230246251565e-15,
+    "velocity_max_error": 4.868067754459912e-16,
+    "elapsed_s": 39.53040210600011,
+    "passed": true
+  },
+  "(0.04, 0.01, 0.005)": {
+    "density_max_error": 1.7763568394002505e-15,
+    "velocity_max_error": 9.992007221626409e-16,
+    "elapsed_s": 37.312179909000406,
+    "passed": true
+  },
+  "ubb": {
+    "incident": 2.2314456929962898e-05,
+    "reflected": 2.0883293738206694e-05,
+    "ratio": 0.9358638573975556
+  },
+  "riemann": {
+    "incident": 2.2314456929906123e-05,
+    "reflected": 2.562376237509729e-07,
+    "ratio": 0.01148303203415898
+  },
+  "wave_gate": true
+}
+FINISH preflight seconds 114.64988439700028
+START budget
+BUDGET 2.2417912795211214e-16 0.0
+FINISH budget seconds 18.45261387100254
+START shear
+SHEAR {'max_density_error': 4.596323321948148e-14, 'last': {'step': 3000, 'max_density_error': 2.842170943040401e-14, 'max_uy_error_vs_gaussian': 2.8704921901834837e-10, 'max_interior_abs_uy': 2.3662386069641618e-11}, 'passed': True, 'scope': 'Convected transverse Gaussian is an exact NS mode; finite LBM truncation/boundary errors remain. This is not a tunnel validation.'}
+FINISH shear seconds 17.620030157002475
+START vortex
+{
+  "max_density_error": 6.979032181053668e-06,
+  "step500": {
+    "step": 500,
+    "density_max_error": 2.496885862512954e-07,
+    "velocity_l2_error_over_initial_rotational_l2": 0.004882577922376731,
+    "velocity_max_error_over_initial_rotational_peak": 0.00525138709874696
+  },
+  "step3000": {
+    "step": 3000,
+    "density_max_error": 3.156007937210603e-07,
+    "velocity_l2_error_over_initial_rotational_l2": 0.08785546321193693,
+    "velocity_max_error_over_initial_rotational_peak": 0.03850037596738596
+  },
+  "max_transit_velocity_l2_error_over_initial": 0.2335547503252151,
+  "passed": false
+}
+FINISH vortex seconds 62.775582630001736

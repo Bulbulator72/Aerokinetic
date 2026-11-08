@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/workspace/aerokinetic/tools/exterior_library_checks/periodic_transport.py", line 116, in <module>
+    if __name__=="__main__":main()
+                            ^^^^^^
+  File "/workspace/aerokinetic/tools/exterior_library_checks/periodic_transport.py", line 78, in main
+    matrix,eq,lam,map_error,c,eigenvalues=operator(s)
+                                          ^^^^^^^^^^^
+  File "/workspace/aerokinetic/tools/exterior_library_checks/periodic_transport.py", line 68, in operator
+    if not len(candidates):raise RuntimeError("No classified positive hydrodynamic z-shear mode")
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: No classified positive hydrodynamic z-shear mode

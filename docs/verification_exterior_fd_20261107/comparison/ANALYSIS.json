@@ -1,0 +1,1141 @@
+{
+  "experiment": {
+    "cl": {
+      "interpolated": 0.3087391322234979,
+      "bracket_alpha_deg": [
+        3.921,
+        4.13004
+      ],
+      "bracket_values": [
+        0.295755,
+        0.330112
+      ],
+      "digitization_value_half_marker_bound": 0.008,
+      "digitization_angle_half_marker_bound_deg": 0.12,
+      "source_doi": "10.2322/jjsass.55.439"
+    },
+    "cd": {
+      "interpolated": 0.04450936437474284,
+      "bracket_alpha_deg": [
+        3.9157077991953955,
+        4.127815246027101
+      ],
+      "bracket_values": [
+        0.0447939298572433,
+        0.044077867666750474
+      ],
+      "digitization_value_half_marker_bound": 0.0031,
+      "digitization_angle_half_marker_bound_deg": 0.23,
+      "source_doi": "10.2322/jjsass.55.439"
+    },
+    "cm": {
+      "interpolated": -0.02053270491438635,
+      "bracket_alpha_deg": [
+        3.9235670150330186,
+        4.127734132486967
+      ],
+      "bracket_values": [
+        -0.019515781421181516,
+        -0.022232178515558018
+      ],
+      "digitization_value_half_marker_bound": 0.0016,
+      "digitization_angle_half_marker_bound_deg": 0.23,
+      "source_doi": "10.2322/jjsass.55.439"
+    }
+  },
+  "experiment_csv_sha256": "d66a8f137c08067231677629b2e8633b1e54f0b522854a52c0c71dc2923e16cd",
+  "sources": {
+    "exterior_fd_down3": {
+      "history": "/workspace/aerokinetic_fd_exterior_20261107/airfoil_down3/history.csv",
+      "sha256": "9ad6c9bfd8b39673f995630207e012def0670f65a9c784a24df39d567fe2c932",
+      "completed_target_t_star": 12
+    },
+    "legacy_down3": {
+      "history": "/workspace/aerokinetic/docs/verification_stage1_20261106/corrected32_t12/history.csv",
+      "sha256": "baac01a6d252f0f3d65a6fc86beca6a09ec075ef5d65a758d7d5a8f9771c876f",
+      "completed_target_t_star": 12
+    },
+    "exterior_fd_down6": {
+      "history": "/workspace/aerokinetic_fd_exterior_20261107/airfoil_down6/history.csv",
+      "sha256": "d329c9482f07027a324428be6dbf4bd7726460e41c402e3089e2c15f3c099476",
+      "completed_target_t_star": 12
+    },
+    "legacy_down6": {
+      "history": "/workspace/aerokinetic/docs/verification_stage1_20261106/downstream6/history.csv",
+      "sha256": "4f8026bdd4c7ffcce858d36a8afa363950355cef8f7438693d03aa57fe23ff23",
+      "completed_target_t_star": 12
+    }
+  },
+  "series": {
+    "exterior_fd_down3": {
+      "cl": {
+        "samples": 600,
+        "sample_dt_t_star": 0.009999999999999787,
+        "selected_t_first": 6.009375,
+        "selected_t_last": 11.999375,
+        "selected_interval_t_star": 5.99,
+        "mean": 0.06819963533368023,
+        "rms_fluctuation": 0.015941535588713068,
+        "minimum": 0.05120708467169061,
+        "maximum": 0.11887508179153719,
+        "first_half_mean": 0.07303389280380755,
+        "last_half_mean": 0.06336537786355288,
+        "first_half_rms_fluctuation": 0.020260591914701257,
+        "last_half_rms_fluctuation": 0.007143769211234986,
+        "last_minus_first_half_mean": -0.009668514940254669,
+        "blocks": [
+          {
+            "t_first": 6.009375,
+            "t_last": 6.749375000000001,
+            "samples": 75,
+            "mean": 0.10298808754070274,
+            "rms_fluctuation": 0.00872509917902131
+          },
+          {
+            "t_first": 6.759375,
+            "t_last": 7.499375000000001,
+            "samples": 75,
+            "mean": 0.07698640892361644,
+            "rms_fluctuation": 0.006087464220449495
+          },
+          {
+            "t_first": 7.509375,
+            "t_last": 8.249375,
+            "samples": 75,
+            "mean": 0.05983969350277963,
+            "rms_fluctuation": 0.003461742942968832
+          },
+          {
+            "t_first": 8.259375,
+            "t_last": 8.999375,
+            "samples": 75,
+            "mean": 0.0523213812481314,
+            "rms_fluctuation": 0.0009093416638273174
+          },
+          {
+            "t_first": 9.009375,
+            "t_last": 9.749375,
+            "samples": 75,
+            "mean": 0.054557207177597676,
+            "rms_fluctuation": 0.0020416924004121903
+          },
+          {
+            "t_first": 9.759375,
+            "t_last": 10.499375,
+            "samples": 75,
+            "mean": 0.060246462778430224,
+            "rms_fluctuation": 0.0025257511045255806
+          },
+          {
+            "t_first": 10.509375,
+            "t_last": 11.249375,
+            "samples": 75,
+            "mean": 0.06626424805334988,
+            "rms_fluctuation": 0.0027921895071512347
+          },
+          {
+            "t_first": 11.259375,
+            "t_last": 11.999375,
+            "samples": 75,
+            "mean": 0.07239359344483375,
+            "rms_fluctuation": 0.002926752181052347
+          }
+        ],
+        "block_mean_range": 0.05066670629257134,
+        "correlation": {
+          "status": "heuristic_requires_stationarity",
+          "tau_samples": 124.47899935694366,
+          "effective_samples_heuristic": 4.820090160586039,
+          "correlation_span_t_star": 1.24478999356941,
+          "last_positive_pair_lag": 134,
+          "positive_tail_reached_half_record": false
+        },
+        "confidence_interval": null,
+        "temporal_convergence": "not_certified"
+      },
+      "cd": {
+        "samples": 600,
+        "sample_dt_t_star": 0.009999999999999787,
+        "selected_t_first": 6.009375,
+        "selected_t_last": 11.999375,
+        "selected_interval_t_star": 5.99,
+        "mean": 0.07383274952099313,
+        "rms_fluctuation": 0.0008815676343526652,
+        "minimum": 0.07248495952119727,
+        "maximum": 0.07530032421816577,
+        "first_half_mean": 0.07313835964907739,
+        "last_half_mean": 0.07452713939290889,
+        "first_half_rms_fluctuation": 0.0005422567283847549,
+        "last_half_rms_fluctuation": 0.0005439908454738997,
+        "last_minus_first_half_mean": 0.001388779743831503,
+        "blocks": [
+          {
+            "t_first": 6.009375,
+            "t_last": 6.749375000000001,
+            "samples": 75,
+            "mean": 0.0734159057971361,
+            "rms_fluctuation": 0.0001148243375620539
+          },
+          {
+            "t_first": 6.759375,
+            "t_last": 7.499375000000001,
+            "samples": 75,
+            "mean": 0.07288587481971028,
+            "rms_fluctuation": 0.00018790629490842694
+          },
+          {
+            "t_first": 7.509375,
+            "t_last": 8.249375,
+            "samples": 75,
+            "mean": 0.07254785168520399,
+            "rms_fluctuation": 7.042679822032265e-05
+          },
+          {
+            "t_first": 8.259375,
+            "t_last": 8.999375,
+            "samples": 75,
+            "mean": 0.07370380629425916,
+            "rms_fluctuation": 0.0005599161388420981
+          },
+          {
+            "t_first": 9.009375,
+            "t_last": 9.749375,
+            "samples": 75,
+            "mean": 0.07513029747589836,
+            "rms_fluctuation": 0.00014394972153218904
+          },
+          {
+            "t_first": 9.759375,
+            "t_last": 10.499375,
+            "samples": 75,
+            "mean": 0.07486480366789508,
+            "rms_fluctuation": 0.0003033743992302361
+          },
+          {
+            "t_first": 10.509375,
+            "t_last": 11.249375,
+            "samples": 75,
+            "mean": 0.07415167831520608,
+            "rms_fluctuation": 0.00027954858825234073
+          },
+          {
+            "t_first": 11.259375,
+            "t_last": 11.999375,
+            "samples": 75,
+            "mean": 0.07396177811263607,
+            "rms_fluctuation": 0.00023319083263993487
+          }
+        ],
+        "block_mean_range": 0.0025824457906943737,
+        "correlation": {
+          "status": "heuristic_requires_stationarity",
+          "tau_samples": 155.5046514607964,
+          "effective_samples_heuristic": 3.858405484103885,
+          "correlation_span_t_star": 1.5550465146079309,
+          "last_positive_pair_lag": 132,
+          "positive_tail_reached_half_record": false
+        },
+        "confidence_interval": null,
+        "temporal_convergence": "not_certified"
+      },
+      "cm": {
+        "samples": 600,
+        "sample_dt_t_star": 0.009999999999999787,
+        "selected_t_first": 6.009375,
+        "selected_t_last": 11.999375,
+        "selected_interval_t_star": 5.99,
+        "mean": 0.02214134577922552,
+        "rms_fluctuation": 0.0007099274996185443,
+        "minimum": 0.02057535012875137,
+        "maximum": 0.023251325075538613,
+        "first_half_mean": 0.022606849661030604,
+        "last_half_mean": 0.021675841897420438,
+        "first_half_rms_fluctuation": 0.00046421216684215514,
+        "last_half_rms_fluctuation": 0.0005992607492851387,
+        "last_minus_first_half_mean": -0.0009310077636101657,
+        "blocks": [
+          {
+            "t_first": 6.009375,
+            "t_last": 6.749375000000001,
+            "samples": 75,
+            "mean": 0.02204626517965595,
+            "rms_fluctuation": 0.0002822063049873417
+          },
+          {
+            "t_first": 6.759375,
+            "t_last": 7.499375000000001,
+            "samples": 75,
+            "mean": 0.022814448777415678,
+            "rms_fluctuation": 9.580813300447081e-05
+          },
+          {
+            "t_first": 7.509375,
+            "t_last": 8.249375,
+            "samples": 75,
+            "mean": 0.023009173041246375,
+            "rms_fluctuation": 0.00018126289176338732
+          },
+          {
+            "t_first": 8.259375,
+            "t_last": 8.999375,
+            "samples": 75,
+            "mean": 0.02255751164580441,
+            "rms_fluctuation": 0.000467595139651451
+          },
+          {
+            "t_first": 9.009375,
+            "t_last": 9.749375,
+            "samples": 75,
+            "mean": 0.02178031991865976,
+            "rms_fluctuation": 0.0005401638283677895
+          },
+          {
+            "t_first": 9.759375,
+            "t_last": 10.499375,
+            "samples": 75,
+            "mean": 0.02164453740037895,
+            "rms_fluctuation": 0.0005654128433040475
+          },
+          {
+            "t_first": 10.509375,
+            "t_last": 11.249375,
+            "samples": 75,
+            "mean": 0.021716426951895292,
+            "rms_fluctuation": 0.000606420154558342
+          },
+          {
+            "t_first": 11.259375,
+            "t_last": 11.999375,
+            "samples": 75,
+            "mean": 0.02156208331874775,
+            "rms_fluctuation": 0.0006563200016036423
+          }
+        ],
+        "block_mean_range": 0.0014470897224986255,
+        "correlation": {
+          "status": "heuristic_requires_stationarity",
+          "tau_samples": 66.206555818805,
+          "effective_samples_heuristic": 9.062546640276654,
+          "correlation_span_t_star": 0.6620655581880359,
+          "last_positive_pair_lag": 102,
+          "positive_tail_reached_half_record": false
+        },
+        "confidence_interval": null,
+        "temporal_convergence": "not_certified"
+      }
+    },
+    "legacy_down3": {
+      "cl": {
+        "samples": 600,
+        "sample_dt_t_star": 0.009999999999999787,
+        "selected_t_first": 6.009375,
+        "selected_t_last": 11.999375,
+        "selected_interval_t_star": 5.99,
+        "mean": 0.0924354515196035,
+        "rms_fluctuation": 0.188564401499344,
+        "minimum": -0.45539428983157165,
+        "maximum": 0.7282412595413714,
+        "first_half_mean": 0.08482059656086903,
+        "last_half_mean": 0.10005030647833796,
+        "first_half_rms_fluctuation": 0.14307685917395582,
+        "last_half_rms_fluctuation": 0.22478013115585305,
+        "last_minus_first_half_mean": 0.015229709917468928,
+        "blocks": [
+          {
+            "t_first": 6.009375,
+            "t_last": 6.749375000000001,
+            "samples": 75,
+            "mean": 0.11715013325506916,
+            "rms_fluctuation": 0.17049556033480398
+          },
+          {
+            "t_first": 6.759375,
+            "t_last": 7.499375000000001,
+            "samples": 75,
+            "mean": 0.0993353716201064,
+            "rms_fluctuation": 0.17564854614345335
+          },
+          {
+            "t_first": 7.509375,
+            "t_last": 8.249375,
+            "samples": 75,
+            "mean": 0.07828402513415142,
+            "rms_fluctuation": 0.07376477951718363
+          },
+          {
+            "t_first": 8.259375,
+            "t_last": 8.999375,
+            "samples": 75,
+            "mean": 0.04451285623414913,
+            "rms_fluctuation": 0.11661149873312178
+          },
+          {
+            "t_first": 9.009375,
+            "t_last": 9.749375,
+            "samples": 75,
+            "mean": 0.08891402795674001,
+            "rms_fluctuation": 0.14063616016490818
+          },
+          {
+            "t_first": 9.759375,
+            "t_last": 10.499375,
+            "samples": 75,
+            "mean": 0.07902786675990506,
+            "rms_fluctuation": 0.0966481628350343
+          },
+          {
+            "t_first": 10.509375,
+            "t_last": 11.249375,
+            "samples": 75,
+            "mean": 0.04917934447296577,
+            "rms_fluctuation": 0.13767468160466817
+          },
+          {
+            "t_first": 11.259375,
+            "t_last": 11.999375,
+            "samples": 75,
+            "mean": 0.18307998672374104,
+            "rms_fluctuation": 0.3794508826204975
+          }
+        ],
+        "block_mean_range": 0.1385671304895919,
+        "correlation": {
+          "status": "heuristic_requires_stationarity",
+          "tau_samples": 15.25754516696582,
+          "effective_samples_heuristic": 39.324805755716376,
+          "correlation_span_t_star": 0.15257545166965494,
+          "last_positive_pair_lag": 12,
+          "positive_tail_reached_half_record": false
+        },
+        "confidence_interval": null,
+        "temporal_convergence": "not_certified"
+      },
+      "cd": {
+        "samples": 600,
+        "sample_dt_t_star": 0.009999999999999787,
+        "selected_t_first": 6.009375,
+        "selected_t_last": 11.999375,
+        "selected_interval_t_star": 5.99,
+        "mean": 0.07583910464018687,
+        "rms_fluctuation": 0.010958969036322532,
+        "minimum": 0.04850776894447749,
+        "maximum": 0.10966022350653305,
+        "first_half_mean": 0.07566505503291111,
+        "last_half_mean": 0.07601315424746259,
+        "first_half_rms_fluctuation": 0.00872350957628575,
+        "last_half_rms_fluctuation": 0.012807724185780123,
+        "last_minus_first_half_mean": 0.0003480992145514783,
+        "blocks": [
+          {
+            "t_first": 6.009375,
+            "t_last": 6.749375000000001,
+            "samples": 75,
+            "mean": 0.07582847726666343,
+            "rms_fluctuation": 0.01023354577999838
+          },
+          {
+            "t_first": 6.759375,
+            "t_last": 7.499375000000001,
+            "samples": 75,
+            "mean": 0.07645347138320023,
+            "rms_fluctuation": 0.010833573169623523
+          },
+          {
+            "t_first": 7.509375,
+            "t_last": 8.249375,
+            "samples": 75,
+            "mean": 0.07577768460643296,
+            "rms_fluctuation": 0.005005983867140735
+          },
+          {
+            "t_first": 8.259375,
+            "t_last": 8.999375,
+            "samples": 75,
+            "mean": 0.07460058687534786,
+            "rms_fluctuation": 0.007446660387853641
+          },
+          {
+            "t_first": 9.009375,
+            "t_last": 9.749375,
+            "samples": 75,
+            "mean": 0.07624067608005042,
+            "rms_fluctuation": 0.008167812653103677
+          },
+          {
+            "t_first": 9.759375,
+            "t_last": 10.499375,
+            "samples": 75,
+            "mean": 0.0742964088932742,
+            "rms_fluctuation": 0.0056359084389204
+          },
+          {
+            "t_first": 10.509375,
+            "t_last": 11.249375,
+            "samples": 75,
+            "mean": 0.07237742845689397,
+            "rms_fluctuation": 0.008288449634109487
+          },
+          {
+            "t_first": 11.259375,
+            "t_last": 11.999375,
+            "samples": 75,
+            "mean": 0.08113810355963177,
+            "rms_fluctuation": 0.021130394747823886
+          }
+        ],
+        "block_mean_range": 0.0087606751027378,
+        "correlation": {
+          "status": "heuristic_requires_stationarity",
+          "tau_samples": 13.470215983845923,
+          "effective_samples_heuristic": 44.54271562679815,
+          "correlation_span_t_star": 0.13470215983845638,
+          "last_positive_pair_lag": 12,
+          "positive_tail_reached_half_record": false
+        },
+        "confidence_interval": null,
+        "temporal_convergence": "not_certified"
+      },
+      "cm": {
+        "samples": 600,
+        "sample_dt_t_star": 0.009999999999999787,
+        "selected_t_first": 6.009375,
+        "selected_t_last": 11.999375,
+        "selected_interval_t_star": 5.99,
+        "mean": 0.019699549041990862,
+        "rms_fluctuation": 0.041439205070345396,
+        "minimum": -0.11417685350606929,
+        "maximum": 0.13356548269678925,
+        "first_half_mean": 0.02253458951484204,
+        "last_half_mean": 0.01686450856913969,
+        "first_half_rms_fluctuation": 0.03157210122822987,
+        "last_half_rms_fluctuation": 0.04920917545329607,
+        "last_minus_first_half_mean": -0.005670080945702351,
+        "blocks": [
+          {
+            "t_first": 6.009375,
+            "t_last": 6.749375000000001,
+            "samples": 75,
+            "mean": 0.01726324851410602,
+            "rms_fluctuation": 0.0385314397954469
+          },
+          {
+            "t_first": 6.759375,
+            "t_last": 7.499375000000001,
+            "samples": 75,
+            "mean": 0.02241908862802403,
+            "rms_fluctuation": 0.039330046889455426
+          },
+          {
+            "t_first": 7.509375,
+            "t_last": 8.249375,
+            "samples": 75,
+            "mean": 0.02192256358465973,
+            "rms_fluctuation": 0.01620414150068264
+          },
+          {
+            "t_first": 8.259375,
+            "t_last": 8.999375,
+            "samples": 75,
+            "mean": 0.028533457332578394,
+            "rms_fluctuation": 0.02507848268569163
+          },
+          {
+            "t_first": 9.009375,
+            "t_last": 9.749375,
+            "samples": 75,
+            "mean": 0.016640942426681744,
+            "rms_fluctuation": 0.032559923963270676
+          },
+          {
+            "t_first": 9.759375,
+            "t_last": 10.499375,
+            "samples": 75,
+            "mean": 0.0237104688757811,
+            "rms_fluctuation": 0.019703451281590748
+          },
+          {
+            "t_first": 10.509375,
+            "t_last": 11.249375,
+            "samples": 75,
+            "mean": 0.029217271895906113,
+            "rms_fluctuation": 0.029228909962096983
+          },
+          {
+            "t_first": 11.259375,
+            "t_last": 11.999375,
+            "samples": 75,
+            "mean": -0.002110648921810201,
+            "rms_fluctuation": 0.0826069213731339
+          }
+        ],
+        "block_mean_range": 0.031327920817716313,
+        "correlation": {
+          "status": "heuristic_requires_stationarity",
+          "tau_samples": 15.469500196456169,
+          "effective_samples_heuristic": 38.785997762064156,
+          "correlation_span_t_star": 0.15469500196455838,
+          "last_positive_pair_lag": 12,
+          "positive_tail_reached_half_record": false
+        },
+        "confidence_interval": null,
+        "temporal_convergence": "not_certified"
+      }
+    },
+    "exterior_fd_down6": {
+      "cl": {
+        "samples": 600,
+        "sample_dt_t_star": 0.009999999999999787,
+        "selected_t_first": 6.009375,
+        "selected_t_last": 11.999375,
+        "selected_interval_t_star": 5.99,
+        "mean": 0.06841284220502555,
+        "rms_fluctuation": 0.01595848881150798,
+        "minimum": 0.0515797584694405,
+        "maximum": 0.11908779107375171,
+        "first_half_mean": 0.07336831311207247,
+        "last_half_mean": 0.06345737129797864,
+        "first_half_rms_fluctuation": 0.020252034170607662,
+        "last_half_rms_fluctuation": 0.0070773200030388225,
+        "last_minus_first_half_mean": -0.009910941814093827,
+        "blocks": [
+          {
+            "t_first": 6.009375,
+            "t_last": 6.749375000000001,
+            "samples": 75,
+            "mean": 0.103291271346094,
+            "rms_fluctuation": 0.008722498813489393
+          },
+          {
+            "t_first": 6.759375,
+            "t_last": 7.499375000000001,
+            "samples": 75,
+            "mean": 0.07734592571781693,
+            "rms_fluctuation": 0.006087508967419204
+          },
+          {
+            "t_first": 7.509375,
+            "t_last": 8.249375,
+            "samples": 75,
+            "mean": 0.06021677320414258,
+            "rms_fluctuation": 0.003458327635185986
+          },
+          {
+            "t_first": 8.259375,
+            "t_last": 8.999375,
+            "samples": 75,
+            "mean": 0.05261928218023639,
+            "rms_fluctuation": 0.0008886242745276796
+          },
+          {
+            "t_first": 9.009375,
+            "t_last": 9.749375,
+            "samples": 75,
+            "mean": 0.054750131224856585,
+            "rms_fluctuation": 0.0020644336264181618
+          },
+          {
+            "t_first": 9.759375,
+            "t_last": 10.499375,
+            "samples": 75,
+            "mean": 0.060349382398386796,
+            "rms_fluctuation": 0.0025640777411150895
+          },
+          {
+            "t_first": 10.509375,
+            "t_last": 11.249375,
+            "samples": 75,
+            "mean": 0.06633675445934349,
+            "rms_fluctuation": 0.0028071794080701284
+          },
+          {
+            "t_first": 11.259375,
+            "t_last": 11.999375,
+            "samples": 75,
+            "mean": 0.07239321710932765,
+            "rms_fluctuation": 0.0028322048243495704
+          }
+        ],
+        "block_mean_range": 0.05067198916585761,
+        "correlation": {
+          "status": "heuristic_requires_stationarity",
+          "tau_samples": 124.85113476263938,
+          "effective_samples_heuristic": 4.805723241047744,
+          "correlation_span_t_star": 1.2485113476263672,
+          "last_positive_pair_lag": 136,
+          "positive_tail_reached_half_record": false
+        },
+        "confidence_interval": null,
+        "temporal_convergence": "not_certified"
+      },
+      "cd": {
+        "samples": 600,
+        "sample_dt_t_star": 0.009999999999999787,
+        "selected_t_first": 6.009375,
+        "selected_t_last": 11.999375,
+        "selected_interval_t_star": 5.99,
+        "mean": 0.07381336216658393,
+        "rms_fluctuation": 0.0009019352809577,
+        "minimum": 0.07247532533644051,
+        "maximum": 0.07527790948638605,
+        "first_half_mean": 0.07308608047551339,
+        "last_half_mean": 0.07454064385765449,
+        "first_half_rms_fluctuation": 0.0005410305591686137,
+        "last_half_rms_fluctuation": 0.0005257215230379305,
+        "last_minus_first_half_mean": 0.0014545633821411025,
+        "blocks": [
+          {
+            "t_first": 6.009375,
+            "t_last": 6.749375000000001,
+            "samples": 75,
+            "mean": 0.07332289873451193,
+            "rms_fluctuation": 0.00013733892986140175
+          },
+          {
+            "t_first": 6.759375,
+            "t_last": 7.499375000000001,
+            "samples": 75,
+            "mean": 0.0727963149920772,
+            "rms_fluctuation": 0.00016271270630374948
+          },
+          {
+            "t_first": 7.509375,
+            "t_last": 8.249375,
+            "samples": 75,
+            "mean": 0.07253192261876715,
+            "rms_fluctuation": 6.999647427939389e-05
+          },
+          {
+            "t_first": 8.259375,
+            "t_last": 8.999375,
+            "samples": 75,
+            "mean": 0.07369318555669731,
+            "rms_fluctuation": 0.0005521819609317987
+          },
+          {
+            "t_first": 9.009375,
+            "t_last": 9.749375,
+            "samples": 75,
+            "mean": 0.07512297808031915,
+            "rms_fluctuation": 0.0001395161791067917
+          },
+          {
+            "t_first": 9.759375,
+            "t_last": 10.499375,
+            "samples": 75,
+            "mean": 0.07489746042020726,
+            "rms_fluctuation": 0.0002645143646960982
+          },
+          {
+            "t_first": 10.509375,
+            "t_last": 11.249375,
+            "samples": 75,
+            "mean": 0.07423893691673053,
+            "rms_fluctuation": 0.00020825750274326455
+          },
+          {
+            "t_first": 11.259375,
+            "t_last": 11.999375,
+            "samples": 75,
+            "mean": 0.07390320001336101,
+            "rms_fluctuation": 9.452903946142916e-05
+          }
+        ],
+        "block_mean_range": 0.002591055461552,
+        "correlation": {
+          "status": "heuristic_requires_stationarity",
+          "tau_samples": 164.01963175114577,
+          "effective_samples_heuristic": 3.6580986897369296,
+          "correlation_span_t_star": 1.6401963175114227,
+          "last_positive_pair_lag": 138,
+          "positive_tail_reached_half_record": false
+        },
+        "confidence_interval": null,
+        "temporal_convergence": "not_certified"
+      },
+      "cm": {
+        "samples": 600,
+        "sample_dt_t_star": 0.009999999999999787,
+        "selected_t_first": 6.009375,
+        "selected_t_last": 11.999375,
+        "selected_interval_t_star": 5.99,
+        "mean": 0.022144239827024764,
+        "rms_fluctuation": 0.0007052318275161095,
+        "minimum": 0.020674821760072074,
+        "maximum": 0.023231737104151662,
+        "first_half_mean": 0.022604746339940113,
+        "last_half_mean": 0.021683733314109416,
+        "first_half_rms_fluctuation": 0.00046280411573850714,
+        "last_half_rms_fluctuation": 0.0005969788226260748,
+        "last_minus_first_half_mean": -0.000921013025830697,
+        "blocks": [
+          {
+            "t_first": 6.009375,
+            "t_last": 6.749375000000001,
+            "samples": 75,
+            "mean": 0.02204236504626309,
+            "rms_fluctuation": 0.00028553747408089286
+          },
+          {
+            "t_first": 6.759375,
+            "t_last": 7.499375000000001,
+            "samples": 75,
+            "mean": 0.02280722171303001,
+            "rms_fluctuation": 9.842419092999339e-05
+          },
+          {
+            "t_first": 7.509375,
+            "t_last": 8.249375,
+            "samples": 75,
+            "mean": 0.023004438874383113,
+            "rms_fluctuation": 0.00018204960633547086
+          },
+          {
+            "t_first": 8.259375,
+            "t_last": 8.999375,
+            "samples": 75,
+            "mean": 0.022564959726084237,
+            "rms_fluctuation": 0.0004623672518994648
+          },
+          {
+            "t_first": 9.009375,
+            "t_last": 9.749375,
+            "samples": 75,
+            "mean": 0.021788583972112315,
+            "rms_fluctuation": 0.000545589075935299
+          },
+          {
+            "t_first": 9.759375,
+            "t_last": 10.499375,
+            "samples": 75,
+            "mean": 0.02164822565273556,
+            "rms_fluctuation": 0.0005682626699267808
+          },
+          {
+            "t_first": 10.509375,
+            "t_last": 11.249375,
+            "samples": 75,
+            "mean": 0.02172006327717918,
+            "rms_fluctuation": 0.000603514932876386
+          },
+          {
+            "t_first": 11.259375,
+            "t_last": 11.999375,
+            "samples": 75,
+            "mean": 0.021578060354410615,
+            "rms_fluctuation": 0.0006449601441259659
+          }
+        ],
+        "block_mean_range": 0.001426378519972498,
+        "correlation": {
+          "status": "heuristic_requires_stationarity",
+          "tau_samples": 65.27528677299964,
+          "effective_samples_heuristic": 9.191840122994037,
+          "correlation_span_t_star": 0.6527528677299824,
+          "last_positive_pair_lag": 102,
+          "positive_tail_reached_half_record": false
+        },
+        "confidence_interval": null,
+        "temporal_convergence": "not_certified"
+      }
+    },
+    "legacy_down6": {
+      "cl": {
+        "samples": 600,
+        "sample_dt_t_star": 0.009999999999999787,
+        "selected_t_first": 6.009375,
+        "selected_t_last": 11.999375,
+        "selected_interval_t_star": 5.99,
+        "mean": 0.0903162000656446,
+        "rms_fluctuation": 0.05601384023578415,
+        "minimum": -0.05099721050411136,
+        "maximum": 0.2904539084921138,
+        "first_half_mean": 0.09182771770774023,
+        "last_half_mean": 0.08880468242354896,
+        "first_half_rms_fluctuation": 0.06484381179422721,
+        "last_half_rms_fluctuation": 0.0454511968681795,
+        "last_minus_first_half_mean": -0.003023035284191275,
+        "blocks": [
+          {
+            "t_first": 6.009375,
+            "t_last": 6.749375000000001,
+            "samples": 75,
+            "mean": 0.11756933342257042,
+            "rms_fluctuation": 0.08138595348177806
+          },
+          {
+            "t_first": 6.759375,
+            "t_last": 7.499375000000001,
+            "samples": 75,
+            "mean": 0.08714566835325739,
+            "rms_fluctuation": 0.06552251148616882
+          },
+          {
+            "t_first": 7.509375,
+            "t_last": 8.249375,
+            "samples": 75,
+            "mean": 0.07574665140284989,
+            "rms_fluctuation": 0.05343444267224601
+          },
+          {
+            "t_first": 8.259375,
+            "t_last": 8.999375,
+            "samples": 75,
+            "mean": 0.08684921765228325,
+            "rms_fluctuation": 0.04559417277088771
+          },
+          {
+            "t_first": 9.009375,
+            "t_last": 9.749375,
+            "samples": 75,
+            "mean": 0.07665053983634863,
+            "rms_fluctuation": 0.031099341941826876
+          },
+          {
+            "t_first": 9.759375,
+            "t_last": 10.499375,
+            "samples": 75,
+            "mean": 0.0918987347266966,
+            "rms_fluctuation": 0.030932769514656407
+          },
+          {
+            "t_first": 10.509375,
+            "t_last": 11.249375,
+            "samples": 75,
+            "mean": 0.08425269360388905,
+            "rms_fluctuation": 0.05269013280622058
+          },
+          {
+            "t_first": 11.259375,
+            "t_last": 11.999375,
+            "samples": 75,
+            "mean": 0.10241676152726152,
+            "rms_fluctuation": 0.05656575069224048
+          }
+        ],
+        "block_mean_range": 0.04182268201972053,
+        "correlation": {
+          "status": "heuristic_requires_stationarity",
+          "tau_samples": 8.283033950676458,
+          "effective_samples_heuristic": 72.43722572826098,
+          "correlation_span_t_star": 0.08283033950676282,
+          "last_positive_pair_lag": 6,
+          "positive_tail_reached_half_record": false
+        },
+        "confidence_interval": null,
+        "temporal_convergence": "not_certified"
+      },
+      "cd": {
+        "samples": 600,
+        "sample_dt_t_star": 0.009999999999999787,
+        "selected_t_first": 6.009375,
+        "selected_t_last": 11.999375,
+        "selected_interval_t_star": 5.99,
+        "mean": 0.07582444533343853,
+        "rms_fluctuation": 0.0035763611903476505,
+        "minimum": 0.06517070926427299,
+        "maximum": 0.08480729249693057,
+        "first_half_mean": 0.07622130193003382,
+        "last_half_mean": 0.07542758873684327,
+        "first_half_rms_fluctuation": 0.003545226064567744,
+        "last_half_rms_fluctuation": 0.0035632991120921726,
+        "last_minus_first_half_mean": -0.0007937131931905483,
+        "blocks": [
+          {
+            "t_first": 6.009375,
+            "t_last": 6.749375000000001,
+            "samples": 75,
+            "mean": 0.07592328171972991,
+            "rms_fluctuation": 0.004512412827066001
+          },
+          {
+            "t_first": 6.759375,
+            "t_last": 7.499375000000001,
+            "samples": 75,
+            "mean": 0.07606682985276175,
+            "rms_fluctuation": 0.003707971483500763
+          },
+          {
+            "t_first": 7.509375,
+            "t_last": 8.249375,
+            "samples": 75,
+            "mean": 0.07621788315232142,
+            "rms_fluctuation": 0.0031716763057518826
+          },
+          {
+            "t_first": 8.259375,
+            "t_last": 8.999375,
+            "samples": 75,
+            "mean": 0.07667721299532222,
+            "rms_fluctuation": 0.0024048938660301915
+          },
+          {
+            "t_first": 9.009375,
+            "t_last": 9.749375,
+            "samples": 75,
+            "mean": 0.0756349822824845,
+            "rms_fluctuation": 0.0017101478356767196
+          },
+          {
+            "t_first": 9.759375,
+            "t_last": 10.499375,
+            "samples": 75,
+            "mean": 0.07594483652872483,
+            "rms_fluctuation": 0.004006992918445852
+          },
+          {
+            "t_first": 10.509375,
+            "t_last": 11.249375,
+            "samples": 75,
+            "mean": 0.07452751322638339,
+            "rms_fluctuation": 0.004559799907373918
+          },
+          {
+            "t_first": 11.259375,
+            "t_last": 11.999375,
+            "samples": 75,
+            "mean": 0.07560302290978034,
+            "rms_fluctuation": 0.0031407895107395463
+          }
+        ],
+        "block_mean_range": 0.002149699768938834,
+        "correlation": {
+          "status": "heuristic_requires_stationarity",
+          "tau_samples": 7.264365169473827,
+          "effective_samples_heuristic": 82.5949668005827,
+          "correlation_span_t_star": 0.07264365169473672,
+          "last_positive_pair_lag": 6,
+          "positive_tail_reached_half_record": false
+        },
+        "confidence_interval": null,
+        "temporal_convergence": "not_certified"
+      },
+      "cm": {
+        "samples": 600,
+        "sample_dt_t_star": 0.009999999999999787,
+        "selected_t_first": 6.009375,
+        "selected_t_last": 11.999375,
+        "selected_interval_t_star": 5.99,
+        "mean": 0.021377207774084594,
+        "rms_fluctuation": 0.012156475720781651,
+        "minimum": -0.01647385742382275,
+        "maximum": 0.055706981997034916,
+        "first_half_mean": 0.02141023891534859,
+        "last_half_mean": 0.021344176632820597,
+        "first_half_rms_fluctuation": 0.013845966431939829,
+        "last_half_rms_fluctuation": 0.010190526745606264,
+        "last_minus_first_half_mean": -6.606228252799273e-05,
+        "blocks": [
+          {
+            "t_first": 6.009375,
+            "t_last": 6.749375000000001,
+            "samples": 75,
+            "mean": 0.02033740367210568,
+            "rms_fluctuation": 0.017758641725504943
+          },
+          {
+            "t_first": 6.759375,
+            "t_last": 7.499375000000001,
+            "samples": 75,
+            "mean": 0.021896345635025283,
+            "rms_fluctuation": 0.014619442713591349
+          },
+          {
+            "t_first": 7.509375,
+            "t_last": 8.249375,
+            "samples": 75,
+            "mean": 0.02305073987617229,
+            "rms_fluctuation": 0.011091033080429582
+          },
+          {
+            "t_first": 8.259375,
+            "t_last": 8.999375,
+            "samples": 75,
+            "mean": 0.020356466478091088,
+            "rms_fluctuation": 0.010466408878004171
+          },
+          {
+            "t_first": 9.009375,
+            "t_last": 9.749375,
+            "samples": 75,
+            "mean": 0.022657792755606213,
+            "rms_fluctuation": 0.007125302966975087
+          },
+          {
+            "t_first": 9.759375,
+            "t_last": 10.499375,
+            "samples": 75,
+            "mean": 0.020015871895545056,
+            "rms_fluctuation": 0.0070347139108677915
+          },
+          {
+            "t_first": 10.509375,
+            "t_last": 11.249375,
+            "samples": 75,
+            "mean": 0.02284873778205556,
+            "rms_fluctuation": 0.011965675331906497
+          },
+          {
+            "t_first": 11.259375,
+            "t_last": 11.999375,
+            "samples": 75,
+            "mean": 0.01985430409807556,
+            "rms_fluctuation": 0.012805444462003032
+          }
+        ],
+        "block_mean_range": 0.0031964357780967304,
+        "correlation": {
+          "status": "heuristic_requires_stationarity",
+          "tau_samples": 7.956967106191802,
+          "effective_samples_heuristic": 75.40561522908689,
+          "correlation_span_t_star": 0.07956967106191633,
+          "last_positive_pair_lag": 6,
+          "positive_tail_reached_half_record": false
+        },
+        "confidence_interval": null,
+        "temporal_convergence": "not_certified"
+      }
+    }
+  },
+  "exit_sensitivity": {
+    "exterior_fd": {
+      "cl": {
+        "mean_down6_minus_down3": 0.0002132068713453228,
+        "rms_down6_minus_down3": 1.69532227949111e-05
+      },
+      "cd": {
+        "mean_down6_minus_down3": -1.9387354409192148e-05,
+        "rms_down6_minus_down3": 2.036764660503479e-05
+      },
+      "cm": {
+        "mean_down6_minus_down3": 2.894047799243543e-06,
+        "rms_down6_minus_down3": -4.695672102434777e-06
+      }
+    },
+    "legacy": {
+      "cl": {
+        "mean_down6_minus_down3": -0.002119251453958901,
+        "rms_down6_minus_down3": -0.13255056126355985
+      },
+      "cd": {
+        "mean_down6_minus_down3": -1.4659306748335266e-05,
+        "rms_down6_minus_down3": -0.0073826078459748815
+      },
+      "cm": {
+        "mean_down6_minus_down3": 0.0016776587320937314,
+        "rms_down6_minus_down3": -0.029282729349563746
+      }
+    }
+  },
+  "input_checks": {
+    "domain3_legacy_geometry_physics_match": true,
+    "domain6_legacy_geometry_physics_match": true
+  },
+  "validation": "inconclusive",
+  "confidence_intervals": null,
+  "limits": [
+    "Same-code boundary/domain diagnostic; no other CFD solver used.",
+    "Digitization marker bounds are not total tunnel uncertainty.",
+    "Fixed6..12 window is descriptive; its stationarity is not presumed.",
+    "N32 does not demonstrate a resolved boundary layer; no high-Re claim."
+  ]
+}

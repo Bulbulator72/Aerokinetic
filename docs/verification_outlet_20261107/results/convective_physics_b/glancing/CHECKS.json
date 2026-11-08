@@ -1,0 +1,27 @@
+{
+  "cases": {
+    "16": {
+      "last_sampled_step": 10000,
+      "finite": true,
+      "max_energy_over_initial": 1.0,
+      "max_density_error": 2.1219417123408135e-07,
+      "passed": true
+    },
+    "8": {
+      "last_sampled_step": 10000,
+      "finite": true,
+      "max_energy_over_initial": 1.0,
+      "max_density_error": 4.78470009390719e-07,
+      "passed": true
+    },
+    "4": {
+      "last_sampled_step": 10000,
+      "finite": true,
+      "max_energy_over_initial": 1.0,
+      "max_density_error": 6.296327419441639e-07,
+      "passed": true
+    }
+  },
+  "passed": true,
+  "scope": "Boundedness only, not phase accuracy or a full viscous incoming-characteristic model"
+}

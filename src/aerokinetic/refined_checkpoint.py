@@ -20,6 +20,11 @@ RELEASE_030_IDENTITY={
     'refined_checkpoint.py':'6090c1303edf608ba92ba200a1d6632c57c2c490548741cbaa94e0dc43feac10'}
 
 
+# Exact released0.5.1 identity: legacy equations are unchanged by the optional
+# farfield setting; verified by saved old-state/manual-continuation fixtures.
+RELEASE_051_IDENTITY={'interface.py': '97a8f327ce2d091ba8ca9a5b6870e2d0fa00b4a0961945d130118a0e06c61a2b', 'refinement.py': '798053ea229960ca48c818e36e737aab8657e076ae9187230379f752d76b6df8', 'walls.py': '13c8e9812f05390f3afb20f9d6908c00bb6f37ab58515e2d244cf031d64346dd', 'refined_solver.py': '5b789e0d47cc3c116f8959f3c2d20f39110ba55d01210e7cbc85c20154089019', 'refined_checkpoint.py': 'c2be84a529fb6647f62dbe15b5b0a3862782dd65d35accdace86d2d571860795', 'parallel.py': '97e907d036f169bdc195f101eefcf4d3cb50ff2c7bba4d917b362d2c739d691a', 'convergence.py': 'c4acfcbdc0cd067884e65df1405273f2269e79437aa06dd6fc438f93fb7afd14', 'config.py': 'fa2a3411c5b959a8568a924567bdc1f6746fda30208e35f8a411477d3de65972', 'geometry.py': '30beffe1914547e836fcf636d776a12018878945db817172a9c35c970aef4a94', 'project.py': '503dae52f098f1c370f996512fa5c75daac7e9511f6e19866d0da5291366685c'}
+
+
 def numerical_identity():
     return {name: file_hash(Path(__file__).with_name(name)) for name in
             ("interface.py", "refinement.py", "walls.py", "refined_solver.py", "refined_checkpoint.py",
@@ -87,7 +92,7 @@ def restore_checkpoint(solver_type, path, progress=None):
                 or meta.get("numerics_revision") != 1):
             raise ValueError("Unsupported refined checkpoint format")
         if (meta.get("versions") != versions() or
-                meta.get("numerical_identity") not in (numerical_identity(),RELEASE_030_IDENTITY)):
+                meta.get("numerical_identity") not in (numerical_identity(),RELEASE_030_IDENTITY,RELEASE_051_IDENTITY)):
             raise ValueError("Checkpoint numerical code or pinned dependency versions differ")
         if type(meta.get("steps")) is not int or meta["steps"] < 0 or meta.get("fine_steps") != 2 * meta["steps"]:
             raise ValueError("Invalid refined checkpoint clocks")

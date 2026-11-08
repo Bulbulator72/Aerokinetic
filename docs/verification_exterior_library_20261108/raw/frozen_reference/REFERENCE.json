@@ -1,0 +1,466 @@
+{
+  "version": "0.5.2",
+  "cases": [
+    {
+      "start": 0,
+      "before": "/workspace/aerokinetic_exterior_integration_20261108/frozen_reference/initial.npz",
+      "before_sha256": "55be04fc6b6e26fa3eb9d9da3cecf645ffcb40d766fbcfdad1675a9fa6a337ac",
+      "after": "after_00000.npz",
+      "after_sha256": "c5cc959d2a590ce24f8c5a9304f57d379a612027e6fa71606df60866bf0a9ae3",
+      "loads": [
+        {
+          "step": 1,
+          "t_star": 0.000625,
+          "cl": 1.2904243016830435,
+          "cd": 33.9757401761326,
+          "cm": -0.568673951316517,
+          "wall_mass_exchange_lattice": -0.3647855238185569,
+          "exterior_source_mass_lattice": -1.2169922868323561e-09
+        },
+        {
+          "step": 2,
+          "t_star": 0.001875,
+          "cl": 2.1486268780678914,
+          "cd": -1.7457463013681418,
+          "cm": -0.3047989938705136,
+          "wall_mass_exchange_lattice": 0.03151087122439167,
+          "exterior_source_mass_lattice": -5.669757369895995e-10
+        },
+        {
+          "step": 3,
+          "t_star": 0.003125,
+          "cl": 2.9285432795241575,
+          "cd": 11.825866594731387,
+          "cm": -0.7482384594079067,
+          "wall_mass_exchange_lattice": 0.11108784724329412,
+          "exterior_source_mass_lattice": -1.1850882269330391e-09
+        },
+        {
+          "step": 4,
+          "t_star": 0.004375,
+          "cl": 3.089197882834263,
+          "cd": -2.023266506521109,
+          "cm": -0.45527272464277035,
+          "wall_mass_exchange_lattice": -0.016583500445435995,
+          "exterior_source_mass_lattice": -8.081502939248576e-10
+        },
+        {
+          "step": 5,
+          "t_star": 0.005625,
+          "cl": 3.0621430842088855,
+          "cd": 7.347080701902052,
+          "cm": -0.7062112376982537,
+          "wall_mass_exchange_lattice": -0.027436141508006884,
+          "exterior_source_mass_lattice": -1.2459554741495941e-09
+        },
+        {
+          "step": 6,
+          "t_star": 0.006875,
+          "cl": 3.000792547224245,
+          "cd": -1.8336837909182115,
+          "cm": -0.4614606804070901,
+          "wall_mass_exchange_lattice": -0.04807303291341691,
+          "exterior_source_mass_lattice": -9.83406061390215e-10
+        },
+        {
+          "step": 7,
+          "t_star": 0.008125,
+          "cl": 2.9093301231611544,
+          "cd": 5.3771061155315145,
+          "cm": -0.6788795842949445,
+          "wall_mass_exchange_lattice": -0.001450016688805622,
+          "exterior_source_mass_lattice": -1.4770280628659412e-09
+        },
+        {
+          "step": 8,
+          "t_star": 0.009375,
+          "cl": 2.9965776020557913,
+          "cd": -1.4317803036466752,
+          "cm": -0.4790065417434234,
+          "wall_mass_exchange_lattice": -0.011831401846324141,
+          "exterior_source_mass_lattice": -1.2320674532012186e-09
+        },
+        {
+          "step": 9,
+          "t_star": 0.010625,
+          "cl": 2.9050081167441415,
+          "cd": 4.530529841236663,
+          "cm": -0.6743025654120866,
+          "wall_mass_exchange_lattice": 0.0035469866871120637,
+          "exterior_source_mass_lattice": -1.6728474081832635e-09
+        },
+        {
+          "step": 10,
+          "t_star": 0.011875,
+          "cl": 2.990217223461959,
+          "cd": -1.081974674254026,
+          "cm": -0.47411381027623384,
+          "wall_mass_exchange_lattice": -0.025841272096451373,
+          "exterior_source_mass_lattice": -1.3844708191836606e-09
+        },
+        {
+          "step": 11,
+          "t_star": 0.013125,
+          "cl": 2.8228910297383836,
+          "cd": 3.962598957432858,
+          "cm": -0.6467156745600261,
+          "wall_mass_exchange_lattice": -0.016616680038684883,
+          "exterior_source_mass_lattice": -1.8048804317018262e-09
+        },
+        {
+          "step": 12,
+          "t_star": 0.014375,
+          "cl": 2.9046215970239175,
+          "cd": -0.872659954581965,
+          "cm": -0.4443099219590989,
+          "wall_mass_exchange_lattice": -0.036621774759734826,
+          "exterior_source_mass_lattice": -1.5486292529037229e-09
+        },
+        {
+          "step": 13,
+          "t_star": 0.015625,
+          "cl": 2.7235517038385275,
+          "cd": 3.555354363764002,
+          "cm": -0.6153356078650204,
+          "wall_mass_exchange_lattice": -0.01755402016099783,
+          "exterior_source_mass_lattice": -1.986448384594581e-09
+        },
+        {
+          "step": 14,
+          "t_star": 0.016875,
+          "cl": 2.837169024636102,
+          "cd": -0.729343920048407,
+          "cm": -0.4244827782327023,
+          "wall_mass_exchange_lattice": -0.02411159259655493,
+          "exterior_source_mass_lattice": -1.7544909268365876e-09
+        },
+        {
+          "step": 15,
+          "t_star": 0.018125,
+          "cl": 2.6562221850412433,
+          "cd": 3.2137611516187228,
+          "cm": -0.6029539627570445,
+          "wall_mass_exchange_lattice": 0.000645987840544926,
+          "exterior_source_mass_lattice": -2.186556008913006e-09
+        },
+        {
+          "step": 16,
+          "t_star": 0.019375,
+          "cl": 2.7851011493757434,
+          "cd": -0.6563338437723812,
+          "cm": -0.4202089808561647,
+          "wall_mass_exchange_lattice": -0.002332251121590634,
+          "exterior_source_mass_lattice": -1.969202350356571e-09
+        }
+      ]
+    },
+    {
+      "start": 2400,
+      "before": "/workspace/aerokinetic_fd_exterior_20261107/cold_restart_checkpoint2400_local.npz",
+      "before_sha256": "9fdb085f2cd6ff413e2d7dba6c5687213562715ffe9aa7ccd9320c6322380bc1",
+      "after": "after_02400.npz",
+      "after_sha256": "ec33f84350f3c76c002b6fbf52aa2019e81280c17b0c50e94309066da34652d7",
+      "loads": [
+        {
+          "step": 2401,
+          "t_star": 3.000625,
+          "cl": 0.2970755710334216,
+          "cd": 0.07161389212241806,
+          "cm": 0.006444896972549559,
+          "wall_mass_exchange_lattice": -0.04219785931342068,
+          "exterior_source_mass_lattice": 0.037171797707462
+        },
+        {
+          "step": 2402,
+          "t_star": 3.001875,
+          "cl": 0.2972343569119879,
+          "cd": 0.07269456009511363,
+          "cm": 0.006309811044835125,
+          "wall_mass_exchange_lattice": -0.04219611449231664,
+          "exterior_source_mass_lattice": 0.03842808374754891
+        },
+        {
+          "step": 2403,
+          "t_star": 3.0031250000000003,
+          "cl": 0.29695159484105654,
+          "cd": 0.07161668617549391,
+          "cm": 0.0064623562764823264,
+          "wall_mass_exchange_lattice": -0.042197546192197954,
+          "exterior_source_mass_lattice": 0.03717207706069732
+        },
+        {
+          "step": 2404,
+          "t_star": 3.004375,
+          "cl": 0.29710886138544224,
+          "cd": 0.07269337768710757,
+          "cm": 0.006327873873347279,
+          "wall_mass_exchange_lattice": -0.04219579408815877,
+          "exterior_source_mass_lattice": 0.03843333948482712
+        },
+        {
+          "step": 2405,
+          "t_star": 3.005625,
+          "cl": 0.2968275271031486,
+          "cd": 0.07161948231114601,
+          "cm": 0.006479791867118317,
+          "wall_mass_exchange_lattice": -0.04219722762535616,
+          "exterior_source_mass_lattice": 0.03717233607002775
+        },
+        {
+          "step": 2406,
+          "t_star": 3.006875,
+          "cl": 0.2969832756950622,
+          "cd": 0.07269220290092074,
+          "cm": 0.006345913051205736,
+          "wall_mass_exchange_lattice": -0.04219546802956353,
+          "exterior_source_mass_lattice": 0.03843863831443779
+        },
+        {
+          "step": 2407,
+          "t_star": 3.008125,
+          "cl": 0.29670336676266307,
+          "cd": 0.07162227980109845,
+          "cm": 0.006497205795601205,
+          "wall_mass_exchange_lattice": -0.04219690297170109,
+          "exterior_source_mass_lattice": 0.03717257949857306
+        },
+        {
+          "step": 2408,
+          "t_star": 3.009375,
+          "cl": 0.29685759859408434,
+          "cd": 0.07269103512927909,
+          "cm": 0.0063639306461227806,
+          "wall_mass_exchange_lattice": -0.04219513571139988,
+          "exterior_source_mass_lattice": 0.038443984307202285
+        },
+        {
+          "step": 2409,
+          "t_star": 3.010625,
+          "cl": 0.2965791122852017,
+          "cd": 0.07162507796532336,
+          "cm": 0.006514600202784544,
+          "wall_mass_exchange_lattice": -0.04219657167137392,
+          "exterior_source_mass_lattice": 0.03717281234823762
+        },
+        {
+          "step": 2410,
+          "t_star": 3.011875,
+          "cl": 0.29673182837154866,
+          "cd": 0.07268987381648716,
+          "cm": 0.0063819288031475244,
+          "wall_mass_exchange_lattice": -0.04219479661131453,
+          "exterior_source_mass_lattice": 0.038449381756190434
+        },
+        {
+          "step": 2411,
+          "t_star": 3.013125,
+          "cl": 0.2964547616728723,
+          "cd": 0.07162787617792084,
+          "cm": 0.00653197729749685,
+          "wall_mass_exchange_lattice": -0.04219623324692412,
+          "exterior_source_mass_lattice": 0.03717303983534384
+        },
+        {
+          "step": 2412,
+          "t_star": 3.0143750000000002,
+          "cl": 0.2966059628682418,
+          "cd": 0.07268871846300357,
+          "cm": 0.006399909723219065,
+          "wall_mass_exchange_lattice": -0.042194450290220065,
+          "exterior_source_mass_lattice": 0.038454835151165864
+        },
+        {
+          "step": 2413,
+          "t_star": 3.015625,
+          "cl": 0.29633031248321035,
+          "cd": 0.07163067387231688,
+          "cm": 0.006549339334592149,
+          "wall_mass_exchange_lattice": -0.042195887303305035,
+          "exterior_source_mass_lattice": 0.037173267365298066
+        },
+        {
+          "step": 2414,
+          "t_star": 3.016875,
+          "cl": 0.2964799994975322,
+          "cd": 0.07268756862940225,
+          "cm": 0.006417875641686183,
+          "wall_mass_exchange_lattice": -0.04219409639189475,
+          "exterior_source_mass_lattice": 0.038460349154164276
+        },
+        {
+          "step": 2415,
+          "t_star": 3.018125,
+          "cl": 0.2962057618529276,
+          "cd": 0.07163347054587418,
+          "cm": 0.006566688593093104,
+          "wall_mass_exchange_lattice": -0.04219553352714289,
+          "exterior_source_mass_lattice": 0.037173500506876275
+        },
+        {
+          "step": 2416,
+          "t_star": 3.019375,
+          "cl": 0.29635393527066745,
+          "cd": 0.07268642393969856,
+          "cm": 0.006435828807049307,
+          "wall_mass_exchange_lattice": -0.0421937346416037,
+          "exterior_source_mass_lattice": 0.03846592857472207
+        }
+      ]
+    },
+    {
+      "start": 9600,
+      "before": "/workspace/aerokinetic_fd_exterior_20261107/airfoil_down3/checkpoint_local.npz",
+      "before_sha256": "62dc8b6e40d36c719749020a2036cd9e2b3584a1bdeca72db4ba4e1922b7e4d6",
+      "after": "after_09600.npz",
+      "after_sha256": "c8be974606d6cad2a2ec0fb3623b190a3e75ac4a102eac3c90041c2e4bf59490",
+      "loads": [
+        {
+          "step": 9601,
+          "t_star": 12.000625,
+          "cl": 0.07555026030450636,
+          "cd": 0.07382429001336341,
+          "cm": 0.021460744145616786,
+          "wall_mass_exchange_lattice": -0.039858924895207704,
+          "exterior_source_mass_lattice": 0.03312536863088785
+        },
+        {
+          "step": 9602,
+          "t_star": 12.001875,
+          "cl": 0.07550888861344122,
+          "cd": 0.07381650869268588,
+          "cm": 0.021474259411217948,
+          "wall_mass_exchange_lattice": -0.039862885944018434,
+          "exterior_source_mass_lattice": 0.032936234942828484
+        },
+        {
+          "step": 9603,
+          "t_star": 12.003125,
+          "cl": 0.07546814026734316,
+          "cd": 0.07380881719942727,
+          "cm": 0.021487513802033488,
+          "wall_mass_exchange_lattice": -0.03986690027095152,
+          "exterior_source_mass_lattice": 0.032745392778101214
+        },
+        {
+          "step": 9604,
+          "t_star": 12.004375,
+          "cl": 0.0754280906249151,
+          "cd": 0.0738015219112805,
+          "cm": 0.021500414733084224,
+          "wall_mass_exchange_lattice": -0.03987096703349913,
+          "exterior_source_mass_lattice": 0.03256022648785891
+        },
+        {
+          "step": 9605,
+          "t_star": 12.005625,
+          "cl": 0.0753887804252152,
+          "cd": 0.07379432356217627,
+          "cm": 0.021513035275724304,
+          "wall_mass_exchange_lattice": -0.039875085091474194,
+          "exterior_source_mass_lattice": 0.03237370187314408
+        },
+        {
+          "step": 9606,
+          "t_star": 12.006875,
+          "cl": 0.07535028493271034,
+          "cd": 0.07378753314813277,
+          "cm": 0.021525284160659,
+          "wall_mass_exchange_lattice": -0.039879253605821674,
+          "exterior_source_mass_lattice": 0.03219315390122197
+        },
+        {
+          "step": 9607,
+          "t_star": 12.008125,
+          "cl": 0.07531264270344004,
+          "cd": 0.07378084490114502,
+          "cm": 0.021537236235905022,
+          "wall_mass_exchange_lattice": -0.0398834714565699,
+          "exterior_source_mass_lattice": 0.03201158622788824
+        },
+        {
+          "step": 9608,
+          "t_star": 12.009375,
+          "cl": 0.07527592829796872,
+          "cd": 0.07377457446133266,
+          "cm": 0.02154880164609304,
+          "wall_mass_exchange_lattice": -0.03988773781403632,
+          "exterior_source_mass_lattice": 0.0318362832931956
+        },
+        {
+          "step": 9609,
+          "t_star": 12.010625000000001,
+          "cl": 0.07524017745607922,
+          "cd": 0.07376840953968339,
+          "cm": 0.021560057110885534,
+          "wall_mass_exchange_lattice": -0.03989205158412723,
+          "exterior_source_mass_lattice": 0.03166028519349322
+        },
+        {
+          "step": 9610,
+          "t_star": 12.011875,
+          "cl": 0.07520546339740398,
+          "cd": 0.07376267045161937,
+          "cm": 0.021570914269993725,
+          "wall_mass_exchange_lattice": -0.039896411951759525,
+          "exterior_source_mass_lattice": 0.03149082477181736
+        },
+        {
+          "step": 9611,
+          "t_star": 12.013125,
+          "cl": 0.07517181838986421,
+          "cd": 0.07375703837319157,
+          "cm": 0.021581451791923435,
+          "wall_mass_exchange_lattice": -0.039900817853787185,
+          "exterior_source_mass_lattice": 0.03132097722822737
+        },
+        {
+          "step": 9612,
+          "t_star": 12.014375000000001,
+          "cl": 0.07513931365780532,
+          "cd": 0.07375183833149423,
+          "cm": 0.02159158287427044,
+          "wall_mass_exchange_lattice": -0.039905268494602186,
+          "exterior_source_mass_lattice": 0.03115792283168457
+        },
+        {
+          "step": 9613,
+          "t_star": 12.015625,
+          "cl": 0.07510797733004412,
+          "cd": 0.07374674495893803,
+          "cm": 0.021601388192682043,
+          "wall_mass_exchange_lattice": -0.03990976284626191,
+          "exterior_source_mass_lattice": 0.030994770642578422
+        },
+        {
+          "step": 9614,
+          "t_star": 12.016875,
+          "cl": 0.07507787797504083,
+          "cd": 0.07374208803571318,
+          "cm": 0.02161078254604596,
+          "wall_mass_exchange_lattice": -0.03991430013663999,
+          "exterior_source_mass_lattice": 0.03083864748795987
+        },
+        {
+          "step": 9615,
+          "t_star": 12.018125,
+          "cl": 0.07504903891458577,
+          "cd": 0.07373753564687804,
+          "cm": 0.02161984865562686,
+          "wall_mass_exchange_lattice": -0.039918879376825256,
+          "exterior_source_mass_lattice": 0.030682695156084006
+        },
+        {
+          "step": 9616,
+          "t_star": 12.019375,
+          "cl": 0.07502152540593487,
+          "cd": 0.07373342237194817,
+          "cm": 0.021628502944810217,
+          "wall_mass_exchange_lattice": -0.03992349982154231,
+          "exterior_source_mass_lattice": 0.03053398628672703
+        }
+      ]
+    }
+  ],
+  "prototype_sha256": "9c0b2f35c79c340f916364c6cd7fff9cf36776df16f1d7a45b03024d7e853c02",
+  "adapter_sha256": "04f9f0ee17cda8ede09b8ee1f726fb99b22af763404e8d40fe891c7c512a6d9a"
+}

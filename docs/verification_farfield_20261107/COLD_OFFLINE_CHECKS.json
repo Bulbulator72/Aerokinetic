@@ -1,0 +1,16 @@
+{
+  "installed": "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/aerokinetic/__init__.py",
+  "version": "0.5.2",
+  "clean_environment": true,
+  "cold_cache_jit": true,
+  "python_network_attempts": [],
+  "parent_steps": 8,
+  "requested_additional_steps": 7,
+  "child_steps": 15,
+  "farfield": "characteristic_transport_v1",
+  "stop_resume": "passed",
+  "cli_continuation": "passed",
+  "gif_bytes": 80535,
+  "windows": "not_run",
+  "gpu": "not_run"
+}

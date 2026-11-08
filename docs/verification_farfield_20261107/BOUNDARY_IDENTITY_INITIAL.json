@@ -1,0 +1,7 @@
+{
+  "tested_intermediate_wheel_sha256": "e455f4e159b37583727c6d511f19f6f513aa6d0ea8a2b7b94852f718316bc494",
+  "final_wheel_sha256": "53526805b49a5b96f3018ed18e431f804734c0c2721e95a9b129534d97f80de6",
+  "tested_and_final_farfield_py_sha256": "5effbc33cf7df2996aa163af5f5e74b83b49703df38e1358d6bb091e6b2b0710",
+  "boundary_module_unchanged": true,
+  "difference": "Final wheel additionally zero-initializes Solver research buffers; independent boundary checks use LatticeBoltzmannStep directly. Final Solver tests, airfoil cases and cold smoke use final wheel."
+}

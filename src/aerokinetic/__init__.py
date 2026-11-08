@@ -7,7 +7,7 @@ from .config import Atmosphere, Flow, Grid, Plan
 from .project import Project, RunSettings
 from .convergence import StopCriteria
 
-__version__ = "0.5.1"
+__version__ = "0.5.3"
 __all__ = ["Contour", "Section", "naca0012", "naca4", "Atmosphere", "Flow", "Grid", "Plan", "Project", "RunSettings", "StopCriteria", "Solver", "RefinedSolver", "RefinedPlan", "RefinementSettings", "continue_run"]
 
 

@@ -1,0 +1,131 @@
+{
+  "loads": [
+    {
+      "step": 33,
+      "t_star": 0.08125,
+      "cl": -0.14286441031051839,
+      "cd": 0.566750363133508,
+      "cm": 0.04759035364324352,
+      "wall_mass_exchange_lattice": -0.09092082172098191,
+      "wall_mass_exchange_accumulated": -3.4171012422691933,
+      "exterior_source_mass_accumulated": 3.02428277624846e-05
+    },
+    {
+      "step": 34,
+      "t_star": 0.08375,
+      "cl": -0.25545025907060837,
+      "cd": -0.4201474058875176,
+      "cm": 0.15203892801609542,
+      "wall_mass_exchange_lattice": -0.09085486995952237,
+      "wall_mass_exchange_accumulated": -3.5079561122287157,
+      "exterior_source_mass_accumulated": -2.7917368922076337e-05
+    },
+    {
+      "step": 35,
+      "t_star": 0.08625000000000001,
+      "cl": -0.19419973678378258,
+      "cd": 0.5563140180769416,
+      "cm": 0.05725523263520887,
+      "wall_mass_exchange_lattice": -0.08884496737194247,
+      "wall_mass_exchange_accumulated": -3.596801079600658,
+      "exterior_source_mass_accumulated": -0.0002993790304295225
+    },
+    {
+      "step": 36,
+      "t_star": 0.08875,
+      "cl": -0.29809018020480305,
+      "cd": -0.3539826451560673,
+      "cm": 0.15831953586594327,
+      "wall_mass_exchange_lattice": -0.08879040846090205,
+      "wall_mass_exchange_accumulated": -3.68559148806156,
+      "exterior_source_mass_accumulated": -0.0011314530477627414
+    },
+    {
+      "step": 37,
+      "t_star": 0.09125,
+      "cl": -0.22619364981244744,
+      "cd": 0.5487290742745075,
+      "cm": 0.059994820022297224,
+      "wall_mass_exchange_lattice": -0.0867976341212286,
+      "wall_mass_exchange_accumulated": -3.7723891221827888,
+      "exterior_source_mass_accumulated": -0.0032120740740619385
+    },
+    {
+      "step": 38,
+      "t_star": 0.09375,
+      "cl": -0.3205936457153724,
+      "cd": -0.29499764746339574,
+      "cm": 0.15821545351841607,
+      "wall_mass_exchange_lattice": -0.08689337431895798,
+      "wall_mass_exchange_accumulated": -3.8592824965017467,
+      "exterior_source_mass_accumulated": -0.007746280541182809
+    },
+    {
+      "step": 39,
+      "t_star": 0.09625,
+      "cl": -0.23737767236585128,
+      "cd": 0.5371913432467849,
+      "cm": 0.05730338515202322,
+      "wall_mass_exchange_lattice": -0.08500962984773996,
+      "wall_mass_exchange_accumulated": -3.944292126349487,
+      "exterior_source_mass_accumulated": -0.01662539035299424
+    },
+    {
+      "step": 40,
+      "t_star": 0.09875,
+      "cl": -0.32368618357866374,
+      "cd": -0.24704904941442402,
+      "cm": 0.1536384061072619,
+      "wall_mass_exchange_lattice": -0.0853299469720058,
+      "wall_mass_exchange_accumulated": -4.029622073321493,
+      "exterior_source_mass_accumulated": -0.032525946005867085
+    },
+    {
+      "step": 41,
+      "t_star": 0.10125,
+      "cl": -0.23045605376047573,
+      "cd": 0.5193559489774278,
+      "cm": 0.051349953825651294,
+      "wall_mass_exchange_lattice": -0.08356276537244012,
+      "wall_mass_exchange_accumulated": -4.1131848386939325,
+      "exterior_source_mass_accumulated": -0.058869553491461925
+    }
+  ],
+  "boundary": {
+    "model": "exterior_regularized_fd_v1",
+    "pdf_stage": "pre_collision",
+    "physical_shape": [
+      136,
+      51,
+      8
+    ],
+    "storage_shape": [
+      138,
+      53,
+      8
+    ],
+    "storage_origin": [
+      -1.811891012564956,
+      -1.6610250833015587
+    ],
+    "wall_mass_exchange_lattice": -0.08356276537244012,
+    "wall_mass_exchange_accumulated": -4.1131848386939325,
+    "exterior_source_mass_momentum_accumulated": [
+      -0.058869553491461925,
+      -0.0319503889480486,
+      0.007718863695534697,
+      -1.693942058291712e-14
+    ],
+    "last_exterior_step": {
+      "step": 41,
+      "reconstruction_moment_error": 6.661338147750939e-16,
+      "exterior_source_mass_momentum": [
+        -0.02634360748559484,
+        -0.015129336247894871,
+        0.002904813487646643,
+        1.923042617073961e-15
+      ]
+    },
+    "definition": "Wall incoming-minus-outgoing mass and explicit auxiliary PDF source; a closed bookkeeping budget does not prove zero wall mass flux or accuracy."
+  }
+}

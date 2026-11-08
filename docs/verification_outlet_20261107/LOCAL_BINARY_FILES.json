@@ -1,0 +1,220 @@
+{
+  "policy": "Local only; no new binary upload attempted after earlier approval rejection",
+  "files": [
+    {
+      "workspace_path": "/workspace/aerokinetic_outlet_20261107/spectral_original_232/operator.npy",
+      "bytes": 6760128,
+      "sha256": "bf3c62e65ec0f5d27992df872944d18367fe0196a3ebe9575845fe19b4d012e6"
+    },
+    {
+      "workspace_path": "/workspace/aerokinetic_outlet_20261107/spectral_original_232_half/operator.npy",
+      "bytes": 6760128,
+      "sha256": "a70d2a2bc7ceb7fc7affbcbbe4397093f43bc59e81084b49ea2a9588bb895eb7"
+    },
+    {
+      "workspace_path": "/workspace/aerokinetic_outlet_20261107/spectral_constant_232/operator.npy",
+      "bytes": 6718592,
+      "sha256": "432591ad56720ccece619ec1da774c03a744b8acc6eba234d7a54bc543643684"
+    },
+    {
+      "workspace_path": "/workspace/aerokinetic_outlet_20261107/spectral_constant_10/operator.npy",
+      "bytes": 6718592,
+      "sha256": "73fcb504cb91345eb5f9fa8b171fed107dc1f927ba0b4b43fc8fd5b34673ff4e"
+    },
+    {
+      "workspace_path": "/workspace/aerokinetic_outlet_20261107/spectral_original_232_n48/operator.npy",
+      "bytes": 26956992,
+      "sha256": "b4fa9445adefddeb00449e9d33e20270a163d858f86084deced23594cf70d1a9"
+    },
+    {
+      "workspace_path": "/workspace/aerokinetic_outlet_20261107/spectral_original_long10/operator.npy",
+      "bytes": 6760128,
+      "sha256": "c4c99090281f225c1287a4be22afd09a78e65623171438ecafcef6047023efac"
+    },
+    {
+      "workspace_path": "/workspace/aerokinetic_outlet_20261107/portable_spectrum/operator.npy",
+      "bytes": 6760128,
+      "sha256": "bf3c62e65ec0f5d27992df872944d18367fe0196a3ebe9575845fe19b4d012e6"
+    },
+    {
+      "workspace_path": "/workspace/aerokinetic_outlet_20261107/spectral_original_10/operator.npy",
+      "bytes": 6760128,
+      "sha256": "3537c63a03f46d2fb5c49d9fd7e7f3b9af1ee167d254314afaa990730bcd8764"
+    },
+    {
+      "workspace_path": "/workspace/aerokinetic_outlet_20261107/spectral_original_114/operator.npy",
+      "bytes": 6760128,
+      "sha256": "4336808f970aafa106d99ec7de77a120d4ac928f9500d0e7d7a46ea3173880bf"
+    },
+    {
+      "workspace_path": "/workspace/aerokinetic_outlet_20261107/convective_physics_a/vortex/field_0500.npz",
+      "bytes": 448981,
+      "sha256": "26c0d3e57e38989025e2057837ed3eea2f7e5286dc680881a2d9370c77cfb9a3"
+    },
+    {
+      "workspace_path": "/workspace/aerokinetic_outlet_20261107/convective_physics_a/vortex/field_3000.npz",
+      "bytes": 490216,
+      "sha256": "4b45eb54c78a41fb512cb583973ea83e75edc739802ce166f54193741f36513b"
+    },
+    {
+      "workspace_path": "/workspace/aerokinetic_outlet_20261107/convective_physics_a/vortex/field_0000.npz",
+      "bytes": 173567,
+      "sha256": "7761e0d3583cb30ef49834aa826ddd6b8812f81b6d47c62c49e953e5eac20cde"
+    },
+    {
+      "workspace_path": "/workspace/aerokinetic_outlet_20261107/convective_physics_a/vortex/field_1500.npz",
+      "bytes": 509479,
+      "sha256": "bbd0a9e0aefaace3aff3a2d516f2c42f38fd85e05fb6bede5eb1e5e7359e3eb4"
+    },
+    {
+      "workspace_path": "/workspace/aerokinetic_outlet_20261107/copy_vortices/vortex/field_0500.npz",
+      "bytes": 496441,
+      "sha256": "744c141d74885a401571e7b6af92736da479160bcc99fb9893bcec26ace61fe1"
+    },
+    {
+      "workspace_path": "/workspace/aerokinetic_outlet_20261107/copy_vortices/vortex/field_3000.npz",
+      "bytes": 491229,
+      "sha256": "3483e041b31728a362d4ab80be1676bbcc574877fc8688d8f7f42a9fc965f12f"
+    },
+    {
+      "workspace_path": "/workspace/aerokinetic_outlet_20261107/copy_vortices/vortex/field_0000.npz",
+      "bytes": 173567,
+      "sha256": "7761e0d3583cb30ef49834aa826ddd6b8812f81b6d47c62c49e953e5eac20cde"
+    },
+    {
+      "workspace_path": "/workspace/aerokinetic_outlet_20261107/copy_vortices/vortex/field_1500.npz",
+      "bytes": 540955,
+      "sha256": "85804c19afa59c573e56b37e0c1f4a3f08e5a82e08a17d09d5c3837538d3de2c"
+    },
+    {
+      "workspace_path": "/workspace/aerokinetic_outlet_20261107/copy_vortices/seam_vortex/field_0500.npz",
+      "bytes": 591214,
+      "sha256": "c4e4c30eb75aef260a55a9df44f9962df958b4d91cba5ad6a71783b000dfb3cd"
+    },
+    {
+      "workspace_path": "/workspace/aerokinetic_outlet_20261107/copy_vortices/seam_vortex/field_3000.npz",
+      "bytes": 526944,
+      "sha256": "14a8469b5a3469ef000e787075061b0dd6bc0841223cf095a3e9250e18df4111"
+    },
+    {
+      "workspace_path": "/workspace/aerokinetic_outlet_20261107/copy_vortices/seam_vortex/field_0000.npz",
+      "bytes": 225888,
+      "sha256": "28ae462822729654bb896ad31ce76dd7b11de00337cb121d1322f582c17c8297"
+    },
+    {
+      "workspace_path": "/workspace/aerokinetic_outlet_20261107/copy_vortices/seam_vortex/field_1500.npz",
+      "bytes": 622782,
+      "sha256": "0fdfce5e53b3e416aa815ccf096f04db133beb25a85caba540e05b14450b3c59"
+    },
+    {
+      "workspace_path": "/workspace/aerokinetic_outlet_20261107/convective_physics_b/seam_vortex/field_0500.npz",
+      "bytes": 567645,
+      "sha256": "031c8f35e91b7756913aa90af5a40364e95c8c4f57c8243ab8ed81724f57f418"
+    },
+    {
+      "workspace_path": "/workspace/aerokinetic_outlet_20261107/convective_physics_b/seam_vortex/field_3000.npz",
+      "bytes": 536330,
+      "sha256": "61239b0d460dcb1bba32ba2f536d2b38a2a77a3526f5189cef30b9d3ec90eee8"
+    },
+    {
+      "workspace_path": "/workspace/aerokinetic_outlet_20261107/convective_physics_b/seam_vortex/field_0000.npz",
+      "bytes": 225888,
+      "sha256": "28ae462822729654bb896ad31ce76dd7b11de00337cb121d1322f582c17c8297"
+    },
+    {
+      "workspace_path": "/workspace/aerokinetic_outlet_20261107/convective_physics_b/seam_vortex/field_1500.npz",
+      "bytes": 594868,
+      "sha256": "9d61a9fcfbd314e25b705da2ac73c2b09efc1d635e8632e95c795905ec3e9d09"
+    },
+    {
+      "workspace_path": "/workspace/aerokinetic_outlet_20261107/convective_physics_b/radiation/control_0160.npz",
+      "bytes": 336324,
+      "sha256": "ab104a07b2c4facd2839b65cdc270d9955da322cbb63ab37c3dfe4d19edab013"
+    },
+    {
+      "workspace_path": "/workspace/aerokinetic_outlet_20261107/convective_physics_b/radiation/riemann_0160.npz",
+      "bytes": 324190,
+      "sha256": "63ee240e3fe4fcd11eb430290b09a2f8404ad35b33ebf89bc8e8431a3b03a7fa"
+    },
+    {
+      "workspace_path": "/workspace/aerokinetic_outlet_20261107/convective_physics_b/radiation/ubb_0000.npz",
+      "bytes": 90147,
+      "sha256": "1638999404a8c677d89b28ee2058fe316bd91e42535587ab26e34353d0311252"
+    },
+    {
+      "workspace_path": "/workspace/aerokinetic_outlet_20261107/convective_physics_b/radiation/control_0240.npz",
+      "bytes": 324410,
+      "sha256": "ad078822a5d76b621a26e3f8de6d85bee6600a5e5f986b537685b1a72dc6db22"
+    },
+    {
+      "workspace_path": "/workspace/aerokinetic_outlet_20261107/convective_physics_b/radiation/control_0360.npz",
+      "bytes": 316277,
+      "sha256": "afb6975ca4714d750951b8d79bb303684a22a6c904e0ea7d422d25cfc934ba2f"
+    },
+    {
+      "workspace_path": "/workspace/aerokinetic_outlet_20261107/convective_physics_b/radiation/riemann_0080.npz",
+      "bytes": 327204,
+      "sha256": "83463d2cccf17e3d95bb5ab12d06d35c053d5c375dc5e7f21ee4af901272eba3"
+    },
+    {
+      "workspace_path": "/workspace/aerokinetic_outlet_20261107/convective_physics_b/radiation/riemann_0320.npz",
+      "bytes": 317837,
+      "sha256": "40422600dc98510743688d968c22ed34d2a7b2dd39d5182e40bb6a25d825171c"
+    },
+    {
+      "workspace_path": "/workspace/aerokinetic_outlet_20261107/convective_physics_b/radiation/control_0320.npz",
+      "bytes": 317384,
+      "sha256": "e546fecb00077efbf2d05fdaf876c4765a01140fa2c58f553fbf3e05e607dd0e"
+    },
+    {
+      "workspace_path": "/workspace/aerokinetic_outlet_20261107/convective_physics_b/radiation/ubb_0360.npz",
+      "bytes": 333623,
+      "sha256": "44b1ed90f6cc889766effd56262eadfb3182edb1453de50088b7413ed2d6dba1"
+    },
+    {
+      "workspace_path": "/workspace/aerokinetic_outlet_20261107/convective_physics_b/radiation/riemann_0000.npz",
+      "bytes": 90147,
+      "sha256": "1638999404a8c677d89b28ee2058fe316bd91e42535587ab26e34353d0311252"
+    },
+    {
+      "workspace_path": "/workspace/aerokinetic_outlet_20261107/convective_physics_b/radiation/control_0000.npz",
+      "bytes": 90777,
+      "sha256": "97954deada824f1be2ff90da649c75eba5656bd2188669a51c55cada0f6c457a"
+    },
+    {
+      "workspace_path": "/workspace/aerokinetic_outlet_20261107/convective_physics_b/radiation/riemann_0360.npz",
+      "bytes": 316335,
+      "sha256": "9cb3b69114d719aa7de87b6811c93ed39ef57386670383e2718ac2a8a40f128d"
+    },
+    {
+      "workspace_path": "/workspace/aerokinetic_outlet_20261107/convective_physics_b/radiation/ubb_0080.npz",
+      "bytes": 327290,
+      "sha256": "1ff24f4b9706fa0b81e5ad6e2d963840b06513f9209e5b98b3f69b6c39c37bd8"
+    },
+    {
+      "workspace_path": "/workspace/aerokinetic_outlet_20261107/convective_physics_b/radiation/ubb_0320.npz",
+      "bytes": 331375,
+      "sha256": "5dcc2cfe18a7e6d24046cf820f9b1cdb4e014df99702b7784d18210370a93e15"
+    },
+    {
+      "workspace_path": "/workspace/aerokinetic_outlet_20261107/convective_physics_b/radiation/ubb_0240.npz",
+      "bytes": 329938,
+      "sha256": "06993d29fd9292ed015ed657615e28b9e967d8426d342180c05a9ac1e9c4ce84"
+    },
+    {
+      "workspace_path": "/workspace/aerokinetic_outlet_20261107/convective_physics_b/radiation/ubb_0160.npz",
+      "bytes": 327846,
+      "sha256": "6fd0ab13e6185a3fdb21d9ecc9b676c24224e35668cf5e54dd69e59448fe56a6"
+    },
+    {
+      "workspace_path": "/workspace/aerokinetic_outlet_20261107/convective_physics_b/radiation/riemann_0240.npz",
+      "bytes": 319018,
+      "sha256": "1623f12a6f15fd0a27eefb95a993bcbb0039148bdbc7e00974c7d05dd0cc92b3"
+    },
+    {
+      "workspace_path": "/workspace/aerokinetic_outlet_20261107/convective_physics_b/radiation/control_0080.npz",
+      "bytes": 340265,
+      "sha256": "fb596bef0e42af75380733b506f52623c9bdc4676bd17d3cfa7a393f9f8887ce"
+    }
+  ]
+}

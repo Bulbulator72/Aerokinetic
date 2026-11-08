@@ -1,0 +1,36 @@
+rectangle 0 1.0 1.0
+rectangle 1000 0.008813373575989379 0.009002258891975208
+rectangle 2000 0.002018823580704444 0.0021169050438777526
+rectangle 3000 2.4388641753854997e-06 7.07529973149731e-06
+rectangle 4000 2.1444085479863817e-06 6.3474425314878645e-06
+rectangle 5000 2.72544281607024e-06 6.834432975728892e-06
+rectangle 6000 1.7572907180468207e-06 4.769106913313547e-06
+rectangle 7000 8.559370378890733e-07 2.6309042624807e-06
+rectangle 8000 4.1078328786612834e-07 1.513085577751838e-06
+rectangle 9000 2.7861730575154937e-07 1.1275661174236414e-06
+rectangle 10000 2.0039369099797951e-07 8.199694620381642e-07
+Traceback (most recent call last):
+  File "/workspace/aerokinetic_fd_exterior_20261107/noise_probe.py", line 48, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/aerokinetic_fd_exterior_20261107/noise_probe.py", line 45, in main
+    (args.output/'CHECKS.json').write_text(json.dumps(result,indent=2)+'\n')
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type int64 is not JSON serializable

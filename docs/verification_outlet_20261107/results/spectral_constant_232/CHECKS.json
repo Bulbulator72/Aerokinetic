@@ -1,0 +1,30 @@
+{
+  "candidate": "constant",
+  "shape": [
+    24,
+    48,
+    8
+  ],
+  "mode": [
+    23,
+    2
+  ],
+  "epsilon": 1e-06,
+  "dimension": 648,
+  "histories": [],
+  "outlet_links": 3456,
+  "spectral_radius": 0.9707395488949346,
+  "leading_eigenvalue": [
+    -0.970703554728186,
+    -0.008359463308413417
+  ],
+  "unstable_modes_over_1_plus_1e_6": 0,
+  "leading_mode_last_4_columns_fraction": 0.9947850930075162,
+  "modal_map_relative_error": 3.8114707713637547e-10,
+  "history_copy_max_error": 0.0,
+  "operator_sha256": "e1e3c7cb6e748f4f04293f718dcdef18b0f34959a059ca1098bf807550979955",
+  "source": "/workspace/aerokinetic_outlet_20261107/boundary_constant.py",
+  "source_sha256": "d8798ffdb8b78ca2db0f308389594fb701b60659e625e06b88bb23e0c53aa9ec",
+  "elapsed_s": 37.41880604800099,
+  "map_checks_passed": true
+}

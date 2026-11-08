@@ -1,0 +1,9 @@
+{
+  "noise_initial_sha_equal": true,
+  "noise_history_bytes_equal": true,
+  "spectral_operator_sha_equal": true,
+  "spectrum_map_checks_passed": true,
+  "passed": true,
+  "budget_report_equal": true,
+  "normal_acoustic_reports_equal": true
+}

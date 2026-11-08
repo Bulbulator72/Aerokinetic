@@ -1,0 +1,52 @@
+WARNING:root:Using floating point numbers in equality comparison: Eq(0.04*indexField_C^n0, 0)
+WARNING:root:Using floating point numbers in equality comparison: Eq(0.0282842712474619*indexField_C^n0, 0)
+Traceback (most recent call last):
+  File "/workspace/aerokinetic_moment_boundary_20261107/debug_codegen.py", line 14, in <module>
+    boundary_moment.install_characteristic_farfield(s,(12,14,8),(False,False,True),(.04,0,0))
+  File "/workspace/aerokinetic_moment_boundary_20261107/boundary_moment.py", line 173, in install_characteristic_farfield
+    lbm.boundary_handling.set_boundary(boundary,mask_callback=exterior)
+  File "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/pystencils/boundaries/boundaryhandling.py", line 197, in set_boundary
+    flag = self._add_boundary(boundary_obj, force_flag_value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/lbmpy/boundaries/boundaryhandling.py", line 58, in _add_boundary
+    return super(LatticeBoltzmannBoundaryHandling, self)._add_boundary(boundary_obj, flag)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/pystencils/boundaries/boundaryhandling.py", line 308, in _add_boundary
+    ast = self._create_boundary_kernel(self._data_handling.fields[self._field_name],
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/lbmpy/boundaries/boundaryhandling.py", line 82, in _create_boundary_kernel
+    return create_lattice_boltzmann_boundary_kernel(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/lbmpy/boundaries/boundaryhandling.py", line 242, in create_lattice_boltzmann_boundary_kernel
+    kernel = create_kernel(elements, config=config)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/pystencils/kernelcreation.py", line 85, in create_kernel
+    return create_indexed_kernel(assignments, config=config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/pystencils/kernelcreation.py", line 243, in create_indexed_kernel
+    ast = create_indexed_kernel(assignments, config=config)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/pystencils/cpu/kernelcreation.py", line 168, in create_indexed_kernel
+    move_constants_before_loop(ast_node)
+  File "/workspace/aerokinetic_moment_boundary_20261107/debug_codegen.py", line 10, in observing
+    Path('/workspace/aerokinetic_moment_boundary_20261107/before_hoist.c').write_text(str(ps.get_code_str(ast)))
+                                                                                          ^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/pystencils/display_utils.py", line 74, in get_code_str
+    return str(get_code_obj(ast, custom_backend))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/pystencils/display_utils.py", line 66, in __str__
+    return generate_c(self.ast, dialect=dialect, custom_backend=custom_backend)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/pystencils/backends/cbackend.py", line 77, in generate_c
+    code = printer(ast_node)
+           ^^^^^^^^^^^^^^^^^
+  File "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/pystencils/backends/cbackend.py", line 193, in __call__
+    result = str(self._print(node))
+                 ^^^^^^^^^^^^^^^^^
+  File "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/pystencils/backends/cbackend.py", line 203, in _print
+    return getattr(self, method_name)(node)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/pystencils/backends/cbackend.py", line 210, in _print_KernelFunction
+    function_arguments = [f"{self._print(s.symbol.dtype)} {s.symbol.name}" for s in node.get_parameters()
+                                         ^^^^^^^^^^^^^^
+AttributeError: 'Symbol' object has no attribute 'dtype'

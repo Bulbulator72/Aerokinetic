@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "label_N": 32,
+      "nu_specified": 4.266666666666667e-05,
+      "nu_measured": 7.071589719899595e-05,
+      "nu_relative_error": 0.6574038406014675,
+      "max_density_error": 9.371392550860946e-13,
+      "passed": false,
+      "elapsed_s": 94.16414948200008
+    },
+    {
+      "label_N": 64,
+      "nu_specified": 8.533333333333334e-05,
+      "nu_measured": 0.00011351950856422474,
+      "nu_relative_error": 0.33030674098700863,
+      "max_density_error": 7.245315458703772e-13,
+      "passed": false,
+      "elapsed_s": 73.54850618499995
+    }
+  ],
+  "passed": false,
+  "version": "0.5.3",
+  "installed_source": "/workspace/aerokinetic_exterior_integration_20261108/env/lib/python3.12/site-packages/aerokinetic/exterior.py",
+  "source_sha256": "4c8c19dc7649341a330500ad1a7100fe05d35e4f75e5c49b475289bb40e6bce4",
+  "scope": "Analytic viscosity check on one manufactured lattice; not airfoil convergence or tunnel validation"
+}

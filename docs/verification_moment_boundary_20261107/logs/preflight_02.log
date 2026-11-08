@@ -1,0 +1,60 @@
+SYMBOLIC MOMENTS PASSED
+Traceback (most recent call last):
+  File "/workspace/aerokinetic_moment_boundary_20261107/preflight_moments.py", line 82, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/aerokinetic_moment_boundary_20261107/preflight_moments.py", line 34, in main
+    module.install_characteristic_farfield(s,shape,periodic,base);initialize(s)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/aerokinetic_moment_boundary_20261107/boundary_moment.py", line 170, in install_characteristic_farfield
+    lbm.boundary_handling.set_boundary(boundary,mask_callback=exterior)
+  File "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/pystencils/boundaries/boundaryhandling.py", line 197, in set_boundary
+    flag = self._add_boundary(boundary_obj, force_flag_value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/lbmpy/boundaries/boundaryhandling.py", line 58, in _add_boundary
+    return super(LatticeBoltzmannBoundaryHandling, self)._add_boundary(boundary_obj, flag)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/pystencils/boundaries/boundaryhandling.py", line 308, in _add_boundary
+    ast = self._create_boundary_kernel(self._data_handling.fields[self._field_name],
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/lbmpy/boundaries/boundaryhandling.py", line 82, in _create_boundary_kernel
+    return create_lattice_boltzmann_boundary_kernel(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/lbmpy/boundaries/boundaryhandling.py", line 242, in create_lattice_boltzmann_boundary_kernel
+    kernel = create_kernel(elements, config=config)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/pystencils/kernelcreation.py", line 85, in create_kernel
+    return create_indexed_kernel(assignments, config=config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/pystencils/kernelcreation.py", line 229, in create_indexed_kernel
+    assignments.evaluate_terms()
+  File "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/pystencils/node_collection.py", line 84, in evaluate_terms
+    self.all_assignments = [visitor(assignment) for assignment in self.all_assignments]
+                            ^^^^^^^^^^^^^^^^^^^
+  File "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/pystencils/node_collection.py", line 75, in visitor
+    new_rhs = visitor(node.rhs)
+              ^^^^^^^^^^^^^^^^^
+  File "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/pystencils/node_collection.py", line 80, in visitor
+    return optimize(node, sympy_optimisations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/sympy/codegen/rewriting.py", line 135, in optimize
+    new_expr = optim(expr)
+               ^^^^^^^^^^^
+  File "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/sympy/codegen/rewriting.py", line 110, in __call__
+    return expr.replace(self.query, self.value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/sympy/core/basic.py", line 1666, in replace
+    rv = walk(self, rec_replace)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/sympy/core/basic.py", line 1641, in walk
+    newargs = tuple([walk(a, F) for a in args])
+                     ^^^^^^^^^^
+  File "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/sympy/core/basic.py", line 1641, in walk
+    newargs = tuple([walk(a, F) for a in args])
+                     ^^^^^^^^^^
+  File "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/sympy/core/basic.py", line 1643, in walk
+    rv = rv.func(*newargs)
+         ^^^^^^^^^^^^^^^^^
+  File "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/sympy/core/relational.py", line 822, in __new__
+    raise TypeError("Invalid comparison of non-real %s" % me)
+TypeError: Invalid comparison of non-real 0.04*indexField_C^n0*(indexField_C^n0*indexField_C^n0 + indexField_C^n1*indexField_C^n1)**(-0.5)

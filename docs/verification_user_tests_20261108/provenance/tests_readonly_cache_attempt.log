@@ -1,0 +1,50 @@
+......F                                                                  [100%]
+=================================== FAILURES ===================================
+___________ test_missing_openmp_flag_stops_before_launching_a_solver ___________
+
+tmp_path = PosixPath('/tmp/pytest-of-agent/pytest-6/test_missing_openmp_flag_stops0')
+modules = (<module 'ak_research_bootstrap_test' from '/workspace/aerokinetic/tools/research_tests/bootstrap.py'>, <module 'ak_re...n_suite.py'>, <module 'ak_research_transfer_test' from '/workspace/aerokinetic/tools/research_tests/make_transfer.py'>)
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f455a16c710>
+
+    def test_missing_openmp_flag_stops_before_launching_a_solver(tmp_path, modules, monkeypatch):
+        _, suite, _ = modules
+>       from pystencils.cpu import cpujit
+
+tests/test_research_transfer.py:139:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+../aerokinetic_exterior_integration_20261108/env_final/lib/python3.12/site-packages/pystencils/__init__.py:3: in <module>
+    from . import fd
+../aerokinetic_exterior_integration_20261108/env_final/lib/python3.12/site-packages/pystencils/fd/__init__.py:1: in <module>
+    from .derivative import (
+../aerokinetic_exterior_integration_20261108/env_final/lib/python3.12/site-packages/pystencils/fd/derivative.py:5: in <module>
+    from pystencils.field import Field
+../aerokinetic_exterior_integration_20261108/env_final/lib/python3.12/site-packages/pystencils/field.py:16: in <module>
+    from pystencils.typing import StructType, TypedSymbol, BasicType, create_type
+../aerokinetic_exterior_integration_20261108/env_final/lib/python3.12/site-packages/pystencils/typing/__init__.py:7: in <module>
+    from pystencils.typing.utilities import (typed_symbols, get_base_type, result_type, collate_types,
+../aerokinetic_exterior_integration_20261108/env_final/lib/python3.12/site-packages/pystencils/typing/utilities.py:10: in <module>
+    from pystencils.cache import memorycache_if_hashable
+../aerokinetic_exterior_integration_20261108/env_final/lib/python3.12/site-packages/pystencils/cache.py:15: in <module>
+    disk_cache = Memory(cache_dir, verbose=False).cache
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../aerokinetic_exterior_integration_20261108/env_final/lib/python3.12/site-packages/joblib/memory.py:1035: in __init__
+    self.store_backend = _store_backend_factory(
+../aerokinetic_exterior_integration_20261108/env_final/lib/python3.12/site-packages/joblib/memory.py:138: in _store_backend_factory
+    obj.configure(location, verbose=verbose, backend_options=backend_options)
+../aerokinetic_exterior_integration_20261108/env_final/lib/python3.12/site-packages/joblib/_store_backends.py:464: in configure
+    mkdirp(self.location)
+../aerokinetic_exterior_integration_20261108/env_final/lib/python3.12/site-packages/joblib/disk.py:58: in mkdirp
+    os.makedirs(d)
+<frozen os>:215: in makedirs
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+name = '/home/agent/.cache/pystencils', mode = 511, exist_ok = False
+
+>   ???
+E   OSError: [Errno 30] Read-only file system: '/home/agent/.cache/pystencils'
+
+<frozen os>:225: OSError
+=========================== short test summary info ============================
+FAILED tests/test_research_transfer.py::test_missing_openmp_flag_stops_before_launching_a_solver
+1 failed, 6 passed in 2.11s

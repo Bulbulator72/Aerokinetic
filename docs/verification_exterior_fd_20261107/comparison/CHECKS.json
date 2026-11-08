@@ -1,0 +1,9 @@
+{
+  "matched_physical_inputs": true,
+  "complete_fixed_windows": true,
+  "means_match_run_checkpoints": true,
+  "experimental_validation": "inconclusive",
+  "grid_convergence": "not_run",
+  "statistical_convergence": "not_certified",
+  "source_sha256": "298630cb6998b435ce0118a60cab62a358c56a1a2103e0d3c14b06e0ab46c691"
+}

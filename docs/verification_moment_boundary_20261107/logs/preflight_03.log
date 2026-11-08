@@ -1,0 +1,48 @@
+SYMBOLIC MOMENTS PASSED
+WARNING:root:Using floating point numbers in equality comparison: Eq(0.04*indexField_C^n0, 0)
+WARNING:root:Using floating point numbers in equality comparison: Eq(0.0282842712474619*indexField_C^n0, 0)
+Traceback (most recent call last):
+  File "/workspace/aerokinetic_moment_boundary_20261107/preflight_moments.py", line 82, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/aerokinetic_moment_boundary_20261107/preflight_moments.py", line 34, in main
+    module.install_characteristic_farfield(s,shape,periodic,base);initialize(s)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/aerokinetic_moment_boundary_20261107/boundary_moment.py", line 171, in install_characteristic_farfield
+    lbm.boundary_handling.set_boundary(boundary,mask_callback=exterior)
+  File "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/pystencils/boundaries/boundaryhandling.py", line 197, in set_boundary
+    flag = self._add_boundary(boundary_obj, force_flag_value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/lbmpy/boundaries/boundaryhandling.py", line 58, in _add_boundary
+    return super(LatticeBoltzmannBoundaryHandling, self)._add_boundary(boundary_obj, flag)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/pystencils/boundaries/boundaryhandling.py", line 308, in _add_boundary
+    ast = self._create_boundary_kernel(self._data_handling.fields[self._field_name],
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/lbmpy/boundaries/boundaryhandling.py", line 82, in _create_boundary_kernel
+    return create_lattice_boltzmann_boundary_kernel(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/lbmpy/boundaries/boundaryhandling.py", line 242, in create_lattice_boltzmann_boundary_kernel
+    kernel = create_kernel(elements, config=config)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/pystencils/kernelcreation.py", line 85, in create_kernel
+    return create_indexed_kernel(assignments, config=config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/pystencils/kernelcreation.py", line 243, in create_indexed_kernel
+    ast = create_indexed_kernel(assignments, config=config)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/pystencils/cpu/kernelcreation.py", line 168, in create_indexed_kernel
+    move_constants_before_loop(ast_node)
+  File "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/pystencils/transformations.py", line 747, in move_constants_before_loop
+    target, child_to_insert_before = find_block_to_move_to(child)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/pystencils/transformations.py", line 701, in find_block_to_move_to
+    if any(modifies_or_declares(sibling, dependencies) for sibling in element.args):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/pystencils/transformations.py", line 701, in <genexpr>
+    if any(modifies_or_declares(sibling, dependencies) for sibling in element.args):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/pystencils/transformations.py", line 664, in modifies_or_declares
+    return node.lhs.name in symbol_names
+           ^^^^^^^^^^^^^
+AttributeError: 'ReinterpretCastFunc' object has no attribute 'name'

@@ -1,0 +1,8 @@
+{
+  "date_utc": "2026-11-07",
+  "trigger": "The implicit one-normal-interval convective Rminus candidate passes10000-step noise boundedness but fails unchanged vortex gates: seam density2.610e-6>2e-6, corner density6.979e-6 and transit velocity error0.23355>0.1. Do not promote it or change tolerances.",
+  "control": "At strictly outward non-glancing faces set Rminus_b=Rminus_fluid, while Rplus_b=Rplus_fluid as before. For positive local normal flow this gives identical rho/u at boundary and fluid and reduces the incoming NEEP population to a direct copy from its normal foot. Preserve reservoir inflow and own-state glancing transport.",
+  "purpose": "A standard zero-normal-gradient population-extrapolation control. It removes the mismatched normal placement and auxiliary time lag of only Rminus without introducing a fitted coefficient. This first-order open-boundary approximation is not presumed transparent, and no airfoil claim follows from it.",
+  "checks": "First normal outgoing acoustics, seam/corner vortex and identical noise fixtures, with all previous gates. Continue to remaining groups and long airfoil tests only if these physical gates pass.",
+  "limits": "Mixed backflow keeps existing tangential reservoir treatment; no general viscous/oblique acoustic/corner accuracy is claimed. Re/Ma/viscosity/collision and main distribution stay unchanged."
+}

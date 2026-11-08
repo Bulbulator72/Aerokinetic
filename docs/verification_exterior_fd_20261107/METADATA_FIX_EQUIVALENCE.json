@@ -1,0 +1,7 @@
+{
+  "history_csv_byte_equal": {
+    "straight": true,
+    "rectangle": true
+  },
+  "change": "Only convert domain-size NumPy integers to Python int; numeric formulas unchanged"
+}

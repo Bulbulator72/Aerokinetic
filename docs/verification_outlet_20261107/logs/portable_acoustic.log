@@ -1,0 +1,14 @@
+{
+  "ubb": {
+    "incident": 2.23666973964442e-05,
+    "reflected": 2.0706385938641937e-05,
+    "ratio": 0.9257685912062183
+  },
+  "candidate": {
+    "incident": 2.2366697396957677e-05,
+    "reflected": 5.165758090152619e-06,
+    "ratio": 0.23095757046613716
+  },
+  "passed": false,
+  "source_sha256": "a4ceb0adc61c3028049281e95e5583ddbc049ae55463d3d701bb1b723463e13a"
+}

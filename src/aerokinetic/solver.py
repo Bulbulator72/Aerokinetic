@@ -14,7 +14,7 @@ import time
 import uuid
 import numpy as np
 
-from .config import Flow, Grid, Plan
+from .config import EXTERIOR_FARFIELD, Flow, Grid, Plan
 from .geometry import Section
 from ._io import atomic_binary, write_json, file_hash
 from .project import Project, RunSettings
@@ -34,6 +34,13 @@ class Solver:
     def __init__(self, section: Section, flow: Flow = Flow(), grid: Grid = Grid(), progress=None):
         self.section, self.flow, self.grid = section, flow, grid
         self.plan = Plan.create(section, flow, grid)
+        self._exterior = None
+        self._padding = (1, 1, 0) if grid.farfield == EXTERIOR_FARFIELD else (0, 0, 0)
+        self._storage_shape = tuple(n + 2*p for n, p in zip(self.plan.shape, self._padding))
+        self._storage_origin = tuple(x - p*self.plan.dx for x, p in zip(self.plan.origin, self._padding[:2]))
+        self._core_slice = tuple(slice(p, p+n) for p, n in zip(self._padding, self.plan.shape))
+        self._wall_mass_exchange = 0.0
+        self._wall_mass_total = 0.0
         self.contours = section.normalized(flow.alpha_deg)
         if self.plan.estimated_memory_gib > grid.memory_limit_gib:
             raise MemoryError(f"Estimated {self.plan.estimated_memory_gib:.2f} GiB exceeds the explicit "
@@ -71,16 +78,22 @@ class Solver:
         config = CreateKernelConfig(target=Target.CPU if self.grid.target == "cpu" else Target.GPU,
                                     data_type="float64",
                                     cpu_openmp=self.grid.openmp_threads if self.grid.openmp_threads > 1 else False)
-        self._stepper = LatticeBoltzmannStep(domain_size=self.plan.shape, periodicity=(False, False, True),
+        order = "collide_stream" if self.grid.farfield == EXTERIOR_FARFIELD else "stream_collide"
+        self._stepper = LatticeBoltzmannStep(domain_size=self._storage_shape, periodicity=(False, False, True),
+                                             time_step_order=order,
                                              lbm_config=lb_config, config=config,
                                              kernel_params={"omega": self.plan.relaxation_rate})
+        if self.grid.farfield == EXTERIOR_FARFIELD:
+            from .exterior import ExteriorBoundary
+            self._exterior = ExteriorBoundary(self._stepper, self.plan.shape, (False, False, True),
+                                              (self.flow.lattice_speed, 0.0, 0.0))
         self._stencil = np.array(self._stepper.method.stencil, dtype=np.int64)
         self._inverse = np.array([self._stepper.method.stencil.index(tuple(-e)) for e in self._stencil])
 
     def _mask(self, contour):
         def mask(x, y, z):
-            inside = contour.contains(x[:, :, 0] * self.plan.dx + self.plan.origin[0],
-                                      y[:, :, 0] * self.plan.dx + self.plan.origin[1])
+            inside = contour.contains(x[:, :, 0] * self.plan.dx + self._storage_origin[0],
+                                      y[:, :, 0] * self.plan.dx + self._storage_origin[1])
             return np.broadcast_to(inside[:, :, None], x.shape)
         return mask
 
@@ -94,7 +107,7 @@ class Solver:
                                   for i, axis in enumerate(("x", "y"))])
             directions = data.link_offsets()[:, :2]
             keys, inv = np.unique(np.column_stack((xy, directions)), axis=0, return_inverse=True)
-            points = keys[:, :2] * self.plan.dx + self.plan.origin
+            points = keys[:, :2] * self.plan.dx + self._storage_origin
             offsets = keys[:, 2:] * self.plan.dx
             q = contour.link_fraction(points, offsets)
             # The q<1/2 branch requires another fluid cell away from the wall.
@@ -112,33 +125,45 @@ class Solver:
         from lbmpy.boundaries import NoSlipLinearBouzidi, UBB, ExtrapolationOutflow
         step = self._stepper
         bh = step.boundary_handling
-        nx, ny, nz = self.plan.shape
+        nx, ny, nz = self._storage_shape
         freestream = (self.flow.lattice_speed, 0.0, 0.0)
-        outer = UBB(freestream, name="freestream")
-        bh.set_boundary(outer, mask_callback=lambda x, y, z: (x < 0) | (y < 0) | (y > ny))
-        outflow = ExtrapolationOutflow((1, 0, 0), step.method,
-                                      initial_density=1.0, initial_velocity=freestream)
-        bh.set_boundary(outflow, mask_callback=lambda x, y, z: x > nx)
+        if self.grid.farfield == "legacy":
+            outer = UBB(freestream, name="freestream")
+            bh.set_boundary(outer, mask_callback=lambda x, y, z: (x < 0) | (y < 0) | (y > ny))
+            outflow = ExtrapolationOutflow((1, 0, 0), step.method,
+                                          initial_density=1.0, initial_velocity=freestream)
+            bh.set_boundary(outflow, mask_callback=lambda x, y, z: x > nx)
+        elif self._exterior is None:
+            from .farfield import install_characteristic_farfield
+            install_characteristic_farfield(step,self.plan.shape,(False,False,True),freestream)
         self._wall_objects = []
         for i, contour in enumerate(self.contours):
             wall = NoSlipLinearBouzidi(name=f"solid_{i}", init_wall_distance=self._distance_callback(contour))
             bh.set_boundary(wall, mask_callback=self._mask(contour))
             self._wall_objects.append(wall)
 
-        x = (np.arange(nx) + 0.5) * self.plan.dx + self.plan.origin[0]
-        y = (np.arange(ny) + 0.5) * self.plan.dx + self.plan.origin[1]
+        x = (np.arange(nx) + 0.5) * self.plan.dx + self._storage_origin[0]
+        y = (np.arange(ny) + 0.5) * self.plan.dx + self._storage_origin[1]
         self._solid_xy = np.zeros((nx, ny), dtype=bool)
         for e in self.contours:
             mask = e.contains(x[:, None], y[None, :])
             if not mask.any():
                 raise ValueError(f"Element {e.name} has no solid cells; increase resolution")
             self._solid_xy |= mask
-        self._fluid = np.broadcast_to(~self._solid_xy[:, :, None], self.plan.shape)
+        self._storage_fluid = np.broadcast_to(~self._solid_xy[:, :, None], self._storage_shape)
+        self._solid_xy = self._solid_xy[self._core_slice[:2]]
+        self._fluid = self._storage_fluid[self._core_slice]
 
     def _initialize(self):
         self._run_control=None
         step, plan = self._stepper, self.plan
         dh = step.data_handling
+        if self.grid.farfield != "legacy":
+            # The upstream macro setter writes owned cells only. Unused ghost
+            # populations in its empty-allocated buffers otherwise contain
+            # allocator history and spoil reproducible full-state checkpoints.
+            for name in (step.pdf_array_name,step._tmp_arr_name):
+                dh.cpu_arrays[name].fill(0)
         rng = np.random.default_rng(self.flow.seed)
         phase_y, phase_z = rng.uniform(0, 2 * np.pi, 2)
         # A reporting-point change must not move the physical initial seed.
@@ -153,9 +178,11 @@ class Solver:
         for block in dh.iterate(ghost_layers=True):
             x, y, z = block.midpoint_arrays
             u = block[step.velocity_data_name]
+            if self._exterior is not None:
+                block[step.density_data_name][...] = 1.0
             u[..., 0] = self.flow.lattice_speed
-            yy = y * plan.dx + plan.origin[1]
-            xx = x * plan.dx + plan.origin[0]
+            yy = y * plan.dx + self._storage_origin[1]
+            xx = x * plan.dx + self._storage_origin[0]
             relative_x, relative_y = xx - leading[0], yy - leading[1]
             zz = z * plan.dx
             ky = 2 * np.pi / (plan.shape[1] * plan.dx)
@@ -168,6 +195,10 @@ class Solver:
             for e in self.contours:
                 solid |= e.contains(xx[:, :, 0], yy[:, :, 0])
             u[np.broadcast_to(solid[:, :, None], x.shape)] = 0.0
+        if self._exterior is not None:
+            owned = np.zeros(tuple(n+2 for n in self._storage_shape), dtype=bool)
+            owned[tuple(slice(1+p, 1+p+n) for p, n in zip(self._padding, plan.shape))] = True
+            dh.cpu_arrays[step.velocity_data_name][~owned] = (self.flow.lattice_speed, 0.0, 0.0)
         step.set_pdf_fields_from_macroscopic_values()
 
     def _loads(self):
@@ -182,6 +213,7 @@ class Solver:
         dh = step.data_handling
         bh = step.boundary_handling
         per_element = np.zeros((len(self.contours), 4))
+        wall_mass = 0.0
         for block in dh.iterate(ghost_layers=1):
             index_lists = block[bh._index_array_name].boundary_object_to_index_list
             pdf = dh.gpu_arrays[step.pdf_array_name] if self.grid.target == "gpu" else block[step.pdf_array_name]
@@ -192,31 +224,51 @@ class Solver:
                 d = ind["dir"].astype(np.int64)
                 e = self._stencil[d]
                 pos = [ind[axis].astype(np.int64) for axis in ("x", "y", "z")]
-                values = pdf[(*pos, d)] + pdf[(*(pos[k] + e[:, k] for k in range(3)), self._inverse[d])]
+                outgoing = pdf[(*pos, d)]
+                incoming = pdf[(*(pos[k] + e[:, k] for k in range(3)), self._inverse[d])]
+                values = outgoing + incoming
+                if self._exterior is not None:
+                    # Opposite-direction background weights cancel in this
+                    # difference; verify against complete-PDF mask fluxes.
+                    wall_mass += float(np.sum(incoming - outgoing))
                 if self.grid.target == "gpu":
                     values = values.get()
                 link_force = e * np.asarray(values)[:, None]
                 force = link_force.sum(axis=0)
                 # Serial data handling; block offset is retained explicitly.
-                rx = pos[0] + block.offset[0] + 0.5 + self.plan.origin[0] / self.plan.dx
-                ry = pos[1] + block.offset[1] + 0.5 + self.plan.origin[1] / self.plan.dx
+                rx = pos[0] + block.offset[0] + 0.5 + self._storage_origin[0] / self.plan.dx
+                ry = pos[1] + block.offset[1] + 0.5 + self._storage_origin[1] / self.plan.dx
                 mz = np.sum(rx * link_force[:, 1] - ry * link_force[:, 0])
                 per_element[i, :3] += force
                 per_element[i, 3] += mz
         total = per_element.sum(axis=0)
         cl, cd, cm = coefficients(total[:3], total[3], self.flow.lattice_speed,
                                   self.grid.cells_per_chord, self.plan.shape[2])
-        return {"cl": cl, "cd": cd, "cm": cm, "element_lattice_loads": per_element}
+        result = {"cl": cl, "cd": cd, "cm": cm, "element_lattice_loads": per_element}
+        if self._exterior is not None:
+            result["wall_mass_exchange_lattice"] = wall_mass
+        return result
 
     def step(self, sample=False):
         step = self._stepper
         # Reusing the upstream ordering avoids an extra application of the outflow
         # history when obtaining loads. time_step() alone cannot expose this stage.
-        step._sync_src()
-        step.boundary_handling(**step.kernel_params)
-        loads = self._loads() if sample else None
-        step.data_handling.run_kernel(step._lbmKernels[0], **step.kernel_params)
-        step.data_handling.swap(step._pdf_arr_name, step._tmp_arr_name, step._gpu)
+        if self._exterior is None:
+            step._sync_src()
+            step.boundary_handling(**step.kernel_params)
+            loads = self._loads() if sample else None
+            step.data_handling.run_kernel(step._lbmKernels[0], **step.kernel_params)
+            step.data_handling.swap(step._pdf_arr_name, step._tmp_arr_name, step._gpu)
+        else:
+            self._exterior.step(before_stream=self._loads)
+            measured = self._exterior.last_loads
+            self._wall_mass_exchange = measured["wall_mass_exchange_lattice"]
+            self._wall_mass_total += self._wall_mass_exchange
+            loads = measured if sample else None
+            if loads is not None:
+                loads.update(wall_mass_exchange_accumulated=self._wall_mass_total,
+                    exterior_source_mass_lattice=self._exterior.last_report["exterior_source_mass_momentum"][0],
+                    exterior_source_mass_accumulated=float(self._exterior.source_total[0]))
         self.steps += 1
         step.time_steps_run = self.steps
         if loads is not None:
@@ -232,24 +284,42 @@ class Solver:
         dh = step.data_handling
         rho = dh.gather_array(step.density_data_name)
         velocity = dh.gather_array(step.velocity_data_name)
-        r = rho[self._fluid]
-        v = velocity[self._fluid]
+        r = rho[self._storage_fluid]
+        v = velocity[self._storage_fluid]
         if not np.isfinite(r).all() or not np.isfinite(v).all() or not np.isfinite(r).any():
             raise NumericalFailure("Non-finite fluid state; the run is invalid")
         local_mach = float(np.sqrt(3) * np.sqrt(np.sum(v * v, axis=-1)).max())
         density_error = float(np.max(abs(r - 1.0)))
         if local_mach > 0.3 or density_error > 0.1 or r.min() <= 0:
             raise NumericalFailure(f"Low-Mach validity check failed: local Ma={local_mach:.3g}, |rho-1|max={density_error:.3g}")
-        return {"local_mach_max": local_mach, "density_mean": float(r.mean()),
+        physical_density = rho[self._core_slice][self._fluid]
+        return {"local_mach_max": local_mach, "density_mean": float(physical_density.mean()),
                 "density_error_max": density_error, "wall_fallback_links": self.wall_fallback_links}
+
+    def boundary_diagnostics(self):
+        """Numerical exchanges, in lattice mass per step, not physical errors."""
+        if self._exterior is None:
+            return None
+        return {"model": EXTERIOR_FARFIELD, "pdf_stage": "pre_collision",
+                "physical_shape": self.plan.shape, "storage_shape": self._storage_shape,
+                "storage_origin": self._storage_origin,
+                "wall_mass_exchange_lattice": self._wall_mass_exchange,
+                "wall_mass_exchange_accumulated": self._wall_mass_total,
+                "exterior_source_mass_momentum_accumulated": self._exterior.source_total.tolist(),
+                "last_exterior_step": self._exterior.last_report,
+                "definition": "Wall incoming-minus-outgoing mass and explicit auxiliary PDF source; a closed bookkeeping budget does not prove zero wall mass flux or accuracy."}
 
     def save_frame(self, path, max_pixels=800):
         step = self._stepper
         step.post_run()
         nx, ny, nz = self.plan.shape
         stride = max(1, math.ceil(max(nx, ny) / max_pixels))
-        velocity = step.data_handling.gather_array(step.velocity_data_name, (slice(None, None, stride), slice(None, None, stride), nz // 2))
-        rho = step.data_handling.gather_array(step.density_data_name, (slice(None, None, stride), slice(None, None, stride), nz // 2))
+        if self._exterior is None:
+            velocity = step.data_handling.gather_array(step.velocity_data_name, (slice(None, None, stride), slice(None, None, stride), nz // 2))
+            rho = step.data_handling.gather_array(step.density_data_name, (slice(None, None, stride), slice(None, None, stride), nz // 2))
+        else:
+            velocity = step.data_handling.gather_array(step.velocity_data_name)[self._core_slice][::stride, ::stride, nz // 2]
+            rho = step.data_handling.gather_array(step.density_data_name)[self._core_slice][::stride, ::stride, nz // 2]
         velocity, rho = np.asarray(velocity).squeeze(), np.asarray(rho).squeeze()
         speed = np.linalg.norm(velocity, axis=-1) / self.flow.lattice_speed
         omega_z = (np.gradient(velocity[..., 1], stride * self.plan.dx, axis=0)
@@ -364,10 +434,15 @@ class Solver:
         metadata["end_step"] = end_step
         metadata['residual_definition']='Volume-weighted L2/Linf of d(rho,j_common)/dt*, owned fluid only; stationary-flow residual, not a turbulence-accuracy measure'
         metadata["status"] = "running"
+        if self._exterior is not None:
+            metadata["boundary_model"] = self.boundary_diagnostics()
         write_json(output / "metadata.json", metadata)
         state = "completed"
         start_time = time.monotonic()
         names = ["step", "t_star", "time_s", "cl", "cd", "cm", "local_mach_max", "density_error_max"]
+        if self._exterior is not None:
+            names.extend(("wall_mass_exchange_lattice", "wall_mass_exchange_accumulated",
+                          "exterior_source_mass_lattice", "exterior_source_mass_accumulated"))
         try:
             self.diagnostics()
             self.save_frame(output / "frames" / f"frame_{self.steps:010d}.npz")
@@ -441,6 +516,22 @@ class Solver:
             control.close()
             metadata['termination_reason']=reason
             metadata["status"] = state
+            if self._exterior is not None:
+                boundary = self.boundary_diagnostics()
+                if state == "failed":
+                    replaced = []
+                    def invalid_constant(value):
+                        replaced.append(value)
+                        return None
+                    # Keep the original flow exception and a valid failed-run
+                    # report even if its diagnostics contain NaN/Inf. The
+                    # numerical state is not presented as a usable result.
+                    boundary = json.loads(json.dumps(boundary, allow_nan=True),
+                                          parse_constant=invalid_constant)
+                    if replaced:
+                        boundary["nonfinite_diagnostics_replaced_with_null"] = True
+                summary["boundary_diagnostics"] = boundary
+                metadata["boundary_model"] = boundary
             write_json(output / "metadata.json", metadata)
             write_json(output / "summary.json", summary)
         return summary

@@ -1,0 +1,140 @@
+{
+  "scope": "Symbolic audit of the unmodified default cumulant collision configuration; not a viscosity/dispersion measurement",
+  "rates": [
+    {
+      "polynomial": "1",
+      "rate": "0.0",
+      "equilibrium": "rho*log(rho)"
+    },
+    {
+      "polynomial": "x",
+      "rate": "0.0",
+      "equilibrium": "rho*u_0"
+    },
+    {
+      "polynomial": "y",
+      "rate": "0.0",
+      "equilibrium": "rho*u_1"
+    },
+    {
+      "polynomial": "z",
+      "rate": "0.0",
+      "equilibrium": "rho*u_2"
+    },
+    {
+      "polynomial": "x*y",
+      "rate": "omega",
+      "equilibrium": "0"
+    },
+    {
+      "polynomial": "x*z",
+      "rate": "omega",
+      "equilibrium": "0"
+    },
+    {
+      "polynomial": "y*z",
+      "rate": "omega",
+      "equilibrium": "0"
+    },
+    {
+      "polynomial": "x**2 - y**2",
+      "rate": "omega",
+      "equilibrium": "0"
+    },
+    {
+      "polynomial": "x**2 - z**2",
+      "rate": "omega",
+      "equilibrium": "0"
+    },
+    {
+      "polynomial": "x**2 + y**2 + z**2",
+      "rate": "1.0",
+      "equilibrium": "rho"
+    },
+    {
+      "polynomial": "x*y**2 + x*z**2",
+      "rate": "1.0",
+      "equilibrium": "0"
+    },
+    {
+      "polynomial": "x**2*y + y*z**2",
+      "rate": "1.0",
+      "equilibrium": "0"
+    },
+    {
+      "polynomial": "x**2*z + y**2*z",
+      "rate": "1.0",
+      "equilibrium": "0"
+    },
+    {
+      "polynomial": "x*y**2 - x*z**2",
+      "rate": "1.0",
+      "equilibrium": "0"
+    },
+    {
+      "polynomial": "x**2*y - y*z**2",
+      "rate": "1.0",
+      "equilibrium": "0"
+    },
+    {
+      "polynomial": "x**2*z - y**2*z",
+      "rate": "1.0",
+      "equilibrium": "0"
+    },
+    {
+      "polynomial": "x*y*z",
+      "rate": "1.0",
+      "equilibrium": "0"
+    },
+    {
+      "polynomial": "x**2*y**2 - 2*x**2*z**2 + y**2*z**2",
+      "rate": "1.0",
+      "equilibrium": "0"
+    },
+    {
+      "polynomial": "x**2*y**2 + x**2*z**2 - 2*y**2*z**2",
+      "rate": "1.0",
+      "equilibrium": "0"
+    },
+    {
+      "polynomial": "x**2*y**2 + x**2*z**2 + y**2*z**2",
+      "rate": "1.0",
+      "equilibrium": "0"
+    },
+    {
+      "polynomial": "x**2*y*z",
+      "rate": "1.0",
+      "equilibrium": "0"
+    },
+    {
+      "polynomial": "x*y**2*z",
+      "rate": "1.0",
+      "equilibrium": "0"
+    },
+    {
+      "polynomial": "x*y*z**2",
+      "rate": "1.0",
+      "equilibrium": "0"
+    },
+    {
+      "polynomial": "x**2*y**2*z",
+      "rate": "1.0",
+      "equilibrium": "0"
+    },
+    {
+      "polynomial": "x**2*y*z**2",
+      "rate": "1.0",
+      "equilibrium": "0"
+    },
+    {
+      "polynomial": "x*y**2*z**2",
+      "rate": "1.0",
+      "equilibrium": "0"
+    },
+    {
+      "polynomial": "x**2*y**2*z**2",
+      "rate": "1.0",
+      "equilibrium": "0"
+    }
+  ]
+}

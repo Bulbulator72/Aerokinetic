@@ -1,0 +1,61 @@
+{
+  "case": "straight_outlet",
+  "version": "0.5.2",
+  "installed": "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/aerokinetic/__init__.py",
+  "initial_noise_sha256": "8cffaab76d458180be99119e04a236fb8809e17707d3dbea7e8dfa625759f5f2",
+  "shape": [
+    96,
+    48,
+    8
+  ],
+  "periodic": [
+    false,
+    true,
+    true
+  ],
+  "last_sampled_step": 3200,
+  "finite": true,
+  "max_energy_over_initial": 16484.46376798719,
+  "last": {
+    "step": 3200,
+    "energy_over_initial": 16484.46376798719,
+    "max_density_error": 3.429695649381781e-05,
+    "max_velocity_error": 2.7569608642045952e-05,
+    "max_mach": 0.06932453824358062,
+    "peak_x": 95,
+    "peak_y": 27,
+    "peak_z": 6,
+    "outlet_corner_energy_over_initial": 167053.61184907783,
+    "outlet_middle_energy_over_initial": 295972.47351079696,
+    "side_energy_over_initial": 0.579470848808068,
+    "core_energy_over_initial": 0.6194742040950114
+  },
+  "boundary_ranges": {
+    "OutletDiagnostic_euler_-1,0,0": {
+      "incoming": [
+        -0.04,
+        -0.04
+      ],
+      "derivative": [
+        0.0,
+        0.0
+      ]
+    },
+    "OutletDiagnostic_euler_1,0,0": {
+      "incoming": [
+        0.03954550494370315,
+        0.04047038932907722
+      ],
+      "derivative": [
+        -1.675453670613423e-06,
+        1.7263035197979104e-06
+      ]
+    }
+  },
+  "elapsed_s": 9.027593465998507,
+  "boundedness_gate_passed": false,
+  "strong_growth_detected": true,
+  "candidate": "euler",
+  "farfield_source": "/workspace/aerokinetic_outlet_20261107/boundary_euler.py",
+  "farfield_sha256": "8a6ba458082a41751816529229a7c4b28328f62a1be6737e50a04c70bf98bb43"
+}

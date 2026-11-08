@@ -1,0 +1,31 @@
+{
+  "date_utc": "2026-11-08",
+  "scope": "Additional direct verification of general molecular omega in the integrated FD reconstruction before claiming N64 readiness. No numerical change.",
+  "parameters": {
+    "labels": [
+      32,
+      64
+    ],
+    "nu": "0.04*N/30000",
+    "physical_core": [
+      16,
+      20,
+      8
+    ],
+    "storage": [
+      18,
+      22,
+      8
+    ],
+    "periodic": [
+      false,
+      false,
+      true
+    ]
+  },
+  "criteria_before_execution": {
+    "equilibrium_20steps_max_error": 5e-13,
+    "polynomial_gradient_mass_momentum_stress_max_error": 2e-12
+  },
+  "independent_property": "Sum complete27PDF to obtain rho,j and stress; compare quadratic polynomial derivative and pre-collision continuum shear tau=.5+3nu/bulk tau1. Labels are viscosity parameters, not airfoil grid-convergence runs."
+}

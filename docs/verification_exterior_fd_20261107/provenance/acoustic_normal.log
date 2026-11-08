@@ -1,0 +1,25 @@
+ubb {'incident': np.float64(2.2366697397012846e-05), 'reflected': np.float64(2.0706385937924276e-05), 'ratio': np.float64(0.9257685911505956)}
+exterior_fd {'incident': np.float64(2.2366697396735632e-05), 'reflected': np.float64(7.73459690290882e-08), 'ratio': np.float64(0.0034580862635704398)}
+Traceback (most recent call last):
+  File "/workspace/aerokinetic_fd_exterior_20261107/acoustic_probe.py", line 42, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/aerokinetic_fd_exterior_20261107/acoustic_probe.py", line 40, in main
+    (args.output/'CHECKS.json').write_text(json.dumps(result,indent=2)+'\n');print('PASSED',result['passed'],flush=True)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bool is not JSON serializable

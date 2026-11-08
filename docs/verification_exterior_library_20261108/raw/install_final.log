@@ -1,0 +1,34 @@
+WARNING: The directory '/home/agent/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+Looking in links: /workspace/aerokinetic_02_release/wheels_linux
+Processing ./aerokinetic_02_release/wheels_linux/appdirs-1.4.4-py2.py3-none-any.whl (from -r /workspace/aerokinetic/requirements-offline-py312.txt (line 3))
+Processing ./aerokinetic_02_release/wheels_linux/colorama-0.4.6-py2.py3-none-any.whl (from -r /workspace/aerokinetic/requirements-offline-py312.txt (line 4))
+Processing ./aerokinetic_02_release/wheels_linux/contourpy-1.3.3-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (from -r /workspace/aerokinetic/requirements-offline-py312.txt (line 5))
+Processing ./aerokinetic_02_release/wheels_linux/cycler-0.12.1-py3-none-any.whl (from -r /workspace/aerokinetic/requirements-offline-py312.txt (line 6))
+Processing ./aerokinetic_02_release/wheels_linux/fasteners-0.20-py3-none-any.whl (from -r /workspace/aerokinetic/requirements-offline-py312.txt (line 7))
+Processing ./aerokinetic_02_release/wheels_linux/fonttools-4.61.1-cp312-cp312-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl (from -r /workspace/aerokinetic/requirements-offline-py312.txt (line 8))
+Processing ./aerokinetic_02_release/wheels_linux/iniconfig-2.3.1-py3-none-any.whl (from -r /workspace/aerokinetic/requirements-offline-py312.txt (line 9))
+Processing ./aerokinetic_02_release/wheels_linux/joblib-1.5.3-py3-none-any.whl (from -r /workspace/aerokinetic/requirements-offline-py312.txt (line 10))
+Processing ./aerokinetic_02_release/wheels_linux/kiwisolver-1.4.9-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (from -r /workspace/aerokinetic/requirements-offline-py312.txt (line 11))
+Processing ./aerokinetic_02_release/wheels_linux/lbmpy-1.4-py3-none-any.whl (from -r /workspace/aerokinetic/requirements-offline-py312.txt (line 12))
+Processing ./aerokinetic_02_release/wheels_linux/matplotlib-3.10.8-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (from -r /workspace/aerokinetic/requirements-offline-py312.txt (line 13))
+Processing ./aerokinetic_02_release/wheels_linux/mpmath-1.3.0-py3-none-any.whl (from -r /workspace/aerokinetic/requirements-offline-py312.txt (line 14))
+Processing ./aerokinetic_02_release/wheels_linux/numpy-2.3.5-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (from -r /workspace/aerokinetic/requirements-offline-py312.txt (line 15))
+Processing ./aerokinetic_02_release/wheels_linux/packaging-26.3-py3-none-any.whl (from -r /workspace/aerokinetic/requirements-offline-py312.txt (line 16))
+Processing ./aerokinetic_02_release/wheels_linux/pillow-12.3.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (from -r /workspace/aerokinetic/requirements-offline-py312.txt (line 17))
+Processing ./aerokinetic_02_release/wheels_linux/pluggy-1.7.0-py3-none-any.whl (from -r /workspace/aerokinetic/requirements-offline-py312.txt (line 18))
+Processing ./aerokinetic_02_release/wheels_linux/pygments-2.21.0-py3-none-any.whl (from -r /workspace/aerokinetic/requirements-offline-py312.txt (line 19))
+Processing ./aerokinetic_02_release/wheels_linux/pyparsing-3.3.2-py3-none-any.whl (from -r /workspace/aerokinetic/requirements-offline-py312.txt (line 20))
+Processing ./aerokinetic_02_release/wheels_linux/pystencils-1.4-py3-none-any.whl (from -r /workspace/aerokinetic/requirements-offline-py312.txt (line 21))
+Processing ./aerokinetic_02_release/wheels_linux/pytest-9.1.1-py3-none-any.whl (from -r /workspace/aerokinetic/requirements-offline-py312.txt (line 22))
+Processing ./aerokinetic_02_release/wheels_linux/python_dateutil-2.9.0.post0-py2.py3-none-any.whl (from -r /workspace/aerokinetic/requirements-offline-py312.txt (line 23))
+Processing ./aerokinetic_02_release/wheels_linux/pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (from -r /workspace/aerokinetic/requirements-offline-py312.txt (line 24))
+Processing ./aerokinetic_02_release/wheels_linux/setuptools-84.0.0-py3-none-any.whl (from -r /workspace/aerokinetic/requirements-offline-py312.txt (line 25))
+Processing ./aerokinetic_02_release/wheels_linux/six-1.17.0-py2.py3-none-any.whl (from -r /workspace/aerokinetic/requirements-offline-py312.txt (line 26))
+Processing ./aerokinetic_02_release/wheels_linux/sympy-1.12.1-py3-none-any.whl (from -r /workspace/aerokinetic/requirements-offline-py312.txt (line 27))
+Processing ./aerokinetic_02_release/wheels_linux/wheel-0.48.0-py3-none-any.whl (from -r /workspace/aerokinetic/requirements-offline-py312.txt (line 28))
+Installing collected packages: mpmath, appdirs, sympy, six, setuptools, pyyaml, pyparsing, pygments, pluggy, pillow, packaging, numpy, kiwisolver, joblib, iniconfig, fonttools, fasteners, cycler, colorama, wheel, python-dateutil, pytest, pystencils, contourpy, matplotlib, lbmpy
+Successfully installed appdirs-1.4.4 colorama-0.4.6 contourpy-1.3.3 cycler-0.12.1 fasteners-0.20 fonttools-4.61.1 iniconfig-2.3.1 joblib-1.5.3 kiwisolver-1.4.9 lbmpy-1.4 matplotlib-3.10.8 mpmath-1.3.0 numpy-2.3.5 packaging-26.3 pillow-12.3.0 pluggy-1.7.0 pygments-2.21.0 pyparsing-3.3.2 pystencils-1.4 pytest-9.1.1 python-dateutil-2.9.0.post0 pyyaml-6.0.3 setuptools-84.0.0 six-1.17.0 sympy-1.12.1 wheel-0.48.0
+WARNING: The directory '/home/agent/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+Processing ./aerokinetic_exterior_integration_20261108/release_final/aerokinetic-0.5.3-py3-none-any.whl
+Installing collected packages: aerokinetic
+Successfully installed aerokinetic-0.5.3

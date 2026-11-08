@@ -1,0 +1,111 @@
+{
+  "case": "rectangle",
+  "version": "0.5.2",
+  "installed": "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/aerokinetic/__init__.py",
+  "initial_noise_sha256": "8cffaab76d458180be99119e04a236fb8809e17707d3dbea7e8dfa625759f5f2",
+  "shape": [
+    96,
+    48,
+    8
+  ],
+  "periodic": [
+    false,
+    false,
+    true
+  ],
+  "last_sampled_step": 2900,
+  "finite": true,
+  "max_energy_over_initial": 17728.233034418397,
+  "last": {
+    "step": 2900,
+    "energy_over_initial": 17728.233034418397,
+    "max_density_error": 3.4563501092654825e-05,
+    "max_velocity_error": 0.00010433583788232478,
+    "max_mach": 0.06934513042689622,
+    "peak_x": 95,
+    "peak_y": 47,
+    "peak_z": 2,
+    "outlet_corner_energy_over_initial": 1000803.2399283259,
+    "outlet_middle_energy_over_initial": 44506.50494087572,
+    "side_energy_over_initial": 7.091384565346895,
+    "core_energy_over_initial": 4.374853865641926
+  },
+  "boundary_ranges": {
+    "CharacteristicTransport_-1,-1,0": {
+      "incoming": [
+        -0.028284271247461898,
+        -0.028284271247461898
+      ],
+      "derivative": [
+        0.0,
+        0.0
+      ]
+    },
+    "CharacteristicTransport_-1,0,0": {
+      "incoming": [
+        -0.04,
+        -0.04
+      ],
+      "derivative": [
+        0.0,
+        0.0
+      ]
+    },
+    "CharacteristicTransport_-1,1,0": {
+      "incoming": [
+        -0.028284271247461898,
+        -0.028284271247461898
+      ],
+      "derivative": [
+        0.0,
+        0.0
+      ]
+    },
+    "CharacteristicTransport_0,-1,0": {
+      "clock": [
+        2900.0,
+        2900.0
+      ]
+    },
+    "CharacteristicTransport_0,1,0": {
+      "clock": [
+        2900.0,
+        2900.0
+      ]
+    },
+    "CharacteristicTransport_1,-1,0": {
+      "incoming": [
+        0.028020927392944872,
+        0.028584915599713996
+      ],
+      "derivative": [
+        -1.0912924119171018e-06,
+        1.1982770351257402e-06
+      ]
+    },
+    "CharacteristicTransport_1,0,0": {
+      "incoming": [
+        0.03952605379501851,
+        0.04060154769033636
+      ],
+      "derivative": [
+        -1.9376397417687594e-06,
+        2.3962344233382085e-06
+      ]
+    },
+    "CharacteristicTransport_1,1,0": {
+      "incoming": [
+        0.027782362465451578,
+        0.028849156486952177
+      ],
+      "derivative": [
+        -2.0466804647755778e-06,
+        2.2563762395520597e-06
+      ]
+    }
+  },
+  "elapsed_s": 7.47470918000181,
+  "boundedness_gate_passed": false,
+  "strong_growth_detected": true,
+  "farfield_sha256": "f4b917ca09580fc4a74c4136e6c53e51e9f899c9fa272f17fbb5d22d9793239c"
+}

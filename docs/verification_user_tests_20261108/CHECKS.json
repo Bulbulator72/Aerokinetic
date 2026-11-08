@@ -1,0 +1,17 @@
+{
+  "unit_tests": {
+    "status": "passed",
+    "count": 8
+  },
+  "offline_installed_wheel_smoke": "passed",
+  "stop_resume_vs_uninterrupted": "passed",
+  "cpu1_vs2_and_independent_budgets": "passed",
+  "package_and_original_config_preserved": "passed",
+  "lf_crlf_payload_roundtrip": "passed",
+  "pause_during_preparation_and_exclusive_setup": "passed",
+  "final_harness_warm_cache_smoke": "passed",
+  "windows_cmd_powershell_msvc": "not_run",
+  "full_N32_N64_user_study": "not_run",
+  "experimental_validation": "inconclusive",
+  "solver_changed": false
+}

@@ -1,0 +1,158 @@
+{
+  "settings": {
+    "core_id": "d9a4f47c3c09e75288bd",
+    "threads": 2,
+    "grids": [
+      "N16",
+      "N32"
+    ],
+    "duration": 0.12,
+    "smoke": true
+  },
+  "cases": {
+    "N16": {
+      "project_sha256": "f1b1f99bc5f7662d12281928a338ea3349482a2b9d8a4fd85a07f1cce11af68a",
+      "case_fingerprint": "eefc3fd563adffaa269a8e1230e9fad81572fa4644eabab757bc989675c07337",
+      "plan": {
+        "shape": [
+          136,
+          51,
+          8
+        ],
+        "origin": [
+          -1.749391012564956,
+          -1.5985250833015587
+        ],
+        "dx": 0.0625,
+        "span": 0.5,
+        "viscosity": 2.1333333333333335e-05,
+        "relaxation_rate": 1.9997440327638065,
+        "dt_convective": 0.0025,
+        "dt_seconds": 0.00012836006672532917,
+        "estimated_memory_gib": 0.0651143491268158,
+        "notes": [
+          "Uniform isotropic grid; no mesh refinement or wall model.",
+          "Accuracy is unvalidated until grid/domain/span/Mach/statistical convergence and tunnel comparison.",
+          "The initial spanwise perturbation is numerical seeding, not a specified tunnel turbulence spectrum.",
+          "Research exterior_regularized_fd_v1; physical shape unchanged, auxiliary storage shape=(138, 53, 8); pre-collision PDFs, explicit exterior source. Uniform CPU only; no validated airfoil accuracy or full viscous NSCBC.",
+          "Fewer than 256 cells/chord: use for development; do not assume a resolved boundary layer.",
+          "Relaxation time is close to 0.5; low-viscosity stability and resolution require special checks."
+        ]
+      },
+      "end_step": 48
+    },
+    "N32": {
+      "project_sha256": "f3a38bb8c0e1d95b05f108ebfe2647593d87ee3b57cf6aba3e0360dba463b4e4",
+      "case_fingerprint": "d810fbe086da7caebd315aae17faaf01646a887c13f630fa621ad06d54fb9bf8",
+      "plan": {
+        "shape": [
+          272,
+          101,
+          16
+        ],
+        "origin": [
+          -1.749391012564956,
+          -1.5829000833015587
+        ],
+        "dx": 0.03125,
+        "span": 0.5,
+        "viscosity": 4.266666666666667e-05,
+        "relaxation_rate": 1.999488131038454,
+        "dt_convective": 0.00125,
+        "dt_seconds": 6.418003336266459e-05,
+        "estimated_memory_gib": 0.44112011790275574,
+        "notes": [
+          "Uniform isotropic grid; no mesh refinement or wall model.",
+          "Accuracy is unvalidated until grid/domain/span/Mach/statistical convergence and tunnel comparison.",
+          "The initial spanwise perturbation is numerical seeding, not a specified tunnel turbulence spectrum.",
+          "Research exterior_regularized_fd_v1; physical shape unchanged, auxiliary storage shape=(274, 103, 16); pre-collision PDFs, explicit exterior source. Uniform CPU only; no validated airfoil accuracy or full viscous NSCBC.",
+          "Fewer than 256 cells/chord: use for development; do not assume a resolved boundary layer.",
+          "Relaxation time is close to 0.5; low-viscosity stability and resolution require special checks."
+        ]
+      },
+      "end_step": 96
+    }
+  },
+  "study_protocol": {
+    "schema": 1,
+    "date_utc": "2026-11-08",
+    "purpose": "Windows execution, cross-platform implementation control and a first N32/N64 resolution comparison. No physical-accuracy certification.",
+    "core_version": "0.5.3",
+    "source_commit": "7b53e22693b5e0971e23f0bf9770697fe1f8a5ac",
+    "physics": {
+      "profile": "Preserved open-trailing-edge NACA0012 contours in base_project.json",
+      "reynolds": 30000,
+      "alpha_deg": 4,
+      "physical_chord_m": 0.15,
+      "moment_reference_chords": [
+        0.25,
+        0
+      ],
+      "lattice_speed": 0.04,
+      "sgs": "none",
+      "span_chords": 0.5,
+      "upstream_chords": 1.5,
+      "downstream_chords": 6,
+      "transverse_chords": 1.5,
+      "perturbation_relative": 0.0001,
+      "seed": 31,
+      "farfield": "exterior_regularized_fd_v1",
+      "target": "cpu",
+      "viscosity": "0.04*N/30000; no viscosity fitting",
+      "force_clock": "(step-.5)*dt; cumulative mass ends at step*dt"
+    },
+    "default_study": {
+      "grids": [
+        32,
+        64
+      ],
+      "duration_t_star": 12,
+      "fixed_average_window": [
+        6,
+        12
+      ],
+      "sample_interval_t_star": 0.01,
+      "frame_interval_t_star": 3,
+      "checkpoint_interval_t_star": 1,
+      "termination": "fixed time only; no wall time limit or steady-flow stop",
+      "thread_selection": "min(8, available logical CPUs), frozen in PLAN.json"
+    },
+    "implementation_gates_before_execution": {
+      "cpu1_vs_many_pdf_max_error": 2e-12,
+      "cpu1_vs_many_load_max_error": 2e-10,
+      "independent_fluid_budget_per_cell": 2e-12,
+      "wall_mass_and_force_absolute_error": 2e-10,
+      "wall_torque_absolute_error": 2e-09,
+      "fresh_process_restart_pdf_and_load_error": 0,
+      "proposed_cross_platform_n32_mean_and_rms_absolute_error": 1e-06
+    },
+    "linux_n32_reference": {
+      "window": [
+        6,
+        12
+      ],
+      "samples": 600,
+      "source": "Completed same-code N32/downstream6 CPU2 reference; not wind-tunnel measurements",
+      "mean": {
+        "cl": 0.06841284220498985,
+        "cd": 0.07381336216657622,
+        "cm": 0.02214423982702637
+      },
+      "rms": {
+        "cl": 0.01595848881152361,
+        "cd": 0.0009019352809544433,
+        "cm": 0.0007052318275165274
+      }
+    },
+    "experiment": {
+      "doi": "10.2322/jjsass.55.439",
+      "figures": "5 Cl, 6 Cd, 11 Cm(c/4)",
+      "comparison": "Preserved digitized measurements at Re30000, interpolated to alpha4; no parameter fitting",
+      "limits": "Marker bounds are not full tunnel uncertainty. Transition, turbulence, trailing-edge geometry and periodic span are not certified equivalent."
+    },
+    "interpretation": "Report means/RMS/drift and differences between two grids. Do not infer Richardson/GCI/order, DNS, statistical convergence, high-Re readiness or validated Cl/Cd/Cm from two cases.",
+    "return_archive": "CSV, JSON, logs, SVG and last section frame only; full checkpoints and compiler cache stay local."
+  },
+  "created_utc": "2026-11-08T10:21:31.240822+00:00",
+  "initial_jit_cache_empty": false
+}

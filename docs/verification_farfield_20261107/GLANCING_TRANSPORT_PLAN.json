@@ -1,0 +1,8 @@
+{
+ "date_utc":"2026-11-07",
+ "reason":"Both explicit fluid-feedback time rules failed the fixed long-time glancing shear test at all three wavelengths. A time-rule replacement alone is not a demonstrated fix.",
+ "model":"For Un_inf=0 the already derived linearized solenoidal condition reduces to dRm/dt+Ut_inf dot grad(Rm)=0. Transport the incoming characteristic's OWN initial state, rather than repeatedly differentiating the evolving interior trace. Exact constant-velocity characteristic tracing, with one-time multilinear interpolation of the saved initial lattice samples; no repeated per-step interpolation. True reservoir inflow and the previously verified non-glancing outflow correction remain unchanged.",
+ "implementation":"A per-glancing-normal scalar initial invariant field plus an integer per-link clock, both checkpointed. Sample the initial field at normal-foot minus U_inf*clock. Periodic axes wrap; nonperiodic exterior continuation is the freestream invariant. No extra incoming disturbance is prescribed. Boundary applies exactly once per fluid step.",
+ "scope":"A linearized inviscid incoming-vorticity approximation, not full thermal/viscous/nonlinear NSCBC. Initial tangential viscous diffusion is not modeled by the tracing law. Glancing classification uses exactly zero dot(normal,U_inf), no tunable angle or damping parameter.",
+ "gates":"Unchanged GLANCING_STABILITY_PLAN boundedness/density/finite gates for all wavelengths. Then unchanged earlier uniform/acoustic/radiation/shear/corner-vortex/seam/budget gates, exact restart, cold offline and fixed N32 airfoil cases. No threshold change or parameter fit. Do not activate for production airfoil use if the fixed completion gate fails."
+}

@@ -1,0 +1,80 @@
+F                                                                        [100%]
+=================================== FAILURES ===================================
+______ test_nonfinite_boundary_diagnostic_does_not_mask_the_flow_failure _______
+
+_ = {'before_stream': <bound method Solver._loads of <aerokinetic.solver.Solver object at 0x7f54dfd75f40>>}
+
+    def fail(**_):
+        s._exterior.source_total[0] = np.nan
+>       raise NumericalFailure("injected nonfinite exterior state")
+E       aerokinetic.solver.NumericalFailure: injected nonfinite exterior state
+
+tests/test_exterior.py:178: NumericalFailure
+
+During handling of the above exception, another exception occurred:
+
+tmp_path = PosixPath('/tmp/pytest-of-agent/pytest-2/test_nonfinite_boundary_diagno0')
+
+    @pytest.mark.integration
+    def test_nonfinite_boundary_diagnostic_does_not_mask_the_flow_failure(tmp_path):
+        from aerokinetic.solver import NumericalFailure
+        s = make_solver()
+        def fail(**_):
+            s._exterior.source_total[0] = np.nan
+            raise NumericalFailure("injected nonfinite exterior state")
+        s._exterior.step = fail
+        with pytest.raises(NumericalFailure,match="injected nonfinite"):
+>           s.run(s.plan.dt_convective,tmp_path/"failed",sample_every=1,check_every=1,frame_every=1)
+
+tests/test_exterior.py:181:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+../aerokinetic_exterior_integration_20261108/env/lib/python3.12/site-packages/aerokinetic/solver.py:522: in run
+    write_json(output / "metadata.json", metadata)
+../aerokinetic_exterior_integration_20261108/env/lib/python3.12/site-packages/aerokinetic/_io.py:28: in write_json
+    handle.write((json.dumps(data, ensure_ascii=False, indent=2, allow_nan=False) + "\n").encode("utf-8"))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/__init__.py:238: in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py:202: in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py:432: in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py:406: in _iterencode_dict
+    yield from chunks
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py:406: in _iterencode_dict
+    yield from chunks
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py:317: in _iterencode_list
+    yield buf + _floatstr(value)
+                ^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+o = nan, allow_nan = False, _repr = <slot wrapper '__repr__' of 'float' objects>
+_inf = inf, _neginf = -inf
+
+    def floatstr(o, allow_nan=self.allow_nan,
+            _repr=float.__repr__, _inf=INFINITY, _neginf=-INFINITY):
+        # Check for specials.  Note that this type of test is processor
+        # and/or platform-specific, so do tests which don't depend on the
+        # internals.
+
+        if o != o:
+            text = 'NaN'
+        elif o == _inf:
+            text = 'Infinity'
+        elif o == _neginf:
+            text = '-Infinity'
+        else:
+            return _repr(o)
+
+        if not allow_nan:
+>           raise ValueError(
+                "Out of range float values are not JSON compliant: " +
+                repr(o))
+E           ValueError: Out of range float values are not JSON compliant: nan
+
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py:240: ValueError
+=========================== short test summary info ============================
+FAILED tests/test_exterior.py::test_nonfinite_boundary_diagnostic_does_not_mask_the_flow_failure
+1 failed in 31.79s

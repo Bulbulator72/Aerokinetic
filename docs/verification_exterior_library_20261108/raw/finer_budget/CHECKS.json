@@ -1,0 +1,54 @@
+{
+  "cells_per_chord": 64,
+  "physical_shape": [
+    544,
+    201,
+    32
+  ],
+  "storage_shape": [
+    546,
+    203,
+    32
+  ],
+  "molecular_nu": 8.533333333333334e-05,
+  "dt_convective": 0.000625,
+  "threads": 2,
+  "construction_seconds": 145.8813784419999,
+  "measured_steps": 32,
+  "total_steps": 40,
+  "measured_wall_seconds": 87.57314188999999,
+  "measured_cpu_seconds": 58.547830089,
+  "peak_rss_gib": 2.2329063415527344,
+  "estimated_memory_gib": 3.229976147413254,
+  "estimated_kernel_wall_hours_for_t12": 14.595523648333332,
+  "estimated_kernel_cpu_hours_for_t12": 9.7579716815,
+  "N128_estimated_memory_gib": 24.683547466993332,
+  "kernels": [
+    {
+      "openmp_parallel_pragma": true,
+      "explicit_two_threads": true,
+      "openmp_lines": [
+        "#pragma omp parallel num_threads(2)",
+        "#pragma omp for schedule(static)"
+      ]
+    },
+    {
+      "openmp_parallel_pragma": true,
+      "explicit_two_threads": true,
+      "openmp_lines": [
+        "#pragma omp parallel num_threads(2)",
+        "#pragma omp for schedule(static)"
+      ]
+    }
+  ],
+  "diagnostics": {
+    "local_mach_max": 0.09614160011338653,
+    "density_mean": 1.0000016500732165,
+    "density_error_max": 0.011809076744400793,
+    "wall_fallback_links": 0
+  },
+  "passed": true,
+  "grid_convergence": "not_run",
+  "experimental_validation": "not_run",
+  "limits": "40steps total are a startup/resource pilot. Extrapolation excludes frame/checkpoint/residual overhead and is affected by shared2CPU quota. N128 is estimated only. No i9/Windows scaling or aerodynamic accuracy claim."
+}

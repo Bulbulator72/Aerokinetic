@@ -1,0 +1,26 @@
+{
+  "date_utc": "2026-11-07",
+  "purpose": "Test a moment-compatible incoming-characteristic boundary at the destination fluid cell, following the measured growing outlet modes. No change to main0.5.1 or installed research0.5.2.",
+  "mechanism_under_test": "Previous NEEP assigns ghost macros from a normal foot and does not enforce the chosen Rminus in the destination fluid cell after streaming. This experiment groups all missing populations of each destination cell, including corners, and enforces Rminus there before the unchanged conservative collision.",
+  "geometry": "D3Q27 with periodic z, arbitrary periodic x/y. A single exterior ghost flag; each link stores the outward normal of its destination owned cell, not the ghost cell. Missing q means the pull predecessor lies outside any nonperiodic axis. Known populations are never changed.",
+  "reconstruction": "Provisional pulled PDFs use actual known populations and normal-foot copies for missing ones. Normalize D3Q27 weights over the missing set. Their mean velocity is vn*n; tangential means and normal/tangent covariance vanish. Add a scalar mass correction and two zero-mass tangent corrections on this set only.",
+  "equations": {
+    "K": "rho_hat*(un_hat-vn)",
+    "density": "vn + K/rho_new - cs*ln(rho_new/rho_inf) = Rminus_target; solve monotonically in log density with6 Newton iterations initialized from rho_hat",
+    "delta_pdf": "Wq*(delta_rho + delta_mt*(cq dot t)/lambda_t +3*delta_mz*cqz)",
+    "tangent_targets": "On background inflow, reservoir tangent velocity; elsewhere provisional pulled tangent velocity. This avoids freezing a tangent component by imposing its previous time value.",
+    "time": "On outward non-glancing cells, Rminus_(n+1)=Rminus_n+F(current owned PDFs), F=Un*div_t(u_t)-Ut dot grad(Rminus). Initial incoming is actual initial Rminus at the destination. On glancing cells trace the own initial scalar to time n+1, not a ghost-foot clock. On background inflow impose Un_inf.",
+    "corner_weights": "Missing-weight sum11/36, vn=-5*sqrt(2)/11, lambda_t=8/11; for a face1/6,-1,1/3. Spanwise variance1/3. These are exact stencil sums, not fitted parameters."
+  },
+  "pre_gates": {
+    "symbolic_stencil_moment_identities": "Exact for all8 x/y boundary normals",
+    "compiled_destination_Rminus_error_max": 0.000000000002,
+    "compiled_known_population_edits": 0,
+    "coherent_memory_copies_error_max": 0.000000000002,
+    "uniform100step_error_max": 0.0000000000005
+  },
+  "subsequent_gates": "Same prior noise shape96x48x8, U=.04, nu=.04*32/30000, seed3107, std1e-8,10000 steps, energy/initial<=1.1; same Fourier modes11/48,4/8 and23/48,2/8 with epsilon1e-6 and half check; same previous acoustic/vortex/shear/radiation/budget/glancing gates. No threshold relaxation. Only after all pass: matched N32 airfoils3c/6c to t*=12.",
+  "resource_estimate": "No new dependency. One saved initial log-density/velocity array with4 doubles per cell (~1.2MiB for noise case); two unchanged27-PDF buffers ~15.2MiB there. Boundary link data and JIT add overhead. Fits known2CPU/8GiB environment; no GPU/Windows check implied.",
+  "limits": "Auxiliary linearized vortex correction is not a full nonlinear viscous NSCBC. Provisional missing PDFs are first-order copies. Corner averaging and turbulent backflow require verification. Positive-density Newton residual is checked independently; no clipping of PDFs or changing viscosity/SGS to pass.",
+  "publication": "Text source/CSV/JSON and hashes only. Keep new binary fields/matrices local after the prior binary-export approval rejection."
+}

@@ -1,0 +1,31 @@
+{
+  "research_candidate": "0.5.2, not released",
+  "wheel_sha256": "a3c2930ffcf45cf326fd09217c1afb9bea69c91299a8d83eafbe31c56e49639f",
+  "isolated_boundary_groups": "passed: eight groups with fixed gates",
+  "targeted_pytest": "passed:22",
+  "earlier_regression_tests": "passed:44 on initial candidate, not relabeled final",
+  "independent_load_and_budget_audit": "passed",
+  "legacy051_uniform_and_refined_continuation": "passed: exact physical state, immutable parents",
+  "installed_linux_cpu_cold_offline": "passed",
+  "relocated_linux_frozen_cold_selftest": "passed",
+  "gui": "not_run",
+  "windows_msvc": "not_run",
+  "gpu": "not_run",
+  "airfoil_duration_gate": "failed: both prescribed t*=12 cases",
+  "candidate3_failure": {
+    "step": 5192,
+    "t_star": 6.49,
+    "local_mach": 0.31314162958324776
+  },
+  "candidate6_failure": {
+    "step": 6640,
+    "t_star": 8.3,
+    "local_mach": 0.33170177459192657
+  },
+  "failure_replay": "passed: exact failure steps, original files unchanged",
+  "experimental_comparison": "inconclusive for legacy; withheld for failed candidates",
+  "grid_span_mach_statistical_convergence": "not_run",
+  "high_re_mechanization": "not_run; input guards retained",
+  "production_decision": "Do not promote characteristic candidates to main or distribute a new application; keep research branch and add failure replay tool to main",
+  "runtime_dependency_changes": false
+}

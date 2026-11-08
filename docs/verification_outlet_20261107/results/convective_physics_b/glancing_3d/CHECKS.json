@@ -1,0 +1,7 @@
+{
+  "last_sampled_step": 10000,
+  "finite": true,
+  "max_energy_over_initial": 1.0,
+  "max_density_error": 2.3274571714360093e-07,
+  "passed": true
+}

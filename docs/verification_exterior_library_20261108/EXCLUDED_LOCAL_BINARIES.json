@@ -1,0 +1,374 @@
+[
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/frozen_reference/after_00000.npz",
+    "bytes": 165916826,
+    "sha256": "c5cc959d2a590ce24f8c5a9304f57d379a612027e6fa71606df60866bf0a9ae3",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/frozen_reference/after_02400.npz",
+    "bytes": 165916826,
+    "sha256": "ec33f84350f3c76c002b6fbf52aa2019e81280c17b0c50e94309066da34652d7",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/frozen_reference/after_09600.npz",
+    "bytes": 165916826,
+    "sha256": "c8be974606d6cad2a2ec0fb3623b190a3e75ac4a102eac3c90041c2e4bf59490",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/frozen_reference/initial.npz",
+    "bytes": 156529572,
+    "sha256": "55be04fc6b6e26fa3eb9d9da3cecf645ffcb40d766fbcfdad1675a9fa6a337ac",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/matched_airfoils/airfoil_down3/checkpoint.npz",
+    "bytes": 179213670,
+    "sha256": "8b71c116da669443a2b5010a5eb31782465a8455540eade300f8e5ecb132e3fe",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/matched_airfoils/airfoil_down3/frames/frame_0000000000.npz",
+    "bytes": 142554,
+    "sha256": "3910de7abe5170eae200200b30d4cac7ce2b652607f44043ae67a12875738331",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/matched_airfoils/airfoil_down3/frames/frame_0000002400.npz",
+    "bytes": 390803,
+    "sha256": "acdf52665724277645dabed6ef16d220d066daeda77bbef23cd176386e43ba8e",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/matched_airfoils/airfoil_down3/frames/frame_0000004800.npz",
+    "bytes": 390127,
+    "sha256": "15ff201917544a7b3a71d6f88e6d27d5588c51f9f0b054c4924a778f4d9183a0",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/matched_airfoils/airfoil_down3/frames/frame_0000007200.npz",
+    "bytes": 390546,
+    "sha256": "e8c1a82cbe56214f67143963a9354b8579756b7f577729dd50bd3eb0f92f81b9",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/matched_airfoils/airfoil_down3/frames/frame_0000009600.npz",
+    "bytes": 390839,
+    "sha256": "afbb68d7e3e9ef3031d44cd7da4ed170903e06df37f00b073175a8cc0995a8eb",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/matched_airfoils/airfoil_down6/checkpoint.npz",
+    "bytes": 274596938,
+    "sha256": "f9cd52b07ab69e4f8aa0d36f84beec0e65f4a7680c6b06918939f673d58bafd7",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/matched_airfoils/airfoil_down6/frames/frame_0000000000.npz",
+    "bytes": 147958,
+    "sha256": "e1b48965748641e362a0b8d78678a22780520a1b97222bdcf1b8a0ab645f1e9c",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/matched_airfoils/airfoil_down6/frames/frame_0000002400.npz",
+    "bytes": 598871,
+    "sha256": "c240d592220bb1160ea0a675eced13e220fec6c0da4699c3135e29e1e4446256",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/matched_airfoils/airfoil_down6/frames/frame_0000004800.npz",
+    "bytes": 603788,
+    "sha256": "a6cf28664de83bc98a5e71f5c80c6fc0e0cf550130f74ba7ae9e8b772bed57e5",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/matched_airfoils/airfoil_down6/frames/frame_0000007200.npz",
+    "bytes": 601865,
+    "sha256": "6360f6e3a37829bbae46e4a58b8cbf59577c9372c62f66cdac1d0a990ebdb3eb",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/matched_airfoils/airfoil_down6/frames/frame_0000009600.npz",
+    "bytes": 605781,
+    "sha256": "bc8e853e885356ef46994c9d94980c6cecacb1c4ac1eb63cf9048eb186b7b417",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/periodic_transport_parity/operator_local_N32.npy",
+    "bytes": 11792,
+    "sha256": "06bea3f157c892a9681644ac5cd45c5ee3b1a04bd7704ab046160add25df9bd1",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/periodic_transport_parity/operator_local_N64.npy",
+    "bytes": 11792,
+    "sha256": "7a08dc798e4096800e3c34db50802b39b3e7bc94b247c39816f0e06c595b33ae",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/finer_budget/pilot_frame_local.npz",
+    "bytes": 1278476,
+    "sha256": "402352b2324fc3d37bca323edd5fa0be10a2772e8bab8ae682f1e9f73e3983ef",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/cold_offline/child/checkpoint.npz",
+    "bytes": 26443494,
+    "sha256": "ba3d1081d144a4dc3acd2b77767f49d47579a7080d364907441901bcf27011ce",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/cold_offline/child/frames/frame_0000000032.npz",
+    "bytes": 92951,
+    "sha256": "d5c9501e1b90395af21c4307cbd84e4450805c9098374598b7675fbb2f019b8c",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/cold_offline/child/frames/frame_0000000040.npz",
+    "bytes": 95949,
+    "sha256": "970e8940a2e016139190d010814a9f81504e1d71e2f2382b09fcc97cf75a9cd9",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/cold_offline/flow.gif",
+    "bytes": 109622,
+    "sha256": "8016e639a87e480e072d65a14b821062b5cb7b1bd5f4c2d98bf7243dfc69bc0a",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/cold_offline/parent/checkpoint.npz",
+    "bytes": 26443514,
+    "sha256": "fc162269677eeec059fe498847f977f0484cc2d0a9fd6e8eaf4c52392c6651a2",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/cold_offline/parent/frames/frame_0000000000.npz",
+    "bytes": 36779,
+    "sha256": "8772fd39db294a0ceda0a254c9001ffc2638df5839bb0ab2c41b240c6c86f637",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/cold_offline/parent/frames/frame_0000000008.npz",
+    "bytes": 81070,
+    "sha256": "e2f5d70db869466feca41262991d275a80b29ef2b176e0c5beda140751fbaabb",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/cold_offline/parent/frames/frame_0000000016.npz",
+    "bytes": 84530,
+    "sha256": "7e1f324d6437c87a573f028bee53fad98833224066bef58a97ff8345e3bb987e",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/cold_offline/parent/frames/frame_0000000024.npz",
+    "bytes": 89090,
+    "sha256": "5509dbae4b37570b77833259e34c98fcdfa729ba5622430e04ef3de2c08cbb32",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/cold_offline/parent/frames/frame_0000000032.npz",
+    "bytes": 92951,
+    "sha256": "d5c9501e1b90395af21c4307cbd84e4450805c9098374598b7675fbb2f019b8c",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/cold_offline/reference/checkpoint.npz",
+    "bytes": 26443514,
+    "sha256": "fc162269677eeec059fe498847f977f0484cc2d0a9fd6e8eaf4c52392c6651a2",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/cold_offline/reference/frames/frame_0000000000.npz",
+    "bytes": 36779,
+    "sha256": "8772fd39db294a0ceda0a254c9001ffc2638df5839bb0ab2c41b240c6c86f637",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/cold_offline/reference/frames/frame_0000000008.npz",
+    "bytes": 81070,
+    "sha256": "e2f5d70db869466feca41262991d275a80b29ef2b176e0c5beda140751fbaabb",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/cold_offline/reference/frames/frame_0000000016.npz",
+    "bytes": 84530,
+    "sha256": "7e1f324d6437c87a573f028bee53fad98833224066bef58a97ff8345e3bb987e",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/cold_offline/reference/frames/frame_0000000024.npz",
+    "bytes": 89090,
+    "sha256": "5509dbae4b37570b77833259e34c98fcdfa729ba5622430e04ef3de2c08cbb32",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/cold_offline/reference/frames/frame_0000000032.npz",
+    "bytes": 92951,
+    "sha256": "d5c9501e1b90395af21c4307cbd84e4450805c9098374598b7675fbb2f019b8c",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/cold_offline_final_v2/jit/mod_12756e8f1d98ea88442a965d57cc30ea54cd694b108fd992ae7406b342a3aab9.so",
+    "bytes": 25096,
+    "sha256": "3605d1588cd0719b0c2cf986a0a815889b6952c3a614cd1dc5efe13572850b1e",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/cold_offline_final_v2/jit/mod_1814eb6fa66aaa11c05b97b5ef38684130883678ccd69ef01b068230594ac141.so",
+    "bytes": 16928,
+    "sha256": "974585688451aa85c06a0413dc7b9f8dccbd15673dd97c18acb8c47acd87e775",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/cold_offline_final_v2/jit/mod_23dedaa960560aef146eec55af8ee88237e833a1c6ec6a6bd5b098e37586917e.so",
+    "bytes": 16928,
+    "sha256": "43e477845c5244bb69963c84c9bf8163d9387d7ba9cef5cef93aaaabee05bffe",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/cold_offline_final_v2/jit/mod_24c43b4fe6df7a7cab52ffb499d64cb2c33959eb8dfb13e3270f97dc3d718b53.so",
+    "bytes": 29080,
+    "sha256": "2ff3aebe32ab4d793a6c7bc5bcf4f09d5db3884db9c08cc38a9afec04513d145",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/cold_offline_final_v2/jit/mod_2d7d88c9038195fa21c8f0a7b387b6b475e581fa2c237ff5cd903c51b33ab411.so",
+    "bytes": 16792,
+    "sha256": "3532714ec5b9db72dc727104d9fbbb6d3a4e48bc4c6554c80ee32cfbe0e48789",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/cold_offline_final_v2/jit/mod_6b9d712e175698d935c1f3648a9b0c92427fa6bf740cdfd8775b39cd4d10dad0.so",
+    "bytes": 16792,
+    "sha256": "2753fdb775c84892e32d866991f7151fa94be29ae75479cd7dc022c0cd75e5ea",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/cold_offline_final_v2/jit/mod_6da60be7dbb10301bc6f897a9bcc409ee5b3277b63b4b8e3b180a82d8a975d48.so",
+    "bytes": 16792,
+    "sha256": "66c2026c0a0452bce0fd11522a2d656c6d944c111cc623c93f2bee5f61b6747f",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/cold_offline_final_v2/jit/mod_7b408166db14209fb40c2841f0ba88f2a961522402cdc8411f741c1d3e5ead15.so",
+    "bytes": 16928,
+    "sha256": "0b8a7eed804d056324769a122e7027b4596505489f048f9ae9ce512e58c37695",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/cold_offline_final_v2/jit/mod_f0ab101becd11f61870b91315e0a5cb470c638ae2b30a2feceadd8861d47eee2.so",
+    "bytes": 25096,
+    "sha256": "6c833d92972bdc6474826c6d13add1c2845b8567d1061991ab24a77ed2b588e8",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/cold_offline_final_v2/runtime/child/checkpoint.npz",
+    "bytes": 26443498,
+    "sha256": "669beaa0aae0223bf031195c5a69f4e1dd3183ccb2e515f11b31380e77a80fa2",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/cold_offline_final_v2/runtime/child/frames/frame_0000000032.npz",
+    "bytes": 92941,
+    "sha256": "dbf44f50fc29fdd709be7345a8ee008ac280b8abab6fb4c16811ee4f4beb7d38",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/cold_offline_final_v2/runtime/child/frames/frame_0000000040.npz",
+    "bytes": 96002,
+    "sha256": "2be2aef0a3f65dd70dd9adb98928f3bbd5645db05945f28e206235a4e669e68b",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/cold_offline_final_v2/runtime/flow.gif",
+    "bytes": 109622,
+    "sha256": "8016e639a87e480e072d65a14b821062b5cb7b1bd5f4c2d98bf7243dfc69bc0a",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/cold_offline_final_v2/runtime/parent/checkpoint.npz",
+    "bytes": 26443518,
+    "sha256": "fc491e6ca3c83506fda2cbac14204be7c37bda4eb44de2f93e86fef03cb71a24",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/cold_offline_final_v2/runtime/parent/frames/frame_0000000000.npz",
+    "bytes": 36779,
+    "sha256": "8772fd39db294a0ceda0a254c9001ffc2638df5839bb0ab2c41b240c6c86f637",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/cold_offline_final_v2/runtime/parent/frames/frame_0000000008.npz",
+    "bytes": 81120,
+    "sha256": "2a11ea97996cb1d47dbc4a344f7faad1440faac156a170c2c749d3105a1fba69",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/cold_offline_final_v2/runtime/parent/frames/frame_0000000016.npz",
+    "bytes": 84526,
+    "sha256": "3670e250af23bee2303ea011f509223765be0f9539a6ca4036ac3e4836d83ce1",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/cold_offline_final_v2/runtime/parent/frames/frame_0000000024.npz",
+    "bytes": 89098,
+    "sha256": "0eed15b29c12d2a13bb0fa55e5b846b60a1bbb51f536da3f35de6b63416511f6",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/cold_offline_final_v2/runtime/parent/frames/frame_0000000032.npz",
+    "bytes": 92941,
+    "sha256": "dbf44f50fc29fdd709be7345a8ee008ac280b8abab6fb4c16811ee4f4beb7d38",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/cold_offline_final_v2/runtime/reference/checkpoint.npz",
+    "bytes": 26443518,
+    "sha256": "fc491e6ca3c83506fda2cbac14204be7c37bda4eb44de2f93e86fef03cb71a24",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/cold_offline_final_v2/runtime/reference/frames/frame_0000000000.npz",
+    "bytes": 36779,
+    "sha256": "8772fd39db294a0ceda0a254c9001ffc2638df5839bb0ab2c41b240c6c86f637",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/cold_offline_final_v2/runtime/reference/frames/frame_0000000008.npz",
+    "bytes": 81120,
+    "sha256": "2a11ea97996cb1d47dbc4a344f7faad1440faac156a170c2c749d3105a1fba69",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/cold_offline_final_v2/runtime/reference/frames/frame_0000000016.npz",
+    "bytes": 84526,
+    "sha256": "3670e250af23bee2303ea011f509223765be0f9539a6ca4036ac3e4836d83ce1",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/cold_offline_final_v2/runtime/reference/frames/frame_0000000024.npz",
+    "bytes": 89098,
+    "sha256": "0eed15b29c12d2a13bb0fa55e5b846b60a1bbb51f536da3f35de6b63416511f6",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/cold_offline_final_v2/runtime/reference/frames/frame_0000000032.npz",
+    "bytes": 92941,
+    "sha256": "dbf44f50fc29fdd709be7345a8ee008ac280b8abab6fb4c16811ee4f4beb7d38",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/release/aerokinetic-0.5.3-py3-none-any.whl",
+    "bytes": 140759,
+    "sha256": "08e6ac2069c518d0dd3343b085a3f7cb2c482434cd985b6c935bd3fa88d4c523",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  },
+  {
+    "local_path": "/workspace/aerokinetic_exterior_integration_20261108/release_final/aerokinetic-0.5.3-py3-none-any.whl",
+    "bytes": 140962,
+    "sha256": "4e334e1db6f0a5e33dcbb12f32be2dc2f6ecafca86e1b8cf658f86633ad25942",
+    "reason": "Local numerical state/build/cache only. Source, text diagnostics and hashes published instead."
+  }
+]

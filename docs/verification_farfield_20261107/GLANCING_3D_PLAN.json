@@ -1,0 +1,7 @@
+{
+ "date_utc":"2026-11-07",
+ "purpose":"Exercise transport of the incoming initial characteristic in two tangential dimensions with nonzero third freestream velocity and repeated periodic wrapping",
+ "case":{"shape":[64,24,32],"periodic_axes":[true,false,true],"freestream":[0.04,0,0.01],"initial":"rho=1, uy=2e-5*cos(2*pi*x/16+2*pi*z/16), other velocities freestream; independent of y","viscosity":0.00004266666666666667,"steps":10000,"sample_every":100},
+ "gates":{"max_sampled_perturbation_energy_over_initial":1.1,"max_sampled_abs_density_error":0.000002,"finite_fields":true},
+ "scope":"Same boundedness gates as GLANCING_STABILITY_PLAN; not a phase-accuracy claim for the initial-characteristic interpolation or a turbulence/airfoil validation."
+}

@@ -1,0 +1,35 @@
+{
+  "reynolds": 30000,
+  "alpha_deg": 4,
+  "physical_chord_m": 0.15,
+  "physical_speed_m_s": 2.921469344530978,
+  "physical_mach": 0.008585133582515718,
+  "lattice_speed": 0.04,
+  "lattice_mach": 0.06928203230275509,
+  "molecular_nu_lattice": 4.266666666666667e-05,
+  "tau_lattice": 0.500128,
+  "physical_nu_m2_s": 1.4607346722654891e-05,
+  "physical_density_kg_m3": 1.225000018124288,
+  "mean_free_path_m_estimated": 6.365624517364194e-08,
+  "knudsen_estimated": 4.2437496782427963e-07,
+  "mean_free_path_convention": "mu/p*sqrt(pi*R*T/2); kinetic estimate only, not a DSMC input or resolved molecular trajectory",
+  "atmosphere": {
+    "temperature_k": 288.15,
+    "pressure_pa": 101325.0,
+    "gas_constant": 287.05287,
+    "dynamic_viscosity": 1.7894e-05
+  },
+  "geometry_source": "examples/naca0012_re30000_n32_exterior_down3.json",
+  "geometry_source_sha256": "e66f07286eb1c643da90b7821e99de35ef55b617cd1b254a611c26ee1b41bd06",
+  "moment_reference_input": [
+    0.25,
+    0.0
+  ],
+  "reference_chord_input": 1.0,
+  "span_chords": 0.5,
+  "initial_perturbation_relative": 0.0001,
+  "seed": 31,
+  "sgs": "none",
+  "boundary": "exterior_regularized_fd_v1; Bouzidi solid; periodicz",
+  "force_clock": "(step-.5)*dt; pre_collision state at step*dt"
+}

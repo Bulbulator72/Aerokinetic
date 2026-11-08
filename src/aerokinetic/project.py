@@ -68,10 +68,15 @@ class Project:
         return cls.from_dict(json.loads(path.read_text(encoding="utf-8-sig")), path.resolve().parent)
 
     def as_dict(self):
+        grid = asdict(self.grid)
+        # An absent field in old projects means the unchanged legacy boundary.
+        # Omit the default to preserve their canonical case fingerprints.
+        if grid["farfield"] == "legacy":
+            del grid["farfield"]
         return {"format": "aerokinetic_project", "schema_version": 1, "title": self.title,
                 "geometry": {"elements": [{"name": e.name, "xy": e.xy.tolist()} for e in self.section.elements],
                              "chord": self.section.chord, "moment_reference": self.section.moment_reference},
-                "flow": asdict(self.flow), "grid": asdict(self.grid), "run": asdict(self.run)}
+                "flow": asdict(self.flow), "grid": grid, "run": asdict(self.run)}
 
     def save(self, path):
         write_json(path, self.as_dict())

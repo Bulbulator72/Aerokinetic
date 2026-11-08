@@ -1,0 +1,13 @@
+case,coefficient,calculated,experiment,signed_difference,rms_fluctuation_not_mean_error,last_minus_first_half_mean,validation
+legacy_down3,cl,0.0924354515196035,0.3087391322234979,-0.2163036807038944,0.188564401499344,0.015229709917468928,inconclusive
+legacy_down3,cd,0.07583910464018687,0.04450936437474284,0.03132974026544403,0.010958969036322532,0.0003480992145514783,inconclusive
+legacy_down3,cm,0.019699549041990862,-0.02053270491438635,0.04023225395637721,0.041439205070345396,-0.005670080945702351,inconclusive
+legacy_down6,cl,0.0903162000736996,0.3087391322234979,-0.2184229321497983,0.05601384028666551,-0.0030230352233244773,inconclusive
+legacy_down6,cd,0.07582444533536173,0.04450936437474284,0.03131508096061889,0.0035763611907301917,-0.0007937131903901357,inconclusive
+legacy_down6,cm,0.0213772077726215,-0.02053270491438635,0.04190991268700785,0.012156475730068466,-6.606229673713354e-05,inconclusive
+characteristic_down3,cl,,0.3087391322234979,,,,failed duration gate; comparison withheld
+characteristic_down3,cd,,0.04450936437474284,,,,failed duration gate; comparison withheld
+characteristic_down3,cm,,-0.02053270491438635,,,,failed duration gate; comparison withheld
+characteristic_down6,cl,,0.3087391322234979,,,,failed duration gate; comparison withheld
+characteristic_down6,cd,,0.04450936437474284,,,,failed duration gate; comparison withheld
+characteristic_down6,cm,,-0.02053270491438635,,,,failed duration gate; comparison withheld

@@ -1,0 +1,47 @@
+{
+  "scope": "Isolated centered-advection ODE model, not the spectrum of coupled LBM+NEEP+boundary; supports a hypothesis, not a proof of the observed full-solver failure",
+  "rows": [
+    {
+      "wavelength_cells": 16,
+      "rule": "lagged_average",
+      "alpha": 0.015307337294603592,
+      "max_amplification_one_step": 1.000234177458886,
+      "dominant_mode_energy_growth_10000": 108.0939625515243
+    },
+    {
+      "wavelength_cells": 16,
+      "rule": "ab2",
+      "alpha": 0.015307337294603592,
+      "max_amplification_one_step": 1.0000000137322644,
+      "dominant_mode_energy_growth_10000": 1.0002746830053177
+    },
+    {
+      "wavelength_cells": 8,
+      "rule": "lagged_average",
+      "alpha": 0.028284271247461898,
+      "max_amplification_one_step": 1.0007984056396186,
+      "dominant_mode_energy_growth_10000": 8552563.90298657
+    },
+    {
+      "wavelength_cells": 8,
+      "rule": "ab2",
+      "alpha": 0.028284271247461898,
+      "max_amplification_one_step": 1.000000160256301,
+      "dominant_mode_energy_growth_10000": 1.0032102676686951
+    },
+    {
+      "wavelength_cells": 4,
+      "rule": "lagged_average",
+      "alpha": 0.04,
+      "max_amplification_one_step": 1.0015936449237424,
+      "dominant_mode_energy_growth_10000": 67796276045621.164
+    },
+    {
+      "wavelength_cells": 4,
+      "rule": "ab2",
+      "alpha": 0.04,
+      "max_amplification_one_step": 1.0000006420528207,
+      "dominant_mode_energy_growth_10000": 1.0129238526383566
+    }
+  ]
+}

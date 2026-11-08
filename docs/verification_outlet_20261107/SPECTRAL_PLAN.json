@@ -1,0 +1,23 @@
+{
+  "date_utc": "2026-11-07",
+  "purpose": "Measure the amplification operator of the actual coupled D3Q27 stream-collide and straight characteristic boundary; do not keep adding time-order variants after failed AB3 noise tests.",
+  "state": "For one integer transverse Fourier mode, Nx*27 owned PDF amplitudes plus the coherent outlet incoming-invariant and derivative histories. Periodic y,z, nonperiodic x, constant reservoir inflow. Boundary link histories are indexed by their normal foot, not their originating fluid point.",
+  "shape": [24, 8, 8],
+  "velocity": [0.04, 0, 0],
+  "density": 1,
+  "viscosity": 0.00004266666666666667,
+  "modes_yz_integer": [[1, 0], [2, 0], [4, 0], [1, 1], [2, 2]],
+  "candidates": ["original", "constant", "ab3"],
+  "operator": "Central plus/minus perturbations of every state basis, followed by exactly one actual time_step; complex Fourier projection of the difference. All PDF buffers and boundary histories reset from a uniform equilibrium before each evaluation.",
+  "epsilon_primary": 0.000001,
+  "epsilon_check": 0.0000005,
+  "checks": {
+    "spectral_radius_epsilon_difference_max": 0.000005,
+    "coherent_history_copies_max_error": 0.000000000002,
+    "modal_map_relative_error_max": 0.00002,
+    "growth_classification": "A radius greater than 1+1e-6 is unstable in this linearized finite-domain block. A radius below that threshold is only this mode's result, not a general stability proof or airfoil acceptance."
+  },
+  "outputs": ["eigenvalues CSV", "leading mode magnitude versus x CSV", "operator matrix SHA256, without exporting its binary", "central-difference and modal-map diagnostics", "boundary history write-order audit"],
+  "unchanged": ["collision, bulk rate, viscosity, Reynolds reference, lattice speed", "previous physical and noise acceptance gates", "main0.5.1 and Windows distribution"],
+  "scope": "Linear code verification around uniform equilibrium, not experimental validation. Run the epsilon check first on the leading unstable mode before extending work."
+}

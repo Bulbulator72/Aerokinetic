@@ -1,0 +1,28 @@
+rectangle 0 1.0 (np.int64(83), np.int64(29), np.int64(2))
+rectangle 1000 0.019431678997735315 (np.int64(95), np.int64(47), np.int64(2))
+rectangle 2000 15.007310944686315 (np.int64(95), np.int64(47), np.int64(2))
+{
+  "case": "rectangle",
+  "version": "0.5.2",
+  "installed": "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/aerokinetic/__init__.py",
+  "initial_noise_sha256": "8cffaab76d458180be99119e04a236fb8809e17707d3dbea7e8dfa625759f5f2",
+  "shape": [
+    96,
+    48,
+    8
+  ],
+  "periodic": [
+    false,
+    false,
+    true
+  ],
+  "last_sampled_step": 2900,
+  "finite": true,
+  "max_energy_over_initial": 20426.149795433477,
+  "elapsed_s": 7.518276345999766,
+  "boundedness_gate_passed": false,
+  "strong_growth_detected": true,
+  "candidate": "ab3",
+  "farfield_source": "/workspace/aerokinetic_outlet_20261107/boundary_ab3.py",
+  "farfield_sha256": "0633bec2a1db2865dbe2b0b2172ce93616816c966939daf2e249815a3469dd48"
+}

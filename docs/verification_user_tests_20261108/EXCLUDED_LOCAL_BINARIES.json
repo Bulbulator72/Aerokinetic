@@ -1,0 +1,1436 @@
+[
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/smoke/FOR_REVIEW.zip",
+    "bytes": 647888,
+    "sha256": "f93816705bfefb4eaf0e8bcd00d6e53b5e04ff964bca57ee5ae45f045fbf8d7a",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/smoke/study/cache/jit/mod_00ce6ad88e2fa9fbce763c2cb87b0c5cf7d961334fea36bd7df0c607adb87945.so",
+    "bytes": 16488,
+    "sha256": "62d8ea407a9f0b464a093c2152014dcb69df360360464689351cf8e7d8140892",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/smoke/study/cache/jit/mod_02a75f0bb082fbb9d71326d7aed2d82a1b56adbb420644bb7ce9fc4931a07bd9.so",
+    "bytes": 16792,
+    "sha256": "b3fd9bee8db5c5d9274808c457cae4eaeae7867334f68fd38842791bfc8a9efe",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/smoke/study/cache/jit/mod_02b4fb248a768accc551e46542823891c926b0297332f2c40e1dc0fefde507a0.so",
+    "bytes": 16792,
+    "sha256": "792db601b2ecd661757e7989d846a2e15a055da5fb333b419e066194cc736363",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/smoke/study/cache/jit/mod_0e3fd81277ee7e3f472bba4e97755d024d817d7d063c98c85557f4878d1a2186.so",
+    "bytes": 16928,
+    "sha256": "cbea8b1f0a673ab98a1d15cdc7a13d58cb40727dc533cf83e7925e0758d99efb",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/smoke/study/cache/jit/mod_37e1a6495ce5ec6713c6dbb6fba36adc8eceeb5123d7b89ac2856e5f268b7adc.so",
+    "bytes": 16488,
+    "sha256": "fd7c8157441a3a6acaf71995dff3724d08c4e9ad11b82e04e6066553ff817cb2",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/smoke/study/cache/jit/mod_41ad569cbe97f2a9c12dbc147442b8c1cbe2b8be8e518eaaaa31d5c1fc48a3f5.so",
+    "bytes": 16696,
+    "sha256": "f2a450072ab939545cb27a5ac5eaf4136ad715958b4ab678fdb65ff48f5fd71d",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/smoke/study/cache/jit/mod_518b7080b80136815233f842caf18351da7bbd72af62ba47eb22076b25d284cf.so",
+    "bytes": 25096,
+    "sha256": "85742130152433b76ef5515100d21f396049b331896dd7508df3a3be5abd4ed7",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/smoke/study/cache/jit/mod_5541b90b5bd1a974ca72694aa4c11a7b4070eed09819a8a6b3ddb0c8b0c2eae0.so",
+    "bytes": 16792,
+    "sha256": "9709183f14432951758da6db06e29e3736b55c5c6b229bfcdbefbbf0d99bbc6f",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/smoke/study/cache/jit/mod_5be9d997f146fbd3427c0fd6c0e3309b22b3eceac02b312bbfee28ab1d0f4875.so",
+    "bytes": 29080,
+    "sha256": "1adc8c8952e8b5e596516303f07fa6da30b6301130bc558437e489939fdc0a29",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/smoke/study/cache/jit/mod_5ec79ba86e6f14868d0d4851073222cbda972d2b8bd829213be566094bc2be84.so",
+    "bytes": 16792,
+    "sha256": "281a4fdf0b375c533d8720bc5f47033b0c0bfb7d1cd91d191f7379ae9b337ac8",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/smoke/study/cache/jit/mod_7e71d64c86be5b227dd06bf7bb5f88e5ce7eba8558663f668ae33b454b616646.so",
+    "bytes": 16792,
+    "sha256": "c9ef4a132e54c2a55336ea1fefd57d4cdd8e35e1d96a55c1d61c329e4d7d80a5",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/smoke/study/cache/jit/mod_836a7166cf6003fb337676912b1902625fe8b4ed1f2e451a8163ca7f713b0be4.so",
+    "bytes": 21000,
+    "sha256": "39126a1fbc63fd0757108c3fbfc9cf70660760479ef5c789b300bfe422c3ed9a",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/smoke/study/cache/jit/mod_85201ccd089e5057000185ae065ab895819310676cbfd3030a266b036d29aee2.so",
+    "bytes": 16928,
+    "sha256": "f01c18f363c852da39fca1d2704c467d789529a11bacfcab66d9d97d16bbbf61",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/smoke/study/cache/jit/mod_ada8a9fbf40ebba13dfb490a194a87c6542aa46619a2c6adadd26dbfa72f3dea.so",
+    "bytes": 16928,
+    "sha256": "c65d6374f7b9134a3148eb8c4150278f3ca9ad20a85f9beed7dcdfcdd5ccfe3b",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/smoke/study/cache/jit/mod_af4d169031a621164ee81ad12234fd1944e9899867812cdcdcdfc310a1a73eaf.so",
+    "bytes": 16928,
+    "sha256": "b76a30e6fc64b82bec9de9e9a1c8a0f2f414afa37f07658dbbeb58c02bb633ad",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/smoke/study/cache/jit/mod_d19827d54bc72c441d7bd3e9c6327a0bdb5c803e68b5e23cd3ebb568e71a0d9d.so",
+    "bytes": 25096,
+    "sha256": "f149b0d4680a46da9a79dc305943e7e3461b734f324b59d6c55ed7b7fc888517",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/smoke/study/cache/jit/mod_d27bb02083f1940d430c825c5de5a292f419e548ae446524db588d173b08c1b2.so",
+    "bytes": 16488,
+    "sha256": "ea5f1debd7ae3435e44d33c0911bb8fb75deda1c9d86f8152810c0862de2d469",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/smoke/study/cache/jit/mod_dc28ad87e02744d44b78ae677748328361d03425edbc03145e232574e76f0a7d.so",
+    "bytes": 16928,
+    "sha256": "f53ad40dd5e20280dd4273d431ed6c3e88c4da47687cf042da924211deae67aa",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/smoke/study/cache/jit/mod_e094ccdd710877a9c4aa8b5de3e813c0b61342466efdbb1814123ebd0e3050f6.so",
+    "bytes": 29080,
+    "sha256": "eea5ba82ae81b29e8f18b16b79e49ef1341d4b0a13257b341178902e1dbaaa62",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/smoke/study/cache/jit/mod_e75f6e4c309d2de8e6ecef25f66070943dd0dc8b86fa6ef34648de683fdf84b0.so",
+    "bytes": 20584,
+    "sha256": "bedfe366a87c72287f396c77674a0f187871359ee7cfedb7f82fb703c2316880",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/smoke/study/cache/jit/mod_eea08ace78871e00b004f0061f3fffb3bfe8d92f6c811a07f9153e29be435a21.so",
+    "bytes": 24752,
+    "sha256": "a3792513d4aab4351ece9d808c6b45ef64baf9ca6bd9c16c6553ea3ee78d1293",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/smoke/study/cases/N16/checkpoint.npz",
+    "bytes": 40205074,
+    "sha256": "457263943d78cdd43f9ecf9cd23776a2fc2313685b9112a9cfd7e806f9814026",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/smoke/study/cases/N16/frames/frame_0000000000.npz",
+    "bytes": 39187,
+    "sha256": "32f06ade9b53539e021933ef2e0f6a11fd3c7c7888d610fa405f80ac49670511",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/smoke/study/cases/N16/frames/frame_0000000012.npz",
+    "bytes": 88965,
+    "sha256": "588bf9d715e3518c13985afd12a42f8528ff006038bf97d8c4d3aa635d344b54",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/smoke/study/cases/N16/frames/frame_0000000013.npz",
+    "bytes": 89693,
+    "sha256": "9f3d19c7fa553d4916f898d05f95d05063755a91b23ce76b6e5117c614523a12",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/smoke/study/cases/N16/frames/frame_0000000024.npz",
+    "bytes": 103708,
+    "sha256": "bb8f932a6b2d58566a7df233649239030f3d4da11be4274909fc674dea08320b",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/smoke/study/cases/N16/frames/frame_0000000036.npz",
+    "bytes": 113396,
+    "sha256": "32eb57443c415c7a788323a69d762ef783fd6fa6f22506a69a44527863afc3a7",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/smoke/study/cases/N16/frames/frame_0000000048.npz",
+    "bytes": 118616,
+    "sha256": "f551ef1d16281d87377cc95ef85ac726b444f453cabc130a44f4de3d3adddf21",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/smoke/study/cases/N32/checkpoint.npz",
+    "bytes": 274596898,
+    "sha256": "8b4f25377c6940484b456c3663096228970889eba800ccb0538cf00d6c165682",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/smoke/study/cases/N32/frames/frame_0000000000.npz",
+    "bytes": 147958,
+    "sha256": "e1b48965748641e362a0b8d78678a22780520a1b97222bdcf1b8a0ab645f1e9c",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/smoke/study/cases/N32/frames/frame_0000000012.npz",
+    "bytes": 313181,
+    "sha256": "fd013fbdbeb886b01cc8180eec1032475c92dbce2431fdcaa3d9806c5083c924",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/smoke/study/cases/N32/frames/frame_0000000024.npz",
+    "bytes": 338876,
+    "sha256": "74182bc1524e5b3e1dded26c8e32c36867e0b7c412b543f5701baff035201a2b",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/smoke/study/cases/N32/frames/frame_0000000036.npz",
+    "bytes": 369793,
+    "sha256": "fdcf4bd5bf2bec31c3bc12a91b239218120740ab3a41d24f1252dac2f69c8334",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/smoke/study/cases/N32/frames/frame_0000000048.npz",
+    "bytes": 403372,
+    "sha256": "da2d0bb3ec152098a369198ceb520bb114e14460b726dffd55a08dadbac4cb30",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/smoke/study/cases/N32/frames/frame_0000000060.npz",
+    "bytes": 424547,
+    "sha256": "c4be4bcdc1b4b452257d43094d58cf0cbbfccfba6f6995a4b029cc5f63a1075e",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/smoke/study/cases/N32/frames/frame_0000000072.npz",
+    "bytes": 440852,
+    "sha256": "13884a00fa6ac029da4c14fd2474cf4c3f9fc34ef3f25002b2db09522e490bcd",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/smoke/study/cases/N32/frames/frame_0000000084.npz",
+    "bytes": 453526,
+    "sha256": "7640e1a928b8c8592760747abdcc737ba6471fe685aaf9b72990da36462097e0",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/smoke/study/cases/N32/frames/frame_0000000096.npz",
+    "bytes": 462768,
+    "sha256": "89fcd028d9427f6abebd1cf1c9ad2ac49afcf047063e2670d9bdeda68b92c4e4",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/smoke/study/preflight/checkpoint.npz",
+    "bytes": 38430966,
+    "sha256": "5568a34f1d68a0ea8485cdb141d851276a7f1d12f29cc7de9e8dd51dfbe9aba2",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/smoke/study/preflight/expected.npz",
+    "bytes": 35137128,
+    "sha256": "280fb84bdb9e882d1ec0561b5748df0ec6e5dc082f5e3a4de39fcd1132c5c50c",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/smoke/study/preflight/frame.npz",
+    "bytes": 115660,
+    "sha256": "d9cdcdc32f84c9a734663b765aabf021d86b2c823b6e617de056205689c50c57",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/smoke/wheels/d9a4f47c3c09e75288bd/aerokinetic-0.5.3-py3-none-any.whl",
+    "bytes": 140962,
+    "sha256": "f33c81cab694b04132318c36e456a70018418ef0d0fe3b4edf7e9b766945ed67",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/FOR_REVIEW.zip",
+    "bytes": 647971,
+    "sha256": "0c53b6daee3a78224790352d52d502596163de1a94107233d7c604c6e80ff40d",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/PIL/_avif.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 91985,
+    "sha256": "c0c30b196f5e42fe990291eb0fb5aade70803399f6be4bc08da9fb7ced9957dd",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/PIL/_imaging.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 3402345,
+    "sha256": "94310f4a073e9773a067df88513804649f50a974f78bd85a52c52d21170783f2",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/PIL/_imagingcms.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 157841,
+    "sha256": "2d4600dbd8c29d7cb243560ddf6a7c6ce36d13e15cf359d14050623ad7d153ac",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/PIL/_imagingft.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 327073,
+    "sha256": "31e284b6b2a9fd39d09cc6ab26cf24d0f20fdbd992f9e6bac98f926e38d584cb",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/PIL/_imagingmath.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 142280,
+    "sha256": "95bd69209560c9fd64e6665204f33207c7b61cccd4c29797f0f522561bc5c693",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/PIL/_imagingmorph.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 39312,
+    "sha256": "c2f3731339aea5260810b6028f1c6940e54e9a8005bd119b1b9f8463f23fc089",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/PIL/_imagingtk.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 47200,
+    "sha256": "e8f9d96fbfa0ccfd816d82d3c880eb05872f4d1079e09d63dfd7b513c9af73ff",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/PIL/_webp.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 108849,
+    "sha256": "54806394ca07d141f07663d6629108be51795e7371c3c13db94ba808fbf15fd8",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/contourpy/_contourpy.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 954680,
+    "sha256": "e0b9b191d388233fd9dea1ac3fd25828b40f65f19d52e6dd56478cb29271da58",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/fontTools/cu2qu/cu2qu.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 1082272,
+    "sha256": "22a94889dbc8b731008d9e4b928d4504952c323fa85a5a17c68a7cd28052851c",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/fontTools/feaLib/lexer.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 1388240,
+    "sha256": "0b51b69801744c7f997cfb1de4f6318934137ae11c2694b2fb49b7e0bef95c41",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/fontTools/misc/bezierTools.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 4786264,
+    "sha256": "4e266aca33217319a12eb1b80f3324283731d2c47fe9dca8eeea976eae82f4d0",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/fontTools/pens/momentsPen.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 986720,
+    "sha256": "fc4f4354e37881fcb717c2035a7a5b6e9bc95e4eb6c4fc857c3eb19afc4b8d03",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/fontTools/qu2cu/qu2cu.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 1234352,
+    "sha256": "06540fa0886edae22acae51a4d37d2a8325bcb4a77ca5f7dde29bde9b27f62c1",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/fontTools/varLib/iup.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 1650280,
+    "sha256": "6afb5863b4bb7c200cd9b3fc8e34c04f3299d9d19505173df09db693f7f13f15",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/joblib/test/data/joblib_0.9.2_pickle_py27_np16.pkl_01.npy",
+    "bytes": 120,
+    "sha256": "0efbd7d9ce7eec3a6e0a0db41e795e0396cca3d6b037dad6c61b464843d28809",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/joblib/test/data/joblib_0.9.2_pickle_py27_np16.pkl_02.npy",
+    "bytes": 120,
+    "sha256": "1c1cf36cb781fbcc21b953bb0a0b45df092da0eae0e765882e5963ccd70105b1",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/joblib/test/data/joblib_0.9.2_pickle_py27_np16.pkl_03.npy",
+    "bytes": 236,
+    "sha256": "a0c45ae2a289841cbeba2443b7ebaa3b31c0a9e9dcc73294aca5729da0092405",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/joblib/test/data/joblib_0.9.2_pickle_py27_np16.pkl_04.npy",
+    "bytes": 104,
+    "sha256": "3ecbe244294ba93e08479b16c1b9a9411e3569ff660ed0459dca1d241381df05",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/joblib/test/data/joblib_0.9.2_pickle_py27_np17.pkl_01.npy",
+    "bytes": 120,
+    "sha256": "0efbd7d9ce7eec3a6e0a0db41e795e0396cca3d6b037dad6c61b464843d28809",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/joblib/test/data/joblib_0.9.2_pickle_py27_np17.pkl_02.npy",
+    "bytes": 120,
+    "sha256": "1c1cf36cb781fbcc21b953bb0a0b45df092da0eae0e765882e5963ccd70105b1",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/joblib/test/data/joblib_0.9.2_pickle_py27_np17.pkl_03.npy",
+    "bytes": 236,
+    "sha256": "a0c45ae2a289841cbeba2443b7ebaa3b31c0a9e9dcc73294aca5729da0092405",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/joblib/test/data/joblib_0.9.2_pickle_py27_np17.pkl_04.npy",
+    "bytes": 104,
+    "sha256": "3ecbe244294ba93e08479b16c1b9a9411e3569ff660ed0459dca1d241381df05",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/joblib/test/data/joblib_0.9.2_pickle_py33_np18.pkl_01.npy",
+    "bytes": 120,
+    "sha256": "0efbd7d9ce7eec3a6e0a0db41e795e0396cca3d6b037dad6c61b464843d28809",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/joblib/test/data/joblib_0.9.2_pickle_py33_np18.pkl_02.npy",
+    "bytes": 120,
+    "sha256": "1c1cf36cb781fbcc21b953bb0a0b45df092da0eae0e765882e5963ccd70105b1",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/joblib/test/data/joblib_0.9.2_pickle_py33_np18.pkl_03.npy",
+    "bytes": 307,
+    "sha256": "8ede9a64a52b25d7db30950956c978ec0b3932b7d14acd5abc63216e64babde7",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/joblib/test/data/joblib_0.9.2_pickle_py33_np18.pkl_04.npy",
+    "bytes": 104,
+    "sha256": "3ecbe244294ba93e08479b16c1b9a9411e3569ff660ed0459dca1d241381df05",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/joblib/test/data/joblib_0.9.2_pickle_py34_np19.pkl_01.npy",
+    "bytes": 120,
+    "sha256": "0efbd7d9ce7eec3a6e0a0db41e795e0396cca3d6b037dad6c61b464843d28809",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/joblib/test/data/joblib_0.9.2_pickle_py34_np19.pkl_02.npy",
+    "bytes": 120,
+    "sha256": "1c1cf36cb781fbcc21b953bb0a0b45df092da0eae0e765882e5963ccd70105b1",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/joblib/test/data/joblib_0.9.2_pickle_py34_np19.pkl_03.npy",
+    "bytes": 307,
+    "sha256": "8ede9a64a52b25d7db30950956c978ec0b3932b7d14acd5abc63216e64babde7",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/joblib/test/data/joblib_0.9.2_pickle_py34_np19.pkl_04.npy",
+    "bytes": 104,
+    "sha256": "3ecbe244294ba93e08479b16c1b9a9411e3569ff660ed0459dca1d241381df05",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/joblib/test/data/joblib_0.9.2_pickle_py35_np19.pkl_01.npy",
+    "bytes": 120,
+    "sha256": "0efbd7d9ce7eec3a6e0a0db41e795e0396cca3d6b037dad6c61b464843d28809",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/joblib/test/data/joblib_0.9.2_pickle_py35_np19.pkl_02.npy",
+    "bytes": 120,
+    "sha256": "1c1cf36cb781fbcc21b953bb0a0b45df092da0eae0e765882e5963ccd70105b1",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/joblib/test/data/joblib_0.9.2_pickle_py35_np19.pkl_03.npy",
+    "bytes": 307,
+    "sha256": "8ede9a64a52b25d7db30950956c978ec0b3932b7d14acd5abc63216e64babde7",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/joblib/test/data/joblib_0.9.2_pickle_py35_np19.pkl_04.npy",
+    "bytes": 104,
+    "sha256": "3ecbe244294ba93e08479b16c1b9a9411e3569ff660ed0459dca1d241381df05",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/kiwisolver/_cext.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 5728472,
+    "sha256": "353dc373592b066c73095a4c72b6a60dc35c0ee7dc86137c8dd6bb2bfa167f38",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/matplotlib/_c_internal_utils.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 277504,
+    "sha256": "24351ba9045e075cb81f826ef443243ed3c6c39f764ebd6c6e476def16cc3af0",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/matplotlib/_image.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 587120,
+    "sha256": "a1dc347993ab992d4f45ca39c297e471d5cba4049bad6aede6f29db02fa20cf8",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/matplotlib/_path.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 512944,
+    "sha256": "1632ed5fe6f8aec5876861e8e66dbb8d80558c5ce75880c96e24965e478deea3",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/matplotlib/_qhull.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 774576,
+    "sha256": "9e02f72401abc5a09a0fa9176d670ef36fa2bebb5d04a43ce4e31f604eb27142",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/matplotlib/_tri.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 442712,
+    "sha256": "99df8d6ab0d720c96f7ff04fd4b1c22dbd9015c829a77c8a96dc1a939d5a981e",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/matplotlib/backends/_backend_agg.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 786192,
+    "sha256": "0104a4b4e648668f9678b8e271d296bb4730617955ea819ca90ed684debfd2c3",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/matplotlib/backends/_tkagg.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 304608,
+    "sha256": "a34334e388d98684a9a603365f128f043d15a2b2f5bf956952fb500b143e62e9",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/matplotlib/ft2font.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 1435472,
+    "sha256": "f6727c0992a5438a909fc91b76fa42c96b1d174873a68db35ffababd8cb4244f",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/matplotlib/mpl-data/images/back.png",
+    "bytes": 380,
+    "sha256": "1387467f81a7cf5c49d6fdad33280757460d4204a1ade0de540a5a31bfbbe265",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/matplotlib/mpl-data/images/back_large.png",
+    "bytes": 620,
+    "sha256": "f40ea151241eb3385838d13866e1f792f388b4cd097c356eead91fae89826ec4",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/matplotlib/mpl-data/images/filesave.png",
+    "bytes": 458,
+    "sha256": "6fb72db9caccfc5da61be0f271379d1bf6bfcb8a47931dc5fb333b975f062e19",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/matplotlib/mpl-data/images/filesave_large.png",
+    "bytes": 720,
+    "sha256": "2cd6d10f9299dca7fb9dba7eb2dc7f6b5ffa5df18149651f0dda609a7ce846f9",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/matplotlib/mpl-data/images/forward.png",
+    "bytes": 357,
+    "sha256": "a4a6cb7a98068867b26364c2065f2cbe3be6ed9e024b78b2b05c5cab8191fb09",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/matplotlib/mpl-data/images/forward_large.png",
+    "bytes": 593,
+    "sha256": "dfa87b9bb0d90c7aa5ea491da4d3dc9328b62ca09eff1861c9abd6011cffda44",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/matplotlib/mpl-data/images/hand.png",
+    "bytes": 979,
+    "sha256": "d9c7214444c629ad2160d294c672400709326171013ea272fd5a923e54f45b64",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/matplotlib/mpl-data/images/help.png",
+    "bytes": 472,
+    "sha256": "b38a50aea690d29cbc23bbdcf61bf7048dc33bfb64cbeed804ca5a1ee0430816",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/matplotlib/mpl-data/images/help_large.png",
+    "bytes": 747,
+    "sha256": "d48c04c967c64609e809633eafd0891c4a204c9543e67d5cf0b5d32b8009e111",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/matplotlib/mpl-data/images/home.png",
+    "bytes": 468,
+    "sha256": "21c15d00051aebf034aadf083b723ca78ae95e942002527c9dd04408287b0b5c",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/matplotlib/mpl-data/images/home_large.png",
+    "bytes": 790,
+    "sha256": "bb14b63b7b5638787589abbb09a555e1eae6209699d34ee26e6e59de2f245d88",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/matplotlib/mpl-data/images/matplotlib.png",
+    "bytes": 1283,
+    "sha256": "c3c28b45855afafa146576b8d618096ae42ea288acdb77f73457dd73bda95186",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/matplotlib/mpl-data/images/matplotlib_large.png",
+    "bytes": 3088,
+    "sha256": "125468b9ef60ad4aa4657267824fa7be1e0629fa6f278804ebd5abca309b5f95",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/matplotlib/mpl-data/images/move.png",
+    "bytes": 481,
+    "sha256": "4e68d1e352334b3c466e1894715eb85f4cf1d818ebc5b587ddc48abe71b6bf37",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/matplotlib/mpl-data/images/move_large.png",
+    "bytes": 767,
+    "sha256": "4a48f3da75bf453039b3fd20f3c81dab686b55b9ba0ce71f616e05bb8d859fd5",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/matplotlib/mpl-data/images/qt4_editor_options.png",
+    "bytes": 380,
+    "sha256": "12bc908d0e61876770988c6dcc216230dd54e939ddd75a750837e01f96478cd3",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/matplotlib/mpl-data/images/qt4_editor_options_large.png",
+    "bytes": 619,
+    "sha256": "f8f77ef55879688af73d96bc3ba19efc12e8e35922127a6691d0e3f1ad752646",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/matplotlib/mpl-data/images/subplots.png",
+    "bytes": 445,
+    "sha256": "3147c222dab7ff2cdbf724627863a09699f463be21f0803b9b98bbd01eb78917",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/matplotlib/mpl-data/images/subplots_large.png",
+    "bytes": 662,
+    "sha256": "11dbbd4b054c4045c9679a205397325bb54b7305c976175ff84b71c66c5d908b",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/matplotlib/mpl-data/images/zoom_to_rect.png",
+    "bytes": 530,
+    "sha256": "68dcf741906b220c6ef44f9f15f690c1e095362b46b83505a02dbb7b9354d8be",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/matplotlib/mpl-data/images/zoom_to_rect_large.png",
+    "bytes": 1016,
+    "sha256": "57aa64c669ba570144c5d83f3c425674adfb1c1ee4ddc13f728acb6bb45b50c9",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/matplotlib/mpl-data/sample_data/Minduka_Present_Blue_Pack.png",
+    "bytes": 13634,
+    "sha256": "5e72868826a7a4329a950e5a9efa393594807833fb7f27e5cd001a8afb9cd081",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/matplotlib/mpl-data/sample_data/axes_grid/bivariate_normal.npy",
+    "bytes": 1880,
+    "sha256": "0e9599f6e74087aa2ca58aa77846b6ec3e8491180e445c07a2c69c65756ef7c5",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/matplotlib/mpl-data/sample_data/goog.npz",
+    "bytes": 22845,
+    "sha256": "400917cf30e6b664f7b0da93d7c745860d3aa9008da8b7f160d2dd12e6a318b1",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/matplotlib/mpl-data/sample_data/jacksboro_fault_dem.npz",
+    "bytes": 174061,
+    "sha256": "d493f50a33e82a4420494c54d1fca1539d177bdc27ab190bc5fe6e92f62fb637",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/matplotlib/mpl-data/sample_data/logo2.png",
+    "bytes": 22279,
+    "sha256": "0d7371e055decaac47cb6e809af3442e9c1ecd02f1c1e2d063d1cfee4b4a21d7",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/matplotlib/mpl-data/sample_data/topobathy.npz",
+    "bytes": 45224,
+    "sha256": "0244e03291702df45024dcb5cacbc4f3d4cb30d72dfa7fd371c4ac61c42b4fbf",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/numpy/_core/_multiarray_tests.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 141888,
+    "sha256": "fae3aacacf309c276cc4c8cbdc13735117763f1c5f652cb48bb97ecc9c1b9dd8",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 10808937,
+    "sha256": "ba96467ae494babaf7c3458b09cc03c4200c2e10010860d80e452ffb8b01c8cd",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/numpy/_core/_operand_flag_tests.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 16800,
+    "sha256": "2da00a615720d1fc0fb902fcf73f2ad7e1aba50ca469a34ae2426e5d102b983b",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/numpy/_core/_rational_tests.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 59592,
+    "sha256": "2fed2e7ef5e6168b842e958eff52093b2669ee6d448b39c6c064990b79464550",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/numpy/_core/_simd.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 2882368,
+    "sha256": "346508d7b24a196ca4175518dd3b09aee32b6c7f9809f78fc031504436c0d3f7",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/numpy/_core/_struct_ufunc_tests.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 16936,
+    "sha256": "53ffdbcd324e449e12d40c77f77635ba2d6fa7036640a273340224202c0afa19",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/numpy/_core/_umath_tests.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 50312,
+    "sha256": "ed0edb6cafa2dba589761083c3edb64e72f30fd816c32a9af771440a5b7933b0",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/numpy/fft/_pocketfft_umath.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 539072,
+    "sha256": "e849dc89e717b2a315948dd0127786098372c7a2206cfd130fa818b73e69164d",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/numpy/lib/tests/data/py2-np0-objarr.npy",
+    "bytes": 258,
+    "sha256": "64ba08ecade24295c392ea03175626c9ce896f0e099e06d0282f60adab9546c9",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/numpy/lib/tests/data/py2-objarr.npy",
+    "bytes": 258,
+    "sha256": "178732502fbf4c1f504852c0a3673b738e2b0ba35460882b7c6c7d3ea58f48a9",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/numpy/lib/tests/data/py2-objarr.npz",
+    "bytes": 366,
+    "sha256": "c68d771c14f415b159daabd9cf42d61836f74ae40049269787baca7d57098f1e",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/numpy/lib/tests/data/py3-objarr.npy",
+    "bytes": 325,
+    "sha256": "ee6b6290a9475e9e2e9d984cf1e068b7c0a49e5c750687c975def7369d8f5bca",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/numpy/lib/tests/data/py3-objarr.npz",
+    "bytes": 453,
+    "sha256": "bd5465f7f359effabe86376e52bf185a7cd1cbc1123659af30f95a4920baf5f9",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/numpy/lib/tests/data/python3.npy",
+    "bytes": 96,
+    "sha256": "5f469dde101a2c65e283d2ed487028f8180ebcb9457cf60c9d9b952314668fed",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/numpy/lib/tests/data/win64python2.npy",
+    "bytes": 96,
+    "sha256": "6a039c807558149ad5fa7ad12436c69d49c5e194cf617b92785f8cb60ec63297",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/numpy/linalg/_umath_linalg.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 231833,
+    "sha256": "64bfb8bb8a1a09ca31f7a6e307a87b4c78a75f3489aaf3c61ed8aa4ffada9845",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/numpy/linalg/lapack_lite.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 30001,
+    "sha256": "93ca06e05991d23cc5fa02e76c757b97cf20b5ef29ec0ef69fb88a2432ddf5d5",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/numpy/random/_bounded_integers.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 320144,
+    "sha256": "53a8bd2e993d32c304b91020970c8b67fa178e142137f525743ba92755524b84",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/numpy/random/_common.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 241288,
+    "sha256": "e7fb21cc610f6e22f1f40a365b0fe6c573132b6c22199ed21dbe51c0e7c73620",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/numpy/random/_generator.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 809096,
+    "sha256": "d7fed73c3e361b6ff683a9148b74d982f1702b1af3631e496066034cd1cba7ad",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/numpy/random/_mt19937.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 130384,
+    "sha256": "a3a98159adbf86abf95b34b4989840f0f0bfbde3a5c87ad2a3e01ea7c0428d4d",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/numpy/random/_pcg64.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 145528,
+    "sha256": "2b9bc903a5ab4f857e169e93cf59a824564f1361b1fc4ff5bb336a54ece72ba9",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/numpy/random/_philox.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 121968,
+    "sha256": "9fb7e485037c7f00aa3e4aa1056f15f7f9b964aa4f04657952194efaa9174356",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/numpy/random/_sfc64.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 91560,
+    "sha256": "62906d05604056ee4de2ce978cd9d23e0de603c80a769a648ceac74d8ab680b6",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/numpy/random/bit_generator.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 218080,
+    "sha256": "d15c630c101e132de14d924facadf581f5e004b0974b17afa2f0dea1bcf5fe6e",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/numpy/random/mtrand.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 619416,
+    "sha256": "70b2d9942f3d35be9f95c7bc3ba19e78e3db00e2b0a323ca02363cee9c9e128c",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/numpy.libs/libscipy_openblas64_-fdde5778.so",
+    "bytes": 25034001,
+    "sha256": "ee2039cf13a45e1e89f04d0cea9585657d93ffaa425594e1935161013fdf4e12",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/sympy/plotting/tests/test_region_and.png",
+    "bytes": 6864,
+    "sha256": "115d0b9b81ed40f93fe9e216b4f6384cf71093e3bbb64a5d648b8b9858c645a0",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/sympy/plotting/tests/test_region_not.png",
+    "bytes": 7939,
+    "sha256": "dceffdfe73d6d78f453142c4713e51a88dbe9361f79c710b6df2400edd9c3bc9",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/sympy/plotting/tests/test_region_or.png",
+    "bytes": 8809,
+    "sha256": "e41ba0d3dbf2a20f82bb79a4cbba5bb458dec396ccbdba5ed195d6b200ca7f2e",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/sympy/plotting/tests/test_region_xor.png",
+    "bytes": 10002,
+    "sha256": "92e71558103d03df0ea5c47876277968b5d4ca8ab8cf43b80b73cce9d962052c",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd/yaml/_yaml.cpython-312-x86_64-linux-gnu.so",
+    "bytes": 2679264,
+    "sha256": "957a099a4521c1f7669306fb6f79ca63fa4b9a0b4c463f7cac833a65a5c5c0cb",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/study/cache/jit/mod_00ce6ad88e2fa9fbce763c2cb87b0c5cf7d961334fea36bd7df0c607adb87945.so",
+    "bytes": 16488,
+    "sha256": "62d8ea407a9f0b464a093c2152014dcb69df360360464689351cf8e7d8140892",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/study/cache/jit/mod_02a75f0bb082fbb9d71326d7aed2d82a1b56adbb420644bb7ce9fc4931a07bd9.so",
+    "bytes": 16792,
+    "sha256": "b3fd9bee8db5c5d9274808c457cae4eaeae7867334f68fd38842791bfc8a9efe",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/study/cache/jit/mod_02b4fb248a768accc551e46542823891c926b0297332f2c40e1dc0fefde507a0.so",
+    "bytes": 16792,
+    "sha256": "792db601b2ecd661757e7989d846a2e15a055da5fb333b419e066194cc736363",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/study/cache/jit/mod_0e3fd81277ee7e3f472bba4e97755d024d817d7d063c98c85557f4878d1a2186.so",
+    "bytes": 16928,
+    "sha256": "cbea8b1f0a673ab98a1d15cdc7a13d58cb40727dc533cf83e7925e0758d99efb",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/study/cache/jit/mod_1984de985d7fffb8696ff441552647b62e13555dd8a50a39789949917c99fd66.so",
+    "bytes": 20656,
+    "sha256": "a476dcf92e264eafc93aa5de15ab2e6449b177ef2c7c00a4b307f12559fc782d",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/study/cache/jit/mod_1f24a4f892dd9d28248525f160e1530dc727660b29abd2af60c7ea0671e33764.so",
+    "bytes": 25096,
+    "sha256": "c06c1d8dba5b99788031de74e40733e0be4f2e7f59c4ce53f9ea014bc3bf221c",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/study/cache/jit/mod_37e1a6495ce5ec6713c6dbb6fba36adc8eceeb5123d7b89ac2856e5f268b7adc.so",
+    "bytes": 16488,
+    "sha256": "fd7c8157441a3a6acaf71995dff3724d08c4e9ad11b82e04e6066553ff817cb2",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/study/cache/jit/mod_41ad569cbe97f2a9c12dbc147442b8c1cbe2b8be8e518eaaaa31d5c1fc48a3f5.so",
+    "bytes": 16696,
+    "sha256": "f2a450072ab939545cb27a5ac5eaf4136ad715958b4ab678fdb65ff48f5fd71d",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/study/cache/jit/mod_50f8f598b5ed5d4146c756b3c2ccaf22d05d2b85a374d0408722e4284f24fcbc.so",
+    "bytes": 25096,
+    "sha256": "9a9861954b6f5635c6ee3e3a1d7de0a1ec0bd99d7378ec1f18f944682b3d118b",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/study/cache/jit/mod_5541b90b5bd1a974ca72694aa4c11a7b4070eed09819a8a6b3ddb0c8b0c2eae0.so",
+    "bytes": 16792,
+    "sha256": "9709183f14432951758da6db06e29e3736b55c5c6b229bfcdbefbbf0d99bbc6f",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/study/cache/jit/mod_5be9d997f146fbd3427c0fd6c0e3309b22b3eceac02b312bbfee28ab1d0f4875.so",
+    "bytes": 29080,
+    "sha256": "1adc8c8952e8b5e596516303f07fa6da30b6301130bc558437e489939fdc0a29",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/study/cache/jit/mod_5ec79ba86e6f14868d0d4851073222cbda972d2b8bd829213be566094bc2be84.so",
+    "bytes": 16792,
+    "sha256": "281a4fdf0b375c533d8720bc5f47033b0c0bfb7d1cd91d191f7379ae9b337ac8",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/study/cache/jit/mod_7e71d64c86be5b227dd06bf7bb5f88e5ce7eba8558663f668ae33b454b616646.so",
+    "bytes": 16792,
+    "sha256": "c9ef4a132e54c2a55336ea1fefd57d4cdd8e35e1d96a55c1d61c329e4d7d80a5",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/study/cache/jit/mod_9ec048517c972a0a4cf8961658565eee7026b34c1de929e11659afd71fae7d57.so",
+    "bytes": 16928,
+    "sha256": "b5f6cdc52204c8faf6f016db23022ee8308056d8bab7d3ab7c9c02063852b93e",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/study/cache/jit/mod_a7619369d1e9ced2b379ab10a712de4029e0a05b96ed97ca23e83a5da4166a0b.so",
+    "bytes": 25096,
+    "sha256": "9b0c7cb34929e8fe54cd2865b68960e4398b7cb0ab6138b52268729a38f2d7c1",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/study/cache/jit/mod_ada8a9fbf40ebba13dfb490a194a87c6542aa46619a2c6adadd26dbfa72f3dea.so",
+    "bytes": 16928,
+    "sha256": "c65d6374f7b9134a3148eb8c4150278f3ca9ad20a85f9beed7dcdfcdd5ccfe3b",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/study/cache/jit/mod_af4d169031a621164ee81ad12234fd1944e9899867812cdcdcdfc310a1a73eaf.so",
+    "bytes": 16928,
+    "sha256": "b76a30e6fc64b82bec9de9e9a1c8a0f2f414afa37f07658dbbeb58c02bb633ad",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/study/cache/jit/mod_c8dd82af8d2e93efeade8b6da16f552397b478c02786aafbf677b66c9de49811.so",
+    "bytes": 16928,
+    "sha256": "a435ab5ea234b453baa12a85f10f96f65c12bd0accce5612285f896ce651d028",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/study/cache/jit/mod_d27bb02083f1940d430c825c5de5a292f419e548ae446524db588d173b08c1b2.so",
+    "bytes": 16488,
+    "sha256": "ea5f1debd7ae3435e44d33c0911bb8fb75deda1c9d86f8152810c0862de2d469",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/study/cache/jit/mod_e094ccdd710877a9c4aa8b5de3e813c0b61342466efdbb1814123ebd0e3050f6.so",
+    "bytes": 29080,
+    "sha256": "eea5ba82ae81b29e8f18b16b79e49ef1341d4b0a13257b341178902e1dbaaa62",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/study/cache/jit/mod_e75f6e4c309d2de8e6ecef25f66070943dd0dc8b86fa6ef34648de683fdf84b0.so",
+    "bytes": 20584,
+    "sha256": "bedfe366a87c72287f396c77674a0f187871359ee7cfedb7f82fb703c2316880",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/study/cases/N16/checkpoint.npz",
+    "bytes": 40205078,
+    "sha256": "8a2b2f4f87ea911c64620100f8e9984b3d714843bc26c74e12fd2266d2a65bf5",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/study/cases/N16/frames/frame_0000000000.npz",
+    "bytes": 39187,
+    "sha256": "32f06ade9b53539e021933ef2e0f6a11fd3c7c7888d610fa405f80ac49670511",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/study/cases/N16/frames/frame_0000000012.npz",
+    "bytes": 89851,
+    "sha256": "653611110b12661a0f808b95c91f54137d9666d9150cc366832f1502f291f1d6",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/study/cases/N16/frames/frame_0000000024.npz",
+    "bytes": 103200,
+    "sha256": "a6dcfab6649668d606cdb0b2821d11698953a53118a9e47aa2ebe56fe8fc1d63",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/study/cases/N16/frames/frame_0000000036.npz",
+    "bytes": 112854,
+    "sha256": "b975c71707eaa393659e3584c4fde4f6dcb61251607c81d24fb74334b27a7e8a",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/study/cases/N16/frames/frame_0000000048.npz",
+    "bytes": 118498,
+    "sha256": "19b2775b79c59c5e2a353496a6b3cbfc82f563070d4701ebc183470164bcb798",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/study/cases/N32/checkpoint.npz",
+    "bytes": 274596886,
+    "sha256": "1981acbc90f13c8e078f4d5fcec22774ee5e2ac35614ce12631eaa7c309d0ad7",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/study/cases/N32/frames/frame_0000000000.npz",
+    "bytes": 147958,
+    "sha256": "e1b48965748641e362a0b8d78678a22780520a1b97222bdcf1b8a0ab645f1e9c",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/study/cases/N32/frames/frame_0000000012.npz",
+    "bytes": 317968,
+    "sha256": "d8206fd8a7122bca3d1011b80b54939a5a6fafc5b1b63700eec4821c8ccaa717",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/study/cases/N32/frames/frame_0000000024.npz",
+    "bytes": 340794,
+    "sha256": "4a34269010738c4883dfbbd725c3d45b2173c2d32bdc818544097d2386f0e5c7",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/study/cases/N32/frames/frame_0000000036.npz",
+    "bytes": 368679,
+    "sha256": "424771fe5afc34b313d977e163bf42a201e80c65941337684db43995589812e5",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/study/cases/N32/frames/frame_0000000048.npz",
+    "bytes": 398084,
+    "sha256": "7803c76ec0aa36b9f33b3a35cf4a1aac56cd23b7b3a984042080a1aa4a0ed11d",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/study/cases/N32/frames/frame_0000000060.npz",
+    "bytes": 420924,
+    "sha256": "146b7195a794ac31c8d468dc16b5fa74cd522a7e9cdb14debd5410d887aced05",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/study/cases/N32/frames/frame_0000000072.npz",
+    "bytes": 439792,
+    "sha256": "464fbabeb9544d886c7aacfac458ac8662b2a68cc0b8096b581f95cda608f74f",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/study/cases/N32/frames/frame_0000000084.npz",
+    "bytes": 452412,
+    "sha256": "2f792e85a718b64d25eeeb388352af8595766198700f0883e919bd64b7172f13",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/study/cases/N32/frames/frame_0000000096.npz",
+    "bytes": 462120,
+    "sha256": "f8d5a8d15d1416bdba6a4d80cb9d786e2a40f5a9ef2909bf644285e5318aeec5",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/study/preflight/checkpoint.npz",
+    "bytes": 38430966,
+    "sha256": "8dcae8bf7bbcacb4d5378dea09214e5f125d5687438f285213d7f3d2af38b28f",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/study/preflight/expected.npz",
+    "bytes": 35137128,
+    "sha256": "150b00cdeac1d2810f3641f2575f1a5248476cb6ec79c9e42f9d25c98ea7d0c6",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/study/preflight/frame.npz",
+    "bytes": 115598,
+    "sha256": "5e0c2be993e12136d926087fcde7226ce77cf2be924cc265c0b0197aff93f3a5",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/wheels/d9a4f47c3c09e75288bd/aerokinetic-0.5.3-py3-none-any.whl",
+    "bytes": 140962,
+    "sha256": "e78083e4753681d76d25a356bb6c1c6f5f070c7a8941d8e445cfba5665944db4",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/FOR_REVIEW.zip",
+    "bytes": 646127,
+    "sha256": "2878238feb396a2ed530e03e4a4cbf02b422ddea6aad0476db3dbabfce4d4606",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/cache/jit/mod_00ce6ad88e2fa9fbce763c2cb87b0c5cf7d961334fea36bd7df0c607adb87945.so",
+    "bytes": 16488,
+    "sha256": "62d8ea407a9f0b464a093c2152014dcb69df360360464689351cf8e7d8140892",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/cache/jit/mod_02a75f0bb082fbb9d71326d7aed2d82a1b56adbb420644bb7ce9fc4931a07bd9.so",
+    "bytes": 16792,
+    "sha256": "b3fd9bee8db5c5d9274808c457cae4eaeae7867334f68fd38842791bfc8a9efe",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/cache/jit/mod_02b4fb248a768accc551e46542823891c926b0297332f2c40e1dc0fefde507a0.so",
+    "bytes": 16792,
+    "sha256": "792db601b2ecd661757e7989d846a2e15a055da5fb333b419e066194cc736363",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/cache/jit/mod_0e3fd81277ee7e3f472bba4e97755d024d817d7d063c98c85557f4878d1a2186.so",
+    "bytes": 16928,
+    "sha256": "cbea8b1f0a673ab98a1d15cdc7a13d58cb40727dc533cf83e7925e0758d99efb",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/cache/jit/mod_1984de985d7fffb8696ff441552647b62e13555dd8a50a39789949917c99fd66.so",
+    "bytes": 20656,
+    "sha256": "a476dcf92e264eafc93aa5de15ab2e6449b177ef2c7c00a4b307f12559fc782d",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/cache/jit/mod_1f24a4f892dd9d28248525f160e1530dc727660b29abd2af60c7ea0671e33764.so",
+    "bytes": 25096,
+    "sha256": "c06c1d8dba5b99788031de74e40733e0be4f2e7f59c4ce53f9ea014bc3bf221c",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/cache/jit/mod_254e7a4929dc3ef35a5b8621d8847b504b285dbda565af0ddcb7ba0bebed4265.so",
+    "bytes": 21000,
+    "sha256": "c36f73399faf91ba995be1dc4f844c58162649298d5c9e904023ca6ad1b6248d",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/cache/jit/mod_37e1a6495ce5ec6713c6dbb6fba36adc8eceeb5123d7b89ac2856e5f268b7adc.so",
+    "bytes": 16488,
+    "sha256": "fd7c8157441a3a6acaf71995dff3724d08c4e9ad11b82e04e6066553ff817cb2",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/cache/jit/mod_41ad569cbe97f2a9c12dbc147442b8c1cbe2b8be8e518eaaaa31d5c1fc48a3f5.so",
+    "bytes": 16696,
+    "sha256": "f2a450072ab939545cb27a5ac5eaf4136ad715958b4ab678fdb65ff48f5fd71d",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/cache/jit/mod_50f8f598b5ed5d4146c756b3c2ccaf22d05d2b85a374d0408722e4284f24fcbc.so",
+    "bytes": 25096,
+    "sha256": "9a9861954b6f5635c6ee3e3a1d7de0a1ec0bd99d7378ec1f18f944682b3d118b",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/cache/jit/mod_5541b90b5bd1a974ca72694aa4c11a7b4070eed09819a8a6b3ddb0c8b0c2eae0.so",
+    "bytes": 16792,
+    "sha256": "9709183f14432951758da6db06e29e3736b55c5c6b229bfcdbefbbf0d99bbc6f",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/cache/jit/mod_5be9d997f146fbd3427c0fd6c0e3309b22b3eceac02b312bbfee28ab1d0f4875.so",
+    "bytes": 29080,
+    "sha256": "1adc8c8952e8b5e596516303f07fa6da30b6301130bc558437e489939fdc0a29",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/cache/jit/mod_5ec79ba86e6f14868d0d4851073222cbda972d2b8bd829213be566094bc2be84.so",
+    "bytes": 16792,
+    "sha256": "281a4fdf0b375c533d8720bc5f47033b0c0bfb7d1cd91d191f7379ae9b337ac8",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/cache/jit/mod_7e71d64c86be5b227dd06bf7bb5f88e5ce7eba8558663f668ae33b454b616646.so",
+    "bytes": 16792,
+    "sha256": "c9ef4a132e54c2a55336ea1fefd57d4cdd8e35e1d96a55c1d61c329e4d7d80a5",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/cache/jit/mod_85201ccd089e5057000185ae065ab895819310676cbfd3030a266b036d29aee2.so",
+    "bytes": 16928,
+    "sha256": "f01c18f363c852da39fca1d2704c467d789529a11bacfcab66d9d97d16bbbf61",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/cache/jit/mod_9ec048517c972a0a4cf8961658565eee7026b34c1de929e11659afd71fae7d57.so",
+    "bytes": 16928,
+    "sha256": "b5f6cdc52204c8faf6f016db23022ee8308056d8bab7d3ab7c9c02063852b93e",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/cache/jit/mod_a7619369d1e9ced2b379ab10a712de4029e0a05b96ed97ca23e83a5da4166a0b.so",
+    "bytes": 25096,
+    "sha256": "9b0c7cb34929e8fe54cd2865b68960e4398b7cb0ab6138b52268729a38f2d7c1",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/cache/jit/mod_ada8a9fbf40ebba13dfb490a194a87c6542aa46619a2c6adadd26dbfa72f3dea.so",
+    "bytes": 16928,
+    "sha256": "c65d6374f7b9134a3148eb8c4150278f3ca9ad20a85f9beed7dcdfcdd5ccfe3b",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/cache/jit/mod_af4d169031a621164ee81ad12234fd1944e9899867812cdcdcdfc310a1a73eaf.so",
+    "bytes": 16928,
+    "sha256": "b76a30e6fc64b82bec9de9e9a1c8a0f2f414afa37f07658dbbeb58c02bb633ad",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/cache/jit/mod_c53d38af7194998b1d39b1eb4ebc0f86cb6f4c6b897b9be9138645ade52ec019.so",
+    "bytes": 20656,
+    "sha256": "370fd653627bb8e2743bb5f260d0c429946e1a9d610e64aaf167b687d1c6774c",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/cache/jit/mod_c8dd82af8d2e93efeade8b6da16f552397b478c02786aafbf677b66c9de49811.so",
+    "bytes": 16928,
+    "sha256": "a435ab5ea234b453baa12a85f10f96f65c12bd0accce5612285f896ce651d028",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/cache/jit/mod_d27bb02083f1940d430c825c5de5a292f419e548ae446524db588d173b08c1b2.so",
+    "bytes": 16488,
+    "sha256": "ea5f1debd7ae3435e44d33c0911bb8fb75deda1c9d86f8152810c0862de2d469",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/cache/jit/mod_dc28ad87e02744d44b78ae677748328361d03425edbc03145e232574e76f0a7d.so",
+    "bytes": 16928,
+    "sha256": "f53ad40dd5e20280dd4273d431ed6c3e88c4da47687cf042da924211deae67aa",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/cache/jit/mod_e094ccdd710877a9c4aa8b5de3e813c0b61342466efdbb1814123ebd0e3050f6.so",
+    "bytes": 29080,
+    "sha256": "eea5ba82ae81b29e8f18b16b79e49ef1341d4b0a13257b341178902e1dbaaa62",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/cache/jit/mod_e75f6e4c309d2de8e6ecef25f66070943dd0dc8b86fa6ef34648de683fdf84b0.so",
+    "bytes": 20584,
+    "sha256": "bedfe366a87c72287f396c77674a0f187871359ee7cfedb7f82fb703c2316880",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/cases/N16/checkpoint.npz",
+    "bytes": 40205078,
+    "sha256": "8a2b2f4f87ea911c64620100f8e9984b3d714843bc26c74e12fd2266d2a65bf5",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/cases/N16/frames/frame_0000000000.npz",
+    "bytes": 39187,
+    "sha256": "32f06ade9b53539e021933ef2e0f6a11fd3c7c7888d610fa405f80ac49670511",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/cases/N16/frames/frame_0000000012.npz",
+    "bytes": 89851,
+    "sha256": "653611110b12661a0f808b95c91f54137d9666d9150cc366832f1502f291f1d6",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/cases/N16/frames/frame_0000000024.npz",
+    "bytes": 103200,
+    "sha256": "a6dcfab6649668d606cdb0b2821d11698953a53118a9e47aa2ebe56fe8fc1d63",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/cases/N16/frames/frame_0000000036.npz",
+    "bytes": 112854,
+    "sha256": "b975c71707eaa393659e3584c4fde4f6dcb61251607c81d24fb74334b27a7e8a",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/cases/N16/frames/frame_0000000048.npz",
+    "bytes": 118498,
+    "sha256": "19b2775b79c59c5e2a353496a6b3cbfc82f563070d4701ebc183470164bcb798",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/cases/N32/checkpoint.npz",
+    "bytes": 274596886,
+    "sha256": "1981acbc90f13c8e078f4d5fcec22774ee5e2ac35614ce12631eaa7c309d0ad7",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/cases/N32/frames/frame_0000000000.npz",
+    "bytes": 147958,
+    "sha256": "e1b48965748641e362a0b8d78678a22780520a1b97222bdcf1b8a0ab645f1e9c",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/cases/N32/frames/frame_0000000012.npz",
+    "bytes": 317968,
+    "sha256": "d8206fd8a7122bca3d1011b80b54939a5a6fafc5b1b63700eec4821c8ccaa717",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/cases/N32/frames/frame_0000000024.npz",
+    "bytes": 340794,
+    "sha256": "4a34269010738c4883dfbbd725c3d45b2173c2d32bdc818544097d2386f0e5c7",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/cases/N32/frames/frame_0000000036.npz",
+    "bytes": 368679,
+    "sha256": "424771fe5afc34b313d977e163bf42a201e80c65941337684db43995589812e5",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/cases/N32/frames/frame_0000000048.npz",
+    "bytes": 398084,
+    "sha256": "7803c76ec0aa36b9f33b3a35cf4a1aac56cd23b7b3a984042080a1aa4a0ed11d",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/cases/N32/frames/frame_0000000060.npz",
+    "bytes": 420924,
+    "sha256": "146b7195a794ac31c8d468dc16b5fa74cd522a7e9cdb14debd5410d887aced05",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/cases/N32/frames/frame_0000000072.npz",
+    "bytes": 439792,
+    "sha256": "464fbabeb9544d886c7aacfac458ac8662b2a68cc0b8096b581f95cda608f74f",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/cases/N32/frames/frame_0000000084.npz",
+    "bytes": 452412,
+    "sha256": "2f792e85a718b64d25eeeb388352af8595766198700f0883e919bd64b7172f13",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/cases/N32/frames/frame_0000000096.npz",
+    "bytes": 462120,
+    "sha256": "f8d5a8d15d1416bdba6a4d80cb9d786e2a40f5a9ef2909bf644285e5318aeec5",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/preflight/checkpoint.npz",
+    "bytes": 38430966,
+    "sha256": "8dcae8bf7bbcacb4d5378dea09214e5f125d5687438f285213d7f3d2af38b28f",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/preflight/expected.npz",
+    "bytes": 35137128,
+    "sha256": "150b00cdeac1d2810f3641f2575f1a5248476cb6ec79c9e42f9d25c98ea7d0c6",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/final_smoke/study/preflight/frame.npz",
+    "bytes": 115598,
+    "sha256": "5e0c2be993e12136d926087fcde7226ce77cf2be924cc265c0b0197aff93f3a5",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/uninterrupted_N16/checkpoint.npz",
+    "bytes": 40205074,
+    "sha256": "457263943d78cdd43f9ecf9cd23776a2fc2313685b9112a9cfd7e806f9814026",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/uninterrupted_N16/frames/frame_0000000000.npz",
+    "bytes": 39187,
+    "sha256": "32f06ade9b53539e021933ef2e0f6a11fd3c7c7888d610fa405f80ac49670511",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/uninterrupted_N16/frames/frame_0000000012.npz",
+    "bytes": 88965,
+    "sha256": "588bf9d715e3518c13985afd12a42f8528ff006038bf97d8c4d3aa635d344b54",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/uninterrupted_N16/frames/frame_0000000024.npz",
+    "bytes": 103708,
+    "sha256": "bb8f932a6b2d58566a7df233649239030f3d4da11be4274909fc674dea08320b",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/uninterrupted_N16/frames/frame_0000000036.npz",
+    "bytes": 113396,
+    "sha256": "32eb57443c415c7a788323a69d762ef783fd6fa6f22506a69a44527863afc3a7",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  },
+  {
+    "local_path": "/workspace/aerokinetic_user_tests_20261108/uninterrupted_N16/frames/frame_0000000048.npz",
+    "bytes": 118616,
+    "sha256": "f551ef1d16281d87377cc95ef85ac726b444f453cabc130a44f4de3d3adddf21",
+    "reason": "Local build/cache/numerical state; source/text/hashes published instead"
+  }
+]

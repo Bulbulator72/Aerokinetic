@@ -1,0 +1,10 @@
+{
+  "changed_solver_methods": [
+    "run"
+  ],
+  "all_numerical_methods_identical": true,
+  "other_runtime_modules_identical": true,
+  "scope": "Only failed-run diagnostic JSON formatting changed; valid trajectory kernels, boundaries, force, initialization and restart are identical",
+  "old_solver_sha256": "8546938f50a968bb2116be623212b7f4eb03ae9565c9a79ec264977c2c7a3ac0",
+  "final_solver_sha256": "efdc578ed1d564fd1bb4ff0427067c06b030013cffd19d08c46a63740a59647a"
+}

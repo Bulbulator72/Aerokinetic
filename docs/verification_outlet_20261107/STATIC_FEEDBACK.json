@@ -1,0 +1,30 @@
+[
+  {
+    "case": "spectral_original_10",
+    "static_feedback_gain_real": -0.013078964355630367,
+    "static_feedback_gain_imag": 1.5679522020180218e-13,
+    "feedback_factorization_max_error": 3.350389410350399e-11,
+    "response_residual": 6.35173090700055e-17
+  },
+  {
+    "case": "spectral_original_long10",
+    "static_feedback_gain_real": -0.004446097350788469,
+    "static_feedback_gain_imag": 1.584331635367035e-15,
+    "feedback_factorization_max_error": 2.940060068070304e-11,
+    "response_residual": 1.984990345470168e-16
+  },
+  {
+    "case": "spectral_original_114",
+    "static_feedback_gain_real": 0.0036845803128986573,
+    "static_feedback_gain_imag": 1.1542551672267125e-14,
+    "feedback_factorization_max_error": 4.9610680147305075e-12,
+    "response_residual": 2.4455852166113918e-17
+  },
+  {
+    "case": "spectral_original_232",
+    "static_feedback_gain_real": 0.00375940448658927,
+    "static_feedback_gain_imag": -1.8325458919242725e-15,
+    "feedback_factorization_max_error": 7.61167689467264e-12,
+    "response_residual": 3.3755914649005247e-17
+  }
+]

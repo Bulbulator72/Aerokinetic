@@ -1,0 +1,29 @@
+straight_outlet 0 1.0 (np.int64(83), np.int64(29), np.int64(2))
+straight_outlet 1000 0.012273307154972428 (np.int64(95), np.int64(40), np.int64(4))
+straight_outlet 2000 2.683304843727554 (np.int64(95), np.int64(27), np.int64(6))
+straight_outlet 3000 3695.2165528028663 (np.int64(95), np.int64(27), np.int64(6))
+{
+  "case": "straight_outlet",
+  "version": "0.5.2",
+  "installed": "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/aerokinetic/__init__.py",
+  "initial_noise_sha256": "8cffaab76d458180be99119e04a236fb8809e17707d3dbea7e8dfa625759f5f2",
+  "shape": [
+    96,
+    48,
+    8
+  ],
+  "periodic": [
+    false,
+    true,
+    true
+  ],
+  "last_sampled_step": 3200,
+  "finite": true,
+  "max_energy_over_initial": 15861.898539886824,
+  "elapsed_s": 7.62561270399965,
+  "boundedness_gate_passed": false,
+  "strong_growth_detected": true,
+  "candidate": "regularized",
+  "farfield_source": "/workspace/aerokinetic_outlet_20261107/boundary_regularized.py",
+  "farfield_sha256": "bed4c82d611db5739233a848f17493eda4d186690eac02ec4e69c64fb6079b66"
+}

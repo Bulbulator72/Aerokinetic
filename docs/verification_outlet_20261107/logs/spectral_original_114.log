@@ -1,0 +1,40 @@
+original [11, 4] column 0 / 650
+original [11, 4] column 100 / 650
+original [11, 4] column 200 / 650
+original [11, 4] column 300 / 650
+original [11, 4] column 400 / 650
+original [11, 4] column 500 / 650
+original [11, 4] column 600 / 650
+{
+  "candidate": "original",
+  "shape": [
+    24,
+    48,
+    8
+  ],
+  "mode": [
+    11,
+    4
+  ],
+  "epsilon": 1e-06,
+  "dimension": 650,
+  "histories": [
+    "incoming",
+    "derivative"
+  ],
+  "outlet_links": 3456,
+  "spectral_radius": 1.0036206782875665,
+  "leading_eigenvalue": [
+    1.0036206782875665,
+    1.2498682644412895e-14
+  ],
+  "unstable_modes_over_1_plus_1e_6": 1,
+  "leading_mode_last_4_columns_fraction": 0.9998978719031886,
+  "modal_map_relative_error": 4.062935411512362e-10,
+  "history_copy_max_error": 6.617444900424222e-24,
+  "operator_sha256": "f9942b3157858c9a359e26a618d4180bc23a4c8473d3b03f8bf227611775f7e6",
+  "source": "/workspace/aerokinetic_farfield_20261107/env/lib/python3.12/site-packages/aerokinetic/farfield.py",
+  "source_sha256": "f4b917ca09580fc4a74c4136e6c53e51e9f899c9fa272f17fbb5d22d9793239c",
+  "elapsed_s": 23.051473510000505,
+  "map_checks_passed": true
+}

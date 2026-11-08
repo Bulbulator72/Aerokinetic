@@ -1,0 +1,52 @@
+WARNING: The directory '/home/agent/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+Looking in links: /workspace/aerokinetic_user_tests_20261108/offline_program/wheels_linux
+Processing ./offline_program/wheels_linux/setuptools-84.0.0-py3-none-any.whl
+Processing ./offline_program/wheels_linux/wheel-0.48.0-py3-none-any.whl
+Processing ./offline_program/wheels_linux/packaging-26.3-py3-none-any.whl
+Installing collected packages: wheel, setuptools, packaging
+Successfully installed packaging-26.3 setuptools-84.0.0 wheel-0.48.0
+WARNING: The directory '/home/agent/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+Processing ./clean_smoke/build/2af5426f730e4c6eabf636e3dc536228/source
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: aerokinetic
+  Building wheel for aerokinetic (pyproject.toml): started
+  Building wheel for aerokinetic (pyproject.toml): finished with status 'done'
+  Created wheel for aerokinetic: filename=aerokinetic-0.5.3-py3-none-any.whl size=140962 sha256=e78083e4753681d76d25a356bb6c1c6f5f070c7a8941d8e445cfba5665944db4
+  Stored in directory: /tmp/pip-ephem-wheel-cache-vvm8powq/wheels/ea/43/56/5e19ba99f2027a512315d57f78904ae1654f427b081d2546c8
+Successfully built aerokinetic
+WARNING: The directory '/home/agent/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+Looking in links: /workspace/aerokinetic_user_tests_20261108/offline_program/wheels_linux
+Processing ./offline_program/wheels_linux/appdirs-1.4.4-py2.py3-none-any.whl (from -r /workspace/aerokinetic_user_tests_20261108/kit_final/source/requirements-offline-py312.txt (line 3))
+Processing ./offline_program/wheels_linux/colorama-0.4.6-py2.py3-none-any.whl (from -r /workspace/aerokinetic_user_tests_20261108/kit_final/source/requirements-offline-py312.txt (line 4))
+Processing ./offline_program/wheels_linux/contourpy-1.3.3-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (from -r /workspace/aerokinetic_user_tests_20261108/kit_final/source/requirements-offline-py312.txt (line 5))
+Processing ./offline_program/wheels_linux/cycler-0.12.1-py3-none-any.whl (from -r /workspace/aerokinetic_user_tests_20261108/kit_final/source/requirements-offline-py312.txt (line 6))
+Processing ./offline_program/wheels_linux/fasteners-0.20-py3-none-any.whl (from -r /workspace/aerokinetic_user_tests_20261108/kit_final/source/requirements-offline-py312.txt (line 7))
+Processing ./offline_program/wheels_linux/fonttools-4.61.1-cp312-cp312-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl (from -r /workspace/aerokinetic_user_tests_20261108/kit_final/source/requirements-offline-py312.txt (line 8))
+Processing ./offline_program/wheels_linux/iniconfig-2.3.1-py3-none-any.whl (from -r /workspace/aerokinetic_user_tests_20261108/kit_final/source/requirements-offline-py312.txt (line 9))
+Processing ./offline_program/wheels_linux/joblib-1.5.3-py3-none-any.whl (from -r /workspace/aerokinetic_user_tests_20261108/kit_final/source/requirements-offline-py312.txt (line 10))
+Processing ./offline_program/wheels_linux/kiwisolver-1.4.9-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (from -r /workspace/aerokinetic_user_tests_20261108/kit_final/source/requirements-offline-py312.txt (line 11))
+Processing ./offline_program/wheels_linux/lbmpy-1.4-py3-none-any.whl (from -r /workspace/aerokinetic_user_tests_20261108/kit_final/source/requirements-offline-py312.txt (line 12))
+Processing ./offline_program/wheels_linux/matplotlib-3.10.8-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (from -r /workspace/aerokinetic_user_tests_20261108/kit_final/source/requirements-offline-py312.txt (line 13))
+Processing ./offline_program/wheels_linux/mpmath-1.3.0-py3-none-any.whl (from -r /workspace/aerokinetic_user_tests_20261108/kit_final/source/requirements-offline-py312.txt (line 14))
+Processing ./offline_program/wheels_linux/numpy-2.3.5-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (from -r /workspace/aerokinetic_user_tests_20261108/kit_final/source/requirements-offline-py312.txt (line 15))
+Processing ./offline_program/wheels_linux/packaging-26.3-py3-none-any.whl (from -r /workspace/aerokinetic_user_tests_20261108/kit_final/source/requirements-offline-py312.txt (line 16))
+Processing ./offline_program/wheels_linux/pillow-12.3.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (from -r /workspace/aerokinetic_user_tests_20261108/kit_final/source/requirements-offline-py312.txt (line 17))
+Processing ./offline_program/wheels_linux/pluggy-1.7.0-py3-none-any.whl (from -r /workspace/aerokinetic_user_tests_20261108/kit_final/source/requirements-offline-py312.txt (line 18))
+Processing ./offline_program/wheels_linux/pygments-2.21.0-py3-none-any.whl (from -r /workspace/aerokinetic_user_tests_20261108/kit_final/source/requirements-offline-py312.txt (line 19))
+Processing ./offline_program/wheels_linux/pyparsing-3.3.2-py3-none-any.whl (from -r /workspace/aerokinetic_user_tests_20261108/kit_final/source/requirements-offline-py312.txt (line 20))
+Processing ./offline_program/wheels_linux/pystencils-1.4-py3-none-any.whl (from -r /workspace/aerokinetic_user_tests_20261108/kit_final/source/requirements-offline-py312.txt (line 21))
+Processing ./offline_program/wheels_linux/pytest-9.1.1-py3-none-any.whl (from -r /workspace/aerokinetic_user_tests_20261108/kit_final/source/requirements-offline-py312.txt (line 22))
+Processing ./offline_program/wheels_linux/python_dateutil-2.9.0.post0-py2.py3-none-any.whl (from -r /workspace/aerokinetic_user_tests_20261108/kit_final/source/requirements-offline-py312.txt (line 23))
+Processing ./offline_program/wheels_linux/pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (from -r /workspace/aerokinetic_user_tests_20261108/kit_final/source/requirements-offline-py312.txt (line 24))
+Processing ./offline_program/wheels_linux/setuptools-84.0.0-py3-none-any.whl (from -r /workspace/aerokinetic_user_tests_20261108/kit_final/source/requirements-offline-py312.txt (line 25))
+Processing ./offline_program/wheels_linux/six-1.17.0-py2.py3-none-any.whl (from -r /workspace/aerokinetic_user_tests_20261108/kit_final/source/requirements-offline-py312.txt (line 26))
+Processing ./offline_program/wheels_linux/sympy-1.12.1-py3-none-any.whl (from -r /workspace/aerokinetic_user_tests_20261108/kit_final/source/requirements-offline-py312.txt (line 27))
+Processing ./offline_program/wheels_linux/wheel-0.48.0-py3-none-any.whl (from -r /workspace/aerokinetic_user_tests_20261108/kit_final/source/requirements-offline-py312.txt (line 28))
+Installing collected packages: mpmath, appdirs, sympy, six, setuptools, pyyaml, pyparsing, pygments, pluggy, pillow, packaging, numpy, kiwisolver, joblib, iniconfig, fonttools, fasteners, cycler, colorama, wheel, python-dateutil, pytest, pystencils, contourpy, matplotlib, lbmpy
+Successfully installed appdirs-1.4.4 colorama-0.4.6 contourpy-1.3.3 cycler-0.12.1 fasteners-0.20 fonttools-4.61.1 iniconfig-2.3.1 joblib-1.5.3 kiwisolver-1.4.9 lbmpy-1.4 matplotlib-3.10.8 mpmath-1.3.0 numpy-2.3.5 packaging-26.3 pillow-12.3.0 pluggy-1.7.0 pygments-2.21.0 pyparsing-3.3.2 pystencils-1.4 pytest-9.1.1 python-dateutil-2.9.0.post0 pyyaml-6.0.3 setuptools-84.0.0 six-1.17.0 sympy-1.12.1 wheel-0.48.0
+WARNING: The directory '/home/agent/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+Processing ./clean_smoke/wheels/d9a4f47c3c09e75288bd/aerokinetic-0.5.3-py3-none-any.whl
+Installing collected packages: aerokinetic
+Successfully installed aerokinetic-0.5.3
+WARNING: Target directory /workspace/aerokinetic_user_tests_20261108/clean_smoke/runtime/d9a4f47c3c09e75288bd.installing_936d6591706948a5bb33107cccd5ffc7/bin already exists. Specify --upgrade to force replacement.

@@ -1,0 +1,16 @@
+[
+  {
+    "export_path": "provenance/test_exterior_multielement.log",
+    "local_original": "/workspace/aerokinetic_exterior_integration_20261108/test_exterior_multielement.log",
+    "original_sha256": "a937b09d0987e73b7ab001888590a32ddbedc9209b1e3e9cfd73d72345839b80",
+    "export_sha256": "69d2cc1acf9c7d40b63f2ae0f89c00e0d345a1088ad1d21a997816f3161af845",
+    "transform": "Normalize line endings to LF and strip trailing horizontal whitespace. Original local log unchanged."
+  },
+  {
+    "export_path": "provenance/test_nonfinite_before_fix.log",
+    "local_original": "/workspace/aerokinetic_exterior_integration_20261108/test_nonfinite_before_fix.log",
+    "original_sha256": "bd429264341189f8f79bdd1109dd3dc24f515c1847686c32dee7cb21ecc78288",
+    "export_sha256": "200afd2b891b053df449693c24e280a49dbdf8c926938c4de6c5961ff11bf4b7",
+    "transform": "Normalize line endings to LF and strip trailing horizontal whitespace. Original local log unchanged."
+  }
+]
