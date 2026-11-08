@@ -1,12 +1,12 @@
 {
   "files": {
     "tools/research_tests/README_RU.md": "43c27e6a5d6f0d756520233512453edc536d74ee715220af2d5f2ad87a7db344",
-    "tools/research_tests/bootstrap.py": "74354d7b2afdfabab4990a973afa57778b532a2ea7ea1b615637b219513ff8e5",
+    "tools/research_tests/bootstrap.py": "66e57c33a4f1d5c7551c5404dbe1927b0bf4a45ce59a8a044e540d82d0a03c4f",
     "tools/research_tests/launch.ps1": "f3fc51fb3f88b64a593ba00ad2f34e539d578d75020eba80110a4ba1fdc891ab",
     "tools/research_tests/make_transfer.py": "8b92d16fe23705752d051c0c67366a54611d1047f1eb54c3bdca05c141cb2c52",
-    "tools/research_tests/run_suite.py": "685485be5549257ccfa7a83a1ac5266bf364c2ae31185e6fea5509e7c69825ad",
+    "tools/research_tests/run_suite.py": "25b003ec5faa632f3474cca90bdfb561046ba8930570f1565bd8715eec53f9d0",
     "tools/research_tests/study_protocol.json": "308f7db9f6aa941350dd43b6813e98b08f9bc0adf5e5cb9d973854eb8ebe25a3",
-    "tests/test_research_transfer.py": "f83eaf37d3f19ffe3828f15f0e874cf7ff8b3e2f89d76b6d7332b831b4e70447"
+    "tests/test_research_transfer.py": "41f886b3dfce5ae515f2151765c239bdd23fdbc75f272e2664eaecc9645d7f27"
   },
   "numerical_core_changed": false,
   "core_commit": "7b53e22693b5e0971e23f0bf9770697fe1f8a5ac",

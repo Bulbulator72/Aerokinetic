@@ -1,6 +1,5 @@
 """Offline, resumable NACA0012 study using an isolated installed research wheel."""
 import argparse
-from contextlib import contextmanager
 from dataclasses import asdict, replace
 from datetime import datetime, timezone
 import importlib.util
@@ -19,7 +18,7 @@ import traceback
 import uuid
 import zipfile
 
-from bootstrap import check_core, digest, missing_packages, requirements, write
+from bootstrap import StudyAlreadyRunning, check_core, digest, missing_packages, requirements, study_lock, write
 
 
 class Tee:
@@ -29,28 +28,6 @@ class Tee:
         self.console.write(value); self.stream.write(value); self.flush()
     def flush(self):
         self.console.flush(); self.stream.flush()
-
-
-class StudyAlreadyRunning(RuntimeError):
-    pass
-
-
-@contextmanager
-def study_lock(path):
-    with path.open("a+b") as handle:
-        if handle.tell() == 0:
-            handle.write(b"0"); handle.flush()
-        handle.seek(0)
-        try:
-            if os.name == "nt":
-                import msvcrt
-                msvcrt.locking(handle.fileno(), msvcrt.LK_NBLCK, 1)
-            else:
-                import fcntl
-                fcntl.flock(handle, fcntl.LOCK_EX | fcntl.LOCK_NB)
-        except OSError as error:
-            raise StudyAlreadyRunning("Эта серия уже запущена в другом окне.") from error
-        yield
 
 
 def find_portable(program):
@@ -489,7 +466,6 @@ def supervisor(args, identity, compiler):
                 write(study / "RUNTIME.json", {"core":identity, "compiler":compiler, "hardware":resources(),
                       "python":sys.version, "platform":platform.platform(), "installed_package_root":str(args.target),
                       "existing_installation_modified":False})
-                stop_path(args).unlink(missing_ok=True)
                 install_signal_handlers(args)
                 code = child(args, "preflight")
                 if code:

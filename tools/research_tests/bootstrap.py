@@ -1,5 +1,6 @@
 """Build/install the pinned research core in a private target, without network."""
 import argparse
+from contextlib import contextmanager
 from datetime import datetime, timezone
 import hashlib
 import importlib.metadata as metadata
@@ -15,6 +16,28 @@ import sys
 import traceback
 import uuid
 import zipfile
+
+
+class StudyAlreadyRunning(RuntimeError):
+    pass
+
+
+@contextmanager
+def study_lock(path):
+    with path.open("a+b") as handle:
+        if handle.tell() == 0:
+            handle.write(b"0"); handle.flush()
+        handle.seek(0)
+        try:
+            if os.name == "nt":
+                import msvcrt
+                msvcrt.locking(handle.fileno(), msvcrt.LK_NBLCK, 1)
+            else:
+                import fcntl
+                fcntl.flock(handle, fcntl.LOCK_EX | fcntl.LOCK_NB)
+        except OSError as error:
+            raise StudyAlreadyRunning("Эта серия уже запущена в другом окне.") from error
+        yield
 
 
 def digest(path):
@@ -140,18 +163,7 @@ def fallback_archive(workspace):
     print("Архив диагностики: " + str(destination), flush=True)
 
 
-def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--kit", type=Path, required=True)
-    parser.add_argument("--workspace", type=Path, required=True)
-    parser.add_argument("--program-root", type=Path, required=True)
-    parser.add_argument("--threads", type=int, default=8)
-    parser.add_argument("--grids", default="32,64")
-    parser.add_argument("--duration", type=float, default=12.)
-    parser.add_argument("--smoke", action="store_true")
-    args = parser.parse_args()
-    args.kit = args.kit.resolve(); args.workspace = args.workspace.resolve()
-    args.program_root = args.program_root.resolve(); args.workspace.mkdir(parents=True, exist_ok=True)
+def execute(args):
     env = dict(os.environ)
     env.update(PYTHONUTF8="1", PYTHONIOENCODING="utf-8", PYTHONDONTWRITEBYTECODE="1",
                OPENBLAS_NUM_THREADS="1", OMP_WAIT_POLICY="PASSIVE")
@@ -190,6 +202,29 @@ def main():
     finally:
         if not launched:
             fallback_archive(args.workspace)
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--kit", type=Path, required=True)
+    parser.add_argument("--workspace", type=Path, required=True)
+    parser.add_argument("--program-root", type=Path, required=True)
+    parser.add_argument("--threads", type=int, default=8)
+    parser.add_argument("--grids", default="32,64")
+    parser.add_argument("--duration", type=float, default=12.)
+    parser.add_argument("--smoke", action="store_true")
+    args = parser.parse_args()
+    args.kit = args.kit.resolve(); args.workspace = args.workspace.resolve()
+    args.program_root = args.program_root.resolve(); args.workspace.mkdir(parents=True, exist_ok=True)
+    try:
+        with study_lock(args.workspace / "LAUNCH.lock"):
+            # Remove only a previous launch's request, before preparation starts.
+            # New STOP requests during local installation must reach the solver.
+            (args.workspace / "study/STOP_REQUESTED").unlink(missing_ok=True)
+            return execute(args)
+    except StudyAlreadyRunning as error:
+        print(str(error), flush=True)
+        return 3
 
 
 if __name__ == "__main__":

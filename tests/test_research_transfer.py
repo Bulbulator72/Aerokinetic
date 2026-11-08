@@ -145,3 +145,22 @@ def test_missing_openmp_flag_stops_before_launching_a_solver(tmp_path, modules, 
     monkeypatch.setattr(cpujit, "get_compiler_config", lambda: {"flags":"/Ox /fp:precise"})
     with pytest.raises(RuntimeError, match="OpenMP"):
         suite.preflight(argparse.Namespace(workspace=tmp_path, threads=2))
+
+
+def test_stop_requested_during_preparation_survives_and_second_launch_is_blocked(tmp_path, modules, monkeypatch):
+    bootstrap, suite, _ = modules
+    workspace = tmp_path / "work"; (workspace / "study").mkdir(parents=True)
+    stop = workspace / "study/STOP_REQUESTED"; stop.touch()
+    arguments = ["bootstrap.py", "--kit", str(tmp_path), "--workspace", str(workspace), "--program-root", str(tmp_path)]
+    monkeypatch.setattr(sys, "argv", arguments)
+    def prepare(args):
+        assert not stop.exists(), "Only the previous launch's request is cleared"
+        stop.touch()
+        assert suite.FileStop(stop).is_set(), "A request made during preparation reaches the worker"
+        # A second launch cannot clear the pending request.
+        assert bootstrap.main() == 3
+        assert stop.exists()
+        return 2
+    monkeypatch.setattr(bootstrap, "execute", prepare)
+    assert bootstrap.main() == 2
+    assert stop.exists()

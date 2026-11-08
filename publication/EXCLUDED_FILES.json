@@ -1682,8 +1682,8 @@
   {
     "source": "/workspace/aerokinetic_user_tests_20261108/clean_smoke/FOR_REVIEW.zip",
     "repository_path": null,
-    "bytes": 648005,
-    "sha256": "b5ece5c5bc54f3fc974c9269a4cd1ef344c0af50fec4d74404e07a3335c6bc67",
+    "bytes": 647971,
+    "sha256": "0c53b6daee3a78224790352d52d502596163de1a94107233d7c604c6e80ff40d",
     "reason": "Local build/cache/numerical state; source/text/hashes published instead",
     "text_evidence": "docs/verification_user_tests_20261108/EXCLUDED_LOCAL_BINARIES.json"
   },
