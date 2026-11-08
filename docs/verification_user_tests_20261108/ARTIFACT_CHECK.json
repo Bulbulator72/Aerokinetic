@@ -1,0 +1,10 @@
+{
+  "artifact": "/workspace/DOWNLOAD_AEROKINETIC/RUN_RESEARCH_TESTS.bat",
+  "bytes": 753683,
+  "sha256": "b19230efb11f0001cf8ea8b2a0e4b50e148ed34d08f987b9048ab751546e5cf4",
+  "text_source_members": 63,
+  "payload_sha256": "ca61ce31529ef8e1c0c80aca9e23611472fae01153951ce60337ae36b6d075bc",
+  "new_embedded_binaries": 0,
+  "payload_roundtrip_crlf_and_lf": "passed",
+  "windows_execution": "not_run"
+}

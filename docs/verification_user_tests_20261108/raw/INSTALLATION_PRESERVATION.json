@@ -1,0 +1,11 @@
+{
+  "original_installed_core_hashes_unchanged": true,
+  "original_compiler_configuration_unchanged": true,
+  "clean_interpreter_global_packages_after_test": [
+    {
+      "name": "pip",
+      "version": "25.0.1"
+    }
+  ],
+  "all_scientific_dependencies_in_private_target": true
+}

@@ -1,0 +1,26 @@
+{
+  "fresh_python_pip_only_at_start": true,
+  "private_pinned_build_backend_installed": true,
+  "private_pinned_dependency_closure_installed": true,
+  "cold_jit_modules": 21,
+  "network_attempts": 0,
+  "guarded_processes": 12,
+  "preflight_passed": true,
+  "cases": {
+    "N16": {
+      "status": "completed",
+      "steps": 48,
+      "t_star": 0.12
+    },
+    "N32": {
+      "status": "completed",
+      "steps": 96,
+      "t_star": 0.12
+    }
+  },
+  "archive_files": 25,
+  "archive_sha256_verified": true,
+  "existing_environment_modified": false,
+  "platform": "Linux; Windows/PowerShell/MSVC not_run",
+  "scope": "Explicit N16/N32 .12t smoke, not the full N32/N64 research series"
+}

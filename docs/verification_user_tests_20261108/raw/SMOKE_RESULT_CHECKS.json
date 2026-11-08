@@ -1,0 +1,26 @@
+{
+  "installed_wheel_prefix_vs_frozen_N32": {
+    "matched_steps": [
+      8,
+      16,
+      24,
+      32,
+      40,
+      48,
+      56,
+      64,
+      72,
+      80,
+      88,
+      96
+    ],
+    "max_load_clock_error": 2.353672812205332e-14,
+    "passed": true
+  },
+  "return_archive": {
+    "files": 25,
+    "bytes": 647888,
+    "manifest_matches": true,
+    "checkpoints_and_cache_excluded": true
+  }
+}

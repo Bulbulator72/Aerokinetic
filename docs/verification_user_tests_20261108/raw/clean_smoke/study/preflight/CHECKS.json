@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "threads": 2,
+  "cpu1_vs_many_pdf_max_error": 7.771561172376096e-16,
+  "cpu1_vs_many_load_max_error": 4.4547698863084406e-14,
+  "fluid_budget_per_cell_max_error": 6.9704540321086895e-15,
+  "wall_mass_max_error": 1.7763568394002505e-15,
+  "wall_force_max_error": 2.2620794126737565e-15,
+  "wall_torque_max_error": 2.942091015256665e-15,
+  "fresh_process_restart": "exact",
+  "openmp_kernels": true,
+  "scope": "Implementation checks; not airfoil accuracy"
+}

@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "date_utc": "2026-11-08",
+  "purpose": "Windows execution, cross-platform implementation control and a first N32/N64 resolution comparison. No physical-accuracy certification.",
+  "core_version": "0.5.3",
+  "source_commit": "7b53e22693b5e0971e23f0bf9770697fe1f8a5ac",
+  "physics": {
+    "profile": "Preserved open-trailing-edge NACA0012 contours in base_project.json",
+    "reynolds": 30000,
+    "alpha_deg": 4,
+    "physical_chord_m": 0.15,
+    "moment_reference_chords": [0.25, 0],
+    "lattice_speed": 0.04,
+    "sgs": "none",
+    "span_chords": 0.5,
+    "upstream_chords": 1.5,
+    "downstream_chords": 6,
+    "transverse_chords": 1.5,
+    "perturbation_relative": 0.0001,
+    "seed": 31,
+    "farfield": "exterior_regularized_fd_v1",
+    "target": "cpu",
+    "viscosity": "0.04*N/30000; no viscosity fitting",
+    "force_clock": "(step-.5)*dt; cumulative mass ends at step*dt"
+  },
+  "default_study": {
+    "grids": [32, 64],
+    "duration_t_star": 12,
+    "fixed_average_window": [6, 12],
+    "sample_interval_t_star": 0.01,
+    "frame_interval_t_star": 3,
+    "checkpoint_interval_t_star": 1,
+    "termination": "fixed time only; no wall time limit or steady-flow stop",
+    "thread_selection": "min(8, available logical CPUs), frozen in PLAN.json"
+  },
+  "implementation_gates_before_execution": {
+    "cpu1_vs_many_pdf_max_error": 2e-12,
+    "cpu1_vs_many_load_max_error": 2e-10,
+    "independent_fluid_budget_per_cell": 2e-12,
+    "wall_mass_and_force_absolute_error": 2e-10,
+    "wall_torque_absolute_error": 2e-9,
+    "fresh_process_restart_pdf_and_load_error": 0,
+    "proposed_cross_platform_n32_mean_and_rms_absolute_error": 1e-6
+  },
+  "linux_n32_reference": {
+    "window": [6, 12],
+    "samples": 600,
+    "source": "Completed same-code N32/downstream6 CPU2 reference; not wind-tunnel measurements",
+    "mean": {"cl": 0.06841284220498985, "cd": 0.07381336216657622, "cm": 0.02214423982702637},
+    "rms": {"cl": 0.01595848881152361, "cd": 0.0009019352809544433, "cm": 0.0007052318275165274}
+  },
+  "experiment": {
+    "doi": "10.2322/jjsass.55.439",
+    "figures": "5 Cl, 6 Cd, 11 Cm(c/4)",
+    "comparison": "Preserved digitized measurements at Re30000, interpolated to alpha4; no parameter fitting",
+    "limits": "Marker bounds are not full tunnel uncertainty. Transition, turbulence, trailing-edge geometry and periodic span are not certified equivalent."
+  },
+  "interpretation": "Report means/RMS/drift and differences between two grids. Do not infer Richardson/GCI/order, DNS, statistical convergence, high-Re readiness or validated Cl/Cd/Cm from two cases.",
+  "return_archive": "CSV, JSON, logs, SVG and last section frame only; full checkpoints and compiler cache stay local."
+}
