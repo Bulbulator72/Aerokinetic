@@ -1,0 +1,30 @@
+{
+  "packet_integrity": "passed",
+  "hashed_files": 137,
+  "completed_groups": [
+    "preflight",
+    "noise_straight_final",
+    "noise_rectangle_final",
+    "acoustic_normal_final",
+    "acoustic_glancing",
+    "budget",
+    "shear",
+    "vortex_corner",
+    "vortex_seam",
+    "glancing_w4",
+    "glancing_w8",
+    "glancing_w16",
+    "glancing_3d",
+    "radiation",
+    "spectral_23_2",
+    "spectral_23_2_half",
+    "spectral_23_2_nx48",
+    "airfoil_preflight_final",
+    "cold_restart",
+    "airfoil_down3",
+    "airfoil_down6"
+  ],
+  "prototype_source_sha256": "9c0b2f35c79c340f916364c6cd7fff9cf36776df16f1d7a45b03024d7e853c02",
+  "experimental_validation": "inconclusive",
+  "limits": "Evidence integrity and stored gate recomputation. No new CFD run or physical accuracy certification."
+}

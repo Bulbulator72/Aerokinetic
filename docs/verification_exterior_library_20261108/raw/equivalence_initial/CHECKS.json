@@ -1,0 +1,33 @@
+{
+  "version": "0.5.3",
+  "installed": "/workspace/aerokinetic_exterior_integration_20261108/env/lib/python3.12/site-packages/aerokinetic/__init__.py",
+  "segments": [
+    {
+      "start": 0,
+      "pdf_max_error": 0.0,
+      "macro_max_error": 0.0,
+      "load_mass_and_clock_max_error": 1.260970494687541e-14,
+      "trace_max_error": 0.0,
+      "wall_q_max_error": 0.0
+    },
+    {
+      "start": 2400,
+      "pdf_max_error": 0.0,
+      "macro_max_error": 0.0,
+      "load_mass_and_clock_max_error": 1.7687240561059525e-14,
+      "trace_max_error": 0.0,
+      "wall_q_max_error": 0.0
+    },
+    {
+      "start": 9600,
+      "pdf_max_error": 0.0,
+      "macro_max_error": 0.0,
+      "load_mass_and_clock_max_error": 1.697253448895708e-14,
+      "trace_max_error": 0.0,
+      "wall_q_max_error": 0.0
+    }
+  ],
+  "initial_physical_pdf_max_error": 0.0,
+  "passed": true,
+  "scope": "Refactor equivalence on frozen startup/nonlinear states, not aerodynamic validation"
+}

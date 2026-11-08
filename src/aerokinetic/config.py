@@ -3,6 +3,9 @@ import math
 import numpy as np
 from .geometry import Section
 
+EXTERIOR_FARFIELD = "exterior_regularized_fd_v1"
+FARFIELDS = ("legacy", "characteristic_transport_v1", EXTERIOR_FARFIELD)
+
 
 @dataclass(frozen=True)
 class Atmosphere:
@@ -93,8 +96,8 @@ class Grid:
                 raise ValueError(f"{key} must be finite and positive")
         if type(self.openmp_threads) is not int or self.openmp_threads < 1:
             raise ValueError("openmp_threads must be a positive integer")
-        if self.farfield not in ("legacy", "characteristic_transport_v1"):
-            raise ValueError("farfield must be legacy or characteristic_transport_v1 (research)")
+        if self.farfield not in FARFIELDS:
+            raise ValueError("farfield must be one of " + ", ".join(FARFIELDS))
         if self.farfield != "legacy" and self.target != "cpu":
             raise ValueError("Experimental characteristic farfield is currently verified for CPU only")
 
@@ -127,7 +130,9 @@ class Plan:
         origin = (origin[0], (ymin + ymax) / 2 - shape[1] / (2 * n))
         # Two double-precision D3Q27 fields plus macro fields and flags; allow
         # boundary/index and code-generation overhead. This is an estimate, not an allocation.
-        memory = math.prod(v + 2 for v in shape) * ((2 * 27 * 8 + 4 * 8 + 8) * 1.3 + 128) / 2**30
+        storage_shape = tuple(v + (2 if axis < 2 else 0) for axis, v in enumerate(shape)) if grid.farfield == EXTERIOR_FARFIELD else shape
+        extra_macros = 4 * 4 * 8 if grid.farfield == EXTERIOR_FARFIELD else 0
+        memory = math.prod(v + 2 for v in storage_shape) * ((2 * 27 * 8 + 4 * 8 + 8 + extra_macros) * 1.3 + 128) / 2**30
         nu = flow.lattice_speed * n / flow.reynolds
         tau = 0.5 + 3 * nu
         dt = flow.lattice_speed / n
@@ -138,7 +143,12 @@ class Plan:
         if grid.farfield != "legacy":
             if min(grid.upstream_chords, grid.downstream_chords, grid.transverse_chords)*n < 2:
                 raise ValueError("Characteristic farfield needs at least two fluid cells between body bounds and exterior")
-            notes.append("Experimental characteristic_transport_v1 farfield with linearized transverse transport; not full viscous NSCBC or validated airfoil accuracy. CPU uniform grids only.")
+            if grid.farfield == EXTERIOR_FARFIELD:
+                if flow.sgs != "none":
+                    raise ValueError("Exterior FD currently supports molecular viscosity with sgs=none only")
+                notes.append(f"Research exterior_regularized_fd_v1; physical shape unchanged, auxiliary storage shape={storage_shape}; pre-collision PDFs, explicit exterior source. Uniform CPU only; no validated airfoil accuracy or full viscous NSCBC.")
+            else:
+                notes.append("Experimental characteristic_transport_v1 farfield with linearized transverse transport; not full viscous NSCBC or validated airfoil accuracy. CPU uniform grids only.")
         if n < 256:
             notes.append("Fewer than 256 cells/chord: use for development; do not assume a resolved boundary layer.")
         if tau < 0.501:

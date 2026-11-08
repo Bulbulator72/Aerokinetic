@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "version": "0.5.3",
+  "installed": "/workspace/aerokinetic_exterior_integration_20261108/env_final/lib/python3.12/site-packages/aerokinetic/__init__.py",
+  "fresh_process_resume_history_identical": true,
+  "fresh_process_resume_pdfs_identical": true,
+  "continuation_load_mass_clock_max_error": 0.0,
+  "parent_files_unchanged": true,
+  "gif_frames": 5,
+  "cold_jit_modules": 9,
+  "non_loopback_route_rows": 0,
+  "python_network_audit_guard": true,
+  "scope": "Linux CPU1/2 dependency-local runtime; Windows/GPU not exercised"
+}

@@ -1,0 +1,82 @@
+{
+  "cases": [
+    {
+      "run": "airfoil_down3",
+      "state_window_t_star": [
+        6.0,
+        12.0
+      ],
+      "state_endpoint_steps": [
+        4800,
+        9600
+      ],
+      "step_intervals": 4800,
+      "units": "lattice mass; reference rho=1",
+      "reference_inlet_mass_per_step": 64.64,
+      "history_sha256": "00934505534caffaa1e6235174d59f4a7d672ec9987721152aa724f401f52186",
+      "wall": {
+        "cumulative_endpoints": [
+          -207.97999282072598,
+          -399.346518984154
+        ],
+        "net_mass": -191.366526163428,
+        "mean_mass_per_step": -0.0398680262840475,
+        "mean_over_reference_inlet": -0.00061677020860222
+      },
+      "exterior": {
+        "cumulative_endpoints": [
+          171.73408678017412,
+          337.0901649140744
+        ],
+        "net_mass": 165.3560781339003,
+        "mean_mass_per_step": 0.03444918294456256,
+        "mean_over_reference_inlet": 0.0005329390925829605
+      },
+      "input_checks_passed": true
+    },
+    {
+      "run": "airfoil_down6",
+      "state_window_t_star": [
+        6.0,
+        12.0
+      ],
+      "state_endpoint_steps": [
+        4800,
+        9600
+      ],
+      "step_intervals": 4800,
+      "units": "lattice mass; reference rho=1",
+      "reference_inlet_mass_per_step": 64.64,
+      "history_sha256": "5adf236dea5e757c4e13a13f35fe30b01ca5be28f4a7e8566ce60fc66be6149d",
+      "wall": {
+        "cumulative_endpoints": [
+          -207.97309564384477,
+          -399.39527858586655
+        ],
+        "net_mass": -191.42218294202178,
+        "mean_mass_per_step": -0.03987962144625454,
+        "mean_over_reference_inlet": -0.0006169495892056705
+      },
+      "exterior": {
+        "cumulative_endpoints": [
+          171.46499105892988,
+          336.1763254888225
+        ],
+        "net_mass": 164.71133442989262,
+        "mean_mass_per_step": 0.034314861339560965,
+        "mean_over_reference_inlet": 0.0005308610974560793
+      },
+      "input_checks_passed": true
+    }
+  ],
+  "input_checks_passed": true,
+  "wall_impermeability": "not_established",
+  "aerodynamic_validation": "inconclusive",
+  "method": "Cumulative endpoint differences, not sampled-rate quadrature",
+  "limits": [
+    "Wall exchange is incoming minus outgoing populations, positive into fluid.",
+    "Exterior source belongs to the auxiliary layer, not the physical fluid core.",
+    "The two totals alone are not a fluid-domain balance: open-boundary flux is also required.",
+    "Reference inlet flux is a scale at rho=1, not a measured flux or an acceptance threshold."
+  ]
+}

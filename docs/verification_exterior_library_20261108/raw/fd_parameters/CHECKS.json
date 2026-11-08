@@ -1,0 +1,28 @@
+{
+  "cases": [
+    {
+      "label_N": 32,
+      "molecular_nu": 4.266666666666667e-05,
+      "equilibrium_20step_max_error": 3.219646771412954e-15,
+      "polynomial_gradient_max_error": 4.657198902240957e-18,
+      "full_pdf_mass_max_error": 7.771561172376096e-16,
+      "full_pdf_momentum_max_error": 6.938893903907228e-17,
+      "pre_collision_FD_stress_max_error": 4.232365292380826e-16,
+      "passed": true
+    },
+    {
+      "label_N": 64,
+      "molecular_nu": 8.533333333333334e-05,
+      "equilibrium_20step_max_error": 3.3306690738754696e-15,
+      "polynomial_gradient_max_error": 4.657198902240957e-18,
+      "full_pdf_mass_max_error": 8.881784197001252e-16,
+      "full_pdf_momentum_max_error": 6.245004513516506e-17,
+      "pre_collision_FD_stress_max_error": 3.953214334956841e-16,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "version": "0.5.3",
+  "script_sha256": "22c87765408643c79216a090ef008fa3391a7366ac8deaf80049569cb54f955d",
+  "scope": "Two viscosity parameters on the same analytic lattice; no airfoil grid convergence"
+}

@@ -1,0 +1,29 @@
+{
+  "date_utc": "2026-11-08",
+  "baseline": "Research source0.5.2 and frozen ExteriorFD9c0b2f35c79c340f916364c6cd7fff9cf36776df16f1d7a45b03024d7e853c02; main0.5.1 remains unchanged. Prior full N32 exits3c/6c completed to12 but coefficients disagree with Ohtake.",
+  "deliverable": "Explicit research exterior_regularized_fd_v1 mode in the installed library/CLI, physical Plan and frames/residual ownership preserved, CPU OpenMP, validated pre-collision checkpoint state and wall/exterior mass diagnostics. No new GUI or high-Re/Mach/GPU/SGS/refined-grid claim.",
+  "physics": "Same27-PDF cumulant collision, molecular nu=U*N/Re, bulk1, noSGS, SSPRK3 predictor and full FD reconstruction only in one added auxiliary layer per open side. Original physical cells, seed wavelengths, normalized geometry, moment origin and force time(step-.5)*dt remain unchanged.",
+  "implementation_gates": {
+    "prototype_initial_physical_pdf_max_error": 2e-15,
+    "prototype_step_pdf_max_error": 2e-12,
+    "prototype_macro_max_error": 2e-12,
+    "force_coefficient_max_error": 2e-10,
+    "wall_distance_max_error": 2e-12,
+    "independent_fluid_budget_per_cell": 2e-12,
+    "independent_wall_force_absolute_error": 2e-10,
+    "independent_wall_torque_absolute_error": 2e-9,
+    "exact_cpu1_restart_pdf_and_load_error": 0,
+    "openmp1_vs2_pdf_max_error": 2e-12,
+    "openmp1_vs2_load_max_error": 2e-10
+  },
+  "matched_cases": "Frozen original NACA0012/Re30000/alpha4/U.04/N32/span.5c/seed31 exits3c/6c, 9600steps to12, sample8, fixed6..12 window. Compare complete histories with frozen prototype; mean/RMS differences<=2e-9. Preserve incomplete cases and do not average partial windows.",
+  "parameters": "Re/Mach guards unchanged. General molecular nu follows Plan; explicitly reject SGS and GPU/refined use in this new mode. Check equilibrium, FD moments and viscosity/transport for changed resolution parameters before claiming their use.",
+  "viscosity_test": "Manufactured shear u_z=1e-5*sin(2*pi*y/32), rho1, Uinf(.04,0,0), physical core384x32x8, x open/y,z periodic. Run3000steps for molecular nu=.04*N/30000 with N32 and64 as parameter labels on the same lattice. Measure sine amplitude at middle x; inferred nu=-log(A3000/A0)/(k^2*3000) must differ<=5% from specified nu, density error<=2e-6 and all fields finite. The inlet shear front travels120cells, shorter than192cells to measurement plane. This verifies transport parameters, not grid convergence of an airfoil.",
+  "wall_mass_gate": "Independent full-PDF mask-crossing wall mass vs reported incoming-minus-outgoing wall mass differs<=2e-10 absolute, same summation-scale bound as wall force. No prescribed zero value.",
+  "restart": "Explicit model revision and pre_collision tag; both PDF buffers, incoming-trace initial field, step count and cumulative wall/exterior diagnostics persisted atomically. Existing revision1 checkpoints remain supported. Reject mixed phase/signature/case. Verify new-process continuation and interrupted-run CSV/residual/frame recovery.",
+  "wall_mass": "Measure incoming-minus-outgoing wall populations independently of force sum, retain instantaneous and cumulative numerical exchange. Verify against mask-crossing flux. Do not assume zero, subtract it away, fit viscosity or use it as a steady-flow stopping residual.",
+  "verification": "Meaningful new integration tests plus affected existing legacy/checkpoint/refined/control tests. Use an installed0.5.3 research wheel in a fresh offline environment; do not substitute src/editable imports. Original7Nov results remain dated7Nov and are reused only with demonstrated numerical equivalence.",
+  "experiment": "Reuse preserved Ohtake2007 Cl/Cd/Cm digitization for exactly compatible completed windows. Data consistency is not acceptance of physical accuracy. No other CFD program used.",
+  "offline": "No new dependencies. Build/install from local wheels with --no-index; block network during import/JIT/run/CSV/GIF/restart. Windows/GPU delivery remains not_run without execution there. Publish source/text/SVG and hashes; new numerical binaries remain local.",
+  "resources": "Measure actual cgroup/disk budget. Run one- or two-thread kernels under the available CPU quota. Evaluate a finer-grid budget from measured step cost before committing to a long run; do not claim grid convergence from a short timing pilot."
+}

@@ -1,0 +1,28 @@
+{
+  "implementation_integration": "passed",
+  "new_tests": {
+    "count": 11,
+    "status": "passed",
+    "build": "final"
+  },
+  "regression_tests": {
+    "count": 146,
+    "status": "passed",
+    "build": "initial"
+  },
+  "frozen_pdf_equivalence": "passed",
+  "full_matched_airfoils": "passed",
+  "initial_equilibrium_A0_transport": "failed",
+  "confirmatory_periodic_transport": "passed",
+  "FD_parameters": "passed",
+  "mass_bookkeeping": "passed",
+  "wall_impermeability": "not_established",
+  "offline_linux_cpu": "passed",
+  "windows_gpu": "not_run",
+  "grid_convergence": "not_run",
+  "span_convergence": "not_run",
+  "mach_convergence": "not_run",
+  "statistical_convergence": "inconclusive",
+  "experimental_validation": "inconclusive",
+  "scope": "Library integration and explicit diagnostics; no certified airfoil polar or high-Re extension"
+}

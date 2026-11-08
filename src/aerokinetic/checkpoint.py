@@ -10,6 +10,7 @@ import numpy as np
 
 from ._io import atomic_binary
 from .project import Project
+from .config import EXTERIOR_FARFIELD
 
 
 def _versions():
@@ -42,6 +43,21 @@ def save_checkpoint(solver, path, context=None):
     arrays = {}
     arrays.update({f"field_{i}": fields[name] for i, name in enumerate(metadata["fields"])})
     arrays.update({f"boundary_{i}": boundaries[name] for i, name in enumerate(metadata["boundaries"])})
+    exterior = getattr(solver, "_exterior", None)
+    if exterior is not None:
+        from .exterior import STATE_SCHEMA
+        metadata["numerics_revision"] = 2
+        metadata["exterior_state"] = {"model": EXTERIOR_FARFIELD, "state_schema": STATE_SCHEMA,
+            "pdf_stage": "pre_collision", "step_count": exterior.step_count,
+            "initial_ready": exterior.initial is not None, "last_report": exterior.last_report}
+        if exterior.step_count != solver.steps:
+            raise ValueError("Exterior and solver checkpoint clocks differ")
+        if exterior.initial is None and solver.steps != 0:
+            raise ValueError("Missing exterior incoming-trace state")
+        if exterior.initial is not None:
+            arrays["exterior_initial"] = exterior.initial
+        arrays["exterior_source_total"] = exterior.source_total
+        arrays["exterior_wall_mass_state"] = np.array([solver._wall_mass_exchange, solver._wall_mass_total])
     from .convergence import save_control
     save_control(solver,arrays,metadata)
     arrays['metadata']=np.asarray(json.dumps(metadata,ensure_ascii=False,allow_nan=False))
@@ -56,11 +72,21 @@ def restore_checkpoint(solver_type, path, progress=None):
     with np.load(path, allow_pickle=False) as saved:
         meta = json.loads(str(saved["metadata"]))
         if (meta.get("format") != "aerokinetic_cpu_checkpoint" or meta.get("schema_version") != 1
-                or meta.get("numerics_revision") != 1):
+                or meta.get("numerics_revision") not in (1, 2)):
             raise ValueError("Unsupported checkpoint format or numerical revision")
         if meta["versions"] != _versions():
             raise ValueError("Checkpoint dependency versions differ; use its original offline environment")
         project = Project.from_dict(meta["project"])
+        is_exterior = project.grid.farfield == EXTERIOR_FARFIELD
+        if is_exterior != (meta["numerics_revision"] == 2):
+            raise ValueError("Checkpoint numerical phase/model revision differs")
+        if is_exterior:
+            from .exterior import STATE_SCHEMA
+            state = meta.get("exterior_state", {})
+            if (state.get("model") != EXTERIOR_FARFIELD or state.get("state_schema") != STATE_SCHEMA
+                    or state.get("pdf_stage") != "pre_collision" or state.get("step_count") != meta["steps"]
+                    or type(state.get("initial_ready")) is not bool):
+                raise ValueError("Checkpoint exterior phase/signature is inconsistent")
         if project.grid.target != "cpu" or project.case_fingerprint != meta["case_fingerprint"]:
             raise ValueError("Checkpoint physical/numerical case is inconsistent")
         if type(meta["steps"]) is not int or meta["steps"] < 0:
@@ -86,6 +112,23 @@ def restore_checkpoint(solver_type, path, progress=None):
         solver._stepper.time_steps_run = solver.steps
         solver.wall_fallback_links = meta["wall_fallback_links"]
         solver._checkpoint_context = meta["context"]
+        if is_exterior:
+            exterior = solver._exterior
+            if state["initial_ready"]:
+                initial = saved["exterior_initial"]
+                if initial.shape != (*solver._storage_shape, 4) or initial.dtype != np.float64 or not np.isfinite(initial).all():
+                    raise ValueError("Invalid exterior incoming-trace checkpoint field")
+                exterior.initial = initial.copy()
+            elif solver.steps != 0:
+                raise ValueError("Missing exterior incoming-trace checkpoint field")
+            for key, shape in (("exterior_source_total", (4,)), ("exterior_wall_mass_state", (2,))):
+                value = saved[key]
+                if value.shape != shape or value.dtype != np.float64 or not np.isfinite(value).all():
+                    raise ValueError("Invalid exterior checkpoint diagnostics")
+            exterior.step_count = solver.steps
+            exterior.source_total[...] = saved["exterior_source_total"]
+            exterior.last_report = state["last_report"]
+            solver._wall_mass_exchange, solver._wall_mass_total = map(float, saved["exterior_wall_mass_state"])
         from .convergence import restore_control
         restore_control(solver,saved,meta)
         solver.diagnostics()

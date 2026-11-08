@@ -1,0 +1,23 @@
+{
+  "format": "aerokinetic_continuation",
+  "schema_version": 1,
+  "parent_directory": "/workspace/aerokinetic_exterior_integration_20261108/cold_offline_final_v2/runtime/parent",
+  "parent_version": "0.5.3",
+  "parent_file_sha256": {
+    "metadata.json": "9a7ead0cdebcd860de933e3ed65455d5296dd40ccbafbf418de48c64bcf3895f",
+    "summary.json": "500b25bfabb4ecfbf6cb90f9512b9dfcb225e28e4867a0ec7e19a53ccb64ad0a",
+    "project.json": "d7e1e754e4595f18067f612477c73fb46449710f59c7c5ef3b1fd30f25190d20",
+    "history.csv": "a1ff17709551782cc99be776a266aee98527a2448ccd9db9a0813266ef53fa7b",
+    "residuals.csv": "72a0c2ddd58af8a0efc07dff5ab29e5f1af9bfc3fc6f3005b6e567f1862782f7",
+    "checkpoint.npz": "fc491e6ca3c83506fda2cbac14204be7c37bda4eb44de2f93e86fef03cb71a24"
+  },
+  "case_fingerprint": "3553e4e90cb07e08959a011bde65c8616e079628ba276bad06ada9dd9daf23f0",
+  "start_step": 32,
+  "start_t_star": 0.08,
+  "requested_additional_t_star": 0.02,
+  "target_step": 40,
+  "history_scope": "new_segment_only",
+  "averaging_scope": "new_segment_only; global tU/c cutoff",
+  "average_after_t_star": 0.08,
+  "parent_files_unchanged": true
+}

@@ -79,6 +79,8 @@ def conservative_samples(solver):
         lbm=solver._stepper
         if solver.grid.target=='gpu':lbm.data_handling.to_cpu(lbm.pdf_array_name)
         pdf=lbm.data_handling.cpu_arrays[lbm.pdf_array_name][1:-1,1:-1,1:-1]
+        if getattr(solver,'_exterior',None) is not None:
+            pdf=pdf[solver._core_slice]
         sources=((pdf,solver._fluid,solver.plan.dx**3),)
         stencil=solver._stencil
     result=[];volumes=[]

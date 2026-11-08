@@ -1,0 +1,10 @@
+{
+  "created_environments": "python -m venv <env>; pip install --no-index --find-links /workspace/aerokinetic_02_release/wheels_linux -r requirements-offline-py312.txt; pip install --no-index --no-deps <research-wheel>",
+  "new_tests": "/workspace/aerokinetic_exterior_integration_20261108/env_final/bin/python -m pytest -q -o pythonpath= tests/test_exterior.py",
+  "regression_log": "........................................................................ [ 49%]\n........................................................................ [ 98%]\n..                                                                       [100%]\n146 passed in 2935.95s (0:48:55)\n",
+  "new_tests_log": "...........                                                              [100%]\n11 passed in 363.60s (0:06:03)\n",
+  "compiler": "gcc (Debian 14.2.0-19) 14.2.0",
+  "network": "Cold runtime: Python audit event guard and zero non-loopback kernel route rows. No Windows/GPU claim.",
+  "regression_reproduction_command": "/workspace/aerokinetic_exterior_integration_20261108/env/bin/python -m pytest -q -o pythonpath= tests --ignore=tests/test_exterior.py",
+  "verification_reproduction": "tools/exterior_library_checks/README_RU.md; use the installed wheel, not src/import overrides"
+}

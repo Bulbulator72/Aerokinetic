@@ -1,0 +1,85 @@
+{
+  "status": "completed",
+  "steps": 9600,
+  "t_star": 12.0,
+  "wall_clock_seconds": 2032.0836627429999,
+  "samples": 1200,
+  "averaging_samples": 600,
+  "average_after_t_star": 6,
+  "mean": {
+    "cl": 0.0681996353336579,
+    "cd": 0.07383274952098978,
+    "cm": 0.02214134577922708
+  },
+  "rms_fluctuation": {
+    "cl": 0.015941535588721165,
+    "cd": 0.0008815676343553086,
+    "cm": 0.0007099274996181937
+  },
+  "wall_fallback_links": 0,
+  "experimental_validation": "not_performed",
+  "termination_reason": "duration_reached",
+  "termination": {
+    "mode": "time",
+    "mass_tolerance": 1e-05,
+    "momentum_x_tolerance": 1e-05,
+    "momentum_y_tolerance": 1e-05,
+    "momentum_z_tolerance": 1e-05,
+    "minimum_t_star": 1.0,
+    "consecutive_checks": 10,
+    "max_steps": 0,
+    "wall_time_limit_s": 3600
+  },
+  "last_residuals": {
+    "step": 9600,
+    "t_star": 12.0,
+    "l2_rho": 0.0002609763595755717,
+    "l2_jx": 0.27463090198709433,
+    "l2_jy": 0.45010389913492077,
+    "l2_jz": 7.279856118485635e-08,
+    "linf_rho": 0.0035473986768640164,
+    "linf_jx": 4.107134215076134,
+    "linf_jy": 4.471322542134266,
+    "linf_jz": 1.3943063753660295e-06,
+    "streak": 0
+  },
+  "steady_residual_criterion_met": false,
+  "statistical_convergence": "not_established",
+  "boundary_diagnostics": {
+    "model": "exterior_regularized_fd_v1",
+    "pdf_stage": "pre_collision",
+    "physical_shape": [
+      176,
+      101,
+      16
+    ],
+    "storage_shape": [
+      178,
+      103,
+      16
+    ],
+    "storage_origin": [
+      -1.780641012564956,
+      -1.6141500833015587
+    ],
+    "wall_mass_exchange_lattice": -0.03985501827886279,
+    "wall_mass_exchange_accumulated": -399.346518984154,
+    "exterior_source_mass_momentum_accumulated": [
+      337.0901649140744,
+      7538.253218878318,
+      -1028.8482621889314,
+      7.362797958465812e-11
+    ],
+    "last_exterior_step": {
+      "step": 9600,
+      "reconstruction_moment_error": 6.661338147750939e-16,
+      "exterior_source_mass_momentum": [
+        0.033319867366389866,
+        0.9311784609263717,
+        -0.4323819095481127,
+        -3.8652281787558695e-14
+      ]
+    },
+    "definition": "Wall incoming-minus-outgoing mass and explicit auxiliary PDF source; a closed bookkeeping budget does not prove zero wall mass flux or accuracy."
+  }
+}

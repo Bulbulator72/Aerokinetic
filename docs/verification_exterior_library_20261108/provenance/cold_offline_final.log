@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/workspace/aerokinetic/tools/exterior_library_checks/run_offline_check.py", line 37, in <module>
+    if __name__=="__main__":main()
+                            ^^^^^^
+  File "/workspace/aerokinetic/tools/exterior_library_checks/run_offline_check.py", line 27, in main
+    raise RuntimeError(f"Offline fixture failed; inspect {root/'runtime.log'}")
+RuntimeError: Offline fixture failed; inspect /workspace/aerokinetic_exterior_integration_20261108/cold_offline_final/runtime.log

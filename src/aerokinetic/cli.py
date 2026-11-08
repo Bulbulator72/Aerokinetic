@@ -3,6 +3,7 @@ import json
 from pathlib import Path
 from . import Atmosphere, Contour, Section, Flow, Grid, Plan, naca0012
 from .project import Project
+from .config import FARFIELDS
 
 
 def load_case(path):
@@ -28,8 +29,8 @@ def main(argv=None):
     for name in ("plan", "run"):
         sub = commands.add_parser(name)
         sub.add_argument("config", type=Path)
-        sub.add_argument("--farfield", choices=("legacy","characteristic_transport_v1"),
-                         help="Explicit boundary override; characteristic_transport_v1 is experimental, CPU uniform only")
+        sub.add_argument("--farfield", choices=FARFIELDS,
+                         help="Explicit boundary override; new exterior FD is research, uniform CPU/noSGS; characteristic_transport_v1 remains rejected for airfoil use")
         if name == "run":
             sub.add_argument("--output", type=Path, required=True)
             sub.add_argument("--animate", action="store_true")
